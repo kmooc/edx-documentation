@@ -1,5 +1,5 @@
 *******
-Read Me
+Read Me(이 설명서에 대하여)
 *******
 
 The edX *Building and Running an edX Course* guide is created
