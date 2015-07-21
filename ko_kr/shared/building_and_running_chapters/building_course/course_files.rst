@@ -9,7 +9,7 @@ syllabus, you must upload the files to the **Files and Uploads** page, then link
 to the uploaded files from a component in your course.
 
 *******************
-Overview
+Overview  개요
 *******************
 
 You can manage your uploaded course files on the **Files and Uploads** page
@@ -27,7 +27,7 @@ under the **Content** menu in Studio.
 .. _Upload a File:
 
 *******************
-Upload a File
+Upload a File   파일올리기
 *******************
  
 You can upload files that you want students to access in the course. After you
