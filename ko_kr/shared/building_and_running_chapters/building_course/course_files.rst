@@ -1,7 +1,7 @@
 .. _Add Files to a Course:
 
 ###########################
-Adding Files to a Course(팡파일 축추갛추가학추가하기)
+Adding Files to a Course  강좌에 파일 추가하기
 ###########################
 
 To use images in your course content, or to use other documents such as a
