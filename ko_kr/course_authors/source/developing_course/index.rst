@@ -1,7 +1,7 @@
 .. _Developing Your Course Index:
 
 ##########################
-Developing Your Course
+강좌 개발하기
 ##########################
 
 Use the chapters in this section to understand how to develop your course
