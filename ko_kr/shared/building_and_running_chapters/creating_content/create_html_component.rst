@@ -2,11 +2,11 @@
 
 
 #############################
-Working with HTML Components
+HTML 구성요소를 사용한 작업
 #############################
 
 ***********************
-HTML Component Overview
+HTML 구성 요소 개요
 ***********************
 
 HTML, or HyperText Markup Language, is the standard markup language used to
