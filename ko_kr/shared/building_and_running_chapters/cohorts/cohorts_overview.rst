@@ -13,25 +13,24 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 강좌에서 학습 집단 기능을 사용하기 위해, 학습자의 커뮤니티을 의미하는 학습 집단을 정의하고, 학습 집단 배치 방법을 선택한다. :ref:`assigning students to cohorts<Options for Assigning Students to Cohorts>`.
 
 .. note::    
-   * Every student must be assigned to a cohort. This ensures that
-     every student has the ability to read and contribute to course discussion
-     topics.
+   * 모든 학습자는 반드시 하나의 학습 집단에 소속되어야 한다. 
+     모든 학습자는 토의 주제를 읽고  기여할 수 있도록  한다. 
 
-   * Each student can be in one and only one cohort. 
+   * 각 학습자들은 하나의 학습 집단에만 속할 수 있다.
 
-   To provide students with a consistent experience throughout the course run,
-   do not change a student's cohort assignment after the course begins.
+   강좌에 참여하는 학습자가 학습 집단에서 일관된 경험을 가질 수 있도록,
+   강좌 시작 이후에는 학습자가 속한 학습 집단을 변경하지 않는다.
 
-For more information about using cohorts in courses, see:
+강좌에서 학습 집단에 관한 참고할 수 있는 자료는 다음과 같다:
 
-* :ref:`Enabling and Configuring Cohorts`
+* :ref:`Enabling and Configuring Cohorts` 학습 집단 기능 활성화 및 설정하기
 
 * :ref:`Setting Up Discussions in Courses with Cohorts<Set up Discussions in
-  Cohorted Courses>`
+  Cohorted Courses>` 학습 집단별 게시판 설정하기
 
-* :ref:`Moderating Discussions for Cohorts`
+* :ref:`Moderating Discussions for Cohorts`학습 집단 게시판 관리하기
 
-For information about discussions in general, see :ref:`Discussions`.
+게시판에 관한 일반 정보는 강좌 게시판 관리하기를 참고할 수 있다. :ref:`Discussions`.
 
 
 .. _Options for Assigning Students to Cohorts:
