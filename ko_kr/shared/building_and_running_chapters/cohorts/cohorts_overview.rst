@@ -2,21 +2,15 @@
 
 
 #############################
-Using Cohorts in your Courses
+학습 집단 기능 사용하기
 #############################
 
-By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` in a course, you
-create smaller communities of students. You can design different course
-experiences for students in different cohorts. In discussion topics that are
-divided by cohort, students can also communicate and share experiences privately
-within the cohort that they are assigned to. Cohort-only discussion
-opportunities can help students develop a sense of community, provide
-specialized experiences, and encourage deeper, more meaningful course
-involvement.
+By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학습 집단을 
+설정을 이용하여 학습자 소규모 커뮤니티를 만들 수 있다. 학습자 집단별로 다른 강좌 경험을 설계할 수 있다.
+학습 집단별로 나뉘어진 토의 주제에서, 학습자는 소속된 학습 집단 안에서 의사소통을 하고 경험을 공유할 수 있다. 
+학습 집단 내 토의는 학습자가 공동체 의식을 갖도록 하는 데 도움이 되고, 특별한 경험을 제공하며, 보다 깊이 있고 유의미한 강좌에 참여할 수 있도록 한다.
 
-If you use cohorts in your course, you define a set of cohorts to reflect
-communities of students, then select a strategy for :ref:`assigning students to
-cohorts<Options for Assigning Students to Cohorts>`.
+강좌에서 학습 집단 기능을 사용하기 위해, 학습자의 커뮤니티을 의미하는 학습 집단을 정의하고, 학습 집단 배치 방법을 선택한다. :ref:`assigning students to cohorts<Options for Assigning Students to Cohorts>`.
 
 .. note::    
    * Every student must be assigned to a cohort. This ensures that
