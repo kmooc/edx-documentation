@@ -28,7 +28,7 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 * :ref:`Setting Up Discussions in Courses with Cohorts<Set up Discussions in
   Cohorted Courses>` 학습 집단별 게시판 설정하기
 
-* :ref:`Moderating Discussions for Cohorts`학습 집단 게시판 관리하기
+* :ref:`Moderating Discussions for Cohorts` 학습 집단 게시판 관리하기
 
 게시판에 관한 일반 정보는 강좌 게시판 관리하기를 참고할 수 있다. :ref:`Discussions`.
 
