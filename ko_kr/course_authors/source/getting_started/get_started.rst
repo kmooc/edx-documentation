@@ -8,7 +8,7 @@ Studio
 개관
 ***************
 
-이 장에서는 K-MOOC 강좌를 개발 도구와 첫번째 강좌를 만드는 방법을 다룬다.
+이 장에서는 Studio에서 강좌를 만드는 것에 대해 다룬다.
 
 * :ref:`What is Studio?`
 * :ref:`Use Studio on Edge`
@@ -24,13 +24,13 @@ Studio
 Studio란?
 ***************
 
-K-MOOC 교수자 및 강좌 운영팀은 Studio에서 강좌를 구축하게 된다. 
+K-MOOC 교수자 및 강좌 운영팀은 Studio에서 강좌를 만들 수 있다. 
 
-Studio를 이용하여 학습자를 위한 강좌 콘텐츠, 문제, 동영상 및 기타 자료를 업로드할 수 있다.
+Studio를 이용하여 강좌 콘텐츠, 문제, 동영상 및 기타 자료를 업로드하는 것이다.
 
-또한 Studio를 이용하여 운영팀의 일정을 관리할 수 있고, 성적 규정을 설정하거나 강좌를 게시하는 등도 가능하다.
+또한 Studio에는 운영팀의 일정 관리, 성적 규정 설정 등 다양한 기능이 있다.
 
-Chrome 브라우저 사용을 권장하며, 그외 다른 소프트웨어는 전혀 필요하지 않다.
+원활한 작업을 위해 Chrome 브라우저 사용을 권장하며, 그외 다른 소프트웨어는 전혀 필요하지 않다.
 
 
 .. _Use Studio on Edge:
@@ -39,7 +39,7 @@ Chrome 브라우저 사용을 권장하며, 그외 다른 소프트웨어는 전
 Edge에서 Studio 이용하기
 ******************
 
-K-MOOC 교수자 및 강좌 운영팀는 강좌를 개발하기 위해 Edge의 Studio를 이용할 수 있다.
+K-MOOC 교수자 및 강좌 운영팀은 강좌를 개발하기 위해 Edge의 Studio를 이용할 수 있다.
 
 우선 https://studio.edge.edx.org로 이동한다. Edge에서 만들었던 계정으로 로그인한다. 
 
@@ -49,7 +49,7 @@ K-MOOC 교수자 및 강좌 운영팀는 강좌를 개발하기 위해 Edge의 S
 
 #. Click **Request the Ability to Create Courses**.
 
-그러면 플랫폼에서 요청을 평가하고, 강좌 개설 권한을 부여하면 이메일을 발신하게 된다. 
+그러면 플랫폼에서 요청사항을 검토한 후, 강좌 개설 권한 부여 이메일을 발신하게 된다. 
 
 .. _Studio: https://studio.edge.edx.org
 .. _Edge: http://edge.edx.org
@@ -75,13 +75,13 @@ K-MOOC 교수자 및 강좌 운영팀는 강좌를 개발하기 위해 Edge의 S
    :width: 600
    :alt: Image of the Create New Course page
 
-  .. 참고: 신규 강좌에 대한 정보는 신중하게 입력해야 한다. 이때 입력한 정보는 강좌 URL의 일부가 되는데, 강좌를 만든 후 URL을 변경하려면 도움말 사이트(http://help.edge.edx.org)를 통해 K-MOOC에 문의해야 하기 때문이다. 또한, 다음 세 개의 입력 영역에 있는 문자는 65자 이하여야 한다.
+  .. 참고: 신규 강좌에 대한 정보는 신중하게 입력해야 한다. 이때 입력한 정보가 강좌 URL이 되는데, 강좌를 만든 후 URL을 변경하려면 도움말 사이트(http://help.edge.edx.org)를 통해 K-MOOC에 문의해야 하기 때문이다. 또한, 다음 세 개의 영역에 65자 이하로 입력해야 한다.
 
-  * For **Course Name**, enter the title of your course. For example, the name may be “Sets, Maps and Symmetry Groups". Use title capitalization for the course title.
+  * **강좌명:** 강좌명이 만약 영어일 경우, “Sets, Maps and Symmetry Groups"와 같이 각 단어의 첫 알파벳을 대문자화(Capitalization)해야 한다.
 
-  * For **Organization**, enter the name of your university. Do not include whitespace or special characters.
+  * **기관:** 강좌 제공 기관을 입력하되, 공백이나 특수문자를 포함하면 안 된다.
 
-  * For **Course Number**, enter both a subject abbreviation and a number. For example, for public health course number 207, enter **PH207**. For math course 101x, enter **Math101x**. Do not include whitespace or special characters in the course number.
+  * **기관별 강좌 번호:** 기관별로 정한 규칙에 따라 강좌에 번호를 부여하면 되는데, 처음에 개설 연도를 입력한 후 원하는 형식으로 소속 기관의 다른 강좌들과 구별할 번호를 입력한다. 예를 들어 2015_T1와 같은 형식이면 되며, 공백이나 특수문자를 포함하면 안 된다. 
 
    
 
