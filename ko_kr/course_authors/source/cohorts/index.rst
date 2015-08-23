@@ -1,7 +1,7 @@
 .. _Including Student Cohorts:
 
 #############################
-Including Student Cohorts
+학습 집단 
 #############################
 
 .. toctree::
