@@ -11,9 +11,7 @@ Studio
 이 장에서는 Studio에서 강좌를 만드는 것에 대해 다룬다.
 
 * :ref:`What is Studio?`
-* :ref:`Use Studio on Edge`
 * :ref:`Create Your First Course`
-* :ref:`View Your Course on Edge`
 * :ref:`Register Your Course on edX.org`
 
 
@@ -76,7 +74,7 @@ Studio를 이용하여 강좌 콘텐츠, 문제, 동영상 및 기타 자료를 
 .. _View Your Course on Edge:
     
 ************************
-Edge에서 강좌 보기
+KMOOC.org에서 강좌 보기
 ************************
 
 Studio의 강좌 개요에서, **적용 결과 보기**를 클릭한다. 강좌는 추후 학습자가 이용할 화면에서 강좌 개요를 볼 수 있다.
@@ -89,20 +87,5 @@ Studio의 강좌 개요에서, **적용 결과 보기**를 클릭한다. 강좌�
 
 
 .. _Register Your Course on edx.org:
-
-************************************
-edX.org에서 강좌 보기
-************************************
-
-학습자의 입장에서 강좌 콘텐츠의 적용 결과를 보려면, 강좌운영팀도 강좌에 등록해야 한다. 그후 학습자가 이용하는 시스템인 학습 관리 시스템(LMS)에서 강좌를 볼 수 있다.
-
-#. In Studio, create your course and add content.
-
-#. On the **Course Outline** page, click the blue **View
-   Live** button in the upper-right corner of your screen.
-
-   Your course enrollment page opens in a new tab on the LMS.
-
-#. Click the blue **Enroll** button to enroll in your course. After you enroll in your course, it opens in the LMS.
 
 #. 브라우저에서 Studio 탭으로 다시 전환한다. **강좌개요** 페이지가 그대로 있을 것이다.
