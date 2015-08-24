@@ -1,22 +1,19 @@
 .. _Guidelines for Creating Accessible Content:
 
 ###################################################
-Guidelines for Creating Accessible Content
+접근성 높은 콘텐츠 제작을 위한 안내
 ###################################################
 
  
-EdX strives to create an innovative, online-learning platform that promotes accessibility for everyone, including learners with disabilities. 
-We intend for these guidelines to help the course teams understand the importance of considering accessibility when designing courses and provide guidance so that they can serve the widest possible audience. 
-*Accessibility* in online instruction refers to the degree to which information and activities are available to all students equally, regardless of physical or other disabilities.
+K-MOOC는 장애가 있는 학습자를 포함한 모든 학습자의 접근성을 촉진하는 혁신적인 온라인 학습 플랫폼을 만들고자 한다. 본 안내는 강좌 운영팀이 강좌를 만들 때 접근성(Accessibility)을 고려하는 것의 중요성을 이해하고, 가능한 많은 학습자들이 이용할 수 있도록 하기 위함이다. 온라인 강좌에서 접근성은 물리적 또는 다른 장애에 상관없이 모든 학습자가 동등하게 정보 및 활동을 이용할 수 있는 정도를 말한다.
 
-Our guidance is based on international standards and principles for web accessibility (W3C WCAG 2.0) and universal design (usable by all, to the greatest extent possible, without the need for adaptation or specialized design). 
-Instructors who build courses based on these principles promote the opportunity to create an inclusive experience that considers the diverse set of learning styles and needs of all learners—including learners with disabilities, learners who speak English as a second language, learners with technical issues such as low bandwidth internet or no access to audio, and learners with age-related capability issues. For purposes of these guidelines, we have assumed that end users will be equipped with the appropriate adaptive technology and compatible software.
+본 안내서는 국제 표준과 웹 접근성(W3C WCAG 2.0) 및 보편적인 설계 원칙을 기반으로 한다. (즉, 가능한 가장 많은 학습자가 편리하게 이용할 수 있도록 돕고자 한다.)
 
-Occasionally, unanticipated accessibility barriers will arise. 
-To supplement the accessibility you can achieve within the edX platform, we recommend that you engage the resources available at your institution to support learners with disabilities. 
-Most institutions offer disability support services and information technology resources that provide accessibility advice and support. These professionals are trained in making disability accommodation decisions and can advise you on what accommodations may be appropriate in light of the goals of the course and the inherent instructional methodologies employed.
+이러한 원칙에 따라 강좌를 만드는 교수자 및 운영팀은 다양한 학습 스타일과 모든 학습자의 요구(Needs) 등을 고려하는 포괄적인 경험을 만들어줄 것을 권장한다. 모든 학습자는 장애를 가진 학습자, 인터넷 속도가 느리거나 오디오 접근이 안 되는 등의 기술적인 문제를 가진 학습자 및 수행 능력의 문제를 가진 학습자를 포함한다. 이러한 안내의 목적에 대하여, K-MOOC는 최종 이용자가 적절한 적응 기술 및 호환되는 소프트웨어를 갖추게 될 것으로 간주한다.
 
-As technology and accessibility improvements are constantly emerging, we plan to update these guidelines periodically. 
+가끔, 예기치 못한 접근성 장벽이 발생하기도 한다. K-MOOC 플랫폼 접근성을 보완하려면, 소속 기관의 장애인 지원 자료를 참조하는 것이 좋다. 대부분의 기관이 장애인 지원 서비스 및 접근성 조언 및 지원을 제공하는 정보 기술 자료를 제공한다. 장애 관련 전문가들은 장애 학습자 지원을 내리는 것에 훈련되어 있으며, 어떤 것이 강좌의 목표 및 교수법에 비추어 적절한지 조언해줄 수 있다.
+
+기술 및 접근성 개선사항이 지속적으로 나타남에 따라, 본 지침서는 정기적으로 업데이트 될 계획이다. 더 자세한 내용은 다음 주제를 참고하길 바란다.
 
 See the following sections for more information:
 
@@ -28,20 +25,16 @@ See the following sections for more information:
 .. _Supporting Learners with Diverse Needs:
 
 ************************************************************
-Supporting Learners with Diverse Needs
+다양한 학습자 지원하기
 ************************************************************
 
-Almost one-fifth of the world's population has some kind of disability. 
-Online courses can reduce many barriers to education for these learners by providing access to courses from any location, at any time, and through the use of assistive technologies.
+세계 인구의 거의 1/5이 장애를 가지고 있다. 온라인 강좌는 언제, 어디서든지 강좌에 접근할 수 있도록 함으로써 장애를 가진 학습자 교육에 존재하였던 많은 장벽을 줄일 수 있다. 
 
-EdX is dedicated to creating a platform that is not only itself accessible, but also enables course creators to create accessible content. 
-If you encounter platform issues that you believe may affect your ability to provide accessible course content, please contact us at accessibility@edx.org. 
-We also welcome your comments and questions.
+K-MOOC는 자체적으로 접근할 수 있을 뿐만 아니라, 강좌 개설자가 스스로 접근 가능한 콘텐츠를 만들 수 있는 플랫폼을 만드는데 최선을 다하고 있다. 만약 이러한 콘텐츠 제작에 문제가 발생할 경우, accessibility@edx.org에 문의할 수 있다. 
 
-In the following sections, we outline guidelines for creating and delivering course content that allows students to use built-in accessibility functionality (such as magnification and zoom features), assistive technologies, and alternative formats. 
-These practices consider learners such as the following:
+아래의 영역에서,학습자가 기본적으로 제공되는 접근성 기능(예: 확대 및 축소기능), 보조기술 및 대체 형식을 이용하도록 강좌 콘텐츠를 만드는 방법에 대해 간단히 소개한다. 이러한 연습은 다음과 같은 학습자를 대상으로 한다.
 
-* Blind learners who use a screen reader, which reads page text aloud, or a Braille display device, which renders page text in Braille.
+* 페이지의 텍스트(내용, text)를 큰 소리로 읽는 화면 판독기나 점자 페이지 텍스트를 만드는 점자 디스플레이 장치를 사용하는 시각 장애인
 
 * Low-vision learners who use screen magnification software to enlarge text and other onscreen content.
 
