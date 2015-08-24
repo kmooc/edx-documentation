@@ -1,11 +1,10 @@
 .. _Test Content Experiments:
 
 ##########################################
-Test Content Experiments
+콘텐츠 실험 테스트하기
 ##########################################
 
-You should test content experiments in your course before the course starts, to
-ensure that content is delivered to experiment groups as you intended.
+강좌를 시작하기 전에 의도한 대로 콘텐츠가 집단에게 제시되는지 확인 하기 위해서 콘텐츠 실험을 테스트해야 한다.
 
 When you view a unit that contains a content experiment in the LMS Staff view,
 you can select one of the experiment groups from a drop-down list. The unit page
