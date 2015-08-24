@@ -33,7 +33,7 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 게시판에 관한 일반 정보는 강좌 게시판 관리하기를 참고할 수 있다. :ref:`Discussions`
 
 
-.. _Options for Assigning Students to Cohorts:
+.. _학습 집단에 학습자 배치하기:
 
 *****************************************
 학습 집단에 학습자 배치하기
