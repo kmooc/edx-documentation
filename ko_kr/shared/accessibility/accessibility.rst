@@ -28,7 +28,7 @@ See the following sections for more information:
 다양한 학습자 지원하기
 ************************************************************
 
-세계 인구의 거의 1/5이 장애를 가지고 있다. 온라인 강좌는 언제, 어디서든지 강좌에 접근할 수 있도록 함으로써 장애를 가진 학습자 교육에 존재하였던 많은 장벽을 줄일 수 있다. 
+세계 인구의 약 1/5이 장애를 가지고 있다. 온라인 강좌는 언제, 어디서든지 강좌에 접근할 수 있도록 함으로써 장애를 가진 학습자 교육에 존재하였던 많은 장벽을 줄일 수 있다. 
 
 K-MOOC는 자체적으로 접근할 수 있을 뿐만 아니라, 강좌 개설자가 스스로 접근 가능한 콘텐츠를 만들 수 있는 플랫폼을 만드는데 최선을 다하고 있다. 만약 이러한 콘텐츠 제작에 문제가 발생할 경우, accessibility@edx.org에 문의할 수 있다. 
 
@@ -36,30 +36,24 @@ K-MOOC는 자체적으로 접근할 수 있을 뿐만 아니라, 강좌 개설�
 
 * 페이지의 텍스트(내용, text)를 큰 소리로 읽는 화면 판독기나 점자 페이지 텍스트를 만드는 점자 디스플레이 장치를 사용하는 시각 장애인
 
-* Low-vision learners who use screen magnification software to enlarge text and other onscreen content.
+* 텍스트와 기타 화면 콘텐츠를 확대하기 위해 화면 확대 소프트웨어를 사용하는 시력이 약한 학습자
 
-* Learners with vision impairments, such as difficulty seeing in low-light conditions, who modify their browser or operating system to change background colors and text settings to make text easier to read.
+* 낮은 조명 조건에서 보는 것이 어려워, 배경 색상 및 텍스트 설정을 보다 쉽게 읽을 수 있도록 브라우저 및 운영체제를 수정해야 하는 시력 손상을 가진 학습자
 
-* Learners with learning disabilities, such as dyslexia, who use text-to-speech technology that reads page content aloud.
+* 난독증이 있어 페이지 콘텐츠를 큰소리로 읽어주는 텍스트 음성 변환 기술을 사용하는 학습 장애를 가진 학습자
 
-* Physically disabled learners who use switching devices, voice recognition software, or eye-gaze activated technology instead of a standard mouse or keyboard to control their computer.
+* 컴퓨터를 제어하기 위해 표준 마우스 또는 키보드 대신 전환 장치, 음성 인식 소프트웨어, 또는 눈 응시에 따라 활성화되는 기술을 사용하는 신체 장애 학습자
 
-* Learners who modify their operating system settings to make the mouse or keyboard easier to use.
+* 마우스 또는 키보드를 보다 사용하기 쉽도록 만들기 위해 운영체제 설정을 수정하는 학습자
 
-* Learners with hearing impairments who cannot access audio content and need the equivalent information in an alternative format, such as captions or a transcript.
+* 오디오 콘텐츠에 접근할 수 없으며 캡션 또는 녹취록 등의 다른 형태의 동일한 정보가 필요한 청각 장애가 있는 학습자
 
-We highly recommend that you implement the best practices shared with you in this document and other widely available resources (some of which are referred to herein). 
-As mentioned above, if you cannot easily address these barriers, we recommend that you consult with any disability-related resources at your institution 
-(Disability Services, Assistive Technology, or Accessibility). 
-While your ability to support students in the MOOC context may be different from supporting on-campus students, 
-we encourage you to develop a plan to respond to students who inform you of accessibility barriers to learning. 
-However, given the large numbers of learners enrolling in many of the courses, you will quickly see how important it is to address accessibility concerns when creating a course.
-
+K-MOOC는 강좌 운영팀이 본 안내서에서 제안하는 접근성 향상 방법을 시행해보기를 권장한다.
 
 .. _Accessibility Best Practices:
 
 ************************************************************
-Accessibility Best Practices
+다양한 학습자를 위한 접근성 향상 방법
 ************************************************************
 
 * :ref:`Best Practices for Universal Design for Learning`
@@ -74,11 +68,10 @@ Accessibility Best Practices
 .. _Best Practices for Universal Design for Learning:
 
 ====================================================
-Best Practices for Universal Design for Learning
+Universal Design
 ====================================================
 
-Universal Design for Learning focuses on delivering courses in a format so that as many of your learners as possible can 
-successfully interact with the learning resources and activities you provide them, without compromising on pedagogic rigor and quality.
+Universal Design은 가능한 많은 학습자가 제약 없이 -------------------- 여기 다시 
 
 The principles of Universal Design for Learning can be summarized as:
 
