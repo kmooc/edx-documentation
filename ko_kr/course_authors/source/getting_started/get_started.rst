@@ -46,7 +46,7 @@ Studio를 이용하여 강좌 콘텐츠, 문제, 동영상 및 기타 자료를 
  :width: 600
  :alt: Image of the Studio home page where you create your first course
 
-#. **첫 강좌를 만듭니다.**를 클릭한다.
+#. **첫 강좌를 만듭니다.** 를 클릭한다.
 #. Enter course information as needed and click **Create**.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/new_course_info.png
@@ -64,7 +64,7 @@ Studio를 이용하여 강좌 콘텐츠, 문제, 동영상 및 기타 자료를 
   * **기관별 강좌 번호:** 강좌 제공 기관별로 자유롭게 번호를 지정할 수 있다.
    
 
-3. **저장**을 클릭한다.
+3. **저장** 을 클릭한다.
 
 강좌를 만들면 강좌 개요 페이지를 연다. 아직 어떤 콘텐츠도 만들지 않았으므로, 이 페이지는 비어 있다. 
 
