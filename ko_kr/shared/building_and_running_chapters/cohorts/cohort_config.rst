@@ -9,30 +9,25 @@
 
 학습 집단 활용 방법을 선택한 후, (해당하는 경우) 다음의 구성 단계에 따라 학습 집단 기능을 활성화 할 수 있다.:
 
-#. :ref:`Enable cohorts<학습 집단 활성화하기>`.
+#. :ref:`학습 집단 활성화하기<Enable cohorts>`.
 
-#. Determine the method you want to use to assign students to cohorts:
+#. 학습자를 학습 집단에 배치하는 방법 결정하기:
    
-  * :ref:`Define automatic cohorts<Define Auto Cohorts>`
+  * :ref:`자동 배치된 학습 집단 정의<Define Auto Cohorts>`
 
-  * :ref:`Define manual cohorts<Define Manual Cohorts>` and
-    :ref:`manually assign students<Assign Students to Cohorts Manually>`
-    to them
-
-  * :ref:`Use a combination of automated and manual assignment<Hybrid
+  * :ref:`직접 배치된 학습 집단 정의<Define Manual Cohorts>` 와
+    :ref:`학습자를 직접 배치하기<Assign Students to Cohorts Manually>` 
+    
+  * :ref:`자동 배치와 직접 배치를 혼합적으로 사용하기<Hybrid
     Assignment>`.
 
-3. Optionally, identify the discussion topics that you want to be divided by
-   cohort.
+3. 선택적으로, 학습 집단에 따라 나누길 원하는 토의 주제를 확인한다.
    
-  * If you want :ref:`course-wide discussion topics to be divided by
-    cohort<Identifying Private CourseWide Discussion Topics>`, you need to complete
-    some configuration tasks.
+  * :ref:`강좌 전반에 걸친 토의 주제를 학습 집단별로 나누기 <Identifying Private CourseWide Discussion Topics>`를 원한다면
+    일부 설정작업을 완료해야 한다.
 
-  * In contrast, if you want content-specific discussion topics to be divided
-    by cohort, you do not need to take any action. Instead, you need to complete
-    some configuration tasks only if you want :ref:`content-specific discussion
-    topics to be unified<Make ContentSpecific Discussion Topics Unified>`.
+  * 반면, 학습 내용별 토의 주제를 학습 집단별로 나누기를 원한다면,
+    더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`학습 내용별 토의 주제를 통일하기를 원한다면<Make ContentSpecific Discussion Topics Unified>`, 약간의 구성 단계를 완료해야 한다.
 
 You complete these procedures in Studio and on the Instructor Dashboard. For an
 optimal student experience, you should make sure that configuration of the
