@@ -3,31 +3,23 @@
 .. _Browsers:
 
 ####################
-edX Browser Support
+K-MOOC 브라우저 지원
 ####################
 
-The edX Platform runs on the following browsers:
+K-MOOC 플랫폼은 다음 브라우저에서 운영된다.
 
 * `Internet Explorer <https://microsoft.com/ie>`_
 * `Chrome <https://www.google.com/chrome>`_
 * `Safari <https://www.apple.com/safari>`_
 * `Firefox <https://mozilla.org/firefox>`_
 
-The edX Platform is routinely tested and verified on the current
-and previous version of each of these browsers. We generally encourage the
-use of and fully support only the latest version.
-
-This information is updated as new major operating system and browser versions
-are released. All point releases are supported unless noted; occasional
-exceptions are based on specific bug fixes or feature updates.
+K-MOOC 플랫폼은 정기적으로 각 브라우저에서의 실행을 점검한다.
 
 ***********************************
-edX Learning Management System
+K-MOOC 학습 관리 시스템
 ***********************************
 
-The following table shows operating system and browser support for the edX
-Learning Management System, which students and course staff use to interact
-with course content.
+다음 표에서는 학습자와 강좌 운영팀이 상호작용하는 학습 관리 시스템의 운영 체제 및 브라우저 지원에 대해 보여준다.
 
 .. list-table::
    :widths: 20 10 10 10 10 10
@@ -53,10 +45,10 @@ with course content.
      - N/A
 
 ***********************************
-edX Studio
+K-MOOC Studio
 ***********************************
 
-The following table shows operating system and browser support for edX Studio, which staff use to build a course.
+다음 표에는 운영팀이 강좌를 개설하는데 사용하는 Studio에 대한 운영체제 및 브라우저 지원에 대해 보여준다.
 
 .. list-table::
    :widths: 20 10 10 10 10 10
@@ -85,9 +77,7 @@ The following table shows operating system and browser support for edX Studio, w
 edX Insights
 ***********************************
 
-The following table shows operating system and browser support for edX
-Insights, which staff use to review and download data about their courses and
-students.
+다음 표는 강좌 운영팀이 강좌와 학습자에 관한 자료를 다운로드하거나 검토하는데 이용하는 edX Insights에 대한 운영체제 및브 라우저 지원에 대해 보여준다.
 
 .. list-table::
    :widths: 20 10 10 10 10 10
