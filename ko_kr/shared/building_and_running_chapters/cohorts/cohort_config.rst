@@ -57,23 +57,19 @@
 
 다음으로 :ref:`학습자 자동 배치<Implementing the Automated Assignment Strategy>`, :ref:`학습자 직접 배치<Implementing the Manual Assignment Strategy>` 를 할 수 있으며, 두 방법 모두를 설정할 수 있다. 
 
-For a report that includes the cohort assignment for every enrolled
-student, review the student profile information for your course. See
-:ref:`View and download student data`.
-
+강좌의 학습자 프로필 정보에서 강좌에 등록된 모든 학습자의 학습 집단 배치 결과를 포함하는 보고서를 볼 수 있다. 자세한 내용은 :ref:`학습자 데이터 다운로드 및 확인하기` 에서 확인할 수 있다
+ 
 
 .. _Implementing the Automated Assignment Strategy:
 
 ***************************************************
-Implementing the Automated Assignment Strategy
+학습자 자동 배치
 ***************************************************
 
-To implement automated assignment of students to cohorts, you define auto
-cohorts in the **Cohort Configuration** advanced setting field.
+학습자를 학습 집단에 자동 배치하기 위해서, 고급 설정의 **학습 집단 설정** 에서 자동 학습 집단을 정의해야 한다
 
-You complete this procedure if you are using either the automated or hybrid
-assignment strategy for your course. For more information, see :ref:`All
-Automated Assignment` or :ref:`Hybrid Assignment`.
+강좌에서 학습자 자동 배치나 혼합 배치를 사용하고자 한다면, 이 절차를 완료해야 한다.
+관련 정보는 :ref:`학습자 자동 배치: 관리가 용이한 MOOC 토의 게시판 만들기` 또는 :ref:`혼합적 배치: 강좌안에서의 소집단 활용하기` 에서 확인할 수 있다. 
 
 .. _Define Auto Cohorts:
 
@@ -81,29 +77,25 @@ Automated Assignment` or :ref:`Hybrid Assignment`.
 Define Auto Cohorts
 =======================
 
-Before you define your auto cohorts, note that students can see the name of the
-cohort that they are assigned to. The message "This post is visible only to
-{cohort name}" appears with each post in discussion topics that are divided by
-cohort. See :ref:`Read the Cohort Indicator in Posts`.
+자동 학습 집단을 정의하기 전에, 학습자는 자신이 속해 있는 학습 집단의 이름을 볼 수 있다.
+학습 집단에 따라 나뉘어진 토의 주제 게시판에 게시된 각각의 게시물에는 “이 게시물은 {cohort name}만 볼 수 있습니다.” 라는 메세지가 나타난다. 관련해서 :ref:`게시물에서의 학습 집단 표지(indicator) 읽기` 에서 확인할 수 있다.
 
-.. note:: You cannot delete cohorts or change their names. If you need
-   to make changes to the way you have configured cohorts feature while your
-   course is running, please see :ref:`Altering Cohort Configuration`.
+.. note:: 학습 집단을 제거하거나  집단명을 바꿀 수 없다.
+  강좌 운영 중에 설정한 학습 집단 기능을 변경하고자 한다면, 
+  진행 중인 강좌에서 :ref:`학습 집단 변경하기` 를 참조할 수 있다. .
 
-#. Open the course in Studio. 
+#. 스튜디오에서 강좌를 연다. 
 
-#. Select **Settings**, then **Advanced Settings**.
+#. **설정** 을 선택한 후, **고급 설정** 을 클릭한다.
 
-#. In the **Cohort Configuration** field, place your cursor after the opening
-   brace character (``{``) and press Enter.
+#. **학습 집단 설정** 칸에서, 중괄호(``{``)문자 뒤에 커서를 위치한 후, 엔터키를 누른다. 
 
-#. On the new line, you define the ``"auto_cohort_groups":`` policy key,
-   followed by one or more cohort names enclosed by square brackets (``[ ]``).
-   You can define a set of auto cohorts or just one.
-
-   To define a set of cohorts, you type each cohort name on a new line, enclose
-   it within quotation marks (``" "``), and separate the quoted name values
-   with commas. For example:
+#. 새로운 행에서 ``"auto_cohort_groups":`` policy key 를 정의하고, 대괄호 (``[ ]``) 안에 학습 집단명을 입력하면 된다. 
+    이 방법으로 자동 학습 집단을 정의하거나 학습 집단을 한 개만 정의할 수 있다. 
+   
+   여러개의 학습 집단을 정의하기 위해서, 각 학습 집단명을 새로운 행에서 큰 따옴표 (``" "``)안에 입력하고, 
+   큰 따옴표 안에 입력된 학습 집단은 쉼표로 구분한다.
+   다음은 자동 학습 집단을 정의한 예이다.:
    
    .. code-block:: xml 
 
