@@ -15,8 +15,6 @@ K-MOOC는 장애가 있는 학습자를 포함한 모든 학습자의 접근성�
 
 더 자세한 내용은 다음 주제를 참고하길 바란다.
 
-See the following sections for more information:
-
 * :ref:`Supporting Learners with Diverse Needs`
 * :ref:`Accessibility Best Practices`
 * :ref:`Conclusion`
@@ -53,7 +51,7 @@ K-MOOC는 강좌 운영팀이 본 안내서에서 제안하는 접근성 향상 
 .. _Accessibility Best Practices:
 
 ************************************************************
-다양한 학습자를 위한 접근성 향상 방법
+다양한 학습자를 위해 접근성 높이기
 ************************************************************
 
 * :ref:`Best Practices for Universal Design for Learning`
@@ -71,130 +69,105 @@ K-MOOC는 강좌 운영팀이 본 안내서에서 제안하는 접근성 향상 
 Universal Design
 ====================================================
 
-Universal Design은 가능한 많은 학습자가 제약 없이 -------------------- 여기 다시 
+Universal Design은 가능한 많은 학습자가 제약 없이 학습 자료 및 활동들과 상호작용할 수 있도록 하나의 형식으로 강좌를 제공하려고 초점을 맞춘다. 
 
-The principles of Universal Design for Learning can be summarized as:
+Universal Design의 원칙은 다음과 같이 요약될 수 있다.
 
-#. Present information and content in different ways.
-#. Differentiate the ways that students can express what they know.
-#. Stimulate interest and motivation for learning.
+#. 다른 방법으로 정보 및 콘텐츠 제시하기
+#. 학습자가 그들이 무엇을 아는지를 표현할 수 있는 방법을 차별화하기
+#. 학습을 위한 관심과 동기 자극하기
 
-Instructors can apply these principles in course design by:
+교수자는 강의 설계에 이러한 원칙을 다음과 같이 적용할 수 있다. 
 
-* Designing resources and activities that can be accessed by learners in different ways 
-  (for example, providing text that allows a student to enlarge it or change color, a diagram with an equivalent text description, or a video with audio and text captions).
+* 다른 방법(예를 들어,학습자가 확대하거나 색상을 변경하도록 하는 텍스트, 텍스트를 설명하는 다이어그램, 또는 오디오와 텍스트 자막이 있는 비디오를 제공하는 등)으로 학습자가 접근할 수 있는 자료 및 활동을 설계하기.
 
-* Providing multiple ways for learners to engage with information and demonstrate their knowledge. 
-  This is particularly important when developing exercises and assessments.
+* 학습자가 정보에 참여하며 그들의 지식을 표출할 수 있는 여러가지 방법을 제공하기. 이것은 연습과 평가를 개발할 때 특히 중요하다.
   
-* Identifying activities that require specific sensory or physical capability, such as activities that require color identification, 
-  for which accommodating the specific accessibility needs of students will be difficult or impossible. 
-  In these cases, consider whether there is a pedagogical justification for these requirements. 
-  If there is a justification, consider communicating these requirements to prospective students in the course description and establish a 
-  plan for responding to students who encounter barriers that can be addressed without fundamental alteration. 
-  If there is no justification for the requirements, we recommend that you modify the learning activities to be more flexible and broadly accessible.
-  
-**Resources**
+* 색상을 식별해야 하는 활동처럼 특정한 감각 또는 물리적 기능을 필요로하는 활동에 대해 식별하기. 이에 대해, 학습자의 특정한 접근성 필요를 수용하는 것이 어렵거나 불가능할 수 있다.
 
-* Delivering Accessible Digital Learning (JISC Techdis) provides a useful overview of an inclusive approach to course design: 
+  이러한 경우에 그러한 요구사항이 교육학적인 타당성이 있는지 고려하는 것이 좋다.
+  타당한 이유가 있는 경우, 강좌 설명서에 장래 학습자들과 이러한 요구사항에 대해 의사소통하는 것을 고려하고, 근본적인 변경없이 언급될 수 있는 장벽에 부딪힌 학습자에게 응답하기 위한 계획을 수립한다. 요구사항에 대한 타당성이 없는 경우, 학습활동들이 더 유연하고 광범위하게 접근될 수 있도록 수정할 것을 권장한다.
+  
+**자료**
+
+* 접근할 수 있는 디지털 학습 제공하기 (Delivering Accessible Digital Learning (JISC Techdis))는 강좌 설계에 대한 포괄적 접근법에 관한 유용한 개요를 제공한다. 
   http://www.jisctechdis.ac.uk/techdis/resources/accessiblecontent
 
-* The National Center on Universal Design for Learning provides a helpful overview on Universal Design for Learning: 
+* 학습을 위한 보편적인 설계에 관한 국립센터 (The National Center on Universal Design for Learning)는 학습을 위한 보편적인 설계(Universal Design for Learning)에 관해 도움되는 개요를 제공한다.
   http://www.udlcenter.org/implementation/postsecondary
 
 
 .. _Best Practices for Readability:
 
 ====================================================
-Best Practices for Readability
+가독성 높이기
 ====================================================
 
-EdX courses have a global and diverse audience. 
-Learners will be better positioned to access the concepts of your content if it is written in clear, straightforward language and the content is well structured. 
-Use appropriate terminology to your subject area, but keep it as clear and unambiguous as possible to help learners who:
+edX강좌는 전세계적으로 다양한 학습자를 대상으로 한다. 강좌가 명확하고 간단한 언어로 작성되고 강좌콘텐츠가 잘 구조화되어 있다면, 학습자는 강좌 콘텐츠의 개념에 접근하기가 더 쉬울 것이다. 주제 영역에 적절한 용어를 사용하되, 다음과 같은 학습자를 돕기 위해 가능한 명확하고 분명하게 용어들을 유지하도록 한다.
 
-* Are not native English speakers; or
-* Have a disability that affects reading, such as dyslexia or a visual impairment.
+* 영어가 모국어가 아닌 학습자 또는
+* 난독증 또는 시각장애로 읽는 것에 장애가 있는 학습자
 
-To produce content that is more readable by all students:
+모든 학습자에게 가독성이 높은 콘텐츠를 만들기 위해서는
 
-* Make the names of elements such as course sections, subsections, units, components, and discussion topics descriptive 
-  and easy to skim by putting the important information first in the name. 
-  These names are used in navigation menus, page headings, and section headings and are signposts that help learners navigate your course and read course content. 
-  “Front-loading” menus and headings particularly helps screen reader users, who can more quickly assess the relevance of a link or heading.
+* 강좌 주제, 소주제, 학습활동, 구성요소 및 토의 주제 등의 이름에 중요한 정보를 먼저 넣어, 학습자가 훑어 지나가며 읽을 때 이해하기 쉽게 만든다. 또한 이러한 이름은 탐색 메뉴, 페이지 머리글 및 주제 제목에 사용되며, 학습자가 강좌를 검색하고 강좌 콘텐츠를 읽는 것을 돕는다. "앞면-로딩(Front-loading)" 메뉴와 머리글은 특히 링크 또는 머리글의 관련성을 더 빨리 평가할 수 있는 스크린 리더 이용자를 돕기 위함이다.
 
-* When creating written learning resources, break text into sections by using HTML elements, such as headings, paragraphs, and lists. 
-  Long blocks of unbroken text are a barrier to most readers. Segmented content is more inviting and is easier to navigate and search. 
+* 서면으로 학습자료를 만들 때, 머리글, 단락, 목록과 같은 HTML 요소들을 사용하여 텍스트를 주제별로 나눈다. 나누지 않은 긴 텍스트는 가독성이 좋지 않기 때문이다. 세분화된 콘텐츠가 훨씬 이해하기 수월하다. 접근할 수 있는 HTML을 만드는 방법에 대한 지침으로 Best Practices for HTML Markup(HTML Markup에 대한 모범사례)를 참조한다.
   See :ref:`Best Practices for HTML Markup` for guidance on creating accessible HTML.
 
-* Avoid jargon. If unfamiliar words or phrases are relevant to the subject, explain them when they are first used, and include a glossary with your course materials. 
-  When using an abbreviation or acronym, write out the phrase the first time it appears: for example, “National Aeronautics and Space Administration (NASA).”
+* 전문용어를 피한다. 생소한 단어나 문구가 주제와 관련된 경우는, 처음 사용될 때 그것에 대해 설명하고, 학습 자료의 용어집에 포함시킨다. 약어 또는 두문자어를 사용할 때는 처음 문구가 나타났을 때는 정식 명칭을 적는다. 예를 들어 "국립항공및우주국(NASA)"과 같이 할 수 있다.
 
-* Use link text that clearly explains the link destination (for example, “Review the Course Syllabus”). 
-  Avoid using constructs like “You can review the Course Syllabus here.” For links that point to documents rather than web pages, 
-  include the document type in the link (e.g., “Course Syllabus (PDF)”).
+* 링크 목적지를 명확하게 설명하는 링크 텍스트를 사용한다(예를 들어 "강좌 계획서 검토"). "여기에서 강좌계획서를 검토할 수 있다." 와 같은 구문 사용을 피한다. 웹페이지 보다 오히려 문서를 가리키는 링크에 대해서는, 링크에 문서의 파일 형식을 포함시킨다. (예, "강좌계획서 (PDF)").
 
-**Resources**
+**자료**
 
-* The Center for Plain Language provides detailed resources on writing clearly and concisely, in language appropriate for your content and target audience: 
+일반 언어센터(The Center for Plain Language)는 강좌 콘텐츠와 대상 청중에게 적절한 언어로 명확하고 간결하게 쓰는 것에 관하여 상세한 자료를 제공한다.
   http://centerforplainlanguage.org/about-plain-language/checklist/
 
 .. _Best Practices for Accessible PDFs:
 
 ====================================================
-Best Practices for Accessible PDFs
+PDF 활용하기
 ====================================================
 
-PDF is a common format for course materials, including textbooks supplied by publishers. 
-However, converting materials to PDFs can create accessibility barriers, particularly for learners with visual impairments. 
-To improve the accessibility of your PDFs, review the guidance below about preparing documents for conversion, using Adobe Acrobat Professional, 
-and working with third-party suppliers.
+PDF는 출판사가 제공하는 교과서를 포함하여 학습 자료에 대한 일반적인 형식이다. 그러나, 자료를 PDF로 변환하는 것은 특히 시각장애가 있는 학습자에게 접근성 장벽(accessibility barriers)을 만들 수 있다. PDF 파일의 접근성을 높이기 위해서, 문서 변환과 Adobe Acrobat Professional 사용에 관한 아래의 설명을 참고하는 것이 좋다.
 
 +++++++++++++++++++++++++++++++++++++++++++++
-Converting Microsoft Office documents to PDF
+마이크로소프트 오피스 문서를 PDF로 변환하기
 +++++++++++++++++++++++++++++++++++++++++++++
-The teaching materials that you will convert to PDFs may use different formats—for example, your syllabus may be in Word, 
-your presentation slides in PowerPoint, and your textbooks in publisher-supplied PDF. 
-Use the tools available in the applicable software to create well-structured source documents. 
-This early step helps minimize issues that may be difficult or impossible to address later in the conversion process.
+PDF 파일로 변환할 학습 자료는 다른 파일 형식을 사용할 수 있다. 예를 들어 강의계획서는 Word파일로,프레젠테이션슬라이드는 PowerPoint 파일로, 교과서는 출판사가 제공하는 PDF파일 형식 등과 같이 각각 다를 수 있다. 체계적으로 구성된 소스문서(source documents)를 만들려면 해당 소프트웨어에서 이용할 수 있는 도구를 사용하도록 한다. 이 초기 단계는 문서 변환과정에서 나중에 언급하기 어렵거나 불가능할 수 있는 문제를 최소화하는데 도움이 된다.
 
-**Preparing Word documents**
+**워드 문서 준비하기**
 
-* Keep formatting simple. Use headings, paragraphs, lists, images, and captions, and tables for tabular data. 
-  Don’t add unnecessary indents, rules, columns, blank lines, and typographic variation. The simpler the formatting, the easier it will be to make an accessible PDF document.
+* 간단한 서식을 유지하도록 한다. 제목, 단락, 목록, 이미지 및 캡션, 표 형식의 데이터에 대한 표를 사용하도록 한다. 불필요한 들여쓰기, 규칙, 열, 인쇄상의 변화를 추가하지 않도록 한다. 서식이 간단할수록, PDF 문서의 접근성이 높아진다. 
 
-* Use styles for formatting your text, such as Normal, Heading 1, and Heading 2, rather than manually formatting text using bold and indents. 
-  Add alternative text to images (see :ref:`Best Practices for Describing Images`) using Word’s picture formatting options.
+* 굵게하기및 들여쓰기와 같이 직접 텍스트 서식을 지정하기 보다 표준, 제목 1, 제목 2 등 텍스트 서식 지정에 대한 스타일을 사용하도록 한다. 이미지에 대해서는 Word의 그림 서식 옵션을 사용하여 대체 텍스트를 추가하도록 한다 (Best Practices for Describing Images)를참조하라). 
 
-**Preparing PowerPoint documents**
+**파워포인트 문서 준비하기**
 
-* To help make your content accessible and comprehensible to learners who use screen reading software, start in Outline view and include all of your content as text. 
-  Add design elements and images after completing the outline, and use PowerPoint’s picture formatting options to include detailed descriptions of images that convey information. Avoid adding animations or transitions, as they will not be saved with the PDF format.
+* 화면 읽기 소프트웨어를 사용하는 학습자에게 접근가능하고 이해할 수 있는 강좌콘텐츠를 만들기 위해 개요보기(Outline view)를 시작하고 모든 콘텐츠를 텍스트로 포함시킨다. 개요를 마친 후에 디자인요소와 이미지를 추가하고 PowerPoint의 그림 서식 옵션을 사용하여 정보를 전달하는 이미지에 대한 자세한 설명을 포함시키도록 한다. PDF 형식으로 저장되지 않는 애니메이션이나 영상 효과를 추가하지 않도록 한다.
 
-* Use the Home > Drawing > Arrange > Selection Pane option to view the reading order of objects on each slide. If the reading order is not logical, reorder the objects.
+* 각 슬라이드에서 개체의 읽기 순서를 볼 수 있도록 홈>드로잉>정렬>선택창 (Home > Drawing > Arrange > Selection Pane)옵션을 사용한다. 읽기 순서가 논리적이지 않으면, 개체를 다시 정렬하도록 한다. 
 
-* Use the Home > Slides > Reset option to give each slide a unique and informative title. The title can be hidden if preferred.
+* 각 슬라이드에 독특하며 정보를 제공하는 제목을 붙이기 위해 홈>슬라이드>재설정 (Home > Slides > Reset)옵션을 사용하도록 한다. 원하는 경우 제목을 숨길 수 있다.
 
-* Identify column headers for any data table using PowerPoint’s table formatting options (Tables > Table Options > Header Row), 
-  and ensure that each header contains informative text describing the data in that column.
+* PowerPoint의 표 서식(PowerPoint’s table formatting)옵션을 사용하여 데이터 표에 대한 열머리 글을 식별하도록 하고 (테이블>테이블옵션>머리글행), 각 머리글에 해당 열의 데이터를 설명하는 정보 제공용 텍스트가 포함되어 있는지 확인하도록 한다.
 
-**Preparing Excel spreadsheets**
+**엑셀 스프레드시트 준비하기**
 
-* Use a unique and informative title for each worksheet tab.
+* 각 워크시트마다 정보를 명료하게 전달하는 제목을 사용한다.
 
-* Include text alternatives for images (see :ref:`Best Practices for Describing Images`) using Excel’s picture formatting options.
+* Excel의 그림 서식(Excel’s picture formatting)옵션을 사용하여 이미지에 대한 텍스트 설명을 포함시킨다(이미지 설명 Best Practices for Describing Images)를 참조한다). 
 
-* Identify column headers using Excel’s table formatting options (Table > Table Options > Header Row), and include in each header cell informative text describing the data in that column.
+* Excel의 표 서식(Excel’s table formatting)옵션을 사용하여 열머리 글을 식별하도록 하며 (테이블>테이블옵션>머리글행(Table > Table Options > Header Row)), 각 헤더셀에 해당 열의 데이터를 설명하는 정보를 제공하는 텍스트를 포함시키도록 한다. 
 
-* Do not use blank cells for formatting.
+* 서식지정에 대해 빈 셀을 사용하지 않도록 한다. 
 
-* Use descriptive link text rather than URLs in data cells.
+* 데이터 셀에 URL대신, 설명을 포함하는 링크 텍스트(descriptive link text)를 사용하도록 한다.
 
-**Converting Word, PowerPoint, and Excel documents to PDF**
+**Word, PowerPoint, and Excel문서를 PDF로변환하기**
 
-To generate PDFs from Microsoft Office documents, use the **Save as PDF** option. 
-Make sure the **Document Structure Tags for Accessibility** option is selected (consult your software documentation for more details). 
-Note that PDFs generated from Windows versions of Office will be more accessible than those generated from Mac OS.
+Microsoft Office 문서에서 PDF 문서를 생성하려면, PDF로 저장하기(Save as PDF)옵션을 사용하도록 한다. 접근성을 위한 문서구조태그 (Document Structure Tags for Accessibility)옵션이 선택되어 있는지 확인한다. (더 자세한 내용은 소프트웨어설명서를 참조하도록 한다). Windows 버전의 Office에서 생성된 PDF문서는 Mac OS에서 생성된 문서보다 더 쉽게 접근할 수 있을 것이다.
 
 +++++++++++++++++++++++++++++++++++++++++++++
 Working with third-party supplied PDFs
