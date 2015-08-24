@@ -23,14 +23,13 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 
 강좌에서 학습 집단에 관한 참고할 수 있는 자료는 다음과 같다:
 
-* :ref:`Enabling and Configuring Cohorts` 학습 집단 기능 활성화 및 설정하기
+* :ref:`학습 집단 기능 활성화 및 설정하기` 
 
-* :ref:`Setting Up Discussions in Courses with Cohorts<Set up Discussions in
-  Cohorted Courses>` 학습 집단별 게시판 설정하기
+* :ref:`학습 집단별 게시판 설정하기<학습 집단별 게시판 설정하기>` 
 
-* :ref:`Moderating Discussions for Cohorts` 학습 집단 게시판 관리하기
+* :ref:`학습 집단 게시판 관리하기` 
 
-게시판에 관한 일반 정보는 강좌 게시판 관리하기를 참고할 수 있다. :ref:`Discussions`
+게시판에 관한 일반 정보는 :ref:`강좌 게시판 관리하기`를 참고할 수 있다. 
 
 
 .. _학습 집단에 학습자 배치하기:
@@ -43,16 +42,16 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 또한 두 가지 방법을 혼합하여 학습 집단을 구성할 수도 있다.
 강좌에서 추구하는 학습 집단의 특징에 따라 다음과 같은 학습 집단 배치 방법을 활용할 수 있다.
 
-* :ref:`학습자 자동 배치`
+* :ref:`학습자 자동 배치: 관리가 용이한 MOOC 토의 게시판 만들기`
 
-* :ref:`학습자 직접 배치`
+* :ref:`학습자 직접 배치1`
 
-* :ref:`혼합적 배치`
+* :ref:`혼합적 배치1`
 
-* :ref:`기본 학습 집단`
+* :ref:`기본 학습 집단1`
 
 
-.. _학습자 자동 배치:
+.. _학습자 자동 배치: 관리가 용이한 MOOC 토의 게시판 만들기:
 
 ========================================================
 학습자 자동 배치: 관리가 용이한 MOOC 토의 게시판 만들기
@@ -81,7 +80,7 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 학습자 자동 배치에서 보다 많은 정보를 확인할 수 있다. :ref:`Implementing the Automated Assignment Strategy`
 
 
-.. _학습자 직접 배치:
+.. _학습자 직접 배치1:
 
 =====================================================
 학습자 직접 배치: 공통적인 특성으로 집단 구성하기
@@ -99,7 +98,7 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 학습자 직접 배치 방법 :ref:`Implementing the Manual Assignment Strategy` 에서 보다 많은 정보를 확인 할 수 있다.
 
 
-.. _혼합적 배치:
+.. _혼합적 배치1:
 
 =============================================================
 혼합적 배치: 강좌 안에서의 소집단 활용하기
@@ -117,7 +116,7 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 학습자 자동 배치  :ref:`Implementing the Automated Assignment Strategy` 와 학습자 직접 배치 :ref:`Implementing the Manual Assignment Strategy` 에서 보다 많은 정보를 확인할 수 있다. 
 
 
-.. _기본 학습 집단:
+.. _기본 학습 집단1:
 
 ===========================================================
 기본 학습 집단: 모든 학습자를 단일 학습 집단에 배치
