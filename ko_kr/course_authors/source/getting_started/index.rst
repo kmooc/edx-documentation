@@ -1,7 +1,7 @@
 .. _Getting Started Index:
 
 ################
-Getting Started
+시작하기
 ################
 
 .. toctree::
