@@ -13,7 +13,7 @@
 
 #. 학습자를 학습 집단에 배치하는 방법 결정하기:
    
-  * :ref:`Define automatic cohorts<Define Auto Cohorts>`
+  * :ref:`자동 학습 집단 정의<Define Auto Cohorts>`
 
   * :ref:`Define manual cohorts<Define Manual Cohorts>` 와
     :ref:`manually assign students<Assign Students to Cohorts Manually>` 
@@ -22,12 +22,11 @@
 
 3. 선택적으로, 학습 집단에 따라 나누길 원하는 토의 주제를 확인한다.
    
-  * :ref:`course-wide discussion topics to be divided by cohort<Identifying Private CourseWide Discussion Topics` 를 원한다면
+  * :ref:`course-wide discussion topics to be divided by cohort<Identifying Private CourseWide Discussion Topics>` 를 원한다면
     일부 설정작업을 완료해야 한다.
 
   * 반면, 학습 내용별 토의 주제를 학습 집단별로 나누기를 원한다면,
-    더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`content-specific discussion
-     topics to be unified<Make ContentSpecific Discussion Topics Unified>` 를 원한다면, 약간의 구성 단계를 완료해야 한다.
+    더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`content-specific discussion topics to be unified<Make ContentSpecific Discussion Topics Unified>` 를 원한다면, 약간의 구성 단계를 완료해야 한다.
 
 이러한 구성 절차는 스튜디오와 교수자 대시보드에서 완료할 수 있다. 최상의 학습자 경험을 위해 강좌 시작일 이전에 학습 집단 기능을 활성화하는 것이 좋다. 
 
@@ -110,14 +109,10 @@
   You can also define only a single auto cohort. Type ``"auto_cohort_groups":
   ["Example Cohort Name"]`` and then press Enter again.
 
-5. Type a comma after the closing square bracket character (``],``). You must
-   include a comma to separate each of the policy keys that you define.
+5. 닫는 중괄호 다음에는 쉼표를 입력한다 (``],``). 설정한 각각의 policy keys는 반드시 쉼표로 구분해야 한다
    
-#. Click **Save Changes**. Studio resequences and reformats your entry. Scroll
-   back to the **Cohort Configuration** field to verify that your entry was
-   saved as you expect. Entries that do not contain all of the required
-   punctuation characters revert to the previous value when you save, and no
-   warning is presented.
+#. **변경사항 저장** 을 클릭하면, 스튜디오는 재설정된다. 입력 내용이 잘 저장되었는지 확인하기 위해서 다시 **학습 집단 설정**으로 이동한다.
+     저장할 때 필요한 쉽표가 없는 경우에는 입력 이전으로 돌아가고, 경고창은 뜨지 않는다.
 
  .. image:: ../../../shared/building_and_running_chapters/Images/Multiple_auto_cohort_groups.png
   :alt: Cohort Configuration dictionary field with the auto_cohort_groups key 
@@ -129,89 +124,67 @@
   :alt: Cohort Configuration dictionary field with the auto_cohort_groups key 
         with one value
 
-Any student who is not already assigned to a cohort will be randomly assigned to
-one of the auto cohorts when she visits any of the course discussion topics.
+학습 집단에 배치되지 않은 학습자는, 토의 주제 게시판을 방문했을 때 자동 학습 집단 중 하나에 임의로 배치된다.
 
 
 .. _Implementing the Manual Assignment Strategy:
 
 ***************************************************
-Implementing the Manual Assignment Strategy
+학습자 직접 배치
 ***************************************************
 
-To implement manual assignment of students to cohorts, you define manual cohorts
-and then assign students to them.
+학습자를 학습 집단에 직접 배치하기 위해, 우선 직접 배치를 정의하고 나서 학습자를 학습 집단에 배치하게 된다.
 
-You complete these procedures if you are using either the manual or hybrid
-assignment strategy for your course. For more information, see :ref:`All Manual
-Assignment` or :ref:`Hybrid Assignment`.
+직접 배치나 혼합 배치 방식을 사용하기 위해서는 다음의 절차 따라야 한다.
+이와 관련해서는 :ref:`All Manual Assignment`  혹은 :ref:`Hybrid Assignment`.
 
-You must :ref:`enable the cohort feature<Enable Cohorts>` for your course
-before you can complete these procedures.
+학습자 직접 배치 절차를 완료하기 전에, 반드시 :ref:`학습 집단 기능 활성화<Enable Cohorts>`를 설정해야 한다.
 
 
 .. _Define Manual Cohorts:
 
 ======================
-Define Manual Cohorts
+직접 학습 집단 정의
 ======================
 
-Before you define your manual cohorts, note that students can see the name of
-the cohort they are assigned to. The message "This post is visible only to
-{cohort name}" appears with each post in discussion topics that are divided by
-cohort. See :ref:`Read the Cohort Indicator in Posts`.
+직접 학습 집단을 정의하기 전에, 학습자는 자신이 속한 학습 집단명을 볼 수 있다.학습 집단에 따라 나뉘어진 토의 주제 게시판에 게시된 각각의 게시물에는 “이 게시물은 {cohort name}만 볼 수 있습니다.” 라는 메세지가 나타난다. 이와 관련해서는 :ref:`Read the Cohort Indicator in Posts`에서 확인할 수 있다. 
 
-.. note:: You cannot delete cohorts or change their names. If you need 
- to make changes to the way you have configured the cohort feature while your
- course is running, please see :ref:`Altering Cohort Configuration`.
+.. note:: 학습 집단을 제거하거나 명칭을 바꿀 수 없다.강좌 운영 중에 학습 집단 기능을 변경하고자 한다면, :ref:`Altering Cohort Configuration` 를 참조할 수 있다. .
 
-#. View the live version of your course. For example, in Studio click **View
-   Live**.
+#. 스튜디오에서 강좌를 열고, **적용 결과 보기**를 클릭한다. 
 
-#. Click **Instructor**, then click **Membership**. 
+#. **교수자** 를 클릭한 후, **회원** 을 클릭한다. (참고: 현재 학습 집단 선택) 
 
-#. Scroll to the **Cohort Management** section at the bottom.
+#. 하단의 **학습 집단 관리** 영역을 찾는다.
 
-#. Click **Add Cohort**.
+#. **학습 집단 추가하기**를 클릭한다.
 
-#. Supply a name for the cohort, and then click **Save** below the **New Cohort
-   Name** field.
+#. **새로운 학습 집단명** 칸에 학습 집단명을 입력하고, 저장하기를 클릭한다.
 
 
 .. _Assign Students to Cohorts Manually:
 
 ====================================
-Assign Students to Cohorts Manually
+학습자를 학습 집단에 직접 배치하기
 ====================================
 
-.. note:: Manual assignments should be as complete as possible before your 
- course starts. If student enrollment continues after your course starts, you
- should continue to assign new students to cohorts. 
+.. note:: 강좌가 시작되기 전에 직접 배치를 완료하는 것이 좋다.
+ 만일 강좌가 시작한 후에도 학습자가 계속 등록한다면, 새로 등록한 학습자를 계속해서 학습 집단에 배치해야 한다.
 
-#. View the live version of your course. For example, in Studio click **View
-   Live**.
+#. 스튜디오에서 강좌를 열고, **적용 결과 보기** 를 클릭한다.
 
-#. Click **Instructor**, then click **Membership**. 
+#. **교수자** 를 클릭한 후, **회원** 을 클릭한다. (참고: 현재 학습 집단 선택) 
 
-#. Scroll to the **Cohort Management** section at the bottom.
+#. 하단의 **학습 집단 관리** 영역을 찾는다. 
 
-#. Select a cohort from the drop down list.
+#. 드롭 다운 목록에서 학습 집단을 선택한다.
 
-#. In the **Add students** field, enter the username or email address of a
-   single student, or enter multiple names or addresses separated by commas or
-   new lines. You can copy data from a CSV file of email addresses and paste it
-   into this field.
+#. **학습자 추가** 칸에서 학습자의 사용자 이름이나 이메일 주소를 입력하거나, 다수 학습자의 사용자 이름이나 이메일 주소를 쉼표 또는 새로운 행으로 구분하여 입력한다. 또한 이메일 주소가 저장된 CSV 파일 데이터를 복사한 후 이 칸에 붙여 넣기 할 수도 있다.
 
-#. Click **Add Students**. The students are assigned to the selected manual
-   cohort. A message appears to indicate the number of students who were added to
-   the cohort. Because students can belong to only one cohort, the message also
-   indicates the number of students whose assignment to another cohort was changed
-   by this procedure.
+#. **학습자 추가** 버튼을 클릭한다. 학습자는 선택된 학습 집단에 배치된다. 해당 학습 집단에 몇 명의 학습자가 추가 되었는지 메시지가 나타난다. 학습자는 하나의 학습 집단에만 속할 수 있으므로, 이 메시지는 이 절차에 의해 다른 학습 집단으로 배치된 학습자의 수를 나타낸다.
 
-For a report that includes the cohort assignment for every enrolled
-student, review the student profile information for your course. See :ref:`View
-and download student data`.
-
+모든 등록 학습자의 학습 집단 배치 결과를 포함하는 보고서는 학습자 프로필 정보에서 확인할 수 있다. 관련해서는 ref:`View
+and download student data`에서 살펴볼 수 있다. 
 
 .. _Assign Students to Cohort Groups by uploading CSV:
 
