@@ -55,9 +55,7 @@
   :alt: Cohort Configuration dictionary field with the cohorted key defined 
         as true
 
-다음으로 :ref:`implement the automated assignment strategy<Implementing the
- Automated Assignment Strategy>`, :ref:`implement the manual assignment
- strategy<Implementing the Manual Assignment Strategy>` 를 할 수 있으며, 두 방법 모두를 설정할 수 있다. 
+다음으로 :ref:`implement the automated assignment strategy<Implementing the Automated Assignment Strategy>`, :ref:`implement the manual assignment strategy<Implementing the Manual Assignment Strategy>` 를 할 수 있으며, 두 방법 모두를 설정할 수 있다. 
 
 강좌의 학습자 프로필 정보에서 강좌에 등록된 모든 학습자의 학습 집단 배치 결과를 포함하는 보고서를 볼 수 있다. 자세한 내용은 :ref:`View and download student data` 에서 확인할 수 있다
  
