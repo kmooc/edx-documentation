@@ -23,16 +23,16 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 
 강좌에서 학습 집단에 관한 참고할 수 있는 자료는 다음과 같다:
 
-* :ref:`학습 집단 기능 활성화 및 설정하기` 
+* :ref:`Enabling and Configuring Cohorts` 
 
 * :ref:`학습 집단별 게시판 설정하기<Setting Up Discussions in Courses with Cohorts>` 
 
-* :ref:`학습 집단 게시판 관리하기<Managing Discussions in Courses with Student Cohorts>` 
+* :ref:`Moderating Discussions for Cohorts` 
 
 게시판에 관한 일반 정보는 :ref:`강좌 게시판 관리하기`를 참고할 수 있다. 
 
 
-.. _학습 집단에 학습자 배치하기:
+.. _Options for Assigning Students to Cohorts:
 
 *****************************************
 학습 집단에 학습자 배치하기
@@ -44,11 +44,11 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 
 * :ref:`All Automated Assignment`
 
-* :ref:`학습자 직접 배치`
+* :ref:`All Manual Assignment`
 
-* :ref:`혼합적 배치`
+* :ref:`Hybrid Assignment`
 
-* :ref:`기본 학습 집단`
+* :ref:`Default Cohort Group`
 
 
 .. _All Automated Assignment:
@@ -80,7 +80,7 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 학습자 자동 배치에서 보다 많은 정보를 확인할 수 있다. :ref:`Implementing the Automated Assignment Strategy`
 
 
-.. _학습자 직접 배치:
+.. _All Manual Assignment:
 
 =====================================================
 학습자 직접 배치: 공통적인 특성으로 집단 구성하기
@@ -98,7 +98,7 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 학습자 직접 배치 방법 :ref:`Implementing the Manual Assignment Strategy` 에서 보다 많은 정보를 확인 할 수 있다.
 
 
-.. _혼합적 배치:
+.. _Hybrid Assignment:
 
 =============================================================
 혼합적 배치: 강좌 안에서의 소집단 활용하기
@@ -116,7 +116,7 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 학습자 자동 배치  :ref:`Implementing the Automated Assignment Strategy` 와 학습자 직접 배치 :ref:`Implementing the Manual Assignment Strategy` 에서 보다 많은 정보를 확인할 수 있다. 
 
 
-.. _기본 학습 집단:
+.. _Default Cohort Group:
 
 ===========================================================
 기본 학습 집단: 모든 학습자를 단일 학습 집단에 배치
