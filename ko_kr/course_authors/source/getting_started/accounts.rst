@@ -1,17 +1,17 @@
 .. _Getting Started with edX:
 
 #############################
-Getting Started with edX
+edX
 #############################
 
-The following sections provide an introduction to edX and instructions for getting started on edX websites:
+이 장에서는 edX에 대한 소개 및 edX 웹사이트에서 K-MOOC를 시작하는 방법에 대해 다룬다.
 
 * :ref:`edX.org and edX Edge`
 * :ref:`Create an Account`
 * :ref:`edX101_section`
 * :ref:`Reset Your Password`
 
-This information is intended for course staff. You may want to include the details about the registration process and password policies in your communications with your prospective students. 
+본 정보는 교수자 및 강좌 운영팀을 위한 것이다. 
 
 For information about enrolling students in a course, see :ref:`enroll_student`.
 
