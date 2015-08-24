@@ -13,26 +13,28 @@
 
 #. 학습자를 학습 집단에 배치하는 방법 결정하기:
    
-  * :ref:`자동 배치된 학습 집단 정의<학습자 자동 배치>`
+  * :ref:`Define automatic cohorts<Define Auto Cohorts>`
 
-  * :ref:`직접 배치된 학습 집단 정의<직접 배치된 학습 집단 정의>` 와
-    :ref:`학습자를 직접 배치하기<학습자를 직접 배치하기>` 
+  * :ref:`Define manual cohorts<Define Manual Cohorts>` 와
+    :ref:`manually assign students<Assign Students to Cohorts Manually>` 
     
-  * :ref:`자동 배치와 직접 배치를 혼합적으로 사용하기
-    <자동 배치와 직접 배치를 혼합적으로 사용하기>`.
+  * :ref:`Use a combination of automated and manual assignment<Hybrid
+     Assignment>` 
 
 3. 선택적으로, 학습 집단에 따라 나누길 원하는 토의 주제를 확인한다.
    
-  * :ref:`강좌 전반에 걸친 토의 주제를 학습 집단별로 나누기 <강좌 전반에 걸친 토의 주제를 학습 집단별로 나누기>` 를 원한다면
+  * :ref:`course-wide discussion topics to be divided by
+     cohort<Identifying Private CourseWide Discussion Topics` 를 원한다면
     일부 설정작업을 완료해야 한다.
 
   * 반면, 학습 내용별 토의 주제를 학습 집단별로 나누기를 원한다면,
-    더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`학습 내용별 토의 주제를 통일하기<학습 내용별 토의 주제를 통일하기>` 를 원한다면, 약간의 구성 단계를 완료해야 한다.
+    더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`content-specific discussion
+     topics to be unified<Make ContentSpecific Discussion Topics Unified>` 를 원한다면, 약간의 구성 단계를 완료해야 한다.
 
 이러한 구성 절차는 스튜디오와 교수자 대시보드에서 완료할 수 있다. 최상의 학습자 경험을 위해 강좌 시작일 이전에 학습 집단 기능을 활성화하는 것이 좋다. 
 
 강좌가 진행되는 중에 활성화된 학습 집단 기능을 변경하고자 한다면, 
-:ref:`개강한 강좌에서 학습 집단 변경하기` 를 참고하라. 
+:ref:`Altering Cohort Configuration` 를 참고하라. 
 
 
 .. _Enable cohorts:
@@ -55,9 +57,11 @@
   :alt: Cohort Configuration dictionary field with the cohorted key defined 
         as true
 
-다음으로 :ref:`학습자 자동 배치<학습자 자동 배치>`, :ref:`학습자 직접 배치<학습자 직접 배치>` 를 할 수 있으며, 두 방법 모두를 설정할 수 있다. 
+다음으로 :ref:`implement the automated assignment strategy<Implementing the
+ Automated Assignment Strategy>`, :ref:`implement the manual assignment
+ strategy<Implementing the Manual Assignment Strategy>` 를 할 수 있으며, 두 방법 모두를 설정할 수 있다. 
 
-강좌의 학습자 프로필 정보에서 강좌에 등록된 모든 학습자의 학습 집단 배치 결과를 포함하는 보고서를 볼 수 있다. 자세한 내용은 :ref:`학습자 데이터 다운로드 및 확인하기` 에서 확인할 수 있다
+강좌의 학습자 프로필 정보에서 강좌에 등록된 모든 학습자의 학습 집단 배치 결과를 포함하는 보고서를 볼 수 있다. 자세한 내용은 :ref:`View and download student data` 에서 확인할 수 있다
  
 
 .. _Implementing the Automated Assignment Strategy:
@@ -69,7 +73,7 @@
 학습자를 학습 집단에 자동 배치하기 위해서, 고급 설정의 **학습 집단 설정** 에서 자동 학습 집단을 정의해야 한다
 
 강좌에서 학습자 자동 배치나 혼합 배치를 사용하고자 한다면, 이 절차를 완료해야 한다.
-관련 정보는 :ref:`학습자 자동 배치: 관리가 용이한 MOOC 토의 게시판 만들기` 또는 :ref:`혼합적 배치: 강좌안에서의 소집단 활용하기` 에서 확인할 수 있다. 
+관련 정보는 :ref:``All Automated Assignment`` 또는 :ref:`Hybrid Assignment` 에서 확인할 수 있다. 
 
 .. _Define Auto Cohorts:
 
@@ -78,11 +82,11 @@
 =======================
 
 자동 학습 집단을 정의하기 전에, 학습자는 자신이 속해 있는 학습 집단의 이름을 볼 수 있다.
-학습 집단에 따라 나뉘어진 토의 주제 게시판에 게시된 각각의 게시물에는 “이 게시물은 {cohort name}만 볼 수 있습니다.” 라는 메세지가 나타난다. 관련해서 :ref:`게시물에서의 학습 집단 표지(indicator) 읽기` 에서 확인할 수 있다.
+학습 집단에 따라 나뉘어진 토의 주제 게시판에 게시된 각각의 게시물에는 “이 게시물은 {cohort name}만 볼 수 있습니다.” 라는 메세지가 나타난다. 관련해서 :ref:`Read the Cohort Indicator in Posts` 에서 확인할 수 있다.
 
 .. note:: 학습 집단을 제거하거나  집단명을 바꿀 수 없다.
   강좌 운영 중에 설정한 학습 집단 기능을 변경하고자 한다면, 
-  진행 중인 강좌에서 :ref:`학습 집단 변경하기` 를 참조할 수 있다. .
+  진행 중인 강좌에서 :ref:`Altering Cohort Configuration` 를 참조할 수 있다. .
 
 #. 스튜디오에서 강좌를 연다. 
 
