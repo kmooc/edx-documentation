@@ -18,13 +18,11 @@
   * :ref:`Define manual cohorts<Define Manual Cohorts>` 와
     :ref:`manually assign students<Assign Students to Cohorts Manually>` 
     
-  * :ref:`Use a combination of automated and manual assignment<Hybrid
-     Assignment>` 
+  * :ref:`Use a combination of automated and manual assignment<Hybrid Assignment>` 
 
 3. 선택적으로, 학습 집단에 따라 나누길 원하는 토의 주제를 확인한다.
    
-  * :ref:`course-wide discussion topics to be divided by
-     cohort<Identifying Private CourseWide Discussion Topics` 를 원한다면
+  * :ref:`course-wide discussion topics to be divided by cohort<Identifying Private CourseWide Discussion Topics` 를 원한다면
     일부 설정작업을 완료해야 한다.
 
   * 반면, 학습 내용별 토의 주제를 학습 집단별로 나누기를 원한다면,
