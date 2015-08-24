@@ -1,19 +1,15 @@
 .. _Enabling and Configuring Cohorts:
 
 ############################################
-Enabling and Configuring the Cohorts Feature
+학습 집단 기능 활성화하기
 ############################################
 
-To support cohorts in your course, you select a strategy for assigning your
-students to cohorts: automated assignment, manual assignment, or a hybrid
-approach. See :ref:`Options for Assigning Students to Cohorts`. You also decide
-whether course-wide and content-specific discussion topics should be divided by
-cohort or unified for all students.
+강좌의 학습 집단 구성을 위해서, 자동 배치, 직접 배치, 혼합적 배치 방법을 통해 학습자를 학습 집단에 배치할 수 있는데
+이에 대한 사항은 학습 집단에 학습자 배치하기에서 확인할 수 있다. 학습 집단 혹은  전체 학습자에게 동일하게 강좌 전반이나 학습 내용별로 토의 주제를 나눌 수 있다. :ref:`Options for Assigning Students to Cohorts`. 
 
-After you select a strategy, you complete these configuration steps (as
-applicable):
+학습 집단 활용 방법을 선택한 후, (해당하는 경우) 다음의 구성 단계에 따라 학습 집단 기능을 활성화 할 수 있다.:
 
-#. :ref:`Enable cohorts<Enable Cohorts>`.
+#. :ref:`Enable cohorts<학습 집단 활성화하기>`.
 
 #. Determine the method you want to use to assign students to cohorts:
    
