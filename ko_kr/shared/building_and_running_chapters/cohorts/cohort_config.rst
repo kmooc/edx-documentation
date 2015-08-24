@@ -189,21 +189,12 @@ and download student data` 에서 살펴볼 수 있다.
 .. _Assign Students to Cohort Groups by uploading CSV:
 
 ========================================================
-Assign Students to Cohorts by Uploading a CSV File
+CSV 파일 업로드로 학습자 배치하기
 ========================================================
 
-In addition to assigning students to cohorts by entering usernames or email
-addresses directly on the Membership page in the Instructor Dashboard, you can
-also upload a .csv file containing a list of students and the cohorts that you
-want to assign them to.
+교수자 대시보드의 회원 페이지에서 학습자의 사용자 이름 또는 이메일 주소로 학습자를 학습 집단에 직접 배치할 수도 있지만, 학습자 목록의 .csv 파일을 업로드하여 학습자를 배치할 수도 있다.
 
-Any assignments to cohorts that you specify in the .csv files you upload
-will overwrite or change existing cohort assignments. The configuration of
-your cohorts should be complete and stable before your course begins. You
-should also complete manual cohort assignments as soon as possible after any
-student enrolls, including any enrollments that occur while your course is
-running. To understand the effects of changing cohort assignments after your
-course has started, see :ref:`Altering Cohort Configuration`.
+업로드 한 .csv 파일 속의 학습 집단 배치는 기존의 학습 집단 배치를 겹쳐 쓰거나 변경하게 된다.강좌가 시작하기 전에 학습 집단을 배치를 완료해야 한다.강좌가 운영되는 도중에 등록하는 학습자도 가능하면 등록 즉시 학습 집단에 배치해야 한다. 강좌가 운영되는 도중에 등록하는 학습자도 가능하면 등록 즉시 학습 집단에 배치해야 한다. 강좌가 시작 된 후에 학습 집단을 변경한 후의 영향은 :ref:`Altering Cohort Configuration` 에서 확인할 수 있다. 
 
 .. note:: Be aware that the contents of the .csv file are processed row by row,
   from top to bottom, and each row is treated independently. 
