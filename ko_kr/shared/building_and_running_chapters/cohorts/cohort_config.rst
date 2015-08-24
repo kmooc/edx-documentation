@@ -29,40 +29,33 @@
   * 반면, 학습 내용별 토의 주제를 학습 집단별로 나누기를 원한다면,
     더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`학습 내용별 토의 주제를 통일하기를 원한다면<Make ContentSpecific Discussion Topics Unified>`, 약간의 구성 단계를 완료해야 한다.
 
-You complete these procedures in Studio and on the Instructor Dashboard. For an
-optimal student experience, you should make sure that configuration of the
-cohort feature is as complete as possible prior to the start date of your
-course.
+이러한 구성 절차는 스튜디오와 교수자 대시보드에서 완료할 수 있다. 최상의 학습자 경험을 위해 강좌 시작일 이전에 학습 집단 기능을 활성화하는 것이 좋다. 
 
-If you need to make changes to the way you have configured the cohort feature
-while your course is running, please see :ref:`Altering Cohort Configuration`.
+강좌가 진행되는 중에 활성화된 학습 집단 기능을 변경하고자 한다면, 
+:ref:`개강한 강좌에서 학습 집단 변경하기` 를 참고하라. 
 
 
 .. _Enable Cohorts:
 
 ***************************
-Enabling the Cohort Feature
+학습 집단 기능 활성화하기
 ***************************
 
-#. Open the course in Studio. 
+#. 스튜디오에서 강좌를 연다. 
 
-#. Select **Settings**, then **Advanced Settings**.
+#. **설정** 을 선택하고, **고급 설정** 을 선택한다. 
 
-#. In the **Cohort Configuration** field, place your cursor between the
-   supplied pair of braces.
+#. **학습 집단 설정** 칸에서, 중괄호 사이에 커서를 위치시킨다.
 
-#. Type ``"cohorted": true``. 
+#. ``"cohorted": true``를 입력한다. 
 
-#. Click **Save Changes**. Studio reformats the name:value pair you just
-   entered to indent it on a new line.
+#. **변경사항 저장** 을 클릭하면. 변경사항 저장을 클릭하면, 스튜디오는 재배열을하고, 입력된 값은 새로운 줄에 들여쓰기가 된다.
    
  .. image:: ../../../shared/building_and_running_chapters/Images/Enable_cohorts.png
   :alt: Cohort Configuration dictionary field with the cohorted key defined 
         as true
 
-You can then :ref:`implement the automated assignment strategy<Implementing the
-Automated Assignment Strategy>`, :ref:`implement the manual assignment
-strategy<Implementing the Manual Assignment Strategy>`, or both.
+다음으로 :ref:`학습자 자동 배치<Implementing the Automated Assignment Strategy>`, :ref:`학습자 직접 배치<Implementing the Manual Assignment Strategy>` 를 할 수 있으며, 두 방법 모두를 설정할 수 있다. 
 
 For a report that includes the cohort assignment for every enrolled
 student, review the student profile information for your course. See
