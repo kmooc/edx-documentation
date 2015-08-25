@@ -262,9 +262,8 @@
 
 
 ***********
-2014년 5월
+May 2014
 ***********
-
 
 .. list-table::
    :widths: 10 70
@@ -273,45 +272,63 @@
    * - Date
      - Change
    * - 05/30/14
-     - :ref:`Working with Video Components` 에 브라우저 호환성을 위해  .mp4 와 .webm 영상 형식을 사용하도록 권장하는 내용이 추가됨.
+     - Update :ref:`Working with Video Components` to include recommendations to
+       use .mp4 and .webm video formats for browser compatibility
    * - 05/27/14
-     - 학습자의 성적을 조정하기 위해, 문제의 완전한 위치 식별자를 지정해야 하는 새로운 요청사항에 따라 :ref:`Grades` 의  내용이 수정됨.
+     - Based on the new requirement to specify the complete location identifier
+       of a problem to adjust student grades, revised the :ref:`Grades` section.
    * - 05/22/14
-     - :ref:`Running Your Course Index` 에서 다음의 주제들이 재구성되고, 업데이트되며, 간소화됨.
+     - Reorganized, updated, and streamlined these sections in the :ref:`Running
+       Your Course Index` chapter:
 
-       * *성적과 정답 데이터* 가 :ref:`Grades` 과 :ref:`Review_Answers` 로 나뉨.
-       * **진도** 페이지가 *학습자 진도 확인 및 수료증 발급* 에서 :ref:`Grades`로 이동함.
-       * *학습자 진도 확인 및 수료증 발급* 이 :ref:`Checking Student Progress and Issuing Certificates` 로 변경됨.
+       * Divided *Grade and Answer Data* into separate sections for
+         :ref:`Grades` and :ref:`Review_Answers`.
+       * Moved information about the student **Progress** page from the
+         *Checking Student Progress and Issuing Certificates* section to
+         :ref:`Grades`.
+       * Renamed the *Checking Student Progress and Issuing Certificates*
+         section to :ref:`Checking Student Progress and Issuing Certificates`.
+
    * - 
-     - :ref:`Problem with Adaptive Hint` 에 Python 스크립트와 correct_answer 특성에 대한 서식 요구 사항을 반영함.
+     - Updated :ref:`Problem with Adaptive Hint` to reflect formatting
+       requirements for the Python script and the correct_answer attribute.
    * - 05/21/14
-     - 개방형 평가 스위트(Open Response Assessments suite)의 첫 번째 버전이 사용 중지되고, 새로운 개방형 평가 정보에 대한 링크가 추가되었음을 업데이트함. 
+     - Added warning that version 1 of the Open Response Assessments suite has
+       been deprecated and added a link to the new ORA information.
    * - 05/16/14
-     - :ref:`Working with Video Components` 에 UI 변경을 반영함.
+     - Updated :ref:`Working with Video Components` to reflect UI changes.
    * - 05/14/14
-     - :ref:`Running Your Course Index` 에서 "신규 베타" 교수자 대시보드를 삭제함..
+     - Updated the :ref:`Running Your Course Index` chapter to remove references
+       to the "new beta" Instructor Dashboard.
    * - 05/13/14
-     - :ref:`Enrollment` 에 학습자를 일괄 등록하기 위해 아이디 또는 이메일 주소 사용이 가능한 점을 반영함.
+     - Updated the :ref:`Enrollment` section to reflect that usernames or email
+       addresses can be used to batch enroll students.
    * - 
-     - :ref:`Grades` 에 학습자의 상태 삭제하기, 다시 시도하기 및 다시 점수 매기기 (rescoring, resetting attempts, and deleting student state) 등을 위한  **운영팀 디버그** 뷰어의 문제에 대한 새로운 기능을 반영함.
-      
-     - :ref:`Course_Staffing` 에 Studio와 학습 관리 시스템에서의 강좌 운영팀 및 교수자의 용어 차이가 추가됨.
+     - Updated the :ref:`Grades` section to reflect new features on the problem
+       **Staff Debug** viewer for rescoring, resetting attempts, and deleting
+       student state.
+   * - 
+     - Updated the :ref:`Course_Staffing` section to state the labeling
+       differences between Studio and the LMS with respect to course team roles.
    * - 05/09/14
-     - :ref:`Assigning_discussion_roles` 에 강좌 관리자가 게시판 관리 역할의 명시적 부여를 필요로 한다는 내용이 추가됨.
+     - Updated :ref:`Assigning_discussion_roles` with a note about course staff
+       requiring explicit granting of discussion administration roles.
    * - 
-     - VitalSource 주제가 추가됨.
+     - Added VitalSource topic.
    * - 05/08/14
-     - :ref:`Upload a File` 에 파일 크기 제한에 관한 내용이 추가됨.
+     - Added warnings to :ref:`Upload a File` about file size.
    * - 05/07/14
-     - :ref:`Discussions` 에 마무리 토의 주제를 포함하도록 내용이 추가됨.
+     - Updated the :ref:`Discussions` chapter to include a topic on closing
+       discussions.
    * - 05/06/14
-     - :ref:`Grades` 에 문제에 대한 점수 히스토그램을 해석하는 주제가 추가됨. 
+     - Expanded the :ref:`Grades` chapter to include a topic on interpreting the
+       score histograms for problems.
    * - 
-     - :ref:`LTI Component` 에 Studio UI 변경 사항이 반영되도록 함.
+     - Updated :ref:`LTI Component` to reflect changes to the Studio UI.
    * - 05/02/14
-     - :ref:`Drag and Drop` 에 정보가 업데이트됨.
+     - Updated :ref:`Drag and Drop` information.
    * - 
-     - :ref:`IFrame` 도움말이 업데이트됨.
+     - Updated :ref:`IFrame` documentation.
 
 
 ************
