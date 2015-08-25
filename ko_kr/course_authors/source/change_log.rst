@@ -312,7 +312,7 @@
      - :ref:`IFrame` 도움말이 업데이트됨.
 
 ************
-April 2014
+2014년 4월
 ************
 
 .. list-table::
@@ -322,30 +322,29 @@ April 2014
    * - Date
      - Change
    * - 04/28/14
-     - Updated :ref:`Show or Hide the Course Wiki Page` to include note about Wiki content being available after you hide the Wiki page.
+     - :ref:`Show or Hide the Course Wiki Page` 에 강좌 담당자가 위키 페이지를 숨긴 후에 위키 콘텐츠를 이용할 수 있다는 내용이 추가됨.
    * - 04/26/14
-     - Updated label information; added XML information to :ref:`Problem with Adaptive Hint`.  
+     - :ref:`Problem with Adaptive Hint`에 XML 정보가 추가되며 라벨 정보가 업데이트됨.   
    * - 04/24/14
-     - Expanded the :ref:`Grades` chapter to include topics on interpreting the grade reports and student progress page.
+     - :ref:`Grades` 성적 보고서 및 학습자 진도 페이지 해석에 관한 주제가 포함됨.
    * -    
-     - Updated the :ref:`Beta_Testing` section to reflect feature changes.
+     - :ref:`Beta_Testing` 에 기능 변경사항이 반영됨. 
    * -
-     - Updated the :ref:`Working with HTML Components` chapter to reflect changes to the HTML component editor.
+     - :ref:`Working with HTML Components` 에 HTML 구성요소 편집기에 대한 변경사항이 반영됨. 
    * - 04/23/14
-     - Reorganized information about problems into :ref:`Exercises and Tools Index` section.
+     - :ref:`Exercises and Tools Index` 에 문제에 관한 정보가 재구성됨.
    * - 04/23/14
-     - Added more information about collecting language and location data from students to :ref:`Student Data`.  
+     - :ref:`Student Data` 에 언어 수집 및 학습자 위치 데이터에 관한 더 많은 정보가 추가됨. 
    * - 04/22/14
-     - Updated the :ref:`Bulk Email` section with information about the dashboard option to opt out of course email.
+     - :ref:`Bulk Email` 에 강좌 이메일을 받지 않을 수 있는 선택사항에 대한 정보가 추가됨.
    * - 
-     - In :ref:`Discussions`, corrected the steps to "Create Discussion
-       Categories".
+     - :ref:`Discussions`에 “게시판 범주 만들기(Create Discussion Categories)” 단계가 수정됨. .
    * - 
-     - Updated the :ref:`Enrollment` section to reflect feature changes.
+     - the :ref:`Enrollment` 에 기능의 변경사항을 반영함.
    * - 04/16/14
-     - Updated "Transcripts in Additional Languages" in :ref:`Working with Video Components`.
+     - :ref:`Working with Video Components` 에 “추가 언어 자막(Transcripts in Additional Languages)”이 업데이트됨.
    * -  
-     - In support of new features, added the following sections to :ref:`Multiple Choice` problems:
+     - :ref:`Multiple Choice` 문제에 새로운 기능을 지원하기 위한 다음 주제들이 추가됨.
 
        * :ref:`Shuffle Answers in a Multiple Choice Problem`
        * :ref:`Targeted Feedback in a Multiple Choice Problem`
