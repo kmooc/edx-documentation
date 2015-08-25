@@ -369,72 +369,57 @@ See :ref:`Working with Video Components` for details on how to add timed transcr
 
 
 ++++++++++++++++++++++++++++++++++++++++++++
-Video description
+영상 설명
 ++++++++++++++++++++++++++++++++++++++++++++
 
-When creating video segments, consider how to convey information to learners who can’t see. 
-For many topics, you can fully cover concepts in the spoken presentation. 
-If practical, you might also describe visual information, for example, by speaking as you are writing on a tablet.
+영상을 만들려고 할 때는, 볼 수 없는 학습자에게 어떻게 정보를 전달할 것인지를 고려하도록 한다. 많은 주제에 대해, 음성을 함께 제공해 개념을 완벽하게 소화할 수 있도록 한다. 예를 들어 태블릿에 쓸 때 동시에 말함으로써 시각적인 정보를 또한 설명할 수 있을 것이다.
 
 ++++++++++++++++++++++++++++++++++++++++++++
-Downloadable transcripts
+다운로드 가능한 자막
 ++++++++++++++++++++++++++++++++++++++++++++
 
-For both audio and video transcripts, consider including a text file that students can download and review using tools such as word processing, screen reader, or literacy software. 
-The downloadable transcript should be text only, without time codes.
+자막을 학습자가 다운로드하거나, 워드 프로세싱, 화면 판독기, 또는 문맹 퇴치 소프트웨어와 같은 도구를 이용하여 복습할 수 있도록 텍스트 파일을 포함하는 것이 좋다. 다운로드 가능한 자막은 시간 코드 없이 텍스트로만 되어 있어야 한다. 
 
-**Resources**
+**자료**
 
-* Accessible Digital Media Guidelines provides detailed advice on creating online video and audio with accessibility in mind: 
+* Accessible Digital Media Guidelines은 접근성을 염두에 둔 온라인 비디오 및 오디오 강좌를 만드는 방법에 관한 상세한 조언을 제공한다.  
   http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide
 
 
 .. _Best Practices for HTML Markup:
 
 ====================================================
-Best Practices for HTML Markup
+HTML Markup 활용하기
 ====================================================
   
-HTML is the best format for creating accessible content. It is well supported and adaptable across browsers and devices, 
-the information in the markup helps assistive technologies, such as screen reader software, provide information and functionality to people with vision impairments.
+HTML은 브라우저 및 장치에 골고루 잘 지원된다. HTML Markup에 있는 정보는 시각 장애가 있는 사람들에게 화면 판독기 소프트웨어와 같은 보조 기술을 통해 정보와 기능성을 제공하도록 도와준다. 
 
-To make it easier for our course teams to create content with good HTML markup, we are working to make all templates in edX Studio conform to the best practices set forth below. 
-In the interim, we recommend that you manually add the appropriate HTML tagging. 
-Depending on the type of component you are adding to your course in edX Studio, the raw HTML data will be available either automatically or by selecting the “Advanced Editor” or “HTML” views.
+HTML 콘텐츠를 만들 때 다음 지침에 유의하도록 한다.
 
-Keep the following guidelines in mind when you create HTML content:
+* 콘텐츠의 외관 보다는 콘텐츠의 의미를 설명 하기 위해 HTML을 사용하도록 한다.  Level 1 제목 (<h1>) 으로 표시된 문구는 페이지의 주제를 명확하게 나타내지만, 굵은 텍스트(<bold> 또는 <strong>)로 표시된 문구는 제목이거나 단지 교수자가 강조하고 싶은 텍스트일 수 있다. 목록으로 표시된 항목의 그룹은 글머리 기호 및 들여쓰기 같은 시각적 단서에 의존하지 않고 코드와 관련되어 있다. 콘텐츠를 의미하는 코딩은 머리글을 통해 읽을 수 있거나 혹은 목록에 있는 항목의 수를 밝혀 줄 수 있는 화면 판독기를 사용하는 학습자에게 특히 유용하다.
 
-* Use HTML to describe your content’s *meaning* rather than its *appearance*. A phrase marked as a level 1 heading (<h1>) clearly indicates the topic of the page, 
-  while a phrase marked as bold text (<bold> or <strong>) may be a heading or may just be text that the instructor wants to emphasize. 
-  A group of items marked up as a list are related in the code, without relying on visual cues such as bullets and indents. 
-  Coding meaning into content is particularly useful for students using screen readers, which, for example, can read through headings or announce the number of items in a list.
+* 문서 구조를 나타내기 위해 순차적으로 HTML 제목 수준을 사용하도록 한다. 체계화된 제목들은 학습자가 페이지를 탐색하고 또 학습자가 무엇을 찾고 있는지를 알 수 있도록 돕는다. 
 
-* Use HTML heading levels in sequential order to represent the structure of the document. Well-structured headings help students navigate a page and find what they are looking for.
+* 관련 항목들을 그룹화 하고 콘텐츠를 보다 쉽게 건너 뛰고 읽을 수 있도록 하기 위해 HTML 목록 요소를 사용하도록 한다. HTML은 다음 세 가지 종류의 목록을 제공한다. 
 
-* Use HTML list elements to group related items and make content easier to skim and read. HTML offers three kinds of lists:
+  #. 각 항목이 글머리 기호로 표시되어 있는 순서 없는 목록
+  #. 각 항목이 번호와 함께 나열되어 있는 순서 목록
+  #. (사전 처럼) 용어와 설명의 짝을 이루여 표기된 정의 목록
 
-  #. Unordered lists, where each item is marked with a bullet.
-  #. Ordered lists, where each item is listed with a number.
-  #. Definition lists, where each item is represented using term and description pairs (like a dictionary).
+* 격자 서식에 가장 적합한 정보인 데이터 세트를 표시하기 위해서는, 설명하는 행과 열을 가진 테이블 요소를 사용하도록 한다. 화면 판독기가 효과적으로 표에 있는 내용을 설명할 수 있도록 <th> 요소를 사용하여 행과 열의 제목을 표시하도록 한다. 
 
-* Use table elements to mark up data sets—that is, information that works best in a grid format—with descriptive rows and columns. 
-  Mark up row and column headers using the <th> element so screen readers can effectively describe the content in the table.
+**자료**
 
-**Resources**
-
-* Creating Semantic Structure provides guidance on reflecting the semantic structure of a web page in the underlying markup (WebAIM): 
+* Creating Semantic Structure는 기본 태그 (WebAIM)에서 웹 페이지의 의미 구조를 반영하는 지침을 제공한다.
   http://webaim.org/techniques/semanticstructure/
   
-* Creating Accessible Tables provides specific guidance on creating data tables with the appropriate semantic structure so that screen readers can correctly present the information (WebAIM): 
+* Creating Accessible Table는 화면 판독기가 올바르게 정보(WebAIM)를 표시할 수 있도록 적절한 의미 구조를 가지는 데이터 표를 만드는 방법에 관한 구체적인 지침을 제공한다.
   http://webaim.org/techniques/tables/data
 
 .. _Conclusion:
 
 ************************************************************
-Conclusion
+결론
 ************************************************************
 
-At edX, the heart of our mission is to provide global access to higher-level learning with only a computer and the Internet. 
-We have designed a platform that enables course creators to reach thousands of learners, some of whom will lack the typical backgrounds and resources of resident students taking traditional courses on college campuses. 
-We hope that these guidelines prove useful to you as you work with your institution’s disability support services and information technology resources to comply with applicable accessibility laws. 
-As we are all on this learning venture together, we encourage you to share your thoughts with us at accessibility@edx.org.
+K-MOOC 사명의 핵심은 컴퓨터와 인터넷만으로 보다 높은 수준의 학습(higher-level learning)에 대한 접근을 제공하는 것이다. 강좌 운영팀이 소속 기관의 장애 지원 서비스와 함께 정보 기술 자원을 활용할 때 본 안내서가 유용하게 쓰여지기를 바란다. 새로운 아이디어가 있다면 accessibility@edx.org에서 함께 의견을 공유하기를 바란다. 
