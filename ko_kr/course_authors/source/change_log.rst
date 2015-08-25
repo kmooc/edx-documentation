@@ -15,7 +15,7 @@
    * - 2/13/15
      - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨
    * - 2/12/14
-     - 추가된 설정들을 반영하기 위해 :ref:`LTI Component settings` to reflect added settings 가 업데이트됨.
+     - 추가된 설정들을 반영하기 위해 :ref:`LTI Component settings` 가 업데이트됨.
    * - 2/13/15
      - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨
    * - 2/4/15
