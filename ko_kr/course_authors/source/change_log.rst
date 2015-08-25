@@ -349,7 +349,6 @@
        * :ref:`Shuffle Answers in a Multiple Choice Problem`
        * :ref:`Targeted Feedback in a Multiple Choice Problem`
        * :ref:`Answer Pools in a Multiple Choice Problem`
-
    * - 04/15/14
      - Updated *Testing Your Course* to include a section on how to *View Your
        Live Course*.
