@@ -13,13 +13,13 @@
    * - Date
      - Change
    * - 2/13/15
-     - :ref:`Drag and Drop Problem XML`에 있는 예제가 업데이트됨
+     - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨
    * - 2/12/14
-     - 추가된 설정들을 반영하기 위해 :ref:`LTI Component settings` to reflect added settings가 업데이트됨.
+     - 추가된 설정들을 반영하기 위해 :ref:`LTI Component settings` to reflect added settings 가 업데이트됨.
    * - 2/13/15
-     - :ref:`Drag and Drop Problem XML`에 있는 예제가 업데이트됨
+     - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨
    * - 2/4/15
-     - :ref:`Create an Account`가 업데이트됨.
+     - :ref:`Create an Account` 가 업데이트됨.
 
 *****************
 2015년 1월
@@ -38,8 +38,7 @@
    * - 1/21/15
      - :ref:`Cohorted Courseware Overview` section 주제가 추가됨.
    * - 1/14/15
-     - :ref:`Content Libraries`와 :ref:`Randomized Content 에 대한 주제가 추가됨.
-       Blocks`.       
+     - :ref:`Content Libraries` 와 :ref:`Randomized Content 에 대한 주제가 추가됨.
    * - 
      - :ref:`Cohorted Courseware Overview` 주제가 추가됨.
    * -      
