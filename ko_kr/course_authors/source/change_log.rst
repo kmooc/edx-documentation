@@ -36,16 +36,16 @@
    * -
      - :ref:`Making Course Content Searchable` 주제가 추가됨
    * - 1/21/15
-     - :ref:`Cohorted Courseware Overview` section 주제가 추가됨.
+     - :ref:`Cohorted Courseware Overview` 주제가 추가됨.
    * - 1/14/15
-     - :ref:`Content Libraries` 와 :ref:`Randomized Content 에 대한 주제가 추가됨.
+     - :ref:`Content Libraries` 와 :ref:`Randomized Content` 에 대한 주제가 추가됨.
    * - 
      - :ref:`Cohorted Courseware Overview` 주제가 추가됨.
    * -      
      - 파일 형식에 따라 업데이트된 파일들의 목록을 필터링 하는 것에 대한 정보와 함께 :ref:`Add Files to a Course` 주제가 업데이트됨.
    * - 
      - :ref:`Student Notes Tool`, :ref:`Specify Prerequisite Courses` 및
-       :ref:`Require an Entrance Exam`의 주제가 추가됨.
+       :ref:`Require an Entrance Exam` 의 주제가 추가됨.
    * - 
      - :ref:`Google Calendar Tool` 와 :ref:`Google Drive Files
        Tool` 의 주제가 추가됨.
