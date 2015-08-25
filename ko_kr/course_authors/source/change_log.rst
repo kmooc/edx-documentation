@@ -259,9 +259,11 @@
    * - 06/03/14   
      - :ref:`gradebook` 가 :ref:`Grades` 에 추가됨.
 
+
 ***********
 2014년 5월
 ***********
+
 
 .. list-table::
    :widths: 10 70
@@ -279,7 +281,6 @@
        * *성적과 정답 데이터* 가 :ref:`Grades` 과 :ref:`Review_Answers` 로 나뉨.
        * **진도** 페이지가 *학습자 진도 확인 및 수료증 발급* 에서 :ref:`Grades`로 이동함.
        * *학습자 진도 확인 및 수료증 발급* 이 :ref:`Checking Student Progress and Issuing Certificates` 로 변경됨.
-
    * - 
      - :ref:`Problem with Adaptive Hint` 에 Python 스크립트와 correct_answer 특성에 대한 서식 요구 사항을 반영함.
    * - 05/21/14
@@ -311,9 +312,11 @@
    * - 
      - :ref:`IFrame` 도움말이 업데이트됨.
 
+
 ************
 2014년 4월
 ************
+
 
 .. list-table::
    :widths: 10 70
@@ -345,7 +348,6 @@
      - :ref:`Working with Video Components` 에 “추가 언어 자막(Transcripts in Additional Languages)”이 업데이트됨.
    * -  
      - :ref:`Multiple Choice` 문제에 새로운 기능을 지원하기 위한 다음 주제들이 추가됨.
-
        * :ref:`Shuffle Answers in a Multiple Choice Problem`
        * :ref:`Targeted Feedback in a Multiple Choice Problem`
        * :ref:`Answer Pools in a Multiple Choice Problem`
