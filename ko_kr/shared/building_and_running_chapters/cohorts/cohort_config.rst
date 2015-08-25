@@ -196,59 +196,49 @@ CSV 파일 업로드로 학습자 배치하기
 
 업로드 한 .csv 파일 속의 학습 집단 배치는 기존의 학습 집단 배치를 겹쳐 쓰거나 변경하게 된다.강좌가 시작하기 전에 학습 집단을 배치를 완료해야 한다.강좌가 운영되는 도중에 등록하는 학습자도 가능하면 등록 즉시 학습 집단에 배치해야 한다. 강좌가 운영되는 도중에 등록하는 학습자도 가능하면 등록 즉시 학습 집단에 배치해야 한다. 강좌가 시작 된 후에 학습 집단을 변경한 후의 영향은 :ref:`Altering Cohort Configuration` 에서 확인할 수 있다. 
 
-.. note:: Be aware that the contents of the .csv file are processed row by row,
-  from top to bottom, and each row is treated independently. 
+.. note:: .csv 파일의 내용은 각 줄이 차례로 위에서 아래로 처리되며 각 행은 독립적으로 처리된다. 
 
-  For example, if your .csv file contains conflicting information such as
-  Student A being first assigned to Cohort 1, then later in the spreadsheet
-  being assigned to Cohort 2, the end result of your .csv upload is that Student
-  A is assigned to Cohort 2. However, the upload results file will count Student
-  A twice in the "Students Added" count: once when they are added to Cohort 1,
-  and again when they are added to Cohort 2. Before submitting a file for
-  upload, check it carefully for errors.
+  예를 들어, 학습자 A가 학습집단 1에 속해 있고, 학습집단 2에도 속해 있는 상반된 정보가 포함된 
+  .csv 파일을 업로드하면, 학습자 A는 학습집단 2에 배치된다.그러나 학습자 A는 학습집단 1에 배치
+  되었을 때, 그리고 다시 학습집단 2에 배치되었을 때의 2회가 “추가된 학습자”로  다루어진다.업로
+  드한 파일을 승인하기 전에 유의하여 오류를 확인해야 한다.
 
-The requirements for the .csv file are summarized in this table.
+.csv 파일이 갖추어야 하는 사항을 다음의 표에 요약한다.
 
 .. list-table::
     :widths: 15 30
 
     * - **Requirement**
       - **Notes**
-    * - Valid .csv file
+    * - 유효한 .csv 파일
 
-      - The file must be a properly formatted comma-separated values file: 
+      - 파일은 쉼표로 구분되어야 한다.: 
 
-        * The file extension is .csv.
-        * Every row must have the same number of commas, whether or not there
-          are values in each cell. 
-    * - File size
-      - The file size of .csv files for upload is limited to a maximum of 2MB.               
-    * - UTF-8 encoded
+        * 파일의 확장자는 .csv여야 한다.
+        * 각 셀에 값이 있는지 점검할 수 있도록, 모든 열은 쉼표의 수가 같아야 한다.
+    * - 파일 크기
+      - 업로드를 위해 .csv 파일의 크기는 최대 2MB까지 가능하다.               
+    * - UTF-8 인코딩
       
-      - You must save the file with UTF-8 encoding so that Unicode characters
-        display correctly. 
+      - 유니코드 문자가 올바르게 표시되도록 반드시 UTF-8 인코딩으로 파일을 저장해야 한다.
 
-        See :ref:`Creating a Unicode Encoded CSV File`.
+        :ref:`Creating a Unicode Encoded CSV File`를 참고할 수 있다.
 
-    * - Header row
-      - You must include a header row, with column names that exactly match those 
-        specified in "Columns" below.
+    * - 머리글 행 
+      - “열”에 지정된 것과 일치하는 열의 이름인 머리글 행을 반드시 포함해야 한다.  
     * - One or two columns identifying students      
-      - You must include at least one column identifying students: 
-        either "email" or "username", or both. 
-
-        If both the username and an email address are provided for a student,
-        the email address has precedence. 
+      - "email", 사용자 이름 또는 이 두 개와 같이 학습자를 구분할 수 있는 최소 하나의 열을 
+         반드시 포함 시켜야 한다: 
         
-        In other words, if an email address is present, an incorrect or non-
-        matching username is ignored.
+        사용자 이름과 이메일 주소 둘 다 사용하고자 한다면, 이메일 주소를 우선 배열해야 한다.
+        
+        이메일 주소가 있다면, 부정확한 사용자 이름은 무시된다.
 
-    * - One column identifying the cohort
+    * - 학습집단을 식별하는 하나의 열
             
-      - You must include one column named "cohort" to identify the cohort
-        to which you are assigning each student.
+      -각 학습자를 배치하는 학습집단을 식별할 수 있는 “학습집단”이라는 하나의 열을 반드시 포함해야 한다.
 
-        The specified cohorts must already exist in Studio.
+        파일에 명시된 학습 집단은 이미 스튜디오에서 생성되어있어야 한다.
 
     * -                        
       - Columns with headings other than "email", "username" and "cohort" are
