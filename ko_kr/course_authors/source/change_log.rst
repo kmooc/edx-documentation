@@ -104,7 +104,7 @@
      - :ref:`Add a Content Experiment in OLX` 에 콘텐츠 실험은 수직으로만 지원된다는 주의가 추가됨.
        
 *****************
-October 2014
+2014년월
 *****************
 
 .. list-table::
@@ -114,34 +114,29 @@ October 2014
    * - Date
      - Change
    * - 10/31/14
-     - Added warning in :ref:`Export a Course` about sensitive or license-
-       specific information that is included when you export a course.
+     - :ref:`Export a Course` 에 강좌를 내보낼 때 포함되는 민감한 정보 또는 라이선스와 관련된 정보에 대한 주의사항이 추가됨.
    * - 10/30/14
-     - Added :ref:`email template<Verified Registration Reminder>` for 
-       reminding students of last day to register for verified certificates.
+     - 마지막 날 학습자에게 확인된 인증서에 대해 등록하도록 상기시키기 위한 :ref:`email template<Verified Registration Reminder>` 이 추가됨.
    * - 10/29/14
-     - Added information about course start time visibility to :ref:`The Course
-       Start Date`.
+     - :ref:`The Course
+       Start Date` 에 강좌 시작 시간 표기에 관한 정보가 추가됨.
    * - 10/28/14
-     - Added section for :ref:`Show Reset Button` in :ref:`Problem Settings`
-       and clarified **Reset** button behavior in :ref:`Problem Student View`.
+     - :ref:`Problem Settings` 에 :ref:`Show Reset Button` 에 관한 주제가 추가되고
+       :ref:`Problem Student View` 에서 **재설정** 버튼 동작이 명확해짐 
    * - 10/27/14
-     - Fixed the code sample in :ref:`Script Tag Format` in the :ref:`Write
-       Your Own Grader` chapter.
+     - :ref:`Write Your Own Grader` 의 :ref:`Script Tag Format` 에 있는 코드 샘플이 수정됨.
    * - 
-     - Fixed a bug in :ref:`Text Input Problem XML`.
+     - :ref:`Text Input Problem XML` 의 버그가 수정됨.
    * -
-     - Added :ref:`Create a Randomized Custom Python-Evaluated Input Problem`.
+     - :ref:`Create a Randomized Custom Python-Evaluated Input Problem` 이 추가됨.
    * - 10/23/14
-     - Added note about limited support of annotation problem type to
-       :ref:`Annotation`.
+     - :ref:`Annotation`에 주석 문제 유형의 제한된 지원에 관한 정보가 추가됨.
    * - 10/16/14
-     - Updated :ref:`Set Important Dates for Your Course` to reflect change
-       that course dates now use UTC.
+     - :ref:`Set Important Dates for Your Course`가 강좌 날짜가 현재 UTC를 사용하고 있다는 변화를 반영하기 위해 업데이트됨.
    * - 10/14/14
-     - Added the :ref:`Rerun a Course` chapter.
+     - :ref:`Rerun a Course` 장이 추가됨.
    * - 10/7/14
-     - Added the :ref:`Including Student Cohorts` chapter.
+     - :ref:`Including Student Cohorts` 장이 추가됨.
        
 *****************
 September 2014
