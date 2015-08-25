@@ -104,7 +104,7 @@
      - :ref:`Add a Content Experiment in OLX` 에 콘텐츠 실험은 수직으로만 지원된다는 주의가 추가됨.
        
 *****************
-2014년 10월
+2014년월
 *****************
 
 .. list-table::
@@ -134,12 +134,12 @@
    * - 10/16/14
      - :ref:`Set Important Dates for Your Course`가 강좌 날짜가 현재 UTC를 사용하고 있다는 변화를 반영하기 위해 업데이트됨.
    * - 10/14/14
-     - :ref:`Rerun a Course` 장이 추가됨.
+     - :ref:`Rerun a Course` 가 추가됨.
    * - 10/7/14
-     - :ref:`Including Student Cohorts` 장이 추가됨.
+     - :ref:`Including Student Cohorts` 가 추가됨.
        
 *****************
-September 2014
+2014년 9월
 *****************
 
 .. list-table::
@@ -149,23 +149,20 @@ September 2014
    * - Date
      - Change
    * - 09/30/14
-     - Added information about accessing edX Insights to the :ref:`Course Data`
-       and :ref:`Enrollment` chapters.
+     - :ref:`Course Data` 와 :ref:`Enrollment` 에 edx Insights에 접근에 관한 정보가 추가됨.
    * - 09/04/14
-     - Updated the :ref:`Discussions` and :ref:`Discussions for Students and
-       Staff` chapters to include information about choosing the type of post
-       and to reflect changes in the user interface.
+     - :ref:`Discussions` 와 :ref:`Discussions 에 게시물의 유형 선택에 관한 정보를 추가하고 사용자 인터페이스에 변경 내용을 반영함.
    * - 09/11/14
-     - Added info about possible problem types to :ref:`Problem with Adaptive Hint`.
+     - :ref:`Problem with Adaptive Hint` 에 가능한 문제 유형에 관한 정보를 추가함.
    * - 
-     - Removed "These problems only allow integers and a few select constants" from table of problem types in :ref:`Create Exercises`.
+     - :ref:`Create Exercises` 에 있는 문제 유형 표에 “이러한 문제는 단지 정수만 허용하며 몇몇은 상수를 선택한다”는 문구가 제거됨. 
    * - 
-     - Added a note about angle bracket characters to the :ref:`Dropdown` topic.
+     - :ref:`Dropdown` 에 괄호 문자에 관한 주석이 추가됨.
    * - 09/26/14
-     - Added :ref:`Molecule Viewer` to :ref:`Create Exercises`
+     - :ref:`Molecule Viewer` 가 :ref:`Create Exercises` 에 추가됨.
 
 **************
-August 2014
+2014년 8월
 **************
 
 .. list-table::
@@ -179,21 +176,18 @@ August 2014
        for new capabilities to publish or hide multiple units 
        from the outline.
    * - 
-     - Added documentation for :ref:`Creating Content Experiments`.
+     - :ref:`Creating Content Experiments`에 도움말 추가함.
    * - 08/22/14
-     - Added warnings about the effects of changing the course grading policy,
-       graded subsections, or graded components after the course begins.
+     - 강좌 시작 후에 강좌 성적 규정, 성적 반영 소주제, 또는 성적 반영 구성요소의 변경이 미치는 효과에 관한 주의사항이  추가됨. 
    * - 08/20/14
-     - Added :ref:`Browsers` to the :ref:`Getting Started Index` section.
+     - :ref:`Browsers` 가  :ref:`Getting Started Index` 에 추가됨.
    * - 08/18/14
-     - Expanded the :ref:`Example Messages to Students` in the :ref:`Launch`
+     - :ref:`Launch` 의 :ref:`Example Messages to Students` 에 내용이 추가됨.
        chapter.
    * - 08/12/14
-     - Updated documentation to address the new publishing workflow and user
-       interface. 
+     - 새로운 게시 처리 과정 및 사용자 인터페이스에 관한 도움말이 추가됨.
 
-       Created a new part, :ref:`Developing Your Course Index`,
-       which contains the following chapters:
+       :ref:`Developing Your Course Index` 에 다음의 장들을 포함하는 새로운 주제가 생성됨.
 
        * :ref:`Getting Started with Course Content Development`
        * :ref:`Developing Your Course Outline`
@@ -205,15 +199,13 @@ August 2014
        * :ref:`Testing Your Course Content`
 
    * - 08/07/14
-     - Added information about reviewing and duplicating the contents of
-       previously-sent messages to the :ref:`Bulk Email` section.
+     - :ref:`Bulk Email` 에 이전에 보낸 메시지의 콘텐츠를 검토하고 복제하는 것에 관한 정보가 포함됨.
    * - 
-     - Updated the :ref:`view_enrollment_count` section to include the
-       breakdown by certification track in the enrollment section.
+     - :ref:`view_enrollment_count` 에 수료증 취득 과정에 관한 정보가 업데이트됨.
+     
 
-.. note::
- In several cases, older links to changed topics were made obsolete by
- subsequent changes.
+.. 참고::
+ 링크로 연결된 주제가 변경되면, 변경 전 내용은 볼 수 없는 경우도 있다.
 
 
 
