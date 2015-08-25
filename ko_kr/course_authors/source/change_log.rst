@@ -3,7 +3,7 @@
 ############
 
 *****************
-February 2015
+2015년 2월
 *****************
 
 .. list-table::
@@ -13,16 +13,16 @@ February 2015
    * - Date
      - Change
    * - 2/13/15
-     - Update the example in :ref:`Drag and Drop Problem XML`.
+     - :ref:`Drag and Drop Problem XML`에 있는 예제가 업데이트됨
    * - 2/12/14
-     - Updated :ref:`LTI Component settings` to reflect added settings.
+     - 추가된 설정들을 반영하기 위해 :ref:`LTI Component settings` to reflect added settings가 업데이트됨.
    * - 2/13/15
-     - Update the example in :ref:`Drag and Drop Problem XML`.
+     - :ref:`Drag and Drop Problem XML`에 있는 예제가 업데이트됨
    * - 2/4/15
-     - Updated :ref:`Create an Account`.
+     - :ref:`Create an Account`가 업데이트됨.
 
 *****************
-January 2015
+2015년 1월
 *****************
 
 .. list-table::
@@ -32,30 +32,29 @@ January 2015
    * - Date
      - Change
    * - 1/27/15
-     - Updated :ref:`Open Response Assessments 2` chapter.
+     - :ref:`Open Response Assessments 2`장이 업데이트됨
    * -
-     - Added :ref:`Making Course Content Searchable` section.
+     - :ref:`Making Course Content Searchable`주제가 추가됨
    * - 1/21/15
-     - Added the :ref:`Cohorted Courseware Overview` section.
+     - :ref:`Cohorted Courseware Overview` section주제가 추가됨.
    * - 1/14/15
-     - Added sections for :ref:`Content Libraries` and :ref:`Randomized Content
+     - :ref:`Content Libraries`와 :ref:`Randomized Content에 대한 주제가 추가됨.
        Blocks`.       
    * - 
-     - Added a section for :ref:`Cohorted Courseware Overview`.
+     - :ref:`Cohorted Courseware Overview` 주제가 추가됨.
    * -      
-     - Updated :ref:`Add Files to a Course` section with information about
-       filtering the list of uploaded files by file type.
+     - 파일 형식에 따라 업데이트된 파일들의 목록을 필터링 하는 것에 대한 정보와 함께 :ref:`Add Files to a Course` 주제가 업데이트됨.
    * - 
-     - Added :ref:`Student Notes Tool`, :ref:`Specify Prerequisite Courses`, 
-       and :ref:`Require an Entrance Exam` sections.
+     - :ref:`Student Notes Tool`, :ref:`Specify Prerequisite Courses` 및
+       :ref:`Require an Entrance Exam`의 주제가 추가됨.
    * - 
-     - Added the :ref:`Google Calendar Tool` and :ref:`Google Drive Files
-       Tool` chapters.
+     - :ref:`Google Calendar Tool`와 :ref:`Google Drive Files
+       Tool`의 주제가 추가됨.
    * - 1/7/15
-     - Added the :ref:`Rerun a Course` chapter.
+     - :ref:`Rerun a Course`의 주제가 추가됨.
 
 *****************
-December 2014
+2014년 12월
 *****************
 
 .. list-table::
@@ -65,23 +64,20 @@ December 2014
    * - Date
      - Change
    * - 12/19/14
-     - Updated :ref:`Adding Course Updates and Handouts` and :ref:`The Visual
-       Editor` to clarify that the visual editor is not supported for course
-       handouts.
+     - 비주얼 편집기가 강좌 자료에 대하여 지원되지 않는다는 점을 명확히 하기 위해 :ref:`Adding Course Updates and Handouts`와 :ref:`The Visual
+       Editor`가 업데이트됨.
    * - 
-     - Added the :ref:`Assign Students to Cohort Groups by uploading CSV`
-       section.       
+     - :ref:`Assign Students to Cohort Groups by uploading CSV`의 주제가 추가됨.     
    * - 12/17/14
-     - Updated :ref:`Custom JavaScript` and :ref:`Multiple Problems in One
-       Component` to indicate that you cannot use a custom JavaScript problem
-       in a component with multiple problems.
+     - 여러 문제를 나타내는 구성요소에 사용자 지정 자바 스크립트 문제를 이용할 수 없다는 점을 나타내기 위해 :ref:`Custom JavaScript'와 :ref:`Multiple Problems in One
+       Component`이 업데이트됨.
    * - 12/02/14
-     - Added email template for :ref:`Weekly Highlights` email to students.
+     - 학습자에게 :ref:`Weekly Highlights` 이메일을 보내기 위한 이메일 템플릿이 추가됨
    * - 
-     - The :ref:`Bulk Email` section is now in the :ref:`Running Your Course Index` chapter.
+     - :ref:`Bulk Email`주제는 이제 :ref:`Running Your Course Index`장에 있음.
 
 *****************
-November 2014
+2014년 11월
 *****************
 
 .. list-table::
@@ -91,29 +87,23 @@ November 2014
    * - Date
      - Change
    * - 11/20/14
-     - Updated the :ref:`compression specifications<Compression
-       Specifications>` for video files.
+     - 동영상 파일 관련 :ref:`compression specifications<Compression
+       Specifications>`이 업데이트됨.
    * - 11/17/14
-     - Updated :ref:`Working with Video Components` to indicate that video
-       transcripts are required.
+     - 비디오 자막이 필요함을 나타내기 위해 :ref:`Working with Video Components`가 업데이트됨.
    * -
-     - Replaced information about accessing student demographic data in the
-       :ref:`Student Data` chapter with a cross-reference to edX Insights.
+     - :ref:`Student Data`장에서 학습자 인구 통계 데이터에 접근하는 것에 관한 정보가 edX Insights를 상호 참조하는 것으로 바뀜.
    * - 11/14/14
-     - Added new documentation for :ref:`using the course wiki<Course_Wiki>`
-       in the :ref:`Running Your Course Index` chapter.
+     - :ref:`using the course wiki<Course_Wiki>`장에서 :ref:`Running Your Course Index` chapter에 대한 새로운 도움말이 추가됨.
    * - 11/13/14
-     - Added additional information in the :ref:`Drag and Drop` chapter.
+     - :ref:`Drag and Drop`장에서 부가적인 정보가 추가됨.
    * - 11/12/14
-     - Corrected the description of the :ref:`Show Answer` setting for
-       problems.
+     - 문제를 위한 :ref:`Show Answer` 설정에 관한 설명이 수정됨.
    * - 
-     - Added note that students can see the **Course Info** page and course-
-       wide discussion topics as soon as they enroll in a course to :ref:`The
-       Course Start Date`.
+     - .:ref:`The
+       Course Start Date`에 학습자가 등록하자마자 강좌 정보 페이지와 강좌 일반 주제들을 살펴볼 수 있다고 추가됨.
    * - 11/07/14
-     - Added a caution that content experiments are only supported within
-       verticals, in :ref:`Add a Content Experiment in OLX`.
+     - :ref:`Add a Content Experiment in OLX`에 콘텐츠 실험은 수직으로만 지원된다는 주의가 추가됨.
        
 *****************
 October 2014
