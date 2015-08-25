@@ -1,5 +1,5 @@
 ############
-변경 기록
+안내서 수정사항 기록
 ############
 
 *****************
@@ -32,13 +32,13 @@
    * - Date
      - Change
    * - 1/27/15
-     - :ref:`Open Response Assessments 2`장이 업데이트됨
+     - :ref:`Open Response Assessments 2` 장이 업데이트됨
    * -
-     - :ref:`Making Course Content Searchable`주제가 추가됨
+     - :ref:`Making Course Content Searchable` 주제가 추가됨
    * - 1/21/15
-     - :ref:`Cohorted Courseware Overview` section주제가 추가됨.
+     - :ref:`Cohorted Courseware Overview` section 주제가 추가됨.
    * - 1/14/15
-     - :ref:`Content Libraries`와 :ref:`Randomized Content에 대한 주제가 추가됨.
+     - :ref:`Content Libraries`와 :ref:`Randomized Content 에 대한 주제가 추가됨.
        Blocks`.       
    * - 
      - :ref:`Cohorted Courseware Overview` 주제가 추가됨.
@@ -48,10 +48,10 @@
      - :ref:`Student Notes Tool`, :ref:`Specify Prerequisite Courses` 및
        :ref:`Require an Entrance Exam`의 주제가 추가됨.
    * - 
-     - :ref:`Google Calendar Tool`와 :ref:`Google Drive Files
-       Tool`의 주제가 추가됨.
+     - :ref:`Google Calendar Tool` 와 :ref:`Google Drive Files
+       Tool` 의 주제가 추가됨.
    * - 1/7/15
-     - :ref:`Rerun a Course`의 주제가 추가됨.
+     - :ref:`Rerun a Course` 의 주제가 추가됨.
 
 *****************
 2014년 12월
@@ -64,17 +64,17 @@
    * - Date
      - Change
    * - 12/19/14
-     - 비주얼 편집기가 강좌 자료에 대하여 지원되지 않는다는 점을 명확히 하기 위해 :ref:`Adding Course Updates and Handouts`와 :ref:`The Visual
-       Editor`가 업데이트됨.
+     - 비주얼 편집기가 강좌 자료에 대하여 지원되지 않는다는 점을 명확히 하기 위해 :ref:`Adding Course Updates and Handouts` 와 :ref:`The Visual
+       Editor` 가 업데이트됨.
    * - 
-     - :ref:`Assign Students to Cohort Groups by uploading CSV`의 주제가 추가됨.     
+     - :ref:`Assign Students to Cohort Groups by uploading CSV` 의 주제가 추가됨.     
    * - 12/17/14
-     - 여러 문제를 나타내는 구성요소에 사용자 지정 자바 스크립트 문제를 이용할 수 없다는 점을 나타내기 위해 :ref:`Custom JavaScript'와 :ref:`Multiple Problems in One
-       Component`이 업데이트됨.
+     - 여러 문제를 나타내는 구성요소에 사용자 지정 자바 스크립트 문제를 이용할 수 없다는 점을 나타내기 위해 :ref:`Custom JavaScript' 와 :ref:`Multiple Problems in One
+       Component` 이 업데이트됨.
    * - 12/02/14
      - 학습자에게 :ref:`Weekly Highlights` 이메일을 보내기 위한 이메일 템플릿이 추가됨
    * - 
-     - :ref:`Bulk Email`주제는 이제 :ref:`Running Your Course Index`장에 있음.
+     - :ref:`Bulk Email` 주제는 이제 :ref:`Running Your Course Index` 장에 있음.
 
 *****************
 2014년 11월
@@ -88,22 +88,22 @@
      - Change
    * - 11/20/14
      - 동영상 파일 관련 :ref:`compression specifications<Compression
-       Specifications>`이 업데이트됨.
+       Specifications>` 이 업데이트됨.
    * - 11/17/14
-     - 비디오 자막이 필요함을 나타내기 위해 :ref:`Working with Video Components`가 업데이트됨.
+     - 비디오 자막이 필요함을 나타내기 위해 :ref:`Working with Video Components` 가 업데이트됨.
    * -
-     - :ref:`Student Data`장에서 학습자 인구 통계 데이터에 접근하는 것에 관한 정보가 edX Insights를 상호 참조하는 것으로 바뀜.
+     - :ref:`Student Data` 장에서 학습자 인구 통계 데이터에 접근하는 것에 관한 정보가 edX Insights를 상호 참조하는 것으로 바뀜.
    * - 11/14/14
-     - :ref:`using the course wiki<Course_Wiki>`장에서 :ref:`Running Your Course Index` chapter에 대한 새로운 도움말이 추가됨.
+     - :ref:`using the course wiki<Course_Wiki>` 장에서 :ref:`Running Your Course Index` chapter에 대한 새로운 도움말이 추가됨.
    * - 11/13/14
-     - :ref:`Drag and Drop`장에서 부가적인 정보가 추가됨.
+     - :ref:`Drag and Drop` 장에서 부가적인 정보가 추가됨.
    * - 11/12/14
      - 문제를 위한 :ref:`Show Answer` 설정에 관한 설명이 수정됨.
    * - 
      - .:ref:`The
-       Course Start Date`에 학습자가 등록하자마자 강좌 정보 페이지와 강좌 일반 주제들을 살펴볼 수 있다고 추가됨.
+       Course Start Date` 에 학습자가 등록하자마자 강좌 정보 페이지와 강좌 일반 주제들을 살펴볼 수 있다고 추가됨.
    * - 11/07/14
-     - :ref:`Add a Content Experiment in OLX`에 콘텐츠 실험은 수직으로만 지원된다는 주의가 추가됨.
+     - :ref:`Add a Content Experiment in OLX` 에 콘텐츠 실험은 수직으로만 지원된다는 주의가 추가됨.
        
 *****************
 October 2014
