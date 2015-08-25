@@ -93,7 +93,7 @@
    * -
      - :ref:`Student Data` 장에서 학습자 인구 통계 데이터에 접근하는 것에 관한 정보가 edX Insights를 상호 참조하는 것으로 바뀜.
    * - 11/14/14
-     - :ref:`using the course wiki<Course_Wiki>` 장에서 :ref:`Running Your Course Index` chapter에 대한 새로운 도움말이 추가됨.
+     - :ref:`using the course wiki<Course_Wiki>` 장에서 :ref:`Running Your Course Index` 에 대한 새로운 도움말이 추가됨.
    * - 11/13/14
      - :ref:`Drag and Drop` 장에서 부가적인 정보가 추가됨.
    * - 11/12/14
