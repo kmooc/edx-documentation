@@ -237,185 +237,134 @@ Best Practices for Custom Content Types
   See :ref:`Best Practices for Describing Images` for details about providing text alternatives for images.
 
 +++++++++++++++++++++++++++++++++++++++++++
-Math content
+수학 콘텐츠
 +++++++++++++++++++++++++++++++++++++++++++
 
-Math in online courses has been challenging to deliver in a way that is accessible to people with vision impairments. 
-Instructors frequently create images of equations rather than including text equations. 
-Math images cannot be modified by people who need a high-contrast display and cannot be read by screen reader software.
-EdX uses MathJax to render math content in a format that is clear, readable, and accessible to people who use screen readers. 
-MathJax works together with math notation, like LaTeX and MathML, to render mathematical equations as text instead of images. 
-We recommend that you use MathJax to display your math content. 
-You can learn more about using MathJax in the MathJax documentation on accessibility (see the link in “Resources” below). 
-We will update these guidelines as improvements to MathJax are developed.
+온라인 강좌에서 수학은 시각 장애가 있는 학습자에게는 참여하기 어려운 과목이었다. 교수자가 텍스트로 방정식을 입력하기 보다는 이미지를 사용하기 때문이다. 수학 이미지는 높은 대비(High-Contrast) 디스플레이가 필요한 이용자들에 의해 수정될 수 없고, 또한 화면 판독 소프트웨어로 읽을 수 없다. K-MOOC는 화면 판독기를 사용하는 이용자가 명확하게 읽을 수 있고 접근할 수 있는 형식으로 수학 콘텐츠를 만드는데 MathJax를 사용하고 있다. MathJax는 이미지 대신 텍스트로 수학 방정식을 만들기 위해 라텍스와 MathML과 같은 수학 표기법으로 작동한다. 이에 MathJax을 사용하여 수학 콘텐츠를 표시하도록 권장한다. 접근성과 관련해 MathJax 설명서에서 MathJax를 사용법을 더 배울 수 있다. 아래의 "자료"에 있는 링크를 참조하면 된다.  
+
 
 ++++++++++++++++++++++++++++++++++++++++++++
-Simulations and interactive modules
+시뮬레이션 및 인터랙티브 모듈
 ++++++++++++++++++++++++++++++++++++++++++++
 
-Simulations, including animated or gamified content, can enhance the learning experience. 
-In particular, they benefit learners who may have difficulty acquiring knowledge from reading and processing textual content alone. 
-However, simulations can also present some groups of learners with difficulties. 
-To minimize barriers, consider the intended learning outcome of the simulation. 
-Is it to reinforce understanding that can also come from textual content or a video lecture, or is it to convey new knowledge that other course resources can’t cover? 
-Providing alternative resources will help mitigate the impact of any barriers.
+애니메이션 또는 게임화된 콘텐츠를 포함하는 시뮬레이션은 학습 경험을 향상시킬 수 있다. 특히, 혼자 텍스트 콘텐츠를 읽고 처리하며 지식을 습득 하는데 어려움이 있는 학습자를 도울 수 있다. 그러나, 시뮬레이션은 또한 일부 그룹의 학습자에게 어려울 수 있다. 장벽을 최소화하기 위해, 시뮬레이션의 의도된 학습 결과를 고려하도록 한다. 뿐만 아니라 대체 자료를 제공한다면 모든 장애물의 부정적인 영향을 완화 하는데 도움이 될 것이다. 
 
-Although you can design simulations to avoid many accessibility barriers, some barriers, particularly in simulations supplied by third parties, 
-may be difficult or impossible to address for technical or pedagogic reasons. 
-Understanding the nature of these barriers can help you provide workarounds for learners who are affected. 
-Keep in mind that attempted workarounds for simulations supplied by third parties may require the supplier’s consent if copyrighted material is involved.
+외부에서 제공하는 시뮬레이션의 경우, 접근성을 높일 대안을 만드는 것이 저작권 문제가 있을 수 있으니 제공 업체의 동의가 필수 적이다. 
 
-Consider the following questions when creating simulations, keeping in mind that as the course instructor, 
-you enjoy considerable freedom in selecting course objectives and outcomes. 
-Additionally, if the visual components of a simulation are so central to your course design, 
-providing alternate text description and other accommodations may not be practical or feasible:
+시뮬레이션을 만들 때는 다음 질문들을 고려하도록 한다. 교수 설계에서 시뮬레이션의 시각적 구성 요소가 핵심적이라면, 대안 텍스트 설명 및 다른 보충자료를 제공하는 것이 실용적이거나 실현 가능하지 않을 수 있다. 
 
-* Does the simulation require vision to understand? If so, provide text describing the concepts that the simulation conveys.
-* Is the mouse necessary to operate the simulation? If so, provide text describing the concepts that the simulation conveys.
-* Does the simulation include flashing or flickering content that could trigger seizures? If so and this content is critical to the nature of the simulation:
- 
-  * do not require learners to use the simulation for a required assessment
-    activity; and
-  * provide a warning that the simulation contains flickering or flashing content.
-
-As best practices continue to emerge in this area, we will update these guidelines.
+* 시뮬레이션을 이해하기 위해 시력이 요구되는가? 그렇다면, 시뮬레이션이 전달하는 개념을 설명하는 텍스트를 제공하도록 한다
+* 시뮬레이션을 작동 하는데 마우스가 필요한가? 그렇다면, 시뮬레이션이 전달하는 개념을 설명하는 텍스트를 제공하도록 한다.
+* 시뮬레이션은 점멸하거나 깜박거리는 콘텐츠를 포함하고 있는가? 그렇다면 이러한 콘텐츠가 시뮬레이션의 특성상 매우 중요하지만,
+  * 학습자가 평가에 반영되는 활동을 하기 위해 이러한 시뮬레이션을 사용하도록 요구하지 않도록 한다.
+  * 시뮬레이션이 점멸성의 깜빡임 또는 깜박이 콘텐츠를 포함하고 있다는 경고를 제공하도록 한다.
 
 ++++++++++++++++++++++++++++++++++++++++++++
-Online exercises and assessments
+온라인 연습 및 평가
 ++++++++++++++++++++++++++++++++++++++++++++
 
-For activities and assessments, consider difficulties students may have in completing an activity and consider using multiple assessment options, 
-keeping in mind that some of the end users have disabilities. 
-Focus on activities that allow students to complete the activity and submit their work without difficulties.
+학습 활동과 평가에 임하는 것이 어려운 학습자가 있을 수 있다. 학습자가 가지게 될 어려움을 고려하도록 하고, 일부 학습자가 장애를 가지고 있을 수 있음을 염두에 두고 여러 평가 옵션을 사용할 것을 고려하도록 한다. 예를 들어, 연습에 시간 제한이 있는 경우, 학습자가 응답하는데 충분한 시간인지를 고려해 보는 것이 좋다. 
 
-Some students take longer to read information and input responses, such as students with visual or mobility impairments and students who need time to comprehend the information. 
-If an exercise has a time limit, consider whether it’s long enough to allow students to respond. Advanced planning may help cut down on the number of students requesting 
-time extensions.
+시각 또는 신체 장애가 있는 학습자 및 정보를 이해하는데 시간이 필요한 학습자와 같이 일부 학습자는 정보를 읽고 응답을 입력하는데 더 오래 걸릴 수 있다. 예를 들어,
 
-Some online exercise question types may be difficult for students who have vision or mobility impairments. For example:
+* 이미지와 매핑된 입력 또는 드래그 앤 드롭 연습과 같이 정교한 손과 눈의 조화를 요구하는 연습은 운동성 제한을 가진 학습자에게 어려울 수 있다. 물론 그러한 세밀한 기술이 강좌에 효과적으로 참여하는데 필수적이지 않는 한 정교한 운동 능력이 요구되지 않는 대안을 고려하도록 한다. 예를 들어, 원자를 화합물로 매핑하는 것은 체크박스 또는 객관식 연습문제로 제공 하도록 한다.
 
-* Exercises requiring fine hand-eye coordination, such as image mapped input or drag and drop exercises, 
-  may present difficulties to students who have limited mobility. Consider alternatives that do not require fine motor skills, unless, of course, 
-  such skills are necessary for effective participation in the course. For example, for a drag-and-drop exercise mapping atoms to compounds, provide a
-  checkbox or multiple-choice exercise.
-
-* Highly visual stimuli, such as word clouds, may not be accessible to students
-  who have visual impairments. Provide a text alternative that conveys the same information, such as an ordered list of words in the word cloud.
+* 시각 장애를 가진 학습자는 word cloud와 같은 시각적 자극에 접근하지 못할 수도 있다. Word cloud 단어들의 순차적인 목록과 같은 동일한 정보를 전달 하는 텍스트 대안을 제공하도록 한다.
 
 ++++++++++++++++++++++++++++++++++++++++++++    
-Third-party content
+외부 콘텐츠
 ++++++++++++++++++++++++++++++++++++++++++++
 
-When including links to third-party content in your course, be mindful as to the accessibility of such third party resources, 
-which may not be readily accessible to learners with disabilities. We recommend that you test any links prior to sharing them with users.
+강좌에 외부 콘텐츠에 대한 링크를 포함할 때는, 장애를 가진 학습자가 쉽게 접근할 수 없을 수도 있으므로 이러한 외부 자료에 대한 접근성에 대해 고려해야 한다. 학습자와 공유하기 전에 모든 링크를 테스트할 것을 권장한다. 
 
-You can use the eReader tool or :ref:`Add Files to a Course` to incorporate third-party textbooks and other 
-publications in PDF format into your course. You can also incorporate such materials into your course in HTML format. 
-See :ref:`Best Practices for Accessible PDFs` for guidance on working with third- party supplied PDFs, and :ref:`Best Practices for HTML Markup` 
-for guidance on creating accessible HTML.
+강좌에 외부 교재 및 기타 출판물을 PDF 형태로 통합하기 위해 eReader 도구 또는 Adding Files to a Course를 사용할 수 있다. 또한 강좌에 HTML 형식으로 그러한 자료를 통합시킬 수 있다. 외부업체에서 제공된 PDF 파일들을 작업하는 것에 대한 지침으로 Best Practices for Accessible PDFs 를 참조하고, 접근할 수 있는 HTML 만들기에 관한 지침으로 Best Practices for HTML Markup을 참조하도록 한다.
 
 
-**Resources**
+**자료**
 
-* Effective Practices for Description of Science Content within Digital Talking Books, from the National Center for Accessible Media, provides best practices for describing graphs, 
-  charts, diagrams, and illustrations: 
+* National Center for Accessible Media에 있는 디지털 도서 내에서 과학 콘텐츠에 대한 설명을 위한 효과적인 사례 (Effective Practices for Description of Science Content within Digital Talking Books)는 그래프, 차트, 다이어그램 및 그림을 설명하기 위한 모범 사례를 제공한다. 
   http://ncam.wgbh.org/experience_learn/educational_media/stemdx
 
-* The University of Washington’s DO-IT project provides guidance on creating accessible math content: 
+* 워싱턴 대학의 DO-IT 프로젝트는 접근성이 높은 수학 콘텐츠를 만드는 방법에 관한 지침을 제공한다.
   http://www.washington.edu/doit/Faculty/articles?465
 
-* AccessSTEM provides guidance on creating accessible science, technology, engineering and math educational content: 
+* AccessSTEM은 접근성이 높은 과학, 기술, 공학 및 수학 교육 콘텐츠를 만드는 지침을 제공한다.
   http://www.washington.edu/doit/Stem/
 
-* The National Center on Educational Outcomes (NCEO) provides Principles and Characteristics of Inclusive Assessment and Accountability Systems: 
+* The National Center on Educational Outcomes (NCEO)는 포함된 평가 및 책임 시스템에 관한 원리와 특성을 제공한다.
   http://www.cehd.umn.edu/nceo/onlinepubs/Synthesis40.html
 
-* MathJax provides guidance on creating accessible pages with the display engine: 
+* MathJax는 디스플레이 엔진 MathJax를 가지고 접근할 수 있는 페이지를 만드는 방법에 대한 지침을 제공한다.
   http://www.mathjax.org/resources/articles-and-presentations/accessible-pages-with-mathjax/
 
 .. _Best Practices for Describing Images:
 
 ====================================================
-Best Practices for Describing Images
+이미지 기술 방법
 ====================================================
 
-Pictures, diagrams, maps, charts, and icons can present information very effectively. 
-However, some visually impaired students, including people who use screen reader software, need text alternatives to understand the information conveyed by these images. 
-The text alternative for an image depends on the image’s context and purpose, and may not be a straight description of the image’s visual characteristics.
+그림, 다이어그램, 지도, 차트, 및 아이콘은 정보를 매우 효과적으로 제시할 수 있다. 그러나, 화면 판독기 소프트웨어를 사용하는 학습자를 포함하여 일부 시각적으로 장애를 가진 학습자는 이러한 이미지에 의해 전달되는 정보를 이해하기 위해서는 텍스트 대안이 필요하다. 이미지에 대한 텍스트 대안은 이미지의 문맥과 목적에 따라 달라지며, 이미지의 시각적 특성에 관한 정확한 설명이 되지 않을 수 있다.
 
-Use the following guidelines when you include images in your course:
+강좌에 이미지를 포함하는 경우 다음 지침을 따르도록 한다.
 
-* Provide a short text description that conveys the purpose of the image, unless the image conveys a concept or is the only source for the information it presents, 
-  in which case a long text description is appropriate. Note that you don’t need to provide a long description if the information appears elsewhere on the page. 
-  For example, you don’t need to describe a chart if the same data appears as text in a data table.
+* 이미지가 개념을 전달하거나 또는 이미지가 제공하는 정보에 대한 유일한 자료인 경우에는 긴 텍스트 설명이 적절하다. 그렇지 않은 경우에는, 이미지의 목적을 전달하는 짧은 텍스트 설명을 제공하도록 한다. 페이지의 다른 곳에 그 정보가 나온다면 긴 자세한 설명을 제공 필요가 없다. 예를 들어 같은 동일한 데이터가 데이터 표에서 텍스트로 나오는 경우, 차트를 설명할 필요가 없다
   
-  * For a representative image, such as a photograph of Ponte Vecchio, a short
-    description could be “Photo of Ponte Vecchio.” If the photograph’s purpose is to provide detailed information about the location, the long description should be more specific: “Photo of Ponte Vecchio showing its three stone arches and the Arno River.”
+  * Ponte Vecchio의 사진처럼 대표적인 이미지에 대해서는 " Photo of Ponte Vecchio."가 그것에 대한 간단한 설명이 될 수 있다. 사진의 목적이 위치에 대한 자세한 정보를 제공하는 경우, "세개의 돌 아치 및 Arno 강 사진을 보여주는 Ponte Vecchio의 사진(Photo of Ponte Vecchio showing its three stone arches and the Arno River)."처럼 길게 더 구체적으로 설명되어야 한다.  
 
-  * For a chart, diagram, or illustration, the short description might be “Diagram of Ponte Vecchio.” The long description should include the details conveyed visually, such as dimensions and materials used.
+  *	차트, 다이어그램 또는 그림에 대해서는, 간단한 설명으로는 "Diagram of Ponte Vecchio."이 될 수 있다. 긴 설명에서는 치수 및 사용된 재료 등과 같이 시각적으로 전달되는 세부 사항들을 포함 해야 한다. 
 
-  * For a map, a short description might be “Map showing location of Ponte Vecchio.” If the map is intended to provide directions to the bridge, the long description should provide text directions.
+  * 지도에 대해서는, 간단한 설명은 " Ponte Vecchio의 위치를 보여주는 지도(Map showing location of Ponte Vecchio)"와 같다. 만일 지도가 다리에 관한 방향 정보를 제공 하려는 경우에는, 자세한 설명은 텍스트 방향 정보를 제공 해야 한다. 
   
-  * For icons, the short description should be the equivalent to the information that the icon provides. For example, for a Course Syllabus link containing a PDF icon, the text equivalent for the icon would be “PDF,” which would be read as “Course Syllabus PDF.”
+  * 아이콘에 대해서는, 간단한 설명은 아이콘이 제공하는 정보와 동일해야 한다. 예를 들어, PDF 아이콘을 포함하는 강좌 계획서(Course Syllabus) 링크에 대해서, 아이콘에 해당하는 텍스트는 "강좌 계획서 PDF.(Course Syllabus PDF.)"으로 읽혀질 수 있는 "PDF"가 될 것이다. 
 
-  * For an image that serves primarily as a link to another web page, the short description should describe the link’s destination, not the image. For example, an image of a question mark that serves as a link to a Help page should be described as “help,” not “question mark.”
+  * 주로 다른 웹 페이지에 대한 링크로 사용되는 이미지에 대해서는, 간단한 설명은 이미지가 아니라 링크의 대상에 대해 설명한다. 예를 들어, 도움말 페이지에 대한 링크로써 제공되는 물음표 이미지는 "물음표.( question mark.)"가 아닌, “도움말.( help,)"로 설명되어야 한다. 
 
-  * Images that don’t provide information don’t need text descriptions. For example, a PDF icon that is followed by link text reading “Course Syllabus (PDF)” does not need a description. Another example is a banner graphic whose function is purely aesthetic.
+  * 정보를 제공하지 않는 이미지는 텍스트 설명이 필요 없다. 예를 들어,  "강좌 계획서 PDF (Course Syllabus (PDF))"라고 읽는 링크 텍스트가 뒤에 따라오는 PDF 아이콘은 설명이 필요 하지 않다. 또 다른 예는 순전히 심미적인 기능을 가진 배너 그래픽들이다. 
   
-* Include the short description in the alt attribute of the HTML image element, as follows (see :ref:`Add an Image to an HTML Component` for more information about adding images):
+* HTML 이미지 요소의 alt 특성에서는 다음과 같은 간단한 설명을 포함하도록 한다. (이미지를 추가하는 것에 대한 자세한 내용은 Add an Image to an HTML Component를 참조하도록 한다.) 
 
   ``<img src="image.jpg" alt="Photo of Ponte Vecchio">``
 
-* Include an empty alt attribute for non-informative images. When image elements do not include an alt attribute, screen reader software may skip the image, announce the image filename, or, in the case of a linked image, announce the link URL. An empty alt attribute tells screen reader software to skip the image.
+* 비정보적인 이미지에 대하여는 빈 alt 특성을 포함하도록 한다. 이미지 요소가 alt 특성을 포함하지 않을 때, 화면 판독기 소프트웨어는 이미지를 건너뛰거나, 이미지 파일 이름을 발표하거나, 또는 링크 이미지의 경우 링크URL을 발표할 수도 있다. 빈 alt 특성은 화면 판독기 소프트웨어에게 이미지를 건너뛰라고 말한다. 
 
   ``<img src="image.jpg" alt="">``
   
-* Consider using a caption to display long descriptions so that the information is available to all users. In the following example, the image element includes the short description as the alt attribute and the paragraph element includes the long description.
+* 긴 설명을 나타내기 위해 자막을 사용 함으로써 모든 학습자가 필요한 정보를 이용할 수 있도록 한다. 다음 예제에서 이미지 요소는 alt 특성(alt attribute)으로써 짧은 설명을 포함하며, 단락 요소는 긴 설명을 포함하고 있다. 
   
   ``<img src="image.jpg" alt="Photo of Ponte Vecchio"><p>Photo of Ponte Vecchio showing its three stone arches and the Arno river</p>``
     
-* Alternatively, provide long descriptions by creating an additional unit or downloadable file that contains the descriptive text and providing a link to the unit or file below the image.
+* 또는, 추가적인 학습활동(additional unit) 또는 설명하는 텍스트를 포함하는 다운로드 가능한 파일을 만들고 해당 이미지 아래쪽에 그 학습활동(unit)이나 파일에 관한 링크를 제공함으로써 자세한 설명을 제공하도록 한다. 
   
   ``<img src="image.jpg" alt="Diagram of Ponte Vecchio"> <p><a href="description.html">Description of Ponte Vecchio Diagram</a></p>``
 
-**Resources**
+**자료**
 
-* A decision tree for choosing appropriate alternative text for images (Dey Alexander): 
+* 이미지 (알렉산더 데이 Dey Alexander)에 대한 적절한 대안 텍스트를 선택하기 위한 의사 결정 트리 (Dey Alexander): 
   http://www.4syllables.com.au/2010/12/text-alternatives-decision- tree/
-* General guidance on appropriate use of alternative text for images (WebAim): 
+* 이미지 (WebAim)에 대한 대안 텍스트의 적절한 사용에 대한 일반적인 지침 (WebAim): 
   http://webaim.org/techniques/alttext/
-* HTML5: A more detailed description of techniques for providing useful alternative text for images: 
+* HTML5: 이미지에 대한 유용한 대안 텍스트를 제공하기 위한 기술에 관한 더 자세한 설명: 
   http://dev.w3.org/html5/alt-techniques/
-* The DIAGRAM Center, established by the US Department of Education (Office of Special Education Programs), provides guidance on ways to make it easier, faster, and more cost effective to create and use accessible images: 
+* 미국 교육부 (특수 교육 프로그램 지부) (US Department of Education (Office of Special Education Programs))에 의해 설립된 다이어그램 센터(The DIAGRAM Center)는 더 빠르고, 더 쉽고, 더 비용 효과적으로 접근할 수 있는 이미지를 만들고 이용하는 방법에 관한 지침을 제공한다. 
   http://www.diagramcenter.org/webinars.html
 
 .. _Best Practices for Accessible Media:
 
 ====================================================
-Best Practices for Accessible Media
+미디어 접근성 높이기
 ====================================================
 
-Media-based course materials help convey concepts and bring course information to life. 
-We require all edX courses to use videos with interactive, screen-reader- accessible transcripts. 
-This built-in universal design mechanism helps enhance your course’s accessibility. 
-When you create your course, you need to factor in time and resources for creating these transcripts.
+미디어 기반 강좌교제는 개념을 전달하고 생활에 강좌 정보를 적용하는데 도움이 된다. 모든 edX 강좌는 화면 판독기 (screen-reader)로 접근할 수 있는 자막이 제공되는 비디오를 사용해야 한다. 이렇게 내재된 universal design 메커니즘은 강좌에 대한 접근성을 향상 시킬 수 있다. 강좌를 만들 때, 자막을 만들기 위해 드는 시간과 자원에 대한 요인들을 고려해야 한다. 
 
 ++++++++++++++++++++++++++++++++++++++++++++  
-Audio transcription
+오디오 자막
 ++++++++++++++++++++++++++++++++++++++++++++  
 
-Audio transcripts are essential for presenting audible content to students who can’t hear and are helpful to students who are not native English speakers. 
-Synchronized transcripts allow students who can’t hear to follow along with the video and navigate to a specific section of the video by clicking the transcript text. 
-Additionally, all students can use transcripts of media-based learning materials for study and review.
+오디오 자막은 들을 수 없는 학습자에게 청취 내용을 제시하는데 필수적이며 영어가 모국어가 아닌 학습자에게 도움이 된다. 동기화된 자막은 들을 수 없는 학습자가 비디오를 따라가거나 자막 텍스트를 클릭하여 비디오의 특정 주제로 탐색할 수 있도록 한다. 또한, 모든 학습자는 연구 및 검토용으로 미디어에 기반한 학습 자료의 자막을 이용할 수 있다. 
 
-A transcript starts with a text version of the video’s spoken content. 
-If you created your video using a script, you have a great start on creating the transcript. 
-Just review the recorded video and update the script as needed. 
-Otherwise, you’ll need to transcribe the video yourself or engage someone to do it. 
-There are many companies that will create timed video transcripts (i.e., transcripts that synchronize the text with the video using time codes) for a fee.
+자막은 비디오의 음성 콘텐츠의 텍스트 버전으로 시작한다. 스크립트를 사용하여 비디오를 만든 경우에는 자막을 만들기가 훨씬 쉽다. 간단히 녹화된 비디오를 검토하고 필요에 따라 자막을 업데이트 하면 된다. 그렇지 않다면, 직접 비디오를 기록하거나, 이런 작업을 할 사람을 구해야 한다. 수수료를 받고 실시간 비디오 자막을 만들어 줄 회사들은 많이 있다 (즉, 시간 코드를 사용하여 비디오와 텍스트가 동기화되는 자막). 
 
-The edX platform supports the use of transcripts in .srt format. 
-When you integrate a video file into the platform, you should also upload the .srt file of the timed transcript for such video. 
+K-MOOC 플랫폼은 .srt 형식으로 자막의 사용을 지원한다. 플랫폼에 비디오 파일을 통합할 때는, 그 비디오에 관한 실시간 자막을 가진 .srt 파일을 또한 업로드 해야 한다. 실시간 자막을 추가하는 방법에 대한 자세한 사항은 Working with Video Components를 참조하도록 한다. 
 See :ref:`Working with Video Components` for details on how to add timed transcripts.
 
 
