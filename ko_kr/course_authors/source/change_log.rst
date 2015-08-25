@@ -99,8 +99,7 @@
    * - 11/12/14
      - 문제를 위한 :ref:`Show Answer` 설정에 관한 설명이 수정됨.
    * - 
-     - .:ref:`The
-       Course Start Date` 에 학습자가 등록하자마자 강좌 정보 페이지와 강좌 일반 주제들을 살펴볼 수 있다고 추가됨.
+     - :ref:`The Course Start Date` 에 학습자가 등록하자마자 강좌 정보 페이지와 강좌 일반 주제들을 살펴볼 수 있다고 추가됨.
    * - 11/07/14
      - :ref:`Add a Content Experiment in OLX` 에 콘텐츠 실험은 수직으로만 지원된다는 주의가 추가됨.
        
