@@ -10,8 +10,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 2/13/15
      - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨.
    * - 2/12/14
@@ -29,8 +29,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 1/27/15
      - :ref:`Open Response Assessments 2` 가 업데이트됨.
    * -
@@ -60,8 +60,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 12/19/14
      - 비주얼 편집기가 강좌 자료에 대하여 지원되지 않는다는 점을 명확히 하기 위해 :ref:`Adding Course Updates and Handouts` 와 :ref:`The Visual
        Editor` 가 업데이트됨.
@@ -83,8 +83,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 11/20/14
      - 동영상 파일 관련 :ref:`compression specifications<Compression
        Specifications>` 이 업데이트됨.
@@ -111,8 +111,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 10/31/14
      - :ref:`Export a Course` 에 강좌를 내보낼 때 포함되는 민감한 정보 또는 라이선스와 관련된 정보에 대한 주의사항이 추가됨.
    * - 10/30/14
@@ -146,8 +146,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 09/30/14
      - :ref:`Course Data` 와 :ref:`Enrollment` 에 edx Insights에 접근에 관한 정보가 추가됨.
    * - 09/04/14
@@ -169,8 +169,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 08/28/14
      - Updated documentation in :ref:`Developing Your Course Index`
        for new capabilities to publish or hide multiple units 
@@ -217,8 +217,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 07/30/14
      - :ref:`Discussions for Students and Staff` 에 게시글, 답글 및 의견을 추가하는 것에 관한 정보를 업데이트함. 
    * - 07/23/14
@@ -245,8 +245,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 06/20/14
      - 강좌 운영팀, 개발자, 연구원, 및 학습자를 위한 자료를 담은 `Preface` 가 추가됨.
    * - 06/18/14    
@@ -269,8 +269,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 05/30/14
      - :ref:`Working with Video Components` 에  .mp4, .webm 동영상 형식 사용을 권장하는 내용이 반영됨.
        
@@ -340,8 +340,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change
+   * - 날짜
+     - 변경
    * - 04/28/14
      - :ref:`Show or Hide the Course Wiki Page` 에 강좌 담당자가 위키 페이지를 숨긴 후에 위키 콘텐츠를 이용할 수 있다는 내용이 추가됨.
    * - 04/26/14
@@ -397,8 +397,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change  
+   * - 날짜
+     - 변경  
    * - 03/31/14 
      - :ref:`Grades` 에
        :ref:`Review_Answers` 가 추가됨.
@@ -450,8 +450,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change  
+   * - 날짜
+     - 변경 
    * - 02/25/14
      - :ref:`Add Files to a Course` 외부 URL 기능을 포함하도록 업데이트됨.
        
@@ -500,8 +500,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change  
+   * - 날짜
+     - 변경  
    * - 01/29/2014
      - :ref:`Google Instant Hangout` 이 추가됨.
    * - 01/24/2014
@@ -545,8 +545,8 @@
    :widths: 10 70
    :header-rows: 1
 
-   * - Date
-     - Change  
+   * - 날짜
+     - 변경  
    * - 12/20/2013
      - :ref:`ORA for Students` 가 교수자가 직접 만들 수 있는 템플릿에 만들어짐.
        customize.
