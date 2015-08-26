@@ -126,7 +126,7 @@
   .. image:: ../../../shared/building_and_running_chapters/Images/image127.png
     :alt: Image of a sample course video
     
-2. **설정** 메뉴에서, **기본 설정** 을 입력한다.
+2. **설정** 메뉴에서, **기본 설정** 을 클릭한다.
 #. **강좌 소개 영상** 이 나타날 때까지 스크롤을 내린다.
 #. 동영상 박스 아래 영역에, YouTube video ID (위 1단계에서 복사한 코드)를 입력한다. 코드를 추가하면, 동영상이 동영상 박스에서 자동으로 재생된다. Studio가 자동으로 변경 사항을 저장한다.
 
@@ -137,125 +137,96 @@
 주별 학습 권장 시간 설정하기
 ************************************
 
-To specify the number of hours that you expect students to spend on the course
-each week, follow these steps.
+다음 순서대로, 매주 학습자가 강좌 학습에 들일 시간을 지정할 수 있다.
 
-#. From the **Settings** menu, select **Schedule & Details**.
-#. Scroll down to the **Requirements** section.
-#. In the **Hours of Effort per Week** field, enter the number of hours you
-   expect students to work on this course each week.
-#. View your course About page to see how the requirements will appear to
-   students.
+#. **설정** 메뉴에서, **기본 설정** 을 클릭한다.
+#. **학습 시간 및 선수 강좌** 가 나타날 때까지 스크롤을 내린다.
+#. **주당 학습 권장 시간** 에 매주 학습자가 강좌 학습에 들일 시간을 입력한다. 
+#. 강좌 소개 페이지에서 학습 권장 시간 등의 수강 조건이 어떻게 나오는지 확인할 수 있다. 
+   
 
 
 .. _Set Course Prerequisites:
 
 ********************************************
-Set Course Prerequisites
+선수 강좌 및 사전 평가 설정하기
 ********************************************
 
-You might want to make sure that your students have a specific set of skills and
-knowledge before they take your course. In addition to suggesting general
-requirements in your course overview, you can require students to :ref:`complete
-specific prerequisite courses<Specify Prerequisite Courses>`, or :ref:`take an
-entrance exam<Require an Entrance Exam>`, or both.
+교수자는 학습자가 강좌를 수강하기 전에, 필요한 사전 지식을 충분히 갖추었는지 확인하고 싶은 경우가 있다. 강좌 개관에서 일반적인 학습 권장 사항을 제안할 뿐만 아니라, 학습자가 특정 선수 강좌를 수료하거나 사전 시험을 통과한 후(take an entrance exam)에만 강좌를 수강할 수 있도록 설정할 수 있다.
 
 
 .. _Specify Prerequisite Courses:
 
 ===================================
-Specify Prerequisite Courses
+선수 강좌 명시하기
 ===================================
 
-You can require that your students pass a particular edX course before they
-enroll in your course. Students see information about course prerequisites on
-the course About page.
+학습자가 강좌에 등록하기 전에 특정 K-MOOC 강좌를 수료하도록 할 수 있다. 학습자는 강좌 소개 페이지에서 선수 강좌에 관한 정보를 볼 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/PrereqAboutPage.png
   :width: 500
   :alt: A course About page with prerequisite course information circled
 
-If students have not completed the prerequisite course, they can enroll in your
-course and then see your course on the Student Dashboard. However, unlike with
-other courses, the Student Dashboard does not provide a link to the courseware.
-The Student Dashboard includes a link to the About page for the prerequisite
-course. Students can enroll in the prerequisite course from the About page.
+학습자가 선수 강좌를 수료하지 않고 수강 신청을 하면, 학습자 대시보드에서 강좌를 볼 수 있지만, 강좌 내용을 볼 수는 없다. 학습자 대시보드에는 선수 강좌의 소개 페이지 링크가 있어 학 습자가 강좌 소개에서 선수 강좌에 등록할 수 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Prereq_StudentDashboard.png
   :width: 500
   :alt: The Student Dashboard with an available course and a course that is
       unavailable because it has a prerequisite
 
-To specify a prerequisite course, you must be a course author in both the
-current course and in the prerequisite course.
+단 선수 강좌 지정을 위해서는, 현재 강좌와 선수 강좌의 강좌 개설자가 같아야 한다.
 
-#. In Studio, open your course.
-#. On the **Settings** menu, select **Schedule & Details**.
-#. On the **Schedule & Details** page, scroll to the **Requirements** section.
-#. Under **Prerequisite Course**, click the drop-down list to select a course.
-#. At the bottom of the page, select **Save Changes**.
+#. Studio에서 강좌를 연다.
+#. **설정** 메뉴에서, **기본 설정** 을 클릭한다.
+#. **기본 설정** 메뉴에서, **학습 시간 및 선수 강좌** 가 나타날 때까지 스크롤을 내린다.
+#. **선수 강좌** 에서 드롭 다운 목록을 클릭해서 강좌를 선택한다.
+#. 페이지 하단에서 **변경 사항 저장** 을 클릭한다.
 
-.. note:: Currently, you can specify only one prerequisite course.
+.. 참고:: 현재 1개 강좌만을 선수강좌로 지정할 수 있다.
 
 
 .. _Require an Entrance Exam:
 
 ===================================
-Require an Entrance Exam
+사전 평가 설정하기 
 ===================================
 
-You can require your students to pass an entrance exam before they access your
-course materials. If you include an entrance exam, students who enroll in your 
-course see only the **Course Updates & News** page and an **Entrance Exam** tab 
-until they pass the exam.
+학습자가 강좌 자료에 접근하기 전에 먼저 사전 평가를 통과하게 할 수 있다. 사전 시험을 설정하는 경우, 강좌를 수강 신청한 학습자는 사전 평가를 통과할 때까지 공지사항과 사전 시험 탭만 볼 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/EntEx_LandingPage.png
   :width: 500
-  :alt: The Course Updates & News page with the Entrance Exam tab circled on the
-      left
+  :alt: 공지사항과 사전 평가 탭이 왼쪽에 동그랗게 표시되어 있다. 
+      
 
 
-After students pass the exam, they can access all released materials in your 
-course. 
+학습자가 사전 평가를 통과하면, 강좌의 모든 자료에 접근할 수 있게 된다.
 
-To require an entrance exam, follow these steps.
+다음 단계에 따라 사전 평가를 설정할 수 있다.
 
-#. In Studio, open your course.
-#. On the **Settings** menu, select **Schedule & Details**.
-#. On the **Schedule & Details** page, scroll to the **Requirements** section.
-#. Select the **Require students to pass an exam before accessing course
-   materials** check box.
-#. At the bottom of the page, select **Save Changes**.
+#. Studio에서 강좌를 연다.
+#. **설정** 메뉴에서, **기본 설정** 을 클릭한다.
+#. **기본 설정** 메뉴에서, **학습 시간 및 선수 강좌** 가 나타날 때까지 스크롤을 내린다.
+#. **수강 시작 전, 사전 평가를 통과해야 합니다.** 체크 박스를 선택한다.
+#. 페이지 하단에서 **변경 사항 저장** 을 클릭한다.
 
-After you save your changes, Studio automatically creates an **Entrance Exam** 
-section in your course outline. To add content to your entrance exam, go to the 
-course outline. 
+변경 내용을 저장한 후, 스튜디오의 강좌 개요에 사전 평가가 추가된 것을 확인할 수 있을 것이다. 사전 평가에 콘텐츠를 추가하려면, 강좌 개요로 이동하면 된다.
 
-Best Practices for Entrance Exams
+사전 평가 활용하기
 ********************************************
 
-We strongly recommend that you follow several guidelines to help you and your
-students have a positive experience with entrance exams.
+사전 평가를 설정하기 전에, 다음을 확인하여 강좌 운영을 더욱 효과적으로 할 수 있길 바란다.
 
-* Make sure that your beta testers include the entrance exam when they test your
-  other course content.
+* 베타 테스터가 교수자의 다른 강좌 콘텐츠를 테스트하는 경우, 입학 시험도 꼭 확인하도록 한다.
 
-* Make sure that you mention the entrance exam in the course description on your
-  course About page. Otherwise, students will not know about the entrance exam
-  before they enroll in your course and try to access course content.
+* 강좌 소개 페이지에 있는 강좌 설명에서 사전 평가를 언급했는지 확인한다.
+그렇지 않으면, 학습자가 수강신청하기 전에 사전 평가에 관해 모른 상태에서 강좌 콘텐츠에 접근하려고 시도할 것이다.
 
-* Add an anouncement at the top of the **Course Updates & News** page that
-  contains information and instructions for students who need to take the exam.
-  When students first try to access content in a course that has an entrance
-  exam, they see the **Course Updates & News** page. We suggest that you include
-  the following information.
+* 공지사항 페이지의 상단에 사전 시험에 임할 학습자를 위한 정보 및 지침을 추가한다. 
+공지사항 페이지의 상단에 사전 시험에 임할 학습자를 위한 정보 및 지침을 추가한다. 학습자는 강좌에서 가장 먼저 공지사항 페이지를 보기 마련이다. 이에 다음의 정보를 포함하는 것이 좋다.
 
-  * To begin the course entrance exam, students click the **Entrance Exam** tab
-    on the left side of the screen.
+  * 강좌의 사전 평가를 시작하려면, 학습자는 화면 왼쪽에 있는 **사전 평가** 탭을 클릭한다.
 
-  * After students complete the entrance exam, they have to click the **Entrance
-    Exam** tab again or refresh the page in their browser. When the page
-    refreshes, students can see all currently available course content.
+  * 사전 평가를 완료한 학습자는 사전 평가 탭을 다시 클릭하거나 또는 브라우저에서 페이지를 새로 고침 해야 한다. 페이지가 새로 고쳐지면, 학습자는 현재 이용할 수 있는 모든 강좌 콘텐츠를 볼 수 있다.
 
     .. image:: ../../../shared/building_and_running_chapters/Images/EntEx_CourseAccordionAfterPass.png
       :width: 500
@@ -263,19 +234,15 @@ students have a positive experience with entrance exams.
           with all available course sections listed in the course accordion
 
 
-Create an Entrance Exam from the Course Outline
+강좌 개요에서 사전 평가 만들기
 **************************************************
 
-You create your course entrance exam from the course outline in Studio. Creating
-entrance exam content is just like creating other course content. For more
-information, see :ref:`Creating Course Content Index`.
+스튜디오에 있는 강좌 개요에서 강좌 사전 평가를 만든다. 사전 평가 콘텐츠를 만드는 것은 다른 강좌 콘텐츠를 만드는 것과 같다. 더 자세한 내용은 :ref:`Creating Course Content Index` 에서 확인할 수 있다.
 
-Adjust Scores in the Entrance Exam
+사전 평가에서 점수 조정하기
 ********************************************
 
-If you find an error in the exam after students have taken it, and corrections
-to the exam are unavoidable, you have several options to rescore the exam for
-individual students. These options are available on the Instructor Dashboard.
+학습자가 시험을 치르고 난 후 시험에 있는 오류를 발견할 경우, 교수자 및 강좌 운영팀이 시험 수정을 피할 수 없는데 이 경우 개별 학습자의 채점을 위해 몇 가지 선택 사항이 있다. 이는 교수자 대시보드에서 이용할 수 있다.
 
 On the Instructor Dashboard, click **Student Admin**, and then scroll to the
 **Entrance Exam Grade Adjustment** section. The following options are available.
