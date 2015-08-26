@@ -63,76 +63,61 @@ XML에서 강좌를 편집할 때 이 기능을 이용하면 된다.
 
 강좌를 만들면, 강좌가 Studio에서 자동으로 열리게 되며 교수자 및 강좌 운영팀은 편집을 시작할 수 있다.
 
-When you return to Studio later, the Studio **My Courses** dashboard page lists
-the courses that you create along with any courses for which you have course
-staff privileges.
+Studio의 **강좌** 대시보드에는 강좌 관리 권한을 가지고 있는 모든 강좌 목록이 나타난다.
 
  .. image:: ../../../shared/building_and_running_chapters/Images/open_course.png
   :alt: Image of the course on the Studio dashboard
  
-To open a course, click the course name. The Studio **Course Outline** page
-appears.
+강좌명을 클릭하면 강좌가 열린다. **강좌 개요** 페이지를
+볼 수 있을 것이다.
 
 .. _Use the Course Checklist:
 
 ************************
-Use the Course Checklist
+준비 점검하기
 ************************
 
-You can use a Course Checklist within Studio to help you work through the tasks
-of building a course.
+Studio의 강좌 준비 점검 메뉴를 이용하면, 강좌에 필요한 부분을 체계적으로 준비할 수 있다. 
+다음 준비 점검의 네 범주에 있는 세부 작업을 하나씩 완료해가면 된다.
 
-Categories of tasks in the Course Checklist include:
+* Studio 시작하기
+* 강좌 개요 초안 만들기
+* KMOOC의 지원 도구 보기
+* 강좌 안내 작성하기
 
-* Getting Started with Studio
-* Draft a Rough Course Outline
-* Explore edX's Support Tools
-* Draft Your Course About Page
-
-From the **Tools** menu, select **Checklists**.
+먼저, **도구** 메뉴에서, **준비 점검** 을 클릭한다.
 
  .. image:: ../../../shared/building_and_running_chapters/Images/checklist.png
   :alt: Image of the course checklist
  
 
-As shown above for the **Add Course Team Members** task, if you hover over a
-task, a button is displayed that takes you to the page to complete that task.
+위에 표시된 것처럼 강좌 운영팀 구성원 추가 항목에 마우스를 가져가면, 작업을 완료하기 위한 페이지로 이동할 수 있는 버튼이 표시된다. 
 
-You can expand and collapse sections of this page as needed.
+강좌 운영팀은 준비 점검의 각 항목을 접거나 펼칠 수 있다.
 
-You can check tasks as you complete them. Studio saves your changes
-automatically. Other course staff can see your changes.
+또한 작업을 완료하면 완료된 작업을 체크할 수 있다. Studio는 자동으로 변경 사항을 저장하며, 강좌 운영팀의 다른 구성원이 변경 사항을 볼 수 있다.
 
 .. _Add Course Team Members:
 
 ************************
-Add Course Team Members
+강좌 운영팀 구성원 추가하기
 ************************
 
-Course team members are users who help you build your course.
+교수자 권한을 가진 팀 구성원만 강좌 운영팀 구성원을 추가 또는 삭제할 수 있고, 다른 운영팀 구성원에게 교수자 권한을 부여할 수 있다. 
 
-Only a team member with Admin access can add or remove course team members, or
-grant Admin access to other team members.
+강좌 운영팀 구성원은 강좌를 편집할 수 있으며, 교수자가 할 수 있는 운영팀 구성원 추가 및 삭제하기와 관리자 권한 부여하기를 제외한 모든 관리 작업을 수행할 수 있다.
 
-Other course team members can edit the course and perform all tasks except
-adding and removing other new team members and granting Admin access.
+.. 참고:: 모든 강좌 운영팀 구성원은 다른 구성원이 만든 콘텐츠를 삭제할 수 있다.
 
-.. note::  Any course team member can delete content created by other team
- members.
+모든 구성원은 Studio에 가입해야 하며, 활성화된 계정을 가지고 있어야 한다. .
 
-All course team members must be registered with Studio and have an active
-account.
+강좌 운영팀 구성원을 추가하려면,
 
-To add a course team member:
+#. 교수자 권한이 있는 이용자가 먼저 로그인하고,
+#. 새로 추가할 구성원이 Studio에 가입하였는지 확인한 후,
+#. **설정** 메뉴에서, **강좌 운영팀** 을 선택한다. 
+#. **신규 구성원 추가** 를 클릭한다.
+#. 새로 추가할 구성원의 이메일 주소를 입력하고, **구성원 추가** 를 클릭한다.
 
-#. Ensure you have Admin access.
-#. Ensure that the new team member has registered with Studio.
-#. From the **Settings** menu, select **Course Team**.
-#. Click **Add a New Team Member**.
-#. Enter the new team member's email address, then click **ADD USER**.
-
-You can also assign privileged roles to users when you work in the LMS.
-Regardless of where the role is assigned, these administrative team members can
-work on your course in both the LMS and in Studio. For more information on
-assigning roles while you run your course, see
-:ref:`Course_Staffing`.
+학습 관리 시스템에서도 관리 권한을 부여할 수 있다. 권한이 부여된 곳에 상관없이, 권한을 받은 운영팀 구성원 모두는  학습 관리 시스템과 Studio에서 관리 작업을 할 수 있다. 권한을 부여하는 것에 대한 보다 자세한 정보는, 
+:ref:`Course_Staffing` 을 참고하길 바란다.
