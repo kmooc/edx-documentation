@@ -1,19 +1,16 @@
 .. _Add Files to a Course:
 
 ###########################
-Adding Files to a Course  강좌에 파일 추가하기
+강좌에 파일 추가하기
 ###########################
 
-To use images in your course content, or to use other documents such as a
-syllabus, you must upload the files to the **Files and Uploads** page, then link
-to the uploaded files from a component in your course.
+강좌 콘텐츠에 이미지를 사용하거나 강좌 계획서와 같이 다른 소프트웨어로 작성한 문서를 사용하려면, 강좌 운영팀은 **파일 업로드**  페이지에 해당 파일을 업로드 한 다음 강좌에 있는 구성 요소에서 업로드 된 파일을 링크해야 한다.
 
 *******************
-Overview  개요
+개관
 *******************
 
-You can manage your uploaded course files on the **Files and Uploads** page
-under the **Content** menu in Studio.
+스튜디오에서 **콘텐츠** 메뉴 아래에 있는**파일 업로드** 에 업로드 된 강좌 파일을 관리할 수 있다.
 
 * :ref:`Upload a File`
 * :ref:`File URLs`
@@ -27,22 +24,16 @@ under the **Content** menu in Studio.
 .. _Upload a File:
 
 *******************
-Upload a File   파일올리기
+파일올리기
 *******************
  
-You can upload files that you want students to access in the course. After you
-upload a file, you can link to it from a component, from a course update, or in
-the course handouts, using the generated URLs on the **Files and Uploads** page.
-Students can see a file only if you create a link to it.
+강좌에 학습자가 접근하기 원하는 파일을 업로드할 수 있다. 파일을 업로드 한 후, **파일 업로드** 페이지에서 생성된 URL을 사용하여 강좌 구성요소, 강좌 업데이트 또는 학습 자료 페이지에 파일을 연결할 수 있다. 학습자는 강좌 운영팀이 파일에 대한 링크를 만들 경우에만 파일을 볼 수 있다. 
 
-.. note:: When URLs are generated for uploaded files, the file name becomes part
-   of the URL and is visible to students when they access the file. You should
-   avoid using file names that contain information about the file contents that
-   should not be shared, for example, Answerkey.pdf.
+.. 참고:: 업로드된 파일에 대한 URL이 생성되면 파일 이름은 URL의 일부가 되고 학습자가 파일에 접근할 때 볼 수 있게 된다. 
+주의할 점은 예를 들어 Answerkey.pdf와 같이, 공유해서는 안 되는 콘텐츠에 관한 정보를 포함하는 파일 이름 사용을 피해야 한다는 것이다. 
 
-.. warning::
-   For PDF and image files, edX recommends that you use standard compression
-   tools to reduce the file size before you add them to your course.
+.. 주의::
+   PDF, 이미지 등 학습 자료가 많을 경우 파일 크기를 줄이기 위해 압축을 권장한다.
 
    If you have files that are larger than 50 MB after compression and need them
    for your course, contact your edX program manager.
