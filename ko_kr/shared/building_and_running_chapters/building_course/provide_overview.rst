@@ -244,74 +244,58 @@
 
 학습자가 시험을 치르고 난 후 시험에 있는 오류를 발견할 경우, 교수자 및 강좌 운영팀이 시험 수정을 피할 수 없는데 이 경우 개별 학습자의 채점을 위해 몇 가지 선택 사항이 있다. 이는 교수자 대시보드에서 이용할 수 있다.
 
-On the Instructor Dashboard, click **Student Admin**, and then scroll to the
-**Entrance Exam Grade Adjustment** section. The following options are available.
+교수자 대시보드에서 **학습자 관리** 를 클릭하고, 
+**사전 평가 성적 조정** 이 보일 때까지 스크롤을 내리면 다음 사항을 선택할 수 있다.
 
-* **Reset Student Attempts**: Reset the value for one particular student's
-  attempts back to zero so that the student can begin work over again. For more
-  information, see :ref:`reset_attempts`.
+* **학습자의 응시 횟수 재설정**: 특정 학습자가 다시 시험을 치를 수 있도록, 해당 학습자의 응시 횟수를 0으로 되돌린다. 
+더 자세한 정보는 :ref:`reset_attempts` 에서 볼 수 있다.
 
-* **Rescore Student Submission**: Rescore the responses that a student has
-  submitted. For more information, see :ref:`rescore`.
+* **학습자 제출 답안 재채점**: 학습자가 제출한 답안을 재채점한다.
+  더 자세한 정보는 :ref:`rescore` 에서 볼 수 있다. 
 
-* **Delete Student State for Problem**: Delete a student's entire history for
-  the exam from the database. For more information, see :ref:`delete_state`.
+* **문제에 대한 학습자 상태 삭제**: 데이터베이스에서 시험에 대한 학습자의 전체 기록을 삭제한다. 더 자세한 정보는 :ref:`delete_state` 에서 볼 수 있다. 
 
-Another option on the Instructor Dashboard is **Show Background Task History for
-Student**. If you reset student attempts, rescore student submissions, or delete
-student state, the operation runs in the background. If you want to see a record
-of all the operations that have run for the entrance exam, select **Show
-Background Task History for Student**.
+교수자 대시보드에서 선택 가능한 다른 사항은 **학습자 배경 작업 기록 표시하기** 다. 교수자 및 강좌 운영팀이 학습자의 응시 횟수를 재설정하거나, 학습자가 제출한 것을 재채점하거나, 또는 학습자의 상태를 삭제하는 경우, 이러한 작업은 백그라운드에서 실행된다. 사전 평가에 대하여 실행한 모든 작업의 기록을 보려는 경우, **학습자 배경 작업 기록 표시하기** 를 선택한다.
 
 
 
 .. _Set Important Dates for Your Course:
 
 ***********************************
-Set Important Dates for Your Course
+주요 일정 설정하기
 ***********************************
 
-You must set dates and times for enrollment and for the course.
+교수자 및 강좌운영팀은 수강신청일, 개강일 등의 강좌의 주요 일정 및 시간을 설정해야 한다.
 
-#. In Studio, from the **Settings** menu, select **Schedule and Details**.  
-#. Follow the on-screen text to enter the course and enrollment schedule.
+#. Studio의 **설정** 메뉴에서, **기본 설정** 을 클릭한다. 
+#. 일정을 입력하기 위해 화면의 텍스트를 따른다. 
 
    .. image:: ../../../shared/building_and_running_chapters/Images/schedule.png
     :width: 450
     :alt: An image of the course schedule page.
 
 
-.. note:: The **Time** fields on this page, and the times that students 
- see, use Universal Coordinated Time (UTC).
+.. 참고:: K-MOOC에서는 **시간** 설정시, Universal Coordinated Time (UTC)을 따르도록 하고 있다. 
 
 .. _The Course Start Date:
 
 =======================
-The Course Start Date
+강좌 시작일 설정하기
 =======================
 
 
-.. note:: The default course start date is set far into the future, to
- **01/01/2030**. This is to ensure that your course does not start before
- you intend it to. You must change the course start date to the date you want
- students to begin using the course.
+.. 참고:: 기본 강좌 시작 날짜는 **01/01/2030** 의 먼 미래로 설정되어 있다. 이것은 강좌 운영팀이 의도하기 전에 강좌가 시작되지 않도록 하기 위함이다. 학습자가 강좌 이용을 시작하기 원하는 날짜로 강좌 시작 날짜를 변경 해야 한다.
 
-Students see the course start date and time on their **Current Courses**
-dashboards and on the course About page. Students can see some parts of the
-course before the course start date. For example, students can see your **Course
-Info** page and course-wide discussion topics as soon as they enroll in your
-course. For more information about course-wide discussion topics, see
-:ref:`Create CourseWide Discussion Topics`.
+학습자는 **수강중인 강좌** 대시보드 및 강좌 소개 페이지에서 강좌 시작 날짜와 시간을 참조한다. 강좌 시작 날짜 전에 학습자는 강좌의 일부를 볼 수 있다. 예를 들어 학습자는 강좌에 등록한 후 즉시 공지사항 메뉴와 강좌 일반 주제를 볼 수 있다.  강좌 일반 주제에 대한 더 자세한 내용은 :ref:`Create CourseWide Discussion Topics` 에서 확인할 수 있다.
 
-The following example shows the course start date and time on the course About
-page:
+
+다음 예제는 강좌 소개(About) 페이지의 강좌 시작 날짜와 시간을 보여준다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-start.png
  :width: 600
  :alt: An image of the course About page, with the start date circled.
 
-In the dashboard, students see the start dates and times for each of their
-courses, as in the following examples.
+다음 예제와 같이, 대시보드에서 학습자는 각 강좌의 개강일을 보게 된다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-to-start.png
  :width: 600
@@ -325,17 +309,14 @@ courses, as in the following examples.
 .. _Set the Advertised Start Date:
 
 ======================================
-Set the Advertised Start Date
+대략적인 개강 시기 설정하기
 ======================================
 
-You can set an advertised start date for your course that is different than the
-course start date you set in the **Schedule and Details** page. You may want to
-do this if there is uncertainty about the exact start date. For example, you
-could advertise the start date as **Spring, 2014**.
+실제 개강일이 아닌 대략적인 개강 시기만을 화면에 나오게 할 수도 있다. 강좌의 정확한 개강일이 불확실할 때 유용한 방법이다. 예를 들어, **2014년 봄** 과 같이 알릴 수 있는 것이다. 
 
-To set an advertised start date:
+이를 위해서는,
 
-#. From the **Settings** menu, select **Advanced Settings**.
+#. Studio의 **설정** 메뉴에서, **고급 설정** 을 클릭한다. 
 #. Find the **Course Advertised Start Date** policy key. The default value is
    **null**.
 #. Enter the value you want to display as the advertised start date. You can
@@ -365,37 +346,29 @@ the course has not yet started.
 .. _The Course End Date:
 
 =====================
-The Course End Date
+강좌 종료일 설정하기 
 =====================
 
-The course end date is the date after which students can no longer earn credit
-toward certificates. Students who have earned certificates can view them after
-the course end date.
+강좌 종료 날짜는 학습자가 그 날짜 이후에 더 이상 수료증을 받을 수 없음을 의미한다. 수료증을 취득한 학습자는 강좌 종료일 후에도 강좌를 볼 수 있다.
 
-.. important::
- If you do not set a course end date, students will not be able to access
- earned certificates.
+.. 중요::
+강좌 종료 날짜를 설정 하지 않을 경우, 학습자는 취득한 수료증에 접근할 수 없다.
 
-After grades and certificates are finalized, students see the course end date
-on their personal **Current Courses** dashboards, as shown in the following
-examples.
+성적 및 수료증을 취득한 학습자는 다음 예제에서 보여주는 것처럼 **개별 대시보드** 에서 강좌 종료일을 보게 된다.
 
-* If grades and certificates are not yet finalized, students can see the course
-  end date and a message:
+* 성적 및 수료증 취득이 아직 확정되지 않은 경우, 학습자는 다음과 같은 메시지를 볼 수 있다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-wrapping-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
      been graded
 
-* When grades and certificates are finalized, students who have not earned a
-  certificate see their score and the score required to earn a certificate:
-  
+* 성적 및 수료증 취득이 확정된 경우, 학습자는 다음과 같은 메시지를 볼 수 있다.
+
   .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-no-cert-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
      been graded
 
-* Students whose final score is equal to or higher than the required score can
-  click **Download Certificate** to get their certificates as PDFs:
+* 수료증 취득 기준 점수와 같거나 더 높은 최종 점수를 얻은 학습자는 PDF로 수료증을 발급받기 위해 **인증서 다운로드하기** 를 클릭할 수 있다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-completed-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
