@@ -97,50 +97,32 @@ Groups` 에서 볼 수 있다.
 특정 콘텐츠 그룹에게만 구성 요소 공개하기
 *****************************************************************************
 
-After you create at least one content group, you can edit your course in Studio
-and modify the visibility settings of components that you want to make visible
-only to particular content groups.
+최소 하나의 콘텐츠 그룹을 생성한 후, 스튜디오에서 강좌를 편집하고, 특정 콘텐츠 그룹만 보길 원하는 구성 요소의 공개 설정을 수정할 수 있다.
 
-.. note:: You do not need to edit the visibility settings of components that are
-   intended for all students. Components that you do not explicitly indicate as
-   visible to a group are visible to all students enrolled in your course,
-   regardless of the cohort that they belong to.
+.. note:: 모든 학습자가 볼 수 있기를 원하는 구성 요소에 대해서 공개 설정을 편집할 필요는 없다. 어떤 집단이 볼 수 있도록 분명하게 명시하지 않은 구성 요소는 학습자가 속해 있는 학습 집단에 상관 없이 강좌에 등록한 모든 학습자가 볼 수 있다.
 
-You can specify content as visible to content groups only at the component level
-in a unit. You cannot specify entire units, subsections, or sections for
-visibility to content groups.
+학습 활동의 구성 요소 수준에서 콘텐츠 그룹만 볼 수 있는 콘텐츠를 지정할 수 있다. 모든 학습 활동, 소주제, 주제를 콘텐츠 그룹만 볼 수 있도록 지정할 수는 없다.
 
-In a separate task, you create cohorts and associate content groups with
-cohorts. Then, only the cohorts associated with content groups which you
-selected in a component's visibility settings can view the component. See
-:ref:`Associate Cohorts with Content Groups` for details about associating
-cohorts with content groups.
+과제를 구분하기 위해, 학습 집단을 생성하고 콘텐츠 그룹과 학습 집단을 결합해야 한다. 다음으로 구성 요소 공개 설정에서 선택한 콘텐츠 그룹에 결합된 학습 집단만이 구성 요소를 볼 수 있다. 학습 집단을 콘텐츠 그룹에 결합시키는 세부적인 사항은 학습 집단을 콘텐츠 그룹에 결합하기 :ref:`Associate Cohorts with Content Groups` 에서 확인할 수 있다.
 
-To specify components as visible only to particular content groups, follow these
-steps.
+특정 콘텐츠 그룹만 볼 수 있도록 구성 요소를 지정하기 위해, 다음의 절차를 따른다.
 
-#. In Studio, select **Content**, then select **Outline**. 
+#. 스튜디오에서 **콘텐츠** 를 선택한 후, **강좌 개요** 를 선택한다. 
    
-#. For each component that you want to make visible only to a particular
-   content group or groups, click the unit name, then click the **Visibility
-   Settings** icon.
+#. 특정 콘텐츠 그룹만 볼 수 있도록 설정하고자 하는 구성 요소의 학습 활동 이름을 클릭한 후, **공개 설정** 아이콘을 클릭한다.  
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Cohorts_VisibilitySettingInUnit.png
   :alt: Screen capture of unit in course outline with visibility setting icon highlighted 
 
-3. In the **Editing visibility** dialog, select **Specific Content Groups**,
-   then select the checkbox for each content group for which you want the current
-   component to be visible.
+3. **공개 설정 편집** 창에서, **특정 콘텐츠 그룹** 을 선택하고 현재 구성 요소를 볼 수 있도록 설정하고자 하는 콘텐츠 그룹의 체크 박스에 체크한다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Cohorts_EditVisibility.png
   :width: 400
   :alt: Screen capture of unit in course outline with visibility setting icon highlighted 
 
-4. Click **Save**.
+4. **저장** 을 클릭한다.
 
-The **Visibility Settings** icon for the component is now black, and the
-publishing details for the course section in the sidebar refresh to indicate
-that some content is visible only to particular groups.
+구성 요소의 **공개 설정** 아이콘이 검정색으로 변하고, 사이드 바(sidebar)의 강좌 영역의 세부 사항이 일부 콘텐츠가 특정 그룹에게만 공개된다는 최신 정보로 업데이트 된다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Cohorts_VisibilitySomeGroup.png
    :alt: Visibility icon is black when visibility for a component is restricted
@@ -148,109 +130,81 @@ that some content is visible only to particular groups.
 .. image:: ../../../shared/building_and_running_chapters/Images/Cohorts_OnlyVisibleToParticularGroups.png   
    :alt: Course outline sidebar shows visibility icon and note indicating that some content in the unit is visible only to particular group.
 
-For details about previewing your course to ensure that students in a cohort
-correctly see the content intended for them, see :ref:`Preview Cohort Specific
-Courseware`.
+학습집단에 속해 있는 학습자가 의도한 바와 같이 정확히 콘텐츠를 볼 수 있는지 확인하기 위한 미리 보기는, 학습집단별 강좌 내용 미리 보기 :ref:`Preview Cohort Specific Courseware`  
 
-.. note:: In addition to visibility settings for content groups, a student's
-   ability to see a course component also depends on whether it is hidden from
-   students, whether the unit is published, and the course's release date. For
-   details about previewing courseware in general, see :ref:`Preview Course
-   Content`.
+.. note:: 콘텐츠 그룹의 공개 설정 외에도 학습자에게 학습 활동을 숨길지, 강좌 공개일에 맞춰 학습활동을 공개할지를 설정할 수 있다. 일반적인 코스웨어 미리 보기에 대한 자세한 사항은 강좌 콘텐츠 미리 보기 :ref:`Preview Course Content` 에서 확인할 수 있다.   .
 
 .. _Associate Cohorts with Content Groups:
 
 *************************************
-Associate Cohorts with Content Groups
+학습집단을 콘텐츠 그룹에 결합하기
 *************************************
 
-After you create a content group, you can associate it with one or more cohorts
-with which you want to share the same special content in your course.
+콘텐츠 그룹을 생성한 후, 특정 콘텐츠를 강좌에서 공유하고자 하는 하나 이상의 학습집단과 콘텐츠 그룹을 결합할 수 있다.
 
-.. note:: A content group can be associated with more than one cohort; a cohort
-   cannot be associated with more than one content group.
+.. note:: 콘텐츠 그룹은 하나 이상의 학습집단과 결합될 수 있지만, 학습집단은 하나 이상의 콘텐츠 그룹에 결합될 수 없다.
 
-To associate a cohort with a content group, follow these steps:
+학습집단을 콘텐츠 그룹에 결합시키기 위해서는 다음의 절차를 따른다.
 
-#. In the LMS, select **Instructor**, then select **Membership**. 
+#. LMS에서 **교수자** 를 선택한 후 **회원**을 선택한다. 
    
-#. Scroll to the **Cohort Management** section at the bottom.
+#. 하단의 **학습집단 관리** 를 찾는다. 
 
-#. From the drop down list, select the cohort to which you want to associate
-   your content group.
+#. 드롭다운 목록에서, 콘텐츠 그룹에 결합시키고자 하는 학습집단을 선택한다.
    
-#. Click the **Settings** tab for the selected cohort.
+#. 학습집단을 선택하기 위해 **설정** 을 클릭한다.
 
-#. Under **Associated Content Group**, choose the **Select a Content Group** option.
+#. **콘텐츠 그룹 결합**에서, **콘텐츠 그룹 선택** 옵션을 고른다. 
 
-#. From the drop down list, select the content group that you want your cohort
-   to be associated with.
+#. 드롭다운 목록에서, 학습집단을 결합시키고자 하는 콘텐츠 그룹을 선택한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Cohorts_AssociateWithContentGroup.png
    :alt: Visibility icon is black when visibility for a component is restricted
 
-7. Click **Save**.
+7. **저장** 을 클릭한다.
    
-   You have now associated your content group with a cohort. Any course content
-   that you :ref:`designate as visible to that content group<Specify Components
-   in Courseware as Visible Only to Certain Content Groups>` is visible to
-   students in the associated cohort or cohorts.
+   이후 콘텐츠 그룹과 학습 집단이 결합된다. 이 콘텐츠 그룹에만 공개되도록 설정된 강좌의 콘텐츠들 :ref:`designate as visible to that content group<Specify Components in Courseware as Visible Only to Certain Content Groups>` 은 결합된 학습 집단과 기존의 학습 집단에 속한 학습자에게 공개된다.
 
-You can associate additional cohorts with the same or a different content group
-by repeating steps 3 to 7.
+다른 학습 집단을 동일 콘텐츠 그룹이다 또 다른 콘텐츠 그룹에 결합시키기 위해서는 위의 3.에서 7.의 단계를 반복하면 된다.
 
-For an example of using content groups to create cohort-specific courseware, see
-:ref:`Cohorted Courseware Example`.
+콘텐츠 그룹을 사용하여 학습 집단별 강좌 내용을 생성하는 예는 예시: 학습 집단별 강좌 내용 :ref:`Cohorted Courseware Example` 을 본다. 
 
 
 .. _Preview Cohort Specific Courseware:
 
 *************************************
-Preview Cohort-Specific Courseware
+학습집단별 강좌 내용 미리 보기
 *************************************
 
-After you designate components in your course as being visible only to certain
-content groups, you can preview your courseware to ensure that each group
-correctly sees the content intended for them.
+특정 콘텐츠 그룹만 볼 수 있도록 강좌의 구성 요소를 지정한 후, 각 그룹이 의도한 바와 같이 학습 내용을 올바르게 볼 수 있는지 확인하기 위해 미리 보기를 할 수 있다
 
-.. note:: In addition to visibility settings for content groups, a student's
-   ability to see a course component also depends on whether it is hidden from
-   students, whether the unit is published, and the course's release date. For
-   details about previewing courseware in general, see :ref:`Preview Course
-   Content`.
+.. note:: I콘텐츠 그룹의 공개 설정 외에도 학습자에게 학습 활동을 숨길지, 강좌 공개일에 맞춰 학습활동을 공개할지를 설정할 수 있다. 일반적인 코스웨어 미리 보기에 대한 자세한 사항은 강좌 콘텐츠 미리 보기 :ref:`Preview Course Content` 에서 확인할 수 있다. 
 
-You can view the course as a member of these groups:
+아래는 강좌에서 역할에 따라 볼 수 있는 내용에 대한 것이다:
 
 
 .. list-table::
     :widths: 15 30
     :header-rows: 1
 
-    * - Role
+    * - 강좌에서의 역할
       - When You "View As" This Role
-    * - Staff
-      - You see all content in the course, including content
-        that is hidden from students.
-    * - Student
-      - You see any content that is intended for all
-        students.
-    * - Student in <Content Group Name>            
-      - You see content that is intended for all students, as well
-        as any content specifically set to be visible to this content group.
+    * - 강좌 운영팀
+      - 학습자에게 숨겨진 콘텐츠를 포함하여 강좌의 모든 콘텐츠를 볼 수 있다.
+    * - 학습자
+      - 모든 학습자를 위해 공개된 모든 콘텐츠를 볼 수 있다.
+    * - <콘텐츠 그룹 이름>에 속한 학습자           
+      - 모든 학습자를 위해 공개된 콘텐츠와, 자신이 속한 콘텐츠 그룹에 공개된 특정 콘텐츠를 볼 수 있다.
 
-#. In Studio, in the course outline, click **Preview Changes**. You see your
-   course section in the **Courseware** section of the LMS.
+#. 스튜디오의 강좌 개요에서 **미리 보기 변경** 을 클릭한다. LMS의 **강의내용** 에서 강좌 영역을 볼 수 있다.
 
-#. In the navigation bar at the top of the page, select one of the options in
-   the **View this course as** drop down list, as described in the table above.
+#. 페이지 상단의 네비게이션 바에서, 이 강좌의 드롭다운 목록에서 강좌 운영 팀, 학습자, **<콘텐츠 그룹 이름>** 에 속한 학습자 중 하나를 선택하면 선택한 역할에 따라 위의 표에서 설명한 바와 같이 강좌의 콘텐츠를 볼 수 있다.  
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Cohorts_ViewCourseAs.png
    :alt: Visibility icon is black when visibility for a component is restricted
 
 
-The course view refreshes and the content is presented as a member of the
-selected content group would see it.
+강좌 미리 보기는 구성원을 다시 선택하면 선택한 콘텐츠 그룹의 구성원이 볼 수 있는 콘텐츠가 나타난다.
 
-After your course is live, you can also see the live version as a student would
-see it, by clicking **View Live** from Studio. For more information, see
-:ref:`View Your Live Course`.
+스튜디오의 적용 결과 보기 :ref:`View Your Live Course` 를 클릭하면 학습자가 보게 될 적용된 버전을 볼 수 있다. 보다 많은 정보는 적용 결과 보기에서 확인할 수 있다.
+
