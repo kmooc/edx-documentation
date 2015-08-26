@@ -370,27 +370,23 @@ May 2014
        * :ref:`Targeted Feedback in a Multiple Choice Problem`
        * :ref:`Answer Pools in a Multiple Choice Problem`
    * - 04/15/14
-     - Updated *Testing Your Course* to include a section on how to *View Your
-       Live Course*.
+     - *강좌 시험해보기* 방법에 관한 주제가 포함되도록 *적용 결과
+       미리 보기*가 업데이트됨.
    * - 04/11/14
-     - Expanded the :ref:`Grades` section to include a topic on interpreting the Student Answer Distribution report. 
+     - :ref:`Grades` 에 학습자 답안 분포 보고서 해석에 관한 주제가 포함됨. 
    * - 04/08/14
-     - Updated the chapter :ref:`Working with HTML Components` to reflect the
-       new HTML editor. 
+     - :ref:`Working with HTML Components` 장에 새로운 HTML 편집기가 반영됨. 
+       
    * - 04/07/14
-     - Expanded the :ref:`Course Data`, :ref:`Enrollment`, and
+     - :ref:`Course Data`, :ref:`Enrollment` 가 업데이트됨. 
    * - 04/03/14
-     - Updated the :ref:`Adding Pages to a Course` chapter to reflect ability to :ref:`Show or Hide the Course Wiki Page`.
+     - :ref:`Adding Pages to a Course` 에 :ref:`Show or Hide the Course Wiki Page` 에 추가됨.
    * - 04/02/14
-     - Reorganized the sections Building a *Course Index* and
-       *Creating Course Content Index* to better reflect the workflow of
-       building a new course.
+     -  *Course Index* 와 *Creating Course Content Index* 새로운 강좌를 개발하는 과정을 더 잘 설명하도록 업데이트됨.
    * - 04/01/14 
-     - Update the :ref:`Establish a Grading Policy` chapter to emphasize that
-       grading is applied to subsections only.
+     - :ref:`Establish a Grading Policy` 에 채점이 소주제에만 적용된다는 점을 강조함.
    * - 
-     - Updated the :ref:`Releasing Your Course Index` section to include
-       :ref:`Launch`.
+     - :ref:`Releasing Your Course Index` 에 :ref:`Launch` 가 포함됨.
    
 
 ************
