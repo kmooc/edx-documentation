@@ -13,11 +13,11 @@
    * - Date
      - Change
    * - 2/13/15
-     - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨
+     - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨.
    * - 2/12/14
-     - 추가된 설정들을 반영하기 위해 :ref:`LTI Component settings` 가 업데이트됨.
+     - :ref:`LTI Component settings` 에 추가된 설정들을 반영됨.
    * - 2/13/15
-     - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨
+     - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨.
    * - 2/4/15
      - :ref:`Create an Account` 가 업데이트됨.
 
@@ -32,25 +32,25 @@
    * - Date
      - Change
    * - 1/27/15
-     - :ref:`Open Response Assessments 2` 장이 업데이트됨
+     - :ref:`Open Response Assessments 2` 가 업데이트됨.
    * -
-     - :ref:`Making Course Content Searchable` 주제가 추가됨
+     - :ref:`Making Course Content Searchable` 가 추가됨.
    * - 1/21/15
-     - :ref:`Cohorted Courseware Overview` 주제가 추가됨.
+     - :ref:`Cohorted Courseware Overview` 가 추가됨.
    * - 1/14/15
-     - :ref:`Content Libraries` 와 :ref:`Randomized Content` 에 대한 주제가 추가됨.
+     - :ref:`Content Libraries` 와 :ref:`Randomized Content` 가 추가됨.
    * - 
-     - :ref:`Cohorted Courseware Overview` 주제가 추가됨.
+     - :ref:`Cohorted Courseware Overview` 가 추가됨.
    * -      
-     - 파일 형식에 따라 업데이트된 파일들의 목록을 필터링 하는 것에 대한 정보와 함께 :ref:`Add Files to a Course` 주제가 업데이트됨.
+     - :ref:`Add Files to a Course` 에 파일 형식에 따라 업데이트된 파일들의 목록을 필터링 하는 것에 대한 정보가 업데이트됨.
    * - 
      - :ref:`Student Notes Tool`, :ref:`Specify Prerequisite Courses` 및
-       :ref:`Require an Entrance Exam` 의 주제가 추가됨.
+       :ref:`Require an Entrance Exam` 이추가됨.
    * - 
      - :ref:`Google Calendar Tool` 와 :ref:`Google Drive Files
-       Tool` 의 주제가 추가됨.
+       Tool` 이 추가됨.
    * - 1/7/15
-     - :ref:`Rerun a Course` 의 주제가 추가됨.
+     - :ref:`Rerun a Course` 이 추가됨.
 
 *****************
 2014년 12월
@@ -66,7 +66,7 @@
      - 비주얼 편집기가 강좌 자료에 대하여 지원되지 않는다는 점을 명확히 하기 위해 :ref:`Adding Course Updates and Handouts` 와 :ref:`The Visual
        Editor` 가 업데이트됨.
    * - 
-     - :ref:`Assign Students to Cohort Groups by uploading CSV` 의 주제가 추가됨.     
+     - :ref:`Assign Students to Cohort Groups by uploading CSV` 이 추가됨.     
    * - 12/17/14
      - 여러 문제를 나타내는 구성요소에 사용자 지정 자바 스크립트 문제를 이용할 수 없다는 점을 나타내기 위해 :ref:`Custom JavaScript' 와 :ref:`Multiple Problems in One
        Component` 이 업데이트됨.
@@ -95,7 +95,7 @@
    * - 11/14/14
      - :ref:`using the course wiki<Course_Wiki>` 장에서 :ref:`Running Your Course Index` 에 대한 새로운 도움말이 추가됨.
    * - 11/13/14
-     - :ref:`Drag and Drop` 장에서 부가적인 정보가 추가됨.
+     - :ref:`Drag and Drop` 에 부가적인 정보가 추가됨.
    * - 11/12/14
      - 문제를 위한 :ref:`Show Answer` 설정에 관한 설명이 수정됨.
    * - 
@@ -493,7 +493,7 @@
    
 
 **************
-January 2014
+2014년 1월
 **************
 
 .. list-table::
@@ -503,42 +503,42 @@ January 2014
    * - Date
      - Change  
    * - 01/29/2014
-     - Added the chapter :ref:`Google Instant Hangout`.
+     - :ref:`Google Instant Hangout` 이 추가됨.
    * - 01/24/2014
-     - Added the :ref:`Discussions` and :ref:`Guidance for Discussion
-       Moderators` chapters.
+     - :ref:`Discussions` 와 :ref:`Guidance for Discussion
+       Moderators` 이 추가됨.
    * - 
-     - Added more detailed instructions to :ref:`Zooming image`
+     - :ref:`Zooming image` 에 더 구체적인 지침사항이 추가됨.
    * - 01/21/2014
-     - Added information about accessibility in the topic :ref:`Adding
-       Textbooks`.
+     - :ref:`Adding
+       Textbooks` 에 접근성에 관한 정보가 추가됨.
    * - 01/14/2014
      - Added info about scoring and due dates to original Open Response
        Assessments section.
    * - 01/13/2014
-     - Extensive updates to Organizing Your Course Content and
-       :ref:`Working with HTML Components`.
+     - :ref:`Working with HTML Components` 에 점수 및 개방형 평가 주제의  마감일에 관한 정보가 추가됨.
+       
    * - 01/08/2014
-     - Updated :ref:`Add Files to a Course` to reflect addition of sorting to
-       the **Files & Uploads** page.
+     - :ref:`Add Files to a Course` 에 **파일 업로드** 페이지의 분류 추가가 반영됨.
+       
    * - 
-     - Updated :ref:`Set Important Dates for Your Course` to reflect change to
-       default course start date to 2029.
+     - :ref:`Set Important Dates for Your Course` 에
+       기본 강좌 시작 날짜가 2029로 변경된 것이 반영됨.
    * - 01/07/2014
-     - Updated :ref:`Text Input` with info about multiple strings.
+     - ref:`Text Input` 에 다양한 문자열에 관한 정보가 포함됨.
    * - 
-     - Added info about template to :ref:`Checkbox`.
+     - :ref:`Checkbox` 에 정보가 추가됨.
    * - 01/06/2014
-     - Created :ref:`Custom JavaScript`
+     - :ref:`Custom JavaScript` 가 생성됨.
    * - 01/06/2014
-     - Created :ref:`Zooming image`
+     - :ref:`Zooming image` 가 생성됨.
    * - 01/01/2014
-     - Updated the chapters Organizing Your Course Content and
-       Testing Your Course to reflect changes in the Course Outline
-       design.
+     - 강좌 콘텐츠 구성하기 및 강좌 테스트하기에 
+       강좌 개요 설계의 변경 사항이 반영됨.
+       
 
 ***************
-December 2013
+2013년 12월
 ***************
 
 .. list-table::
@@ -548,30 +548,29 @@ December 2013
    * - Date
      - Change  
    * - 12/20/2013
-     - Made :ref:`ORA for Students` into template that instructors can
+     - :ref:`ORA for Students` 가 교수자가 직접 만들 수 있는 템플릿에 만들어짐.
        customize.
    * - 12/19/2013
-     - Created "Tools" topic. (Note 4/10/14: Topic merged into :ref:`Create Exercises`.)
+     - "Tools" 가 생성됨 (참고 4/10/14: :ref:`Create Exercises` 로 주제가 통합됨.)
    * - 12/18/2013
-     - Updated documentation about video player options in :ref:`Working with
-       Video Components`.
+     - :ref:`Working with
+       Video Components` 에 동영상 플레이어 선택사항에 대한 도움말이 업데이트됨.
    * - 12/13/2013
-     - Created :ref:`LTI Component`.
+     - :ref:`LTI Component` 가 생성됨.
    * - 
-     - Created :ref:`ORA for Students`.
+     - :ref:`ORA for Students` 가 생성됨.
    * - 12/12/2013
-     - Added the edX :ref:`Glossary`.
+     - :ref:`Glossary` 가 추가됨.
    * - 12/11/2013
-     - Added the chapter :ref:`Guidelines for Creating Accessible Content`.
+     - :ref:`Guidelines for Creating Accessible Content` 가 추가됨.
    * - 12/10/2013
-     - Added note about number of responses in "Available to Grade" column in
-       Open Response Assessments section.
+     - 개방형 평가에서 "채점 가능" 열에 있는 답변의 수에 대한 내용이 추가됨.
    * - 
-     - Added :ref:`MathJax in Studio`.
+     - :ref:`MathJax in Studio` 가 추가됨.
    * - 12/09/2013
-     - Created :ref:`MathJax in Studio`.
+     - :ref:`MathJax in Studio` 가 생성됨.
    * - 12/05/2013
-     - Complete revision of edX Studio documentation and integration of edX101
-       content.
+     - edX Studio 도움말 개정 및 edX 101 콘텐츠의 통합이 완성됨.
+       
 
 .. _Preface: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
