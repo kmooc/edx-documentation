@@ -262,7 +262,7 @@
 
 
 ***********
-May 2014
+2014년 5월
 ***********
 
 .. list-table::
@@ -371,7 +371,7 @@ May 2014
        * :ref:`Answer Pools in a Multiple Choice Problem`
    * - 04/15/14
      - *강좌 시험해보기* 방법에 관한 주제가 포함되도록 *적용 결과
-       미리 보기*가 업데이트됨.
+       미리 보기* 가 업데이트됨.
    * - 04/11/14
      - :ref:`Grades` 에 학습자 답안 분포 보고서 해석에 관한 주제가 포함됨. 
    * - 04/08/14
@@ -390,7 +390,7 @@ May 2014
    
 
 ************
-March 2014
+2014년 3월
 ************
 
 .. list-table::
@@ -400,18 +400,18 @@ March 2014
    * - Date
      - Change  
    * - 03/31/14 
-     - Expanded the :ref:`Grades` chapter to include the new
-       :ref:`Review_Answers` section.
+     - :ref:`Grades` 에
+       :ref:`Review_Answers` 가 추가됨.
    * - 03/27/14
-     - Updated the :ref:`Adding Pages to a Course` section to reflect feature
-       changes.
+     - :ref:`Adding Pages to a Course` 에
+       강좌의 기능 변경 내용이 반영됨.
    * - 03/27/14
-     - Updated the section on :ref:`Beta_Testing` to include the new "batch add" feature.
+     - :ref:`Beta_Testing` 에 새로운 “일괄 추가” 기능 설명이 포함됨.
    * - 03/19/14
-     - Updated the sections on :ref:`Beta_Testing`, :ref:`Discussions`,
-       :ref:`Grades`, and :ref:`Student Data` with changes to the new Instructor Dashboard.
+     - :ref:`Beta_Testing`, :ref:`Discussions`,
+       :ref:`Grades` 및 :ref:`Student Data` 에 새로운 교수자 대시보드에 대한 변경 사항이 포함됨.
    * - 03/17/14
-     - Reorganized this document into major sections: 
+     - 본 안내서가 다음 주요 주제들로 재구성됨. 
 
        * :ref:`Getting Started Index`
 
@@ -428,7 +428,7 @@ March 2014
        * :ref:`Information for Your Students Index`
 
    * - 03/10/14
-     - Added information about setting up your course summary page to 
+     - 강좌 요약 페이지를 설정하는 것에 관한 정보가 다음 주제들에 추가됨.
 
        * :ref:`The Course Start Date`
 
@@ -443,7 +443,7 @@ March 2014
    
 
 ****************
-February 2014
+2014년 2월
 ****************
 
 .. list-table::
@@ -453,43 +453,43 @@ February 2014
    * - Date
      - Change  
    * - 02/25/14
-     - Updated :ref:`Add Files to a Course` section to include new External URL
-       feature.
+     - :ref:`Add Files to a Course` 외부 URL 기능을 포함하도록 업데이트됨.
+       
    * -
-     - Updated :ref:`Add a Link to a File` and :ref:`Add an Image to an HTML
-       Component` to specify you must use the file's Embed URL.
+     - :ref:`Add a Link to a File` 와 :ref:`Add an Image to an HTML
+       Component` 에 파일의 Embed URL을 사용해야 함이 명시됨.
    * - 02/24/14
-     - Created new chapter, :ref:`Getting Started with edX`.
+     - :ref:`Getting Started with edX` 가 새로 만들어짐.
    * -
-     - Updated :ref:`Add a Course Video` section.
+     - :ref:`Add a Course Video` 가 업데이트됨.
    * - 02/21/14
-     - Added the :ref:`Beta_Testing` chapter. 
+     - :ref:`Beta_Testing` 가 추가됨.
    * - 02/19/14
-     - Updated :ref:`Import LaTeX Code` to reflect new workflow and UI change
-       for creating Latex HTML components.
+     - :ref:`Import LaTeX Code` 에 새로운 작업 과정과 Latex HTML 구성요소를 생성하기 위한  
+       UI 변경이 반영됨.
    * - 02/18/14
-     - Included several enhancements to the chapter :ref:`Establish a Grading
-       Policy`
+     - :ref:`Establish a Grading 
+       Policy` 에 개선 사항이 업데이트됨.
    * - 02/14/14
-     - Added :ref:`Additional Transcripts` section to :ref:`Working with Video
-       Components`; updated :ref:`Video Advanced Options`.
+     - :ref:`Additional Transcripts` 이 :ref:`Working with Video
+       Components` 에 추가되고, :ref:`Video Advanced Options` 가 업데이트됨.
    * -
-     - Added the :ref:`Course Data`, :ref:`Course_Staffing`, and
-       :ref:`Enrollment` chapters.
+     - :ref:`Course Data`, :ref:`Course_Staffing` 및
+       :ref:`Enrollment` 가 추가됨.
    * - 02/11/14
-     - Added :ref:`Gene Explorer` and updated :ref:`Periodic Table`
-       and :ref:`Molecule Editor`.
+     - :ref:`Gene Explorer` 가 추가되고 :ref:`Periodic Table`
+       및 :ref:`Molecule Editor` 가 업데이트됨.
    * - 02/07/14
-     - Added section on :ref:`Full Screen Image`.
+     - :ref:`Full Screen Image` 가 추가됨.
    * - 02/06/14
-     - Added :ref:`Periodic Table` and :ref:`Molecule Editor`
+     - :ref:`Periodic Table` 및 :ref:`Molecule Editor` 가 추가됨.
    * - 02/05/14
-     - Added section :ref:`Set the Advertised Start Date`.
+     - :ref:`Set the Advertised Start Date` 가 추가됨.
    * - 02/04/14
-     - Added the :ref:`Student Data` and :ref:`Grades` chapters.
+     - :ref:`Student Data` 와 :ref:`Grades` 가 추가됨.
    * - 
-     - Added :ref:`Multiple Choice and
-       Numerical Input` and :ref:`Protein Builder`.
+     - :ref:`Multiple Choice and
+       Numerical Input` 와 :ref:`Protein Builder` 가 추가됨.
    
 
 **************
