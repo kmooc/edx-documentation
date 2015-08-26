@@ -22,8 +22,7 @@
 
 3. 선택적으로, 학습집단에 따라 나누길 원하는 토의 주제를 확인한다.
    
-  * :ref:`course-wide discussion topics to be divided by cohort<Identifying Private CourseWide Discussion Topics>` 를 원한다면
-    일부 설정작업을 완료해야 한다.
+  * :ref:`course-wide discussion topics to be divided by cohort<Identifying Private CourseWide Discussion Topics>` 를 원한다면 일부 설정작업을 완료해야 한다.
 
   * 반면, 학습 내용별 토의 주제를 학습 집단별로 나누기를 원한다면,
     더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`content-specific discussion topics to be unified<Make ContentSpecific Discussion Topics Unified>` 를 원한다면, 약간의 구성 단계를 완료해야 한다.
@@ -267,14 +266,14 @@ CSV 파일 업로드로 학습자 배치하기
     * - **열**
       - **설명**
     * - 학습집단
-      - 학습자가 배치되어 있는 학습집단명.
+      - 학습자가 배치되어 있는 학습집단명 
     * - 학습집단 유무
       - 시스템에 학습집단의 유무. TRUE/FALSE. 
       
         학습집단이 없다면(값은 FALSE), .csv 파일에서 학습집단에 소속된 학습자를 위한 어떠한 action도 취하지 않는다.
 
     * - 학습자 추가
-      - .csv 파일 업로드로 학습집단에 추가된 학습자의 수.             
+      - .csv 파일 업로드로 학습집단에 추가된 학습자의 수          
     * - 학습자를 찾을 수 없음
       - 이메일 주소 또는 사용자 이름(이메일 주소가 없는 경우에) 리스트에 있는 학습자 중 이메일 주소 또는 사용자 이름이 매치 되지 않아서 학습집단에 포함되지 않은 학습자
 
