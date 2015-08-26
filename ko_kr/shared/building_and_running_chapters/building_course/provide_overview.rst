@@ -1,20 +1,17 @@
 .. _Providing a Course Overview:
 
 #####################################
-Providing a Course Overview
+강좌 개요
 #####################################
 
 
 **********
-Overview
+개관
 **********
 
-Prospective students need to know specific information about your course,
-including what the course covers, how much time they should plan to spend on the
-course each week, and whether the course requires any prior skills and
-knowledge. You specify all of this information in Studio.
+학습자는 이 강좌에서 어떤 주제를 다루며, 매주 강좌에 얼마나 많은 시간을 들여야 하는지, 강좌가 어떤 사전 지식을 필요로 하는지 등 강좌에 대한 자세한 정보를 알고 싶어한다. 강좌 운영팀은 Studio에서 이러한 정보를 입력할 수 있다. 
 
-For more information, see the following topics:
+이에 대해 다음 항목에 상세하게 안내되어 있다.
 
 * :ref:`Describe Your Course`
 * :ref:`Add a Course Image`
@@ -23,141 +20,115 @@ For more information, see the following topics:
 * :ref:`Set Course Prerequisites`
 * :ref:`Set Important Dates for Your Course`
 
-Most of this information appears on the course About page, sometimes called the
-course summary page. The following image shows a typical About page.
+수강을 고민하는 학습자에게 필요한 정보의 대부분이 강좌 요약 페이지라고 불리기도 하는 강좌 소개 페이지에 나와 있다. 다음 이미지는 일반적인 강좌 소개 페이지를 보여준다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about_page.png
  :width: 600
  :alt: An image of the course About page showing the course start and end dates,
      prerequisites, description, and other information
 
-Students see the course About page before they enroll in the course. After a
-student enrolls in the course, students can see information about your course on
-the Student Dashboard.
+학습자는 강좌를 수강하기 전에 강좌 소개 페이지를 보게 되고, 수강신청을 한 후에는 학습자 대시보드에서 강좌에 대한 정보를 볼 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/dashboard.png
  :width: 600
  :alt: An image of the dashboard showing courses with start and end dates
 
-.. note:: If your course will be available on edX.org, you must work with 
- your edX program manager to prepare the content for your About page, including
- the course overview, image, and video. For more information, see the `About
- page lesson <https://www.edx.org/course/overview- creating-edx-course-edx-
- edx101#.VLA9IWTF-RU>`_ in `edX101 <https://www.edx.org/course/overview-
- creating-edx-course-edx-edx101#.VLA9IWTF- RU>`_.
+.. 참고:: 강좌 개관, 이미지, 동영상 등 강좌 소개 콘텐츠를 추가하기 전에, K-MOOC 플랫폼 관리자와 상의해야 할 필요가 있을 수 있다. 더 자세한 내용은 edX101에 About page lesson 을 참조하도록 한다.
 
 
 .. _Describe Your Course:
 
 *********************************
-Describe Your Course
+강좌 안내하기
 *********************************
 
-You describe your course in a course overview. The overview contains important
-information for students who may be interested in taking your course. It
-introduces the main idea of the course and describes the topics or concepts that
-the course covers. The overview can also describe the skills and knowledge your
-students need to be able to succeed in your course, as well as provide
-information about course requirements and staff.
+강좌 개관에서는 강좌에 관해 개략적인 설명을 하게 된다. 강좌에 관심이 있는 학습자를 위한 중요한 정보로, 강좌의 주요 주제와 주요 개념을 소개한다. 또한 수강을 위한 조건이나 교수자 및 강좌 운영팀에 관한 정보를 포함하기도 한다.
 
-The course overview is outlined in the following course About page.
+강좌 소개 페이지에 강좌 개관이 다음과 같이 나타나게 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-description.png
  :width: 600
  :alt: Image of a course About page with the overview circled
 
-You use HTML to enter the course overview in Studio. The **Course Overview**
-field in Studio contains a boilerplate that includes placeholders.
+강좌 운영팀은 Studio에서 HTML을 사용하여 **강좌 개관** 을 입력하게 된다. 스튜디오에서 강좌 개관 입력 필드는 자리 표시자(placeholders) 등 상용구(boilerplate)를 포함한다.
 
-To enter the course overview, follow these steps.
+다음 순서로, 강좌 개관에 내용을 입력할 수 있다.
 
-#. From the **Settings** menu, select **Schedule & Details**.
-#. Scroll down to the **Introducing Your Course** section, then locate the
-   **Course Overview** field.
+#. **설정**  메뉴에서 **기본 설정** 을 선택한다.
+#. **강좌 소개** 가 보일 때까지 스크을 내린 후, 
+   **강좌 개관** 영역을 찾는다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/course_overview.png
    :width: 600
    :alt: Image of the HTML course description.
 
-3. Replace the placeholders in the boilerplate text to create your course overview.
-   Studio automatically saves your changes.
+3. 강좌 개관을 만들기 위해 상용구 텍스트에 자리 표시자를 대체한다. 
+   스튜디오는 자동으로 변경 사항을 저장한다.
 
-   .. note:: Do not edit HTML tags in the boilerplate. These tags align 
-    the content on the course About page.
+   .. 참고:: 상용구의 HTML 태그를 편집하지 않도록 한다. 이 태그가 강좌 소개 페이지의 
+    콘텐츠를 조절하기 때문이다.
  
-4. Below the **Course Overview** field, click **your course summary page** to
-   see how the description will appear to students. A sample About page opens in
-   a new window. 
+4. **강좌 개요** 영역 아래에 있는 **강좌 영역** 링크를 클릭하면 
+   새 창/탭에서 열리며 화면에 어떻게 나타나게 되는지 알 수 있다. 
 
-   When you make changes, note that you may have to wait a moment for the content to auto-save before the changes appear on the page.
+   수정할 경우, 수정 사항을 자동 저장하는데 시간이 필요하므로 잠시 기다려야 한다.
 
 
 .. _Add a Course Image:
 
 ************************
-Add a Course Image
+강좌 대표 이미지 추가하기
 ************************
 
-You provide a course image that identifies your course. The course image that
-you add in Studio appears on the student dashboard. On Edge, the course image
-also appears on the course About page.
+강좌 운영팀은 강좌를 나타낼 강좌 대표 이미지를 추가할 수 있다. 스튜디오에서 추가한 강좌 이미지는 학습자 대시보드에 나타난다. Edge에서는 강좌 소개 페이지에 강좌 대표 이미지가 나타난다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-image.png
  :width: 600
  :alt: Image of the course image in the student dashboard
 
-The course image must be a minimum of 660 pixels in width by 240 pixels in
-height, and in .jpg or .png format.
+강좌 대표 이미지는 최소 660px너비에서 240px 높이로, .jpg 또는.png 형식이어야 한다. 
 
-To add a course image, follow these steps.
+다음  단계에 따라, 강좌 대표 이미지를 추가할 수 있다.
 
-#. From the **Settings** menu, select **Schedule & Details**.
-#. Scroll down to the **Course Image** section.
-#. To select an image from your computer, click **Upload Course Image**, then
-   follow the prompts to find and upload your image.
-#. View your dashboard to see how the image will appear to students.
+#. **설정** 메뉴에서, **기본 설정** 을 클릭한다.
+#. **강좌 대표 이미지** 가 보일 때까지 스크롤을 내린다.
+#. **강좌 대표 이미지 업로드**를 클릭해 컴퓨터에서 이미지를 선택한다.
+#. 대시보드에서 이미지가 학습자에게 어떻게 나타나는지 살펴본다.
 
 .. _Add a Course Video:
 
 *********************************
-Add a Course Introduction Video
+강좌 소개 영상 추가하기
 *********************************
 
-To excite and entice potential students to enroll, each course can have a course
-introduction video. The video should reveal some of the personality the
-instructors bring to the course.
+수강을 고민하는 학습자의 관심을 유도할 수 있게, 각 강좌는 강좌 소개 영상을 보여줄 수 있다. 소개 영상에 이 강좌만의 특징을 강조하면 더욱 좋다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-video.png
  :alt: Image of the course video in the course About page.
 
-The video should answer these key questions.
+동영상이 다음과 같은 질문에 답할 수 있다면 좋다.
 
 * Who is teaching the course?
-* What university or college is the course affiliated with?
-* What topics and concepts does your course cover?
-* Why should a learner enroll in your course?
+* 어떤 대학이 이 강좌를 제공하는가?
+* 강좌가 어떤 주제 및 개념을 포함하고 있는가? 
+* 왜 학습자가 이 강좌를 수강해야 하는가? 
 
-The video should deliver your message as concisely as possible and have a run
-time of less than 2 minutes.
+2 분 이하의 재생 시간 동안, 동영상이 위 내용을 간결하게 담고 있어야 한다.
 
-Ensure your course introduction video follows the same :ref:`Compression
-Specifications` and :ref:`Video Formats` guidelines as course content videos.
+강좌 운영팀은 강좌 소개 동영상이 강좌 콘텐츠 동영상과 같이 Compression Specifications(압축 사양)및 Video Formats(동영상 형식) 지침을 따르는지 확인해야 한다. 
 
-To add a course introduction video:
+강좌 소개 동영상을 추가 하려면,
 
 
-#. Upload the course video to YouTube. Make note of the code that appears
-   between **watch?v =** and **&feature** in the URL. This code appears in the
-   box below.
+#. YouTube에 강좌 동영상을 업로드한다. URL에서 **watch?v =** 와 **&feature** 사이에 나타나는 
+코드를 기록한다. 이 코드는 아래에 표시된 상자에 있다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/image127.png
     :alt: Image of a sample course video
     
-2. From the **Settings** menu, select **Schedule & Details**.
-#. Scroll down to the **Course Introduction Video** section.
-#. In the field below the video box, enter the YouTube video ID (the code you
-   copied in step 1). When you add the code, the video automatically loads in
-   the video box. Studio automatically saves your changes.
+2. **설정** 메뉴에서, **기본 설정** 을 입력한다.
+#. **강좌 소개 영상** 이 나타날 때까지 스크롤을 내린다.
+#. 동영상 박스 아래 영역에, YouTube video ID (위 1단계에서 복사한 코드)를 입력한다. 코드를 추가하면, 동영상이 동영상 박스에서 자동으로 재생된다. Studio가 자동으로 변경 사항을 저장한다.
 
 
 .. _Set Course Time Requirements:
