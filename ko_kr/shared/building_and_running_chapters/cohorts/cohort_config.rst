@@ -1,26 +1,26 @@
 .. _Enabling and Configuring Cohorts:
 
 ############################################
-학습 집단 기능 활성화 및 설정하기
+학습집단 기능 활성화 및 설정하기
 ############################################
 
-강좌의 학습 집단 구성을 위해서, 자동 배치, 직접 배치, 혼합적 배치 방법을 통해 학습자를 학습 집단에 배치할 수 있는데
-이에 대한 사항은 학습 집단에 학습자 배치하기에서 확인할 수 있다. 학습 집단 혹은  전체 학습자에게 동일하게 강좌 전반이나 학습 내용별로 토의 주제를 나눌 수 있다. :ref:`학습 집단에 학습자 배치하기` . 
+강좌의 학습집단 구성을 위해서, 자동 배치, 직접 배치, 혼합적 배치 방법을 통해 학습자를 학습집단에 배치할 수 있는데
+이에 대한 사항은 학습집단에 학습자 배치하기에서 확인할 수 있다. 학습집단 혹은  전체 학습자에게 동일하게 강좌 전반이나 학습 내용별로 토의 주제를 나눌 수 있다. :ref:`학습집단에 학습자 배치하기` . 
 
-학습 집단 활용 방법을 선택한 후, (해당하는 경우) 다음의 구성 단계에 따라 학습 집단 기능을 활성화 할 수 있다.:
+학습집단 활용 방법을 선택한 후, (해당하는 경우) 다음의 구성 단계에 따라 학습집단 기능을 활성화 할 수 있다.:
 
-#. :ref:`학습 집단 활성화하기<Enable cohorts>`.
+#. :ref:`학습집단 활성화하기<Enable cohorts>`.
 
-#. 학습자를 학습 집단에 배치하는 방법 결정하기:
+#. 학습자를 학습집단에 배치하는 방법 결정하기:
    
-  * :ref:`자동 학습 집단 정의<Define Auto Cohorts>`
+  * :ref:`자동 학습집단 정의<Define Auto Cohorts>`
 
   * :ref:`Define manual cohorts<Define Manual Cohorts>` 와
     :ref:`manually assign students<Assign Students to Cohorts Manually>` 
     
   * :ref:`Use a combination of automated and manual assignment<Hybrid Assignment>` 
 
-3. 선택적으로, 학습 집단에 따라 나누길 원하는 토의 주제를 확인한다.
+3. 선택적으로, 학습집단에 따라 나누길 원하는 토의 주제를 확인한다.
    
   * :ref:`course-wide discussion topics to be divided by cohort<Identifying Private CourseWide Discussion Topics>` 를 원한다면
     일부 설정작업을 완료해야 한다.
@@ -28,7 +28,7 @@
   * 반면, 학습 내용별 토의 주제를 학습 집단별로 나누기를 원한다면,
     더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`content-specific discussion topics to be unified<Make ContentSpecific Discussion Topics Unified>` 를 원한다면, 약간의 구성 단계를 완료해야 한다.
 
-이러한 구성 절차는 스튜디오와 교수자 대시보드에서 완료할 수 있다. 최상의 학습자 경험을 위해 강좌 시작일 이전에 학습 집단 기능을 활성화하는 것이 좋다. 
+이러한 구성 절차는 스튜디오와 교수자 대시보드에서 완료할 수 있다. 최상의 학습자 경험을 위해 강좌 시작일 이전에 학습집단 기능을 활성화하는 것이 좋다. 
 
 강좌가 진행되는 중에 활성화된 학습 집단 기능을 변경하고자 한다면, 
 :ref:`Altering Cohort Configuration` 를 참고하라. 
@@ -37,14 +37,14 @@
 .. _Enable cohorts:
 
 ***************************
-학습 집단 기능 활성화하기
+학습집단 기능 활성화하기
 ***************************
 
 #. 스튜디오에서 강좌를 연다. 
 
 #. **설정** 을 선택하고, **고급 설정** 을 선택한다. 
 
-#. **학습 집단 설정** 칸에서, 중괄호 사이에 커서를 위치시킨다.
+#. **학습집단 설정** 칸에서, 중괄호 사이에 커서를 위치시킨다.
 
 #. ``"cohorted": true``를 입력한다. 
 
@@ -65,7 +65,7 @@
 학습자 자동 배치
 ***************************************************
 
-학습자를 학습 집단에 자동 배치하기 위해서, 고급 설정의 **학습 집단 설정** 에서 자동 학습 집단을 정의해야 한다
+학습자를 학습집단에 자동 배치하기 위해서, 고급 설정의 **학습집단 설정** 에서 자동 학습집단을 정의해야 한다
 
 강좌에서 학습자 자동 배치나 혼합 배치를 사용하고자 한다면, 이 절차를 완료해야 한다.
 관련 정보는 :ref:``All Automated Assignment`` 또는 :ref:`Hybrid Assignment` 에서 확인할 수 있다. 
@@ -73,13 +73,13 @@
 .. _Define Auto Cohorts:
 
 =======================
-자동 학습 집단 정의
+자동 학습집단 정의
 =======================
 
-자동 학습 집단을 정의하기 전에, 학습자는 자신이 속해 있는 학습 집단의 이름을 볼 수 있다.
-학습 집단에 따라 나뉘어진 토의 주제 게시판에 게시된 각각의 게시물에는 “이 게시물은 {cohort name}만 볼 수 있습니다.” 라는 메세지가 나타난다. 관련해서 :ref:`Read the Cohort Indicator in Posts` 에서 확인할 수 있다.
+자동 학습집단을 정의하기 전에, 학습자는 자신이 속해 있는 학습집단의 이름을 볼 수 있다.
+학습집단에 따라 나뉘어진 토의 주제 게시판에 게시된 각각의 게시물에는 “이 게시물은 {cohort name}만 볼 수 있습니다.” 라는 메세지가 나타난다. 관련해서 :ref:`Read the Cohort Indicator in Posts` 에서 확인할 수 있다.
 
-.. note:: 학습 집단을 제거하거나  집단명을 바꿀 수 없다.
+.. note:: 학습집단을 제거하거나  집단명을 바꿀 수 없다.
   강좌 운영 중에 설정한 학습 집단 기능을 변경하고자 한다면, 
   진행 중인 강좌에서 :ref:`Altering Cohort Configuration` 를 참조할 수 있다. .
 
@@ -87,13 +87,13 @@
 
 #. **설정** 을 선택한 후, **고급 설정** 을 클릭한다.
 
-#. **학습 집단 설정** 칸에서, 중괄호(``{``)문자 뒤에 커서를 위치한 후, 엔터키를 누른다. 
+#. **학습집단 설정** 칸에서, 중괄호(``{``)문자 뒤에 커서를 위치한 후, 엔터키를 누른다. 
 
-#. 새로운 행에서 ``"auto_cohort_groups":`` policy key 를 정의하고, 대괄호 (``[ ]``) 안에 학습 집단명을 입력하면 된다. 이 방법으로 자동 학습 집단을 정의하거나 학습 집단을 한 개만 정의할 수 있다. 
+#. 새로운 행에서 ``"auto_cohort_groups":`` policy key 를 정의하고, 대괄호 (``[ ]``) 안에 학습 집단명을 입력하면 된다. 이 방법으로 자동 학습집단을 정의하거나 학습집단을 한 개만 정의할 수 있다. 
    
-   여러개의 학습 집단을 정의하기 위해서, 각 학습 집단명을 새로운 행에서 큰 따옴표 (``" "``)안에 입력하고, 
-   큰 따옴표 안에 입력된 학습 집단은 쉼표로 구분한다.
-   다음은 자동 학습 집단을 정의한 예이다.:
+   여러개의 학습집단을 정의하기 위해서, 각 학습집단명을 새로운 행에서 큰 따옴표 (``" "``)안에 입력하고, 
+   큰 따옴표 안에 입력된 학습집단은 쉼표로 구분한다.
+   다음은 자동 학습집단을 정의한 예이다.:
    
    .. code-block:: xml 
 
@@ -124,7 +124,7 @@
   :alt: Cohort Configuration dictionary field with the auto_cohort_groups key 
         with one value
 
-학습 집단에 배치되지 않은 학습자는, 토의 주제 게시판을 방문했을 때 자동 학습 집단 중 하나에 임의로 배치된다.
+학습집단에 배치되지 않은 학습자는, 토의 주제 게시판을 방문했을 때 자동 학습집단 중 하나에 임의로 배치된다.
 
 
 .. _Implementing the Manual Assignment Strategy:
@@ -133,7 +133,7 @@
 학습자 직접 배치
 ***************************************************
 
-학습자를 학습 집단에 직접 배치하기 위해, 우선 직접 배치를 정의하고 나서 학습자를 학습 집단에 배치하게 된다.
+학습자를 학습집단에 직접 배치하기 위해, 우선 직접 배치를 정의하고 나서 학습자를 학습집단에 배치하게 된다.
 
 직접 배치나 혼합 배치 방식을 사용하기 위해서는 다음의 절차 따라야 한다.
 이와 관련해서는 :ref:`All Manual Assignment`  혹은 :ref:`Hybrid Assignment`.
@@ -144,46 +144,46 @@
 .. _Define Manual Cohorts:
 
 ======================
-직접 학습 집단 정의
+직접 학습집단 정의
 ======================
 
-직접 학습 집단을 정의하기 전에, 학습자는 자신이 속한 학습 집단명을 볼 수 있다.학습 집단에 따라 나뉘어진 토의 주제 게시판에 게시된 각각의 게시물에는 “이 게시물은 {cohort name}만 볼 수 있습니다.” 라는 메세지가 나타난다. 이와 관련해서는 :ref:`Read the Cohort Indicator in Posts` 에서 확인할 수 있다. 
+직접 학습집단을 정의하기 전에, 학습자는 자신이 속한 학습 집단명을 볼 수 있다.학습집단에 따라 나뉘어진 토의 주제 게시판에 게시된 각각의 게시물에는 “이 게시물은 {cohort name}만 볼 수 있습니다.” 라는 메세지가 나타난다. 이와 관련해서는 :ref:`Read the Cohort Indicator in Posts` 에서 확인할 수 있다. 
 
-.. note:: 학습 집단을 제거하거나 명칭을 바꿀 수 없다.강좌 운영 중에 학습 집단 기능을 변경하고자 한다면, :ref:`Altering Cohort Configuration` 를 참조할 수 있다. .
+.. note:: 학습 집단을 제거하거나 명칭을 바꿀 수 없다.강좌 운영 중에 학습집단 기능을 변경하고자 한다면, :ref:`Altering Cohort Configuration` 를 참조할 수 있다. .
 
 #. 스튜디오에서 강좌를 열고, **적용 결과 보기** 를 클릭한다. 
 
-#. **교수자** 를 클릭한 후, **회원** 을 클릭한다. (참고: 현재 학습 집단 선택) 
+#. **교수자** 를 클릭한 후, **회원** 을 클릭한다. (참고: 현재 학습집단 선택) 
 
-#. 하단의 **학습 집단 관리** 영역을 찾는다.
+#. 하단의 **학습집단 관리** 영역을 찾는다.
 
-#. **학습 집단 추가하기** 를 클릭한다.
+#. **학습집단 추가하기** 를 클릭한다.
 
-#. **새로운 학습 집단명** 칸에 학습 집단명을 입력하고, 저장하기를 클릭한다.
+#. **새로운 학습집단명** 칸에 학습집단명을 입력하고, 저장하기를 클릭한다.
 
 
 .. _Assign Students to Cohorts Manually:
 
 ====================================
-학습자를 학습 집단에 직접 배치하기
+학습자를 학습집단에 직접 배치하기
 ====================================
 
 .. note:: 강좌가 시작되기 전에 직접 배치를 완료하는 것이 좋다.
- 만일 강좌가 시작한 후에도 학습자가 계속 등록한다면, 새로 등록한 학습자를 계속해서 학습 집단에 배치해야 한다.
+ 만일 강좌가 시작한 후에도 학습자가 계속 등록한다면, 새로 등록한 학습자를 계속해서 학습집단에 배치해야 한다.
 
 #. 스튜디오에서 강좌를 열고, **적용 결과 보기** 를 클릭한다.
 
-#. **교수자** 를 클릭한 후, **회원** 을 클릭한다. (참고: 현재 학습 집단 선택) 
+#. **교수자** 를 클릭한 후, **회원** 을 클릭한다. (참고: 현재 학습집단 선택) 
 
-#. 하단의 **학습 집단 관리** 영역을 찾는다. 
+#. 하단의 **학습집단 관리** 영역을 찾는다. 
 
-#. 드롭 다운 목록에서 학습 집단을 선택한다.
+#. 드롭 다운 목록에서 학습집단을 선택한다.
 
 #. **학습자 추가** 칸에서 학습자의 사용자 이름이나 이메일 주소를 입력하거나, 다수 학습자의 사용자 이름이나 이메일 주소를 쉼표 또는 새로운 행으로 구분하여 입력한다. 또한 이메일 주소가 저장된 CSV 파일 데이터를 복사한 후 이 칸에 붙여 넣기 할 수도 있다.
 
-#. **학습자 추가** 버튼을 클릭한다. 학습자는 선택된 학습 집단에 배치된다. 해당 학습 집단에 몇 명의 학습자가 추가 되었는지 메시지가 나타난다. 학습자는 하나의 학습 집단에만 속할 수 있으므로, 이 메시지는 이 절차에 의해 다른 학습 집단으로 배치된 학습자의 수를 나타낸다.
+#. **학습자 추가** 버튼을 클릭한다. 학습자는 선택된 학습집단에 배치된다. 해당 학습집단에 몇 명의 학습자가 추가 되었는지 메시지가 나타난다. 학습자는 하나의 학습집단에만 속할 수 있으므로, 이 메시지는 이 절차에 의해 다른 학습집단으로 배치된 학습자의 수를 나타낸다.
 
-모든 등록 학습자의 학습 집단 배치 결과를 포함하는 보고서는 학습자 프로필 정보에서 확인할 수 있다. 관련해서는 ref:`View
+모든 등록 학습자의 학습집단 배치 결과를 포함하는 보고서는 학습자 프로필 정보에서 확인할 수 있다. 관련해서는 ref:`View
 and download student data` 에서 살펴볼 수 있다. 
 
 .. _Assign Students to Cohort Groups by uploading CSV:
@@ -192,9 +192,9 @@ and download student data` 에서 살펴볼 수 있다.
 CSV 파일 업로드로 학습자 배치하기
 ========================================================
 
-교수자 대시보드의 회원 페이지에서 학습자의 사용자 이름 또는 이메일 주소로 학습자를 학습 집단에 직접 배치할 수도 있지만, 학습자 목록의 .csv 파일을 업로드하여 학습자를 배치할 수도 있다.
+교수자 대시보드의 회원 페이지에서 학습자의 사용자 이름 또는 이메일 주소로 학습자를 학습집단에 직접 배치할 수도 있지만, 학습자 목록의 .csv 파일을 업로드하여 학습자를 배치할 수도 있다.
 
-업로드 한 .csv 파일 속의 학습 집단 배치는 기존의 학습 집단 배치를 겹쳐 쓰거나 변경하게 된다.강좌가 시작하기 전에 학습 집단을 배치를 완료해야 한다.강좌가 운영되는 도중에 등록하는 학습자도 가능하면 등록 즉시 학습 집단에 배치해야 한다. 강좌가 운영되는 도중에 등록하는 학습자도 가능하면 등록 즉시 학습 집단에 배치해야 한다. 강좌가 시작 된 후에 학습 집단을 변경한 후의 영향은 :ref:`Altering Cohort Configuration` 에서 확인할 수 있다. 
+업로드 한 .csv 파일 속의 학습집단 배치는 기존의 학습집단 배치를 겹쳐 쓰거나 변경하게 된다.강좌가 시작하기 전에 학습 집단을 배치를 완료해야 한다.강좌가 운영되는 도중에 등록하는 학습자도 가능하면 등록 즉시 학습 집단에 배치해야 한다. 강좌가 운영되는 도중에 등록하는 학습자도 가능하면 등록 즉시 학습집단에 배치해야 한다. 강좌가 시작 된 후에 학습집단을 변경한 후의 영향은 :ref:`Altering Cohort Configuration` 에서 확인할 수 있다. 
 
 .. note:: .csv 파일의 내용은 각 줄이 차례로 위에서 아래로 처리되며 각 행은 독립적으로 처리된다. 
 
@@ -247,7 +247,7 @@ CSV 파일 업로드로 학습자 배치하기
       
 #. 스튜디오에서 강좌를 열고, **적용 결과 보기** 를 클릭한다.
 
-#. **교수자** 를 클릭한 후,  **학습 집단** 을 클릭한다. 
+#. **교수자** 를 클릭한 후,  **학습집단** 을 클릭한다. 
 
 #. 하단의 **학습집단 관리** 영역을 찾는다.
 
@@ -257,67 +257,50 @@ CSV 파일 업로드로 학습자 배치하기
 
 #. **데이터 다운로드** 페이지에서 업로드 결과를 확인한다.
 
-   Under **Reports Available for Download**, locate the link to a .csv file with
-   "cohort_results" and the date and time of your upload in the filename. The
-   list of available reports is sorted chronologically, with the most recently
-   generated files at the top.
+   **다운로드 가능한 보고서** 에 “cohort_results” 및 업로드한 날짜와 시간이 기록된 파일명의 .csv파일 링크가 있다. 다운로드 가능한 보고서 목록은 날짜 순으로 정렬되어 있는데, 가장 최근에 생성된 파일이 목록의 상단에 있다. 
 
-The results file provides the following information:  
+결과 파일에는 다음과 같은 정보가 있다.:  
 
 .. list-table::
     :widths: 15 30
 
-    * - **Column**
-      - **Description**
-    * - Cohort
-      - The name of the cohort to which you are assigning students.
-    * - Exists
-      - Whether the cohort was found in the system. TRUE/FALSE. 
+    * - **열**
+      - **설명**
+    * - 학습집단
+      - 학습자가 배치되어 있는 학습집단명.
+    * - 학습집단 유무
+      - 시스템에 학습집단의 유무. TRUE/FALSE. 
       
-        If the cohort was not found (value is FALSE), no action is taken for students you assigned to that cohort in the .csv file.
+        학습집단이 없다면(값은 FALSE), .csv 파일에서 학습집단에 소속된 학습자를 위한 어떠한 action도 취하지 않는다.
 
-    * - Students Added
-      - The number of students added to the cohort during the row by row
-        processing of the .csv file.             
-    * - Students Not Found
-      - A list of email addresses or usernames (if email addresses were not
-        supplied) of students who could not be matched by either email address
-        or username and who were therefore not added to the cohort.
-             
-For a report that includes the cohort assignment for every enrolled student,
-review the student profile information for your course. See :ref:`View and
-download student data`.
+    * - 학습자 추가
+      - .csv 파일 업로드로 학습집단에 추가된 학습자의 수.             
+    * - 학습자를 찾을 수 없음
+      - 이메일 주소 또는 사용자 이름(이메일 주소가 없는 경우에) 리스트에 있는 학습자 중 이메일 주소 또는 사용자 이름이 매치 되지 않아서 학습집단에 포함되지 않은 학습자
+
+등록한 학습자의 학습집단 배치 결과를 포함하는 보고서는 강좌의 학습자 프로필 정보에서 확인할 수 있다. 관련해서는 :ref:`학습자 데이터 다운로드 및 확인하기' 에서 살펴볼 수 있다. 
 
 
 .. _Creating a Unicode Encoded CSV File:
 
 ====================================
-Creating a Unicode-encoded CSV File
+유니코드로 인코딩 된 CSV 파일 만들기
 ====================================
 
-Make sure the .csv files that you upload are encoded as UTF-8, so that any
-Unicode characters are correctly saved and displayed.
+유니코드 문자가 제대로 저장되고 표시되도록 업로드한 .csv 파일이 UTF-8로 인코딩 되었는지 확인한다.
 
-.. note:: Some spreadsheet applications (for example, MS Excel) do not allow you
-   to specify encoding when you save a spreadsheet as a .csv file. To ensure that
-   you are able to create a .csv file that is UTF-8 encoded, use a spreadsheet
-   application such as Google Sheets, LibreOffice, or Apache OpenOffice.
+.. note:: .csv 파일로 저장할 때 일부 스프레드시트 응용 프로그램(예, MS Excel)은 인코딩 조건으로 지정할 수 없다. UTF-8로 인코딩 된 .csv 파일을 생성하기 위해서는 Google Sheets, LibreOffice, Apache OpenOffice와 같은 스프레드시트 응용 프로그램을 사용해야 한다.
 
 
 .. _Altering Cohort Configuration:
 
 *************************************************
-Altering Cohort Configuration in a Running Course
+진행 중인 강좌에서 학습집단 변경하기
 *************************************************
 
-The configuration of the cohort feature should be complete and stable before
-your course begins. Manual cohort assignments should be completed as soon as
-possible after any student enrolls, including any enrollments that occur while
-your course is running. 
+강좌가 시작되기 전에 학습 집단 기능을 설정을 완료해야 한다.직접 배치 방법으로 학습자를 학습집단에 배치하는 경우에, 강좌가 운영되는 도중에 등록하는 학습자를 포함하여 등록 학습자가 강좌에 등록하면 가능한 빨리 이들을 학습집단에 배치해야 한다.직접 배치 방법으로 학습자를 학습집단에 배치하는 경우에, 강좌가 운영되는 도중에 등록하는 학습자를 포함하여 신규 등록 학습자는 신속하게 학습집단에 배치해야 한다.
 
-If you decide that you must alter cohort configuration after your course starts
-and activity in the course discussion begins, be sure that you understand the
-consequences of these actions:
+강좌가 시작되고 토의 활동이 시작된 이후에 학습 집단을 변경하고자 한다면, 아래의 변경에 따른 결과를 알고 있어야 한다.:
 
 * :ref:`Changing Student Cohort Assignments`
 * :ref:`Renaming a Cohort`
@@ -328,108 +311,76 @@ consequences of these actions:
 .. _Changing Student Cohort Assignments:
 
 =================================
-Change Student Cohort Assignments
+학습자의 학습집단 배치 변경
 =================================
 
-After your course starts and students begin to contribute to the course
-discussion, each post that they add is visible either to everyone or to the
-members of a single cohort. When you change the cohort that a student is
-assigned to, there are three results:
+강좌가 시작되고 학습자가 토의에 참여하기 시작한 후에 게시물은 모든 학습자 또는 단일 학습집단의 구성원들만 열람할 수 있다. 학습자가 배치된 학습집단을 변경하는 경우, 아래와 같은 세 가지 결과가 발생한다. :
 
-* The student continues to see the posts that are visible to everyone.
+* 학습집단이 변경된 학습자는 전체 공개인 게시글은 계속해서 볼 수 있다.
 
-* The student sees the posts that are visible to his new cohort.
+* 학습집단이 변경된 학습자는 새로 배치된 학습집단의 게시글을 볼 수 있다.
 
-* The student no longer sees the posts that are visible only to his original
-  cohort.
+* 학습집단이 변경된 학습자는 이전 학습집단의 게시글을 더이상 볼 수 없다.
 
-The visibility of a post and its responses and comments does not change, even if
-the cohort assignment of its author changes. To a student, it can seem that
-posts have "disappeared".
+게시물을 게시한 글쓴이의 학습집단이 변경되더라도 게시글, 응답, 댓글은 변경되지 않는다. 학습집단이 변경된 학습자에게 이 게시물은 “사라져” 보인다."
 
-To verify the cohort assignments for your students, download the  :ref:`student
-profile report<View and download student data>` for your course. If changes are
-needed, you can :ref:`assign students<Assign Students to Cohorts Manually>` to
-different cohorts manually on the **Membership** page of the Instructor
-Dashboard.
+학습자의 학습집단 배치를 확인하려면, 학습자 프로필 보고서:ref:`student
+profile report<View and download student data>` 를 다운로드하여 확인할 수 있다. 변경이 필요하다면, 교수자 대시보드의 회원 페이지에서 학습자를 다른 학습집단으로 직접 배치할 수 있다. 변경이 필요하다면, 교수자 대시보드의 **회원** 페이지에서 학습자를 다른 학습집단으로 직접 배치 :ref:`assign students<Assign Students to Cohorts Manually>` 할 수 있다.  
 
 
 .. _Renaming a Cohort:
 
 ===============
-Rename a Cohort
+학습집단의 이름 변경
 ===============
 
-Name changes for cohorts are not supported. The **Membership** page of the
-Instructor Dashboard does not offer an option to rename your manual cohorts.
+학습집단의 이름을 변경은 지원하지 않는다. 교수자 대시보드의 **회원** 페이지에서는 직접 배치한 학습집단의 이름을 변경하는 옵션을 제공하지 않는다..
 
-It is possible to change the value for the ``auto_cohort_groups`` policy key on
-the **Advanced Settings** page in Studio. However, changing the names in the
-listed name:value pairs **does not** result in any renamed auto cohorts.
-Instead, changing the value for the ``auto_cohort_groups`` policy key has these
-results.
+스튜디오의 **고급 설정** 페이지에서 ``auto_cohort_groups`` 의 값을 변경하는 것은 가능하다.그러나 목록에 있는 학습집단명 변경으로 자동 배치 학습집단명을 **변경할 수 없다.** 대신, ``auto_cohort_groups``의 값을 변경하면 아래와 같은 결과가 발생한다.
 
-* The system uses the new value that you saved for the ``auto_cohort_groups``
-  policy key to create one or more additional auto cohorts.
+* 시스템은 하나 이상 추가로 자동 배치 학습집단을 만들려고 auto_cohort_groups의 새로운 값을 사용한다.
 
-* The system begins to assign students who do not have a cohort assignment to
-  the newly defined cohort or cohorts. Students also continue to be assigned to
-  any auto cohorts that were not affected by your changes.
+* 시스템은 새롭게 정의된 학습집단에 배치되지 않은 학습자를 배치하기 시작한다.학습자는 변경된 내용에 영향을 받지 않고 자동 학습집단 배치에 의해 학습집단에 배치 된다. 
 
-  The system uniformly distributes students among all of the auto cohorts that
-  exist when an assignment is needed. The size of each cohort is not considered.
+  시스템은 배치가 필요한 경우 기존의 자동 학습집단에 학습자를 균등하게 배치한다. 각 학습집단에 속해 있는 학습자의 수는 고려하지 않는다. 
 
-* The original cohort or cohorts remain in the system. Any students who were
-  assigned to the original cohorts remain assigned to them.
+* 강좌 시작 전에 만든 원래 학습집단은 시스템에 유지된다. 그 학습집단에 속해 있는 학습자의 그대로 유지된다.
 
-  For the results of assigning any students who remain in the original cohorts
-  to other cohorts, see :ref:`Changing Student Cohort Assignments`.
+  원래 학습집단에서 다른 학습집단으로 변경된 학습자는 학습자 학습집단 배치 변경 :ref:`Changing Student Cohort Assignments` 을 살펴볼 수 있다..
 
-* The system converts the original auto cohorts, which are no longer listed as
-  values for ``auto_cohort_groups``, into manual cohorts. The system no longer
-  assigns students to those cohorts automatically. These cohorts are listed as
-  manual cohorts on the **Membership** page of the Instructor Dashboard.
+* 시스템은 본래의 자동 배치 학습집단을 ``auto_cohort_groups`` 의 목록이 아닌 직접 배치 학습집단으로 변환 시킨다. 
+  시스템은 더 이상 학습자를 이 학습집단에 자동으로 배치하지 않게 된다. 이러한 학습집단들은 교수자 대시보드의 **회원** 페이지에 나열되어 있다.
+
 
 
 .. _Deleting a Cohort:
 
 ================
-Delete a Cohort
+학습집단 삭제
 ================
 
-Deletion of cohorts is not supported. The **Membership** page of the Instructor
-Dashboard does not offer an option to delete your manual cohorts.
+학습집단 삭제하는 기능은 지원되지 않는다. 교수자 대시보드의 **회원** 페이지에서는 직접 배치 학습집단 삭제를 위한 옵션을 제공하지 않는다..
 
-It is possible to change the value for the ``auto_cohort_groups`` policy key on
-the **Advanced Settings** page in Studio. However, removing any of the listed
-name:value pairs **does not** result in the deletion of any cohorts. Instead,
-changing the value for the ``auto_cohort_groups`` policy key has these results.
+스튜디오의 **고급 설정 페이지** 에서 ``auto_cohort_groups`` 값을 변경하는 것은 가능하다. 그러나, 나열된 학습집단명을 제거해도 학습집단이 삭제되지는 않는다. 대신에 ``auto_cohort_groups`` 를 변경하는 것은 다음과 같은 결과가 발생한다.
 
-* The cohorts that you removed from the policy key remain in the system.
+* 설정값을 변경한다고 해도 삭제한 학습집단은 시스템에 남아있다. 
 
-* Any students who were assigned to those cohorts remain assigned to them. 
+* 학습집단을 삭제해도 이 학습집단에 속한 학습자의 소속은 변하지 않는다. 
   
-  For the results of assigning any students to other cohorts, see :ref:`Changing
-  Student Cohort Assignments`.
+  학습자를 다른 학습집단으로 배치한 결과는, 학습자의 학습집단 배치 변경 :ref:`Changing
+  Student Cohort Assignments` 에서 확인 할 수 있다..
 
-* The system no longer assigns students to the cohorts automatically. 
+* 시스템은 더 이상 삭제한 학습집단에 자동으로 학습자를 배치하지 않는다. 
 
-* The cohorts are listed as manual cohorts on the **Membership** page of the
-  Instructor Dashboard, and you can continue to assign students to them
-  manually.
+* 학습집단들은 교수자 대시보드의 **회원** 페이지의 직접 배치 학습집단에 나열되고, 계속해서 학습자를 직접 배치할 수 있다.
 
 
 .. _Disabling the Cohort Feature:
 
 ==========================
-Disable the Cohort Feature
+학습집단 기능의 비활성화
 ==========================
 
-You can disable the cohort feature for your course. Follow the instructions for
-:ref:`enabling the cohort feature<Enable Cohorts>`, but set ``"cohorted":
-false``. All discussion posts immediately become visible to all students.
+강좌에서 학습집단 기능을 비활성화 할 수도 있다. 학습집단 기능 활성화 하기 :ref:`enabling the cohort feature<Enable Cohorts>` 의 절차를 따르되, ``"cohorted": false`` 로 설정해야 한다. 모든 게시물들은 바로 모든 학습자가 볼 수 있게 된다
 
-If you do re-enable the cohort feature by setting ``"cohorted": true``, all
-previous student cohort assignments are reenabled, and all visibility settings
-for posts are reapplied. However, any posts created while the cohort feature
-was disabled will remain visible to all users.
+``"cohorted": true`` 로 설정하여 학습집단 기능을 재활성화한다면, 사전에 설정되었던 학습집단이 재활성화되고, 게시글의 읽기 설정이 다시 적용된다. 그러나 학습집단 기능이 비활성화되었을 때 생성된 게시글들은 학습집단 기능이 재 활성화되어도 모든 학습자가 볼 수 있다.
