@@ -63,13 +63,13 @@
    * - 날짜
      - 변경
    * - 12/19/14
-     - 비주얼 편집기가 강좌 자료에 대하여 지원되지 않는다는 점을 명확히 하기 위해 :ref:`Adding Course Updates and Handouts` 와 :ref:`The Visual
-       Editor` 가 업데이트됨.
+     - :ref:`Adding Course Updates and Handouts` 와 :ref:`The Visual
+       Editor` 비주얼 편집기가 학습 자료에는 지원되지 않는다는 점을 명확히 함.
    * - 
      - :ref:`Assign Students to Cohort Groups by uploading CSV` 이 추가됨.     
    * - 12/17/14
-     - 여러 문제를 나타내는 구성요소에 사용자 지정 자바 스크립트 문제를 이용할 수 없다는 점을 나타내기 위해 :ref:`Custom JavaScript' 와 :ref:`Multiple Problems in One
-       Component` 이 업데이트됨.
+     - :ref:`Custom JavaScript' 와 :ref:`Multiple Problems in One
+       Component` 에 여러 문제를 나타내는 구성요소에 사용자 지정 자바 스크립트 문제를 이용할 수 없다는 점을 명시함.
    * - 12/02/14
      - 학습자에게 :ref:`Weekly Highlights` 이메일을 보내기 위한 이메일 템플릿이 추가됨
    * - 
@@ -89,11 +89,11 @@
      - 동영상 파일 관련 :ref:`compression specifications<Compression
        Specifications>` 이 업데이트됨.
    * - 11/17/14
-     - 비디오 자막이 필요함을 나타내기 위해 :ref:`Working with Video Components` 가 업데이트됨.
+     - :ref:`Working with Video Components` 에 자막이 필요함이 명시됨.
    * -
-     - :ref:`Student Data` 장에서 학습자 인구 통계 데이터에 접근하는 것에 관한 정보가 edX Insights를 상호 참조하는 것으로 바뀜.
+     - :ref:`Student Data` 에서 학습자 통계 데이터 접근에 관한 정보가 edX Insights를 상호 참조하는 것으로 바뀜.
    * - 11/14/14
-     - :ref:`using the course wiki<Course_Wiki>` 장에서 :ref:`Running Your Course Index` 에 대한 새로운 도움말이 추가됨.
+     - :ref:`using the course wiki<Course_Wiki>` 에서 :ref:`Running Your Course Index` 에 대한 새로운 도움말이 추가됨.
    * - 11/13/14
      - :ref:`Drag and Drop` 에 부가적인 정보가 추가됨.
    * - 11/12/14
@@ -114,9 +114,9 @@
    * - 날짜
      - 변경
    * - 10/31/14
-     - :ref:`Export a Course` 에 강좌를 내보낼 때 포함되는 민감한 정보 또는 라이선스와 관련된 정보에 대한 주의사항이 추가됨.
+     - :ref:`Export a Course` 에 강좌를 내보낼 때 포함되는 민감한 정보 또는 라이센스와 관련된 정보에 대한 주의사항이 추가됨.
    * - 10/30/14
-     - 마지막 날 학습자에게 확인된 인증서에 대해 등록하도록 상기시키기 위한 :ref:`email template<Verified Registration Reminder>` 이 추가됨.
+     - :ref:`email template<Verified Registration Reminder>` 에 인증 수료증 취득 과정에 등록할 수 있는 마지막날을 알리기 위한 이메일 발신에 대한 내용이 추가됨.
    * - 10/29/14
      - :ref:`The Course
        Start Date` 에 강좌 시작 시간 표기에 관한 정보가 추가됨.
@@ -136,7 +136,7 @@
    * - 10/14/14
      - :ref:`Rerun a Course` 가 추가됨.
    * - 10/7/14
-     - :ref:`Including Student Cohorts` 가 추가됨.
+     - :ref:`Including Student Cohorts` 이 추가됨.
        
 *****************
 2014년 9월
@@ -172,9 +172,9 @@
    * - 날짜
      - 변경
    * - 08/28/14
-     - Updated documentation in :ref:`Developing Your Course Index`
-       for new capabilities to publish or hide multiple units 
-       from the outline.
+     - :ref:`Developing Your Course Index` 에
+       강좌 개요에서 게시 또는 여러 학습활동 숨기기 기능에 대한 도움말이 추가됨.
+       
    * - 
      - :ref:`Creating Content Experiments`에 도움말 추가함.
    * - 08/22/14
@@ -345,7 +345,7 @@
    * - 04/28/14
      - :ref:`Show or Hide the Course Wiki Page` 에 강좌 담당자가 위키 페이지를 숨긴 후에 위키 콘텐츠를 이용할 수 있다는 내용이 추가됨.
    * - 04/26/14
-     - :ref:`Problem with Adaptive Hint`에 XML 정보가 추가되며 라벨 정보가 업데이트됨.   
+     - :ref:`Problem with Adaptive Hint` 에 XML 정보가 추가되며 라벨 정보가 업데이트됨.   
    * - 04/24/14
      - :ref:`Grades` 성적 보고서 및 학습자 진도 페이지 해석에 관한 주제가 포함됨.
    * -    
@@ -359,7 +359,7 @@
    * - 04/22/14
      - :ref:`Bulk Email` 에 강좌 이메일을 받지 않을 수 있는 선택사항에 대한 정보가 추가됨.
    * - 
-     - :ref:`Discussions`에 “게시판 범주 만들기(Create Discussion Categories)” 단계가 수정됨. .
+     - :ref:`Discussions` 에 “게시판 범주 만들기(Create Discussion Categories)” 단계가 수정됨. 
    * - 
      - the :ref:`Enrollment` 에 기능의 변경사항을 반영함.
    * - 04/16/14
@@ -549,7 +549,7 @@
      - 변경  
    * - 12/20/2013
      - :ref:`ORA for Students` 가 교수자가 직접 만들 수 있는 템플릿에 만들어짐.
-       customize.
+     
    * - 12/19/2013
      - "Tools" 가 생성됨 (참고 4/10/14: :ref:`Create Exercises` 로 주제가 통합됨.)
    * - 12/18/2013
