@@ -241,25 +241,21 @@ CSV 파일 업로드로 학습자 배치하기
         파일에 명시된 학습 집단은 이미 스튜디오에서 생성되어있어야 한다.
 
     * -                        
-      - Columns with headings other than "email", "username" and "cohort" are
-        ignored.
+      - “이메일”, “사용자 이름”, “학습집단” 이외의 열과 머리글은 무시된다.
 
-Follow these steps to assign students to cohorts by uploading a .csv file.
+.csv 파일 업로드를 통해 학습자를 학습 집단에 배치하기 위한 절차는 다음과 같다.
       
-#. View the live version of your course. For example, in Studio, click **View
-   Live**.
+#. 스튜디오에서 강좌를 열고, **적용 결과 보기** 를 클릭한다.
 
-#. Click **Instructor**, then click **Membership**. 
+#. **교수자** 를 클릭한 후,  **학습 집단** 을 클릭한다. 
 
-#. Scroll to the **Cohort Management** section at the bottom.
+#. 하단의 **학습집단 관리** 영역을 찾는다.
 
-#. Under **Assign students to cohorts by uploading a CSV file**, click
-   **Browse** to navigate to the .csv file you want to upload. 
+#. **CSV 파일 업로드로 학습자를 학습집단에 배치하기** 를 클릭하고, **파일 선택** 을 클릭하여 .csv 파일을 업로드한다.
 
-#. Click **Upload File and Assign Students**. A status message displays
-   above the **Browse** button.
+#. **파일 업로드 및 학습자 배치** 를 클릭한다. 상태 메시지가 **파일 선택** 버튼 위에 나타난다.
 
-#. Verify your upload results on the **Data Download** page. 
+#. **데이터 다운로드** 페이지에서 업로드 결과를 확인한다.
 
    Under **Reports Available for Download**, locate the link to a .csv file with
    "cohort_results" and the date and time of your upload in the filename. The
