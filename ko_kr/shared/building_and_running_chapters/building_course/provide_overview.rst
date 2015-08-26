@@ -134,7 +134,7 @@
 .. _Set Course Time Requirements:
 
 ************************************
-Set Course Time Requirements
+주별 학습 권장 시간 설정하기
 ************************************
 
 To specify the number of hours that you expect students to spend on the course
