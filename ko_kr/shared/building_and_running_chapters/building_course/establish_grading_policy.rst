@@ -1,14 +1,14 @@
 .. _Establish a Grading Policy:
 
 ##############################
-Establishing a Grading Policy  
+성적 규정 설정하기
 ##############################
 
 *******************
-Overview
+개관
 *******************
 
-Establishing a grading policy takes several steps. You must:
+성적 규정을 설정하는 것은 여러 단계를 거친다. 
 
 #. :ref:`Set the Grade Range`
 #. :ref:`Set the Grace Period`
@@ -16,120 +16,98 @@ Establishing a grading policy takes several steps. You must:
 #. :ref:`Graded Subsections`
 #. :ref:`The Student View of Grades`
 
-.. important:: Any changes to the course grading policy, to graded 
- subsections, or to graded components after a course begins will affect the
- student experience in the course and analysis of its data. 
+.. 중요:: 강좌를 시작한 후, 강좌 채점 규정, 성적 반영 소주제, 또는 성적 반영 구성요소에 대한 변경은 강좌에서 학습자의 학습 경험과 성적 분석에 영향을 미친다.
 
 .. _Set the Grade Range:
 
 *******************
-Set the Grade Range
+성적 범위 설정하기
 *******************
 
-You must set the grade range for the course.  For example, your course can be
-pass/fail, or can have letter grades A through F.
+강좌의 성적 범위를 설정해야 한다. 예를 들어, 가 될 수 있고, 또는 A 부터 F까지 등급을 가질 수 있다.
 
-To set the grade range, from the **Settings** menu, select **Grading**.
+성적 범위를 설정하려면 **설정** 메뉴에서 **과제 평가**를 선택한다.
 
-The control for the grade range is at the top of the Grading page.
+페이지 상단의 바를 마우스로 움직이면 성적 범위를 조정할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/grade_range.png
   :alt: Image of the Grade Range control
 
-The above example shows that you have a pass/fail grade range, with a score of
-50 as the cutoff. This is the default setting used when you create a course.
+위의 예제는 컷오프 50점으로 통과/과락 범위를 보여준다. 50점이 기본값이며, 성적바를 마우스로 움직이면 성적 범위를 조정할 수 있다.
 
-You use the grade range control to change these settings:
+다음 설정을 변경하기 위해 점수 범위 제어를 이용할 수 있다.
 
-* To add a grade in the range, click the **+** icon.
+* 범위에서 등급을 추가하기 위해 **+** 아이콘을 클릭한다.
 
-  A new grade is added to the range between the existing grades. For example,
-  if you add a grade in the default setting, the grade range changes to **F**
-  (0 to 50), **B** (50 to 75), and **A** (75 to 100):
+  새로운 등급이 기존 등급 사이의 범위에 추가된다. 예를 들어 기본 설정에서 등급을 추가 하는 경우, 점수 범위는 **F** (0 ~ 50), **B** (50 75 ~), 그리고  **A** (75 ~ 100)로 변경된다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/grade_range_b.png
     :alt: Image of an altered Grade Range control
 
-* To change the score range, move the cursor over the line dividing two grades
-  and then click and drag the line left or right.
+* 점수 범위를 변경 하려면 점수 경계선 위로 커서를 이동 후 클릭하고 왼쪽이나 오른쪽으로 움직인다.
+선이 원하는 곳에 있을 때 마우스 단추를 놓는다.
 
-  You can see the range numbers of the two grades adjacent to the line change.
-  Release the mouse button when the line is where you want it.
+* 등급명을 변경하려면, 변경하고 싶은 현재 등급명을 두 번 클릭하고, 새 이름을 입력한다. 예를 들어, 원래 등급명이  "통과"인 경우, "통과"를 두 번 클릭한 다음, "Excellent (우수)"를 입력 할 수 있다. 
+
+**F** 또는 **과락** 은 변경할 수 없다.
+
+
+
+* 등급을 삭제하려면 점수 위에 있도록 커서를 이동한다. **remove** 링크가 점수 위에 나타난다. 링크를 클릭한다. F 또는 A는 제거할 수 없다.
   
-* To change the name of the grade, double-click the current name of the grade
-  to select it, and then start typing the name of the new grade. For example,
-  if the original name of the grade is "Pass", you can double-click "Pass" and
-  then type "Excellent" to replace the name.
-
-  You cannot change **F** or **Fail**. 
-
-* To remove a grade, move the cursor so that it is over the grade. 
-
-  A **remove** link appears above the grade. Click the link.
-  
-  You cannot remove F or A.
-  
-After you make any changes to the grade range, you must click **Save Changes**
-at the bottom of the page.
+범위를 변경한 후 페이지 하단에 있는 **변경 사항 저장** 을 클릭해야 한다..
 
 .. _Grade Ranges and Certificates:
 
 ==============================
-Grade Ranges and Certificates
+성적 범위와 수료증
 ==============================
 
-If you plan for your course to offer certificates, note that a student will
-qualify for a certificate by earning any grade over the F, or Fail, threshold.
-This is true regardless of how many grade levels you add in the grade range.
+강좌 수료증을 발급할 경우, 학습자가 F나 Fail이상의 성적을 받아야 수료증을 취득할 수 있다. 이는 얼마나 많은 등급이 성적 범위에 추가되는지에 상관없이 적용된다.
 
 .. _Set the Grace Period:
 
 *************************
-Set the Grace Period 
+추가 제출 기간 설정하기
 *************************
     
-You can set a grace period that extends homework due dates for your students. 
+과제 제출 날짜를 연장하는 추가 제출 기간을 설정할 수 있다. 
 
-.. note:: The grace period applies to the whole course; you cannot set a grace
- period for individual assignments.
+.. 참고:: 추가 제출 기간은 모든 강좌에 적용된다. 개별 과제에 대해서는 추가 제출 기간을 설정할 수 없다.
   
-In the Grading page, under **Grading Rules & Policies**, enter a value in the
-**Grace Period on Deadline** field. Enter the value in Hours:Minutes format.
+성적 규정 영역에서, **추가 제출 기간** 입력란에 값을 입력한다. 시간:분 형식으로 값을 입력한다.
 
 .. _Configure the Assignment Types:
 
 ******************************
-Configure the Assignment Types
+과제 유형 설정하기
 ******************************
 
-You must create assignment types for your course and determine the weight of
-the student's total grade for each assignment type.
+과제의 유형을 설정해야 하고, 각 과제 형식에 대해 학습자의 전체 성적에서의 비중(weight)을 결정해야 한다.
 
-For example, you may have:
+예를 들어, 다음의 과제 유형들을 가질 수 있다.
 
-* 10 homework assignments, worth a total of 50% of the grade; 
-* A midterm exam, worth a total of 20% of the grade; 
-* A final exam, worth 30% of the grade. 
+* 점수의 50%에 해당하는 10가지 과제 할당.
+* 점수의 20%에 해당하는 중간 평가
+* 점수의 30%에 해당하는 기말 평가
 
-By default, a new course you create has four assignment types: 
+기본적으로, 개설하는 신규 강좌는 4개의 과제 유형을 가진다: 
 
-* Homework
-* Lab
-* Midterm Exam
-* Final Exam
+* 과제
+* 실험
+* 중간 평가
+* 기말 평가
 
-You can use these assignment types, modify or remove them, and create new
-assignment types.
+이러한 과제 유형을 이용, 수정 또는 삭제할 수 있고, 새로운 과제 유형을 만들 수 있다. 
 
-To create a new assignment type, in the bottom of the Grading page, click **New
-Assignment Type**, then configure the fields described below.
+새로운 과제 유형을 만들려면 성적 페이지의 하단에서 **과제 추가히기** 를 클릭한 다음, 아래에 설명된 입력 필드를 설정한다.
 
 ==========================
-Assignment Type Fields
+과제 유형 입력 필드
 ==========================
-You configure the following fields for each assignment type:
+각 과제 유형에 대해 다음의 입력 필드를 설정한다.
     
-* **Assignment Type Name:** 
+* **과제명:** 
   
   The general category of the assignment. This name will be visible to
   students.
@@ -139,12 +117,12 @@ You configure the following fields for each assignment type:
    10 problems is worth the same percentage of a student's grade as a homework
    assignment that contains 20 problems.
   
-* **Abbreviation:** 
+* **성적 기록부 표시용 약자** 
   
   This is the short name that appears next to an assignment on a student's
   **Progress** tab.  
 
-* **Weight of Total Grade:** 
+* **점수 가중치** 
   
   The assignments of this type together account for the percent value set in
   **Weight of Total Grade**.
@@ -153,12 +131,12 @@ You configure the following fields for each assignment type:
   
   .. note:: Do not include the percent sign (%) in this field.
   
-* **Total Number:** 
+* **합계**
   
   The number of assignments of this type that you plan to include in your
   course.
   
-* **Number of Droppable**
+* **낙제 횟수**
   
   The number of assignments of this type that the grader will drop. The grader
   will drop the lowest-scored assignments first.
