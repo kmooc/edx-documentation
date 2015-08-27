@@ -1,13 +1,12 @@
 .. _Adding Course Updates and Handouts:
 
 ######################################################
-Adding Course Updates and Handouts
+공지사항과 학습 자료 추가하기
 ######################################################
 
-You add course updates and handouts in Studio.
+교수자는 스튜디오에서 공지사항 및 학습 자료를 추가한다.
 
-Students see the course updates and handouts in the **Course Info** tab in your
-course:
+학습자는 강좌에 있는 **공지사항** 탭에서 강좌 업데이트 및 학습 자료를 볼 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/course_info.png
  :alt: Image of the Course Info page, with a Course Updates & News section on
@@ -17,37 +16,32 @@ course:
 .. _Add a Course Update:
 
 **********************
-Add a Course Update
+공지사항 추가하기
 **********************
 
-You add updates to notify students of exams, changes in the course schedule, or
-anything else of a more urgent nature.
+학습자에게 시험, 강좌 일정 변경 등을 알리기 위해 공지사항을 추가할 수 있다. 
 
-To add a course update:
+공지사항을 추가하려면
 
-#. From the **Content** menu, select **Updates**. 
-#. Click **New Update**.
-#. Enter your update in the HTML editor that opens.
+#. **콘텐츠** 메뉴에서 **공지사항** 을 선택한다.
+#. **새 공지사항** 을 클릭한다..
+#. HTML 편집기에 내용을 입력한다.
 
-  .. note::  
-    You must enter the update in HTML. The :ref:`visual editor<The Visual
-    Editor>` is not supported for course handouts.
+  .. 참고::  
+    강좌 운영팀은 HTML로 내용을 입력해야 한다. visual editor가 지원되지 않음에 유의한다.
 
-4. Click **Save**.
+4. **게시하기** 를 클릭한다.
 
 .. _Add Course Handouts:
 
 **********************
-Add Course Handouts
+학습 자료 추가하기
 **********************
-You can add course handouts that are visible to students on the **Course Info**
-page. To add an uploaded file to the course handouts, you will need its URL.
+**공지사항** 페이지에서 학습자에게 표시될 학습 자료를 추가할 수 있다. 이를 위해선 **파일 업로드** 에서 업로드한 파일의 URL이 필요하다.
 
-.. note::  You must :ref:`add files to a course<Add Files to a Course>` before
- you can add them as course handouts.
+.. 참고::  강좌 운영팀이 우선 파일을 업로드해야 한다.
 
-#. From the **Content** menu, select **Updates**. 
-#. In the **Course Handouts** panel, click **Edit**.
-#. Edit the HTML to add links to the files you uploaded. See :ref:`Add a Link
-   in an HTML Component` for more information.
-#. Click **Save**.
+#. **콘텐츠** 메뉴에서 **공지사항** 을 선택한다.
+#. 화면 오른쪽의 **학습 자료** 에서, **편집** 을 클릭한다.
+#. 업로드한 파일의 링크를 추가한다.
+#. **저장** 을 클릭한다. 더 자세한 정보는 **HTML구성요소에 링크 추가하기** 를 참조한다.  
