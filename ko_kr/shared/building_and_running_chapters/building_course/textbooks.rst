@@ -1,38 +1,33 @@
 .. _Adding Textbooks:
 
 ###########################
-Adding Textbooks
+교재 추가하기
 ###########################
 
-You can add PDF textbooks for your course.  
+PDF 파일의 교재를 추가할 수 있다. 
 
-.. note::  Do not use image files (for example, .PNG files) as textbooks for
- your course, as they are not accessible to screen readers. Review the
- :ref:`Best Practices for Accessible PDFs` for more information.
+.. 참고:: 화면 판독기로 접근이 불가능하기 때문에 교재로써 이미지 파일 (예를 들어, .PNG 파일)을 사용하지 않도록 한다. 
+ :ref:`Best Practices for Accessible PDFs` 에 자세한 내용이 나와있다.
 
-Each textbook that you add is displayed to students as a tab in the course
-navigation bar.
+추가한 각 교재는 강좌 메뉴 바에서 학습자에게 탭으로 표시된다.
 
-It's recommended that you upload a separate PDF file for each chapter of your
-textbook.
+강좌 운영팀은 교재의 각 장에 대한 별도 PDF파일을 업로드하는 것이 좋다. 
 
-When students open the textbook tab in the course, they can navigate the
-textbook by chapter:
+학습자가 강좌에서 교재 탭을 열 경우, 장 별로 교재를 볼 수 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/textbook_chapters.png
  :alt: Image of a textbook in a course.
 
-To add a textbook:
+교재를 추가하려면
 
-#. From the **Content** menu, select **Textbooks**.
-#. Click **New Textbook**. The following screen opens:
+#. **콘텐츠** 메뉴에서, **교재** 를 선택한다.
+#. **신규 교재** 를 클릭하면 다음과 같은 화면이 나타난다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/textbook_new.png
    :alt: Image of the New Textbook page.
 
-3. Enter the **Textbook Name**.
-#. Enter the first **Chapter Name**.
-#. To upload a PDF file from your computer, click **Upload PDF**.  Follow the
-   prompts to upload your file.
-#. To add more chapters, click **+Add a Chapter** and repeat steps 3 and 4.
-#. Click **Save**.
+3. **교재명** 을 선택한다.
+#. **챕터명** 을 이름한다.
+#. 컴퓨터에 있는 PDF파일을 업로드 하려면, ** PDF 업로드** 를 클릭한다. 파일을 업로드 하라는 메시지를 따른다.
+#. 더 많은 장을 추가하려면,  **페이지 추가하기** 를 클릭하고 앞 단계를 반복한다.
+#. **저장** 을 클릭한다.
