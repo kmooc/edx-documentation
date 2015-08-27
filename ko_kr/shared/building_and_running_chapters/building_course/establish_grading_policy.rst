@@ -129,9 +129,9 @@
   
   강좌 전체 과제 유형의 개수이다.
   
-* **낙제 횟수**
+* **삭제 횟수**
   
-  채점자가 낙제시킬 과제 유형의 수이다. 채점자는 최저 득점 과제를 먼저 낙제시킬 것이다
+  채점자가 삭제시킬 과제 유형의 수이다. 채점자는 최저 득점 과제를 먼저 삭제할 것이다
 
 .. _Graded Subsections:
 
@@ -154,33 +154,23 @@
 예를 들어 특정 주제에 대한 과제와 실험을 만들려는 경우, 두 개의 소주제를 만들도록 한다. 하나의 소주제는 과제 유형으로, 다른 하나의 소주제는 실험 과제 유형으로 설정한다. 두 소주제는 실제 숙제 또는 실험 문제뿐 아니라 다른 콘텐츠를 포함할 수 있다.
 
 .. 참고:: 
- You can create problems in Studio without specifying that the subsection is an
- assignment type. However, such problems do not count toward a student's grade.
+ 소주제를 과제 유형의 하나로 지정하지 않고, Studio 에서 문제를 만들 수 있다. 그러나, 이렇게 만들어진 문제는 학습자의 성적에 반영되지 않는다.
 
-See :ref:`Working with Problem Components` for instructions on creating
-problems.
+:ref:`Working with Problem Components` 에 문제를 만드는 방법에 대한 안내가 나와있다.
 
 .. _The Student View of Grades:
 
 **************************
-The Student View of Grades
+성적 열람하기
 **************************
 
-After a grading policy is in place, students can view both their problem scores
-and the percent completed and current grade in the **Progress** tab for the
-course.
+성적 규정이 준비된 후, 학습자는 강좌의 **진도** 탭에서 문제에 대한 점수와 백분율 및 현재 성적을 볼 수 있다. 
   
   .. image:: ../../../shared/building_and_running_chapters/Images/Progress_tab.png
     :alt: Image of the student Progress tab
 
-Each item in the X axis of the chart is for a graded subsection. Graded
-problems in units are not broken out in the chart; the score from each problem
-in the subsection is added to that vertical bar.
+차트의 X 축에 각 항목은 채점된 소주제이다. 학습활동에서 채점된 문제들은 차트에서 나타나지 않는다; 소주제에서 각 문제로부터 얻은 점수는 세로 막대에 추가된다. 
 
-Graded subsections are grouped in the chart by assignment type rather than
-listed in chronological order. For example, all homework exercises are grouped
-together, followed by labs, then exams.
+채점된 소주제는 시간 순서대로 나열되기 보다는 과제 유형에 따라 차트에 그룹화 된다. 예를 들어, 모든 연습문제는 실험과 시험에 이어 함께 그룹화 된다.
 
-.. note:: The **x** for an assignment in the Progress tab indicates that the 
- grade for that assignment is currently dropped. You configure how many
- assignments are dropped when you :ref:`Configure the Assignment Types`.
+.. 참고:: 진도 탭에서  x표시는 그 과제에 대한 점수가 현재 삭제되어 있음을 나타낸다. 과제 유형을 설정(Configure the Assignment Types) 할 때 얼마나 많은 과제를 삭제할 것인지 설정해야 한다.
