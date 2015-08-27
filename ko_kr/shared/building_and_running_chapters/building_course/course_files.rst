@@ -10,7 +10,7 @@
 개관
 *******************
 
-스튜디오에서 **콘텐츠** 메뉴 아래에 있는**파일 업로드** 에 업로드 된 강좌 파일을 관리할 수 있다.
+스튜디오에서 **콘텐츠** 메뉴 아래에 있는 **파일 업로드** 에 업로드 된 강좌 파일을 관리할 수 있다.
 
 * :ref:`Upload a File`
 * :ref:`File URLs`
@@ -35,91 +35,69 @@
 .. 주의::
    PDF, 이미지 등 학습 자료가 많을 경우 파일 크기를 줄이기 위해 압축을 권장한다.
 
-   If you have files that are larger than 50 MB after compression and need them
-   for your course, contact your edX program manager.
+   만약 강좌에 꼭 필요한 파일들이 파일 압축 후에도 50 MB 보다 큰 경우, 플랫폼 관리자에게 문의해야 한다.
 
-   Furthermore, do not add video or audio files, or large data sets that are to
-   be used by students. You should use YouTube or another hosting service to
-   host multimedia files for your course. For information about storing large
-   data sets for student use, contact your edX program manager.
+   강좌에 필요한 멀티미디어 파일(영상, 음성 파일)은 YouTube 또는 다른 호스팅 서비스를 사용해야 한다. 학습자 이용을 위해 큰 데이터 세트(data sets)를 저장 하는 것에 대한 정보는 플랫폼 관리자에게 문의해야 한다. 
 
-To upload files:
+파일을 업로드하려면:
  
-#. From the **Content** menu, select **Files & Uploads**.
-#. Click **Upload New File**.
-#. In the **Upload New File** dialog box, click **Choose File**.
+#. **콘텐츠** 메뉴에서 **파일 업로드** 선택,
+#. **파일 업로드** 를 클릭한다.
+#. 새로 뜬 창에서 **파일을 선택하세요.** 를 클릭한다.
    
-#. In the **Open** dialog box, select one or more files to upload, then click
-   **Open**.
+#. **열기** 가 뜨면, 업로드할 1개 이상의 파일을 선택하고 **열기** 를 클릭한다. 
+   
+   .. 참고::
+      기존의 강좌 파일과 이름이 같은 파일을 업로드 하는 경우, 다른 알림 없이 기존 파일을 덮어쓴다..
 
-   .. note::
-      If you upload a file that has the same name as an existing course file, the
-      original file is overwritten without warning.
+5. 추가 파일을 업로드하려면, **추가 파일 업로드** 를 클릭하고 이전 단계를 반복한다. 
 
-5. To upload additional files, click **Load Another File** and repeat the
-   previous step.
+6. 대화 상자를 닫으려면 오른쪽 상단에 있는 X를 클릭한다.
 
-6. To close the dialog box, click the **X** in the top right corner.
-
-You see the new files on the **Files & Uploads** page.
+**파일 업로드** 페이지에서 업로드한 파일을 볼 수 있다.
 
 
 .. _File URLs:
 
 ********************************************
-Use File URLs to Reference Uploaded Files
+업로드한 파일 URL 링크하기
 ********************************************
 
 
-After you upload a file, you can link to it from a component, from a course
-update, or in the course handouts, using the generated URLs on the **Files and
-Uploads** page. On the **Files & Uploads** page, the **URL** column lists the
-Studio URL and web URL for each file.
+파일을 업로드한 후, **파일 업로드** 페이지에서 생성된 URL을 사용하여 강좌 구성요소, 강좌 업데이트 또는 강좌 자료 페이지에서 파일을 연결할 수 있다. 
 
-* To link to the file or image from within a course (that is, from a component,
-  a course update, or a course handout), use the Studio URL. You cannot use
-  the web URL to link to a file or image from within your course.
+* 강좌 내부(즉, 강좌 구성 요소, 강좌 업데이트 또는 강좌 자료)에서 파일 또는 이미지에 연결하려면, Studio URL을 사용한다. 강좌 내부에서 파일 또는 이미지에 연결할 때 웹 URL은 사용할 수 없다.
 
-* To provide a link to the file or image from outside the course, use the
-  web URL. 
+* 강좌 외부에서 파일 또는 이미지에 대한 링크를 제공하려면, 웹 URL을 사용한다.
 
 
-.. note:: If you lock a file, the web URL no longer works for external access
-   to the file, unless the person accessing the URL is enrolled in and logged in to
-   the course.
+.. 참고:: 강좌 운영팀이 파일 접근을 제한한 경우, 파일을 이용하려는 사람이 수강중인 강좌에 로그인하지 않는다면 웹 URL을 통해 파일에 대한 외부로부터의 접근이 불가능하다. 
 
-To copy a URL from the file list, double click the URL in the **URL** column so
-that the value is selected, then copy it.
+파일 목록에서 URL을 복사 하려면 URL 열에서 해당 URL을 더블 클릭하여 선택한 다음 그것을 복사한다.
 
 
 .. _Sort Files:
 
 *********************
-Sort Files
+파일 정렬하기
 *********************
 
-On the **Files & Uploads** page, by default, files are sorted by the **Date
-Added** column, with the most recently added files at the top.
+**파일 업로드** 페이지에서 기본적으로 가장 최근에 추가된 파일이 상단에 놓여지도록 **추가된 날짜** 순서에 따라 정렬된다. 
 
-You can sort your files by any column that has a blue column header. For
-example, to sort the list by name, click the **Name** column header.
+파란색으로 표시된 단어가 있는 모든 열에 따라 파일을 정렬할 수 있다. 예를 들어 이름으로 목록을 정렬하려면 **이름** 을 클릭한다.
 
-Change the sort order by clicking a sortable column header. The direction of the
-arrow in the column header indicates whether the order is ascending or
-descending. Each time you click the column header, the sort order reverses.
+파란색으로 표시된 단어를 클릭하여 정렬 순서를 변경한다. 단어에 있는 화살표의 방향은 오름차순인지 내림차순인지를 나타낸다. 단어를 클릭할 때마다, 정렬 순서를 반대로 바꾼다. 
 
-The current sort order is shown at the top of the file list, and the active sort
-column header is underlined.
+현재 정렬 순서는 파일 목록 상단에 표시되고, 해당 정렬 단어에는 밑줄이 그어진다.
 
 
 .. _Filter Files:
 
 *********************
-Filter Files
+파일 유형 필터링하기
 *********************
 
-You can filter the list of files by type so that only a selected type of file is
-visible. The list remains in the current sort order.
+강좌 운영팀이 선택한 파일 종류만 표시 되도록, 유형에 따라 파일 목록을 필터링할 수 있다. 
 
 
 .. list-table::
@@ -136,39 +114,32 @@ visible. The list remains in the current sort order.
      - Files not included in the other types, such as .html, .js, or .sjson
 
 
-To filter the list of files by type:
+유형별 파일 목록을 필터링 하려면,
  
-#. On the **Files & Uploads** page, click the **Type** column header.
+#. **파일 업로드** 페이지에서, 파란색으로 표시된 **유형** 을 클릭한다..
 
-#. In the dropdown list, select the type of file that you want to view. 
+#. 드롭다운 목록에서, 보려는 파일의 유형을 선택한다.
 
-The list refreshes to show only the type of file you selected, and the column
-header changes to reflect the type of file that you have filtered by.
+목록은 새로 고쳐지면서 선택한 파일 종류만을 표시하고, 열의 머리글도 필터링한 파일 형식으로 변경된다. 
 
-To reset the list and view files of all types, click **Show All** in the **Type**
-dropdown list.
+목록을 재설정하고 모든 종류의 파일을 보려면, **유형** 드롭다운 목록에서 **Show All(모두 보여주기)** 를 클릭한다.
 
 
 .. _Find Files:
 
 *******************
-Find Files
+파일 찾기
 *******************
 
-The **Files & Uploads** page lists up to 50 files.  If your course has more than
-50 files, additional files are listed on other pages.
+**파일 업로드** 페이지는 50개 파일을 나열한다. 강좌에 50개 이상의 파일이 있으면 추가 파일은 다른 페이지에 표시된다.
 
-The range of the files listed on the page, and the total number of files, are
-shown at the top of the page.
+페이지에 나열되는 파일의 범위 및 전체 파일의 개수는 페이지의 상단에 표시된다.
 
-You can navigate through the pages in these ways:
+다음과 같은 방법으로 페이지를 탐색할 수 있다.
 
-* Use the **<** and **>** buttons at the top and bottom of the list to navigate
-  to the previous and next pages.
+* 이전 및 다음 페이지를 탐색하기 위해 목록의 상단 및 하단에 있는 화살표 버튼 **< , >** 을 클릭한다..
 
-* At the bottom of the page, you can edit the first number in the page range.
-  Click the number to place your cursor in the field, then enter the page number
-  you want to jump to.
+* 페이지의 아래쪽에서, 입력 필드에 커서를 놓고 숫자를 클릭한 다음 이동 하려는 페이지 번호를 입력할 수도 있다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/file_pagination.png
    :alt: Image showing the pair of page numbers at the bottom of the Files and
@@ -178,30 +149,24 @@ You can navigate through the pages in these ways:
 .. _Lock a File:
  
 *******************
-Lock a File
+파일 접근 제한하기
 *******************
 
-By default, anyone can access a file you upload if they know the URL, even
-people not enrolled in your class.
+기본적으로 누구든지 심지어 강좌에 등록되어 있지 않더라도 URL을 안다면, 강좌 운영팀이 업로드한 파일에 접근할 수 있다. 
 
-To ensure that those not in your class cannot view the file, click the lock
-icon.
+수강하지 않는 학습자가 파일을 볼 수 없도록 하려면, 잠금 아이콘을 클릭한다.
 
-.. note:: If you lock a file, the web URL no longer works for external access
-   to the file, unless the person accessing the URL is enrolled in and logged in to
-   the course.
+
+.. 참고:: 강좌 운영팀이 파일 접근을 제한한 경우, 파일을 이용하려는 사람이 수강중인 강좌에 로그인하지 않는다면 웹 URL을 통해 파일에 대한 외부로부터의 접근이 불가능하다. 
  
 
 .. _Delete a File:
 
 *******************
-Delete a File
+파일 삭제하기
 *******************
 
-To delete a file, click the **x** icon next to the file.  You are prompted to
-confirm the deletion.
+파일을 삭제 하려면 파일 옆에 있는 x 아이콘을 클릭한다. 삭제하는 것이 맞는지 확인하는 메시지가 표시될 것이다.
 
-.. warning:: If you delete a file that has been linked from a course component,
-   those links will be broken. Before deleting files that are used in a course,
-   make sure you update the links to those files in the course.
+.. 주의:: 강좌 구성 요소에서 연결된 파일을 삭제하면, 해당 링크는 깨진다. 강좌에 사용된 파일을 삭제하기 전에 강좌에 있는 해당 파일에 대한 링크를 반드시 업데이트하도록 한다.
  
