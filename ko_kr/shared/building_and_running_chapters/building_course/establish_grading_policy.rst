@@ -109,73 +109,51 @@
     
 * **과제명:** 
   
-  The general category of the assignment. This name will be visible to
-  students.
+  중간평가, 기말평가 등 과제명을 입력한다. 이 이름은 학습자에게 표시된다.
  
-  .. note:: All assignments of a particular type count the same toward the
-   weight of that category. As a result, a homework assignment that contains
-   10 problems is worth the same percentage of a student's grade as a homework
-   assignment that contains 20 problems.
+  .. 참고:: 한 과제 유형에 속하는 모든 하위 과제는 그 유형의 비중으로 동일하게 계산된다. 즉, 10개의   문제를 포함하는 과제든, 20개의 문제를 포함하는 과제든, 동일한 비율로 성적에 반영된다.
   
 * **성적 기록부 표시용 약자** 
   
-  This is the short name that appears next to an assignment on a student's
-  **Progress** tab.  
+  이것은 학습자의 **진도** 탭과 **성적 기록부** 에 사용될 것으로, 공간의 문제상 과제명의 약자가 필요하다. 예를 들어 중간 평가의 경우, ‘중간’으로 입력하면 된다.   
 
 * **점수 가중치** 
   
-  The assignments of this type together account for the percent value set in
-  **Weight of Total Grade**.
+  해당 유형에 속하는 전체 과제가 합쳐져서 과목 전체 성적에, 점수 가중치에 맞춰 반영된다.
   
-  The total weight of all assignment types must equal 100.
+  모든 과제 유형의 비중을 합치면 100이 되어야 한다.
   
-  .. note:: Do not include the percent sign (%) in this field.
+  .. 참고:: 이 입력 필드에 백분율 기호 (%)를 포함하지 않는다.
   
 * **합계**
   
-  The number of assignments of this type that you plan to include in your
-  course.
+  강좌 전체 과제 유형의 개수이다.
   
 * **낙제 횟수**
   
-  The number of assignments of this type that the grader will drop. The grader
-  will drop the lowest-scored assignments first.
+  채점자가 낙제시킬 과제 유형의 수이다. 채점자는 최저 득점 과제를 먼저 낙제시킬 것이다
 
 .. _Graded Subsections:
 
 **********************************************
-Graded Subsections
+성적 반영 소주제 지정하기
 **********************************************
 
-After you configure assignment types, as you are organizing your course, you
-set the assignment type for subsections that contain problems that are to be
-graded.
+소주제에 문제를 추가하고 과제 유형을 지정한다. 
 
-Each subsection that contains problems to be graded can include only one
-assignment type. 
+채점될 문제를 포함하는 각 소주제는 한 가지 유형의 과제만을 포함할 수 있다.
 
-.. note:: 
- You can only set assignment types and due dates at the subsection level. You
- cannot set assignment types or due dates for entire sections or for individual
- units within subsections. Additionally, you can designate a subsection as one,
- and only one, of the assignment types you configured.
+.. 참고:: 
+소주제 수준에서만 과제 유형 및 마감 날짜를 설정할 수 있다. 전체 주제 또는 소주제 내 개별 학습활동에 대한 과제 유형 또는 마감 날짜를 설정할 수는 없다. 또한, 한 과제유형에 대해선 오직 하나의 소주제만 지정할 수 있다. 
   
-See :ref:`Developing Course Subsections` for general instructions on
-configuring a subsection.
+:ref:`Developing Course Subsections` 에 에 소주제 설정하기에 대한 일반적인 안내가 있다.
+:ref:`Set the Assignment Type and Due Date for a Subsection` 에 채점되는 과제로서 소주제를 지정하는 것에 관한 안내가 있다.
 
-See :ref:`Set the Assignment Type and Due Date for a Subsection` for
-instructions on designating a subsection as a graded assignment.
+채점된 소주제 내에서, 해당 소주제에 대해 지정된 유형의 문제를 만든다. 같은 소주제에서 다른 과제 유형의 문제와 혼합할 수 없다.
 
-Within a graded subsection, you create problems of the type designated for that
-subsection. You cannot not mix problems of different assignment types in the
-same subsection.
+예를 들어 특정 주제에 대한 과제와 실험을 만들려는 경우, 두 개의 소주제를 만들도록 한다. 하나의 소주제는 과제 유형으로, 다른 하나의 소주제는 실험 과제 유형으로 설정한다. 두 소주제는 실제 숙제 또는 실험 문제뿐 아니라 다른 콘텐츠를 포함할 수 있다.
 
-For example, if you want to create a homework assignment and a lab for a
-specific topic, create two subsections. Set one subsection as the Homework
-assignment type and the other as the Lab assignment type. Both subsections can
-contain other content as well as the actual homework or lab problems.
-
-.. note:: 
+.. 참고:: 
  You can create problems in Studio without specifying that the subsection is an
  assignment type. However, such problems do not count toward a student's grade.
 
