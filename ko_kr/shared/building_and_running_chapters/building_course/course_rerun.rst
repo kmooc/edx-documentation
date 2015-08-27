@@ -1,54 +1,49 @@
 .. _Rerun a Course:
 
 ###################
-Re-running a Course
+강좌 재개강하기
 ###################
 
-Another way to create a course in Studio is to re-run an existing course. When
-you select the course re-run option, most, but not all, of the original course
-content is duplicated to the new course. The original course is not changed in
-any way.
+Studio 에서 강좌를 만드는 또 다른 방법은 기존 강좌를 재개강하는 것이다. 강좌 재개강하기를 선택하면, 전부는 아니지만, 원래 강좌 콘텐츠의 대부분이 새로운 강좌로 복제된다. 기존 강좌가 변경 될 일은 없다.
 
 .. list-table::
    :widths: 45 45
    :header-rows: 1
 
-   * - Type of Content
-     - Duplicated to New Course?
-   * - Course start date
-     - No. Set to midnight on January 1, 2030 (UTC).
-   * - All other course dates
-     - Yes. You will need to update all release dates and due dates.
-   * - Course structure (sections, subsections, units) and state (published,
-       hidden)
-     - Yes. 
-   * - Individual problems and other components
-     - Yes.
-   * - Files uploaded to the course, including videos and textbooks
-     - Yes.
-   * - Pages added to the course
-     - Yes, including all page content and the defined page order.
-   * - Course Updates 
-     - Yes.
-   * - Advanced Settings
-     - Yes.
-   * - Grading policy
-     - Yes.
-   * - Student enrollment data
-     - No.
-   * - Course team privileges, including admins, discussion moderators, beta
-       testers
-     - No. Only the user who created the new course has access to it.
-   * - Manually created cohort groups
-     - No. 
-   * - Student answers, progress, and grading data
-     - No.
-   * - Certificates
-     - No.
-   * - Discussion posts, responses, comments, and other data
-     - No.
-   * - Wiki contributions
-     - No.
+   * - 콘텐츠 유형
+     - 새로운 강좌로 복제되는가?
+   * - 강좌 시작 날짜
+     - 아니오. 2030년 1월 1일 자정으로 설정.
+   * - 강좌 일정
+     - 네. 강좌 시작일과 종료일을 변경해야 한다. 
+   * - 강좌 구조 (주제, 소주제, 학습활동) 및 상태 (게시된 상태, 숨겨진 상태)
+     - 네.
+   * - 개별 문제 및 다른 구성요소
+     - 네.
+   * - 동영상 및 교재를 포함하여 강좌에 업로드된 파일
+     - 네.
+   * - 추가된 메뉴
+     - 네, 모든 메뉴 콘텐츠 및 정해진 메뉴 순서도 복제.
+   * - 공지사항
+     - 네.
+   * - 고급 설정
+     - 네.
+   * - 성적 규정
+     - 네.
+   * - 학습자 수강 데이터
+     - 아니오.
+   * - 교수자, 토론 운영자, 베타 테스터를 포함한 강좌 운영팀의 특별 권한
+     - 아니오. 새로운 강좌를 개설한 자만 접근 가능.
+   * - 직접  설정한  학습집단 
+     - 아니오.
+   * - 학습자 답안, 진도, 및 채점 데이터
+     - 아니오.
+   * - 수료증
+     - 아니오.
+   * - 게시글, 답글, 의견 및 다른 데이터
+     - 아니오..
+   * - 위키
+     - 아니오.
 
 See :ref:`Use Re-Run to Create a Course<Use ReRun to Create a Course>` and
 :ref:`Update the New Course`.
