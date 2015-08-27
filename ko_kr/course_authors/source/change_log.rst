@@ -13,7 +13,7 @@
    * - 날짜
      - 변경
    * - 2/13/15
-     - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨.
+     - :ref:`Drag and Drop Problem XML`에 있는 예제가 업데이트됨.
    * - 2/12/14
      - :ref:`LTI Component settings` 에 추가된 설정들을 반영됨.
    * - 2/13/15
