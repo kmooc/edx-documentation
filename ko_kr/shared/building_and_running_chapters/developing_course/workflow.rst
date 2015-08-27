@@ -1,14 +1,13 @@
 .. _Getting Started with Course Content Development:
 
 ###############################################
-Getting Started with Course Content Development
+강좌 콘텐츠 
 ###############################################
 
-When you are done :ref:`setting up your course<Setting up your Course Index>`,
-you are ready to build your course content.
+:ref:`setting up your course<Setting up your Course Index>` 에서의 작업이 모두 끝났다면,
+이제 강좌 콘텐츠를 개발할 차례다.
 
-This chapter provides an outline of the steps involved in developing your
-course content, with links to more details. See:
+이 장은 강좌 콘텐츠 개발 단계의 개요를 다룬다. 아래 링크에 구체적인 안내가 있다.
 
 * `Understanding Course Building Blocks`_
 * `Creating New Course Content`_
@@ -18,10 +17,10 @@ course content, with links to more details. See:
 .. _Understanding Course Building Blocks:
 
 ************************************************
-Understanding Course Building Blocks
+강좌의 기본 구성요소 이해하기
 ************************************************
 
-Before you begin, you should understand the building blocks of an edX course.
+시작하기 전에, K-MOOC 강좌를 이루는 기본 요소를 먼저 이해하면 도움이 될 것이다.
 
 * :ref:`The course outline<Developing Your Course Outline>` is the container
   for all of your course content. The outline contains one or more sections.
@@ -39,56 +38,54 @@ Before you begin, you should understand the building blocks of an edX course.
 .. _Creating New Course Content:
 
 ****************************************
-Creating New Course Content
+신규 콘텐츠 만들기
 ****************************************
 
-Once you understand the way edX courses are structured, you can start
-organizing your content and entering it into Studio. 
+K-MOOC 강좌를 이루는 기본 요소를 이해했다면, 이제 강좌 콘텐츠를 Studio에서 개발할 수 있다.
 
-You create :ref:`sections<Create a Section>`, :ref:`subsections<Create a
-Subsection>`, and :ref:`units<Create a Unit>` in the :ref:`course
-outline<Developing Your Course Outline>`. 
+먼저, :ref:`course
+outline<Developing Your Course Outline>` 에서 :ref:`sections<Create a Section>`, :ref:`subsections<Create a
+Subsection>`, :ref:`units<Create a Unit>` 가 이루어 져야 한다.
 
-For graded subsections, you also
+성적에 반영되는 소주제 설정도 할 수 있다.
 :ref:`set the assignment type and due date<Set the Assignment Type and Due Date
-for a Subsection>`. 
+for a Subsection>` 에 그에 대한 안내가 나와있다.
 
-You :ref:`create components<Add a Component>` in the unit
-page.
+:ref:`create components<Add a Component>` 를 참고해 구성요소도 추가할 수 있다.
 
-In addition, you :ref:`control content visibility<Controlling Content
-Visibility>` by setting release dates on the outline and publishing units.
+이 외에도, :ref:`control content visibility<Controlling Content
+Visibility>` 를 참고하면 학습활동 게시와 공개일 설정을 통해 콘텐츠를 학습자에게 보이거나 감추는 것을 설정할 수 있다. 
 
-The following diagram summarizes the content creation workflow:
+이러한 콘텐츠 제작 과정을 아래 도표와 같이 요약할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/workflow-create-content.png
  :alt: Diagram of the content creation process
 
-It is recommended that you :ref:`test course content <Testing Your Course
-Content>` throughout the creation process.
+콘텐츠 개발 과정에서 콘텐츠를 테스트해보는 것이 원활한 강좌 운영에 도움이 될 것이다. 이에 대한 안내는 :ref:`test course content <Testing Your Course
+Content>` 에 있다.
 
 .. _Making Course Content Visible to Students:
 
 ******************************************************
-Making Course Content Visible to Students
+콘텐츠 공개하기
 ******************************************************
 
-When you create your content, you'll also specify if and when students will be
-able to see it. Content visibility depends on several factors: 
+콘텐츠를 만들 때, 이를 학습자에게 공개할 것인지 여부와 공개 시점을 설정할 수있다. 
+아래 항목들에 관해 공개 설정이 가능하다.
 
-* The :ref:`course start date<The Course Start Date>`
-* The release dates of the :ref:`section<Set a Section Release Date>` and
+* :ref:`course start date<The Course Start Date>`
+* :ref:`section<Set a Section Release Date>` and
   :ref:`subsection<Set a Subsection Release Date>`
-* The :ref:`publishing status<Hide a Unit from Students>` of the unit
-* The :ref:`Hide content from students<Hide a Unit from Students>` setting
-* The use of :ref:`Content Groups`
+* :ref:`publishing status<Hide a Unit from Students>` of the unit
+* :ref:`Hide content from students<Hide a Unit from Students>` setting
+* :ref:`Content Groups`
   
-For more information, see :ref:`Controlling Content Visibility`.
+공개 설정에 대한 자세한 안내는 Content Visibility` 에 있다.
 
 .. _Making Course Content Searchable:
 
 ***********************************
-Making Course Content Searchable
+콘텐츠 검색 기능 활성화하기
 ***********************************
 
 Learners can search course text in :ref:`HTML components<Working with HTML
