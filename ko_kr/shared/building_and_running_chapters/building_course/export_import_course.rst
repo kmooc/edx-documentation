@@ -1,94 +1,79 @@
 .. _Exporting and Importing a Course:
 
 #####################################
-Exporting and Importing a Course
+강좌 내보내기 및 가져오기
 #####################################
 
-You can :ref:`Export a Course` and :ref:`Import a Course` through Studio.
+Studio에서 :ref:`Export a Course` 및 :ref:`Import a Course` 를 할 수 있다.
 
-To duplicate an existing course for a new run, course creators can use the
-course re-run option. See :ref:`Rerun a Course`.
+새로운 강좌 운영을 위해 기존의 강좌를 복제하려면 강좌 개설자는 강좌를 재개강할 수 있다. 
+See :ref:`Rerun a Course` 에 자세한 안내가 있다.
 
 .. _Export a Course:
 
 ***************
-Export a Course
+강좌 내보내기
 ***************
 
-There are several reasons you may want to export your course:
+다음과 같은 목적으로, 강좌 내보내기 기능을 사용할 수 있다.
 
-* To save your work
-* To edit the XML in your course directly
-* To create a backup copy of your course, which you can import if you want to
-  revert the course back to a previous state
-* To share with another instructor for another class
-* To create a copy of your course that you can later import into another course
-  instance and customize 
+* 작업을 저장하기 위해
+* 강좌의 XML을 직접 편집하기 위해
+* 강좌를 이전의 상태로 복귀하려는 경우 가져오기를 할 수 있는 강좌의 백업 복사본을 만들기 위해
+* 다른 강좌의 다른 교수자와 공유하기 위해
+* 나중에 다른 강좌에서 이를 가져와서 사용자 맞춤 지정을 할 때 필요한 강좌 복사본을 만들기 위해
  
-When you export your course, Studio creates a **.tar.gz** file that includes
-the following course data:
+강좌를 내보내는 경우, Studio 는 다음의 강좌 데이터를 포함하는 .tar.gz 파일을 만든다.
  
-* Course content (all Sections, Subsections, and Units)
-* Course structure
-* Individual problems
-* Pages
-* Course assets
-* Course settings
+* 강좌 콘텐츠 (모든 주제, 소주제, 및 학습활동)
+* 강좌 구조
+* 개별 문제
+* 메뉴
+* 강좌 자료
+* 강좌 설정
  
 
-The following data is not exported with your course:
+다음의 데이터는 강좌와 함께 내보내기가 되지 않는다.
  
-* User data
-* Course team data
-* Discussion data
-* Certificates
+* 학습자 데이터
+* 강좌 운영팀 데이터
+* 게시판 데이터
+* 수료증
 
-To export a course:
+강좌를 내보내려면
  
-#. From the **Tools** menu, select **Export**.
-#. Click **Export Course Content**.
+#. **도구** 메뉴에서, **내보내기**를 선택한다.
+#. **강좌 콘텐츠 내보내기** 를 클릭한다.
 
-When the export completes you can then access the .tar.gz file on your
-computer.
+내보내기가 완료되고 나면 컴퓨터에서 .tar.gz파일에 접근할 수 있을 것이다.
 
 
 .. _Import a Course:
 
 ***************
-Import a Course
+강좌 가져오기
 ***************
 
-.. warning::
+.. 주의::
 
-	Content of the imported course replaces all the content of this course.
-	**You cannot undo a course import**. We recommend that you first export the
-	current course, so you have a backup copy of it.
+	가져온 강좌의 콘텐츠는 현재 강좌의 모든 콘텐츠를 대체한다. **강좌 가져오기 실행은 취소할 수 없음에 유의한다.**  따라서 먼저 현재 강좌를 내보내고, 그 강좌의 백업 복사본을 가지고 있는 것이 좋다. 
  
-There are several reasons you may want to import a course. For example:
+다음과 같은 목적으로, 강좌 가져오기 기능을 사용할 수 있다.
 
-* To load a course you developed outside of Studio.
-* To run a new version of a course that was not created in Studio.
+* Studio 외부에서 개발한 강좌를 가져오기 위해
+* Studio에서 만들어지지 않은 강좌의 새 버전을 실행하기 위해
 
 
-The course that you import must be in a .tar.gz file (that is, a .tar file
-compressed with GNU Zip). This .tar.gz file must contain a course.xml file in a
-course data directory. The tar.gz file must have the same name as the course
-data directory. It may also contain other files.
+가져온 강좌는 .tar.gz 파일 형식이어야 한다 (즉, GNU Zip으로 압축된 .tar 파일). 이 .tar.gz 파일은 강좌 데이터 디렉토리에서 강좌 .xml 파일을 포함해야 하며, tar.gz 파일은 강좌 데이터 디렉터리와 이름이 같아야 한다.  또한 .tar.gz 파일은 다른 파일을 포함할 수 있다.
  
-If your course uses legacy layout structures, you may not be able to edit the
-course in Studio, although it will probably appear correctly on Edge. To make
-sure that your course is completely editable, ensure that all of your material
-is embedded in a unit.
+기존 레이아웃 구조를 사용하는 경우 Edge에서는 올바르게 표시되더라도, Studio에서는 강좌를 편집하지 못할 수도 있다. 강좌를 완전히 편집 가능하게 하려면, 강좌의 모든 자료가 학습활동에 포함되어 있는지 확인해야 한다.
  
-The import process has five stages. During the first two stages, you must stay
-on the Course Import page. You can leave this page after the Unpacking stage
-has completed. We recommend, however, that you don't make important changes to
-your course until the import operation has completed.
+5 단계가 있다. 처음 두 단계 동안에는 강좌 가져오기 페이지에 머물러야 한다. 분리(Unpacking) 단계가 완료되면 이 페이지를 벗어날 수 있다. 그러나, 가져오기 작업이 완료될 때까지는, 강좌의 설정을 변경하지 않는 것이 좋다.
  
-To import a course:
+강좌를 가져오려면
  
-#. From the **Tools** menu, select **Import**.
-#. Click **Choose a File to Import**.
-#. Locate the file that you want, and then click **Open**.
-#. Click **Replace my course with the one above**.
+#. **도구** 메뉴에서, **가져오기** 를 선택한다..
+#. **가져올 파일 선택하기** 를 클릭한다.
+#. 원하는 파일을 찾은 다음, **열기** 를 클릭한다.
+#. **위 강좌와 내 강좌 바꾸기** 를 클릭한다.
 
