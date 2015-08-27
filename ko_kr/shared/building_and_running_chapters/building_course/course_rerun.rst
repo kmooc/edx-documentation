@@ -54,32 +54,26 @@ See :ref:`Use Re-Run to Create a Course<Use ReRun to Create a Course>` and
 Use Re-Run to Create a Course
 ********************************************
 
-Before you re-run a course:
+강좌를 재개강하기 전에,
 
-* For a course that is hosted on the `edge.edx.org`_ site, verify that you have
-  permission to create courses in Studio. See :ref:`Use Studio on Edge`.
+* edge.edx.org사이트에서 호스팅되는 강좌라면, 강좌 운영팀이 Studio에서 강좌를 만들 수 있는 권한이 있는지 확인한다.
+:ref:`Use Studio on Edge` 에서 더 자세한 안내를 볼 수 있다.
 
-* For a course that is hosted on the `edx.org`_ site, contact your Program
-  Manager. Your Program Manager will create the new course using the re-run
-  feature, and then work with you to complete the steps to :ref:`update the new
-  course<Update the New Course>`.
+* edx.org사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자에게 문의한다. 플랫폼 관리자는 재개강 기능을 이용하여 새로운 강좌를 만들 것이다. :ref:`update the new course<Update the New Course>` 에서 더 자세한 안내를 볼 수 있다.
 
-To re-run a course, you must have course creation privileges in Studio and you
-must be a member of the course team for the course you want to re-run.
+강좌를 재개강하려면 Studio에서 강좌 개설 권한이 있어야 하고, 재개강하려는 강좌의 강좌 운영팀 구성원이어야 한다. 
   
-To re-run a course:
+강좌를 재개강하기 위해 
 
-#. Log in to Studio. Your dashboard lists the courses that you have access to
-   as a staff member.
+#. Studio에 로그인 한다. 대시보드에 강좌 운영팀 구성원으로서 접근할 수 있는 강좌가 나열되어 있다. 
 
-#. Move your cursor over each row in the list of courses. The **Re-Run Course**
-   and **View Live** options appear for each course.
+#. 강좌 목록의 각 행 위로 커서를 이동한다. 각 강좌에 대해 **강좌 재개강하기** 및 **적용 결과 보기** 가 표시될 것이다. 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/Rerun_link.png
      :alt: A course listed on the dashboard with the Re-run Course and View 
            Live options shown 
 
-3. Locate the course you want to re-run and click **Re-Run Course**. The
+3. 재개강하고 싶은 강좌를 찾아서 **강좌 재개강하기** 를 클릭한다. The
    **Create a re-run of a course** page opens with values already supplied in
    the **Course Name**, **Organization**, and **Course Number** fields.
 
@@ -106,21 +100,17 @@ To re-run a course:
 .. _Update the New Course:
 
 ********************************************
-Update the New Course
+신규 강좌 업데이트하기
 ********************************************
 
-When you create a course by re-running another course, you should carefully
-review the settings and content of the new course. To assure a quality
-experience for students, be sure to test the course thoroughly before the
-course start date. See :ref:`Testing Your Course Content` and
-:ref:`Beta_Testing`.
+이전 강좌를 재개강하여 강좌를 만들 때 새로운 강좌의 설정 및 콘텐츠를 신중하게 검토 해야 한다. 훌륭한 학습 경험이 되도록 개강 전에 강좌에 대해 철저하게 테스트 해야 한다. 
+:ref:`Testing Your Course Content` 와
+:ref:`Beta_Testing` 에 자세한 안내가 있다.
 
-At a minimum, you will need to make these changes to prepare the new course for
-release:
+강좌 운영팀이 신규 강좌의 개설을 준비할 때, 다음 작업이 완료되었는지 확인해야 한다.  
 
-* Add course staff members, including discussion admins, moderators, and
-  community TAs. See :ref:`Add Course Team Members` or
-  :ref:`Course_Staffing`.
+* 토론 관리자, 조정자 및  커뮤니티 TA를 포함한 강좌 운영팀 구성원을 추가한다.  :ref:`Add Course Team Members` 나
+  :ref:`Course_Staffing` 에 자세한 안내가 있다. 
   
 * Update course-wide dates, including course and enrollment start and end
   dates. See :ref:`Set Important Dates for Your Course`.
