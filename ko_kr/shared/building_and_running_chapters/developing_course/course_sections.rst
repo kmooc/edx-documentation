@@ -130,18 +130,17 @@ section contains one or more subsections.
 .. image:: ../../../shared/building_and_running_chapters/Images/section-unpublished-changes.png
  :alt: A section with unpublished changes
 
-학습자가 변경된 학습활동을 보려면, 강좌운영팀이 반드시 해당 학습활동을 게시해야 한다.
+학습자가 변경된 학습활동을 보려면, 강좌 운영팀이 반드시 해당 학습활동을 게시해야 한다.
 
 ===========================
 강좌 운영팀에게만 공개
 ===========================
 
-A section can contain a unit that is hidden from students and available to
-staff only. That unit is not visible to students, regardless of the release
-date of the section or subsection.
+주제에 학습활동을 추가하되, 이것을 학습자에게는 비공개로 하여 강좌 운영팀만 볼 수 있도록 할 수 있다. 
 
-The following example shows how a section that contains a unit that is hidden
-from students is displayed in the outline, summarized with a black bar:
+이는 해당 학습활동을 포함하는 주제나 소주제의 공개 설정과는 관계 없이 적용되는 것이다.
+
+다음 예시는 학습자에게는 비공개인 학습활동이 어떻게 강좌 개요에서 보이는지를 나타낸다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/section-hidden-unit.png
  :alt: A section with a hidden unit 
@@ -150,149 +149,130 @@ from students is displayed in the outline, summarized with a black bar:
 .. _Create a Section:
 
 ****************************
-Create a Section
+주제 만들기
 ****************************
 
-If you do not change the :ref:`course start date<The Course Start Date>`
-default value, ``1/1/2030``, when you create a new section, its release date
-will be ``Unscheduled``. 
+주제를 만든 후, ``1/1/2030 00:00:00 UTC`` 으로 기본값이 설정된 :ref:`course start date<The Course Start Date>`을 바꾸지 않으면, 주제가 계속 ``공개일이 지정되지 않음`` 상태에 있게 된다.
 
-If you have modified the course start date, when you create a new section, the
-default release date is the course start date.
+개강일을 변경하면, 주제 공개일의 기본값이 개강일로 바뀐다.
 
-.. caution:: 
- If the course start date is in the past, newly created sections are
- immediately visible to students.
+.. 주의:: 
+이미 개강하였다면, 새로 추가되는 주제는 즉시 학습자에게 보이게 된다. 
 
-To create a new section:
-
-#. Click **New Section** at the top or bottom of the outline: 
+#. **신규 주제 추가하기** 를 클릭한다.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/outline-create-section.png
      :alt: The outline with the New Section buttons circled
 
-   A new section is added at the end of the course content, with the section
-   name selected.
+   그러면 기존의 콘텐츠 아래에 새로 추가한 주제가 추가될 것이다.
 
-#. Enter the name for the new section. Remember that students see the section
-   name in the courseware.
+#. 신규 주제명을 입력한다. 학습자들은 이 주제명을 볼 것이다.
 
-#. :ref:`Add subsections<Create a Subsection>` to the new section as needed.
+#. 이어서 :ref:`Add subsections<Create a Subsection>` 를 추가한다.
    
-It is recommended that you :ref:`test course content <Testing Your Course
-Content>` as you create new sections.
+신규 주제를 추가한 후, :ref:`test course content <Testing Your Course
+Content>` 를 권장한다.
 
 ********************************
-Change a Section Name
+주제명 바꾸기 
 ********************************
 
-To edit a section name, hover over the section name to show the Edit icon:
+주제명 위에 마우스를 갖다대면 주제명 옆에 편집 아이콘이 나타날 것이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/section-edit-icon.png
   :alt: The Edit Section Name icon
 
-Click the Edit icon next to the section name. The name field becomes editable.
-Enter the new name and tab or click out of the field to save the name.
+편집 아이콘을 클릭한다. 그러면 편집가능한 상태의 입력란이 생기게 된다. 
+그곳에 새 이름을 입력하고 탭 키를 누르거나 입력란 바깥의 영역을 클릭하면 그 이름이 저장된다. 
 
 .. _Set a Section Release Date:
 
 ********************************
-Set a Section Release Date
+주제 공개일 설정하기
 ********************************
 
-To set the section release date:
+주제의 공개일을 설정하려면
 
-#. Click the Settings icon in the section box:
+#. 주제 영역에서 설정 아이콘을 클릭한다.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/section-settings-box.png
     :alt: The section settings icon circled
 
-   The **Settings** dialog box opens.
+   **설정** 대화 상자가 열릴 것이다.
 
-#. Enter the release date and time for the section:
+#. 주제의 공개일시를 입력한다.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/section-settings-release-date.png
     :alt: The section release date settings
 
-#. Click **Save**.
+#. **저장** 을 클릭한다.
 
-For more information, see :ref:`Release Dates`.
+:ref:`Release Dates` 에 더 자세한 안내가 나와있다.
 
 .. _Publish all Units in a Section:
 
 ********************************
-Publish all Units in a Section
+주제 내 전체 학습 활동 게시하기
 ********************************
 
-To publish all new and changed units in a section, click the publish icon in
-the box for the section:
+주제 내 전체 학습 활동을 게시하려면 주제 영역의 게시 아이콘을 클릭해야 한다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-publish-icon-section.png
  :alt: Publishing icon for a section
 
-.. note:: 
- The publish icon only appears when there is new or changed content within the
- section.
+.. 참고:: 
+게시 아이콘은 새로 추가되거나 변경된 콘텐츠가 있을 때에만 나타난다.
 
-See :ref:`Unit Publishing Status` for information about statuses and visibility
-to students.
-
+학습자 공개 설정과 공개 상태에 관해 :ref:`Unit Publishing Status` 에 더 자세한 안내가 나와있다.
 
 .. _Hide a Section from Students:
 
 ********************************
-Hide a Section from Students
+학습자에게 주제 감추기
 ********************************
 
-You can hide all content in a section from students, regardless of the status
-of subsections and units within the section.
+소주제의 공개 상태와 관계 없이, 주제 내부의 전체 콘텐츠를 감출 수 있다.
 
-To hide a section from students:
+학습자에게 주제를 감추려면,
 
-#. Click the Settings icon in the section box:
+#. 주제 영역의 게시 아이콘을 클릭한다. 
    
    .. image:: ../../../shared/building_and_running_chapters/Images/section-settings-box.png
     :alt: The section settings icon circled
 
-   The **Settings** dialog box opens.
+   **설정** 대화 상자가 열릴 것이다.
 
-#. Check **Hide from students**.
+#. **학습자에게 감추기** 의 체크박스를 클릭한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/section-settings-hide.png
     :alt: The section hide from students setting
 
-#. Click **Save**.
+#. **저장** 을 클릭한다.
 
-Now, no content in the section is visible to students.
+주제의 콘텐츠가 학습자에게 보이지 않을 것이다. 
 
-To make the section visible to students, repeat these steps and clear the
-**Hide from students** checkbox.
+학습자에게 주제를 공개하려면, 이 단계를 반복하되 **학습자에게 감추기** 의 체크박스를 해제한다.
 
-.. warning::
- When you clear the **Hide from students** checkbox for a section, not all
- content in the section is necessarily made visible to students. If you
- explicitly set a subsection or unit to be hidden from students, it remains
- hidden from students. Unpublished units remain unpublished, and changes to
- published units remain unpublished.
+.. 주의::
+ **학습자에게 감추기** 의 체크박스를 해제한다고 해서, 주제 내 콘텐츠 전체가 학습자에게 보이는 것은 아니다. 
+ 소주제나 학습활동 중 학습자에게 보이지 않게 설정해둔 것은 계속 그 상태가 유지된다. 
+
 
 ********************************
-Delete a Section
+주제 삭제하기
 ********************************
 
-When you delete a section, you delete all subsections and units within the
-section.
+주제를 삭제하면, 해당 주제 내부의 전체 소주제와 학습활동도 함께 삭제된다.
 
-.. warning::  
- You cannot restore course content after you delete it. To ensure you do not
- delete content you may need later, you can move any unused content to a
- section in your course that you set to never release.
+.. 주의::  
+주제를 삭제한 후에는 강좌 콘텐츠를 복구할 수 없다.  
+나중에 필요할 수도 있다고 생각되는 콘텐츠는 삭제하지 말고, 비공개 주제에 옮겨두는 것을 권장한다.
 
-To delete a section:
+주제를 삭제하려면
 
-#. Click the delete icon in the section that you want to delete:
+#. 삭제를 원하는 주제의 영역에 있는 삭제 아이콘을 클릭한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/section-delete.png
    :alt: The section with Delete icon circled
 
-2. When you receive the confirmation prompt, click **Yes, delete this
-   section**.
+2. 삭제를 확인하는 대화상자가 뜨면 **네, 주제를 삭제합니다.** 를 클릭한다.
