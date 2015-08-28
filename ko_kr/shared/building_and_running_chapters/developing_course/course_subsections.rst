@@ -1,11 +1,10 @@
 .. _Developing Course Subsections:
 
 ###################################
-Developing Course Subsections
+소주제
 ###################################
 
-To develop subsections in your course, you must first understand the
-following:
+소주제를 만들기 전에, 우선 다음 사항을 이해해야 한다.
 
 * `What is a Subsection?`_
 * `Viewing Subsections in the Outline`_
@@ -13,7 +12,7 @@ following:
 * `Subsections and Visibility to Students`_
 * `Release Statuses of Subsections`_
   
-Subsection tasks:
+소주제와 관련된 작업은 다음과 같은 것이 있다.
 
 * `Create a Subsection`_
 * `Change a Subsection Name`_
@@ -25,69 +24,61 @@ Subsection tasks:
 
 
 ****************************
-What Is a Subsection?
+소주제란?
 ****************************
 
-Sections are divided into subsections, which in turn contain one or more units.
-A subsection may represent a topic in your course, or another organizing
-principle. Subsections are sometimes called “lessons” or “learning sequences.”
-
+주제는 1개 이상의 학습활동이 포함된 소주제로 나뉘게 된다. 
+소주제를 살펴보면 강좌에서 무엇을 중점으로 두는지 이해할 수 있게 된다.
 
 ***********************************
-Viewing Subsections in the Outline
+개요에서 소주제 보기
 ***********************************
 
-The following example shows three subsections in a section, all collapsed, in
-the course outline:
+다음 예시는 세 소주제가 모두 접힌 상태로, 강좌 개요에서 어떻게 보이는지를 나타낸다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/subsections.png
  :alt: Three collapsed subsections in the outline
 
 
 *********************************
-The Student View of a Subsection
+학습자 화면에서 소주제 보기
 *********************************
 
-Students see subsections in the Courseware tab, listed beneath the expanded
-section. In the following example, seven subsections are circled, and the first
-is open.
+학습자는 강좌 내용 탭에서, 주제가 펼쳐져 있는 상태에서 소주제를 볼 수 있다.
+다음 예시에서 일곱 개의 소주제에 동그라미 표시가 되어있는데, 그 중 첫번째 소주제가 열려있는 상태다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/subsections_student.png
  :alt: The student view of the outline
 
 
 ************************************************
-Subsections and Visibility to Students
+소주제와 학습자 공개 설정
 ************************************************
 
-Students cannot see any content in a subsection if the subsection's release
-date is unscheduled or has not passed.
+소주제의 공개일이 지정되지 않거나, 아직 그 날짜가 되지 않았다면 학습자는 소주제에서 어떤 콘텐츠도 볼 수 없다.
 
-If a subsection's release date has passed, students can see content in the
-subsection if the following three conditions are met:
 
-* The release date of the parent section has passed.
-* The units have been published.
-* The units are not hidden from students.
+소주제의 공개일이 지나야 학습자가 콘텐츠를 볼 수 있는데,
+
+* 소주제가 속해있는 주제의  공개일이 지났거나,
+* 학습활동이 게시되었거나,
+* 학습활동이 따로 학습자에게 비공개로 설정되어 있지 않은 경우 학습자가 볼 수 있다.
 
 ************************************************
-Release Statuses of Subsections
+소주제의 공개 상태
 ************************************************
 
-As a course author, you control the release status of subsections.  For the
-content of a subsection to be visible to students, the subsection must be
-released. See the following for more information about the possible releases
-statuses of subsections:
+강좌 개설자는 소주제의 공개일을 조절할 수 있다. 콘텐츠를 학습자에게 공개하려면, 그 콘텐츠가 들어가 있는 소주제가 공개되어야 한다. 소주제의 공개 상태로는 다음과 같은 것이 있다.
 
-* `Scheduled with the Section`_
-* `Unscheduled`_
+* `주제와 함께 예정됨`_
+* `공개일이 지정되지 않음 `_
 * `Scheduled Later than the Section`_
 * `Scheduled with Unpublished Changes`_
-* `Released with Unpublished Changes`_
-* `Released`_
+* `공개 후 변경 사항은 아직 게시되지 않음`_
+* `공개됨`_
 
 ==========================
-Scheduled with the Section
+주제와 함께 예정됨
 ==========================
 
 When you create a subsection, it is set by default to release at the same time
