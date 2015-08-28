@@ -2,7 +2,7 @@
 이 안내서에 대하여
 *******
 
-*K-MOOC 강좌 개발 안내서* 는 RST 파일 및 Sphinx(스핑크스)를 사용하여 만들어진다. 이 가이드를 직접 업데이트하고 GitHub에서 이 도움말을 수정할 수 있다.::
+*K-MOOC 강좌 개발 안내서* 는 RST 파일 및 Sphinx(스핑크스)를 사용하여 만들어진다. 원한다면, 이 안내서를 GitHub에서 직접 업데이트하고 수정할 수 있다.::
 
   https://github.com/edx/edx-documentation/tree/master/en_us/course_authors/source
 
