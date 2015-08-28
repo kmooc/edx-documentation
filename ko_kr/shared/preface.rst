@@ -40,118 +40,85 @@ edX101 강좌는 Studio에 구축되어 있고, edx.org에 등록하는데 이�
 도움말
 -------------
 
-Documentation for course teams is available on the docs.edx.org web page.
+강좌 운영팀을 위한 도움말을 http://kmooc.readthedocs.org/ko/latest/ 에서 이용할 수 있다.
 
-* `Building and Running an edX Course`_ is a comprehensive guide with concepts
-  and procedures to help you build a course in edX Studio, and then use the
-  Learning Management System (LMS) to run a course.
+* `Building and Running an edX Course`_ 는 교수자 및 강좌 운영팀이Studio 에서의 강좌 개발과 학습 관리 시스템 (LMS)에서의 강좌 운영을 돕기 위한 개념 및 절차를 포함한 종합적인 도움말이다.
 
-  When you are working in edX Studio, you can access relevant sections of this
-  guide by clicking **Help** on any page.
+  Studio 에서 작업하는 동안, 모든 페이지에서 **도움말** 을 클릭하면, 이 도움말로 연결된다.
 
-* `Using edX Insights`_ describes the metrics, visualizations, and downloadable
-  .csv files that course teams can use to gain information about student
-  background and activity.
+* `Using edX Insights`_ 에는 지표, 시각화 자료, 및 강좌 운영팀이 학습자의 배경 및 활동에 대한 정보를 얻는데 이용할 수 있도록 다운로드 가능한 .csv 파일이 있다.
 
-* `edX Course Staff Release Notes`_ summarize the changes in each new version
-  of the edX Studio and LMS software.
+* `edX Course Staff Release Notes`_ Studio 및 학습 관리 시스템의 각 최신 버전의 변경 사항을 요약한다.
 
-* `Creating a Peer Assessment`_ describes features for students to provide
-  peer- and self- evaluations of responses to a question. Note that this new
-  feature is in limited release.
+* `Creating a Peer Assessment`_ 는 학습자를 대상으로 상호 평가 및 자기평가에 대한 안내를 제공한다. 
 
-* `edX Open Learning XML Guide`_ provides guidelines for building edX courses
-  with Open Learning XML (OLX). Note that this guide is currently an alpha
-  version.
+* `edX Open Learning XML Guide`_ 는 Open Learning XML (OLX)를 가지고 edX 강좌를 개발하기 위한 안내사항이다. 이는 현재 알파 버전임을 주의한다.
 
-These guides open in your web browser. The left side of each page includes a
-**Search docs** field and links to that guide's contents. To open or save a PDF
-version, click **v: latest** at the lower left of the page, then click **PDF**.
+이 도움말은 웹 브라우저에서 열린다. 각 페이지의 왼쪽에는 **검색 필드** 와 목차의 링크가 포함되어 있다. **PDF** 버전을 열거나 저장 하려면, 페이지의 오른쪽 아래에서 **v: latest** 를 클릭한 다음 **PDF** 를 클릭하면 된다
 
 Email
 -----
 
-To receive and share information by email, course team members can:
+다음 방법으로 강좌 운영팀이 이메일을 수신하고 정보를 공유할 수 있다.
 
-* Sign up to receive monthly newsletters_.
+* 월간 뉴스레터 수신에 등록한다.
 
-* Sign up to receive release_ notes for every release.
+* 모든 공개 및 개설 정보에 대한 수신에 등록한다. 
 
-* Join the `openedx-studio`_ Google group to ask questions and participate in
-  discussions with peers at other edX partner organizations and edX staffers.
+* 질문을 하거나 다른 edX 협력 기관에 있는 동료들 및 edX 관리자와의 토론에 참여하기 위해 openedx-studio Google 그룹에 가입한다.
 
-Wikis and Web Sites
+위키 및 웹 사이트
 -------------------
 
-The edX product team maintains the `Open edX Product`_ wiki, which includes the
-`Open edX Public Product Roadmap`_.
+edX 제품 팀은 Open edX Public Product Roadmap를 포함하는  Open edX Product위키를 관리한다. 
 
-The `edX Author Support`_ site hosts discussions that are monitored by edX
-staffers.
+edX Author Support사이트는 edX관리자에 의해 모니터링되는 토론을 진행한다.
 
 .. _Resources for Researchers:
 
 **************************
-Resources for Researchers
+연구원을 위한 자료
 **************************
 
-Data for the courses on edx.org and edX Edge is available to the "data czars"
-at our partner institutions, and then used by database experts, statisticians,
-educational investigators, and others for educational research.
+Edx의 협력기관에 있는 연구원은 edx.org 및 edX Edge에 있는 강좌에 대한 데이터를 이용할 수 있으며, 데이터베이스 전문가, 통계학자, 교육 연구자 등에게도 자료가 제공된다. 
 
-Documentation
+도움말
 -------------
 
-The `edX Research Guide`_ is available on the docs.edx.org web page.
+연구원을 위한 도움말을 the docs.edx.org 에서 이용할 수 있다.
 
-This guide opens in your web browser, with a **Search docs** field and links to
-that guide's contents on the left side of each page. To open or save a PDF
-version, click **v: latest** at the lower left of the page, and then click
-**PDF**.
+이 도움말은 웹 브라우저에서 열린다. 각 페이지의 왼쪽에는 **검색 필드** 와 목차의 링크가 포함되어 있다. **PDF** 버전을 열거나 저장 하려면, 페이지의 오른쪽 아래에서 **v: latest** 를 클릭한 다음 **PDF** 를 클릭하면 된다
 
 Email
 -------
 
-To receive and share information by email, researchers can join the 
-`openedx-analytics`_ Google group to ask questions and participate in 
-discussions with peers at other edX partner organizations and edX staffers.
+이메일을 수신 하고 이메일로 정보를 공유하려면 openedx-analytics Google 그룹에 가입하고, 그룹에서 다른 edX 협력 기관에 있는 연구원 및 edX관리자와 토론에 참여할 수 있다. 
 
 Wiki
 -------------------
 
-The edX Analytics team maintains the `Open edX Analytics`_ wiki, which includes
-links to periodic release notes, the Open edX Public Product Roadmap, and other
-resources for researchers.
+edX Analytics팀은 정기적인 게시물, Open edX Public Product Roadmap, 및 기타 연구원을 위한 자료에 대한 링크를 포함하는 Open edX Analytics위키를 운영한다.
 
 .. _Resources for Developers:
 
 **************************
-Resources for Developers
+개발자를 위한 자료
 **************************
 
-Software engineers, system administrators, and translators work on extending
-and localizing the code for the edX platform.
+소프트웨어 엔지니어, 시스템 관리자 및 번역자들은 edX 플랫폼에 대한 코드를 지역화하거나 확장하는 일을 한다.
 
-Documentation
+도움말
 -------------
 
-Documentation for developers is available on the docs.edx.org web page.
+개발자에 대한 도움말은 docs.edx.org 웹 페이지에서 이용할 수 있다. 
 
-* The `edX Platform Developer's Guide`_ collects information directly from edX
-  platform python docstrings. The topics in this guide include guidelines for
-  contributing to Open edX, options for extending the Open edX platform, using
-  the edX public sandboxes, instrumenting analytics, and testing.
+* EdX 플랫폼 개발자 가이드 (`edX Platform Developer's Guide`)는 edX 플랫폼 python docstrings에서 직접 정보를 수집한다. 이 도움말에서는 Open edX에 참여하기, 오픈 edX 플랫폼 확장하기 위한 옵션 및 edX public sandboxes 사용하기, 분석기 계측하기 및 테스트하기에 대한 옵션 등을 다룬다.
 
-* `Installing, Configuring, and Running the edX Platform`_ provides procedures
-  for getting an edX developer stack (Devstack) and production stack
-  (Fullstack) operational.
+* 플랫폼 설치, 구성 및 운영하기(`Installing, Configuring, and Running the edX Platform`)는 edX 개발자 스택 (Devstack) 및 생산 스택 (Fullstack)이 운영되도록 절차를 제공한다.
 
-* XBlock_: Open edX courseware components provides preliminary documentation
-  on the XBlock component architecture for building courses.
+* XBlock_: Open edX 강좌 내용 구성요소는 강좌를 구축하기 위한 XBlock 구성 요소 구축양식에 관한 예비 도움말을 제공한다.
 
-* `edX Open Learning XML Guide`_ provides guidelines for building edX courses
-  with Open Learning XML (OLX). Note that this guide is currently an alpha
-  version.
+* `edX Open Learning XML Guide`_ 는 Open Learning XML (OLX)를 가지고 edX 강좌를 개발하기 위한 안내사항이다. 이는 현재 알파 버전임을 주의한다.
 
 * `edX Data Analytics API`_ provides tools for building applications to view
   and analyze student activity in your course.
