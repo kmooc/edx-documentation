@@ -112,58 +112,49 @@ edX Analytics팀은 정기적인 게시물, Open edX Public Product Roadmap, 및
 
 개발자에 대한 도움말은 docs.edx.org 웹 페이지에서 이용할 수 있다. 
 
-* EdX 플랫폼 개발자 가이드 (`edX Platform Developer's Guide`)는 edX 플랫폼 python docstrings에서 직접 정보를 수집한다. 이 도움말에서는 Open edX에 참여하기, 오픈 edX 플랫폼 확장하기 위한 옵션 및 edX public sandboxes 사용하기, 분석기 계측하기 및 테스트하기에 대한 옵션 등을 다룬다.
+* `edX Platform Developer's Guide`_ 는 edX 플랫폼 python docstrings에서 직접 정보를 수집한다. 이 도움말에서는 Open edX에 참여하기, 오픈 edX 플랫폼 확장하기 위한 옵션 및 edX public sandboxes 사용하기, 분석기 계측하기 및 테스트하기에 대한 옵션 등을 다룬다.
 
-* 플랫폼 설치, 구성 및 운영하기(`Installing, Configuring, and Running the edX Platform`)는 edX 개발자 스택 (Devstack) 및 생산 스택 (Fullstack)이 운영되도록 절차를 제공한다.
+* `Installing, Configuring, and Running the edX Platform`_ 는 edX 개발자 스택 (Devstack) 및 생산 스택 (Fullstack)이 운영되도록 절차를 제공한다.
 
-* XBlock_: Open edX 강좌 내용 구성요소는 강좌를 구축하기 위한 XBlock 구성 요소 구축양식에 관한 예비 도움말을 제공한다.
+* XBlock_ 는 Open edX 강좌 내용 구성요소는 강좌를 구축하기 위한 XBlock 구성 요소 구축양식에 관한 예비 도움말을 제공한다.
 
 * `edX Open Learning XML Guide`_ 는 Open Learning XML (OLX)를 가지고 edX 강좌를 개발하기 위한 안내사항이다. 이는 현재 알파 버전임을 주의한다.
 
-* `edX Data Analytics API`_ provides tools for building applications to view
-  and analyze student activity in your course.
+* `edX Data Analytics API`_ 는 강좌에서 학습자 활동을 살펴보고 분석하는 응용 프로그램을 개발하기 위한 도구를 제공한다.
 
-* `edX Enrollment API`_ provides tools for building applications to view user
-  and course enrollment information, and to enroll users in courses.
+* `edX Enrollment API`_ 는 이용자 및 강좌 등록 정보를 살펴보고 강좌에 이용자를 등록하기 위한 응용 프로그램을 구축하기 위한 도구를 제공한다. 
 
-* `edX Platform API`_ provides tools for building applications to view course
-  information and videos.
+* `edX Platform API`_ 는 강좌 정보 및 동영상을 보기 위한 응용 프로그램을 개발하기 위한 도구를 제공한다.
 
 GitHub
 -------
 
-These are the main edX repositories on GitHub.
+GitHub 에서 주요 edX 저장소는 다음과 같다. 
 
-* The `edx/edx-platform`_ repo contains the code for the edX platform.
+* The `edx/edx-platform`_ 는 edX 플랫폼에 대한 코드를 포함한다. 
 
-* The `edx/edx-analytics-dashboard`_ repo contains the code for edX Insights.
+* The `edx/edx-analytics-dashboard`_ 는 edX 인사이트에 대한 코드를 포함한다. 
 
-* The `edx/configuration`_ repo contains scripts to set up and operate the edX
-  platform.
+* The `edx/configuration`_ 는 edX 플랫폼을 설정 및 운영하기 위한 자막을 포함한다.
 
-Additional repositories are used for other projects. Our contributor agreement,
-contributor guidelines and coding conventions, and other resources are
-available in these repositories.
+추가 저장소는 다른 프로젝트를 위해 사용된다. Edx 참여자 동의, 동의자 지침 및 코딩 규칙과 다른 자료는 추가 저장소에서 이용할 수 있다.
 
-Email and IRC
+Email 및 IRC
 --------------
 
-To receive and share information by email, developers can join these Google
-groups to ask questions and participate in discussions with peers and edX
-staffers.
+이메일을 수신 하고 이메일로 정보를 공유하려면 openedx-analytics Google 그룹에 가입하고, 그룹에서 다른 edX 협력 기관 및 edX관리자와 토론에 참여할 수 있다. 
 
-* For conversations about the code in Open edX, join `edx-code`_.  
-* For conversations about running Open edX, join `openedx-ops`_. 
-* For conversations about globalization and translation, join `openedx-translation`_.
+* 오픈 edX(Open edX)에서 코드에 관한 대화를 하려면, `edx-code`_ 에 가입한다.  
+* 오픈 edX(Open edX) 운영하기에 관한 대화를 하려면,  `openedx-ops`_ 에 가입한다.  
+* F세계화와 번역에 관한 대화를 하려면, join `openedx-translation`_ 에 가입한다. 
 
-Additional Google groups are occasionally formed for individual projects.
+이 외에도, 개별 프로젝트에 대해 추가적인 Google 그룹이 만들어지기도 한다. 
 
-.. note:: Please do not report security issues in public. If you have a concern, 
- please email security@edx.org.
+.. 참고:: 공개적으로 보안 문제를 보고하기 보다는, email security@edx.org 로 문의바란다.
 
-EdX engineers often monitor the Freenode #edx-code IRC channel.
+EdX 엔지니어가 Freenode #edx-code IRC channel을 자주 모니터하고 있다.
 
-Wikis and Web Sites
+위키 및 웹 사이트
 -------------------
 
 The code.edx.org web site_ is an entry point for new contributors.
