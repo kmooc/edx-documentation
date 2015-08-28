@@ -1,15 +1,12 @@
 *******
-Read Me(이 설명서에 대하여)
+이 안내서에 대하여
 *******
 
-The edX *Building and Running an edX Course* guide is created
-using RST_ files and Sphinx_. You, the user community, can help update and revise this documentation project on GitHub::
+*K-MOOC 강좌 개발 안내서* 는 RST 파일 및 Sphinx(스핑크스)를 사용하여 만들어진다. 이 가이드를 직접 업데이트하고 GitHub에서 이 도움말을 수정할 수 있다.::
 
   https://github.com/edx/edx-documentation/tree/master/en_us/course_authors/source
 
-To suggest a revision, fork the project, make changes in your fork, and submit
-a pull request back to the original project: this is known as the `GitHub Flow`_.
-All pull requests need approval from edX. For more information, contact edX at docs@edx.org.
+GitHub에서의 수정은 우선 해당 프로젝트의 사본을 만들어 수정한 다음, 원본 프로젝트로 다시 끌어오기를 요청하는 식으로 이루어진다. 모든 끌어오기 요청은 K-MOOC로부터의 승인이 필요하다. 보다 자세한 내용은 docs@edx.org로 문의 바란다.
 
 .. _Sphinx: http://sphinx-doc.org/
 .. _LaTeX: http://www.latex-project.org/
