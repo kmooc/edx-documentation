@@ -4,9 +4,7 @@
 강좌 개요
 ###################################
 
-강좌를 개발할 때는 주로 edX Studio 강좌 개요에서 작업하게 된다.
-
-이 장에서는 강좌 개요에서의 작업에 대해 다룬다. 
+강좌를 개발할 때는 주로 edX Studio 강좌 개요에서 작업하게 되는데, 이 장에서 이에 대해 다룬다. 
 
 * `Open the Course Outline`_
 * `Example of a Developed Course in the Outline`_
@@ -179,33 +177,24 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 강좌 개요 재구성하기
 ************************************************
 
-You can reorganize your course content by dragging and dropping sections,
-subsections, and units to new locations in the outline.
+주제, 소주제 및 학습 활동을 원하는 위치로 드래그함으로써 강좌 콘텐츠를 재구성할 수 있다.
 
-To move a section, subsection, or unit, hover over the handle on the right of
-the object's box until the cursor changes to a four-headed arrow. For example,
-in the image below, the handle for the subsection Lesson 1 - Getting Started is
-selected:
+각 주제, 소주제 및 학습 활동의 오른쪽 상단에 마우스를 갖다대면 커서가 십자가로 바뀌는 아이콘이 있다.
+예를 들어, 아래 이미지처럼 커서가 바뀌는 것이다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-drag-select.png
  :alt: A subsection handle selected to drag it
 
-Then, click and drag the object to the location that you want. 
+그 상태에서, 원하는 위치로 드래그하면 된다.
 
-If you expanded the section or subsection you are moving the object to, when
-you move the object, a blue line indicates where the object will land when you
-release the mouse button. For example, in the image below, the subsection
-Lesson 1 - Getting Started is being moved to the end of the section
-Introduction:
+이동을 원하는 주제나 소주제를 펼친 상태에서 드래그하면, 새로 놓을 위치에 파란색 줄이 생긴다.
+예를 들어, 아래 이미지처럼 이 과정이 이루어지게 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-drag-new-location.png
- :alt: A subsection being dragged to a new section 	
-
-If you did not expand the section or subsection you are moving the object to,
-the outline of that section or subsection turns blue when you have moved the
-object to a valid location. You can then release the mouse button. For example,
-in the image below, the subsection Lesson 1 - Getting Started is being moved to
-the collapsed section Introduction:
+ :alt: A subsection being dragged to a new section 
+ 
+주제나 소주제를 접은 상태에서 드래그하면, 주제나 소주제의 윤곽이 파란색으로 표시된다.
+예를 들어, 아래 이미지처럼 이 과정이 이루어지게 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-drag-new-location-collapsed.png
  :alt: A subsection being dragged to a new section 
@@ -213,24 +202,22 @@ the collapsed section Introduction:
 .. _Delete Content in the Course Outline:
 
 ************************************************
-Delete Content in the Course Outline
+강좌 개요에서 강좌 콘텐츠 삭제하기
 ************************************************
 
-You delete sections, subsections, and units from the course outline.
+주제, 소주제 및 학습 활동을 강좌 개요에서 삭제할 수 있다.
 
-.. warning::  
- You cannot restore course content after you delete it. To ensure you do not
- delete content you may need later, you can move any unused content to a
- section in your course that you set to never release.
+.. 주의::  
+강좌 콘텐츠를 삭제한 후에는 되돌릴 수 없다.
+만약 나중에 사용할 수도 있는 콘텐츠라면, 삭제하지 말고 비공개 주제로 콘텐츠를 옮겨두길 권한다.
 
-Click the delete icon in the box for the object you want to delete:
+삭제하길 원하는 주제, 소주제 및 학습 활동의 오른쪽에 있는 삭제 아이콘을 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-delete.png
  :alt: The outline with Delete icons circled
 
-You are prompted to confirm the deletion.
+아이콘을 클릭하면 삭제 여부를 다시 확인하는 메시지가 뜰 것이다.
 
-.. note::
- When you delete an object, all objects that it contains are deleted. For
- example, when you delete a subsection, all units in that subsection are
- deleted.
+.. 참고::
+주제, 소주제 및 학습 활동을 삭제할 경우, 포함되어 있던 콘텐츠들도 전부 삭제된다. 
+예를 들어, 소주제를 삭제할 경우, 소주제 내부의 전체 학습활동도 함께 삭제되는 것이다. 
