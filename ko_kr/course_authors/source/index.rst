@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-K-MOOC 강좌 작성 가이드 
+K-MOOC 강좌 개발 도움말 
 ========================================
 
 .. toctree::
