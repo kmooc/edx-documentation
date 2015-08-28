@@ -2,21 +2,12 @@
 
 
 ##########################################################
-Managing Discussions in Courses with Student Cohorts
+학습집단별 게시판 운영, 관리하기
 ##########################################################
 
-In courses that have the cohort feature enabled, every post has an indicator of
-who can read it: either everyone, or only the members of a single cohort. For
-students, this is the only noticeable difference between discussions in courses
-that include cohorts when compared to courses that do not. You can share the
-examples in the :ref:`Read the Cohort Indicator in Posts` section with your
-students, along with the :ref:`Discussions for Students and Staff` section of
-this guide.
+학습집단 기능이 활성화된 강좌에서, 모든 게시글에는 게시글을 읽을 수 있는 권한이 있는 대상에 대한 표지를 확인할 수 있다. 학습자에게는 이것이 학습집단 기능이 활성화된 강좌와 그렇지 않은 강좌에서 토의할 때 느낄 수 있는 유일한 차이점이다. 게시글의 :ref:`Read the Cohort Indicator in Posts` 와 :ref:`Discussions for Students and Staff`에서 게시글 공개 설정에 대한 예시를 확인할 수 있다.
 
-Staff members who have the discussion admin, discussion moderator, or community
-TA role see the same indicator of who can read each post. Unlike the students,
-however, the discussion staff members can read and contribute to every post,
-regardless of the cohort assignment of the student who posted it.
+토의 관리, 토의 촉진자, 조교 역할을 하는 강좌 운영팀은 누가 게시글을 읽을 수 있는가에 대하여 학습자와 동일한 표시를 확인할 수 있다. 그러나 위와 같은 강좌 운영팀은 학습자와 달리 게시글을 작성한 학습자가 속한 학습 집단에 관계 없이, 모든 게시글을 읽고 답글이나 댓글을 작성할 수 있다
 
 .. note:: Students who have the Community TA role can read and 
  contribute to all posts.
