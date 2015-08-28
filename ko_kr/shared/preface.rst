@@ -3,34 +3,26 @@
 .. Doc team! Be sure that when you make any changes to this file that you also make them to the mirrored file in the edx-analytics-dashboard/docs repository. - Alison 19 Aug 14
 
 ############
-Preface
+서문
 ############
 
-Course teams, researchers, developers, students: the edX community includes
-groups with a range of reasons for using the platform and objectives to
-accomplish. To help members of each group learn about what edX offers, reach
-goals, and solve problems, edX provides a variety of information resources.
+K-MOOC에는 강좌 운영팀, 연구자, 개발자, 학습자 등 K-MOOC 활용에 있어 다양한 목적을 가진 이용자가 함께 한다. 각 구성원이 K-MOOC 가 무엇을 제공하는지 배우고 각자의 목표를 성취하며 문제를 해결하는데 본 안내서가 도움이 되길 바란다. 
 
-To help you find what you need, browse the edX offerings in these categories:
+아래 항목에서 필요한 사항을 검색할 수 있다.
 
 * :ref:`Resources for Course Teams`
 * :ref:`Resources for Researchers`
 * :ref:`Resources for Developers`
 * :ref:`Resources for Students`
 
-All members of the edX community are encouraged to make use of any of the
-resources described in this preface.
 
 ***********************
-System Status
+시스템 상태
 ***********************
 
-For system-related notifications from the edX operations team, including
-outages and the status of error reports. On Twitter_, you can follow
-@edxstatus.
+트위터 @edxstatus를 팔로우하면, EdX 운영 팀으로부터 중단 및 오류 보고의 상태를 포함한 시스템 관련 공지를 받을 수 있다. 
 
-Current system status and the uptime percentages for edX servers, along with
-the Twitter feed, are published on the `edX Status`_ web page.
+현재 시스템 상태 및 edX 서버 가동 시간 비율에 대해서는 edX 상태(edX Status) 웹 페이지에 게시된다.
 
 .. _Resources for Course Teams:
 
