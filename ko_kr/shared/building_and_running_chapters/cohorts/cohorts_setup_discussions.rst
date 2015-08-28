@@ -3,24 +3,16 @@
 
 
 ######################################################
-Setting up Discussions in Courses with Cohorts
+학습집단별 게시판 설정하기
 ######################################################
 
-In courses that have cohorts enabled, you can set up discussion topics to be
-either divided by cohort, or unified and accessible to all students.
+학습 집단 기능이 활성화된 강좌에서, 학습 집단에 따라 토의 주제를 나누거나 모든 학습자가 같은 토의 주제를 다룰 수 있도록 설정할 수 있다.
 
-When you first enable cohorts in your course, the initial behavior for course-
-wide discussion topics is different from the behavior of content-specific
-(inline) discussion topics.
+최초로 학습 집단을 활성화했을 때, 일반 주제를 위한 활동과 주제별 토의 주제의 활동은 차이가 있다.
 
-By default, course-wide discussion topics are unified, but content-specific
-discussion topics are divided by cohort. You can configure either type of
-discussion to be divided or unified.
+시스템은 기본적으로, 일반 주제는 학습자 모두에게 통합적으로 제시하고, 주제별 토의 주제는 학습 집단별로 나누어 제시한다. 토의 유형을 나누거나 통합하도록 설정할 수 있다. 
 
-For overview information about discussions in a course, see :ref:`Discussions`.
-For information about using cohorts in a course, see :ref:`Cohorts Overview` and
-:ref:`Enabling and Configuring Cohorts`.
-
+강좌에서 토의에 관한 개괄적 정보는 :ref:`Discussions` 에서 볼 수 있다.강좌에 학습집단 사용에 관한 정보는 :ref:`Cohorts Overview` 와 :ref:`Enabling and Configuring Cohorts` 에서 볼 수 있다. 
 
 ***********************************************
 Course-Wide Discussion Topics and Cohorts
