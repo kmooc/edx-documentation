@@ -6,7 +6,7 @@
 서문
 ############
 
-K-MOOC에는 강좌 운영팀, 연구자, 개발자, 학습자 등 K-MOOC 활용에 있어 다양한 목적을 가진 이용자가 함께 한다. 각 구성원이 K-MOOC 가 무엇을 제공하는지 배우고 각자의 목표를 성취하며 문제를 해결하는데 본 안내서가 도움이 되길 바란다. 
+K-MOOC에는 강좌 운영팀, 연구자, 개발자, 학습자 등 K-MOOC 활용에 있어 다양한 목적을 가진 이용자가 함께 한다. 각 구성원이 K-MOOC 가 무엇을 제공하는지 배우고 각자의 목표를 성취하며 문제를 해결하는데 이 도움말이 도움이 되길 바란다. 
 
 아래 항목에서 필요한 사항을 검색할 수 있다.
 
@@ -20,29 +20,24 @@ K-MOOC에는 강좌 운영팀, 연구자, 개발자, 학습자 등 K-MOOC 활용
 시스템 상태
 ***********************
 
-트위터 @edxstatus를 팔로우하면, EdX 운영 팀으로부터 중단 및 오류 보고의 상태를 포함한 시스템 관련 공지를 받을 수 있다. 
+트위터 @edxstatus를 팔로우하면, EdX 운영팀으로부터 중단 및 오류 보고의 상태를 포함한 시스템 관련 공지를 받을 수 있다. 
 
-현재 시스템 상태 및 edX 서버 가동 시간 비율에 대해서는 edX 상태(edX Status) 웹 페이지에 게시된다.
+현재 시스템 상태 및 K-MOOC 서버 가동 시간 비율에 대해서는 K-MOOC 상태 웹 페이지에 게시된다.
 
 .. _Resources for Course Teams:
 
 **************************
-Resources for Course Teams
+강좌 운영팀을 위한 자료
 **************************
 
-Course teams include faculty, instructional designers, course staff, discussion
-moderators, and others who contribute to the creation and delivery of courses
-on edx.org or edX Edge.
+강좌 운영팀은 교수자, 교수설계자, 운영 관리자, 게시판 관리자 등 강좌 개발에 기여할 수 있는 사람들이다.
 
-edX101: Overview of Creating a Course
+edX101: 강좌 만들기 개관
 -------------------------------------
 
-The `edX101`_ course was built in Studio and is available for enrollment on
-edx.org. This course takes one to two hours to complete, and is designed to
-provide a high-level overview of the course creation and delivery process. It
-also highlights the extensive capabilities of the edX platform.
+edX101 강좌는 Studio에 구축되어 있고, edx.org에 등록하는데 이용될 수 있다. 이 강좌를 완료 하려면 1 ~ 2 시간이 소요되며, 강좌 만들기 및 전달 과정에 대한 높은 수준의 개관을 제공 하도록 설계되어 있다. 또한 edX 101에는  edX 플랫폼의 광범위한 기능이 강조된다.
 
-Documentation
+도움말
 -------------
 
 Documentation for course teams is available on the docs.edx.org web page.
