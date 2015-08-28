@@ -27,11 +27,9 @@
 주제란?
 ****************************
 
-주제는 강좌에서 가장 상위 범주에 해당한다. 주제는 강좌의 시간이나 
+주제는 강좌에서 가장 상위 범주에 해당한다. 순차적으로 공개되는 주제를 보면 개강일 이후 강좌가 진행되는 흐름을 알 수도 있고, 
+강좌가 어떻게 구성되어 있는지를 한 눈에 볼 수 있기도 하다. 각 주제는 1개 이상의 소주제를 가진다.
 
-A section is the topmost category in your course. A section can represent a
-time period in your course, a chapter, or another organizing principle. A
-section contains one or more subsections.
 
 ********************************
 강좌 개요에서 주제 보기
