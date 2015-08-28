@@ -15,26 +15,18 @@
 강좌에서 토의에 관한 개괄적 정보는 :ref:`Discussions` 에서 볼 수 있다.강좌에 학습집단 사용에 관한 정보는 :ref:`Cohorts Overview` 와 :ref:`Enabling and Configuring Cohorts` 에서 볼 수 있다. 
 
 ***********************************************
-Course-Wide Discussion Topics and Cohorts
+일반 토의 주제와 학습 집단
 ***********************************************
 
-When you first :ref:`create a course-wide discussion topic<Create CourseWide
-Discussion Topics>`, it is unified, and all students in the course can post,
-read, respond, and comment in the topic without regard to their cohort
-assignments. After you add a course-wide topic, you can configure it so that it
-is divided by cohort instead.
-
+최초로 :ref:`일반 토의 주제를 생성<Create CourseWide Discussion Topics>` 했을 때, 토의 주제는 모든 학습자에게 통합적으로 제시되고, 강좌의 모든 학습자는 속한 학습 집단에 상관 없이 이 주제에 대하여 게시글을 쓰고, 읽고, 응답하고, 코멘트를 남길 수 있다. 일반 토의 주제를 추가한 후, 토의 주제가 학습 집단에 따라 분류되도록 환경 설정을 할 수 있다.
 
 .. _Identifying Private CourseWide Discussion Topics:
 
 =============================================================
-Example: Configuring Course-Wide Discussion Topics As Divided
+예시: 학습 집단별 일반 주제 게시판 설정
 =============================================================
 
-This example assumes that you previously added three course-wide discussion
-topics called Course Q&A, Announcements, and Brainstorming to your course, so
-that in addition to the system-supplied General topic, you have four course-wide
-discussion topics.
+이 예시에서는 사전에 추가했던 강좌 Q&A, 공지사항, 브레인스토밍의 세 가지 주제에 시스템에서 제공하는 주제까지, 총 네 개의 일반 주제를 가지고 있다고 가정한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_Add_cohort_topics.png
  :alt: Discussion Topic Mapping field with four course-wide discussion topics 
@@ -46,26 +38,21 @@ as it applies to discussion topics.
 The posts that you intend to make to the Course Q&A and General topics, and the
 subjects you expect students to explore there, are appropriate for a unified
 student audience. However, you also want to give students some course-wide
-topics that are divided by cohort. You decide that the Announcements and
-Brainstorming course-wide topics should be divided by cohort.
+topics that are divided by cohort. 브레인스토밍과 공지사항을 학습 집단별로 진행할 수 있도록 해당 주제에 학습 집단을 설정할 수 있다.
 
-You also decide to apply a naming convention so that students will know the
-audience for the discussion topics before they add any posts. For information on
-how to achieve this, see :ref:`Apply Naming Conventions to Discussion Topics`.
+또한, 학습자가 해당 주제에 게시물을 추가하기 전에, 확인할 수 있는 사람이 누구인지 알 수 있도록 설정할 수 있다.이러한 기능을 사용하기 위해서는 :ref:`Apply Naming Conventions to Discussion Topics` 를 참고하면 된다. 
 
 
 .. _Configure CourseWide Discussion Topics as Private:
 
 ======================================================
-Configure Course-Wide Discussion Topics as Divided
+학습 집단별 일반 주제 게시판 설정
 ======================================================
 
-This procedure describes how you configure the Brainstorming and Announcements
-course-wide discussion topics (from the example in :ref:`Identifying Private
-CourseWide Discussion Topics`) so that they are divided by cohort.
+이 절차는 학습 집단별로 나뉘어진 브레인스토밍과 공지사항에 대한 일반 주제(예시: :ref:`Identifying Private
+CourseWide Discussion Topics` 의 예시임)의 환경 설정에 관하여 기술하고 있다.
 
-On the Studio **Advanced Settings** page, details of the two topics appear as
-follows in the **Discussion Topic Mapping** field. 
+스튜디오의 **고급 설정** 페이지의 **게시물 주제 맵핑하기** 필드에서 두 개 주제의 세부 사항은 다음과 같다. 
 
 .. code::
 
@@ -76,19 +63,20 @@ follows in the **Discussion Topic Mapping** field.
           "id": "i4x-edX-Open-edx_demo_course_announcements"
       }
 
-You use the ID for each discussion topic to identify it in the steps that
-follow.
+다음 단계에서 각 토의 주제를 구분하기 위해서 ID를 사용한다.
 
-#. Open the course in Studio. 
+#. 스튜디오를 실행한다. 
 
-#. Select **Settings**, then **Advanced Settings**.
+#. **설정** 을 선택한 후 **고급 설정** 을 선택한다.
 
-#. In the **Cohort Configuration** field, place your cursor after the opening
-   brace character (``{``) and press **Enter**.
+#. **학습집단 설정" 필드에서, 열린 중괄호 문자(``{``) 다음에 커서를 
+   위치시킨 후 **엔터**를 누른다.
 
-#. On the new line, you define the ``"cohorted_discussions":`` policy key,
-   followed by one or more course-wide discussion topic IDs enclosed by
-   square brackets (``[ ]``). You can define just one discussion topic or a set of discussion topics.
+#. 새로운 행에서, ``"cohorted_discussions":`` 를 정의한 후, 하나 이상의 
+   일반 주제 ID를 닫힌 대괄호 (``[ ]``) 안에 입력한다. 하나의 토의 주제를 
+   정의할 수도 있고, 여러 개의 토의 주제를 정의할 수도 있다.  
+ 
+ #. 새로운 행에서, ``"cohorted_discussions":`` 를 정의한 후, 하나 이상의 일반 주제 ID를 닫힌 대괄호 (``[ ]``) 안에 입력한다. 하나의 토의 주제를 정의할 수도 있고, 여러 개의 토의 주제를 정의할 수도 있다.  
 
    For example, to define a single discussion topic, type
    ``"cohorted_discussions": ["discussion-topic-ID"]``, putting your discussion
