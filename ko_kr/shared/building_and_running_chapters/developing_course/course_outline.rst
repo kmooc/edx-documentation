@@ -4,7 +4,7 @@
 강좌 개요
 ###################################
 
-강좌를 개발할 때는 주로 edX Studio 강좌 개요에서 작업하게 되는데, 이 장에서 이에 대해 다룬다. 
+강좌를 개발할 때는 주로 Studio에 있는 강좌 개요에서 작업하게 되는데, 이 장에서 이에 대해 다룬다. 
 
 * `Open the Course Outline`_
 * `Example of a Developed Course in the Outline`_
