@@ -4,11 +4,8 @@
 콘텐츠 실험 추가하기
 #########################################
 
-콘텐츠 실험을 설정한 후 스튜디오에서 실험 집단을 설정 한후, 강좌에 콘텐츠 실험들을 추가할 수 있다.
- and
-:ref:`set up group configurations in Studio <Set up Group Configurations in edX
-Studio>`, you
-can add content experiments to your course. See:
+콘텐츠 실험을 설정한 후 스튜디오에서 실험 집단을 설정 한후, 강좌에 콘텐츠 실험들을 추가할 수 있다.:ref:`set up group configurations in Studio <Set up Group Configurations in edX
+Studio>`, you can add content experiments to your course. See:
 
 * :ref:`Add a Content Experiment in Studio`
 * :ref:`Add a Content Experiment in OLX`
