@@ -224,110 +224,100 @@ Content>` 를 권장한다.
 .. _Set the Assignment Type and Due Date for a Subsection:
 
 ********************************************************
-Set the Assignment Type and Due Date for a Subsection
+과제 유형 및 마감일 설정
 ********************************************************
 
-You set the assignment type for problems at the subsection level. 
+소주제에 들어있는 문제의 과제 유형을 설정한다.
 
-When you set the assignment type for a subsection, all problems within the
-subsection are graded and weighted as a single type.  For example, if you
-designate the assignment type for a subsection as **Homework**, then all
-problem types in that subsection are graded as homework.
+소주제의 과제 유형을 설정하면, 소주제 내의 모든 문제는 채점이 되고 최종 성적에 설정된 가중치에 따라 반영된다.
+예를 들어, 소주제의 과제유형을 **과제**로 설정하면, 이 소주제의 모든 문제가 과제로 처리되어 채점된다.
 
-To set the assignment type and due date for a subsection:
+과제 유형과 마감일을 설정하려면,
 
-#. Click the Settings icon in the subsection box:
+#. 소주제 영역에서 설정 아이콘을 클릭한다.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/subsections-settings-icon.png
     :alt: The subsection settings icon circled
 
-   The Settings dialog box opens.
+   그러면 설정 대화 상자가 열린다.
 
-#. Select the assignment type for this subsection in the **Grade as** field:
+#. 이 소주제의 **과제 유형** 을 선택한다.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/subsection-settings-grading.png
     :alt: The subsection settings with the assignment type and due date circled
 
-#. Enter or select a due date and time for problems in this subsection.
-#. Click **Save**.
+#. 과제의 마감일시를 설정한다.
+#. **저장** 을 클릭한다.
 
-For more information, see :ref:`Establish a Grading Policy`.
+성적에 대한 더 자세한 안내는 :ref:`Establish a Grading Policy` 에 있다.
 
 .. _Publish all Units in a Subsection:
 
 **********************************
-Publish all Units in a Subsection
+소주제의 전체 학습 활동 게시하기
 **********************************
 
-To publish all new and changed units in a subsection, click the publish icon in
-the box for the subsection:
+
+소주제 내부의 전체 학습 활동을 게시하려면, 소주제 영역의 게시 아이콘을 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-publish-icon-subsection.png
  :alt: Publishing icon for a subsection
 
-.. note:: 
- The publish icon only appears when there is new or changed content within the
- subsection.
+.. 참고::
+게시 아이콘은 새로 추가되거나 변경된 콘텐츠가 있을 때에만 나타난다.
 
-See :ref:`Unit Publishing Status` for information about statuses and visibility
-to students.
+학습자 공개 설정과 공개 상태에 관해 :ref:`Unit Publishing Status` 에 자세히 안내되어 있다.
 
 .. _Hide a Subsection from Students:
 
 ********************************
-Hide a Subsection from Students
+학습자에게 소주제 감추기  
 ********************************
 
-You can hide all content in a subsection from students, regardless of the
-status of units within the section.
+학습활동의 공개 상태와 관계 없이, 소주제 내부의 전체 콘텐츠를 감출 수 있다.
 
-To hide a subsection from students:
+학습자에게 소주제를 감추려면,
 
-#. Click the Settings icon in the subsection box:
+#. 소주제 영역의 게시 아이콘을 클릭한다.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/subsections-settings-icon.png
     :alt: The subsection settings icon circled
 
-   The **Settings** dialog box opens.
+   **설정** 대화 상자가 열릴 것이다.
 
-#. Check **Hide from students**.
+#. **학습자에게 감추기** 의 체크박스를 클릭한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/subsection-settings-hidden.png
     :alt: The subsection hide from students setting
 
-#. Click **Save**.
+#. **저장** 을 클릭한다.
 
-Now, no content in the subsection is visible to students.
+이제 소주제의 콘텐츠가 학습자에게 보이지 않을 것이다.
 
-To make the subection visible to students, repeat these steps and clear the
-**Hide from students** checkbox.
+학습자에게 소주제를 공개하려면, 이 단계를 반복하되
+**학습자에게 감추기** 의 체크박스를 해제한다.
 
-.. warning::
- When you clear the **Hide from students** checkbox for a subsection, not all
- content in the subsection is necessarily made visible to students. If you
- explicitly set a unit to be hidden from students, it remains hidden from
- students. Unpublished units remain unpublished, and changes to published units
- remain unpublished.
+.. 주의::
+**학습자에게 감추기** 의 체크박스를 해제해도, 개별적으로 비공개로 설정한 학습활동은 여전히 공개되지 않는다.
+또한 게시하지 않은 학습활동도 여전히 공개되지 않는다.  
+
 
 .. _Delete a Subsection:
 
 ********************************
-Delete a Subsection
+소주제 삭제하기
 ********************************
 
-When you delete a subsection, you delete all units within the subsection.
+소주제를 삭제하면, 해당 소주제 내부의 전체 학습활동도 함께 삭제된다.
 
-.. warning::  
- You cannot restore course content after you delete it. To ensure you do not
- delete content you may need later, you can move any unused content to a
- section in your course that you set to never release.
+.. 주의::  
+소주제를 삭제한 후에는 강좌 콘텐츠를 복구할 수 없다. 나중에 필요할 수도 있다고 생각되는 콘텐츠는 삭제하지 말고, 비공개 주제에 옮겨두는 것을 권장한다.
 
-To delete a subsection:
+소주제를 삭제하려면, 
 
-#. Click the delete icon in the subsection that you want to delete:
+#. 삭제를 원하는 소주제의 영역에 있는 삭제 아이콘을 클릭한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/subsection-delete.png
    :alt: The subsection with Delete icon circled
 
-2. When you receive the confirmation prompt, click **Yes, delete this
-   subsection**.
+2. 삭제를 확인하는 대화상자가 뜨면, **네, 소주제를 삭제합니다.** 를 클릭한다.
