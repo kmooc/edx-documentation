@@ -47,11 +47,11 @@
    .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_editor.png
     :alt: The content experiment editor
 
-#. **집단설정" 다음에 그룹설정을 선택한다. 
+#. **집단설정** 다음에 그룹설정을 선택한다. 
 
 #. **사용 가능한 이름(Display Name)** 영역 안에 사용할 이름을 등록한다. 등록된 이름은 스튜디오에서만 사용하고 학습자는 입력값을 보지 못한다. 
    
-#. **저장**을 클릭한다.
+#. **저장** 을 클릭한다.
 
 콘텐츠 실험은 다른 요소들과 같이 제시되었다. 더 많은 정보가 필요하면 :ref:`Components that Contain Other Components`에서 확인한다.
 
@@ -63,10 +63,9 @@
 콘텐츠 실험에 학습집단별 콘텐츠 만들기
 =====================================================
    
-콘텐츠 실험 구성요소에서 집단 설정을 선택한 후, **보기**를 클릭한다.
+콘텐츠 실험 구성요소에서 집단 설정을 선택한 후, **보기** 를 클릭한다.
 
 자동 생성된 콘텐츠 실험은 선택한 집단 설정에서 정의된 각 집단이 포함된 컨테이너가 나타난다. 예를 들어, 집단 A와 집단 B로 정의한 집단 설정을 선택하면 다음의 페이지가 나타난다:
-:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_container.png
  :alt: The content experiment page with two groups
@@ -78,49 +77,41 @@
  :alt: Image of an expanded A/B test component
 
 .. note:: 
-  It is valid, and can be useful, to have no content for a group in the
-  experiment.  For example, if one group has a video and another group has no
-  content, you can analyze the effect of the video on student performance.
+  실험에서 하나의 그룹에는 콘텐츠가 없는 것이 타당하며 유용하다. 
+  예를 들어, 한 집단은 동영상이 있고 다른 집단은 어떤 콘텐츠도 없다면 
+  학습자가 동영상으로 학습할 때의 효과를 분석해볼 수 있다. 
 
 
 ========================================================
 콘텐츠 실험에서 집단 설정 변경하기
 ========================================================
 
-You can change the group configuration for a content experiment. When you
-change the group configuration, you must add components to any new groups that you create. You
-can use the components from the previous groups, as well as create new
-components.
+콘텐츠 실험의  집단 설정을 변경할 수 있다. 실험 집단의 설정을 바꾸면, 새로운 집단에 구성요소를 추가해야 한다. 이전 집단에서 이용된 구성요소를 사용할 수 있고 또한 새로운 요소를 만들어 이용할 수 있다.
 
 .. warning::
-  Changing the group configuration of a student-visible experiment will affect
-  the experiment data.
+  학습자가 인지하고 있는 실험의 집단설정을 변경하는 것은 실험 결과에 영향을 미칠 것이다. 
 
-To change the group configuration:
+집단 설정을 변경하기 위하여:
 
-#. Open the unit page of the unit that contains the content experiment.
+#. 콘텐츠 실험(Content experiment)이 있는 학습활동 페이지를 연다.
 
-#. In the content experiment component, click **Edit**.
+#. 콘텐츠 실험 구성요소에서 **수정** 을 클릭한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_editor_group2.png
     :alt: The content experiment editor with a group configuration selected
 
-#. Select a different group configuration.
+#. 다른 집단 설정을 선택한다.
 
-#. Click **Save**.
+#. **저장** 을 클릭한다.
 
-#. You must now add components to the new groups in the experiment. Click
-   **View** to open the content experiment.
+#. 콘텐츠 실험에서 새로운 집단에 구성요소를 추가해야 한다. **보기** 를 클릭하여 콘텐츠 실험을 연다. 
 
-   You see that groups for the new configuration are empty, and any components
-   that you had added to groups in the previous configuration are now moved to
-   a section called **Inactive Groups**.
+  새롭게 설정한 집단은 비어 있다. 이전 설정에서 집단에 추가했던 구성요소는 **비활성화 집단**으로 영역을 이동했다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/inactive_groups.png
     :alt: Components in inactive groups
 
-#. Drag and drop components from the **Inactive Groups** section into the new
-   groups. You can also create new components in the new groups.
+#. 새로운 집단에 **비활성화 집단** 에서 구성요소를 끌어 온다. 또한 새로운 집단에는 새로운 요소를 만들 수 있다.
 
 .. import OLX-content experiment doc that's shared in OLX guide.
 
