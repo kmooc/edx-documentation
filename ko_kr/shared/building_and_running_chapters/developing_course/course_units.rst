@@ -58,7 +58,7 @@ Studio에서 학습활동 보기
 
 강좌 개요에서 소주제명을 클릭하면, **학습활동** 이 나온다.
 
-다음 예시는 한 학습활동에 두 가지 구성요소가 있는 화면이며, 동그랗게 표시된 부분은 이를 학습 관리 시스템에서 볼 수 있는 버튼을 가리킨다.
+다음 예시는 1개 학습활동에 2개의 구성요소가 있는 화면이며, 동그랗게 표시된 부분은 이를 학습 관리 시스템에서 볼 수 있는 버튼을 가리킨다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-page.png
  :alt: The Unit page
@@ -67,6 +67,7 @@ Studio에서 학습활동 보기
 학습자 화면에서 학습활동 보기
 ****************************
 
+학습자는 소주제에 있는 각 학습활동을 
 To a student using the edX Learning Management System, each unit in the
 subsection appears as a link on the course ribbon at the top of the page. The
 active unit is open beneath the course ribbon.
