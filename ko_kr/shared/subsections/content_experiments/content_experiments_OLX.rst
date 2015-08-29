@@ -12,8 +12,7 @@ OLX에 콘텐츠 실험 추가하기
 순차적인 파일에서 콘텐츠 실험 정의하기
 =====================================================
 
-You reference a content experiment in the file for the subsection, or
-sequential, in the ``sequential`` directory. For example:
+``sequential`` 디렉토리에서, 소주제와 관련된 xml 파일에서 콘텐츠 실험을 참조할 수 있다. 예를 들면:
 
 .. code-block:: xml
 
@@ -23,27 +22,21 @@ sequential, in the ``sequential`` directory. For example:
     </vertical>
     .....
 
-The ``<split_test>`` element's ``url_name`` value references the name of the
-content experiment file in the ``split_test`` directory.
+``<split_test>`` 요소의  ``url_name`` 값은 ``split_test`` 디렉토리의 콘텐츠 실험명을 참조한다.  
 
 .. caution::
-  You can only define a content experiment in a unit, or vertical, in which different collections of components are associated with different experiment groups.  You cannot define a content experiment at a subsection (sequential) or section (chapter) level and have different units or subsections associated with different groups.
+  1개의 학습활동에 1종의 콘텐츠 실험만 정의할 수 있으며, 다른 구성요소의 모음은 다른 실험 집단과 관련된 것이다.  소주제 혹은 주제 레벨에서 1종의 콘텐츠 실험을 정의할 수 없고, 다른 집단과 관련된 다른 학습 활동들 혹은 소주제들을 둘 수 없다. 
 
 
 .. _Define the Experiment Content in the Split Test File:
 
 =====================================================
-Define the Experiment Content in the Split Test File
+분할 테스트 파일에서 실험 콘텐츠 정의하기
 =====================================================
 
-After you define the content experiment in the sequential file, you define the
-course content you want to test in the file in the ``split_test`` directory.
-This is the file referenced in the ``<split_test>`` element in the sequential
-file, as shown above.
+순차적인 파일에서 콘텐츠 실험을 정의한 후에, ``split_test`` 디렉토리에 있는 파일을 테스트할 수 있도록 강좌 내용을 정의한다. 아래에 나타난 것 처럼 순차적 파일 내에서 ``<split_test>`` 요소를 참고한 파일이다. 
 
-In the content experiment file, you add elements for the experiment content.
-For this example, you add two ``<vertical>`` elements to compare the two
-different sets of content.
+콘텐츠 실험 파일 안에, 실험 콘텐츠를 위한 요소들을 추가한다. 예를 들어 2 개의 서로 다른 콘텐츠를 비교하기 위하여 2개의  ``<vertical>`` 요소들을 추가한다. 
 
 .. code-block:: xml
 
@@ -71,17 +64,12 @@ different sets of content.
     </split_test>
 
 
-In this example:
+위의 예문에서:
 
-* The ``user_partition_id`` value references the ID of the experiment defined
-  in the ``policy.json`` file.
+* ``user_partition_id`` 값은 ``policy.json`` 파일에 정의한 실험 ID를 참조한다.  
 
-* The ``group_id_to_child`` value references the IDs of the groups defined in
-  the ``policy.json`` file and maps the group IDs to specific content.
+* ``group_id_to_child`` 값은 ``policy.json`` 파일에 정의한 집단 ID과 특정 콘텐츠의 집단 ID를 참조한다.  
 
-  For example,  the value for group ``0``, ``i4x://path-to-
-  course/vertical/group_a``, maps to the ``<vertical>`` element with the
-  ``url_name`` equal to ``group_a``.  Therefore, students in group 0 see the
-  content in that vertical.
+  예를 들어, 집단 ``0`` 에서의 값``i4x://path-to-course/vertical/group_a``은 ``url_name`` 과 ``group_a`` 을 같게 하는 <vertical>요소를 일치시켜야 하다. 따라서, 집단 0 에서의 학습자는 ``<vertical>`` 로 콘텐츠를 보게 된다.
 
-For information about the ``policy.json`` file, see :ref:`Set Up Group Configuration for OLX Courses`.
+``policy.json`` 파일에 대해 더 정보를 원하면, :ref:`Set Up Group Configuration for OLX Courses` 를 확인한다.
