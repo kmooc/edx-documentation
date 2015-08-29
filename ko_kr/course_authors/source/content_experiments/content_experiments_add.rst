@@ -1,10 +1,11 @@
 .. _Add Content Experiments to Your Course:
 
 #########################################
-Add Content Experiments to Your Course
+콘텐츠 실험 추가하기
 #########################################
 
-After you :ref:`enable content experiments <Enable Content Experiments>` and
+콘텐츠 실험을 설정한 후 스튜디오에서 실험 집단을 설정 한후, 강좌에 콘텐츠 실험들을 추가할 수 있다.
+ and
 :ref:`set up group configurations in Studio <Set up Group Configurations in edX
 Studio>`, you
 can add content experiments to your course. See:
@@ -15,10 +16,10 @@ can add content experiments to your course. See:
 .. _Add a Content Experiment in Studio:
 
 ********************************************
-Add a Content Experiment in Studio
+스튜디오에서 콘텐츠 실험 추가하기
 ********************************************
 
-You can add a content experiment in a unit or container page. In Studio, you
+학습활동이나 container 페이지에 콘텐츠 실험을 추가할 수 있다. 에 제시된 바와 같이, 컨테이너 페이지의 콘텐츠 실험 안에서 모든 그룹의 콘텐츠를 생성하고 확인한다.
 create and view content for all groups in the content experiment in a container
 page for the experiment, as shown in `Create Content for Groups in the Content
 Experiment`_.
