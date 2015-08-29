@@ -15,29 +15,22 @@
 스튜디오에서 콘텐츠 실험 추가하기
 ********************************************
 
-학습활동이나 container 페이지에 콘텐츠 실험을 추가할 수 있다. 에 제시된 바와 같이, 컨테이너 페이지의 콘텐츠 실험 안에서 모든 그룹의 콘텐츠를 생성하고 확인한다. create and view content for all groups in the content experiment in a container
-page for the experiment, as shown in `Create Content for Groups in the Content
-Experiment`_.
+학습활동이나 container 페이지에 콘텐츠 실험을 추가할 수 있다. 에 제시된 바와 같이, 컨테이너 페이지의 콘텐츠 실험 안에서 모든 그룹의 콘텐츠를 생성`콘텐츠 실험에 학습집단별 콘텐츠 만들기`_하고 확인한다.  
 
-When a student views the unit with the content experiment, she has no
-indication there is a content experiment in the unit, and the content
-experiment display name is not shown. She sees only the content that you
-configure for the group she is assigned to. To the student, the unit with the
-content experiment is no different than any other unit.
+학습자가 콘텐츠 실험을 학습활동에서 보았을 때, 콘텐츠 실험에 참여하고 있다는 안내나 실험명이 나타나지 않는다. 학습자는 자신이 속한 학습집단에 설정된 콘텐츠만을 볼 수 있다. 학습자에게 콘텐츠 실험가 있는 학습활동은 다른 학습활동과 차이가 없다.
 
-To configure a content experiment in Studio, you:
+스튜디오에서 콘텐츠 실험을 설정하려면:
 
-#. `Create the content experiment`_.
-#. `Create content for groups in the content experiment`_.
+#. `콘텐츠 실험 만들기`_.
+#. `콘텐츠 실험에 학습집단별 콘텐츠 만들기`_.
    
-After you configure a content experiment, you can change its group
-configuration. See `Change the Group Configuration for a Content Experiment`_.
+콘텐츠 실험을 설정한 후에 집단 설정을 변경할 수 있다. `콘텐츠 실험에서 집단 설정 변경하기`_ 에서 확인한다..
 
 ===============================
-Create the Content Experiment
+콘텐츠 실험 만들기
 ===============================
 
-#. In the unit page, under **Add New Component**, click **Advanced**.
+#. 학습활동 구성화면에서, under **Add New Component**, click **Advanced**.
 
 #. Select **Content Experiment**.
    
@@ -72,7 +65,7 @@ information.
 You can now create content for the groups in the experiment.
 
 =====================================================
-Create Content for Groups in the Content Experiment
+콘텐츠 실험에 학습집단별 콘텐츠 만들기
 =====================================================
    
 After you select a group configuration, in the content experiment component,
@@ -102,7 +95,7 @@ For example, you can add an HTML component and a video to Group A:
 
 
 ========================================================
-Change the Group Configuration for a Content Experiment
+콘텐츠 실험에서 집단 설정 변경하기
 ========================================================
 
 You can change the group configuration for a content experiment. When you
