@@ -110,7 +110,7 @@ The publishing status controls the content available to students, along with
 .. _Unit States and Visibility to Students:
 
 *************************************************
-학습활동 게시 상태 및 학습자 공개설정
+학습활동 게시 상태 및 학습자 공개 설정
 *************************************************
 
 학습자가 학습활동을 볼 수 있는지 여부는 학습활동의 게시 상태에 따라 달라진다. 
@@ -119,46 +119,41 @@ The publishing status controls the content available to students, along with
 
 * `강좌 운영팀에게만 공개`_ 일 때, 학습자는 학습활동을 볼 수 없다. 이에 대해 `Hide a Unit from Students`_ 에 더 자세한 안내가 있다. 
 
-* Students do not see a unit with the publishing status `Published Not Yet
-  Released`_ until the :ref:`release date <Release Dates>`. On the release
-  date, the status changes to `Published and Live`_.
+* `아직 공개되지 않음`_  일 때, :ref:`release date <Release Dates>` 전까지는 학습자가 학습활동을 볼 수 없다. 하지만 공개일이 되면, 게시 상태가 `공개됨`_ 로 바뀌게 된다.
 
-* If the publishing status is `Published and Live`_, students see the current
-  version of the unit.
+* `공개됨`_ 일 때, 학습자는 학습활동을 볼 수 있다.
   
-* If the publishing status is `Draft (Unpublished Changes)`_, students see the
-  last published version of the unit if the :ref:`release date <Release Dates>`
-  for the containing section and subsection has passed.
+* `학습활동이 변경됨`_ 의 상태일 때, 주제의 :ref:`release date <Release Dates>` 이 이미 지난 경우라면 
+학습자가 변경된 학습활동을 바로 볼 수 있는 것이 아니라, 변경 이전의 학습활동을 보게 된다.
 
-For more information, see :ref:`Controlling Content Visibility`.
+:ref:`Controlling Content Visibility` 에 공개 설정에 대한 더 자세한 안내가 있다.
 
 .. _Unit Publishing Status:
 
 ************************************************
-Unit Publishing Status
+학습활동 게시 상태
 ************************************************ 
 
-As an course author, you work with units with the following statuses:
+학습활동의 게시 상태로는 이러한 것들이 있다.
 
-* `Draft (Never published)`_
-* `Published and Live`_
-* `Published (not yet released)`_
-* `Draft (Unpublished changes)`_
-* `Visible to Staff Only`_
+* `초안 (게시된 적 없음)`_
+* `공개됨`_ 
+* `아직 공개되지 않음`_ 
+* `학습활동이 변경됨`_
+* `강좌 운영팀에게만 공개`_
 
 .. _Draft (Never Published):
 
 ========================
-Draft (Never published)
+`초안 (게시된 적 없음)`
 ========================
 
-When you create a new unit and add components to it, the unit's publishing
-status is **Draft (Never Published)**, as shown in the status panel:
+새 학습활동을 만들어 구성요소를 추가할 때, 학습활동의 게시 상태는 **초안 (게시된 적 없음)** 이며 화면에는 다음과 같이 나타나게 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-never-published.png
  :alt: Status panel of a unit that has never been published
 
-In Studio, you see the version of the content that you're working on. Students
+Studio에서, you see the version of the content that you're working on. Students
 never see a unit with this status, even if the release date has passed.
 
 Though you do not see the unit in the LMS, you can :ref:`preview the
