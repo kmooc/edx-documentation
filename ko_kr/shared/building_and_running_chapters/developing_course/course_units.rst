@@ -67,13 +67,9 @@ Studio에서 학습활동 보기
 학습자 화면에서 학습활동 보기
 ****************************
 
-학습자는 소주제에 있는 각 학습활동을 
-To a student using the edX Learning Management System, each unit in the
-subsection appears as a link on the course ribbon at the top of the page. The
-active unit is open beneath the course ribbon.
+학습자는 강좌 내용에서 소주제에 있는 학습활동을 볼 수 있다. 다음 학습활동으로 넘어가려면 화살표 버튼을 눌러야 한다.
 
-The following image shows a subsection that has five units, which are circled
-in the ribbon above the video, with the first unit open:
+다음 예시는 1개의 소주제에 학습활동이 5개로 구성되어 있을 때, 어떻게 강좌 개요에서 보이는지를 나타낸다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Units_LMS.png
  :alt: Image of units from the student's point of view
@@ -81,46 +77,47 @@ in the ribbon above the video, with the first unit open:
 .. _The Unit Workflow:
 
 ************************************************
-The Unit Workflow
+학습활동 작업 흐름
 ************************************************
 
-When you have set up the :ref:`section<Developing Course Sections>` and
-:ref:`subsection<Developing Course Subsections>` in the course outline, you
-then work with units.
+먼저 :ref:`section<Developing Course Sections>` 와 :ref:`subsection<Developing Course Subsections>` 을 만들면
+학습활동을 만들 수 있게 된다.
 
-The typical workflow is:
+학습활동을 만드는 기본 순서는 아래와 같은데,
 
 #. :ref:`Create a new unit<Create a Unit>`.
 #. :ref:`Add components to the unit<Add a Component>`.
 #. :ref:`Publish the unit<Publish a Unit>`.
    
-After you publish the unit, you can:
+학습활동을 게시한 후 
 
 #. :ref:`Modify components in the unit<Developing Course Components>`.
-#. :ref:`Publish the changes to the unit<Publish a Unit>`.
+#. :ref:`Publish the changes to the unit<Publish a Unit>`
+
+작업이 가능하기도 하다.
    
-The following diagram shows the typical unit development workflow:
+다음 도표는 학습활동의 일반적인 작업흐름을 보여준다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/workflow-create-unit.png
  :alt: Diagram of the unit development workflow
    
-As you work through these steps, the **publishing status** of the unit changes.
+
+이러한 단계를 거치다보면, 학습활동의 **게시 상태** 가 바뀌게 된다.
+
 The publishing status controls the content available to students, along with
 :ref:`release dates<Release Dates>`. See the next section for more information.
 
 .. _Unit States and Visibility to Students:
 
 *************************************************
-Unit Publishing Status and Visibility to Students
+학습활동 게시 상태 및 학습자 공개설정
 *************************************************
 
-The following information summarizes whether or not students can see a unit.
+학습자가 학습활동을 볼 수 있는지 여부는 학습활동의 게시 상태에 따라 달라진다. 
 
-* Students never see a unit with the publishing status `Draft (Never
-  Published)`_.
+* `초안 (게시된 적 없음)`_ 일 때, 학습자는 학습활동을 볼 수 없다. 
 
-* Students never see a unit with the publishing status `Visible to Staff
-  Only`_. See `Hide a Unit from Students`_ for more information.
+* `강좌 운영팀에게만 공개`_ 일 때, 학습자는 학습활동을 볼 수 없다. 이에 대해 `Hide a Unit from Students`_ 에 더 자세한 안내가 있다. 
 
 * Students do not see a unit with the publishing status `Published Not Yet
   Released`_ until the :ref:`release date <Release Dates>`. On the release
