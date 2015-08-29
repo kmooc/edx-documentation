@@ -70,6 +70,6 @@ OLX에 콘텐츠 실험 추가하기
 
 * ``group_id_to_child`` 값은 ``policy.json`` 파일에 정의한 집단 ID과 특정 콘텐츠의 집단 ID를 참조한다.  
 
-  예를 들어, 집단 ``0`` 에서의 값``i4x://path-to-course/vertical/group_a``은 ``url_name`` 과 ``group_a`` 을 같게 하는 <vertical>요소를 일치시켜야 하다. 따라서, 집단 0 에서의 학습자는 ``<vertical>`` 로 콘텐츠를 보게 된다.
+  예를 들어, 집단 ``0`` 에서의 값``i4x://path-to-course/vertical/group_a`` 은 ``url_name`` 과 ``group_a`` 을 같게 하는 <vertical>요소를 일치시켜야 하다. 따라서, 집단 0 에서의 학습자는 ``<vertical>`` 로 콘텐츠를 보게 된다.
 
 ``policy.json`` 파일에 대해 더 정보를 원하면, :ref:`Set Up Group Configuration for OLX Courses` 를 확인한다.
