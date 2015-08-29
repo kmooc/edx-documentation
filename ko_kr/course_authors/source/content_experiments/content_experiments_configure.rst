@@ -1,11 +1,10 @@
 .. _Configure Your Course for Content Experiments:
 
 #####################################################
-Configure Your Course for Content Experiments
+콘텐츠 실험을 위한 강좌 설정하기
 #####################################################
 
-This chapter describes how to configure your course so that you can use content
-experiments. See:
+본 장에서는 콘텐츠 실험을 이용하기 위한 강좌 설정을 살펴본다.:
 
 * :ref:`Enable Content Experiments`
 * :ref:`Overview of Group Configurations`
@@ -16,14 +15,13 @@ experiments. See:
 .. _Enable Content Experiments:
 
 ****************************************
-Enable Content Experiments
+콘텐츠 실험을 활성화하기
 ****************************************
 
-To enable content experiments in your course, you add ``split_test`` to the
-**Advanced Modules List** in Advanced Settings.
+강좌에서 콘텐츠 실험을 활성화하기 위해, ``split_test`` 를 고급설정에서 "고급 모듈 목록"" 에 추가한다. 
 
 .. note::  
-  ``split_test`` is the internal edX Platform name for a content experiment.
+``split_test`` 는 콘텐츠 실험의 내부 edX 플랫폼 이름이다.  
 
 #. From the **Settings** menu, select **Advanced Settings**.
 
