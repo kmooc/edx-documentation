@@ -3,15 +3,13 @@
 .. _Add a Content Experiment in OLX:
 
 ****************************************
-Add a Content Experiment in OLX
+OLX에 콘텐츠 실험 추가하기
 ****************************************
 
-You work with multiple XML files to configure a content experiment. This
-section steps through the files involved in a content experiment that shows
-different content to two different groups of students.
+콘텐츠 실험을 설정하기 위하여 여러개의 XML 파일을 다루게 된다. 여기서는 두 개의 다른 학습자 집단에 다른 콘텐츠를 보여주는 콘텐츠 실험에 포함된 XML 파일들을 살펴 본다.
 
 =====================================================
-Define the Content Experiment in the Sequential File
+순차적인 파일에서 콘텐츠 실험 정의하기
 =====================================================
 
 You reference a content experiment in the file for the subsection, or
