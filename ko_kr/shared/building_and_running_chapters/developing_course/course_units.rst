@@ -1,11 +1,10 @@
 .. _Developing Course Units:
 
 ###################################
-Developing Course Units
+학습활동
 ###################################
 
-When working with units in the course outline, ensure you understand the
-following:
+학습활동을 만들기 전에, 우선 다음 사항을 이해해야 한다.
 
 * `What is a Unit?`_
 * `Viewing Units in the Outline`_
@@ -14,7 +13,7 @@ following:
 * `Unit Publishing Status and Visibility to Students`_
 * `Unit Publishing Status`_
 
-When developing your course, you perform the following tasks with units:
+학습활동과 관련된 작업은 다음과 같은 것이 있다.
 
 * `Create a Unit`_
 * `Edit a Unit`_
@@ -25,48 +24,47 @@ When developing your course, you perform the following tasks with units:
 * `Hide a Unit from Students`_
 * `Delete a Unit`_
 
-You add content to units with :ref:`course components<Developing Course
-Components>`.
+강좌 운영팀은 학습활동에 구성요소를 추가할 수 있다. 
+이에 관해 :ref:`course components<Developing Course
+Components>` 에 자세한 안내가 있다. 
 
 .. _What is a Unit?:
 
 ****************************
-What is a Unit?
+학습활동이란?
 ****************************
 
-A unit is a part of a :ref:`subsection<Developing Course Subsections>` that
-students view as a single page.
+학습활동은 :ref:`subsection<Developing Course Subsections>` 의 일부로써, 
+학습자가 소주제를 클릭하면 한 번에 하나씩 볼 수 있다. 
 
-A unit contains one or more :ref:`components<Developing Course Components>`,
-such as :ref:`HTML content<Working with HTML Components>`,
+1개의 학습활동은 1개 이상의 :ref:`components<Developing Course Components>` 를 가질 수 있는데, 이러한 구성요소로는 :ref:`HTML content<Working with HTML Components>`,
 :ref:`problems<Working with Problem Components>`, :ref:`discussions<Working
-with Discussion Components>`, and
-:ref:`videos<Working with Video Components>`.
+with Discussion Components>` 및 
+:ref:`videos<Working with Video Components>` 이 있다.
+
 
 ****************************
-Viewing Units in the Outline
+강좌 개요에서 학습활동 보기
 ****************************
 
-To view units in the outline, you :ref:`expand<Navigating the Course Outline>`
-the parent section and subsection:
+학습활동을 보려면, 주제와 소주제를 먼저 펼쳐야 한다. 이에 대한 안내는 :ref:`expand<Navigating the Course Outline>` 에 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units
 
 ****************************
-Viewing the Unit Page
+Studio에서 학습활동 보기
 ****************************
 
-When you click on a unit name in the outline, the **Unit** page opens.
+강좌 개요에서 소주제명을 클릭하면, **학습활동** 이 나온다.
 
-The following example shows a unit page with two components, with circles and
-text to show different areas and controls in the page.
+다음 예시는 한 학습활동에 두 가지 구성요소가 있는 화면이며, 동그랗게 표시된 부분은 이를 학습 관리 시스템에서 볼 수 있는 버튼을 가리킨다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-page.png
  :alt: The Unit page
 
 ****************************
-Viewing Units as a Student 
+학습자 화면에서 학습활동 보기
 ****************************
 
 To a student using the edX Learning Management System, each unit in the
