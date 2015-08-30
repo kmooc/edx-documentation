@@ -1,14 +1,10 @@
 .. _Beta_Testing:
 
 #############################
-Beta Testing a Course
+강좌 베타 테스트하기
 #############################
 
-When a course is being designed in Studio, the course team can choose **View
-Live** to assess their progress in designing the course, test their work, find
-gaps and errors, and mimic the student experience. To gather information about
-the overall experience of taking a course, you can also conduct a beta test of
-the course.
+스튜디오에서 강좌가 만들 때, 강좌 운영팀은 강좌의 설계 진행을 평가하고, 작업을  테스트하여, 빠진 부분과 오류를 찾고, 학습자의 경험을 살펴보기 위해 **적용결과 보기** 를 선택할 수 있다. 강좌를 수강할 때의 전반적 경험에 관한 정보를 수집하기 위해, 강좌의 베타 테스트를 해볼 수 있다. 
 
 * :ref:`Beta_Process`
 * :ref:`Qualities_Testers`
@@ -21,16 +17,12 @@ the course.
 .. _Beta_Process:
 
 ******************************************
-The Beta Testing Process
+베타 테스트 과정
 ******************************************
 
-During a beta test, you gather information about the experience of taking your
-course in an effort to improve its quality. The phases of the beta testing
-process, and some questions that you may find useful to consider as you prepare
-for each phase, follow.
+베타 테스터를 하면서, 학습자의 강좌 참여 경험의 질적 향상을 위해 관련 정보를 수집한다. 베타 테스트 단계와 각 단계별 준비하면서 살펴볼 질문은 다음과 같다. 
 
-#. **Planning**: What are your objectives for the test? What is the schedule for
-   testing?
+#. **계획** : 테스트하는 목적이 무엇인가?  테스팅 일정은?
 
 #. **Recruitment**: How many testers do you need? How much time do you expect
    testers to spend? When do you need them to complete their feedback?
@@ -55,7 +47,7 @@ course.
 .. _Qualities_Testers:
 
 ***************************************
-The Beta Testing Role 
+베타 테스팅의 역할
 ***************************************
 
 Beta testers have early access to the course. Beta testers are not members of
@@ -78,7 +70,7 @@ testers do not receive certificates when they complete a course.
  when they are available to all students.
 
 ==================================
-Qualities of Good Beta Testers
+좋은 베타 테스터의 자질
 ==================================
 
 A beta test is valuable in part because it is unscripted. Your beta testers are
@@ -106,7 +98,7 @@ recruiting testers who use assistive technologies, who have different native
 languages, or who have varying levels of familiarity with computer software.
 
 =========================================
-Using Course Staff as Beta Testers 
+베타 테스터로 강좌 운영팀 활용하기
 =========================================
 
 Course staff can provide valuable feedback about your course. However, they are
@@ -125,7 +117,7 @@ the beta tester role) in order to experience the course as a student.
 .. _What_Test:
 
 *********************************
-What to Test
+테스트 항목
 *********************************
 
 Beta testers should interact with everything in the course. 
@@ -146,7 +138,7 @@ As they work, beta testers log issues and questions for the course team.
 .. _How_Testers_See_Course:
 
 ******************************************
-How Beta Testers See Course Content
+베타 테스트 가능 시점
 ******************************************
 
 To beta test a course, you: 
@@ -181,7 +173,7 @@ begins. When new content is ready for testing, be sure to :ref:`publish the
 unit<Publish a Unit>`.
 
 ================================
-Define When the Beta Test Starts
+베타테스트 시작 정하기 
 ================================
 
 To define the start of the beta test, you use Studio to specify a number of days
@@ -197,7 +189,7 @@ course.
 #. Click **Save Changes**.
 
 ===========
-Example
+예시
 ===========
 
 .. Is this example helpful? how can we assess whether it is frightening/confusing to course team, or helpful?
@@ -235,7 +227,7 @@ the beta testers in the courseware.
 .. _Add_Testers:
 
 *********************************
-Adding Beta Testers 
+베타 테스터 추가하기
 *********************************
 
 Before you can add beta testers:
@@ -263,7 +255,7 @@ When you add beta testers, note the following.
 .. _Add_Testers_Bulk:
 
 ================================
-Add Multiple Beta Testers
+여러명의 베타 테스터 추가하기
 ================================
 
 If you have a number of beta testers that you want to add, you can use the
@@ -305,7 +297,7 @@ testers**.
  enrollment is not affected.
 
 ================================
-Add Beta Testers Individually
+개별 베타 테스터 추가하기
 ================================
 
 To add a single beta tester:
@@ -330,7 +322,7 @@ user's email address.
 .. _Issue_Reporting_During_Course:
 
 *********************************
-Reporting Issues During a Course
+문제점 보고하기
 *********************************
 
 Despite the efforts of the course team and the beta testers, additional
