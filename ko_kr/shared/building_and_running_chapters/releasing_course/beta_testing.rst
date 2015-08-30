@@ -74,7 +74,7 @@
 
 강좌 운영자은 강좌에 대해 도움이 되는 피드백을 제공할 수 있다. 그러나 강좌의 성공에 있어 이해당사자이며, 관련된 지식이 많은 이들이다. 그러므로 강좌 운영자는 학습자가 하는 것과 같은 방법으로 강좌에서 활동하기에는 너무 익숙한 사람이다. 또한 이들은 피드백을 제공하길 꺼리거나 지나치게 열정적일 수 있다. 
 
-베타 테스터의 한명이 되고 싶은 운영자라면, 추가적인 역할을 수행하기 위해 다른 이메일 주소를 이용해야 한다. 강좌 운영진의 역할이 지닌 권한은 베타 테스터의 것보다 우선시 되기 때문에, 사이트 등록, 활성화, 강좌 등록에 다른 이메일을 이용한 별도의  계정이 필요하다. 운영자가 학습자로서 강좌를 경험하고 싶다면, 새로 등록한 이메일로 (베타테스터 역할을 위해) 접속해야 한다. 
+베타 테스터를 하고 싶은 운영자라면, 추가적인 역할을 수행하기 위해 다른 이메일 주소를 이용해야 한다. 강좌 운영진의 역할이 지닌 권한은 베타 테스터의 것보다 우선시 되기 때문에, 사이트 등록, 활성화, 강좌 등록에 다른 이메일을 이용한 별도의  계정이 필요하다. 운영자가 학습자로서 강좌를 경험하고 싶다면, 새로 등록한 이메일로 (베타테스터 역할을 위해) 접속해야 한다. 
 
 .. _What_Test:
 
@@ -82,20 +82,19 @@
 테스트 항목
 *********************************
 
-Beta testers should interact with everything in the course. 
+베타 테스터는 강좌의 모든 것을 다루어 보아야 한다. 
 
-* Click all links.
+* 모든 링크 클릭하기.
 
-* Watch all videos.
+* 모든 동영상 시청하기.
 
-* Download video transcripts and other files.
+* 동영상 자막 및 다른 파일 다운로드하기.
 
-* Complete all problems. 
+* 모든 문제 풀기. 
 
-As they work, beta testers log issues and questions for the course team.
+베타테스터들은 위의 작업을 하면서, 강좌 운영팀을 위해 발생한 이슈와 질문을 기록해야 한다. 
 
-.. note:: Beta testers cannot read or make discussion posts or contribute to 
- the course wiki.
+.. note:: 베타 테스터는 게시판의 글을 읽거나 글을 쓸 수 없고, 또한 강좌 위키에 글을 쓸 수도 없다. 
 
 .. _How_Testers_See_Course:
 
@@ -103,36 +102,32 @@ As they work, beta testers log issues and questions for the course team.
 베타 테스트 가능 시점
 ******************************************
 
-To beta test a course, you: 
+강좌를 베타 테스트하기 위해 : 
 
-* Define a number of days before section and subsection release days for testing
-  to begin.
+* 주제와 소주제가 공개되기 전에 테스팅 하기 위한 시간을 정한다. 
 
-* Identify beta testers.
+* 베타 테스터가 누구인지 확인한다. 
 
-Designated beta testers see course content before students can. The matrix
-that follows shows the course content that beta testers can access earlier
-than other students.
+정해진 베타 테스터는 학습자가 보기 전에 먼저 강좌 콘텐츠를 볼 수 있다. 다음 표는 베타 테스터가 학습자보다 미리 접속해서 볼 수 있는 강좌 콘텐츠이다. 
 
 +-------------------------------------------+------+------+
 |                                           | Yes  |  No  |
 +===========================================+======+======+
-| Before the Course Enrollment Date         |  X   |      |
+| 강좌 등록일 전                            |  X   |      |
 +-------------------------------------------+------+------+
-| Before the Course Start Date              |  X   |      |
+| 강좌 시작일 전                            |  X   |      |
 +-------------------------------------------+------+------+
-| Before the section Release Day            |  X   |      |
+| 주제 공개일 전                            |  X   |      |
 +-------------------------------------------+------+------+
-| Before the subsection Release Day         |  X   |      |
+| 소주제 공개일 전                          |  X   |      |
 +-------------------------------------------+------+------+
-| Before the unit is Public                 |      |   X  |
+| 학습활동이 공개되기 전                    |      |   X  |
 +-------------------------------------------+------+------+
-| Before a draft replaces a live unit       |      |   X  |
+| 운영되고 있는 학습활동을 대체하기 전      |      |   X  |
 +-------------------------------------------+------+------+
 
-The course team can continue to add content in Studio after the beta test
-begins. When new content is ready for testing, be sure to :ref:`publish the
-unit<Publish a Unit>`.
+강좌 운영팀은 베타테스트가 시작되어도 스튜디오에서 콘텐츠를 계속 추가할 수 있다. 새로운 콘텐츠가 테스팅을 위해 준비되었다면 
+:ref:`publish the unit<Publish a Unit>` 을 살펴 본다. 
 
 ================================
 베타테스트 시작 정하기 
