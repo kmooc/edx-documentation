@@ -145,7 +145,7 @@ The publishing status controls the content available to students, along with
 .. _Draft (Never Published):
 
 ========================
-`초안 (게시된 적 없음)`
+초안 (게시된 적 없음)
 ========================
 
 새 학습활동을 만들어 구성요소를 추가할 때, 학습활동의 게시 상태는 **초안 (게시된 적 없음)** 이며 화면에는 다음과 같이 나타나게 된다.
@@ -153,24 +153,20 @@ The publishing status controls the content available to students, along with
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-never-published.png
  :alt: Status panel of a unit that has never been published
 
-Studio에서, you see the version of the content that you're working on. Students
-never see a unit with this status, even if the release date has passed.
+공개일이 지났더라도 강좌 운영팀이 Studio에서 작업중인 콘텐츠는 학습자에게 공개되지 않는다.
 
-Though you do not see the unit in the LMS, you can :ref:`preview the
-unit<Preview Course Content>`.
+학습활동을 학습 관리 시스템에서 못보더라도, :ref:`preview the
+unit<Preview Course Content>` 에서 볼 수 있다.
 
-You must :ref:`publish the unit<Publish a Unit>` for it to be included in the
-LMS.
-
+학습활동을 학습자가 볼 수 있게 하려면, 반드시 :ref:`publish the unit<Publish a Unit>` 해야 한다는 것에 유의한다.
 .. _Published and Live:
 
 ====================
-Published and Live
+공개됨
 ====================
 
-The release date for the section and subsection have passed. You've published
-the unit and haven't made any changes to it. You and students both see the
-current version of the unit.
+주제와 소주제의 공개일이 지난 경우로, 학습활동을 게시했으며 이후 변경하지 않았을 때의 상태이다.
+강좌 운영팀과 학습자 모두 학습활동을 볼 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-published.png
  :alt: Status panel of a unit that is published
@@ -178,11 +174,10 @@ current version of the unit.
 .. _Published Not Yet Released:
 
 ====================================
-Published (not yet released)
+아직 공개되지 않음
 ====================================
 
-You've published the unit, but the release date hasn't passed. Students cannot
-see this unit until the release date passes.
+학습활동을 게시한 상태지만, 아직 공개일이 지나지 않아 학습자가 볼 수 없다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-published_unreleased.png
  :alt: Status panel of a unit that is published but not released
@@ -190,41 +185,37 @@ see this unit until the release date passes.
 .. _Draft (Unpublished Changes):
 
 ===========================
-Draft (Unpublished changes)
+학습활동이 변경됨
 =========================== 
 
-When you edit a published unit, whether or not it is released, the unit's
-publishing status changes to **Draft (Unpublished Changes)**, as shown in the
-status panel:
+게시한 학습활동을 변경하면, 공개 여부와 관계 없이 학습활동의 상태가 
+**학습활동이 변경됨** 으로 바뀐다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-pending-changes.png
  :alt: Status panel of a unit that has pending changes
 
-In Studio, you see the draft of the content that you're working on. If the
-release date has passed, students see the last published version of the unit.
-If the release date hasn't passed, students can't see your content.
+Studio에서 강좌 운영팀은 작업중인 학습활동을 보게 되는 반면, 학습자는 공개일이 지난 경우 해당 학습활동의 지난 게시 버전을
+보게 된다. 공개일이 지나지 않은 경우에는 학습자가 볼 수 없다. 
 
-You must :ref:`publish the unit<Publish a Unit>` for students to see your
-changes.
+변경된 버전을 학습자가 보게 하려면, 반드시 
+:ref:`publish the unit<Publish a Unit>` 해야 한다.
 
-You can :ref:`preview the changes to a unit<Preview Course Content>` to test
-how your changes will appear to students after you publish the unit.
+
+:ref:`preview the changes to a unit<Preview Course Content>` 를 통해
+변경사항이 어떻게 적용되는지 미리 볼 수 있다.
 
 .. _Visible to Staff Only:
 
 ===========================
-Visible to Staff Only
+강좌 운영팀에게만 공개
 ===========================
 
-When you :ref:`hide a unit from students<Hide a Unit from Students>`, the
-unit's publishing status changes to **Visible to Staff Only**.
+:ref:`hide a unit from students<Hide a Unit from Students>` 상태일 때, 학습활동의 게시 상태가 **강좌 운영팀에게만 공개** 로 바뀌게 된다.
 
-The publishing status of a unit can be **Visible to Staff Only** if you hid the
-parent :ref:`section<Hide a Section from Students>` or :ref:`subsection<Hide a
-Subsection from Students>` from students.
+:ref:`section<Hide a Section from Students>` 또는 :ref:`subsection<Hide a
+Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없다.
 
-Students never see a unit with this status, even if it has been published and
-the release date has passed.
+게시되었거나 공개일이 지났더라도 학습자가 이 상태의 학습활동은 볼 수 없다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-unpublished.png
  :alt: Status panel of a unit that has pending changes
@@ -232,13 +223,12 @@ the release date has passed.
 .. _Create a Unit:
 
 ****************************
-Create a Unit
+학습활동 만들기
 ****************************
 
-You can create a unit from the outline or create a unit in the same subsection
-from the unit page.
+강좌개요나 학습활동 페이지에서 학습활동을 만들 수 있다.
 
-To create a unit from the outline:
+강좌개요에서 학습활동을 만드려면, 신규 학습활동을 추가하고 싶은 소주제를 펼친다.
 
 #. In the outline, expand the subsection in which you want to create a new
    unit.
@@ -247,71 +237,69 @@ To create a unit from the outline:
 #. On the unit page, the unit name is selected. Edit the name as needed.
 #. :ref:`Add components<Add a Component>` to the new unit as needed.
 
-To create a new unit from a unit page:
+학습활동 페이지에서 학습활동을 만드려면,
 
-#. In the **Unit Location** panel, click **New Unit**.
+#. 왼쪽 하단의 **학습 활동 위치** 에서, **새로운 학습활동** 을 추가한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/unit_location.png
     :alt: The Unit Location panel in the Unit page
 
-   The unit page for the new unit opens automatically.
+   그러면 새로 만든 학습활동의 페이지가 열린다.
 
-#. On the unit page, the unit name is selected. Edit the name as needed.
+#. 학습활동명을 입력한다. 
 
-#. :ref:`Add components<Add a Component>` to the new unit as needed.
+#. 필요하다면, :ref:`Add components<Add a Component>` 를 시작한다.
 
-You must then :ref:`publish the unit<Publish a Unit>` to make it visible to
-students.
+새로 만든 학습활동을 학습자가 볼 수 있게 하려면 :ref:`publish the unit<Publish a Unit>` 한다.
 
 
 .. _Edit a Unit:
 
 **************
-Edit a Unit
+학습활동 편집하기
 **************
 
-You can edit a unit in the following ways:
+다음 방법으로 학습활동을 편집할 수 있다.
 
 * `Edit the unit name`_
 * :ref:`Develop components<Developing Course Components>`
 * `Reorganize Components in Units`_
 
-When you make any of these changes, if you previously published the unit, the
-state changes to `Draft (Unpublished Changes)`_. You must then :ref:`publish
-the unit<Publish a Unit>` to make your edits visible to students.
+게시한 학습활동을 편집하면, 공개 여부와 관계 없이 학습활동의 상태가 
+**학습활동이 변경됨** 으로 바뀐다.
+
+변경된 버전을 학습자가 보게 하려면, 반드시 
+:ref:`publish the unit<Publish a Unit>` 해야 한다.
 
 
 ==============================
-Edit the Unit Name
+학습활동명 편집
 ==============================
 
-To edit a unit name, hover over the name to show the Edit icon:
+학습활동명을 바꾸려면, 학습활동명 위에 마우스를 갖다대면 편집 아이콘이 나타난다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-edit-icon.png
   :alt: The Edit Unit Name icon
 
-Click the Edit icon next to the unit name. The name field becomes editable.
-Enter the new name and tab or click out of the field to save the name.
+편집 아이콘을 클릭하면, 이름을 편집할 수 있는 상태가 된다.
+새 이름을 입력한 후 탭 키를 누르거나 이름 입력란 밖의 아무 곳이나 클릭하면, 이름이 저장된다.
 
 ==============================
-Reorganize Components in Units
+구성요소 재구성하기
 ==============================
 
-You can reorganize components within a unit by dragging and dropping them to
-new locations.
+마우스를 이용해 구성요소를 원하는 위치로 옮기면, 구성방식을 바꿀 수 있다.
 
-To move a component, hover over the handle on the right of the component's box
-until the cursor changes to a four-headed arrow. For example, in the image
-below, the handle for the discussion component is selected:
+구성요소를 옮기려면, 구성요소 영역의 오른쪽 상단에 마우스를 갖다대면 마우스 커서가 십자가로 바뀌는 아이콘이 있다.
+다음 이미지에서 마우스 커서가 위치한 아이콘을 말한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-drag-selected.png
   :alt: A discussion component selected to drag it
 
-Then, click and drag the component to the location that you want. 
+구성요소를 클릭해 원하는 위치로 드래그하면 된다.
 
-A dashed outline indicates where the component will land when you release the
-mouse button. For example, in the image below, the discussion component is
-being moved to the top of the unit:
+그러면 파란색의 윤곽선이 마우스를 따라 움직이고, 원하는 곳에 마우스를 놓으면 된다.
+다음 이미지는 구성요소를 학습활동의 상단으로 움직이려고 할 때를 나타낸다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-drag-moved.png
  :alt: A component being dragged to a new location  
@@ -319,29 +307,25 @@ being moved to the top of the unit:
 .. _Preview a Unit:
 
 ****************************
-Preview a Unit
+학습활동 미리보기
 ****************************
 
-You preview a unit to review and test the content before it is visible to
-students.
+학습자가 학습활동을 보기 전에, 강좌 운영팀이 콘텐츠를 먼저 테스트해볼 수 있다.
 
-You can preview a unit before it is published and when there are unpublished
-changes. When the unit is published and there are no pending changes, you
-cannot preview the unit; you must view the live version of the unit.
+학습활동을 게시하기 전이라면 학습활동을 미리볼 수 있다. 그러나 게시되었거나, 변경사항이 없다면 미리볼 수 없는 대신 학습활동의 적용 결과를 봐야 한다.
 
-To preview the unit, in the unit page, click **Preview Changes**.
+학습활동 페이지에서, 학습활동을 미리보려면 **미리보기** 를 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/preview_changes.png
  :alt: The Unit page with Preview Changes button circled
 
-The unit opens in preview mode:
+미리보기 모드에서 학습활동은 이렇게 열린다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/preview_mode.png
  :alt: The unit in preview mode
 
-When you are revising a previously published unit, it is helpful to preview
-your changes in one window and :ref:`view the published unit<View a Published
-Unit>` in a second window.
+게시된 학습활동을 변경할 때 새 창을 띄우면 편리하다.
+새 창에서는 미리보기 기능을 활용해 변경사항을 보고, 다른 창으로는 변경 전의 학습활동을 봄으로써 둘을 비교해보면 유용할 것이다.
 
 .. _Publish a Unit:
 
