@@ -42,52 +42,31 @@
 베타 테스팅의 역할
 ***************************************
 
-Beta testers have early access to the course. Beta testers are not members of
-the course team or staff: they don't have information about "how it's supposed
-to work". They use their own computers and Internet connections to view
-videos, follow links, and complete problems. They interact with the course as
-students will to find, and make, mistakes.
+베타 테스터는 강좌에 미리 접근하게 된다. 베타 테스터는 운영팀 이 아니고 "어떻게 작동해야 하는지"에 대해 모르고 있다. 테스터들은 자신의 컴퓨터에서 인터넷에 접속하여 동영상을 보고, 링크를 따라가보고, 문제 풀기를 수행한다. 테스터들은 학습자가 찾고 만들고 실수하는 것처럼 강좌를 이용해 본다. 
 
-However, beta testers are not the same as other students in the course,
-either. They have privileged access to the course and have more time to review
-and complete the course materials than the enrolled students do. Course
-discussions are not open before the course start date, so beta testers cannot
-participate in community conversations. As a result of these differences, beta
-testers do not receive certificates when they complete a course.
+그러나 베타 테스터는 강좌에서 다른 학습자와 동일하지 않다. 테스터들은 강좌에 접근할 권한을 갖고 있고 강좌 자료를 살펴보고 완료할 시간을 학습자 보다 더 갖게 된다. 강좌 게시판은 강좌 시작일 전에 공개 되지 않으므로 베타 테스터는 커뮤니티의 대화에 참여할 수 없다. 이런 차이로 인해, 베타 테스터는 강좌를 이수할 때 이수증을 받지 않는다. 
 
-.. note:: If one of your beta testers wishes to earn a certificate for the 
- course, she must create a separate user account with a different username and
- email address. She can then use that separate, non-privileged user account to
- enroll in the course and repeat the work, completing assignments and exams
- when they are available to all students.
+.. note:: 베타 테스터가 강좌에서 이수증을 받고 싶어할 때, 별도의 사용자명과 이메일 주소로 계정을 만들어야 한다. 이 테스터는 분리된 특별한 권한이 없는 사용자 계정을 이용하게 되고, 다른 모든 학습자들이 수행하는 것처럼 참여하고, 과제를 완료하고, 평가를 수행하게 된다. 
 
 ==================================
 좋은 베타 테스터의 자질
 ==================================
 
-A beta test is valuable in part because it is unscripted. Your beta testers are
-not following a predetermined series of steps, or using a particular computer
-environment, when they access your course. When you recruit beta testers,
-however, you may find these skills and characteristics to be helpful.
+베타 테스트는 정해지지 않은 대로 진행하기 때문에 도움이 되는 작업이다. 베타테스터들은 강좌를 이용할 때, 정해진 단계를 따르지 않으며, 특정한 컴퓨터 환경에서 이용하지도 않는다. 단, 베타 테스터를 선발할 때, 다음과 같은 기술이나 성격을 가진 사람을 고려한다면 도움이 될것이다.
 
-* Curiosity.
+* 호기심.
 
-* Attention to detail for identifying problems and inconsistencies.
+* 문제점과 일관되지 않는 것을 확인하기 위해 집중하기.
 
-* Solid communication skills for reporting problems to course staff. 
+* 강좌 운영팀에게 문제를 잘 보고하기 위한 의사소통 기술.
 
-Your beta testers should also have varying levels of knowledge about the course
-content:
+또한, 베타테스터는 강좌 콘텐츠에 대해 다른 수준의 지식을 갖고 있어야 한다.:
 
-* To recognize when material is wrong or missing, at least one tester should
-  know the content well.
+* 강좌의 자료가 틀렸거나 빠졌는지 확인하도록 하기 위해, 최소 1 명의 테스터는 콘텐츠를 잘 아는 사람이라야 한다. 
 
-* To identify material that is unclear, at least one tester should be less
-  familiar with the content.
+* 강좌의 자료가 명확하지 않은 것이 있는지 확인하기 위해 최소 1명의 테스터는 콘텐츠에 덜 익숙한 사람이라야 한다. 
 
-Depending on the objectives you set for your beta test, you may want to consider
-recruiting testers who use assistive technologies, who have different native
-languages, or who have varying levels of familiarity with computer software.
+베타 테스트 목적에 따라, 장애인을 위한 보조공학 기술을 사용하거나, 모국어가 한국어가 아니거나, 컴퓨터 소프트웨어에 대한 다양한 익숙함을 지닌 테스터를 고려할 것이다 .
 
 =========================================
 베타 테스터로 강좌 운영팀 활용하기
