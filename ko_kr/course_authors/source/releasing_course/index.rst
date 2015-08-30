@@ -1,7 +1,7 @@
 .. _Releasing Your Course Index:
 
 ##########################
-Releasing Your Course
+강좌 공개하기
 ##########################
 
 .. toctree::
