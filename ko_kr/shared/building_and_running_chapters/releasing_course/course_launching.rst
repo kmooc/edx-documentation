@@ -16,7 +16,7 @@ messages.
 .. _Course Launch Checklist:
 
 ****************************
-Course Launch Checklist
+개강 준비 점검
 ****************************
 
 As the start date for your course approaches, a checklist or timeline of
