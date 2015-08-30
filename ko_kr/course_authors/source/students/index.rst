@@ -1,7 +1,7 @@
 .. _Information for Your Students Index:
 
 ##############################
-Information for Your Students
+학습자에게 도움이 될 정보 
 ##############################
 
 .. toctree::
