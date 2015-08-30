@@ -133,17 +133,13 @@
 베타테스트 시작 정하기 
 ================================
 
-To define the start of the beta test, you use Studio to specify a number of days
-before the release day that is defined for each section and subsection in your
-course.
+베타 테스트 시작일을 정하기 위해, 강좌에서 각 주제와 소주제를 위해 정해진 공개전까지 남은 날을 설정하기 위해 스튜디오를 이용한다. 
 
-#. In Studio, from the **Settings** menu select **Advanced Settings**.
+#. 스튜디오의 **Settings** 메뉴에서 **Advanced Settings** 을 선택한다.
 
-#. In the field for the **Days Early for Beta Users** policy key, enter the
-   number of days before each section and subsection release day for beta
-   testers to have access.
+#. **Days Early for Beta Users** 칸에서, 베타 테스터가 이용할 수 있는 각 주제와 소주제가 공개되는 날까지 남은 날을 입력한다. 
 
-#. Click **Save Changes**.
+#. **Save Changes**을 저장한다. 
 
 ===========
 예시
