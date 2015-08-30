@@ -1,12 +1,10 @@
 .. _Launch:
 
 ##############################
-Course Launching Activities 
+개강 준비
 ##############################
 
-To launch a course, you prepare the course itself, the staff, and the
-students. This chapter includes a :ref:`Course Launch Checklist` to use as a
-model for your schedule of activities.
+강좌를 런칭하기 위해, 강좌, 운영팀, 학습자가 필요하다. 본 장에서는 활동 일정을 확인하기 위해 :ref:`Course Launch Checklist` 를 이용해 본다. 
 
 To help you communicate to the course staff or to all course participants before
 the course launches and while it is running, you can send email messages from
