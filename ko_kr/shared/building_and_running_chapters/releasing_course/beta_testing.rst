@@ -139,7 +139,7 @@
 
 #. **Days Early for Beta Users** 칸에서, 베타 테스터가 이용할 수 있는 각 주제와 소주제가 공개되는 날까지 남은 날을 입력한다. 
 
-#. **Save Changes**을 저장한다. 
+#. **Save Changes** 을 저장한다. 
 
 ===========
 예시
@@ -147,8 +147,7 @@
 
 .. Is this example helpful? how can we assess whether it is frightening/confusing to course team, or helpful?
 
-Beta tester access to courseware for a course with **Days Early for Beta Users**
-= 20 and 2 sections:
+베타 테스터는 **Days Early for Beta Users** = 20 and 2 sections 로 강좌 내용을 이용할 수 있다:
 
 +-------------------------------------------+------------------------------------------------+
 | Course Enrollment Date = 31 August        | 31 August; earlier if enrolled by course staff |
@@ -171,11 +170,7 @@ Beta tester access to courseware for a course with **Days Early for Beta Users**
 | subsection 2, unit 3 Visibility = Private | No access                                      |
 +-------------------------------------------+------------------------------------------------+
 
-In this example, the beta testers cannot access all of the courseware when the
-beta test starts on 26 August: they can access section 1 but not section 2. You
-may want to provide a schedule of section availability to your testers so that
-they can plan their time appropriately. Future release dates do not display to
-the beta testers in the courseware.
+위의 예에서, 베타 테스터는 8월 26일까지 모든 강좌 내용에 접근할 수 없고, 주제 1을 이용할 수 있지만, 주제 2는 아니다. 베타테스터들이 적절한 시간 계획을 세울 수 있도록 주제별 이용가능한 일정을 제공하는 것이 좋을 것이다. 다가오는 공개 일은 강좌 내용에서 베타 테스터에게 나타나지 않는다. 
 
 .. _Add_Testers:
 
@@ -183,27 +178,21 @@ the beta testers in the courseware.
 베타 테스터 추가하기
 *********************************
 
-Before you can add beta testers:
+베타 테스터를 추가하기 전에:
 
-* You need the email address or username of each beta tester. 
+* 각 베타 테스터의 이메일 주소와 사용자명이 필요하다.  
 
-* Each beta tester must register and activate a user account for that email
-  address/username.
+* 각 베타 테스터는 계정을 등록한 후 이메일/사용자명의 계정을 활성화 해야만 한다. 
 
-When you add beta testers, note the following. 
+베타 테스터를 추가할 때, 다음을 유의한다.
 
-* If the beta test starts before the course **Enrollment Start Date**, testers
-  cannot enroll themselves in your course. However, you can enroll the beta
-  testers prior to the **Enrollment Start Date**.
+* 베타 테스터가 강좌의 **Enrollment Start Date** 전에 시작한다면, 테스터는 강좌에 스스로 등록할 수 없다. 그러나 강좌 운영팀에서 베타 테스터를 **Enrollment Start Date** 전에 등록할 수 있다. 
 
-* If you add the beta testers after the defined start of the beta test, and
-  they are enrolled in the course, they see your course on their **Current
-  Courses** dashboards when they log in.
+* 베타 테스터를 베타 테스트 시작일 후에 추가한다면, 그리고 강좌에 등록되어 있다면, 베타 테스터들은 **Current
+  Courses** 데시보드에서 강좌를 볼 수 있다. 
 
-* If you add beta testers before the test starts, or if they are not enrolled,
-  they do not see your course on their dashboards. You can enroll the beta
-  testers in the course yourself, and you may want to send an email message to
-  remind them when the test begins.
+* 테스트 시작전에 베타 테스터를 추가한다면, 혹은 테스터가 등록이 되어 있지 않다면, 데시보드에서 강좌를 볼 수 없다. 
+  강좌 운영팀에서 베타 테스터를 등록해 줄 수 있고, 테스트가 시작될때 베타 테스터들에게 이메일 메세지를 보내어 알린다. 
 
 .. _Add_Testers_Bulk:
 
