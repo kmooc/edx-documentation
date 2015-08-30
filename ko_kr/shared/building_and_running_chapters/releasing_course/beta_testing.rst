@@ -72,18 +72,9 @@
 베타 테스터로 강좌 운영팀 활용하기
 =========================================
 
-Course staff can provide valuable feedback about your course. However, they are
-typically stakeholders in the success of your course and have a significant
-amount of knowledge about it. As a result, they can be too close to the course
-to interact with it in the same way as students will. They can also be either
-reluctant to provide feedback, or overly zealous.
+강좌 운영자은 강좌에 대해 도움이 되는 피드백을 제공할 수 있다. 그러나 강좌의 성공에 있어 이해당사자이며, 관련된 지식이 많은 이들이다. 그러므로 강좌 운영자는 학습자가 하는 것과 같은 방법으로 강좌에서 활동하기에는 너무 익숙한 사람이다. 또한 이들은 피드백을 제공하길 꺼리거나 지나치게 열정적일 수 있다. 
 
-If you do want a staff member to be a beta tester, a different, second email
-address must be used for this additional role. The privileges of the course
-staff role override those of a beta tester, so a second registration on the
-site, activation, and enrollment in the course are necessary using this second
-email address. The staff member must log in using the second email address (with
-the beta tester role) in order to experience the course as a student.
+베타 테스터의 한명이 되고 싶은 운영자라면, 추가적인 역할을 수행하기 위해 다른 이메일 주소를 이용해야 한다. 강좌 운영진의 역할이 지닌 권한은 베타 테스터의 것보다 우선시 되기 때문에, 사이트 등록, 활성화, 강좌 등록에 다른 이메일을 이용한 별도의  계정이 필요하다. 운영자가 학습자로서 강좌를 경험하고 싶다면, 새로 등록한 이메일로 (베타테스터 역할을 위해) 접속해야 한다. 
 
 .. _What_Test:
 
