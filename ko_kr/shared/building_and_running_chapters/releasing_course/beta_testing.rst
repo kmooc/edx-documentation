@@ -228,24 +228,18 @@
 개별 베타 테스터 추가하기
 ================================
 
-To add a single beta tester:
+1명의 베타 테스터를 추가하기 위해:
 
-#. View the live version of your course.
+#. 강좌의 적용결과 보기를 선택한다.
 
-#. Click **Instructor** then **Membership**.
+#. **Instructor** 을 클릭하고 **Membership** 을 클릭한다. 
 
-#. In the **Administration List Management** section, use the drop-down list to
-   select **Beta Testers**.
+#. **Administration List Management** 에서, 드롭다운 목록을 사용하여 **Beta Testers** 를 선택한다. 
 
-#. Under the list of users who currently have that role, enter an email address
-   or username and click **Add Beta Tester**. 
+#. 현재 베타테스터 역할을 수행하는 사용자 목록에, 이메일 주소 혹은 사용자 명을 입력하고 **Add Beta Tester** 를 클릭한다. 
+   베타 테스트가 강좌의 **Enrollment Start Date** 전에 시작한다면, 베타 테스터를 강좌에 수강등록할 수 있다. :ref:`Enrollment` 를 살펴 본다. 
 
-   If the beta test starts before the **Enrollment Start Date** of your course,
-   you can also enroll the beta tester. See :ref:`Enrollment`.
-
-To remove the Beta Tester role from users individually, find the user in the
-list of beta testers, and then click **Revoke access** to the right of that
-user's email address.
+개별 사용자들의 베타테스터 역할을 제거하기 위해, 베타 테스터 목록에서 해당 사용자를 찾고, 이메일 주소의 오른쪽에 **Revoke access** 를 클릭한다. 
 
 .. _Issue_Reporting_During_Course:
 
@@ -253,14 +247,11 @@ user's email address.
 문제점 보고하기
 *********************************
 
-Despite the efforts of the course team and the beta testers, additional
-problems, questions, and issues can occur while a course is running.
+강좌 운영팀과 베타 테스터의 노력에도 추가적인 문제, 질문, 이슈가 강좌가 운영되는 동안 발생할 수 있다. 
 
-* Often, students report issues by asking questions in a discussion. Your
-  discussion administration team can watch for posts that indicate problems.
+* 자주, 학습자들은 게시판에 질문하여 이슈를 보고한다. 게시판 관리팀은 문제를 보고하는 게시물을 보게된다.
 
-* To let students know the best way to report problems, you can post information
-  on the **Course Info** page or post it in a discussion.
+* 학습자가 문제를 보고하도록 하는 가장 좋은 방법은, **Course Info** 페이지나 게시판에 글을 남기는 방법이다. 
 
 .. per Mark 19 Feb 14: eventually we want to provide more guidance for students:  course issues > use discussions, platform issues > submit issue to edx.
 
