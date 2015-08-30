@@ -11,20 +11,14 @@ edX 시스템은 학습자의 강좌 학습 진도를 계속 추적하며, 학�
 ``is_released``
   문제가 학습자에게 보이는지 여부를 나타낸다. 
 ``location``
-  An internal unique identifier that corresponds to this problem. If you
-  are having trouble with a problem, and need assistance from the edX support
-  team, including this value will make it easier for them to track down the
-  issue you're having with the problem.
+  문제에 해당하는 내부의 식별자. 문제가 발생하면, edX 지원팀의 도움이 필요하다. 이 값은 지원팀이 문제를 추적하기 쉽게 해준다. 
 ``markdown``
-  The text of the problem, in Markdown format. This is often written using Studio.
+  마크다운 포멧으로 나타난 문제의 텍스트. 스튜디오에서 자주 쓰인다. 
 ``display_name``
   문제의 명칭으로 학습자에게 나타난다. 
 ``max_attempts``
-  The maximum number of times that a student can attempt to answer the problem
-  correctly.
+  학습자가 문제를 바르게 풀도록 허용하는 최대 시도 횟수.
 ``attempts``
-  The number of times that the currently logged in student has attempted to
-  answer the problem correctly, so far. Every time this student attempts to answer
-  this question, this number will go up, until it reaches ``max_attempts``.
+  로그인한 학습자가 문제를 옳게 풀기위해 시도한 횟수. 문제에 응답하기 위해 학습자가 시도한 총 횟수로, 이 숫자는 ``max_attempts`` 에 도달할 때까지 증가한다.
 
 
