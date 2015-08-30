@@ -1,7 +1,7 @@
 .. _Math Response Formatting for Students:
 
 #####################################
-Math Response Formatting for Students
+학습자를 위한 수학 응답 포맷
 #####################################
 
 This topic has moved! See `Entering Mathematical and Scientific Expressions
