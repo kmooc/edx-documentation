@@ -22,27 +22,19 @@
 
 베타 테스터를 하면서, 학습자의 강좌 참여 경험의 질적 향상을 위해 관련 정보를 수집한다. 베타 테스트 단계와 각 단계별 준비하면서 살펴볼 질문은 다음과 같다. 
 
-#. **계획** : 테스트하는 목적이 무엇인가?  테스팅 일정은?
+#. **계획** : 테스트하는 목적이 무엇인가? 테스팅 일정은?
 
-#. **Recruitment**: How many testers do you need? How much time do you expect
-   testers to spend? When do you need them to complete their feedback?
+#. **모집**: 몇 명의 테스터가 필요한가? 테스터들이 어느 정도의 시간을 들여야 하는가? 언제 피드백을 완료해야 하는가?
 
-#. **Provide access to your course**: Can testers access your entire course
-   immediately, or are its sections and subsections available at different
-   times? How will that affect the schedule?
+#. **강좌 접근 권한 제공** : 테스터들이 즉각 전체 강좌에 접근할 수 있는지, 혹은 다른 시기에 주제나 소주제에 접근하게 할것인지? 일정에 영향을 미치는지?
 
-#. **Collect feedback**: How do you want testers to provide feedback? Who checks
-   for feedback, and how often?
+#. **피드백 수합** : 테스터들이 피드백을 어떻게 제공하길 원하는지? 누가 얼마나 자주 피드백을 확인하는지?
 
-#. **Evaluate feedback**: How is feedback evaluated? Who decides what changes to
-   make as a result, and on what schedule?
+#. **피드백  평가** : 피드백을 어떻게 평가하는가? 그 결과로 누가 변경여부를 결정하고 일정은 어떤가?
 
-#. **Conclusion**: How do you acknowledge the efforts of your testers? What do
-   you share with them about the results of their efforts?
+#. **마무리** : 테스터의 노력을 어떻게 인정할 것인가? 테스터의 노력의 결과에 대해 무엇을 공유할 것인지?
 
-There is no one answer to any of these questions. They are included here as
-background on the role that beta testing can play in the preparation of your
-course.
+위의 질문에 정해진 답은 없으며, 강좌 준비과정에서 해볼 수 있는 베타테스딩의 역할을 참고하도록 하기 위해 제시한 것이다. 
 
 .. _Qualities_Testers:
 
