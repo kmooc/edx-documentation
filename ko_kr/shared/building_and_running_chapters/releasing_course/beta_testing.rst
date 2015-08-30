@@ -200,43 +200,29 @@
 여러명의 베타 테스터 추가하기
 ================================
 
-If you have a number of beta testers that you want to add, you can use the
-"batch add" option to add them all at once, rather than individually. With this
-feature, you have options to enroll the beta testers in the course (before or
-after the **Enrollment Start Date**) and send an email message to notify the
-beta testers that they have been added.
+추가해야 하는 베타 테스터가 많을 경우, 한번에 전부 추가하기 위해 "batch add" 옵션을 이용할 수 있다. 이 기능은, 강좌의 베타 테스터 등록을 위한 옵션들이 있고 ( **Enrollment Start Date** 전 후), 베타 테스터들에게 추가되었음을 알리는 이메일 메세지를 보낸다. 
 
-To add multiple beta testers:
+여러명의 베타 테스터를 추가하기 위해:
 
-#. View the live version of your course.
+#. 강좌의 적용결과 보기로 본다. 
 
-#. Click **Instructor**, and then click **Membership**. 
+#. **Instructor** 를 클릭하고, **Membership** 을 클릭한다.  
 
-#. In the **Batch Beta Tester Addition** section of the page, enter one or more
-   addresses or usernames separated by commas or line feeds (the Enter key). You
-   can also copy data from a CSV file of email addresses and paste it here.
+#. **Batch Beta Tester Addition** 영역에서, 하나 이상의 이메일 주소 혹은 사용자명을 콤마 혹은 줄바꿈(엔터)으로 구분하여 입력한다. 또한 이메일 주소가 담긴 CSV 파일에서 데이터를 복사해서 붙여 넣기 할 수 있다. 
  
-#. To enroll the beta testers in your course, leave **Auto Enroll** selected. If
-   the beta test starts before the course **Enrollment Start Date**, testers
-   cannot enroll themselves in your course.
+#. 강좌에서 베타 테스터를 등록하기 위해, **Auto Enroll** 선택으로 남긴다. 베타 테스트가 강좌 **Enrollment Start Date** 전에 시작한다면, 베타 테스터는 강좌에 스스로 등록할 수 없다. 
 
-#. To send an email message to the beta testers, leave **Notify users by email**
-   selected. An example of the message that is sent to a beta tester who is not
-   enrolled (or auto enrolled) in the course follows.
+#. 베타 테스터에게 이메일 메세지를 보내기 위해, **Notify users by email** 를 선택한다. 강좌에 등록되지 않은 베타 테스터 (혹은 자동 등록) 에게 보내는 메세지 예는 다음과 같다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Beta_tester_email.png
   :alt: "You have been invited to be a beta tester for {course name} at {URL}. 
         Visit {link} to join the course and begin the beta test."
 
-6. Click **Add beta testers**.
+6. **Add beta testers** 를 클릭한다.
 
-To remove the Beta Tester role from one or more users, enter their email
-addresses in the **Batch Add Beta Testers** field and then click **Remove beta
-testers**. 
+1명 이상 이용자의 베타 테스터 역할을 제거하기 위해, **Batch Add Beta Testers** 칸에서 이메일들을 입력하고,  **Remove beta testers** 를 클릭한다. 
 
-.. note:: The **Auto Enroll** option has no effect when you click **Remove 
- beta testers**. The user's role as a beta tester is removed; course
- enrollment is not affected.
+.. note:: **Auto Enroll** 옵션은  **Remove beta testers** 를 클릭할 때 영향을 받지 않는다. 베타 테스터로서 사용자의 역할은 제거된되지만 강좌 등록은 영향을 받지 않는다. 
 
 ================================
 개별 베타 테스터 추가하기
