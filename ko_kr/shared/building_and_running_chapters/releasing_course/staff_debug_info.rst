@@ -1,28 +1,24 @@
 .. _Staff Debug Info:
 
 ############################
-Staff Debug Info
+오류 제거 도움말
 ############################
 
-The edX system keeps track of students' progress through a course -- recording
-when the student watches videos, responds to problems, and so on. If you are
-a staff member on a course, some of that data is visible to you for debugging purposes. Under every problem is a **Staff Debug Info** button: clicking this button opens a popup with metadata about the problem.
+edX 시스템은 학습자의 강좌 학습 진도를 계속 추적하며, 학습자가 동영상을 시청할때, 문제를 풀때 기록한다. 강좌의 운영팀이라면, 디버깅을 위해서 몇가지 데이터가 나타날 것이다. 모든 문제 아래에 **Staff Debug Info** 버튼이 있다.: 버튼을 클릭하면, 문제와 관련된 메타데이터가 팝업창으로 뜬다. 
 
-None of this information should be necessary for day-to-day usage of edX,
-but for the sake of clarity, some of these fields are documented here:
+아래 정보는 edx를 매일 사용하는데 필요한 것은아니지만 명확히 하기 위해 몇가지를 설명한다.:
 
 ``is_released``
-  Indicates whether the problem is visible to students.
+  문제가 학습자에게 보이는지 여부를 나타낸다. 
 ``location``
   An internal unique identifier that corresponds to this problem. If you
   are having trouble with a problem, and need assistance from the edX support
   team, including this value will make it easier for them to track down the
   issue you're having with the problem.
 ``markdown``
-  The text of the problem, in Markdown format. This is often written using
-  Studio.
+  The text of the problem, in Markdown format. This is often written using Studio.
 ``display_name``
-  The name of the problem, as shown to the student.
+  문제의 명칭으로 학습자에게 나타난다. 
 ``max_attempts``
   The maximum number of times that a student can attempt to answer the problem
   correctly.
