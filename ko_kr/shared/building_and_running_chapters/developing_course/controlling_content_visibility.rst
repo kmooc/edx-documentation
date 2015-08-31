@@ -33,23 +33,16 @@ course as staff<View Your Live Course>` 를 통해 콘텐츠를 볼 수 있다.
 * :ref:`Set a Subsection Release Date`
 
 ***********************
-Unit Publishing Status
+학습활동의 게시 상태
 ***********************
 
-학습활동을 게시하여 학습자가 
-You publish units to make them visible to students. Students see the last
-published version of a unit if the section and subsection it is in are
-released.
+학습자가 볼 수 있게 하려면 학습활동을 게시해야 한다. 주제와 소주제가 공개된 상태라면, 학습자가 가장 최근에 게시된 버전을 볼 수 있다. 
 
-Students do not see units that have never been published, and they do not see
-unpublished changes to units or components within units.  Therefore, you can
-make changes to units in released subsections without disrupting the student
-experience.
+학습자는 항상 게시된 학습활동만을 볼 수 있다. 만약 학습활동과 구성요소를 변경하고 이를 게시하지 않으면, 학습자는 변경 이전의 상태를 보게 된다. 
 
-For more information, see :ref:`Unit Publishing Status`.
+주제나 소주제의 모든 변경사항을 한꺼번에 게시할 수도 있고, 개별적으로 게시할 수도 있다. 
 
-You can publish all changes in a section or subsection at once, or publish
-changes to individual units.  See:
+이에 대해서는 다음 링크에 자세히 안내되어 있다.
 
 * :ref:`Publish all Units in a Section`
 * :ref:`Publish all Units in a Subsection`
@@ -62,39 +55,28 @@ changes to individual units.  See:
 Content Hidden from Students
 *****************************
 
-You can hide content from students. Such content is never visible to students,
-regardless of the release and publishing status.
+학습자에게 감추기 설정을 이용하면, 공개나 게시 상태와 관계 없이 학습자가 콘텐츠를 볼 수 없다.
 
-You might hide a unit from students, for example, when that unit contains an
-answer to a problem in another unit of that subsection. After the problem's due
-date, you could make the unit with the answer visible.
+예를 들어, 소주제 내부에 문제에 대한 답을 포함하는 학습활동을 추가할 경우, 이 학습활동을 학습자에게 감춰야 할 필요가 있을 것이다. 그리하여 학습자가 문제를 풀 수 있는 기간이 지난 후, 공개할 수 있다. 
 
-You could also hide a unit from students if you wanted to use that unit to
-provide instructions or guidance meant only for course staff. Only course staff
-would see that unit in the course.
-
-You can hide content at different levels:
+이러한 방식으로 교수자 및 강좌 운영팀은 학습활동을 활용하면 된다. 
+감추기 설정에도 여러 수준이 있다. 
 
 * :ref:`Sections<Hide a Section from Students>`
 * :ref:`Subsections<Hide a Subsection from Students>`
 * :ref:`Units<Hide a Unit from Students>`
 
-.. warning::
- When you make a previously hidden section or subsection visible to students,
- not all content in the section or subsection is necessarily made visible to
- students. If you also explicitly set a child subsection or unit to be hidden
- from students, it remains hidden from students. Unpublished units remain
- unpublished, and changes to published units remain unpublished.
+.. 주의::
+ 이전에 감추었던 주제나 소주제를 공개한다해서, 게시한 적이 없는 학습활동까지 게시되는 것은 아니다.
+ 또한 게시했던 학습활동이라도 변경한 후 다시 게시하지 않는다면, 학습자는 변경 이전에 게시했던 버전의 학습활동을 볼 것이다. 
 
 .. _Content Groups:
 
 **************
-Content Groups
+콘텐츠 그룹
 **************
 
-If you have cohorts enabled in your course, you can use content groups to
-designate  particular components in your course as visible only to specific
-groups of students.
+강좌에 학습집단을 활성화하면, 특정 구성요소가 특정 학습자 집단에게만 보이게 할 수 있다.   
 
-For details, see :ref:`About Content Groups` and :ref:`Cohorted Courseware
-Overview`.
+:ref:`About Content Groups` and :ref:`Cohorted Courseware
+Overview` 에 이에 대한 더 자세한 안내가 있다.
