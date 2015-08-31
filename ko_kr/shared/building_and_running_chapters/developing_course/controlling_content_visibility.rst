@@ -1,43 +1,33 @@
 .. _Controlling Content Visibility:
 
 ###################################
-Controlling Content Visibility
+콘텐츠 공개 설정
 ###################################
 
-As course staff, you must carefully control which content is visible to
-students and when.
-
-You control content visibility through these features in Studio:
+강좌 운영팀은 어느 콘텐츠를, 언제 학습자에게 공개할 것인지 신중하게 결정해야 한다. 
+다음 설정이 콘텐츠 공개 설정과 관련되어 있다.
 
 * `Release Dates`_
 * `Unit Publishing Status`_
 * `Content Hidden from Students`_
 * `Content Groups`_
-  
-These features work together to control content visibility for students.
 
 .. _Release Dates:
 
 ***********************
-Release Dates
+공개일
 ***********************
 
-You schedule release dates for sections and subsections. By default, a
-subsection inherits the release date of the section it is in, though you can
-change it to another date.
+주제와 소주제의 공개일을 설정한다. 기본적으로 소주제의 공개일은 주제의 공개일과 같으며, 소주제의 공개일을 주제의 공개일과 다르게 설정할 수 있다.
 
-By defining release dates, you can ensure that content is available to students
-as planned without requiring manual intervention at that future time.
+공개일을 지정하면, 강좌 운영팀은 그 외 다른 설정을 더 할 필요가 없으며, 학습자가 공개일부터 바로 콘텐츠를 볼 수 있다.
 
-Published units are not visible to students until the scheduled release date.
-When the section and subsection have different release dates, published units
-are not visible until both dates have passed.
+공개일이 되기 전에는 학습자가 게시 상태인 학습활동을 볼 수 없다. 주제와 소주제의 공개일이 다른 경우, 각 공개일이 모두 지난 후에야 게시 상태의 학습활동을 볼 수 있다.
 
-Prior to the release date, content is visible to course staff
-:ref:`previewing the course <Preview Course Content>` or :ref:`viewing the live
-course as staff<View Your Live Course>`.
+한편 공개일이 되기 전이라도, 강좌 운영팀은 :ref:`previewing the course <Preview Course Content>` 나 :ref:`viewing the live
+course as staff<View Your Live Course>` 를 통해 콘텐츠를 볼 수 있다.
 
-See:
+공개일과 관련해 다음 링크에 더 자세히 안내되어 있다.
 
 * :ref:`Set a Section Release Date`
 * :ref:`Set a Subsection Release Date`
@@ -46,6 +36,7 @@ See:
 Unit Publishing Status
 ***********************
 
+학습활동을 게시하여 학습자가 
 You publish units to make them visible to students. Students see the last
 published version of a unit if the section and subsection it is in are
 released.
