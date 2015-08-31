@@ -146,7 +146,7 @@ unit in the ribbon at the top of the page.
 .. _Components that Contain Other Components:
 
 ******************************************
-Components that Contain Other Components
+다른 구성요소를 포함하는 구성요소
 ******************************************
 
 특별한 경우, 구성요소 속에 다른 구성요소를 넣을 수 있다.
@@ -203,37 +203,30 @@ Components that Contain Other Components
 
 구성요소가 초안이라면, 부모 구성요소에 자녀 구성요소를 추가할 수 있다.
 
-To add a child component, open and expand the parent component. Then click the
-component type that you want under **Add New Component** within the parent
-component.
+자녀 구성요소를 추가하려면, 부모 구성요소를 열어 펼친다. 이후 부모 구성요소 안에서, **신규 구성요소 추가** 아래에 있는, 원하는 구성요소 유형을 선택한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/AddNewComponent.png
   :alt: Image of adding a new component
 
-For more information, see the documentation for the specific component type
-that you want:
+구성요소와 관련해서 더 자세한 도움말은 아래에 있다.
 
 - :ref:`Working with Discussion Components`
 - :ref:`Working with HTML Components`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
 
-
 ======================================
-XML for Parent and Child Components
+XML 
 ======================================
 
-You develop parent and child components in XML, then import the XML course into
-Studio to verify that the structure is as you intended. 
+XML에서 부모와 자녀 구성요소를 만든 후, 그것을 Studio로 가져와서 구조가 원하는 대로 되어 있는지 확인한다.
 
-For more information about working with your course's XML files, including
-information about terminology, see the `edX XML Tutorial <http://edx.readthedoc
-s.org/projects/devdata/en/latest/course_data_formats/course_xml.html>`_.
+XML 파일 작업 및 용어에 대한 안내는 `edX XML Tutorial <http://edx.readthedoc
+s.org/projects/devdata/en/latest/course_data_formats/course_xml.html>`_ 에 있다.
 
-The following examples show the XML used to create the unit and components
-shown in Studio above.
+다음 예시는 XML로 학습활동과 구성요소를 만들고 가져왔을 때, Studio에서 어떻게 보이는지를 나타낸다.
 
-The XML for the unit is:
+학습활동의 XML은 아래와 같은데,
 
 .. code-block:: xml
 
