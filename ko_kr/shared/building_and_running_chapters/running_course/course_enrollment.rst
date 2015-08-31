@@ -1,7 +1,7 @@
 .. _Enrollment:
 
 ##########################
-Enrollment
+수강신청
 ##########################
 
 Course authors and instructors can enroll students in a course, see how many
@@ -30,7 +30,7 @@ information, see `Using edX Insights`_.
 .. _registration_enrollment:
 
 *********************************
-Registration and Enrollment
+가입과 수강신청
 *********************************
 
 Before a student can enroll in a course, he or she must:
@@ -56,7 +56,7 @@ activated user accounts and be enrolled in the course.
 .. _enroll_student:
 
 *********************************
-Enroll Students in a Course
+학습자 수강 등록 처리하기
 *********************************
 
 You enroll students, and other course staff members, in your course by
@@ -113,7 +113,7 @@ To enroll students or staff members:
 .. _view_enrollment_count:
 
 ***************************
-View an Enrollment Count
+전체 수강신청자 수 보기
 ***************************
 
 After you create a course, you can access the total number of people who are
@@ -150,7 +150,7 @@ course. See :ref:`Student Data`.
 .. _unenroll_student:
 
 *********************************
-Unenroll Students from a Course
+학습자 수강 등록 취소하기
 *********************************
 
 You can remove students from a course by unenrolling them. To prevent students
