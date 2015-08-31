@@ -52,7 +52,7 @@ course as staff<View Your Live Course>` 를 통해 콘텐츠를 볼 수 있다.
 .. _Content Hidden from Students:
 
 *****************************
-Content Hidden from Students
+학습자에게 콘텐츠 감추기
 *****************************
 
 학습자에게 감추기 설정을 이용하면, 공개나 게시 상태와 관계 없이 학습자가 콘텐츠를 볼 수 없다.
