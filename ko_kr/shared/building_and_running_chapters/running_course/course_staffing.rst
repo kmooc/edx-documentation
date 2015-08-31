@@ -1,88 +1,73 @@
 .. _Course_Staffing:
 
 ##########################
-Staffing
+강좌 운영팀 지정하기
 ##########################
 
-You can designate a team of people to help you run your course. Two roles are
-available to give your administrative team members access to different options
-for working with students, grades, and other members of the staff.
+강좌 운영을 도와 줄 운영팀을 구성할 수 있다. 학생, 성적, 다른 관리를 위해 운영 팀원에게 두 가지 다른 역할을 부여할 수 있다. 
 
-* Course Staff
+* 강좌 운영자
 
-* Instructors
+* 교수자
 
-You can assign these privileged roles when you work in either the LMS or in
-Studio, and the users who have these roles can work on your course in both the
-LMS and Studio. For more information on setting up a team in Studio, see
-:ref:`Add Course Team Members`.
+이 권한 부여는 학습관리시스템 또는 스튜디오에서 가능하며, 운영자 권한을 받으면 학습관리시스템이나 스튜디오에서 작업할 수 있다. 스튜디오에서 팀을 구성하기 위한 정보는 :ref:`Add Course Team Members` 를 확인한다. 
 
-.. note:: The LMS "Course Staff" role is the same as the Studio "Staff" role, and the LMS "Instructors" role is the same as the Studio "Admin" role.
+.. note:: 학습관리시스템의 강좌 운영팀 역할은 스튜디오 개발팀의 역할과 같고, 학습관리시스템 교수자와 스튜디오 관리자의 역할이 같다.
 
-You can also designate teams of people to beta test your course and to
-moderate and manage its discussions by assigning other LMS roles. The beta
-testers and discussion administrators must be enrolled in your course, but
-they do not need to have the Course Staff or Instructors role or a Studio
-role. For more information, see :ref:`Beta_Testing` and
-:ref:`Assigning_discussion_roles`.
+강좌의 베타 테스트를 위한 팀을 구성할 수 있고 다른 학습관리시스템에서의 역할을 정하고 강좌의 게시판을 관리할 수 있다. 베타 테스터와 게시판 관리자들은 반드시 강좌에 등록해야 하지만, 강좌 운영팀 혹은 교수자 역할, 혹은 스튜디오에서의 역할을 맡을 필요는 없다. 더 정보를 위해 :ref:`Beta_Testing` 및 :ref:`Assigning_discussion_roles` 참고한다. 
+
 
 ****************************
-Administrative Team Roles
+운영팀의 역할
 ****************************
 
-To provide access to features on the LMS Instructor Dashboard you assign the
-Course Staff role or the Instructors role.
+학습관리시스템에서 교수자 대시보드에 접근하기 위해 강좌 운영팀 역할 또는 교수자 역할을 부여할 수 있다. 
 
-**Course Staff** can: 
+**강좌 운영팀은** 다음을 할 수 있다: 
 
-* View the course before the Course Start Date. 
+* 강좌 시작 전에 강좌 보기. 
 
-* Enroll and unenroll students.
+* 학습자의 수강등록하거나 등록 취소.
 
-* Access student grades.
+* 학습자 성적 접근.
 
-* Reset student attempts to answer a question correctly.
+* 올바르게 답할 때까지 학습자가 시도해볼 수 있는 횟수 초기화.
 
-* See course HTML errors.
+* 강좌 HTML 오류 살펴보기.
 
-* Send email messages to course participants.
+* 강좌 참여자에게 이메일 메세지 보내기.
 
-**Instructors** have access to all of the same options for running the course as the course staff. They can also:
+**교수자** 는 강좌 운영자가 강좌를 운영하는데 필요한 옵션과 동일하게 이용할 수 있다. 
 
-* Add and remove Course Staff.
+* 강좌 운영팀 추가와 삭제하기.
 
-* Add and remove other Instructors.
+* 다른 교수자 추가와 삭제하기.
 
-* Add and remove Beta Testers.
+* 베타테스터의 추가와 삭제하기.
 
-* Add and remove Discussion Admins, Discussion Moderators, and Discussion
-  Community TAs.
+* 게시판 관리자, 진행자, 커뮤니티 조교 추가와 삭제하기.
 
 .. 12 Feb 14 Sarina: This all sounds right but there are other tasks (rescoring, etc) not mentioned. Probably worth nailing down what tasks can and cannot be done by a course staff.
 
 **********************
-Assign Staff Roles 
+운영자 역할 부여하기
 **********************
 
-Before you can assign the Course Staff or Instructors role to a team member:
+강좌 운영팀 혹은 교수자 역할로 부여하기 전에:
 
-* You need the email address or username of each team member. 
+* 팀원의 이메일 주소 혹은 사용자명이 필요하다.
 
-* Each team member must register a user account for that email
-  address/username, activate the account, and enroll in your course.
+* 각 운영팀원은 해당 이메일 주소/이름에 대한 사용자 계정에 등록해야하고, 계정을 활성화하며, 강좌에 수강등록해야 한다. 
 
-To assign a staff role:
+운영자 연할 부여하기 위해:
 
-#. View the live version of your course.
+#. 강좌의 적용결과 보기.
 
-#. Click **Instructor**, then click **Membership**.
+#. **교수자** 를 클릭하고, **Membership** 를 클릭한다.
 
-#. In the **Administration List Management** section, use the drop-down list to
-   select **Course Staff** or **Instructors**.
+#. **관리자 목록 관리** 에서 강좌 관리자 또는 교수자를 선택하기 위한 목록 드롭다운을 이용한다. 
+  
+#. 해당 역할을 맡고 있는 사용자 목록에서 이메일 주소 혹은 사용자명을 입력하고, 역할 유형에서 **Add** 를 클릭한다. 
 
-#. Under the list of users who currently have that role, enter an email
-   address or username and click **Add** for the role type.
-
-To remove an assigned role, view the list of users and then click **Revoke
-access**.
+맡긴 역할을 삭제하기 위해, 사용자 목록을 보고 **Revoke access** 를 클릭한다. 
 
