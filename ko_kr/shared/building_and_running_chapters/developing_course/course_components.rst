@@ -1,10 +1,10 @@
 .. _Developing Course Components:
 
 ###################################
-Developing Course Components
+구성요소
 ###################################
 
-This chapter describes how you develop course components. See:
+학습활동을 만들기 전에, 우선 다음 사항을 이해해야 한다.
 
 * `What is a Component`_
 * `Add a Component`_
@@ -13,7 +13,7 @@ This chapter describes how you develop course components. See:
 * `Delete a Component`_
 * `Components that Contain Other Components`_
 
-For more information about specific component types, see:
+구성요소의 종류에 대한 더 자세한 안내는 아래 링크에 있다.
 
 * :ref:`Creating Course Content Index`
 * :ref:`Exercises and Tools Index`
@@ -21,135 +21,127 @@ For more information about specific component types, see:
 .. _What is a Component:
 
 ********************
-What is a Component?
+구성요소란?
 ********************
 
-A component is the part of a unit that contains your actual course content. A
-unit can contain one or more components.
+구성요소는 학습활동의 부분으로, 실제 강좌 콘텐츠라고 볼 수 있다. 1개의 학습활동은 1개 이상의 구성요소를 포함할 수 있다.
 
+학습자는 학습활동에 있는 모든 구성요소명을 볼 수 있다.
 A student can view the name of all components in a unit by hovering over the
 unit in the ribbon at the top of the page.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ComponentNames_CourseRibbon.png
  :alt: Image of the component list for a unit
 
-By default, Studio includes four types of components.
+기본적으로, Studio에는 다음 구성요소가 있다.
 
-* **Discussion components** provide discussion spaces in the body of your
-  course. Students can explore ideas about a lesson with their peers in a
-  discussion space.
-* **HTML components** allow you to add text, images, and some types of learning
-  tools to your course. Content in HTML components is formatted as HTML.
-* **Problem components** enable you to add many different types of exercises
-  and problems to you course, from simple multiple choice problems to complex
-  circuit schematic exercises.
-* **Video components** contain the videos that you want to include in your
-  course.
+* **게시판** 은 학습자들이 토의를 할 수 있는 구성요소다. 
+  학습자는 여기서 주제에 관한 아이디어를 다른 학습자와 공유할 수 있다.
+  
+* **HTML** 은 텍스트, 이미지 등 학습 도구를 강좌에 추가할 수 있는 구성요소다.
+  HTML에 콘텐츠를 입력하려면 HTML을 사용해야 한다.
+  
+* **문제** 는 다양한 유형의 연습과 문제를 강좌에 추가할 수 있는 구성요소다.
+  유형은 선다형 문제부터 회로 문제까지 다양하게 있다.
+  
+* **동영상** 은 강좌에 학습에 유용한 동영상을 추가할 수 있는 구성요소다.
+  
 
 .. _Add a Component:
 
 ********************
-Add a Component
+구성요소 추가하기
 ********************
 
-To add a component to the unit, click the component type that you want under
-**Add New Component**.
+강좌개요에서 **+새로운 학습활동**을 클릭한 후, 
+바뀐 페이지의 **신규 구성요소 추가** 에서 원하는 구성요소 유형을 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/AddNewComponent.png
   :alt: Image of adding a new component
 
-For more information, see the documentation for the specific component type
-that you want:
+각 구성요소에 대한 상세한 도움말을 다음에서 확인할 수 있다.
 
 - :ref:`Working with Discussion Components`
 - :ref:`Working with HTML Components`
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
   
-After you add a component, it is not visible to students until you
-:ref:`publish the unit<Publish a Unit>`.
+구성요소를 추가한 후, :ref:`publish the unit<Publish a Unit>` 작업이 이루어져야 학습자가 이를 볼 수 있다.
 
 .. _Edit a Component:
 
 ********************
-Edit a Component
+구성요소 편집하기
 ********************
 
-To edit a component, click **Edit**:
+구성요소를 편집하려면, **편집** 을 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-edit.png
   :alt: Image of a unit with Edit icon circled
 
-Then follow instructions for the type of component you are editing.
+편집하려는 구성요소에 나오는 안내에 따라, 편집을 시작하면 된다.
 
-After you edit a component, the changes are not visible to students until you
-:ref:`publish the unit<Publish a Unit>`.
+구성요소를 편집한 후, :ref:`publish the unit<Publish a Unit>` 를 하지 않으면 학습자가 변경사항을 볼 수 없다는 것에 유의한다.
 
 =====================================
-Set the Display Name for a Component
+구성요소 메뉴명 설정하기
 =====================================
 
-Each component has a display name that shows in the component header when you
-can edit the component. The display name also shows to students when they hover
-the cursor over the unit icon in the course ribbon.
+상단에 가로로 나타나는 구성요소 페이지의 명칭을 설정할 수 있다.
+이 이름은 학습자가 course ribbob의 아이콘에 마우스 커서를 올릴 때에도 나타난다.
 
-To set the display name for a component:
+구성요소 메뉴명을 설정하려면,
 
-#. Edit the component.
-#. Click **Settings**.
-#. Edit the **Display Name** field.
+#. 구성요소 영역에서 **편집** 을 클릭한다.
+#. **설정** 을 클릭한다.
+#. **메뉴명** 에 이름을 입력한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/display-name.png
    :alt: Image of the Display Name field for a component.
 
-4. Click **Save**.
+4. **저장** 을 클릭한다.
 
-Different types of components have different fields in the Settings dialog box,
-but all have the **Display Name** field.
+구성요소의 유형별로 설정 대화상자가 다르지만, 모든 대화상자에 **메뉴명** 영역이 있다.
 
 .. _Duplicate a Component:
 
 **********************
-Duplicate a Component
+구성요소 복사하기
 **********************
 
-When you duplicate a component, a new copy of that component is added directly
-beneath the first component. You can then modify the duplicate. In many cases,
-duplicating a component and editing a copy is a faster way to create new
-content.
+구성요소를 복사하면, 구성요소 사본이 첫 번째 구성요소 바로 아래에 추가된다.
+그러면 그 사본을 수정할 수 있다. 대부분의 경우, 구성요소를 복사하여 사본을 편집하는 것이 신규 구성요소를 만드는 것 보다 빠르다.
 
-To duplicate a component, click the Duplicate icon in the component header:
+구성요소를 복사하려면, 구성요소 영역의 오른쪽 상단에서 복사 아이콘을 클릭하면 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-dup.png
   :alt: Image of a unit with Duplicate icon circled
 
-Then follow instructions for the type of component you are editing.
+그후 편집중인 구성요소의 안내를 따라 진행한다.
 
-After you duplicate a component, the new component is not visible to students
-until you :ref:`publish the unit<Publish a Unit>`.
+구성요소를 복사해서 만든 구성요소는 :ref:`publish the unit<Publish a Unit>` 후에 학습자에게 공개될 수 있다.
 
-.. note::  You cannot duplicate a content experiment.
+.. 참고::  콘텐츠 실험은 복사할 수 없다.
 
 .. _Delete a Component:
 
 **********************
-Delete a Component
+구성요소 삭제하기
 **********************
 
-.. caution:: 
- Be sure you want to delete the component. You can not undo the deletion.
+.. 주의:: 
+  구성요소를 삭제할 것인지 다시 확인해보길 권한다. 삭제 후에는 되돌릴 수 없기 때문이다.
 
-To delete a component:
+구성요소를 삭제하려면,
 
-#. Click the Delete icon in the component header:
+#. 구성요소 영역의 오른쪽 상단에서 삭제 아이콘을 클릭하면 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-delete.png
   :alt: Image of a unit with Delete icon circled
 
-2. When you receive the confirmation prompt, click **Yes, delete this
-   component**.
+2. 삭제 여부를 확인하는 대화상자가 뜨면, **네, 구성요소를 삭제합니다.**를 클릭한다.
 
-After you delete a component, the component remians visible to students until you :ref:`publish the unit<Publish a Unit>`.
+구성요소를 삭제하더라도, :ref:`publish the unit<Publish a Unit>` 하기 전에는 학습자가 볼 수 있다는 것에 유의한다.
 
 .. _Components that Contain Other Components:
 
@@ -157,56 +149,48 @@ After you delete a component, the component remians visible to students until yo
 Components that Contain Other Components
 ******************************************
 
-For specific use cases, you configure course content so that components contain
-other components.  For example, if you want to include conditional components
-or content experiments, you have to create components inside components. See
-:ref:`Creating Content Experiments` for more information.
+특별한 경우, 구성요소 속에 다른 구성요소를 넣을 수 있다.
+예를 들어 콘텐츠 실험 등을 포함할 경우로, 구성요소 속에 다른 구성요소를 만들어야 한다.
+이에 관해선 :ref:`Creating Content Experiments` 에 더 자세한 안내가 있다. 
 
-The component that contains other components is referred to as the *parent*;
-the contained components are referred to as *children*.
+이렇게 다른 구성요소를 포함하는 구성요소를 *부모* 라고 부르고,
+포함된 구성요소를 *자녀* 라고 부른다.
 
-In the unit page, a parent component appears with the display name and a
-**View** link. For example:
+학습활동 페이지에서, 부모 구성요소가 **보기** 링크와 함께 나타난다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/component_container.png
  :alt: Image of a unit page with a parent component
 
 
 ==================================================
-Edit a Parent Component
+부모 구성요소 편집하기
 ==================================================
 
-A parent component does not directly contain content. Content such as HTML,
-videos, or problems are in the child components.
+부모 구성요소는 콘텐츠를 직접 포함하지 않는다. 자녀 구성요소에 HTML, 동영상, 문제 등의 콘텐츠가 포함된다.
 
-A parent component has a display name. When the unit is private or in draft,
-click **Edit** in the parent component to change the display name.
+부모 구성요소는 메뉴명을 가진다. 학습활동이 아직 게시되지 않은 상태일 때, 부모 구성요소의 **설정**을 클릭하면 
+메뉴명을 바꿀 수 있다. 
 
-.. note:: 
-  Parent components of a specific type, such as content experiments, have
-  additional attributes that you edit.
-
+.. 참고:: 
+  콘텐츠 실험 등 특수한 유형의 부모 구성요소는 편집 방식이 조금 다를 수 있다.
+  
 
 ======================================
-View Child Components
+자녀 구성요소 편집하기
 ======================================
 
-When you click **View** in the parent component, the parent component page
-opens, showing all child components. In this example, Child Component A
-contains an HTML component and a video:
+부모 구성요소의 **보기**를 클릭하면, 모든 자녀 구성요소를 볼 수 있다.
+다음 예시에서, 자녀 구성요소 A가 HTMK과 동영상을 포함하고 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/child-components-a.png
  :alt: Image of an expanded child component
 
-Click the arrow next to a child component name to collapse it and hide the
-component's contents:
+자녀 구성요소명 옆의 화살표를 클릭하면 구성요소의 콘텐츠를 접거나 펼 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/child-components.png
  :alt: Image of a child component page
 
-Click the arrow again to expand the component.
-
-See:
+구성요소와 관련된 작업은 아래 링크에 있다.
 
 * `Edit a Component`_
 * `Set the Display Name for a Component`_
@@ -214,11 +198,10 @@ See:
 * `Delete a Component`_
 
 ======================================
-Add a Child Component
+자녀 구성요소 추가하기
 ======================================
 
-If the containing unit is private or in draft, you can add a child component in
-its parent component.
+구성요소가 초안이라면, 부모 구성요소에 자녀 구성요소를 추가할 수 있다.
 
 To add a child component, open and expand the parent component. Then click the
 component type that you want under **Add New Component** within the parent
