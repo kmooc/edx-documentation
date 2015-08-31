@@ -1,80 +1,67 @@
 .. _Testing Your Course Content:
 
 ###########################
-Testing Your Course Content
+강좌 콘텐츠 시험해보기
 ###########################
 
-The way your course looks in Studio is not the way that students will see and
-experience it when it is live. 
+교수자 및 강좌 운영팀은 개강 이후 강좌가 진행되는 동안, 추가할 콘텐츠를 적용했을 때의 결과를 시험해볼 수 있다. 
 
-It is recommended that you test your content continually as you build your
-course, so you can interact with your course from a student's point of view.
+강좌를 만들 때, 학습자 입장에서 콘텐츠 이용이 편리하고 유익할 수 있도록 이 기능을 사용할 것을 권장한다.
 
-To test your content, you can:
+콘텐츠를 시험해보는 방법으로, 
 
-* `Preview Course Content`_
-* `View Your Live Course`_
 
-.. note:: If you use content groups in your course to designate content as
-  visible only to particular students, see :ref:`Preview Cohort Specific
-  Courseware`.
+* `Preview Course Content`_ 또는,
+* `View Your Live Course`_  를 할 수 있다.
 
-For information about setting up a beta test for your course, see
-:ref:`Beta_Testing`.
+.. 참고:: 콘텐츠 그룹을 만들어 특정 콘텐츠를 특정 학습자들만 볼 수 있게 하려면, :ref:`Preview Cohort Specific
+  Courseware` 를 살펴보는 것이 좋다.
+
+강좌 베타 테스트에 관해서는
+:ref:`Beta_Testing` 에 안내되어 있다.
 
 .. _Preview Course Content:
 
 *************************
-Preview Course Content
+강좌 콘텐츠 미리보기
 *************************
 
-You preview course content before you publish it to test how it will look to
-students.
- 
-When you preview course content, you see the latest course content as configured
-in Studio. You see content in units with the publishing status :ref:`Draft
-(Never Published)`, :ref:`Draft (Unpublished Changes)`, or :ref:`Visible to
-Staff Only`. 
+강좌 콘텐츠를 게시하기 전에, 이것이 학습자에게 어떻게 보이는지를 미리 볼 수 있다. 
 
-If you use content groups and have designated components in a unit as visible
-only to particular groups, the visibility status indicates that some content in
-the unit is visible only to particular groups. For information about previewing
-course content if you use content groups to designate content as visible only to
-particular groups, see :ref:`Preview Cohort Specific Courseware`.
+이때, 강좌 운영팀만이 Studio에서 가장 최근에 만들어진 강좌 콘텐츠를 보게 된다.
+:ref:`Draft
+(Never Published)`, :ref:`Draft (Unpublished Changes)`, 또는 :ref:`Visible to
+Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
 
-For example, you :ref:`publish a unit<Publish a Unit>` with a video and
-discussion:
+예를 들어, :ref:`publish a unit<Publish a Unit>` 를 하는데, 이 학습활동에 동영상과 게시판이 포함되어 있는 경우
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-studio.png
  :alt: A unit in Studio with a video and discussion
 
-Students see the same content in the LMS:
+학습자는 학습 관리 시스템에서 다음과 같이 콘텐츠를 보게 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-lms.png
  :alt: A unit in the LMS with a video and discussion
 
-You later decide to add a multiple choice problem to the unit, before the
-discussion:
+이후 강좌 운영팀이 학습활동에 선다형 문제를 추가할 경우 다음과 같이 변경되지만,
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-studio-added-comp.png
  :alt: A unit in Studio with a video, problem, and discussion
 
-Before you publish this change, you can see what the question will look to
-students.
+이렇게 변경된 학습활동을 게시하지 않으면, 이것이 학습자에게 어떻게 보일지 강좌 운영팀이 미리 볼 수 있다.
 
-When you click **Preview Changes**,  you see the unit in the LMS with
-the multiple choice question:
+ **변경사항 미리보기** 를 클릭하여, 이것이 적용될 학습활동을 다음과 같이 미리볼 수 있는 것이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-lms-added-comp.png
  :alt: A unit in the LMS with a video, problem, and discussion
 
-This preview shows how students will experience the unit after you
-:ref:`publish the change<Publish a Unit>`.
+이는 :ref:`publish the change<Publish a Unit>` 후, 학습자가 보게 될 화면이다. 
 
-In the live course, students continue to see the same content, without the
-multiple choice question, until you :ref:`publish the change<Publish a Unit>`.
+진행중인 강좌에서는, :ref:`publish the change<Publish a Unit>` 전까지는 학습자가 선다형 문제가 추가되기 전의 콘텐츠를 보게 될 것이다. 
 
-.. note:: 
+한편, 콘텐츠 그룹을 만들 경우 특정 콘텐츠를 특정 학습자들만 볼 수 있게 할 수 있다. 이때 강좌가 어떻게 보이는지를 미리보는 방법은 :ref:`Preview Cohort Specific Courseware` 에 안내되어 있다.
+
+.. 참고:: 
   **Preview Changes** in not available when the unit's state is :ref:`Published
   and Live`, because in this case the preview and live version are exactly the
   same. You can view the live course to see the published content.
