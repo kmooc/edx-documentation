@@ -330,169 +330,146 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 .. _Publish a Unit:
 
 ****************************
-Publish a Unit
+학습활동 게시하기
 ****************************
 
-Publishing a unit makes the current version of the unit in Studio available to
-students, if the release date for the section and subsection have passed.
+학습활동을 게시하는 것은, 주제와 소주제의 공개일이 지나면 Studio에 있는 현재 버전을 학습자가 볼 수 있게 한다는 의미다.
 
-You publish a unit that has a status of `Draft (Never Published)`_ or `Draft
-(Unpublished Changes)`_. When you publish a unit, the status changes to
-`Published and Live`_ or `Published Not Yet Released`_.
+게시할 대상은 `초안 (게시된 적 없음)`_ 또는 `학습활동이 변경됨`_ 상태의 학습활동이다. 이러한 상태의 학습활동을 게시하면 `공개됨`_ 또는 `아직 공개되지 않음`_  상태가 된다.
 
-You can publish a unit from the unit page or the course outline.
+학습활동 페이지나 강좌 개요에서 학습활동을 게시할 수 있다.
 
 =======================================
-Use the Unit Page to Publish a Unit
+학습활동 페이지에서 게시하기
 =======================================
 
-To publish the unit, click **Publish** in the status panel:
+학습활동을 게시하려면, 화면 왼쪽에서 **게시** 버튼을 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-publish-button.png
  :alt: Unit status panel with Publish button circled
 
-
 =======================================
-Use the Outline to Publish a Unit
+강좌 개요에서 학습활동 게시하기
 =======================================
 
-To publish a unit from the outline, click the publish icon in the box for the
-unit:
+강좌개요에서 학습활동을 게시하려면, 학습활동 영역에서 게시 아이콘을 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-publish-icon-unit.png
  :alt: Publishing icon for a unit
 
-.. note:: 
- The publish icon only appears when there is new or changed content in the
- unit.
+.. 참고:: 
+게시 아이콘은 새로 추가되거나 변경된 콘텐츠가 있을 때에만 나타난다. 
 
 .. _Discard Changes to a Unit:
 
 ****************************
-Discard Changes to a Unit
+학습활동 변경 취소하기
 ****************************
 
-When you modify a published unit, your changes are saved in Studio, though the
-changes aren't visible to students until you publish the unit again.
+게시된 학습활동을 변경하면 변경사항이 Studio에 저장된다. 그러나 게시하지 않는 한, 학습자가 이를 볼 수는 없다.
 
-In certain situations, you may decide that you never want to publish your
-changes. You can discard the changes so that Studio reverts to the last
-published version of the unit.
+그런데, 이러한 변경을 취소해서 Studio에 가장 최근에 게시된 학습활동이 나오도록 할 수 있다. 
 
-To discard changes and revert the Studio version of the unit to the last
-published version, click **Discard Changes** in the status panel:
+이를 원한다면, **변경 취소하기** 를 클릭하면 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-discard-changes.png
  :alt: Unit status panel with Discard Changes circled
 
-.. caution::
- When you discard changes to a unit, the changes are permanently deleted. You
- cannot retrieve discarded changes or undo the action.
-
+.. 주의::
+학습활동 변경을 취소하면, 변경사항이 영구적으로 삭제된다. 삭제된 변경사항을 되돌릴 수 없음에 주의한다.
 
 .. _View a Published Unit:
 
 ****************************
-View a Published Unit
+게시된 학습활동 보기 
 ****************************
 
-To view the last published version of a unit in the LMS, click **View Published
-Version**.
+가장 최근에 학습 관리 시스템에 게시된 학습활동을 보려면, 
+**적용 결과 보기** 를 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit_view_live_button.png
  :alt: Unit page with View Published Version button circled
 
-The unit page opens in the LMS in Staff view. You may be prompted to log in to
-the LMS.
+그러면 학습 관리 시스템에서 학습활동을 볼 수 있다. 이를 위해 학습 관리 시스템에서 다시 로그인해야 할 수 있다.
 
-If the unit status is `Draft (Unpublished Changes)`_, you do not see your
-changes in the LMS until you publish the unit again.
+`학습활동이 변경됨`_ 상태의 학습활동은 게시해야만 학습 관리 시스템에서 볼 수 있다.
 
-If the unit status is `Draft (Never Published)`_, the **View Published
-Version** button is not enabled.
+학습활동의 상태가 `초안 (게시된 적 없음)`_ 인 경우,  **적용 결과 보기** 버튼이 활성화되지 않는다.
 
 .. _Hide a Unit from Students:
 
 ****************************
-Hide a Unit from Students
+학습활동 감추기
 ****************************
 
-You can prevent students from seeing a unit regardless of the unit status or
-the release schedules of the section and subsection. 
+주제와 소주제의 공개일과 학습활동의 공개 상태와 관계 없이, 소주제 내부의 전체 콘텐츠를 감출 수 있다.
 
-For more information, see :ref:`Controlling Content Visibility`.
+:ref:`Controlling Content Visibility` 에 더 자세한 안내가 있다.
 
-You can hide a unit from students using the course outline or the unit page.
+강좌 개요나 학습활동 페이지에서 학습활동을 감출 수 있다. 
 
 =======================================
-Use the Unit Page to Hide a Unit
+학습활동 페이지에서 학습활동을 감추기
 =======================================
 
-Select the **Hide from students** checkbox in the status panel:
+**학습자에게 감추기** 의 체크박스를 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-hide.png
  :alt: Unit status panel with Hide from Students checked
 
-For more information, see :ref:`Controlling Content Visibility`.
+:ref:`Controlling Content Visibility` 에 더 자세한 안내가 있다.
 
 =======================================
-Use the Outline to Hide a Unit
+강좌개요 페이지에서 학습활동을 감추기
 =======================================
 
-#. Click the Settings icon in the unit box:
+#. 학습활동 영역에서 설정 아이콘을 클릭한다.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/outline-unit-settings.png
     :alt: The unit settings icon circled
 
    The **Settings** dialog box opens.
 
-#. Check **Hide from students**.
+#. **학습자에게 감추기** 의 체크박스를 클릭한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/outline-unit-settings-dialog.png
     :alt: The unit hide from students setting
 
-#. Click **Save**.
+#. **저장** 을 클릭한다.
 
 =======================================
-Make a Hidden Unit Visible to Students
+감추었던 학습활동 공개하기
 =======================================
 
-Before you make a hidden unit visible to students, be aware that course content
-will immediately be visible to students, as follows:
+감췄던 학습활동을 학습자에게 공개하기 전에, 다음 사항을 주의해야 한다.
 
-* For a hidden unit that previously was published, clearing the check box
-  publishes the current content for the unit. If you made changes to the unit
-  while is was hidden, those draft changes are published.
+* 이전에 게시 상태였던 학습활동은, 체크박스를 해제하면 바로 콘텐츠가 학습자에게 공개된다.
+감춰진 동안 학습활동에 변경사항이 있다면, 변경된 학습활동이 게시된다.
+ 
+* 이전에 감췄던 주제나 소주제를 학습자에게 공개한다해서, 게시한 적이 없는 학습활동까지 *게시되는 것은 아니다.* 
+게시중이었던 학습활동이라면, 마지막으로 게시했던 학습활동이 공개된다. 
 
-* When you make a section or subsection that was previously hidden visible to
-  students, draft content in units is *not* published. Changes you made since
-  last publishing units are not made visible to students.
+감추었던 학습활동을 공개하려면, 학습활동 영역에서 설정 아이콘을 클릭한 후, **학습자에게 감추기** 의 체크박스를 해제한다.
 
-You can make a hidden unit visible to students from the unit page or the course
-outline. Follow the instructions above and clear the **Hide from students**
-checkbox.
-
-You are prompted to confirm that you want to make the unit visible to students.
+그러면 공개 여부를 다시 확인하는 대화상자가 뜰 것이다.
 
 ********************************
-Delete a Unit
+학습활동 삭제하기
 ********************************
 
-You delete a unit from the course outline.
+강좌개요에서 학습활동을 삭제할 수 있다.
 
-When you delete a unit, you delete all components within the unit.
+학습활동을 삭제하면, 학습활동에 포함된 모든 구성요소들이 삭제된다는 것에 유의해야 한다.
 
-.. warning::  
- You cannot restore course content after you delete it. To ensure you do not
- delete content you may need later, you can move any unused content to a
- section in you
+.. 주의::  
+ 삭제 후에는 콘텐츠를 복구할 수 없다. 나중에 필요할 수도 있다고 생각되는 콘텐츠는 삭제하지 말고, 
+ 비공개 주제에 옮겨두는 것을 권장한다. 
 
-To delete a unit:
+학습활동을 삭제하려면:
 
-#. Click the delete icon in the box for the unit you want to delete:
+#. 삭제하고 싶은 학습활동 영역에서 삭제 아이콘을 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/section-delete.png
  :alt: The section with Delete icon circled
 
-2. When you receive the confirmation prompt, click **Yes, delete this
-   unit**.
+2. 삭제를 확인하는 대화상자가 뜨면, **네, 학습활동을 삭제합니다.** 를 클릭한다.
