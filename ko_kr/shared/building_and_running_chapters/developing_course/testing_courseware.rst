@@ -62,131 +62,114 @@ Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
 한편, 콘텐츠 그룹을 만들 경우 특정 콘텐츠를 특정 학습자들만 볼 수 있게 할 수 있다. 이때 강좌가 어떻게 보이는지를 미리보는 방법은 :ref:`Preview Cohort Specific Courseware` 에 안내되어 있다.
 
 .. 참고:: 
-  **Preview Changes** in not available when the unit's state is :ref:`Published
-  and Live`, because in this case the preview and live version are exactly the
-  same. You can view the live course to see the published content.
+  학습활동의 상태가 :ref:`Published
+  and Live 일 때,  **변경사항 미리보기** 가 되지 않는다. 왜냐하면 이미 게시되어 공개되었기 때문에
+  강좌 운영팀이 학습자보다 먼저 보는 것이 아니기 때문이다.
 
- 
 .. _View Your Live Course:
 
 ******************************************
-View Your Live Course
+적용 결과 보기
 ******************************************
 
-When you are working in Studio, you can test your course by viewing it in the
-LMS. In the LMS, you can see your course as a student sees it. You can see your
-course in `Staff View`_ or `Student View`_. If you are using content groups to
-designate specific content as visible only to particular content groups, you can
-see your course as a content group would see it.
+강좌 운영팀이 Studio에서 작업한 것이, 학습자가 보게 될 학생 관리 시스템에서 어떻게 나타날지 알아볼 수 있다.
+또한 학생 관리 시스템에서도 `운영팀 보기`_ 나 `학습자 보기`_ 로 권한을 바꾸면서 화면을 달리볼 수 있다.
+특정 콘텐츠 그룹만 특정 콘텐츠를 볼 수 있도록 한다면, 해당 그룹이 보게 될 화면을 볼 수도 있다.
 
-While you work in Studio, you can switch to your live course to see how your
-course appears to students in two ways.
+이 기능을 이용해 학습자가 보게 될 화면과 비교하며 Studio에서 작업하면 편리할 것이다.
+이 기능을 이용하려면,
 
-* From the outline page, click **View Live**.
+* 강좌 개요에서 **적용 결과 보기** 를 클릭하거나,
    
   .. image:: ../../../shared/building_and_running_chapters/Images/test-outline-view-live.png
    :alt: View live button on the outline
 
-* In a unit page, click **View Live Version**.
+* 학습 활동 페이지에서 **적용 결과 보기** 를 클릭하면 된다.
    
   .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-view-live.png
    :alt: View Live Version button on the unit page
 
 =================
-Staff View
+운영팀 보기
 =================
 
-You see the course in the **Staff View**.
+강좌를 **운영팀 보기** 권한으로 보려면, 다음 그림에서 동그라미 표시된 곳에서 **운영팀** 을 선택하면 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Live_Course_Staff_View.png
  :alt: Image of the Courseware page in a live course with Staff View indicated
      at top right and a View Unit in Studio button
  
-In **Staff View**:
+**운영팀 보기** 권한으로
 
-* You see all units that are :ref:`Published and Live`. For units that are
-  :ref:`Draft (Unpublished Changes)` or :ref:`Visible to Staff Only`, you
-  see the last published version of the unit. You see these units
-  regardless of the release dates of the containing section or subsection.
+* :ref:`Published and Live` 상태의 모든 학습활동을 볼 수 있다. 
+  :ref:`Draft (Unpublished Changes)` 또는 :ref:`Visible to Staff Only` 상태의 학습활동은
+  가장 최근에 게시된 버전을 볼 수 있다. 
+  또한 주제와 소주제의 공개일에 관계 없이, 이러한 학습활동을 볼 수 있다.
+  
+* :ref:`Draft (Never Published)` 상태의 학습활동은 볼 수 없다.
+  이 학습활동을 보려면, :ref:`Preview
+  Course Content` 에서 안내된 방법에 따라 미리보기 모드에서 볼 수 있다.
+ 
+* :ref:`run your course<Running Your Course Index>` 를 지원하는 교수자 대시보드를 이용할 수 있다. 
 
-* You do not see units that are :ref:`Draft (Never Published)`. To
-  see these units, you must use Preview mode as described in :ref:`Preview
-  Course Content`.
-
-* You can access the Instructor Dashboard, which has features and reports that
-  help you :ref:`run your course<Running Your Course Index>`.
-
-When you view your course in **Staff View**, you can execute tests to make sure
-that your course works the way you intend. For example,  before the release
-date of a subsection, members of the course team can work through the problems
-to verify that the correct answer gets a green check for correct, and that any
-answer other than the correct one gets a red X for incorrect.
+**운영팀 보기** 권한으로 강좌를 보면, 의도했던 대로 강좌가 만들어지고 진행되는지 시험해볼 수 있다.
+예를 들어, 소주제의 공개일 전에, 강좌 운영팀이 문제를 풀어보며 정답을 택했을 때 초록색 체크 표시가 나타나는지,
+오답을 택했을 때 빨간색 X 표시가 나타나는지 확인해볼 수 있는 것이다.
 
 ============
-Student View
+학습자 보기
 ============
 
-When viewing your course in the LMS, you can use the **Student** view to see the
-course with all course content that is intended for all students.
-
-.. note:: If you have enabled your course for cohorts and have designated some
-  content as visible only to certain content groups, you can select a content
-  group from the **View Course As** drop down list to see the content exactly
-  as a student in a cohort associated with that content group will see it. For
-  details, see :ref:`Preview Cohort Specific Courseware`.
-
-To switch to the **Student** view, click **View this course as** and select
-**Student** from the drop down list.
+학습자 관리 시스템에서 보기 권한을 **학습자** 로 선택하면, 학습자가 보는 것과 같이 전체 강좌 콘텐츠를 볼 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-view-as-student.png  
    :alt: Image of the View Course As drop down list with Staff, Student, and named content group options
 
-In **Student View**:
+.. 참고:: 학습집단을 활성화하고, 특정 콘텐츠를 특정 콘텐츠 그룹에게만 공개한다면
+  학습자 관리 시스템에서 보기 권한을 해당 콘텐츠 그룹으로 선택하면 된다.
+  이에 관해 :ref:`Preview Cohort Specific Courseware` 에 더 자세한 안내가 있다.
+ 
 
-* You do not see sections or subsections that have not yet been released.
+**학습자 보기** 권한으로
 
-* If the section and subsection are released, you see units that are
-  :ref:`Published and Live`. For units that are
-  :ref:`Draft (Unpublished Changes)`, you see the last published version of the
-  unit. 
+* 공개되지 않은 주제나 소주제를 볼 수 없다.
 
-* You do not see units that are :ref:`Draft (Never Published)` or
-  :ref:`Visible to Staff Only`. To see these units, you must switch back to Instructor view or use Preview mode as described in :ref:`Preview Course Content`.
+* 주제와 소주제가 공개되었다면, :ref:`Published and Live`의 학습활동을 볼 수 있다. 
+  :ref:`Draft (Unpublished Changes)` 상태의 학습활동의 경우, 가장 최근에 게시된 버전을 보게 된다.
 
-* You can access the Instructor Dashboard, which has features and reports that
-  help you run your course.
+* :ref:`Draft (Never Published)` 나 :ref:`Visible to Staff Only` 상태의 학습활동을 볼 수 없다.
+  이를 보려면, 교수자 보기 권한이나 미리보기 모드로 전환해야 한다. 
+  이에 관해선 :ref:`Preview Course Content` 에 안내되어 있다.
+
+* :ref:`run your course<Running Your Course Index>` 를 지원하는 교수자 대시보드를 이용할 수 있다. 
 
 
 *************************************
-Open Studio from Your Live Course
+Studio에서 보기
 *************************************
 
-When you are viewing your course in the LMS as **Staff View**, you can open
-Studio directly.
-   
-* In a unit page, click **View Unit in Studio**.
+학습 관리 시스템에서 **운영팀 보기** 권한으로 강좌를 보고 있다가, Studio를 바로 열 수 있다.
+
+* 학습활동 페이지에서, **학습활동을 Studio에서 보기** 를 클릭한다.
   
   .. image:: ../../../shared/building_and_running_chapters/Images/Live_Studio_from_LMS_Unit.png
    :alt: The View Unit in Studio button in an LMS unit
 
-  The unit page opens in Studio.
+  Studio의 학습활동 페이지가 열린다.
  
-* In the Instructor Dashboard, click **View Course in Studio** to open the
-  course outline.
+* 교수자 대시보드에서, **Studio에서 강좌 보기** 를 클릭하는 방법도 있다.
  
   .. image:: ../../../shared/building_and_running_chapters/Images/Live_Course_Instructor_Dashboard.png
     :alt: Image of the Instructor Dashboard in a live course with a View Course
         in Studio button
 
-  For information about the tasks you can complete on the Instructor Dashboard,
-  see :ref:`Running Your Course Index`.
+  
+  교수자 대시보드에서 완료할 수 있는 작업에 관해서는 :ref:`Running Your Course Index` 에 자세한 안내가 있다.
  
-* In the **Course Progress** page, click **View Grading in Studio** to open the
-  Grading page.
- 
+* **강좌 진도** 페이지에서, **Studio에서 성적 보기** 를 클릭해 Studio의 평가 페이지를 볼 수도 있다.
+
   .. image:: ../../../shared/building_and_running_chapters/Images/Student_Progress.png
      :alt: Image of the Course Progress page for a student with a View  Grading
          in Studio button
 
-  For information about checking a student's progress, see
-  :ref:`Review_grades`.
+  학습자의 진도를 확인하는 방법에 관해, :ref:`Review_grades` 에 더 자세히 안내되어 있다.
