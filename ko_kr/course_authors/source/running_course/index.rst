@@ -1,7 +1,7 @@
 .. _Running Your Course Index:
 
 ##########################
-Running Your Course
+강좌 운영하기
 ##########################
 
 .. toctree::
