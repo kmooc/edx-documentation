@@ -4,15 +4,9 @@
 수강신청
 ##########################
 
-Course authors and instructors can enroll students in a course, see how many
-people are enrolled, and, when necessary, unenroll students on the Instructor
-Dashboard.
+강좌 개발팀과 교수자는 강좌에 학습자를 수강 등록하거나 수강 신청한 인원을 확인할 수 있으며, 필요에 따라 교수자 대시보드에서 학습자 수강 신청을 취소할 수 있다.
 
-Students can enroll themselves in a course during its defined enrollment
-period. For a ``www.edx.org`` course, enrollment is publicly available to
-anyone who registers an edX account. For other courses, such as those on
-``edge.edx.org``, enrollment is limited to students who know the course URL
-and students you explicitly enroll.
+수강 신청 기간 동안 학습자는 직접 수강 신청 할 수 있다. ``www.edx.org`` 의 강좌는  edX 계정으로 등록한 모든 사람들이 공개적으로 수강신청할 수 있다. ``edge.edx.org`` 와 같은 곳의 강좌를 수강 신청할 경우, 수강신청은 강좌의 URL을 아는 학습자와 등록시킨 학습자만 가능하다. 
 
 * :ref:`registration_enrollment`
 
@@ -22,10 +16,7 @@ and students you explicitly enroll.
 
 * :ref:`unenroll_student`
 
-Data about course enrollment is also available from edX Insights. You access
-Insights from the Instructor Dashboard for your live course: after you click
-**Instructor**, click the link in the banner at the top of each page. For more
-information, see `Using edX Insights`_.
+강좌의  수강신청 데이터는  edX Insights에서 이용할 수 있다. 강좌 보기의 교수자 대시보드에서 Insights에 접근할 수 있다: **교수자** 클릭 후, 각 페이지의 상단에 있는 배너의 링크를 클릭한다. 자세한 정보는  `Using edX Insights`_ 에서 확인한다.
 
 .. _registration_enrollment:
 
