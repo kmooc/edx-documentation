@@ -2,19 +2,15 @@
 
 
 ##################################
-Managing Course Discussions
+강좌 게시판 관리하기
 ##################################
 
-Discussions, or discussion forums, foster interaction among your students and
-between students and course staff. You can set up different topics to guide
-these interactions when you create your course, and then run and moderate
-discussions throughout the course to encourage participation and develop course
-community.
+게시판 혹은 토의 게시판은 수강 학습자나 강좌 운영팀 사이에서 상호작용을 높인다. 
+강좌 개설 시, 강좌 참여를 높이고 강좌 내 커뮤니티를 활성화 하기 위하여 다양한 주제를 설정하여 토의을 진행 한다.
 
-Discussions are also excellent sources of feedback and ideas for the future.
+게시판은 향후 강좌 개선을 위한 피드백이나 아이디어를 얻을 수 있는 중요한 출처이다. 
 
-For options you can use to run and moderate discussions, see the following
-sections:
+게시판을 운영하기 위해 선택 사항은 다음에서 확인할 수 있다:
 
 * :ref:`Overview_discussions`
 
@@ -28,8 +24,7 @@ sections:
 
 * :ref:`Close_discussions`
   
-For information about how enabling the cohort feature for a course affects
-options for moderating course discussions, see :ref:`Moderating Discussions for
+강좌의 학습 집단 특성이 강좌 게시판 이용을 위한 선택사항에 어떻게 영향을 미치는지 다음에서 확인할 수 있다. e :ref:`Moderating Discussions for
 Cohorts`.
 
 .. _Overview_discussions:
