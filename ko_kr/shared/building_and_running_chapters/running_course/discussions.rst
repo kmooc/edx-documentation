@@ -36,18 +36,13 @@
 
 * 게시판에 글을 남기는 것은 상호작용의 첫 번째 단계이다. 첫번째 *글* 은 질문으로 시작되곤한다. 대화가 시작되거나, 어떤 행동이 필요한 이슈를 다루는 정도로 그치기도 한다. 게시판에 글을 올릴때, 글을  **질문** 이나  **토의** 중 하나로 분류한다. 
 
-* *답변* 은 상호작용의 두 번째 단계이다. 답변은 해결방법을 제안하거나 대화를 이어가기 위해 바로 답변을 남기는 것이다. 
+* *답글* 은 상호작용의 두 번째 단계이다. 답글은 해결방법을 제안하거나 대화를 이어가기 위해 바로 답글을 남기는 것이다. 
 
 * *댓글* 은 상호작용의 세 번째 단계이다. 댓글은 하나의 독립된 글로 게시되지 않고 특정 반응을 남기기 위한 메모형태로 남기는 글이다. 
  
-게시판에 남긴 글, 답변, 댓글로 이루어진 대화는 스레드(thread)로 불리기도 한다. 
+게시판에 남긴 글, 답글, 댓글로 이루어진 대화는 스레드(thread)로 불리기도 한다. 
 
-All course staff members and enrolled students can add posts, responses, and
-comments, and view all of the posts, responses, and comments made by other
-course participants. Members of the course community, both staff and students,
-can be given permission to moderate or administer course discussions through a
-set of discussion administration roles. Discussion threads are saved as part of
-the course history.
+강좌 운영팀와 수강 학습자는 게시판에 글을 남기고, 답글을 작성하고, 댓글을 달 수 있으며, 다른 학습자에 의해서 남긴 글과 답글, 댓글을 볼 수 있다. 강좌 운영팀과 학습자 모두 게시판의 운영이나 관리 권한을 부여 받을 수 있다. 게시판 스레드는 강의 기록의 일부로써 저장된다.
 
 .. note:: 
   The :ref:`Discussions for Students and Staff` chapter describes features that
