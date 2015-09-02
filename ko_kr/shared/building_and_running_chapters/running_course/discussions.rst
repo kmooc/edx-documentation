@@ -45,11 +45,7 @@
 강좌 운영팀와 수강 학습자는 게시판에 글을 남기고, 답글을 작성하고, 댓글을 달 수 있으며, 다른 학습자에 의해서 남긴 글과 답글, 댓글을 볼 수 있다. 강좌 운영팀과 학습자 모두 게시판의 운영이나 관리 권한을 부여 받을 수 있다. 게시판 스레드는 강의 기록의 일부로써 저장된다.
 
 .. note:: 
-  The :ref:`Discussions for Students and Staff` chapter describes features that
-  are available to all discussion participants, and may be useful to students
-  who are new to online discussion forums. You can share the chapter with your
-  students by, for example, adding a "Never Used a Discussion Forum Before?"
-  post that includes the information you think will be most useful to them.
+:ref:`Discussions for Students and Staff` 에서는 게시판 이용자에게 유용하고, 온라인 게시판 활동에 익숙하지 않은 학습자에게 도움이 되는 설명이 있다. 학습자에게 “게시판을 사용해 보았나요?” 등과 같은 글을 게시하는 방법 등을 통해서 학습자에게 유용한 정보가 담긴 글을 올릴 수 있다.
 
 .. _Organizing_discussions:
 
