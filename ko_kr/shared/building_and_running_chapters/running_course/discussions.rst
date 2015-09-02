@@ -24,8 +24,7 @@
 
 * :ref:`Close_discussions`
   
-강좌의 학습 집단 특성이 강좌 게시판 이용을 위한 선택사항에 어떻게 영향을 미치는지 다음에서 확인할 수 있다. e :ref:`Moderating Discussions for
-Cohorts`.
+강좌의 학습 집단 특성이 강좌 게시판 이용을 위한 선택사항에 어떻게 영향을 미치는지 다음에서 확인할 수 있다. :ref:`Moderating Discussions for Cohorts`.
 
 .. _Overview_discussions:
 
@@ -35,17 +34,13 @@ Cohorts`.
 
 학습자와 강좌 운영팀은 문제 해결 방법과 의견를 공유하고, 다른 관점을 살펴보고, 질문하기 위해 게시판을 사용할 수 있다. 게시판에는 3가지 상호작용 단계가 존재한다.
 
-* 첫번째 *글* 은 질문으로 시작되곤한다. 대화가 시작되거나, 어떤 행동이 필요한 이슈를 다루는 정도로 그치기도 한다. 게시판에 글을 올릴때, 글을  **질문 ** 이나  **토의 ** 중 하나로 분류한다. 
+* 게시판에 글을 남기는 것은 상호작용의 첫 번째 단계이다. 첫번째 *글* 은 질문으로 시작되곤한다. 대화가 시작되거나, 어떤 행동이 필요한 이슈를 다루는 정도로 그치기도 한다. 게시판에 글을 올릴때, 글을  **질문** 이나  **토의** 중 하나로 분류한다. 
 
-* A *response* is the second level of interaction. A response is a reply made
-  directly to a post to provide a solution or continue the conversation.
+* *답변* 은 상호작용의 두 번째 단계이다. 답변은 해결방법을 제안하거나 대화를 이어가기 위해 바로 답변을 남기는 것이다. 
 
-* A *comment* is the third level of interaction. A comment is often a
-  clarification or side note made to a specific response, rather than to the
-  post as a whole.
+* *댓글* 은 상호작용의 세 번째 단계이다. 댓글은 하나의 독립된 글로 게시되지 않고 특정 반응을 남기기 위한 메모형태로 남기는 글이다. 
  
-The dialogue created by a post, its responses, and the comments on those
-responses is sometimes called a thread.
+게시판에 남긴 글, 답변, 댓글로 이루어진 대화는 스레드(thread)로 불리기도 한다. 
 
 All course staff members and enrolled students can add posts, responses, and
 comments, and view all of the posts, responses, and comments made by other
