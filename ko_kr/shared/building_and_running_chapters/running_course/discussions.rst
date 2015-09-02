@@ -30,16 +30,12 @@ Cohorts`.
 .. _Overview_discussions:
 
 ********************************
-Overview
+개관
 ********************************
 
-Students and staff use course discussions to share ideas, exchange views,
-consider different viewpoints, and ask questions. In a discussion, there are
-three hierarchical levels of interaction.
+학습자와 강좌 운영팀은 문제 해결 방법과 의견를 공유하고, 다른 관점을 살펴보고, 질문하기 위해 게시판을 사용할 수 있다. 게시판에는 3가지 상호작용 단계가 존재한다.
 
-* A *post* is the first level of interaction. A post opens a new subject. Posts
-  are often posed as questions, either to start a conversation or to surface an
-  issue that requires some action. When you add a post, you categorize it as a **Question** or as a **Discussion**.  
+* 첫번째 *글* 은 질문으로 시작되곤한다. 대화가 시작되거나, 어떤 행동이 필요한 이슈를 다루는 정도로 그치기도 한다. 게시판에 글을 올릴때, 글을  **질문 ** 이나  **토의 ** 중 하나로 분류한다. 
 
 * A *response* is the second level of interaction. A response is a reply made
   directly to a post to provide a solution or continue the conversation.
@@ -68,7 +64,7 @@ the course history.
 .. _Organizing_discussions:
 
 *************************************************
-Creating Discussion Topics for Your Course
+게시판 주제 만들기
 *************************************************
 
 Discussions in an edX course include both broad topics on course-wide areas of
@@ -167,7 +163,7 @@ discussion topic until the containing section has been released.
 .. _Assigning_discussion_roles:
 
 *************************************************
-Assign Discussion Administration Roles 
+게시판 관리자 역할 배정하기
 *************************************************
 
 You can designate a team of people to help you run course discussions.
@@ -244,7 +240,7 @@ access).
 .. _Running_discussions:
 
 *********************
-Run a Discussion
+게시판 운영하기
 *********************
 
 On an ongoing basis, the members of your discussion team run the course
@@ -342,7 +338,7 @@ discussion.
 .. _Moderating_discussions:
 
 ***********************
-Moderate Discussions
+토의 조정하기
 ***********************
 
 The members of a course discussion team monitor discussions and keep them
@@ -521,7 +517,7 @@ period for the course is over, the student cannot re-enroll.
 .. _Close_discussions:
 
 ******************************
-Close Discussions
+학습자 게시 중단하기
 ******************************
 
 You can close the discussions for your course so that students cannot add
