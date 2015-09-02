@@ -13,7 +13,7 @@
    * - 날짜
      - 변경
    * - 2/13/15
-     - :ref:`Drag and Drop Problem XML`에 있는 예제가 업데이트됨.
+     - :ref:`Drag and Drop Problem XML` 에 있는 예제가 업데이트됨.
    * - 2/12/14
      - :ref:`LTI Component settings` 에 추가된 설정들을 반영됨.
    * - 2/13/15
@@ -45,7 +45,7 @@
      - :ref:`Add Files to a Course` 에 파일 형식에 따라 업데이트된 파일들의 목록을 필터링 하는 것에 대한 정보가 업데이트됨.
    * - 
      - :ref:`Student Notes Tool`, :ref:`Specify Prerequisite Courses` 및
-       :ref:`Require an Entrance Exam` 이추가됨.
+       :ref:`Require an Entrance Exam` 이 추가됨.
    * - 
      - :ref:`Google Calendar Tool` 와 :ref:`Google Drive Files
        Tool` 이 추가됨.
