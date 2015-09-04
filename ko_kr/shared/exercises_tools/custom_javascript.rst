@@ -1,71 +1,49 @@
 .. _Custom JavaScript:
 
 ###########################
-Custom JavaScript Problem
+사용자 정의 JavaScript 문제
 ###########################
 
-Custom JavaScript display and grading problems (also called *custom JavaScript problems*
-or *JS Input problems*) allow you to create a custom problem or tool that uses JavaScript
-and then add the problem or tool directly into Studio. When you create a JS Input problem,
-Studio embeds the problem in an inline frame (IFrame) so that your students can interact with
-it in the LMS. You can grade your students’ work using JavaScript and some basic Python, and
-the grading is integrated into the edX grading system.
+사용자 지정 JavaScript표시 및 채점 문제(사용자 지정 JavaScript 문제 또는 JS 입력 문제 라고도 함)는 JavaScript를 사용하는 사용자 지정 문제 또는 도구를 만들고, 스튜디오에 직접 문제 또는 도구를 추가할 수 있도록 허용한다. JS 입력 문제를 만들 때, 스튜디오는 학습자가 LMS에서 그 문제와 상호 작용할 수 있도록 인라인 프레임 문제(IFrame)를 포함하고 있다. JavaScript와 몇 가지 기본적인 Python을 사용하여 학습자의 작업을 채점하고, 채점 결과는 edX 채점 시스템에 통합된다.
 
-The JS Input problem that you create must use HTML, JavaScript, and cascading style sheets
-(CSS). You can use any application creation tool, such as the Google Web Toolkit (GWT), to
-create your JS Input problem.
+생성한 JS 입력 문제는 HTML, JavaScript 및 연속적인 스타일 시트(CSS)를 사용해야 한다. JS 입력 문제를 만들기 위해 구글 웹 툴킷 (GWT) 등과 같은 모든 응용 프로그램 제작 도구를 사용할 수 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/JavaScriptInputExample.png
  :alt: Image of a JavaScript Input problem
 
-.. caution:: 
-  You cannot use a custom JavaScript problem in a component that contains more
-  than one problem. Each custom JavaScript problem must be in its own
-  component. See :ref:`Multiple Problems in One Component` for more
-  information.
+.. 경고:: 
+  하나 이상의 문제를 포함 하는 구성 요소에는 사용자 지정 JavaScript 문제를 사용할 수 없다. 각 사용자 지정 JavaScript 문제는 그 자신의 구성 요소에 있어야 한다. 더 자세한 정보는 :ref:`Multiple Problems in One Component` 를 참조하도록 한다.
 
 ************************************************************
-Create a Custom JavaScript Display and Grading Problem
+사용자 지정 JavaScript 표시 및 채점 문제 만들기
 ************************************************************
 
-#. Create your JavaScript application, and then upload all files associated with
-   that application to the **Files & Uploads** page.
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Custom JavaScript Display and Grading**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, modify the example code according to your problem.
+#. JavaScript 응용 프로그램을 만들고 난 다음, JavaScript 응용 프로그램과 관련된 모든 파일을 **파일 업로드** 페이지로 업로드한다.
+#. 문제를 만들려는 학습활동에서, **새 구성 요소 추가하기** 아래 **문제** 를 클릭하고 난 다음, **고급** 탭을 클릭한다.
+#. **사용자 지정 JavaScript 표시 및 채점** 을 클릭한다.
+#. 표시되는 구성요소에서, **편집** 을 클릭한다.
+#. 구성요소 편집기에서, 문제에 따라 예제 코드를 수정한다.
 
-   - All problems have more than one element. Most problems conform to the same-origin
-     policy (SOP), meaning that all elements have the same protocol, host, and port.
-     For example, **http**://**store.company.com**:**81**/subdirectory_1/JSInputElement.html and
-     **http**://**store.company.com**:**81**/subdirectory_2/JSInputElement.js have the same protocol
-     (http), host (store.company.com), and port (81).
+   - 모든 문제는 하나 이상의 요소를 가져야 한다. 대부분의 문제는 동일 출처 정책 (SOP)을 따르고 있으며, 모든 요소들이 동일한 프로토콜, 호스트 및 포트를 가지고 있음을 의미한다. 예를 들어 **http**://**store.company.com**:**81**/subdirectory_1/JSInputElement.html 및 **http**://**store.company.com**:**81**/subdirectory_2/JSInputElement.js  는 동일한 프로토콜 (http), 호스트(store.company.com) 및 포트(81)를 가진다.
 
-     If any elements of your problem use a different protocol, host, or port, you need to
-     bypass the SOP. For example, **https**://**info.company.com**/JSInputElement2.html
-     uses a different protocol, host, and port. To bypass the SOP, change
-     **sop="false"** in line 8 of the example code to **sop="true"**. For more information, see the same-origin policy
-     page on the `Mozilla Developer Network <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_
-     or on `Wikipedia <http://en.wikipedia.org/wiki/Same_origin_policy>`_.
-#. If you want your problem to have a **Save** button, click the **Settings** tab, and then set
-   **Maximum Attempts** to a number larger than zero.
-#. Click **Save**.
+     문제의 어떤 요소가 다른 프로토콜, 호스트 또는 포트를 사용하는 경우 SOP를 무시해야 한다. 예를 들어 **https**://**info.company.com**/JSInputElement2.html 는 다른 프로토콜, 호스트 및 포트를 사용한다. SOP를 무시하려면, 예제 코드의 8번째 줄에서 **sop=”false”** 를 **sop=”true”** 로 변경하도록 한다. 더 자세한 내용은 `Mozilla Developer Network <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript>`_ 또는 `Wikipedia <http://en.wikipedia.org/wiki/Same_origin_policy>`_ 에 있는 동일 출처 정책 페이지를 참조하도록 한다.
+#. 문제가 **저장** 버튼을 가지기를 원한다면, **설정** 탭을 클릭한 다음 **최대 시도 수** 를 0 보다 큰 수로 지정한다.
+#. **저장** 을 클릭한다.
 
 ================================
-Re-create the Example Problem
+예제 문제 다시 만들기
 ================================
 
-To re-create the example problem above, you'll need the following files.
+위의 예제 문제를 다시 만들려면 다음 파일이 필요하다.
 
    - webGLDemo.html
    - webGLDemo.js
    - webGLDemo.css
    - three.min.js
 
-To download these files in a .zip archive, go to http://files.edx.org/JSInput.zip.
+.zip 파일 저장소에서 이러한 파일을 다운로드 하려면 http://files.edx.org/JSInput.zip로 이동한다.
 
-.. note:: If you need to bypass the SOP, you'll also need the **jschannel.js** file, and your webGLDemo.html file will be slightly different. To download all these files in a .zip archive, go to http://files.edx.org/JSInput_BypassSOP.zip.
+.. NOTE:: SOP를 무시하려는 경우, **jschannel.js** 파일이 또한 필요하고, webGLDemo.html 파일은 약간 다를 것이다. .zip 파일 저장소에서 이러한 모든 파일을 다운로드 하려면 http://files.edx.org/JSInput_BypassSOP.zip로 이동한다.
 
 #. Download and unpackage the files in either the JSInput.zip file or the JSInput_BypassSOP.zip file.
 #. On the **Files & Uploads** page, upload all the files from the .zip file.
