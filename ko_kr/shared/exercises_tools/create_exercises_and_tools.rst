@@ -24,7 +24,7 @@
 
    * - .. image:: ../../../shared/building_and_running_chapters/Images/AnnotationExample.png
           :width: 100
-          :alt: Example annotation problem
+          :alt: Example 주석 문제
      - :ref:`Annotation`
      - 주석 문제는 학습자에게 텍스트의 특정 블록에 대한 질문에 응답하도록 요청한다. 문제는 학습자가 읽으면서 질문에 대해 생각할 수 있도록, 학습자가 강조 표시된 텍스트 위로 마우스를 이동할 때 텍스트 위에 나타난다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png
