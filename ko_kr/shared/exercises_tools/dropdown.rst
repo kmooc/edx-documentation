@@ -1,55 +1,50 @@
 .. _Dropdown:
 
 #####################
-Dropdown Problem
+Dropdown 문제
 #####################
 
-Dropdown problems allow the student to choose from a collection of answer options, presented as a dropdown list. Unlike multiple choice problems, whose answers are always visible directly below the question, dropdown problems don't show answer choices until the student clicks the dropdown arrow.
+드롭다운(Dropdown) 문제는 학습자가 dropdown 목록으로 표시된 답안 옵션 모음에서 답안을 선택할 수 있도록 한다. 답안이 항상 질문 바로 아래 표시되는 다중 선택 문제와는 달리, 드롭다운 문제는 학습자가 드롭다운 화살표 클릭 때까지 답안 선택안을 보여주지 않는다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/DropdownExample.png
  :alt: Image of a dropdown problem
 
 ********************************
-Create a Dropdown Problem
+Dropdown 문제 만들기
 ********************************
 
-You can create dropdown problems in the Simple Editor or in the Advanced Editor.
+간단한 편집기 또는 고급 편집기에서 드롭다운 문제를 만들 수 있다.
 
-.. note:: All problems must include labels for accessibility. The label generally includes the text of the main question in your problem. To add a label for a common problem, surround the text of the label with angle brackets pointed toward the text (>>label text<<).
+.. 참고:: 모든 문제는 접근성에 대한 라벨을 포함해야 한다. 라벨은 일반적으로 문제에 있는 주요 질문의 텍스트를 포함한다. 일반적인 문제에 대한 라벨을 추가 하려면, 텍스트 향해 가리키는 꺾쇠 괄호로 라벨의 텍스트를 둘러싸야 한다 (> > 텍스트 라벨 <<).
 
 ================
-Simple Editor
+간단한 편집기
 ================
 
-To create a dropdown problem, follow these steps.
+드롭다운 문제를 만들기 위해 다음 단계를 따르도록 한다.
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click
-   **Dropdown** on the **Common Problem Types** tab.
-#. In the new Problem component that appears, click **Edit**.
-#. Replace the default text with the text for your problem. Enter each of the possible 
-   answers on the same line, separated by commas.
-#. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
-#. Select all the answer options, and then click the dropdown button. 
+#.**새 구성 요소 추가하기** 에서 **문제** 를 클릭한다.
+#.**문제 구성 요소 유형 선택하기** 화면에서, **일반적인 문제 유형** 탭에 있는 **드롭다운** 을 클릭한다. 
+#. 표시되는 새로운 문제 구성 요소에서, **편집** 을 클릭한다.
+#. 기본 텍스트를 문제에 대한 텍스트로 대체한다. 쉼표로 구분하여 같은 줄에 각각의 가능한 답안을 입력한다.
+#. 라벨로 사용할 문제의 텍스트를 결정한 다음, 꺾쇠 괄호 두 세트(> > <<)로 해당 텍스트를 둘러싼다.
+#. 모든 답안 옵션을 선택한 다음, 드롭다운 버튼을 클릭한다. 
       
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_Dropdown.png
     :alt: Image of the dropdown button
       
-   When you do this, a double set of brackets ([[ ]]) appears and surrounds the 
-   answer options.
+  이 작업을 수행하는 경우 대괄호 ([[])의 이중 세트가 나타나고 답안 옵션을 둘러싼다.
       
-#. Inside the brackets, surround the correct answer with parentheses.
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. 대괄호 내에서, 괄호로 정답을 둘러싼다.
+#. 구성 요소 편집기에서, 설명 텍스트를 선택한 다음, 텍스트 주위에 설명 태그를 추가하기 위해 설명 버튼을 클릭한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+#. **설정** 탭에서 원하는 설정을 지정한다. 
+#. . **저장** 을 클릭한다.
 
-For the example problem above, the text in the Problem component is the
-following.
+위의 예제 문제에 대하여, 문제 구성 요소에서 텍스트는 다음과 같다.
 
 ::
 
@@ -63,12 +58,12 @@ following.
     [[(Nominal), Discrete, Continuous]]
 
 ================
-Advanced Editor
+고급 편집기
 ================
 
-To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
+고급 편집기에서 이 문제를 만들려면, 문제 구성 요소 편집기에서 **고급** 탭을 클릭한 다음, 기존 코드를 다음의 코드로 대체한다.
 
-**Problem Code:**
+**문제 코드**
 
 .. code-block:: xml
 
@@ -94,11 +89,11 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
 .. _Dropdown Problem XML:
 
 ************************
-Dropdown Problem XML
+Dropdown 문제 XML
 ************************
 
 ========
-Template
+템플릿
 ========
 
 .. code-block:: xml
@@ -136,15 +131,15 @@ Template
   </problem>
 
 ========
-Tags
+태그
 ========
 
-* ``<optionresponse>`` (required): Indicates that the problem is a dropdown problem.
-* ``<optioninput>`` (required): Lists the answer options.
+* ``<optionresponse>`` (필수 사항): 문제가 드롭다운 문제임을 나타낸다. 
+* ``<optioninput>`` (필수 사항): 답안 옵션을 나열한다.
 
 **Tag:** ``<optionresponse>``
 
-Indicates that the problem is a dropdown problem.
+문제가 드롭다운 문제임을 나타낸다.
 
   Attributes
 
@@ -156,7 +151,7 @@ Indicates that the problem is a dropdown problem.
 
 **Tag:** ``<optioninput>``
 
-Lists the answer options.
+답안 옵션을 나열한다.
 
   Attributes
 
@@ -166,11 +161,11 @@ Lists the answer options.
      * - Attribute
        - Description
      * - options (required)
-       - Lists the answer options. The list of all answer options is surrounded by parentheses. Individual answer options are surrounded by single quotation marks (') and separated by commas (,).
+       - 답안 옵션을 나열한다. 모든 답안 옵션의 목록은 괄호로 둘러싸여 있다. 개별 답안 옵션은 단일 인용 부호 (')로 둘러싸여 있으며 쉼표 (,)로 구분된다.
      * - correct (required)
-       - Indicates whether an answer is correct. Possible values are "true" and "false". Only one **correct** attribute can be set to "true".
+       - 정답인지 여부를 나타낸다. 가능한 값은 "true" 및 "false"이다. 단 하나의 **올바른** 속성을 "true"로 설정할 수 있다.
      * - label (required)
-       - Specifies the name of the response field.
+       - 응답 입력 필드의 이름을 지정한다.
   
   Children
 
