@@ -11,14 +11,14 @@ K-MOOC
 * :ref:`edX101_section`
 * :ref:`Reset Your Password`
 
-본 정보는 교수자 및 강좌 운영팀을 위한 것이다. 
+이 장은 교수자 및 강좌 운영팀을 위한 것이다. 
 
-학습자의 강좌 등록에 관련한 더 자세한 정보는, :ref:`enroll_student` 에 있다.
+학습자의 강좌 등록에 관련해 보다 자세한 정보는, :ref:`enroll_student` 에 있다.
 
 .. _edX.org and edX Edge:
 
 *************************
-edX.org 및 edX Edge
+kmooc.org 및 edX Edge
 *************************
 
 교수자 및 강좌 운영팀이 강좌를 살펴보려면, kmooc.org, edX Edge에 등록해야 한다. 두 사이트는 시각적으로나 기능적으로 동일하지만 콘텐츠 및 목적이 서로 다르다.
@@ -29,7 +29,7 @@ edX.org 및 edX Edge
 
 * edX Edge_ 소규모 개인 온라인 강좌(SPOCs)를 주관한다.
 
-.. 참고:: Edge와 kmooc.org상의 모든 강좌 데이터와 계정은 별도이다. K-MOOC 교수자 및 강좌 운영팀이 kmooc.org와 Edge를 모두 이용하려면, 두 사이트에 각각 등록해야 한다.
+.. 참고:: Edge와 kmooc.org는 강좌 데이터와 계정이 별도로 운영된다. 따라서 K-MOOC 교수자 및 강좌 운영팀이 kmooc.org와 Edge를 모두 이용하려면, 두 사이트에 각각 등록해야 한다.
 
 
 .. _Edge: http://edge.edx.org
