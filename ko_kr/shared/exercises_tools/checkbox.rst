@@ -1,51 +1,48 @@
 .. _Checkbox:
 
 ##################
-Checkbox Problem
+체크박스박스 문제
 ##################
 
-In checkbox problems, the student selects one or more options from a list of possible answers. The student must select all the options that apply to answer the problem correctly. Each checkbox problem must have at least one correct answer.
+체크박스 문제에서, 학습자는 가능한 답변 목록에서 하나 이상의 옵션을 선택해야 한다. 학습자는 문제에 올바르게 답하는데 적용되는 모든 옵션을 선택해야 한다. 각 체크박스 문제는 한개 이상의 정답이 있어야 한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/CheckboxExample.png
  :alt: Image of a checkbox problem
 
 ****************************
-Create a Checkbox Problem
+체크박스박스 문제 만들기
 ****************************
 
-You can create checkbox problems in the Simple Editor or in the Advanced Editor.
+간단한 편집기 또는 고급 편집기에서 체크박스 문제를 만들 수 있다.
 
-.. note:: All problems must include labels for accessibility. The label generally includes the text of the main question in your problem. To add a label for a common problem, surround the text of the label with angle brackets pointed toward the text (>>label text<<).
+.. 참고:: 모든 문제는 접근성에 대한 라벨을 포함해야 한다. 라벨은 일반적으로 문제에서 주요 질문에 대한 텍스트를 포함한다. 일반적인 문제에 라벨을 추가하려면, 텍스트를 향해 지적하는 꺾쇠 괄호 (> > 텍스트 라벨 <<)를 가지고 라벨의 텍스트를 둘러싸도록 한다.
 
 ==================
-Simple Editor
+간단한 편집기
 ==================
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Checkboxes** on the **Common Problem Types** tab.
-#. In the Problem component that appears, click **Edit**.
-#. In the component editor, replace the default text with the text of your 
-   problem. Enter each answer option on its own line.
-#. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
-#. Select all the answer options, and then click the checkbox button. 
+#. **새 구성 요소 추가하기** 에서 **문제** 를 클릭한다.
+#. . **문제 구성 요소 유형 선택하기** 화면에서, **일반적인 문제 유형** 탭에서 **체크박스** 를 클릭한다.
+#. 표시되는 문제 구성 요소에서 **편집** 을 클릭한다.
+#.. 구성 요소 편집기에서 기본 텍스트를 본인의 텍스트로 대체한다. 각 자체 줄에 답안 옵션을 입력한다.
+#. 라벨로 사용할 문제의 텍스트를 결정한 다음, 꺾쇠 괄호 두 세트(> > <<)로 해당 텍스트를 둘러싼다
+#. 모든 답안 옵션을 선택한 다음, 체크박스 버튼을 클릭한다. 
 
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_CheckboxIcon.png
     :alt: Image of the checkbox button
    
-   When you do this, brackets appear next to each answer choice.
+   이렇게 할 때, 각 답안 선택 옆에 괄호가 표시된다.
 
-#. Add an **x** between the brackets for the correct answer or answers.
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. 정답 또는 답안에 대한 괄호 사이에 **x** 를 추가한다.
+#. 구성 요소 편집기에서, 설명 텍스트를 선택하고 난 다음, 텍스트 주변에 설명 태그를 추가하기 위해 설명 버튼을 클릭한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+#. **설정** 탭에서 원하는 설정을 지정한다. 
+#. **저장**을 클릭한다. 
 
-For the example problem above, the text in the Problem component is the
-following.
+위의 예제 문제에 대하여, 문제 구성 요소에 텍스트는 다음과 같다.
 
 .. code-block:: xml
 
@@ -63,10 +60,10 @@ following.
     [explanation]
 
 ==================
-Advanced Editor
+고급 편집기
 ==================
 
-To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
+고급 편집기에서 체크박스 문제를 만들려면, 문제 구성 요소 편집기에서 **고급**  탭을 클릭하고 난 다음, 기존 코드를 다음 코드로 대체한다.
 
 .. code-block:: xml
 
@@ -93,11 +90,11 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
 .. _Checkbox Problem XML:
 
 ****************************
-Checkbox Problem XML 
+체크박스박스 문제 XML 
 ****************************
 
 ============
-Template
+템플릿
 ============
 
 .. code-block:: xml
@@ -123,16 +120,16 @@ Template
   </problem>
 
 ======
-Tags
+태그
 ======
 
-* ``<choiceresponse>`` (required): Specifies that the problem contains options for students to choose from.
-* ``<checkboxgroup>`` (required): Specifies that the problem is a checkbox problem.
-* ``<choice>`` (required): Designates an answer option.
+* ``<choiceresponse>`` (필수사항): 문제가 학습자들이 선택할 수 있는 옵션을 포함하도록 지정한다.
+* ``<checkboxgroup>`` (필수사항): 문제가 체크박스 문제임을 지정한다.
+* ``<choice>`` (필수사항): 답안 옵션을 지정한다
 
 **Tag:** ``<choiceresponse>``
 
-Specifies that the problem contains options for students to choose from.
+문제가 학습자들이 선택할 수 있는 옵션을 포함하도록 지정한다.
 
   Attributes
 
@@ -144,7 +141,7 @@ Specifies that the problem contains options for students to choose from.
 
 **Tag:** ``<checkboxgroup>``
 
-Specifies that the problem is a checkbox problem.
+. 문제가 체크박스 문제임을 지정한다.
 
   Attributes
 
@@ -154,9 +151,9 @@ Specifies that the problem is a checkbox problem.
      * - Attribute
        - Description
      * - direction (optional)
-       - Specifies the orientation of the list of answers. The default is vertical.
+       - 답안 목록 방향을 지정한다. 기본값은 수직이다.
      * - label (required)
-       - Specifies the name of the response field.
+       - 응답 입력 필드의 이름을 지정한다.
 
   Children
 
@@ -164,7 +161,7 @@ Specifies that the problem is a checkbox problem.
 
 **Tag:** ``<choice>``
 
-Designates an answer option.
+답안 옵션을 지정한다.
 
   Attributes
 
@@ -174,9 +171,9 @@ Designates an answer option.
      * - Attribute
        - Description
      * - true (at least one required)
-       - Indicates a correct answer. For checkbox problems, one or more ``<choice>`` tags can contain a correct answer.
+       - 정답을 나타낸다. 체크박스 문제에 대하여, 하나 이상의 ``<choice>`` 태그는 정답을 포함할 수 있다.
      * - false (at least one required)
-       - Indicates an incorrect answer.
+       - 오답을 나타낸다.
 
   Children
   
