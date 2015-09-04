@@ -43,18 +43,17 @@
 
 .zip 파일 저장소에서 이러한 파일을 다운로드 하려면 http://files.edx.org/JSInput.zip로 이동한다.
 
-.. NOTE:: SOP를 무시하려는 경우, **jschannel.js** 파일이 또한 필요하고, webGLDemo.html 파일은 약간 다를 것이다. .zip 파일 저장소에서 이러한 모든 파일을 다운로드 하려면 http://files.edx.org/JSInput_BypassSOP.zip로 이동한다.
+.. 참고:: SOP를 무시하려는 경우, **jschannel.js** 파일이 또한 필요하고, webGLDemo.html 파일은 약간 다를 것이다. .zip 파일 저장소에서 이러한 모든 파일을 다운로드 하려면 http://files.edx.org/JSInput_BypassSOP.zip로 이동한다.
 
-#. Download and unpackage the files in either the JSInput.zip file or the JSInput_BypassSOP.zip file.
-#. On the **Files & Uploads** page, upload all the files from the .zip file.
-#. Create a new custom JavaScript display and grading problem component.
-#. On the **Settings** tab, set **Maximum Attempts** to a number larger than
-   zero.
-#. In the problem component editor, replace the example code with the code below.
-#. Click **Save.**
+#. JSInput.zip 파일 또는 JSInput_BypassSOP.zip 파일을 다운로드하고 파일 압축을 푼다.
+#. **파일 업로드** 페이지에서.zip 파일로부터 모든 파일을 업로드 한다.
+#. 새로운 사용자 지정 JavaScript 표시 및 채점 문제 구성 요소를 만든다.
+#. **설정** 탭에서 **최대 시도 수** 를 0 보다 큰 수로 설정한다.
+#. 문제 구성 요소 편집기에서, 예제 코드를 아래 코드로 교체한다.
+#. **저장** 을 클릭한다.
 
 ================================
-JavaScript Input Problem Code
+JavaScript 입력 문제 코드
 ================================
 
 .. code-block:: xml
@@ -94,38 +93,38 @@ JavaScript Input Problem Code
     </problem>
 
 
-.. note::    When you create this problem, keep the following in mind.
+.. 참고::    이 문제를 만들 때 다음 사항을 기억해야 한다.
 
- - The webGLDemo.js file defines the three JavaScript functions (**WebGLDemo.getGrade**, **WebGLDemo.getState**, and **WebGLDemo.setState**).
+ - webGLDemo.js 파일은 세 가지 JavaScript 함수를 정의한다 ( **WebGLDemo.getGrade** , **WebGLDemo.getState** , 및 **WebGLDemo.setState** ).
 
- - The JavaScript input problem code uses **WebGLDemo.getGrade**, **WebGLDemo.getState**, and **WebGLDemo.setState** to grade, save, or restore a problem. These functions must be global in scope.
+ - JavaScript 입력 문제 코드는 문제 채점, 저장 또는 복원을 위해 **WebGLDemo.getGrade** , **WebGLDemo.getState** , 및 **WebGLDemo.setState** 를 사용한다. 이러한 함수는 범위가 세계적이어야 한다.
 
- - **WebGLDemo.getState** and **WebGLDemo.setState** are optional. You only have to define these functions if you want to conserve the state of the problem.
+ - **WebGLDemo.getState** 와 **WebGLDemo.setState** 는 선택적이다. 문제 상태를 보존하려는 경우에만 이러한 함수를 정의해야 한다.
 
- - **Width** and **height** represent the dimensions of the IFrame that holds the application.
+ - **너비** 와 **높이** 는 응용 프로그램을 보유하는 IFrame의 치수(dimension)를 나타낸다.
 
- - When the problem opens, the cone and the cube are both blue, or "unselected." When you click either shape once, the shape becomes yellow, or "selected." To unselect the shape, click it again. Continue clicking the shape to select and unselect it.
+ - 문제를 열면, 원뿔 및 큐브는 둘다 파란색이거나 "선택되지 않은" 상태이다. 어느 모양을 한번 클릭하면, 모양이 노란색 또는 "선택된" 상태가 된다. 모양에 대한 선택 취소를 하려면. 모양을 다시 선택한다. 모양을 선택하고 취소하려면 계속 클릭한다.
 
- - The response is graded as correct if the cone is selected (yellow) when the user clicks **Check**.
+ - 이용자가 **확인** 을 클릭할 때 콘이 선택되면 (노란색) 응답은 올바른 것으로 채점된다.
 
- - Clicking **Check** or **Save** registers the problem's current state.
+ - **확인** 또는 **저장** 을 클릭하면 문제의 현재 상태를 등록한다.
 
 
 .. _JS Input Problem XML:
 
 ******************************
-JavaScript Input Problem XML 
+JavaScript 입력 문제 XML 
 ******************************
 
-JSInput allows problem authors to turn stand-alone HTML files into problems that can be integrated into the edX platform. Since its aim is flexibility, it can be seen as the input and client-side equivalent of **CustomResponse**.
+JSInput은 문제 저자(author)가 독립형 HTML 파일을 edX 플랫폼에 통합될 수 있는 문제로 바꿀 수 있도록 허용한다. JSInput 의 목표는 유연성이므로 입력 및 **CustomResponse** 의 클라이언트 쪽과 동등한 것으로 간주될 수 있다.
 
-A JSInput exercise creates an IFrame in a static HTML page, and passes the return value of author-specified functions to the enclosing response type (generally **CustomResponse**). JSInput can also store and retrieve state.
+JSInput 연습은 정적 HTML 페이지에서 IFrame을 만들고, 저자가 지정된 함수의 반환 값을 에워싸인 응답 유형으로 (일반적으로 **CustomResponse** ) 전달한다. 또한 JSInput은 상태를 저장하고 불러 올 수 있다.
 
 ========
-Template
+템플릿
 ========
 
-The following is the basic format of a JSInput problem:
+다음은 JSInput 문제의 기본 양식이다
 
 .. code-block:: xml
 
@@ -142,10 +141,10 @@ The following is the basic format of a JSInput problem:
         </customresponse>
  </problem>
 
-The accepted attributes are:
+허용된 속성은
 
 ==============  ==============  =========  ==========
-Attribute Name   Value Type     Required   Default
+**Attribute Name**   **Value Type**     **Required**   **Default**
 ==============  ==============  =========  ==========
 html_file        URL string     Yes        None
 gradefn          Function name  Yes        `gradefn`
@@ -156,47 +155,45 @@ width            Integer        No         `400`
 ==============  ==============  =========  ==========
 
 ========================
-Required Attributes
+필수 속성 사항
 ========================
 
 * **html_file**
 
-  The **html_file** attribute specifies the HTML file that the IFrame will point to. The HTML file
-  must be located in the content directory.
+  **html_file** 속성은 IFrame이 가리키는 HTML파일을 지정한다. HTML 파일은 콘텐츠 디렉터리에 위치해야 한다.
 
-  The IFrame is created using the sandbox attribute. Although pop-ups, scripts, and pointer locks are allowed, the IFrame cannot access its parent's attributes.
+  IFrame은 샌드박스 속성을 사용하여 만들어진다. 팝업, 스크립트 및 포인터 잠금이 허용될지라도, IFrame은 부모의 속성에 접근할 수 없다.
 
-  The HTML file must contain a **gradefn** function that the JSInput file can access. To determine whether the **gradefn** function is accessible, in the console, make sure that **gradefn** returns the right thing. When JSInput uses the **gradefn** function, `gradefn` is called with `gradefn`.call(`obj`), where **obj** is the object-part of **gradefn**. For example, if **gradefn** is **myprog.myfn**, JSInput calls **myprog.myfun.call(myprog)**. (This is to ensure "`this`" continues to refer to what `gradefn` expects.)
+  HTML 파일은 JSInput 파일이 접근할 수 있는 **gradefn** 함수를 포함해야 한다. **Gradefn** 함수가 콘솔에 접근할 수 있는지 여부를 확인하려면, **gradefn** 함수가 옳은 것을 반환하는지 확인해야 한다. JSInput이 **gradefn** 함수를 사용하는 경우, `gradefn` 는 **obj** 가 **gradefn** 의 개체 부분이 되는`gradefn` .call( `obj` )와 함께 호출된다. 예를 들어, **gradefn** 이 **myprog.myfn** 인 경우, JSInput은 **myprog.myfun.call(myprog)** 를 호출한다. (이는 " `이것` "이 `gradefn` 이 참조할 것으로 기대되는 것을 계속 언급하도록 하기 위함이다.)
 
-  Aside from that, more or less anything goes. Note that currently there is no support for inheriting CSS or JavaScript from the parent (aside from the Chrome-only **seamless** attribute, which is set to True by default).
+  그 외에, 다소 모든 것이 가능하다. 현재는 부모로부터 CSS 또는 JavaScript를 상속 하는 것을 지원하지 않는다. (기본적으로 True로 설정되어 있는, 크롬 전용 **원활한** 속성은 예외다.).
 
 * **gradefn**
 
-  The **gradefn** attribute specifies the name of the function that will be called when a user clicks **Check**, and that returns the student's answer. Unless both the **get_statefn** and **set_statefn** attributes are also used, this answer is passed as a string to the enclosing response type. In the **customresponse** example above, this means **cfn** will be passed this answer as ``ans``.
+  **gradefn** 속성에는 이용자가 **확인** 을 클릭할 때 호출되는 함수의 이름 및 학습자의 답안을 반환하는 함수의 이름을 지정한다. **get_statefn** 및 **set_statefn** 의 속성이 모두 사용되지 않는 한, 이 답안은 문자열로 에워싸인 응답 유형에 전달된다. 위의 **customresponse** 예에서, 이것은 **cfn** 이 이 함수에 대한 답을 ``ans`` 로써 전달할 것임을 의미한다.
 
-  If the **gradefn** function throws an exception when a student attempts to submit a problem, the submission is aborted, and the student receives a generic alert. The alert can be customised by making the exception name ``Waitfor Exception``; in that case, the alert message will be the exception message.
+  학습자가 문제를 제출하려고 할 때 **gradefn** 함수가 예외를 던지는 경우, 제출은 중단되고, 학습자는 일반적인 경고를 받는다. 경고는 예외 이름을 ``Waitfor Exception`` 로 만들어 사용자 지정될 수 있다; 이 경우, 경고 메시지는 예외 메시지가 될 것이다
 
-  .. important:: To make sure the student's latest answer is passed correctly, make sure that the **gradefn** function is not asynchronous. Additionally, make sure that the function returns promptly. Currently the student has no indication that her answer is being calculated or produced.
+  .. 중요:: 학습자의 최신 답안이 제대로 전달된다는 것을 확인하려면 **gradefn** 함수가 동기화 되어 있는지 확인하도록 한다. 또한, 함수가 즉시 반환 하는지도 확인하도록 한다. 현재 학습자는 그의 답안이 계산되거나 만들어지고 있는지 아무런 표시를 가지고 있지 않다. 
 
 ========================
-Optional Attributes
+선택 속성 사항
 ========================
 
 * **set_statefn**
 
-  Sometimes a problem author will want information about a student's previous answers ("state") to be saved and reloaded. If the attribute **set_statefn** is used, the function given as its value will be passed the state as a string argument whenever there is a state, and the student returns to a problem. The function has the responsibility to then use this state approriately.
+  때로는 문제 저자는 학습자의 이전 답변 ("상태")에 관한 정보가 저장되고 다시 로드되기를 바랄 것이다. **set_statefn** 속성을 사용하는 경우 값으로 주어진 함수는 상태가 있을 때마다 문자열 인수로 상태가 전달 될 것이며, 학습자는 문제로 돌아가게 된다. 함수는 이 상태를 적절히 사용할 책임이 있다.
 
-  The state that is passed is:
+  전달 되는 상태는
 
-  * The previous output of **gradefn** (i.e., the previous answer) if **get_statefn** is not defined.
-  * The previous output of **get_statefn** (see below) otherwise.
+  * **get_statefn** 정의 되지 않은 경우 **gradefn** 의 이전 출력 (즉, 이전 답변)이다.. 
+  * 그렇지 않으면 **get_statefn** (아래 참조)의 이전 출력이다.
 
-  It is the responsibility of the iframe to do proper verification of the argument that it receives via **set_statefn**.
+  **set_statefn** 를 통해 받는 인수의 적절한 검증을 하는 것은 iframe의 책임이다.
 
 * **get_statefn**
 
-  Sometimes the state and the answer are quite different. For instance, a problem that involves using a javascript program that allows the student to alter a molecule may grade based on the molecule's hydrophobicity, but from the hydrophobicity it might be incapable of restoring the state. In that case, a
-  *separate* state may be stored and loaded by **set_statefn**. Note that if **get_statefn** is defined, the answer (i.e., what is passed to the enclosing response type) will be a json string with the following format:
+  때때로 상태 및 답안은 매우 다르다. 예를 들어, 학습자에게 분자를 변경하도록 허용하는 javascript 프로그램 사용을 포함하는 문제는 분자의 hydrophobicity를 기반으로 채점될 것이지만, hydrophobicity로부터 상태 복원은 불가능할 것이다. 이 경우, *별도 상태* 는 **set_statefn** 에 의해 저장되고 로드(load)될 수 있다. 만일 **get_statefn** 이 정의되면, 답안 (즉, 에워싸인 응답 유형으로 전달되는 것)은 다음과 같은 형식을 지니는 json 문자열이 될 것이다.
 
   .. code-block:: xml
 
@@ -206,12 +203,12 @@ Optional Attributes
       }
 
 
-  The enclosing response type must then parse this as json.
+  에워싸인 응답 유형은 이것을 json으로 구문 분석 해야 한다.
 
 * **height** and **width**
 
-  The **height** and **width** attributes are straightforward: they specify the height and width of the IFrame. Both are limited by the enclosing DOM elements, so for instance there is an implicit max-width of around 900. 
+  **높이** 및 **너비** 속성은 간단하다: IFrame의 너비와 높이를 지정하는 것이다. 둘 다 에워싸인 DOM 요소에 의해 제한 된다. 예를 들어 약 900정도의 암시적 최대 폭이 있다. 
 
-  In the future, JSInput may attempt to make these dimensions match the HTML file's dimensions (up to the aforementioned limits), but currently it defaults to `500` and `400` for **height** and **width**, respectively.
+  미래에, JSInput는 이러한 치수가 HTML 파일의 치수와 (앞서 언급한 한도까지) 일치 하도록 시도할 수 있지만, 현재는 **높이**와 **너비** 각각에 대해 `500` 및 `400` 으로 기본설정 되어 있다.
 
 
