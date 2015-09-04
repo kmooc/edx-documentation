@@ -1,28 +1,26 @@
 .. _Content Libraries:
 
 ##############################
-Working with Content Libraries 
+콘텐츠 보관함으로 작업하기 
 ##############################
 
 
 .. _ Content Libraries Overview:
 
 **************************
-Content Libraries Overview
+콘텐츠 보관함 개관
 **************************
 
-In Studio, if you have course creation privileges, you can create a content
-library to build a pool of components that can be used in randomized assignments
-in your courses. You can add HTML components, problems, and video components to
-a library. Peer assessment and discussion components are not supported in
-content libraries.
+강좌 생성 권한이 있을 경우, 스튜디오에서 강좌를 무작위로 할당할 수 있는 구성요소 풀을  구축할 수 있는 콘텐츠 보관함을 생성할 수 있다. 콘텐츠 보관함에는 HTML 구성요소, 문제, 비디오 구성요소 등을 추가할 수 있다. 단, 동료 평가와 토론 구성요소는 콘텐츠 보관함에서 지원하지 않는다.
 
-.. note:: Content libraries are available only for courses that have course
-   identifiers in this format: ``{key type}:{org}+{course}+{run}``. For example, ``course-v1:edX+DemoX+Demo_2015``. Your course identifier appears in the  browser address bar as the final part of the URL when you open your course in Studio. For more details, see :ref:`Create a New Course`.
+.. 참고:: 콘텐츠 보관함는 강좌 식별자가 다음과 같은 형태일 경우에만 사용할 수 있다: ``{key type}:{org}+{course}+{run}`` . (예: ``course-v1:edX+DemoX+Demo_2015`` 
+강좌를 스튜디오에서 열면, 브라우저 주소 표시줄에 나타나는 URL의 마지막 부분에 강좌 식별자가 표시된다. 더욱 자세한 사항은 :ref:`Create a New Course` 을 확인하기 바란다.
 
-After creating a library and adding components to it, if you have :ref:`enabled
-content libraries<Enable Content Libraries>` in your course, you can use these
-library components in randomized assignments in your course. You do this by
+
+콘텐츠 보관함을 생성하고 구성요소를 추가한 이후, :ref:`enabled
+content libraries<Enable Content Libraries>` 을 설정하였다면  이러한 콘텐츠 보관함 구성요소를 강좌 안에서 무작위로 할당하여 사용할 수 있다 
+
+You do this by
 adding a randomized content block to a course unit and indicating one or more
 libraries from which the randomized content is to drawn, as well as the number
 and type of problems that each student is assigned. If you specify more than one
@@ -30,14 +28,9 @@ library from which to randomly draw components for the randomized assignment,
 the content from all specified libraries is combined before the random selection
 is made.
 
-Libraries have separate users and levels of access from courses. Initially, only
-the person who created the library has access. She can add other users to the
-library. For details, see :ref:`Give Other Users Access to Your Library`. The
-libraries that you create or have access to are listed on the **Libraries** tab
-on the Studio Home page.
+강좌에서 콘텐츠 보관함은 개별 사용자와 접근 권한 수준을 갖는다. 처음에 누군가 콘텐츠 보관함을 생성하였을 때 보관함에 할당된 사용자는 본인 뿐이며, 이후 다른 사용자를 보관함에 추가할 수 있다. 자세한 사항은 :ref:`Give Other Users Access to Your Library`  를 참고하기 바란다. 직접 생성하였거나 접근 권한을 부여 받은 콘텐츠 보관함은 스튜디오 홈페이지의 **콘텐츠 보관함** 탭 표시된다.
 
-See the following sections for details about creating and managing content
-libraries.
+콘텐츠 보관함의 생성 및 관리에 대한 더욱 자세한 사항은 다음의 섹션을 참고하기 바란다.
 
 * :ref:`Enable Content Libraries`
 * :ref:`Create a New Library`
@@ -46,8 +39,7 @@ libraries.
 * :ref:`Edit Components in a Library`
 * :ref:`Give Other Users Access to Your Library`
 
-See the following sections for details about using content library components in
-a course.
+강좌의 콘텐츠 보관함 구성요소 사용에 대한 더욱 자세한 사항은 다음의 섹션을 참고하기 바란다.
 
 * :ref:`Use Components from Libraries in a Course`
 * :ref:`Add a Randomized Content Block to Your Course`
@@ -59,331 +51,264 @@ a course.
 .. _Create a New Library:
 
 ********************
-Create a New Library
+새로운 콘텐츠 보관함 생성
 ********************
 
-Use :ref:`content libraries<Content Libraries>` to build a pool of components
-that can be used in randomized assignments in your courses. You can create
-content libraries if you have course creation privileges.
+:ref:`content libraries<Content Libraries>`  사용하여 구성요소 풀을 구축할 수 있고, 강좌에 무작위로 할당할 수 있다. 강좌생성 권한이 있으면 콘텐츠 보관함을 생성할 수 있다.
 
-For information about adding other users to a library after you create it, see
-:ref:`Give Other Users Access to Your Library`.
+이미 생성한 콘텐츠 라이브러이에 다른 사용자를 추가하는 방법에 대한 설명은  :ref:`Give Other Users Access to Your Library` 를 참고하기 바란다.
 
-To create a new content library, follow these steps.
+새로운 보관함을 생성하기 위해서는 다음의 단계를 거쳐야 한다.
 
-#. Log in to Studio. 
+#. 스튜디오에 로그인한다. 
    
-#. Click **New Library**. 
-#. Enter the required information for your new library, then click **Create**.
+#. **새로운 보관함** 버튼을 클릭한다.
+#. 새로운 보관함을 만드는데 필요한 정보를 입력한 후 **생성** 버튼을 클릭 한다.
 
-   .. note:: Enter new library information carefully. The values in these
-      fields become part of the URL for your library, therefore the total number
-      of characters in the **Library Name**, **Organization**, and **Library
-      Code** fields must be 65 or fewer.
+   .. 참고:: 새로운 보관함에 대한 정보를 신중하게 입력한다. 아래의 영역에 입력되는 값은 보관함 URL의 일부분이 되므로, **보관함 이름** , **조직** , 그리고 **보관함 코드** 항목에 입력하는 숫자나 글자의 수는 65개 이하여야 한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibrary_NewCL.png
       :alt: Image of the library creation page
 
 
-  * For **Library Name**, enter the public display name for your library. Choose
-    a meaningful name that will help you and other course team members to
-    identify the contents of the library. For example, "Level 200 Math
-    Problems".
+  * **보관함 이름** 에는 공개적으로 표시되는 이름을 입력한다. 보관함의 이름은 작성자와 다른 강좌의 구성원이 보관함의 내용을 확인할 수 있도록 의미 있는 것으로 한다. (예 : 수학 문제 200레벨) 
 
-  * For **Organization**, enter the identifier for your university. For
-    example, enter HarvardX or MITx. Do not include spaces or special
-    characters.
+  * **조직** 에는 대학의 식별자를 입력한다. (예 : HarvardX 또는 MITx) 식별자에는 특수문자나 빈칸이 포함하지 않도록 한다.
 
-  * For **Library Code**, enter an identifier for your library that is unique
-    within your organization. This code becomes part of the URL for your
-    library, so do not include spaces or special characters in the code.
+  * **보관함 코드** 에는 보관함에 대한 기관 내 고유 식별자를 입력한다. 이 코드는 보관함 URL의 일부분으로 사용된다. 그러므로 코드에 특수문자나 빈칸이 포함되지 않도록 해야 한다.
 
 
-4. Click **Create**.
+4. **생성** 버튼을 클릭한다.
 
-You see the new library, to which you can now add components. For details about
-adding components to a library, see :ref:`Add Components to a Library`.
+새로운 보관함가 생성 되면 구성요소를 추가할 수 있다. 보관함에 구성요소를 추가하는 자세한 방법은 :ref:`Add Components to a Library`
+를 참고하기 바란다.
 
-The system-generated Library ID for the new library appears in the sidebar.
+
+새로운 보관함에 시스템이 부여한 보관함 ID는 사이드바에 표시된다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraryID.png
      :alt: The Library ID for the new library is shown the sidebar
 
-.. note:: Copy or make a note of the Library ID for the new library. When you
-   add a randomized content block to a course unit, you use the Library ID to
-   specify this library as a source for the randomized content.
+.. 참고:: 새로운 보관함에 부여된 ID를 복사하거나 기록해두어야 한다. 이는 강좌 유닛에 randomized content block을 추가할 때  randomized content을 위한 소스로서 보관함을 명시하기 위하여 보관함 ID를 사용해야 하기 때문이다.
 
 
 .. _Edit a Library:
 
 **************
-Edit a Library
+콘텐츠 보관함 편집
 **************
 
-After you create a library, the only change you can make to the initial library
-information is to the name. However, at any time, you can make changes to the
-components in your library, including adding or deleting components or editing
-the settings of components. For details about editing the contents of a library,
-see :ref:`Edit Components in a Library` and :ref:`Add Components to a Library`.
+콘텐츠 보관함을 만들고 나면, 변경 가능한 것은 오직 보관함의 이름 분이다. 그러나 언제든지 보관함에 구성요소를 추가하거나 삭제 할 수 있고, 구성요소의 설정을 편집할 수 있다. 보관함의 콘텐츠 편집과 관련한 자세한 사항은 :ref:`Edit Components in a Library`  와 :ref:`Add Components to a Library`  를 참고하기 바란다.
 
 
-To change the name of a library, follow these steps.
+보관함의 이름을 변경하는 방법은 다음과 같다.
 
-#. Log in to Studio.
-#. Click **Libraries**, then click the library whose name you want to edit.
+#. 스튜디오에 로그인 하기
+#. **콘텐츠 보관함** 메뉴를 클릭하고 이름을 편집하고 싶은 보관함을 선택한다.
    
-#. Click the **Edit** icon next to the library name. 
+#. 보관함 이름 옆에 있는 **이름 수정** 아이콘을 클릭한다.
    
-   The library name field becomes editable.
+   보관함 이름 영역이 편집 가능하도록 변경된다.
    
   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibrary_EditName.png
      :alt: The Edit icon to the right of the Library Name
 
-4.  In the library name field, make edits or enter a new library name.
-#. Click anywhere outside the library name field to save your changes.
+4. 보관함 이름 영역에서 기존 이름을 수정하거나 새로운 이름을 입력한다.
+#. 브라우저에서 보관함 이름 영역이 아닌 다른 부분을 클릭하면 변경 사항이 저장된다.
 
 
-For details about giving other users access to the library, see :ref:`Give Other
-Users Access to Your Library`.
+새로운 사용자를 콘텐츠 보관함에 추가하는 방법은 :ref:`Give Other
+Users Access to Your Library`를 참고하기 바란다.
 
 
 .. _Add Components to a Library:
 
 ****************************
-Add Components to a Library
+콘텐츠 보관함에 구성요소 추가
 ****************************
 
-To add new :ref:`components<What is a Component>` to your library, follow these
-steps.
+콘텐츠 보관함에 :ref:`components<What is a Component>`  를 추가하는 방법은 다음과 같다.
 
-#. Log in to Studio.
-#. Click **Libraries**, then click the library that you want to add components to.
+#. 스튜디오에 로그인 한다.
+#. **콘텐츠 보관함** 을 클릭하고, 구성요소를 추가하고 싶은 보관함을 클릭한다.
 
-#. Click **Add Component**, then click the component type that you want to add
-   under **Add New Component**.
+#. **구성요소 추가하기** 를 클릭하고 **신규 구성요소 추가**에서 원하는 구성요소 유형을 선택한다.
 
-For more information about the types of components you can add to a library, see
-these topics.
+보관함에 추가할 수 있는 구성요소의 유형에 대한 보다 자세한 정보는 다음을 참고하기 바란다.
 
 * :ref:`Working with HTML Components`
 * :ref:`Working with Problem Components`
 * :ref:`Working with Video Components`
 
-After you add a component to a library, you can edit its settings. These
-settings are retained when the component is selected from the library and used
-in a course.
+보관함에 구성요소를 추가하나 후, 설정을 편집할 수 있다. 이러한 설정은 구성요소가 보관함에서 선택 되고 강좌에서 사용될 때 유지된다.
 
-When a component from the library is used in a randomized content block, you can
-further edit the component as it exists in the unit, without affecting the
-original version in the library. For details, refer to :ref:`Edit Components in
-a Library` and :ref:`Get the Latest Version of Library Content`.
+보관함의 구성요소가 무작위 콘텐츠 블록에서 사용되는 경우, 보관함의 원래 버전에 영향을 주지 않고 구성요소를 더 많이 편집할 수 있다. 자세한 사항은 보관함에서 :ref:`Edit Components in
+a Library` 와 :ref:`Get the Latest Version of Library Content` 를 참고하기 바란다.
+
 
 
 .. _View the Contents of a Library:
 
 ******************************
-View the Contents of a Library
+콘텐츠 보관함의 콘텐츠 보기
 ******************************
 
-To view the entire contents of a library in Studio, follow these steps.
+스튜디오에서 보관함에 있는 콘텐츠를 보기 위해서는 다음 단계를 거쳐야 한다.
 
-#. Log in to Studio.
-#. Click **Libraries**, then click the library whose components you want to
-   view.
+#. 스튜디오에 로그인 한다.
+#. **콘텐츠 보관함** 을 클릭하고, 보고 싶은 구성요소가 있는 보관함을 클릭한다.
 
-The components in the library display in the order in which they were added,
-with the most recently added at the bottom. If your library has more than 10
-components, additional components are shown on other pages.
+보관함에 있는 구성요소는 가장 최근에 추가된 것이 마지막에 나타나도록 내림차순으로 표시된다. 만약 보관함에 10개 이상의 구성요소가 있다면, 나머지는 다른 페이지에 표시된다.
 
-The range of the components shown on the current page, and the total number of
-components, are shown at the top of the page.
+현재 페이지에 표시되는 구성요소의 범위와 구성요소의 총 개수는 페이시 상단에 표시된다.
 
-You can navigate through the pages in these ways:
+아래와 같은 방식으로 페이지를 탐색할 수 있다
 
-* Use the **<** and **>** buttons at the top and bottom of the list to navigate
-  to the previous and next pages.
+* 페이지 상단과 하단에 있는 < 또는 > 버튼으로  이전 페이지 또는 다음 페이지로 이동할 수 있다.
 
-* At the bottom of the page, you can edit the first number in the page range.
-  Click the number to place your cursor in the field, then enter the page number
-  you want to jump to.
+* 페이지 하단에 있는 페이지 범위를 직접 편집하여 이동할 수 있다. 아래 그림과 같이 커서가 위치하는 영역을 클릭하고 이동하고 싶은 페이지를 입력한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/file_pagination.png
      :alt: Image showing a pair of page numbers with the first number circled
 
-To view the list of matching components in the library, see :ref:`View the Matching Components in a Randomized Content Block`.
+보관함에서 매칭된 구성요소의 리스트를 보기는 방법은 :ref:`View the Matching Components in a Randomized Content Block` 를 확인하기 바란다.
 
-To view the randomized content as a student would see it, see :ref:`View the
-Randomized Content as a Student`.
+학생이 보게 될 무작위 콘텐츠를 확인하는 방법은 :ref:`View the
+Randomized Content as a Student` 를 확인하기 바란다.
+
 
 
 .. _Edit Components in a Library:
 
 ****************************
-Edit Components in a Library
+콘텐츠 보관함에서 구성요소 편집
 ****************************
 
-After you have added components to a content library, you can edit, duplicate,
-or delete them. 
+콘텐츠 보관함에 구성요소를 추가하고 난 이후에는 구성요소를 편집, 복사, 또는 삭제할 수 있다.
 
-For step-by-step instructions for editing, duplicating, or
-deleting components, refer to the following topics:
+구성요소를 복사, 편집, 삭제하는 단계별 방법은 다음의 주제를 참고하기 바란다:
 
 * :ref:`Edit a Component`
 * :ref:`Duplicate a Component`
 * :ref:`Delete a Component`
 
-.. note:: If you modify components in your library that are in use in a course,
-   these updates in the "source" library are not reflected in the course unless
-   you manually update the randomized content block in the course unit. For
-   details about updating library components used in your course to match the
-   latest version in the content library, see :ref:`Get the Latest Version of
-   Library Content`.
+.. 참고:: 콘텐츠 보관함에서 구성요소를 수정하는 경우, 강좌 단위로 무작위 콘텐츠 블록을 수동 업데이트 하지 않으면 "소스" 보관함의 업데이트 내용이 강좌에 반영되지 않는다. 콘텐츠 보관함의 최신 버전과 강좌에서 사용된 보관함 구성요소를 업데이트 하는 방법에 대한 자세한 내용은 :ref:`Get the Latest Version of
+   Library Content` 에서 확인할 수 있다.
 
 
 .. _Delete a Library:
 
 *****************
-Delete a Library
+콘텐츠 보관함 삭제
 *****************
 
-You cannot delete a library. Instead, you can discontinue use of an unwanted
-library. To do so, first make sure that none of its components are in use in any
-courses, then delete all components in the library. You can also :ref:`edit the
-name of the library<Edit a Library>` to make it clear to other course staff that
-the library should not be used as a source of randomized assignment content in
-courses.
+콘텐츠 보관함은 삭제할 수 없다. 대신 사용하기를 원하지 않는 보관함을 중시키실 수 있다. 그러기 위해서는 먼저 해당 콘텐츠 보관함의 구성요소가 다른 강좌에서 사용 되지 않는 지를 확인한 후 모든 구성요소를 삭제해야 한다. 또한 강좌 안에서 무작위 할당 콘텐츠로 사용되지 않게  다른 강좌의 강좌운영팀이 명확하게 알 수 있도록 :ref:`edit the
+name of the library<Edit a Library>`  할 수 있다.
 
-For details about deleting components in a library, see :ref:`Edit Components in
-a Library`.
+콘텐츠 보관함에서 구성요소를 삭제하는 자세한 방법은 :ref:`Edit Components in
+a Library` 를 참고하면 된다.
+
 
 
 .. _Give Other Users Access to Your Library:
 
 ***************************************
-Give Other Users Access to Your Library
+콘텐츠 보관함에 다른 사용자 접근 권한 부여
 ***************************************
 
-When you create a library, you are automatically assigned an Admin role in that
-library.
+각 콘텐츠 보관함을 만든 사용자에게는 자동으로 교수자 권한이 부여된다.
 
-You can give other Studio users access to your library. Depending on the level
-of access  that you give them in the library, additional library users can view
-and use library content in courses, edit library content, or add and manage
-other library users. All users to whom you give library access must be
-registered with Studio and have an active account.
+콘텐츠 보관함에는 다른 스튜디오 사용자를 추가할 수 있다. 교수자가 새로 추가한 사용자에게 부여하는 권한의 수준에 따라서, 추가된 사용자는 보관함의 콘텐츠를 볼 수도 있고, 수정할 수도 있고, 다른 사용자를 관리하거나 추가할 수 있다. 단, 콘텐츠 보관함에 대한 접근 권한을 갖는 모든 사용자는 스튜디오에 등록되고 활성화된 계정을 가지고 있어야 한다.
 
-These are the levels of access for libraries:
+콘텐츠 보관함의 권한 수준은 다음과 같다:
 
-* **User** -- Users can view library content and can use library components in
-  their courses, but they cannot edit the contents of a library.
+* **학습자** -- 학습자는 보관함의 콘텐츠를 열람하고 구성요소를 사용할 수 있다. 그러나 보관함의 콘텐츠에 대한 편집 권한은 부여되지 않는다. 
 
-* **Staff** -- Staff can use library components in their courses. In addition,
-  as content co-authors, they have full editing privileges in a library.
+* **강좌운영팀** -- 강좌운영팀은 강좌에서 보관함 구성요소를 사용할 수 있다. 또한, 콘텐츠의 공동 저작자로서 보관함 전체 편집 권한을 갖는다.
 
-* **Admin** -- Admins have full editing privileges for a library. In addition,
-  they can add and remove other team members from library access. There must be at
-  least one user with Admin privileges in a library.
+* **교수자** -- 교수자는 보관함의 모든 편집 권한을 갖는다. 또한, 보관함에 새로운 사용자를 추가하거나 삭제할 수 있다. 보관함 사용자 중 적어도 한 명은 교수자 권한을 가지고 있어야 한다.
 
-.. note:: The levels of access for libraries are hierarchical. You can add new
-   library members only with the **User** level of access, after which you can
-   give them the **Staff** level of access. You can give the **Admin** level of
-   access only to people who already have the **Staff** level of access.
+.. 참조:: 콘텐츠 보관함 접근 권한의 수준은 계층 구조를 갖는다. 관리자는 기본적으로 **학습자** 권한을 갖는 새로운 사용자를 보관함에 추가할 수 있고, **강좌운영팀** 권한을 부여할 수 있다. 또한 강좌운영팀 권한을 가진 사용자에게 **교수자** 권한을 부여할 수도 있다.
 
 
 =========================
-Add a User to the Library
+콘텐츠 보관함에 사용자 추가
 =========================
 
-To grant a user initial **User** access to a library, follow these steps.
+콘텐츠 보관함에 사용자를 추가하고 기본 권한을 부여하기 위해서는 다음의 단계를 따라야 한다.
 
-.. note:: Only library users with the **Admin** level of access can add users to
-   the library.
+.. 참조:: 콘텐츠 보관함에서 **교수자** 권한을 가진 사용자만이 다른 사용자를 보관함에 추가할 수 있다.
 
-#. Ensure that the new library member has an active Studio account.   
-#. On the Studio home page, click the **Libraries** tab and locate the library
-   to which you are adding this user.
-#. From the **Settings** menu select **User Access**.
-#. On the **User Access** page, click **Add a New User**.
-#. Enter the new user's email address, then click **ADD USER**.
+#. 보관함에 추가할 새로운 학습자는 반드시 활성화된 스튜디오 계정을 가지고 있어야 한다.   
+#. 스튜디오 홈페이지에서 **콘텐츠 보관함** 탭을 클릭하고 사용자를 추가할 보관함에 위치한다.
+#. **설정** 메뉴에서 **사용자 접근** 을 클릭한다.
+#. **사용자 접근** 페이지에서 **신규 사용자 추가하기** 를 클릭한다.
+#. 새로 추가할 사용자의 이메일 주소를 입력한 후 **구성원 추가** 를 클릭한다.
    
-   The new user is added to the list of library members with the **User** level
-   of access.
+   새로운 추가된 사용자는 **학습자** 권한을 부여 받고 보관함 사용자 명단에 추가된다.
 
 
 ==============================
-Remove a User from the Library
+콘텐츠 보관함에서 사용자 삭제
 ==============================
 
-You can remove users from the library at any time, regardless of the level of
-access that they have.
+콘텐츠 보관함에 속한 사용자는 권한 수준에 관계 없이 언제든지 삭제할 수 있다.
 
-To remove a user from the library, follow these steps.
+콘텐츠 보관함에서 사용자를 삭제하기 위해서는 다음의 단계를 따르면 된다.
 
-#. In Studio, click the **Libraries** tab and locate your library. 
-#. From the **Settings** menu select **User Access**. 
+#. 스튜디오에서 **보관함** 탭을 클릭하고, 학습자를 삭제하고자 하는 보관함에 위치한다. 
+#. **설정** 메뉴에서 **사용자 접근** 을 선택한다.
    
-#. On the **User Access** page, locate the user that you want to remove.
-#. Hover over the user's box and click the trash can icon.
+#. **사용자 접근** 페이지에서 삭제하고자 하는 사용자를 선택한다.
+#. 학습자 상자(user’s box)에서 휴지통 아이콘을 클릭한다.
     
-  You are prompted to confirm the deletion.
+  삭제 확인 메시지가 표시된다.
 
-5. Click **Delete**. 
+5. **삭제** 를 클릭한다. 
 
-  The user is removed from the library. 
+  해당 사용자는 콘텐츠 보관함에서 삭제된다.
 
 
 =========================
-Add Staff or Admin Access
+교수자 또는 강좌운영팀 계정 추가
 =========================
 
-The levels of access for libraries are hierarchical. You can add new library
-members only with the **User** level of access, after which you can give them
-the **Staff** level of access. You can give the **Admin** level of access only
-to people who already have the **Staff** level of access.
+콘텐츠 보관함 접근 권한의 수준은 계층 구조를 갖는다. 보관함에 새로운 사용자를 추가하면 기본적으로 **학습자** 권한이 부여된다. 이후 학습자 권한을 가진 사용자에게 **강좌운영팀** 권한을 부여할 수 있다. **교수자** 수준의 권한은 강좌운영팀 수준의 권한을 가진 사용자에게만 부여할 수 있다.
 
-To give a library member a higher level of access to the library, follow these
-steps.
+콘텐츠 보관함 사용자에게 높은 접근 권한을 주기 위해서는 다음을 단계를 따르면 된다.
 
-
-#. In Studio, click the **Libraries** tab and locate your library. 
-#. From the **Settings** menu select **User Access**. 
+#. 스튜디오 안에서, **보관함** 탭을 클릭하고, 권한 부여를 원하는 보관함에 위치한다.
+#. **설정** 메뉴에서 **사용자 접근** 을 선택한다.
    
-#. On the **User Access** page, locate the user to whom you are giving
-   additional privileges. 
+#. **사용자 접근** 페이지에서 추가적인 권한을 부여할 사용자를 선택한다.
 
-  - If he currently has **User** access, click **Add Staff Access**.  
-  - If he currently has **Staff** access, click **Add Admin Access**.
+  - 해당 사용자가 **학습자** 권한을 가지고 있다면, **강좌운영팀 권한** 을 클릭한다.    
+  - 해당 사용자가 **강좌운영팀 권한** 을 가지고 있다면, **교수자 권한** 을 클릭한다.
 
-  The user's display listing is updated to indicate the new level of access. In
-  addition, their listing now includes a button to remove their current level of
-  access and move them back to their previous level of access. For details about
-  reducing a user's level of access to a library, see :ref:`Remove Staff or
-  Admin Access`.
+  사용자 명단은 새로운 권한이 표시되도록 업데이트 된다. 또한 목록에는 현재 권한 수준을 제거하거나 이전 권한 수준으로 되돌리는 기능을 포함하고 있다. 콘텐츠 보관함에 대한 사용자의 권한 수준과 관련된 보다 자세한 내용은 :ref:`Remove Staff or
+  Admin Access` 를 참고하기 바란다.
+
 
 
 .. _Remove Staff or Admin Access:
 
 ============================
-Remove Staff or Admin Access
+강좌운영팀 또는 교수자 권한 삭제
 ============================
 
-After you have granted users **Staff** or **Admin** access, you (or other
-**Admin** library users) can reduce their levels of access.
+사용자에게 **강좌운영팀** 이나 **교수자** 권한을 부여한 이후에도 부여된 권한의 수준을 낮출 수 있다.
 
-To remove **Staff** or **Admin** access from a library user, follow these steps.
+콘텐츠 보관함에서 사용자에게 부여된 **강좌운영팀** 또는 **교수자** 권한을 삭제하기 위해서는 다음의 단계를 따르면 된다.
 
-#. In Studio, click the **Libraries** tab and locate your library. 
-#. From the **Settings** menu select **User Access**. 
+#. 스튜디오에서 **콘텐츠 보관함** 탭을 클릭하여 보관함에 접속한다. 
+#. **설정** 메뉴에서 **사용자 접근** 버튼을 클릭한다.
    
-#. On the **User Access** page, locate the user whose access level you are
-   changing. 
+#. **사용자 접근**  페이지에서 접근 권한을 변경할 사용자를 선택한다.  
 
-   - If she currently has **Staff** access, click **Remove Staff Access**. 
-   - If she currently has **Admin** access, click **Remove Admin Access**.
+   - 해당 사용자가 **강좌운영팀** 권한을 가지고 있다면 **강좌운영팀 권한 삭제** 를 클릭한다.
+   - 해당 사용자가 **교수자** 권한을 가지고 있다면 **교수자 권한 삭제** 를 클릭한다. 
 
-   The user's display listing is updated to indicate their new role. 
+   새로운 권한이 부여되면 사용자 목록이 업데이트 되어 표시된다.
 
-.. note:: There must always be at least one Admin for a library. If there is
-   only one user with the Admin role, you cannot remove him or her from the
-   Admin role unless you first assign another user to the Admin role.
+.. 참고:: 하나의 콘텐츠 보관함에는 적어도 한 명의 교수자가 있어야 한다. 교수자 권한을 가진 사용자가 단 한 명 뿐일 경우, 다른 사용자를 교수자로 지정하지 않는 한 유일한 그 권한을 삭제할 수 없다.
 
