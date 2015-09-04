@@ -6,12 +6,7 @@
 
 강좌를 런칭하기 위해, 강좌, 운영팀, 학습자가 필요하다. 본 장에서는 활동 일정을 확인하기 위해 :ref:`Course Launch Checklist` 를 이용해 본다. 
 
-To help you communicate to the course staff or to all course participants before
-the course launches and while it is running, you can send email messages from
-the Instructor Dashboard. See :ref:`Bulk Email`. The chapter on bulk email also
-includes a set of :ref:`example messages to students<Example Messages to
-Students>` that you can use as guidelines when you write your own email
-messages.
+(강좌 시작 전후로 강좌 운영팀과 학습자의 의사소통을 돕기 위해 교수자 대시보드에서 이메일 메시지를 보낼 수 있다. :ref:`Bulk Email` 을 확인한다. 여기에서 학습자생에게 보내는 이메일 메시지 작성의 가이드 라인으로 활용할 수 있는 :ref:`이메일 메세지 예시 <Example Messages to Students>` 를 확인할 수 있다.
 
 .. _Course Launch Checklist:
 
@@ -19,31 +14,20 @@ messages.
 개강 준비 점검
 ****************************
 
-As the start date for your course approaches, a checklist or timeline of
-activities can help you make sure that your course, and your students, are
-ready to begin. Suggestions for activities to complete before your course
-starts follow.
+개강이 다가올수록 체크리스트나 시간표를 보면서 강좌를 확인하고 준비한다. 강좌 시작 전에 수행해야 하는 활동에 대해 알아보자.
 
-**Verify Course Settings**
+**강좌 준비 확인하기**
 
-* Check the course start date and time in Studio. See :ref:`Set Important
-  Dates for Your Course`.
-* Review the grading policy, and set a grace period for homework assignment
-  due dates. See :ref:`Establish a Grading Policy`.
-* Confirm that any optional features that you want your course to include, such
-  as implementing student cohorts, are enabled and configured. See
-  :ref:`Cohorts Overview`.
+* 스튜디오에서 강좌 시작 날짜와 시간을 확인한다. :ref:`Set Important Dates for Your Course` 확인.
+* 채점 규정과 과제 제출 기한을 점검한다. :ref:`Establish a Grading Policy` 확인.
+* 학습 집단 만들기 처럼 강좌에 포함되었으면 하는 선택 사항을 확인하고 설정한다. :ref:`Cohorts Overview` 확인 
 
-**Review First Week Content**
+**첫주 내용 검토하기**
 
-* Verify that all units are present and published. See :ref:`Developing Course
-  Units`.
-* Check all assignments for completeness and verify their due dates. See
-  :ref:`Working with Problem Components`.
-* Verify that videos, transcripts, and download links are in place and
-  working.
-* Review feedback from the course team and beta testers to be sure that the
-  content has been thoroughly reviewed and tested.
+* 게시된 모든 학습활동을 확인한다. :ref:`Developing Course Units` 확인
+* 모든 과제의 완성도와 제출일을 확인한다. :ref:`Working with Problem Components` 확인
+* 동영상, 자막, 다운로드 링크등이 제 위치에서 잘 작동하는지 확인한다. 
+* 강좌의 콘텐츠가 충분히 검토되고 테스트 되었는지 확인하기 위해 강좌 운영팀과 베타 테스트에게서 받은 피드백을 확인한다. 
 
 **Welcome Students**
 
