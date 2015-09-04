@@ -283,7 +283,7 @@ HTML 구성 요소에서 강좌 학습활동 링크를 추가할 수 있다.
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_CourseUnit.png
     :alt: Image of the Insert link dialog box with a link to a unit identifier
 
-#. 새 창에서 링크를 열려면 **Target** 입력 필드 옆에 있는 드롭 다운 화살표를 클릭한 다음 **New Window**을 선택한다. 
+#. 새 창에서 링크를 열려면 **Target** 입력 필드 옆에 있는 드롭 다운 화살표를 클릭한 다음 **New Window** 을 선택한다. 
    그렇지 않은 경우에 기본값을 남길 수 있다.
 
 #. **Insert** 를 클릭한다.
@@ -323,16 +323,16 @@ Course` 을 참조한다.
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_File.png
     :alt: Image of the Insert link dialog box with a link to a file
 
-#.새 창에서 링크를 열려면 **대상** 입력 필드 옆에 있는 드롭 다운 화살표를 클릭한 다음 **새 창**을 선택한다. 그렇지 않은 경우에 기본값을 남길 수 있다.
+#.새 창에서 링크를 열려면 **대상** 입력 필드 옆에 있는 드롭 다운 화살표를 클릭한 다음 **새 창** 을 선택한다. 그렇지 않은 경우에 기본값을 남길 수 있다.
 
-#. **삽입**을 클릭한다.
+#. **삽입** 을 클릭한다.
 
 #. HTML 구성 요소를 저장 하고 링크를 테스트 한다.
 
 .. _Add an Image to an HTML Component:
 
 ***********************************
-7.1.8. HTML 구성요소에 이미지 추가하기
+ HTML 구성요소에 이미지 추가하기
 ***********************************
 
 K-MOOC 담당자가 비쥬얼 편집기를 사용하면 강좌를 위해 업로드 한 어떤 이미지라도 HTML 구성 요소에 추가할 수 있다. 이미지 업로드하기에 대한 자세한 내용은 :ref:`Add Files to a Course` 을 참조하도록 한다.
@@ -353,7 +353,7 @@ K-MOOC 담당자가 비쥬얼 편집기를 사용하면 강좌를 위해 업로�
        circled
 
   .. 참고::
-   . K-MOOC 담당자는 이미지를 추가하기 위해 **External URL**이 아닌**Embed URL** 을 사용 해야 한다.
+   . K-MOOC 담당자는 이미지를 추가하기 위해 **External URL** 이 아닌 **Embed URL** 을 사용 해야 한다.
 
 2. 도구 모음에서 링크 아이콘을 클릭한다.
 
@@ -366,19 +366,19 @@ K-MOOC 담당자가 비쥬얼 편집기를 사용하면 강좌를 위해 업로�
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-Edit_Image.png
     :alt: Image of the Insert image dialog box with a reference to a file
 
-4.**이미지 설명** 입력 필드에 대안 텍스트를 입력한다. 이 텍스트는 HTML에서 alt 속성 값이 되고, 강좌에서 완벽하게 접근할 수 있는 텍스트가 되어야 한다. 더 자세한 내용은:ref:`Best Practices for Describing Images` 를 참조한다. 
+4.**이미지 설명** 입력 필드에 대안 텍스트를 입력한다. 이 텍스트는 HTML에서 alt 속성 값이 되고, 강좌에서 완벽하게 접근할 수 있는 텍스트가 되어야 한다. 더 자세한 내용은 :ref:`Best Practices for Describing Images` 를 참조한다. 
 
 
-#. 필요에 따라 이미지 크기를 사용자 지정한다. 이미지가 같은 너비와 높이 비율을 유지하도록 **제한 비율**이 선택된 상태를 유지한다.
+#. 필요에 따라 이미지 크기를 사용자 지정한다. 이미지가 같은 너비와 높이 비율을 유지하도록 **제한 비율** 이 선택된 상태를 유지한다.
 
 #. 이미지의 간격 및 테두리를 변경 하려면 **고급** 탭을 클릭한다. 
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-Edit_Image_Advanced.png
     :alt: Image of the Insert image dialog box Advanced tab
 
-#.필요에 따라 **수직 공간, 수평 공간, 및 테두리**를 입력한다. 입력한 값은 **스타일** 입력 필드에 자동으로 추가된다.
+#.필요에 따라 **수직 공간, 수평 공간, 및 테두리** 를 입력한다. 입력한 값은 **스타일** 입력 필드에 자동으로 추가된다.
 
-#. HTML 구성 요소에 이미지를 삽입 하려면 **확인**을 클릭한다.
+#. HTML 구성 요소에 이미지를 삽입 하려면 **확인** 을 클릭한다.
 
 #. HTML 구성 요소를 저장하고 이미지를 테스트 한다.
 
@@ -386,7 +386,7 @@ K-MOOC 담당자가 비쥬얼 편집기를 사용하면 강좌를 위해 업로�
 .. _Import LaTeX Code:
 
 ****************************************
-7.1.9. HTML 구성요소에 LaTeX 코드 넣기
+HTML 구성요소에 LaTeX 코드 넣기
 ****************************************
 
 . K-MOOC 담당자는 HTML 구성 요소에 LaTeX 코드를 가져올 수 있다. 예를 들어 다음과 같이 “아름다운 수학공식”를 만들려는 경우 LaTeX 코드를 가져올 수 있다.
@@ -403,31 +403,31 @@ LaTeX 코드를 포함하는 HTML 구성 요소를 만들려면:
 
 #. 강좌에서 정책 키를 사용한다
 
-   #. 스튜디오에서 **설정**을 클릭 한 다음 **고급 설정**을 클릭한다.
+   #. 스튜디오에서 **설정** 을 클릭 한 다음 **고급 설정** 을 클릭한다.
    #. **LaTeX 컴파일러 사용하기** 정책 키에 대한 입력 필드에서, false를 true로 변경한다.
-   #.페이지 하단에 있는, **변경 사항 저장하기**을 클릭한다.
+   #.페이지 하단에 있는, **변경 사항 저장하기** 을 클릭한다.
 
-#. 구성 요소를 생성 하고자 하는 학습활동에서, **새 구성 요소 추가하기**에서 **html**을 클릭하고 난 다음,  **라텍스에서 전자 텍스트 작성하기**를 클릭한다. 새 구성 요소가 해당 학습활동에 추가된다.
+#. 구성 요소를 생성 하고자 하는 학습활동에서, **새 구성 요소 추가하기** 에서 **html** 을 클릭하고 난 다음,  **라텍스에서 전자 텍스트 작성하기** 를 클릭한다. 새 구성 요소가 해당 학습활동에 추가된다.
 
-#.새 구성 요소를 열려면 **편집**을 클릭한다. 구성 요소 편집기가 열린다.
+#.새 구성 요소를 열려면 **편집** 을 클릭한다. 구성 요소 편집기가 열린다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/latex_component.png
    :alt: Image of the HTML component editor with the LaTeX compiler.
 
-4. 구성 요소 편집기에서 **라텍스 소스 컴파일러 실행**을 클릭한다. 라텍스 편집기가 열린다.
+4. 구성 요소 편집기에서 **라텍스 소스 컴파일러 실행** 을 클릭한다. 라텍스 편집기가 열린다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeXEditor.png
     :alt: Image of the HTML component editor with the LaTeX compiler
 
-#.필요에 따라 LaTeX 코드를 작성한다. 또한 K-MOOC 담당자는 오른쪽 하단에서 **업로드**를 클릭하여 컴퓨터에서 LaTeX 파일을 편집기로 업로드 할 수 있다.
+#.필요에 따라 LaTeX 코드를 작성한다. 또한 K-MOOC 담당자는 오른쪽 하단에서 **업로드** 를 클릭하여 컴퓨터에서 LaTeX 파일을 편집기로 업로드 할 수 있다.
 
-#.필요한 LaTeX 코드를 업로드 또는 작성 했을 경우, 왼쪽 모서리에 있는 **edX XML 컴파일 하기 및 저장하기**를 클릭한다.
+#.필요한 LaTeX 코드를 업로드 또는 작성 했을 경우, 왼쪽 모서리에 있는 **edX XML 컴파일 하기 및 저장하기** 를 클릭한다.
 
    구성 요소 편집기를 닫는다. K-MOOC 담당자는 라텍스 콘텐츠 모양을 볼 수 있다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeX_CompEditor.png
     :alt: Image of the LaTeX component
 
-#. 학습활동 페이지에서, K-MOOC 담당자의 콘텐츠가 LMS에서 보이듯이 원하는 방식으로 보이는지 확인하기 위해 **미리 보기**를 클릭한다.
+#. 학습활동 페이지에서, K-MOOC 담당자의 콘텐츠가 LMS에서 보이듯이 원하는 방식으로 보이는지 확인하기 위해 **미리 보기** 를 클릭한다.
 
-   오류가 나타나는 경우, 해당 학습활동 페이지로 다시 이동한다. 구성 요소를 다시 열기 위해 **편집**을 클릭하고 난 다음  그리고 LaTeX 코드를 편집하기 위해 구성 요소 편집기의 왼쪽 아래 모서리에 있는 **라텍스 소스 컴파일러 시작하기**를 클릭한다.
+   오류가 나타나는 경우, 해당 학습활동 페이지로 다시 이동한다. 구성 요소를 다시 열기 위해 **편집** 을 클릭하고 난 다음  그리고 LaTeX 코드를 편집하기 위해 구성 요소 편집기의 왼쪽 아래 모서리에 있는 **라텍스 소스 컴파일러 시작하기** 를 클릭한다.
