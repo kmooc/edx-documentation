@@ -310,145 +310,124 @@ Course` 을 참조한다.
   .. 참고:: 
    담당자는 파일에 링크를 포함시키기 위해 **External URL** 이 아닌 **Embed URL**  을 사용 해야 한다.
 
-2. Select the text that you want to make into the link.
+2. 링크로 만들 텍스트를 선택한다.
 
-#. Click the link icon in the toolbar.
+#. 도구 모음에서 링크 아이콘을 클릭한다.
 
-#. In the **Insert link** dialog box, enter the following in the **URL** field.
+#. **링크 삽입하기** 대화 상자에서, **URL** 입력 필드에 다음을 입력한다.
 
    ``/static/FileName.type``
 
-   Make sure to include both forward slashes (/).
+   전방향 슬래시를 양쪽에 포함하도록 한다 (/).
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_File.png
     :alt: Image of the Insert link dialog box with a link to a file
 
-#. If you want the link to open in a new window, click the drop-down arrow next
-   to the **Target** field, and then select **New Window**. If not, you can
-   leave the default value.
+#.새 창에서 링크를 열려면 **대상** 입력 필드 옆에 있는 드롭 다운 화살표를 클릭한 다음 **새 창**을 선택한다. 그렇지 않은 경우에 기본값을 남길 수 있다.
 
-#. Click **Insert**.
+#. **삽입**을 클릭한다.
 
-#. Save the HTML component and test the link.
+#. HTML 구성 요소를 저장 하고 링크를 테스트 한다.
 
 .. _Add an Image to an HTML Component:
 
 ***********************************
-Add an Image to an HTML Component
+7.1.8. HTML 구성요소에 이미지 추가하기
 ***********************************
 
-When using the visual editor, you can add any image that you have uploaded for
-the course to an HTML component. For more information about uploading images,
-see :ref:`Add Files to a Course`.
+K-MOOC 담당자가 비쥬얼 편집기를 사용하면 강좌를 위해 업로드 한 어떤 이미지라도 HTML 구성 요소에 추가할 수 있다. 이미지 업로드하기에 대한 자세한 내용은 :ref:`Add Files to a Course` 을 참조하도록 한다.
 
-.. note:: 
- Review :ref:`Best Practices for Describing Images` before you add images to
- HTML components.
 
-To add an image, you'll need the URL of the image that you uploaded to the
-course. You'll then create a link to the image in the HTML component.
+.. 참고:: 
 
-#. On the **Files & Uploads** page, copy the **Embed URL** of the image that you
-   want.
+. K-MOOC 담당자는 HTML 구성 요소에 이미지를 추가하기 이전에 :ref:`Best Practices for Describing Images` 를 검토하도록 한다.
+
+
+
+이미지를 추가하기 위해, K-MOOC 담당자는 강좌에 업로드했던 이미지에 대한 URL이 필요하다. 그런 다음 HTML 구성 요소에서 이미지에 대한 링크를 만들 수 있다
+
+#.. **파일 업로드** 페이지에서 원하는 이미지의 **Embed URL** 을 복사한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/image_link.png
    :alt: Image of the Files & Upload page with the Embed URL for the image
        circled
 
-  .. note:: 
-   You must use the **Embed URL** to add the image, not the **External URL**.
+  .. 참고::
+   . K-MOOC 담당자는 이미지를 추가하기 위해 **External URL**이 아닌**Embed URL** 을 사용 해야 한다.
 
-2. Click the image icon in the toolbar.
+2. 도구 모음에서 링크 아이콘을 클릭한다.
 
-#. In the **Insert image** dialog box, enter the following in the **Source**
-   field.
+#. **링크 삽입하기** 대화 상자에서, **Source** 입력 필드에 다음을 입력한다
 
    ``/static/FileName.type``
 
-   Make sure to include both forward slashes (/).
+  전방향 슬래시를 양쪽에 포함하도록 한다 (/).
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-Edit_Image.png
     :alt: Image of the Insert image dialog box with a reference to a file
 
-4. Enter alternative text in the **Image description** field. This text becomes
-   the value of the ``alt`` attribute in HTML and is required for your course to
-   be fully accessible. See :ref:`Best Practices for Describing Images` for more
-   information.
+4.**이미지 설명** 입력 필드에 대안 텍스트를 입력한다. 이 텍스트는 HTML에서 alt 속성 값이 되고, 강좌에서 완벽하게 접근할 수 있는 텍스트가 되어야 한다. 더 자세한 내용은:ref:`Best Practices for Describing Images` 를 참조한다. 
 
-#. As needed, customize the image dimensions. Keep **Constrain proportions**
-   checked to ensure the image keeps the same width and height proportions.
 
-#. To change the spacing and border of the image, click the **Advanced** tab. 
+#. 필요에 따라 이미지 크기를 사용자 지정한다. 이미지가 같은 너비와 높이 비율을 유지하도록 **제한 비율**이 선택된 상태를 유지한다.
+
+#. 이미지의 간격 및 테두리를 변경 하려면 **고급** 탭을 클릭한다. 
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-Edit_Image_Advanced.png
     :alt: Image of the Insert image dialog box Advanced tab
 
-#. Enter the **Vertical space**, **Horizontal space**, and **Border** as needed.
-   The values you enter are automatically added to the **Style** field.
+#.필요에 따라 **수직 공간, 수평 공간, 및 테두리**를 입력한다. 입력한 값은 **스타일** 입력 필드에 자동으로 추가된다.
 
-#. Click **OK** to insert the image in the HTML component.
+#. HTML 구성 요소에 이미지를 삽입 하려면 **확인**을 클릭한다.
 
-#. Save the HTML component and test the image.
+#. HTML 구성 요소를 저장하고 이미지를 테스트 한다.
 
 
 .. _Import LaTeX Code:
 
 ****************************************
-Import LaTeX Code into an HTML Component
+7.1.9. HTML 구성요소에 LaTeX 코드 넣기
 ****************************************
 
-You can import LaTeX code into an HTML component. You might do this, for
-example, if you want to create "beautiful math" such as the following.
+. K-MOOC 담당자는 HTML 구성 요소에 LaTeX 코드를 가져올 수 있다. 예를 들어 다음과 같이 “아름다운 수학공식”를 만들려는 경우 LaTeX 코드를 가져올 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeX_LMS.png
  :alt: Image of math formulas created with LaTeX
 
-.. warning:: 
- The LaTeX processor that Studio uses to convert LaTeX code to XML is a third-
- party tool. We recommend that you use this feature with caution. If you do use
- it, make sure to work with your Program Manager.
+.. 주의:: 
+LaTeX 코드를 XML로 변환하기 위해 스튜디오가 사용하는 LaTeX 프로세서는 제 3 공급업체 도구이다. 따라서 이 기능을 주의하여 사용하는 것이 좋다. LaTeX 프로세서를 사용 할 경우 반드시 프로그램 관리자와 함께 작업하도록 한다
 
-This feature is not enabled by default. To enable it, you have to change the
-advanced settings in your course.
+. 이 LaTeX 기능은 기본적으로 작동되지 않는다. 그것을 사용 하려면 강좌에서 고급 설정을 변경해야 한다.
 
-To create an HTML component that contains LaTeX code:
+LaTeX 코드를 포함하는 HTML 구성 요소를 만들려면:
 
-#. Enable the policy key in your course.
+#. 강좌에서 정책 키를 사용한다
 
-   #. In Studio, click **Settings**, and then click **Advanced Settings**.
-   #. In the field for the **Enable LaTeX Compiler** policy key, change
-      **false** to **true**.
-   #. At the bottom of the page, click **Save Changes**.
+   #. 스튜디오에서 **설정**을 클릭 한 다음 **고급 설정**을 클릭한다.
+   #. **LaTeX 컴파일러 사용하기** 정책 키에 대한 입력 필드에서, false를 true로 변경한다.
+   #.페이지 하단에 있는, **변경 사항 저장하기**을 클릭한다.
 
-#. In the unit where you want to create the component, click **html** under
-   **Add New Component**, and then click **E-text Written in LaTeX**. The new
-   component is added to the unit.
+#. 구성 요소를 생성 하고자 하는 학습활동에서, **새 구성 요소 추가하기**에서 **html**을 클릭하고 난 다음,  **라텍스에서 전자 텍스트 작성하기**를 클릭한다. 새 구성 요소가 해당 학습활동에 추가된다.
 
-#. Click **Edit** to open the new component. The component editor opens.
+#.새 구성 요소를 열려면 **편집**을 클릭한다. 구성 요소 편집기가 열린다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/latex_component.png
    :alt: Image of the HTML component editor with the LaTeX compiler.
 
-4. In the component editor, click **Launch Latex Source Compiler**. The LaTeX
-   editor opens.
+4. 구성 요소 편집기에서 **라텍스 소스 컴파일러 실행**을 클릭한다. 라텍스 편집기가 열린다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeXEditor.png
     :alt: Image of the HTML component editor with the LaTeX compiler
 
-#. Write LaTeX code as needed. You can also upload a LaTeX file into the editor
-   from your computer by clicking **Upload** in the bottom right corner.
+#.필요에 따라 LaTeX 코드를 작성한다. 또한 K-MOOC 담당자는 오른쪽 하단에서 **업로드**를 클릭하여 컴퓨터에서 LaTeX 파일을 편집기로 업로드 할 수 있다.
 
-#. When you have written or uploaded the LaTeX code you need, click **Save &
-   Compile to edX XML** in the lower-left corner.
+#.필요한 LaTeX 코드를 업로드 또는 작성 했을 경우, 왼쪽 모서리에 있는 **edX XML 컴파일 하기 및 저장하기**를 클릭한다.
 
-   The component editor closes. You can see the way your LaTeX content looks.
+   구성 요소 편집기를 닫는다. K-MOOC 담당자는 라텍스 콘텐츠 모양을 볼 수 있다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeX_CompEditor.png
     :alt: Image of the LaTeX component
 
-#. On the unit page, click **Preview** to verify that your content looks the way
-   you want it to in the LMS.
+#. 학습활동 페이지에서, K-MOOC 담당자의 콘텐츠가 LMS에서 보이듯이 원하는 방식으로 보이는지 확인하기 위해 **미리 보기**를 클릭한다.
 
-   If you see errors, go back to the unit page. Click **Edit** to open the
-   component again, and then click **Launch Latex Source Compiler** in the
-   lower-left corner of the component editor to edit the LaTeX code.
+   오류가 나타나는 경우, 해당 학습활동 페이지로 다시 이동한다. 구성 요소를 다시 열기 위해 **편집**을 클릭하고 난 다음  그리고 LaTeX 코드를 편집하기 위해 구성 요소 편집기의 왼쪽 아래 모서리에 있는 **라텍스 소스 컴파일러 시작하기**를 클릭한다.
