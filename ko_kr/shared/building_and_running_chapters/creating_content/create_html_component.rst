@@ -366,7 +366,7 @@ K-MOOC 담당자가 비쥬얼 편집기를 사용하면 강좌를 위해 업로�
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-Edit_Image.png
     :alt: Image of the Insert image dialog box with a reference to a file
 
-4.**이미지 설명** 입력 필드에 대안 텍스트를 입력한다. 이 텍스트는 HTML에서 alt 속성 값이 되고, 강좌에서 완벽하게 접근할 수 있는 텍스트가 되어야 한다. 더 자세한 내용은 :ref:`Best Practices for Describing Images` 를 참조한다. 
+4. **이미지 설명** 입력 필드에 대안 텍스트를 입력한다. 이 텍스트는 HTML에서 alt 속성 값이 되고, 강좌에서 완벽하게 접근할 수 있는 텍스트가 되어야 한다. 더 자세한 내용은 :ref:`Best Practices for Describing Images` 를 참조한다. 
 
 
 #. 필요에 따라 이미지 크기를 사용자 지정한다. 이미지가 같은 너비와 높이 비율을 유지하도록 **제한 비율** 이 선택된 상태를 유지한다.
