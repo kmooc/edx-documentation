@@ -119,7 +119,7 @@
 
 강좌 소개 동영상을 추가하려면,
 
-#. YouTube에 강좌 동영상을 업로드한다. URL에서 **watch?v =** 와 **&feature** 사이에 나타나는 
+1. YouTube에 강좌 동영상을 업로드한다. URL에서 **watch?v =** 와 **&feature** 사이에 나타나는 
 코드를 기록한다. 이 코드는 아래에 표시된 상자에 있다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/image127.png
