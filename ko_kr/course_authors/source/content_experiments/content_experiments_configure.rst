@@ -89,27 +89,21 @@ edX Studio에서 실험 집단 설정하기
 ************************************************
 
 .. note:: 
-  You must :ref:`enable content experiments<Enable Content Experiments>` before
-  you can set up group configurations.
+  집단을 설정하기 전에 :ref:`enable content experiments<Enable Content Experiments>` 콘텐츠 실험을 활성화 해야 한다. 
 
-To set up group configurations, on the **Settings** menu, select **Group
-Configurations**. The **Group Configurations** page opens.
+집단 설정을 하기 위해, **설정** 메뉴에서, **집단 설정** 을 선택한다. **집단 설정** 페이지가 열린다. 
 
-From this page you can :ref:`create<Create a Group Configuration>`,
-:ref:`edit<Edit a Group Configuration>`, and :ref:`delete<Delete a Group
-Configuration>` group configurations. You can also :ref:`view experiments that
-use a group configuration<View Experiments that Use a Group Configuration>`.
+이 페이지에서 집단 설정을 :ref:`create<Create a Group Configuration>` 생성, :ref:`edit<Edit a Group Configuration>` 편집, :ref:`delete<Delete a Group Configuration>` 삭제가 가능하다. 또한 :ref:`집단 설정을 사용하는 실험들 보기<View Experiments that Use a Group Configuration>` 를 할 수 있다. .
 
 .. _Create a Group Configuration:
 
 =============================
-Create a Group Configuration
+실험 집단 설정 생성하기 
 =============================
 
-You can create a group configuration at any time.
+항상 집단 설정을 생성할 수 있다. 
 
-#. On the **Group Configurations** page, under **Experiment Groups**, click
-   **New Experiment Group**. The following page opens:
+#. **집단 설정** 페이지에서, **실험 집단** 을 선택하고, **새 실험 집단** 을 클릭한다. 다음 페이지가 나타난다:
 
   .. image:: ../../../shared/building_and_running_chapters/Images/create-group-config.png
    :width: 800
