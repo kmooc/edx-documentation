@@ -1,55 +1,55 @@
 .. _Full Screen Image:
 
 ######################
-Full Screen Image Tool
+전체 화면 이미지 도구
 ######################
 
-Some large images are difficult for students to view in the courseware.  The full screen image tool allows students to enlarge the image, so they can see all the detail in context.
+일부 큰 이미지는 강좌 내용에서 학습자가 보기에 어려울 수 있다. 전체 화면 이미지 도구는 학습자가 문맥에서 모든 세부 정보를 볼 수 있도록 이미지를 확대할 수 있도록 허용한다. 
 
 ****************************************
-The Student View of a Full Screen Image
+학습자 화면에서 전체 화면 이미지 보기
 ****************************************
 
-The student sees the full screen image in a unit page. When the student hovers the mouse pointer over the image, the **Fullscreen** button appears:
+학습자 학습활동 페이지에서 전체 화면 이미지를 본다. 학습자 이미지 위에 마우스 포인터를 가져가면 **전체 화면** 버튼이 나타난다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modal.png
  :alt: Image of the full screen image tool with the Full Screen button.
 
-When the student clicks **Fullscreen**, the image opens and expands in the full browser window.  The buttons **Close**, **Zoom In**, and **Zoom Out** appear:
+학습자가 **전체 화면** 을 클릭하면, 이미지가 열리고 전체 브라우저 창에 표시된다. **닫기** , **확대** 및 **축소**  버튼들이 표시된다:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modal-window.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
-The student can then zoom in on the image, and drag the image to view the desired part of it:
+그러면 학습자는 이미지 위에서 확대 할 수 있고, 이미지의 원하는 부분을 보기 위해 이미지를 drag (드래그) 할 수 있다:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modeal-zoomed.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
 ******************************
-Create a Full Screen Image
+전체 화면 이미지 만들기
 ******************************
 
-#. Upload your image file to the **Files & Uploads** page. For more information about how to do this, see :ref:`Add Files to a Course`.
+#. **파일 업로드** 페이지에 이미지 파일을 업로드한다. 이 작업을 수행하는 방법에 대한 더 자세한 내용은 :ref:`Add Files to a Course` (강좌에 파일 추가하기)를 참조하도록 한다.
 
-#. Under **Add New Component**, click **html**, and then click **Full Screen Image**.
+#. **새 구성 요소 추가** 에서, **html** 을 클릭한 다음, **전체 화면 이미지** 를 클릭한다.
 
-#. In the new component that appears, click **Edit**.
+#. 표시되는 새 구성 요소에서, **편집** 을 클릭한다.
 
-#. In the component editor, replace the default title, remove the instructional paragraph, and add text as needed.
+#. 구성 요소 편집기에서, 기본값으로 설정되어 있는 제목을 바꾸고, 지침 단락을 제거하고, 필요에 따라 텍스트를 추가할 수 있다.
 
-#. Switch to the **HTML** tab.
+#. **HTML** 탭으로 바꾼다.
 
-#. Replace the following placeholders with your own content.
+#. 다음의 자리 표시자를 자신의 콘텐츠로 대체한다.
 
-   * Replace the value of the <a> element's href attribute with the path to your image. Do not change the value of the class attribute. For example:
+   * <a>요소의 href 속성의 값을 이미지에 대한 경로로 대체한다. 클래스 속성의 값은 변경하지 않는다. 예를 들면:
 
      **<a href="/static/Image1.jpg" class="modal-content">**
 
-   * Replace the value of the <img> element's src attribute with the path to your image. For example:
+   * 2.	<img> 요소의 src 속성의 값을 이미지에 대한 경로로 대체한다. 예를 들면:
      
      **<img alt="Full screen image" src="/static/Image1.jpg"/>**
 
-   * Ensure that the value of the href and src attributes are the same, and that you do not change the class attribute. Your sample code should look like the following:
+   * Src 및 href 속성의 값은 동일해야 하며, 클래스 속성은 변경하지 않도록 한다. 샘플 코드는 다음과 같이 표시된다.
 
    .. code-block:: xml
 
@@ -58,6 +58,6 @@ Create a Full Screen Image
      <img alt="Full screen image" src="/static/Image1.jpg"/>
      </a>
 
-   .. note:: You can use this same HTML code in any HTML component, not just those components you created as full screen images.
+   .. 참고:: 전체 화면 이미지로 만든 구성 요소 뿐만 아니라, HTML 구성 요소에서 이와 동일한 HTML 코드를 사용할 수 있다.
 
-#. Click **Save** to save the HTML component.
+#. HTML 구성 요소를 저장 하기 위해 **저장** 을 클릭한다.
