@@ -24,7 +24,7 @@
 
    * - .. image:: ../../../shared/building_and_running_chapters/Images/AnnotationExample.png
           :width: 100
-          :alt: Example 주석 문제
+          :alt: Example Annotation problem
      - :ref:`Annotation`
      - 주석 문제는 학습자에게 텍스트의 특정 블록에 대한 질문에 응답하도록 요청한다. 문제는 학습자가 읽으면서 질문에 대해 생각할 수 있도록, 학습자가 강조 표시된 텍스트 위로 마우스를 이동할 때 텍스트 위에 나타난다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png
@@ -125,26 +125,20 @@
           :width: 100
           :alt: Example full screen image tool
      - :ref:`Full Screen Image`
-     - The Full Screen Image tool allows a student to enlarge an image in the
-       whole browser window. This is useful when the image contains a large
-       amount of detail and text that is easier to view in context when
-       enlarged.
+     - 전체 화면 이미지 도구는 학습자가 전체 브라우저 창에 이미지를 확대할 수 있도록 허용한다. 확대했을 때 더 보기 쉬운 많은 양의 세부 사항 및 텍스트를 포함하는 이미지를 볼 때 유용하다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/ImageMappedInputExample.png
           :width: 100
           :alt: Example image mapped input problem
      - :ref:`Image Mapped Input`
-     - In an image mapped input problem, students click inside a defined area
-       in an image. You define this area by including coordinates in the body
-       of the problem.
+     - 이미지가 그려진 입력 문제에서, 학습자는 이미지에서 정의된 영역의 내부를 클릭한다. 문제의 본문에서 좌표를 포함함으로써 이 영역을 정의할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/Zooming_Image.png
           :width: 100
           :alt: Example zooming image tool
      - :ref:`Zooming Image`
-     - Zooming images allow you to enlarge sections of an image so that
-       students can see the section in detail.
+     - . 이미지 확대는 학습자가 해당 부분을 자세히 볼 수 있도록 이미지의 부분을 확대할 수 있도록 허용한다. 
 
 ************************************
-Multiple Choice Exercises and Tools
+다양한 유형의 연습 및 도구
 ************************************
 
 .. list-table::
@@ -154,37 +148,25 @@ Multiple Choice Exercises and Tools
           :width: 100
           :alt: Example checkbox problem
      - :ref:`Checkbox`
-     - In checkbox problems, the student selects one or more options from a
-       list of possible answers. The student must select all the options that
-       apply to answer the problem correctly.
+     - 체크 문제에서, 학습자는 가능한 답안 목록에서 하나 이상의 옵션을 선택한다. 학습자는 문제에 대해 올바르게 대답하기 위해 적용되는 모든 옵션을 선택해야 한다
    * - .. image:: ../../../shared/building_and_running_chapters/Images/DropdownExample.png
           :width: 100
           :alt: Example dropdown problem
      - :ref:`Dropdown`
-     - Dropdown problems allow the student to choose from a collection of
-       answer options, presented as a dropdown list. Unlike multiple choice
-       problems, whose answers are always visible directly below the question,
-       dropdown problems don't show answer choices until the student clicks the
-       dropdown arrow.
+     - 드롭다운 문제는 학습자가 드롭다운 목록으로 제공된 답안 옵션 모음에서 선택할 수 있도록 허용한다. 답안이 항상 질문 바로 아래 표시되는 다중 선택 문제와는 달리, 드롭다운 문제는 학습자가 드롭다운 화살표를 클릭할 때까지 답안 선택을 표시하지 않는다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoiceExample.png
           :width: 100
           :alt: Example multiple choice problem
      - :ref:`Multiple Choice`
-     - In multiple choice problems, students select one option from a list of
-       answer options. Unlike with dropdown problems, whose answer choices
-       don't appear until the student clicks the drop-down arrow, answer
-       choices for multiple choice problems are always visible directly below
-       the question.
+     - 다중 선택 문제에서, 학습자는 답안 옵션 목록에서 하나의 옵션을 선택한다. 학습자가 드롭다운 화살표를 클릭할 때까지 답안 선택이 표시되지 않는 드롭다운 문제와는 달리, 다중 선택 문제에 대한 답안 선택은 항상 질문 바로 아래 표시된다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoice_NumericalInput.png
           :width: 100
           :alt: Example multiple choice and numerical input problem
      - :ref:`Multiple Choice and Numerical Input`
-     - You can create a problem that combines a multiple choice and numerical
-       input problems. Students not only select a response from options that
-       you provide, but also provide more specific information, if necessary.
+     - 다중 선택 및 숫자 입력 문제를 결합한 문제를 만들 수 있다. 학습자는 제공하는 옵션에서 응답을 선택할 수 있을 뿐만 아니라, 필요한 경우 더 자세한 정보를 제공할 수 있다. 
 
 ********************************
-STEM Exercises and Tools
+STEM 연습 및 도구
 ********************************
 
 .. list-table::
@@ -194,68 +176,44 @@ STEM Exercises and Tools
           :width: 100
           :alt: Example chemical equation problem
      - :ref:`Chemical Equation`
-     - Chemical equation problems allow the student to enter text that
-       represents a chemical equation into a text box. The grader evaluates the
-       student's response by using a Python script that you create and embed in
-       the problem.
+     - 화학 공식 문제는 학습자가 화학 공식을 나타내는 텍스트를 텍스트 상자에 입력할 수 있도록 허용한다. 채점자는 만들고 문제에 포함시킨 파이썬 스크립트를 사용하여 학습자의 응답을 평가한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/CircuitSchematicExample_short.png
           :width: 100
           :alt: Example circuit schematic builder problem
      - :ref:`Circuit Schematic Builder`
-     - In circuit schematic builder problems, students can arrange circuit
-       elements such as voltage sources, capacitors, resistors, and MOSFETs on
-       an interactive grid. They then submit a DC, AC, or transient analysis of
-       their circuit to the system for grading.
+     - 회로도 문제에서 학습자는 인터랙티브 그리드(interactive grid)위에 전압 소스, 커패시터, 저항, MOSFETs 등 회로 요소를 나열할 수 있다. 그런 다음, 채점을 위해 회로에 대한 DC, AC, 또는 과도기 분석 결과를 시스템에 제출한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/GeneExplorer.png
           :width: 100
           :alt: Example gene explorer problem
      - :ref:`Gene Explorer`
-     - The Gene Explorer (GeneX) simulates the transcription, splicing,
-       processing, and translation of a small hypothetical eukaryotic gene.
-       GeneX allows students to make specific mutations in a gene sequence, and
-       it then calculates and displays the effects of the mutations on the mRNA
-       and protein.
+     - 유전자 탐색기(GeneX)는 전사, 접합, 처리, 및 작은 가상 진핵 유전자의 번역을 시뮬레이션 한다. GeneX는 학습자가 유전자 시퀀스에 특정 돌연변이 만들 수 있도록 허용하며, mRNA와 단백질에 미치는 돌연변이의 효과를 계산하고 표시한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/MathExpressionInputExample.png
           :width: 100
           :alt: Example math expression input problem
      - :ref:`Math Expression Input`
-     - The more complex of Studio's two types of math problems. In math
-       expression input problems, students enter mathematical expressions to
-       answer a question. These problems can include unknown variables and more
-       complex symbolic expressions. You can specify a correct answer either
-       explicitly or by using a Python script.
+     - 스튜디오에 있는 두 가지 유형의 수학 문제 중에 더 복잡한 유형이다. 수학 공식 입력 문제에서, 학습자는 질문에 답하기 위해 수학 공식을 입력한다. 이 문제는 알 수 없는 변수와 더 복잡한 기호식을 포함할 수 있다. 명시적으로 또는 Python 스크립트를 사용하여 정답을 지정할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/Molecule_Editor.png
           :width: 100
           :alt: Example molecule editor problem
      - :ref:`Molecule Editor`
-     - The molecule editor allows students to draw molecules that follow the
-       rules for covalent bond formation and formal charge, even if the
-       molecules are chemically impossible, are unstable, or do not exist in
-       living systems.
+     - 분자 편집기는 분자가 화학적으로 불가능하거나, 불안정하거나, 또는 살아있는 시스템에 존재하지 않는 경우라 할지라도, 학습자가 공유 결합 형성 및 형식 전하에 대한 규칙에 따라 분자를 그릴 수 있도록 허용한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/MoleculeViewer.png
           :width: 100
           :alt: Example molecule viewer tool
      - :ref:`Molecule Viewer`
-     - The molecule viewer allows you to create three-dimensional representations of molecules for students to view.
+     - 분자 보기(molecule viewer)를 사용하면 학습자가 분자의 3 차원 묘사를 볼 수 있도록 만들 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/image292.png
           :width: 100
           :alt: Example numerical input problem
      - :ref:`Numerical Input`
-     - The simpler of Studio's two types of math problems. In numerical input
-       problems, students enter numbers or specific and relatively simple
-       mathematical expressions to answer a question. These problems only allow
-       integers and a few select constants. You can specify a margin of error,
-       and you can specify a correct answer either explicitly or by using a
-       Python script.
+     - 스튜디오에 있는 두 가지 유형의 수학 문제 중에 더 간단한 유형이다. 숫자 입력 문제에서, 학습자는 질문에 답하기 위해 숫자 또는 구체적이고 비교적 간단한 수학 공식을 입력한다. 이러한 문제는 정수만을 허용하며, 몇 가지 문제는 상수만 허용한다. 허용 오차를 지정하고 명시적으로 또는 Python 스크립트를 사용하여 정답을 지정할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/Periodic_Table.png
           :width: 100
           :alt: Example periodic table problem
      - :ref:`Periodic Table`
-     - An interactive periodic table of the elements shows detailed information
-       about each element as the student moves the mouse over the element.
+     - 요소에 관한 인터랙티브 주기율표는 학습자가 마우스를 요소 위로 이동하면  각 요소에 대한 자세한 정보를 표시한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/ProteinBuilder.png
           :width: 100
           :alt: Example protein builder problem
      - :ref:`Protein Builder`
-     - The Protex protein builder asks students to create specified protein
-       shapes by stringing together amino acids.
+     - Protex 단백질 작성기는 학습자가 아미노산을 함께 모아 특정 단백질 모양을 만들 수 있도록 한다.
