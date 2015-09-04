@@ -276,232 +276,124 @@ K-MOOC 담당자는 간단한 편집기 인터페이스의 오른쪽 상단 모�
 무작위 추출하기를 이용 가능하게 만들려면, **무작위 추출하기** 설정에 대한 옵션을 선택한다. 이 설정은 다음과 같은 옵션을 가지고 있다.
 
 +-------------------+--------------------------------------+
-| **Always**        |학습자는 **확인하기**을 클릭할 때마다 문제의 다른 버전을 본다.                           |
+| **Always**        |학습자는 **확인하기** 을 클릭할 때마다 문제의 다른 버전을 본다.                           |
 +-------------------+--------------------------------------+
-| **On Reset**      | Students see a different version of  |
-|                   | the problem each time they click     |
-|                   | **Reset**.                           |
+| **On Reset**      | 학습자는 **재설정하기** 을 클릭할 때마다 문제의 다른 버전을 본다.                     |
 +-------------------+--------------------------------------+
-| **Never**         | All students see the same version    |
-|                   | of the problem. This is the default. |
+| **Never**         | 모든 학습자는 문제의 동일한 버전을 본다. 이것은 기본값이다.. |
 +-------------------+--------------------------------------+
-| **Per Student**   | Individual students see the same     |
-|                   | version of the problem each time     |
-|                   | they look at it, but that version    |
-|                   | is different from the version that   |
-|                   | other students see.                  |
+| **Per Student**   | 개별 학습자는 문제를 볼 때마다 문제의 동일한 버전을 보지만, 그 버전은 다른 학습자가 보는 문제의 버전과는 다르다.              |
 +-------------------+--------------------------------------+
 
-.. note:: The edX Platform has a 20-seed limit for randomization.
+.. 참고:: EdX 플랫폼은 무작위 추출하기를 위해 최대 20개의 씨드(seed)를 가진다.
 
 .. _Show Answer:
 
 ===============
-Show Answer
+답안 표시
 ===============
 
-This setting defines when the problem shows the answer to the student.
-This setting has the following options.
+이 설정은 언제 학습자에게 문제의 답안을 표시하는지 정의한다. 이 설정에는 다음의 옵션이 있다.
 
 +-------------------+--------------------------------------+
-| **Always**        | Always show the answer when the      |
-|                   | student clicks the **Show Answer**   |
-|                   | button.                              |
+| **Always**        | 학습자가 **표시** 버튼을 클릭하면 항상 답안을 표시한다.                           |
 +-------------------+--------------------------------------+
-| **Answered**      | Show the answer after the student    |
-|                   | tries to answer the problem.         |
+| **Answered**      | 학습자가 문제에 답하려고 시도한 후 답안을 표시한다.         |
 |                   |                                      |
-|                   | If the question can be, and is,      |
-|                   | reset, the answer                    |
-|                   | is not shown until the student tries |
-|                   | the problem again. (When a student   |
-|                   | answers a question, the question is  |
-|                   | considered to be                     |
-|                   | both attempted and answered. When    |
-|                   | the question is reset, the question  |
-|                   | is still attempted, but not yet      |
-|                   | answered.)                           |
+|                   | 질문이 재설정 되는 경우, 답안은 학습자가 문제를 다시 시도할 때까지 표시 되지 않는다. (학습자 질문에 답하면, 그 질문은 모두 시도되었고, 답변된 것으로 간주된다. 질문이 재설정 되면, 그 질문은 여전히 시도되어야 하며 아직 답변되지 않은 것이다. )                       |
 +-------------------+--------------------------------------+
-| **Attempted**     | Show the answer after the student    |
-|                   | tries to answer the problem.         |
+| **Attempted**     | 학습자가 문제에 답하려고 시도한 후 답안을 표시한다.        |
 |                   |                                      |
-|                   | If the question can be, and is,      |
-|                   | reset, the answer                    |
-|                   | *continues to show*.                 |
-|                   | (When a student answers a question,  |
-|                   | the question is considered to be     |
-|                   | both attempted and                   |
-|                   | answered. When the question is       |
-|                   | reset, the question is still         |
-|                   | attempted, but not yet answered.)    |
+|                   | 질문이 재설정 되는 경우, 답안은 계속해서 표시된다. (학습자 질문에 답하면, 그 질문은 모두 시도되었고, 답변된 것으로 간주된다. 질문이 재설정 되면, 그 질문은 여전히 시도되어야 하며 아직 답변되지 않은 것이다. )   |
 +-------------------+--------------------------------------+
-| **Closed**        | Show the answer after the student    |
-|                   | has used up all his attempts to      |
-|                   | answer the problem or the due date   |
-|                   | has passed.                          |
+| **Closed**        | 학습자가 문제에 답하려고 하는 모든 시도 횟수를 사용한 후 또는 기한이 경과한 후 답안을 표시한다.               |
 +-------------------+--------------------------------------+
-| **Finished**      | Show the answer after the student    |
-|                   | has answered the problem correctly,  |
-|                   | the student has no attempts left, or |
-|                   | the problem due date has passed.     |
+| **Finished**      | 학습자가 문제에 올바르게 답한 후, 학습자에게 시도 횟수가 남아있지 않은 경우, 또는 문제 기한이 경과한 후 답안을 표시한다.    |
 +-------------------+--------------------------------------+
-| **Correct or      | Show the answer after the student    |
-| Past Due**        | has answered the problem correctly   |
-|                   | or the problem due date has passed.  |
+| **Correct or      | 학습자가 문제에 올바르게 답한 후 또는 문제 기한이 경과한 후에 답안을 표시한다.   |
 +-------------------+--------------------------------------+
-| **Past Due**      | Show the answer after the due date   |
-|                   | for the problem has passed.          |
+| **Past Due**      | 문제에 대한 기한이 경과한 후 답안을 표시한다.          |
 +-------------------+--------------------------------------+
-| **Never**         | Never show the answer. In this case, |
-|                   | the **Show Answer** button does not  |
-|                   | appear next to the problem in Studio |
-|                   | or in the LMS.                       |
+| **Never**         | 절대 대답을 표시하지 않는다. 이 경우에, 스튜디오 또는 LMS에서 문제 옆에 **답안 표시**  버튼이 나타나지 않는다.                 |
 +-------------------+--------------------------------------+
 
 .. _Show Reset Button:
 
 =================
-Show Reset Button
+재설정 버튼 보여주기
 =================
 
-This setting defines whether a **Reset** button is visible on the problem.
-Students can click **Reset** to clear any input that has not yet been submitted,
-and try again to answer the problem. If the student has already submitted an
-answer, clicking **Reset** clears the submission and, if the problem contains
-randomized variables and randomization is set to **On Reset**, changes the
-values the student sees in the problem. If the number of Maximum  Attempts that
-was set for this problem has been reached, the **Reset** button is not visible.
+이 설정은 **재설정** 버튼 문제에 표시 되는지 여부를 정의한다. 학습자는 아직 제출되지 않은 모든 입력을 취소하기 위해 **재설정** 을 클릭할 수 있고, 문제에 답하기를 다시 시도할 수 있다. 학습자가 이미 답변을 제출한 경우, **재설정** 을 클릭하면 제출한 것이 지워지고, 만약 문제가 무작위 변수를 포함하거나, 무작위 추출하기가 **재설정 작동** 으로 설정되면, 문제에서 학습자가 보게 되는 값은 변경된다. 만약 이 문제에 대해 설정된 최대 시도 횟수에 도달하면, **재설정** 버튼 표시되지 않는다.
 
-This problem-level settimg overrides the course-level **Show Reset Button for Problems** setting.
+이 문제 수준 설정은 강좌 수준의 **문제 재설정 버튼 표시** 설정보다 더 중요하다. 
 
 .. _Modifying a Released Problem:
 
 *********************************
-Modifying a Released Problem
+공개된 문제 수정 
 *********************************
 
-.. warning:: Be careful when you modify problems after they have been 
- released! Changes that you make to published problems can affect the student
- experience in the course and analysis of course data.
+.. 주의:: 문제가 공개된 후 문제를 수정할 때 주의해야 한다! 게시된 문제에 대한 변경은 강좌에서 학습자의 경험 및 강좌 데이터의 분석에 영향을 미칠 수 있다..
 
-After a student submits a response to a problem, the edX Learning Management
-System (LMS) stores the student’s response, the score that the student
-received, and the maximum score for the problem. For problems with a **Maximum
-Attempts** setting greater than 1, the LMS updates these values each time the
-student submits a new response to a problem. However, if an instructor changes
-a problem or its attributes, existing student information for that problem is
-not automatically updated.
+학습자가 문제에 대한 답안을 제출한 후, edX 학습 관리 시스템 (LMS)은 학습자의 답안과, 학습자가 받은 점수와, 문제에 대한 최대 점수를 저장한다. 1 보다 큰 수의 **최대 시도** 설정 문제에 대하여, LMS는 학습자가 문제에 대한 새로운 답안을 제출할 때마다 최대 시도 횟수 값을 업데이트한다. 그러나, 교수자가 문제 또는 문제의 특성을 변경하는 경우, 그 문제에 대한 기존의 학습자 정보는 자동으로 업데이트 되지 않는다.
 
-For example, you may release a problem and specify that its answer is 3.
-After some students have submitted responses, you notice that the answer
-should be 2 instead of 3. When you update the problem with the correct
-answer, the LMS doesn’t update scores for students who answered 2 for the
-original problem and thus received the wrong score.
+예를 들어, K-MOOC 담당자는 문제를 공개하고 그 문제에 대한 답을 3으로 지정할 수 있다. 일부 학습자가 답안을 제출한 후, K-MOOC 담당자는 그 답안이 3 대신 2 이어야 한다는 것을 알게 된다. 정답과 함께 문제를 업데이트할 경우, LMS는 원래 문제에 대해 2라고 대답했던 학습자에 대해 업데이트 하지 않으므로 잘못된 점수를 받는다. 
 
-For another example, you may change the number of response fields to
-three. Students who submitted answers before the change have a score of
-0, 1, or 2 out of 2.0 for that problem. Students who submitted answers
-after the change have scores of 0, 1, 2, or 3 out of 3.0 for the same
-problem.
+또 다른 예로, K-MOOC 담당자는 답안 입력 필드의 수를 3으로 변경할 수 있다. 변경하기 전에 답안을 제출한 학습자는 그 문제에 대해 2.0점 중에 0, 1 또는 2점을 받는다. 변경 후에 답안을 제출한 학습자는 같은 문제에 대해 3.0점의 점수 중에 0, 1, 2 또는 3점의 점수를 받는다. 
 
-If you change the weight setting for the problem in Studio, however, existing
-student scores update when the student's **Progress** page is refreshed. In a
-live section, students will see the effect of these changes.
+그러나, 만약 K-MOOC 담당자가 스튜디오에서 문제에 대한 가중치 설정을 변경하면, 기존의 학습자 점수는 학습자의 **Progress** 페이지를 새로 고치면 바로 업데이트 된다. 라이브 주제에서, 학습자는 이러한 변경의 결과를 볼 것이다.
 
 ===============
-Workarounds
+차선책
 ===============
 
-If you have to modify a released problem in a way that affects grading, you
-have two options within Studio to assure that every student has the opportunity
-to submit a new response and be regraded. Note that both options require you to
-ask your students to go back and resubmit answers to a problem.
+채점에 영향을 주는 방식으로 공개된 문제를 수정해야 하는 경우, K-MOOC 담당자는 모든 학습자가 새로운 답안을 제출하고 답안이 재채점될 기회를 갖도록 하기 위해 스튜디오 내에서 두 가지 옵션을 가진다. 두 옵션 모두 학습자에게 문제에 대한 답변으로 되돌아가 답안을 다시 제출하도록 묻는다는 점을 참고한다. 
 
-*  In the Problem component that you changed, increase the number of attempts
-   for the problem. Then ask all your students to redo the problem.
+*  변경했던 문제 구성요소에서, 문제에 대한 시도의 횟수를 늘린다. 그 다음 모든 학습자에게 문제에 다시 답하도록 요청한다.
 
-*  Delete the entire Problem component in Studio and create a new Problem
-   component with the content and settings that you want. (If the revisions you
-   must make are minor, duplicate the Problem component before you delete it
-   and revise the copy.) Then ask all your students to complete the new
-   problem.
+*  스튜디오에서 전체 문제 구성요소를 삭제하고 K-MOOC 담당자가 원하는 콘텐츠 및 설정을 가지는 새로운 문제 구성요소를 만든다. (K-MOOC 담당자가 만들어야 하는 수정이 작은 경우, 삭제 하기 전에 문제 구성요소를 복제하여 그 복사본을 수정하도록 한다.) 그리고 난 후 모든 학습자에게 새로운 문제를 완료하도록 요청한다.
 
-For information about how to review and adjust student grades in the LMS, see
-:ref:`Grades`.
+LMS에서 학습자 성적을 검토하고 조정하는 방법에 대 한 정보은, :ref:`Grades` 을 참조하도록 한다.
 
 .. _Additional Work with Problems:
 
 ************************************
-Additional Work with Problems
+문제 추가 작업
 ************************************
 
-You have some further options when you work with problems. You can include more
-than one problem in a single problem component, or you can set up a problem
-that presents different versions to different students.
+K-MOOC 담당자가 문제에 대한 작업을 할 때 몇 가지 추가 옵션이 있다. 단일 문제 구성요소에 하나 이상의 문제를 포함하거나 또는 다른 학습자에게 다른 버전의 문제를 제시하도록 설정할 수 있다.
 
 .. _Multiple Problems in One Component:
 
 ====================================
-Multiple Problems in One Component
+하나의 구성요소에서 다중 문제
 ====================================
 
-You may want to create a problem that has more than one response type. For
-example, you may want to create a numerical input problem, and then include a
-multiple choice question about the numerical input problem. Or, you may want a
-student to be able to check the answers to many problems at one time. To do
-this, you can include multiple problems inside a single Problem component. The
-problems can be different types.
+K-MOOC 담당자는 하나 이상의 답안 유형을 가지는 문제를 만들려고 할 수 있다. 예를 들어 숫자 입력 문제를 만들고 난 다음 그 숫자 입력 문제에 대한 다중 선택 질문을 포함할 수 있다. 또는 학습자가 한 번에 많은 문제에 대한 답변을 할 수 있도록 만들 수도 있다. 이렇게 하려면 K-MOOC 담당자는 단일 문제 구성요소 내에 다중 문제를 포함시킬 수 있다. 그 문제는 다른 유형이 될 수 있다.
 
-.. note:: 
-  You cannot use a :ref:`Custom JavaScript` in a component that contains more
-  than one problem. Each custom JavaScript problem must be in its own
-  component.
+.. 참고:: 
+  하나 이상의 문제를 포함하는 구성요소에는 :ref:`Custom JavaScript` 를 사용할 수 없다. 각각의 사용자 지정 자바 스크립트 문제는 자신의 구성요소에 있어야 한다
 
-To create multiple problems in one component, create a new Blank Advanced
-Problem component, and then add the XML for each problem in the component
-editor. You only need to include the XML for the problem and its answers. You
-don’t have to include the code for other elements, such as the **Check**
-button.
+한 구성요소에 다중 문제를 만들려면, 새로운 빈 고급 문제 구성요소를 만들고, 그 다음 구성요소 편집기에서 각 문제에 대한 XML을 추가해야 한다. 문제와 그 대답에 대한 XML을 포함하기만 하면 된다. **확인** 버튼과 같은 다른 요소에 대한 코드를 포함할 필요가 없다.
 
-Elements such as the **Check**, **Show Answer**, and **Reset** buttons, as well
-as the settings that you select for the Problem component, apply to all of the
-problems in that component. Thus, if you set the maximum number of attempts to
-3, the student has three attempts to answer the entire set of problems in the
-component as a whole rather than three attempts to answer each problem
-individually. If a student clicks **Check**, the LMS scores all of the problems
-in the component at once. If a student clicks **Show Answer**, the answers for
-all the problems in the component appear.
+문제 구성요소에 대해 선택한 설정 뿐만 아니라, **확인** ,  **답안 표시** 및 **재설정**  버튼과 같은 요소는 해당 구성요소에서 있는 모든 문제에 적용된다. 따라서, 최대 시도 횟수를 3으로 설정하는 경우, 학습자는 각 문제를 개별적으로 답하기 위해 세 번 시도하는 것이 아니라, 전체적으로 문제 구성요소에 있는 전체 문제 집합에 답하기 위해 세 번의 시도를 할 수 있게 된다. 학습자가 **확인** 을 클릭하면, LMS는 한번에 구성요소에 있는 모든 문제의 점수를 낸다. 학습자가 **답안 표시** 를 클릭하면, 구성요소에 있는 모든 문제에 대한 답안이 표시된다. 
 
 .. _Problem Randomization:
 
 ===========================
-Problem Randomization
+문제 무작위 추출하기
 ===========================
 
-You may want to present different students with different problems, or
-different versions of the same problem. To do this, you'll create a Problem
-component for each problem or version in Studio, and then edit your course
-outside of Studio to randomize the problem that students see.
+K-MOOC 담당자는 다른 학습자에게 다른 문제 또는 동일한 문제의 다른 버전을 제시할 수 있다. 이렇게 하려면, 스튜디오에서 각 문제 또는 버전에 대해 문제 구성요소를 만들고 그런 다음, 학습자가 볼 문제를 무작위로 뽑기 위해 스튜디오 외부에서 강좌를 편집해야 한다. 
 
-Note that *problem randomization* is different from the **Randomization**
-setting in Studio. The **Randomization** setting randomizes variables within a
-single problem. Problem randomization offers different problems or problem
-versions to different students.
+문제 무작위 추출하기는 스튜디오에 있는 **무작위 추출하기** 설정과는 다르다. **무작위 추출하기** 설정은 하나의 문제 내에서 변수를 무작위로 뽑는다**문제 무작위 추출하기** 는 다른 학습자에게 다른 문제 또는 다른 버전의 문제를 제공한다. 
 
-.. note:: Creating problems with versions that can be randomized requires you 
- to export your course, edit some of your course's XML files in a text editor,
- and then re-import your course. We recommend that you create a backup copy of
- your course before you do this. We also recommend that you only edit your
- course files in the text editor if you're very familiar with editing XML.
+.. 참고:: 무작위로 뽑혀질 수 있는 버전의 문제를 만들려면, K-MOOC 담당자는 강좌를 내보내고, 일부 강좌의 XML 파일을 텍스트 편집기에서 편집하고, 그런 다음 강좌를 다시 가져와야 한다. 이렇게 하기 전에 강좌의 백업 복사본을 만들어 놓는 것이 좋다. 또한 XML을 편집하는 것이 매우 익숙한 경우에는 텍스트 편집기에서 강좌 파일을 편집하는 것이 좋다.
 
-Terminology
+전문 용어
 ************
 
-Sections, subsections, units, and components have different names in the
-**Course Outline** view and in the list of files that you'll see after you
-export your course and open the .xml files for editing. The following table
-lists the names of these elements in the **Course Outline** view and in a list
-of files.
+주제, 소주제, 학습활동 및 구성요소는 K-MOOC 담당자가 강좌를 내보내고 편집을 위해 .xml파일을 연 후 보게 될 파일 목록 및 **강좌 개요** 보기에서 다른 이름으로 표시된다. 다음 표는 파일 목록 및 **강좌 개요** 보기에 있는 이러한 요소의 이름을 나열하고 있다. 
 
 .. list-table::
    :widths: 15 15
@@ -518,57 +410,39 @@ of files.
    * - Component
      - Discussion, HTML, problem, or video
 
-For example, when you want to find a specific section in your course, you'll
-look in the **Chapter** folder when you open the list of files that your course
-contains. To find a unit, you'll look in the **Vertical** folder.
+예를 들어 K-MOOC 담당자가 강좌에서 특정 주제를 찾을 경우, 강좌에 포함된 파일 목록을 열어 **장** 폴더를 찾아 볼 것이다. 학습활동을 찾으려면, **세로** 폴더를 찾아 볼 것 이다.
 
 .. _Create Randomized Problems:
 
-Create Randomized Problems
+무작위로 추출되는 문제 만들기
 ****************************
 
-#. In the unit where you want to create a randomized problem, create a separate
-   Problem component for each version or problem that you want to randomize.
-   For example, if you want to offer four versions or problems, you'll create
-   four separate Problem components. Make a note of the 32-digit unit ID that
-   appears in the **Unit Identifier** field under **Unit Location**.
+#. 무작위로 추출되는 문제를 만들려는 학습활동에서, 각 버전 또는 무작위로 뽑고자 하는 문제에 대한 별도 문제 구성요소를 만든다. 예를 들어 4 개의 버전 또는 문제를 제공하려는 경우, 4 개의 별도 문제 구성요소를 만들어야 한다. **학습활동 위치** 아래 **학습활동 식별자** 입력 필드에서 표시되는 32 자리 학습활동 ID 를 확인하도록 한다.
 
-#. Export your course. For information about how to do this, see
-   :ref:`Exporting and Importing a Course`. Save the .tar.gz file that contains
-   your course in a memorable location so that you can find it easily.
+#. 강좌를 내보낸다. 이 작업을 수행하는 방법에 대한 정보는, :ref:`Exporting and Importing a Course` 를 참조하도록 한다. 강좌를 포함하는 .tar.gz 파일을 쉽게 찾을 수 있도록 기억에 남는 위치에 저장한다.
 
-#. Locate the .tar.gz file that contains your course, and then unpack the
-   .tar.gz file so that you can see its contents in a list of folders and
-   files.
+#. 강좌를 포함하고 있는 .tar.gz 파일을 찾은 다음, 폴더 및 파일 목록으로 해당 콘텐츠를 볼 수 있도록.tar.gz 파일의 압축을 푼다.
 
-   To do this on a Windows computer, you'll need to download a third-party
-   program. For more information, see `How to Unpack a tar File in Windows
-   <http://www.haskell.org/haskellwiki/How_to_unpack_a_tar_file_in_Windows>`_,
-   `How to Extract a Gz File <http://www.wikihow.com/Extract-a-Gz-File>`_, `The
-   gzip Home Page <http://www.gzip.org/>`_, or the `Windows
+   Windows 컴퓨터에서 이렇게 하려면 제 3자 프로그램을 다운로드 해야 한다. 더 자세한 내용은 `How to Unpack a tar File in Windows
+   <http://www.haskell.org/haskellwiki/How_to_unpack_a_tar_file_in_Windows>`_ , `How to Extract a Gz File <http://www.wikihow.com/Extract-a-Gz-File>`_ , 또는 `Windows
    <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#windows>`_
    section of the `How to Open .tar.gz Files <http://www.ofzenandcomputing.com
-   /how-to-open-tar-gz-files/>`_ page.
+   /how-to-open-tar-gz-files/>`_ 페이지의 `The
+   gzip Home Page <http://www.gzip.org/>`_  주제를 참조하도록 한다.
 
-   For information about how to do this on a Mac, see the `Mac OS X
-   <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#mac-os-x>`_
-   section of the `How to Open .tar.gz Files <http://www.ofzenandcomputing.com
-   /how-to-open-tar-gz-files/>`_ page.
 
-#. In the list of folders and files, open the **Vertical** folder.
+   Mac에서이 작업을 수행 하는 방법에 대한 자세한 정보는 `How to Open .tar.gz Files <http://www.ofzenandcomputing.com
+   /how-to-open-tar-gz-files/>`_ 페이지의 `Mac OS X
+   <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#mac-os-x>`_ 주제를 참조하도록 한다 
 
-   .. note:: If your unit is not published, open the **Drafts** folder, and 
-    then open the **Vertical** folder in the **Drafts** folder.
 
-#. In the **Vertical** folder, locate the .xml file that has the same name as
-   the unit ID that you noted in step 1, and then open the file in a text
-   editor such as Sublime 2. For example, if the unit ID is
-   e461de7fe2b84ebeabe1a97683360d31, you'll open the
-   e461de7fe2b84ebeabe1a97683360d31.xml file.
+#. 폴더와 파일의 목록에서 **세로** 폴더를 연다.
 
-   The file contains a list of all the components in the unit, together with
-   the URL names of the components. For example, the following file contains
-   four Problem components.
+   .. 참고:: K-MOOC 담당자의 학습활동이 게시 되지 않은 경우, **임시 보관함** 폴더를 연 다음 **임시 보관함** 폴더에서 **세로** 폴더를 열도록 한다.
+
+#. **세로** 폴더에서, 1 단계에서 적어둔 학습활동 ID와 동일한 이름을 가진 .xml 파일을 찾은 다음 Sublime 2등과 같이 텍스트 편집기에서 해당 파일을 연다. 예를 들어 학습활동 ID e461de7fe2b84ebeabe1a97683360d31 인 경우, K-MOOC 담당자는 e461de7fe2b84ebeabe1a97683360d31.xml 파일을 열게 된다.
+
+   파일은 구성요소 URL 이름과 함께 학습활동에 있는 모든 구성요소 목록을 포함하고 있다. 예를 들어 다음 파일은 4개의 문제 구성요소를 포함하고 있다.
 
    .. code-block:: xml
      
@@ -579,8 +453,7 @@ Create Randomized Problems
           <problem url_name="88987707294d4ff0ba3b86921438d0c0"/>
        </vertical>
 
-#. Add ``<randomize> </randomize>`` tags around the components for the problems
-   that you want to randomize.
+#. 무작위로 추출하고자 하는 문제에 대한 구성요소 주변에 ``<randomize> </randomize>`` 태그를 추가한다. 
 
    .. code-block:: xml
       
@@ -593,28 +466,24 @@ Create Randomized Problems
          </randomize>
        </vertical>
 
-#. After you add the ``<randomize> </randomize>`` tags, save and close the .xml
-   file.
+#. ``<randomize> </randomize>`` 태그를 추가한 후, .xml 파일을 저장하고  닫는다.
 
-#. Re-package your course as a .tar.gz file.
+#. 강좌를 .tar.gz 파일로 다시 압축하여 묶는다. 
 
-   For information about how to do this on a Mac, see `How to Create a Tar GZip
+   Mac에서 이 작업을 수행 하는 방법에 대한 내용은, `How to Create a Tar GZip
    File from the Command Line <http://osxdaily.com/2012/04/05/create- tar-
-   gzip/>`_.
+   gzip/>`_ 을 참조하도록 한다.
 
-   For information about how to do this on a Windows computer, see `How to Make
+
+   Windows 컴퓨터에서 이 작업을 수행 하는 방법에 대한 내용은, `How to Make
    a .tar.gz on Windows <http://stackoverflow.com/questions/12774707 /how-to-
-   make-a-tar-gz-on-windows>`_.
+   make-a-tar-gz-on-windows>`_을 참조하도록 한다.
 
-#. In Studio, re-import your course.
 
-.. note::
+#. 스튜디오에서 강좌를 다시 가져온다.
 
-  * Once you've implemented randomization, you can only see one of the versions
-    or problems in Studio. You can edit that single problem directly in Studio,
-    but to edit any of the other problems, you'll have to export your course,
-    edit the problems in a text editor, and then re-import the course. This is
-    true for instructors as well as course teams.
+.. 참고::
+
+  * 일단 무작위로 추출하기를 구현했다면, K-MOOC 담당자는 스튜디오에서 문제 또는 문제의 버전 중 하나만을 볼 수 있다. 직접 스튜디오에서 하나의 문제를 편집할 수 있지만 다른 문제도 편집하려면 강좌를 내보내고, 텍스트 편집기에서 문제를 편집하고, 그런 다음 강좌를 다시 가져와야 한다. 이것은 강좌 운영팀 뿐 아니라 교수자도 마찬가지이다.
   
-  * A .csv file for student responses contains the responses to each of the
-    problems in the problem bank.
+  * 학습자 답변에 대한 .csv 파일은 문제 은행에 있는 각 문제에 대한 답변을 포함하고 있다.
