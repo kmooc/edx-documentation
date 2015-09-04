@@ -1,19 +1,19 @@
 .. _Gene Explorer:
 
 ##################
-Gene Explorer Tool
+유전자 탐색기 (Gene Explorer) 도구
 ##################
 
-The Gene Explorer (GeneX), from the biology department at `UMB <http://www.umb.edu/>`_, simulates the transcription, splicing, processing, and translation of a small hypothetical eukaryotic gene. GeneX allows students to make specific mutations in a gene sequence, and it then calculates and displays the effects of the mutations on the mRNA and protein. 
+`UMB <http://www.umb.edu/>`_ 생물학과에서 만든 유전자 탐색기 (GeneX)는 전사, 접합, 처리, 및 작은 가상 진 핵 유전자의 번역을 시뮬레이션한다. GeneX는 학습자가 유전자 시퀀스에 특정 돌연변이를 만들 수 있도록 허용하며, mRNA와 단백질에 있는 돌연변이 수를 계산하고 이들 돌연변이의 효과를 표시한다.  
 
-Specifically, the Gene Explorer does the following:
+특히, 유전자 탐색기는 다음을 수행한다:
 
-#. Finds the promoter and terminator
-#. Reads the DNA sequence to produce the pre-mRNA
-#. Finds the splice sites
-#. Splices and tails the mRNA
-#. Finds the start codon
-#. Translates the mRNA
+#. promoter 및 terminator 찾기
+#. pre-mRNA를 생산하기 위해 DNA 시퀀스를 읽기
+#. splice 사이트 찾기
+#. mRNA splice 하기 및 tail하기
+#. 시작 코돈 찾기
+#. mRNA 번역하기
 
 .. image:: ../../../shared/building_and_running_chapters/Images/GeneExplorer.png
   :alt: Image of the Gene Explorer
@@ -21,7 +21,7 @@ Specifically, the Gene Explorer does the following:
 For more information about the Gene Explorer, see `The Gene Explorer <http://intro.bio.umb.edu/GX/>`_.
 
 ********************
-Gene Explorer Code
+유전자 탐색기 코드
 ********************
 
 .. code-block:: xml
@@ -41,9 +41,9 @@ Gene Explorer Code
   </customresponse>
   </problem>
 
-In this code:
+이 코드에서: 
 
-* **width** and **height** specify the dimensions of the application, in pixels.
-* **genex_dna_sequence** is the default DNA sequence that appears when the problem opens.
-* **dna_sequence** contains the application's state and the student's answer. This value must be the same as **genex_dna_sequence**. 
-* **genex_problem_number** specifies the number of the problem. This number is based on the five gene editor problems in the MITx 7.00x course--for example, if you want this problem to look like the second gene editor problem in the 7.00x course, you would set the **genex_problem_number** value to 2. The number must be 1, 2, 3, 4, or 5.
+* **너비** 및 **높이** 는 픽셀 단위로 응용 프로그램의 크기를 지정한다.
+* **genex_dna_sequence** 는 문제를 열 때 나타나는 기본 DNA 시퀀스이다.
+* **dna_sequence** 는 응용 프로그램의 상태 및 학습자의 답안을 포함한다. 이 값은 **genex_dna_sequence** 와 동일해야 한다. 
+* **genex_problem_number** 는 문제의 번호를 지정한다. 이 수는 MITx 7.00 x 강좌에 있는 5 개의 유전자 편집기 문제를 기반으로 한다 - 예를 들어 7.00 x 강좌에서 두 번째 유전자 편집기 문제처럼 문제를 만들 경우, **genex_problem_number ** 값은 2가 된다. 이 수는 1, 2, 3, 4, 또는 5 이어야 한다.
