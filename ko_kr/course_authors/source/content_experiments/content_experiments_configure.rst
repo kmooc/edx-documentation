@@ -18,7 +18,7 @@
 콘텐츠 실험을 활성화하기
 ****************************************
 
-강좌에서 콘텐츠 실험을 활성화하기 위해, ``split_test`` 를 고급설정에서 "고급 모듈 목록"" 에 추가한다. 
+강좌에서 콘텐츠 실험을 활성화하기 위해, ``split_test`` 를 고급설정에서 **고급 모듈 목록** 에 추가한다. 
 
 .. note::  
 ``split_test`` 는 콘텐츠 실험의 내부 edX 플랫폼 이름이다.  
@@ -29,11 +29,9 @@
 
 #. **고급 모듈 목록** 칸에, ``"split_test"`` 를 추가한다. 큰따옴표가 포함되었는지 확인한다. 
 
-   If you have multiple values, ensure that they are separated by commas
-   (``,``).
+   여러개의 값이 있다면, 쉼표로 분리한다 (``,``).
 
-   For example, the text in the **Advanced Modules List** field may resemble
-   the following:
+   예를 들어, **고급 모듈 목록** 칸에 입력되는 텍스트는 다음과 같을 것이다:
 
    .. code-block:: json
      
@@ -43,40 +41,29 @@
        "split_test"
      ]
 
-#. At the bottom of the page, click **Save Changes**.
+#. 페이지 하단에 **다시 저장** 을 클릭한다.
 
 .. _Overview of Group Configurations:
 
 ****************************************
-Overview of Group Configurations
+집단 설정 개관
 ****************************************
 
-Before you can create content experiments, you must specify at least one group
-configuration for your course.
+콘텐츠 실험을 만들기 전에 강좌에서 최소한 1개의 집단을 설정해야 한다 .
 
-A group configuration defines how many groups of students are in an experiment.
-You can have any number of group configurations in your course. When you create
-a content experiment, you select the group configuration to use.
+집단 설정은 실험에 참여하는 집단의 수를 정한다. 콘텐츠 실험을 만들때, 이용하기 위한 집단 설정을 선택한다. 
 
-For example, you may want to do two different experiments at different times
-during your course. In one content experiment, students either see a video or
-complete a reading assignment. You can then include problems so that you can
-see which group learned the material more completely. For this content
-experiment, you need a group configuration that assigns your students to two
-experiment groups.
+예를 들어, 강좌에서 다른 시기에 다른 2개의 실험을 원한다고 하자. 콘텐츠 실험에서, 학습자는 동영상을 보거나 읽기 과제를 한다. 어떤 집단이 자료를 더 잘 학습하였는지 확인하기 위해 문제를 추가할 수 있다. 콘텐츠 실험에서, 2개의 실험 그룹에 학생들을 배정하기 위해 집단 설정한다. 
 
-In the other content experiment, you can present the same question using four 
-different types of problems. For this content experiment, you need a
-group configuration that assigns your students to four experiment groups.
+다른 콘텐츠 실험에서, 문제의 4개의 다른 유형을 이용하여 동일 질문을 보여 줄 수 있다. 이 콘텐츠 실험에서, 학습자들을 4개의 실험 집단에 배정하도록 집단을 설정한다. 
 
 =======================================
-Assigning Students to Experiment Groups
+실험 집단에 학습자 배정하기
 =======================================
 
-The edX Platform assigns students to each experiment group in a group
-configuration.
+edX 플랫폼은 집단 설정에서 학습자를 각 실험 집단에 배정한다.  
 
-Experiment group assignments are:
+실험 집단 배정은:
 
 * Dynamic
 
