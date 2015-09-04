@@ -1,27 +1,26 @@
 .. _Conditional Module:
 
 ####################
-Conditional Module
+조건부 모듈
 ####################
 
 ********************
-Format description
+양식 설명
 ********************
 
-The main tag of conditional module input is:
+조건부 모듈 입력의 주요 태그는
 
 .. code-block:: xml
 
     <conditional> ... </conditional>
 
-``conditional`` can include any number of any xmodule tags (``html``, ``video``, ``poll``, etc.) or ``show`` tags.
+``조건부`` 는 모든 수의 모든 xmodule 태그 ( ``html`` , ``설문 조사`` , ``비디오`` 등) 또는 ``표시`` 태그를 포함할 수 있다.
 
 ================
-conditional tag
+조건부 태그
 ================
 
-The main container for a single instance of a conditional module. The following attributes can
-be specified for this tag:
+조건부 모듈의 단일 예시에 대한 주요한 컨테이너(container)이다. 이 태크에 대하여 다음과 같은 속성을 지정할 수 있다
 
 .. code-block:: xml
 
@@ -37,22 +36,21 @@ be specified for this tag:
     [voted] - map to `voted` module attribute
 
 ========
-show tag
+표시 태그
 ========
 
-Symlink to some set of xmodules. The following attributes can
-be specified for this tag:
+Xmodules의 몇 가지 세트에 대한 Symlink이다. 이 태크에 대하여 다음과 같은 속성을 지정할 수 있다
 
 .. code-block:: xml
 
     sources - location id of modules, separated by ';'
 
 *********
-Example
+예
 *********
 
 ========================================
-Examples of conditional depends on poll
+설문 조사에 의존하는 조건부의 예
 ========================================
 
 .. code-block:: xml
@@ -65,7 +63,7 @@ Examples of conditional depends on poll
     </conditional>
 
 ========================================================
-Examples of conditional depends on poll (use <show> tag)
+설문 조사에 의존하는 조건부의 예 (<표시> 태그 사용하기) 
 ========================================================
 
 .. code-block:: xml
@@ -78,7 +76,7 @@ Examples of conditional depends on poll (use <show> tag)
     </conditional>
 
 ================================================
-Examples of conditional depends on problem
+문제에 의존하는 조건부의 예
 ================================================
 
 .. code-block:: xml
