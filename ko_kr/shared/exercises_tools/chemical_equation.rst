@@ -1,30 +1,30 @@
 .. _Chemical Equation:
 
 ################################
-Chemical Equation Problem
+화학 공식 문제
 ################################
 
-The chemical equation problem type allows the student to enter text that represents a chemical equation into a text box. The system converts that text into a chemical equation below the text box. The grader evaluates the student's response by using a Python script that you create and embed in the problem.
+화학 공식 문제 유형은 학습자가 화학 공식을 나타내는 텍스트를 텍스트 상자에 입력할 수 있도록 허용한다. 시스템은 해당 텍스트를 텍스트 상자 아래에 있는 화학 공식으로 변환한다. 채점자는 문제에 만들고 포함시킨 파이썬 스크립트를 사용하여 학습자의 응답을 평가한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ChemicalEquationExample.png
  :alt: Image of a chemical equation response problem
 
 ************************************
-Create the Chemical Equation Problem
+화학 공식 문제 만들기
 ************************************
 
-Chemical equation problems use MathJax to create formulas. For more information about using MathJax in Studio, see :ref:`MathJax in Studio`.
+화학 공식 문제는 MathJax를 사용하여 수식을 만든다. 스튜디오에서 MathJax를 사용하는 것에 대한 자세한 내용은 :ref:`MathJax in Studio`  를 참조하도록 한다.
 
-To create the above chemical equation problem:
+위의 화학 공식 문제를 만들려면
 
-#. In the unit where you want to create the problem, click **Problem** under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Blank Advanced Problem**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, paste the code from below.
-#. Click **Save**.
+#. 문제를 만들려는 학습활동에서 **새 구성 요소 추가하기** 에서 **문제** 를 클릭한 다음, **고급** 탭을 클릭한다. 
+#. **빈 고급 문제** 를 클릭한다.
+#. 표시되는 구성 요소에서 **편집** 을 클릭한다.
+#. 구성 요소 편집기에서 아래에서 코드를 붙여 넣는다.
+#. **저장** 을 클릭한다.
 
 ==========================================
-Sample Chemical Equation Problem Code
+화학 공식 문제 코드 샘플
 ==========================================
 
 .. code-block:: xml
@@ -68,11 +68,11 @@ Sample Chemical Equation Problem Code
 .. _Chemical Equation Problem XML:
 
 ************************************
-Chemical Equation Problem XML
+화학 공식 문제 XML
 ************************************
 
 ============
-Template
+템플릿
 ============
 
 .. code-block:: xml
@@ -104,16 +104,16 @@ Template
   </problem>
 
 ======
-Tags
+태그
 ======
 
-* ``<customresponse>``: Indicates that this problem has a custom response. 
-* ``<chemicalequationinput>``: Specifies that the answer to this problem is a chemical equation. 
-* ``<answer type=loncapa/python>``: Contains the Python script that grades the problem.
+* ``<customresponse>``: 해당 문제가 사용자 지정 응답임을 나타낸다. 
+* ``<chemicalequationinput>``: 해당 문제에 대한 답안은 화학 공식임을 지정한다. 
+* ``<answer type=loncapa/python>``: 문제를 채점하는 파이썬 스크립트를 포함한다.
 
 **Tag:** ``<customresponse>``
 
-Indicates that this problem has a custom response. The ``<customresponse>`` tags must surround the ``<chemicalequation>`` tags.
+해당 문제가 사용자 지정 응답임을 나타낸다. ``<customresponse>`` 태그는 ``<chemicalequation>`` 태그를 둘러싸야 한다.
 
   Attributes
 
@@ -126,19 +126,19 @@ Indicates that this problem has a custom response. The ``<customresponse>`` tags
 
 **Tag:** ``<chemicalequationinput>``
 
-Indicates that the answer to this problem is a chemical equation and creates a response field where the student enters an answer.
+해당 문제에 대한 답안은 화학 공식임을 지정하고 학습자가 답안을 입력하는 응답 입력 필드를 만든다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
      * - Attribute
        - Description
-     * - size 
-       - Specifies the size of the response field, in characters.
-     * - label (required)
-       - Contains the text of the principal question in the problem.
+     * - 크기 
+       - 문자로 넣는 응답 입력 필드의 크기를 지정한다.
+     * - 라벨 (필수사항)
+       - 문제에서 주요한 질문의 텍스트를 포함한다.
 
   Children
   
@@ -146,17 +146,17 @@ Indicates that the answer to this problem is a chemical equation and creates a r
 
 **Tag:** ``<answer>``
 
-Contains the Python script that grades the problem.
+문제를 채점하는 파이썬 스크립트를 포함한다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
      * - Attribute
        - Description
-     * - type (required) 
-       - Must be "loncapa/python".
+     * - 유형 (필수 사항) 
+       - "Loncapa/파이썬" 이어야 한다.
 
   Children
   
