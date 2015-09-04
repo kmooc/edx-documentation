@@ -1,19 +1,19 @@
 .. _External Grader:
 
 ###########################
-External Grader
+외부 채점자
 ###########################
 
 
 .. _External Grader Overview:
 
 *******************
-Overview
+개관
 *******************
 
-An external grader is a service that receives student responses to a problem, processes those responses, and returns feedback and a problem grade to the edX platform. You build and deploy an external grader separately from the edX platform.
+외부 채점자는 문제에 대한 학습자의 응답을 받고, 그 응답을 처리하고, edX 플랫폼으로 피드백과 문제 점수를 반환하는 서비스이다. edX 플랫폼과는 별도로 외부 채점자를 만들고 배포할 수 있다. 
 
-See the following sections for more information:
+더 자세한 내용은 다음 주제를 참조하도록 한다.
 
 * :ref:`External Grader Example`
 * :ref:`External Graders and XQueue`
@@ -24,18 +24,18 @@ See the following sections for more information:
 .. _External Grader Example:
 
 ***************************
-External Grader Example
+외부 채점자 예시
 ***************************
 
-An external grader is particularly useful for software programming courses where students are asked to submit complex code.  The grader can run tests that you define on that code and return results to a student.
+외부 채점자는 학습자가 복잡한 코드를 제출해야 하는 소프트웨어 프로그래밍 강좌에 특히 유용하다. 외부 채점자는 강좌 운영팀이 코드에 정의한 테스트를 실행할 수 있고, 결과를 학습자에게 반환할 수 있다. 
 
-For example, you define a problem that requires students to submit Python code, and create a set of tests that an external grader can run to verify the submissions. When a student enters Python code for the problem and clicks **Check**, the code is sent to the grader for testing.  If the code passes all tests, the grader returns the score and a string indicating that the solution is correct.
+예를 들어, 학습자가 파이썬 코드를 제출해야 하는 문제를 정의하고, 외부 채점자가 제출을 확인하기 위해 실행할 수 있는 일련의 테스트를 만든다. 학습자가 문제에 대한 파이썬 코드를 입력하고 **확인** 을 클릭하면, 테스트를 위해 코드는 외부 채점자에 전송된다. 코드가 모든 테스트를 통과하는 경우, 외부 채점자는 점수 및 그 결과가 올바른지를 나타내는 문자열을 반환한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/external-grader-correct.png
  :alt: Image of a students view of a programming problem that uses an external grader, with a correct result 
 
 
-The external grader can return a string with results, which the student can see by clicking **See full output**. This can be particularly useful when the solution is not correct and you want to return information about the failed tests. For example:
+외부 채점자는 학습자가 **전체 결과 보기** 를 클릭하여 볼 수 있도록 결과와 함께 문자열을 반환할 수 있다. 결과가 올바르지 않고 실패한 테스트에 대한 정보를 반환하려고 할 경우, 특히 유용할 수 있다. 예를 들어:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/external-grader-incorrect.png
  :alt: Image of a students view of a programming problem that uses an external grader, with a correct result 
@@ -43,62 +43,62 @@ The external grader can return a string with results, which the student can see 
 .. _External Graders and XQueue:
 
 **************************************
-External Graders and XQueue
+외부 채점자 및 XQueue
 **************************************
 
-The edX Platform communicates with your external grader through XQueue.  XQueue provides students' input to the grader; it then receives results from the grader and returns them to students.  
+edX 플랫폼은 XQueue를 통해 외부 채점자와 소통한다. XQueue는 외부 채점자에 대한 학습자의 입력을 제공한다; 그것은 외부 채점자로부터 결과를 받아 학습자에게 반환한다.  
 
-Student submissions are collected in XQueue, where they remain until the grader actively retrieves, or pulls, the next submission from the queue for grading.
+학습자 제출은 XQueue에 수집되어 외부 채점자가 적극적으로 검색하거나 또는 성적을 위해 큐에서 다음 제출을 가져올 때까지 XQueue에 남아있게 된다. 
 
-The external grader polls the XQueue through a RESTful interface at a regular interval. When the external grader pulls a submission, it runs the tests on it, then pushes the response back to XQueue through the RESTful interface. XQueue then delivers the response to the edX Learning Management System.
+외부 채점자는 정기적인 간격으로 RESTful 인터페이스를 통해 XQueue에 대해 여론 조사(poll)한다. 외부 채점자가 제출한 것을 가져올 경우, 외부 채점자는 그 제출에 대한 테스트를 실행한 다음, RESTful 인터페이스를 통해 XQueue로 다시 응답을 보낸다. 그런 다음 XQueue는 edX 학습 관리 시스템(Learning Management System)으로 응답을 전달한다.
 
-For example code of an external grader that uses Pull mode, see the `Stanford-Online repository xqueue_pull_ref <https://github.com/Stanford-Online/xqueue_pull_ref>`_.
+가져오기(Pull) 모드를 사용하는 외부 채점자의 코드에 대한 예는, `Stanford-Online repository xqueue_pull_ref <https://github.com/Stanford-Online/xqueue_pull_ref>`_ 를 참조하도록 한다.
 
 
 ============================
-External Grader Workflow
+외부 채점자 작업 흐름
 ============================
 
-The following steps show the complete process:
+다음 단계는 전체 과정을 보여준다:
 
-#. The student either enters code or attaches a file for a problem, then clicks Check.
-#. The external grader pulls the code from XQueue.
-#. The external grader runs the tests that you created on the code.
-#. The external grader returns the grade for the submission, as well as any results in a string, to XQueue. 
-#. The XQueue delivers the results to the edX Learning Management System.
-#. The student sees the problem results and the grade.
+#. 학습자는 코드를 입력하거나 아니면 문제에 대한 파일 첨부한 다음, 확인을 클릭한다. 
+#. 외부 채점자는 XQueue에서 코드를 가져온다.
+#. 외부 채점자 코드에서 만든 테스트를 실행한다.
+#. 외부 채점자는 문자열로 된 결과뿐만 아니라 제출한 것에 대한 성적을 XQueue로 반환한다. 
+#. XQueue는 edX 학습 관리 시스템으로 결과를 전달한다.
+#. 학습자는 문제 결과 및 성적을 본다.
 
 
 ==================
-The XQueue Name
+XQueue 이름
 ==================
 
-Your course will use a specific XQueue name. You use this name when creating problems in edX Studio. You get this name from your edX Program Manager. As edX hosts many XQueues for different courses, it is critical that you use the exact XQueue name in your problems, as described in the section :ref:`Create a Code Response Problem`. 
+강좌는 특정 XQueue 이름을 사용한다. 이 이름은 edX 스튜디오에서 문제를 만들 때 사용된다. edX 프로그램 관리자로부터 이 이름을 얻을 수 있다. EdX가 다른 강좌에 대한 많은 XQueues를 호스트함으로, 문제에서 정확한 XQueue 이름을 사용하는 것은 :ref:`Create a Code Response Problem`  주제에서 설명된 바와 같이 매우 중요하다.
 
 
 .. _The XQueue Interface:
 
 **************************************
-The XQueue Interface
+XQueue 인터페이스
 **************************************
 
-The student submission sent from XQueue to the grader, and the response sent from the grader to XQueue, are JSON objects, as described below.
+XQueue에서 채점자에게 보낸 학습자 제출 및 채점자로부터 XQueue로 보낸 응답은 아래에 설명 된 바와 같이 JSON 개체이다.
 
-.. note:: XQueue does not send the the student ID to the external grader. Your grader cannot access student IDs or associate student IDs with submissions.
+.. 참고:: XQueue는 외부 채점자에게 학습자 ID를 전송하지 않는다. 채점자는 학습자 ID에 접근할 수 없거나 또는 학습자 ID를 제출과 연관 지을 수 없다.
 
-For the code for the XQueue interface, see the file `urls.py in the edX XQueue repository <https://github.com/edx/xqueue/blob/master/queue/urls.py>`_.
+XQueue 인터페이스에 대한 코드에 대하여, `urls.py in the edX XQueue repository <https://github.com/edx/xqueue/blob/master/queue/urls.py>`_ 파일을 참조하도록 한다.
 
 ======================================================
-Inputs to the External Grader
+외부 채점자에 대한 입력
 ======================================================
 
-The grader receives student submissions as a JSON object with two keys:
+외부 채점자는 두 개의 열쇠를 가지는 JSON 개체로써 학습자 제출을 받는다.
 
-* **student_response**: A string containing the student's code submission.  The string comes from either input the student enters in the edX Learning Management System or a file the student attaches.
+* **student_response**: 학습자의 코드 제출을 포함하는 문자열. 이 문자열은 edX 학습 관리 시스템에서 학습자가 입력한 입력에서 유래하거나 또는 학습자가 첨부하는 파일로부터 유래한다.
 
-* **grader_payload**: An optional string that you can specify when creating the problem. For more information, see the section :ref:`Create a Code Response Problem`.
+* **grader_payload**: 문제를 만들 때 지정할 수 있는 선택적인 문자열. 더 자세한 내용은, :ref:`Create a Code Response Problem` 주제를 참조하도록 한다.
 
-For example::
+예를 들어
 
  {
    "xqueue_body":
@@ -109,12 +109,12 @@ For example::
  }
 
 ======================================================
-External Grader Responses
+외부 채점자 답안
 ======================================================
 
-After running tests and recording results for a submission, the grader must return information by posting a JSON response. The JSON string contains an indication if the submission was correct, the score, and any message the tests create.
+제출한 것에 대한 결과를 기록하고 테스트를 실행 한 후, 외부 채점자는 JSON 응답을 게시하 여 정보를 반환해야 한다. JSON 문자열은 제출이 올바른지에 대한 표시, 점수, 및 테스트가 만드는 모든 메시지를 포함한다
 
-In the following example, the grader returns a JSON string that indicates the submission was correct, the score was 1, and a message::
+다음 예제에서, 외부 채점자는 제출이 올바르다는 것을 나타내는 JSON 문자열과, 점수는 1이라는 것과, 하나의 메시지를 반환하고 있다.
 
  { 
   "correct": true, 
@@ -125,12 +125,12 @@ In the following example, the grader returns a JSON string that indicates the su
 .. _Building an External Grader:
 
 ****************************
-Building an External Grader
+외부 채점자 만들기 
 ****************************
 
-Course staff, not edX, is responsible for building and deploying the external grader. 
+edX가 아니라 강좌 운영팀이 외부 채점자에 대한 구축 및 배포에 대한 책임을 지게 된다. 
 
-In addition to creating tests that are specific to the problems you use in your course, there are four areas that you must plan for when building an external grader:
+강좌에서 사용하는 문제에 관련된 테스트를 만들 뿐만 아니라, 외부 채점자를 구축할 때 계획해야 할4개의 영역이 있다: 
 
 * :ref:`Scale`
 * :ref:`Security`
@@ -141,54 +141,54 @@ In addition to creating tests that are specific to the problems you use in your 
 .. _Scale:
 
 ==================
-Scale
+규모
 ==================
 
-Your external grader must be able to scale to support the number of students in your course.
+외부 채점자는 강좌에서 수많은 학습자를 지원하도록 확장할 수 있어야 한다. 
 
-Keep in mind that student submissions will likely come in spikes, not in an even flow.  For example, you should expect the load to be much greater than average in the hours before an exam is due.  Therefore, you should verify that the external grader can process submissions from a majority of students in a short period of time. 
+학습자 제출이 균등한 흐름이 아닌, 스파이크처럼 폭주하여 올 가능성이 있음을 명심해야 한다. 예를 들어, 시험 날짜 전의 시간에서 평균보다 훨씬 더 큰 부하를 기대해야 한다. 따라서, 외부 채점자가 짧은 기간 내에 대다수 학습자의 제출을 처리할 수 있음을 확인 해야 한다. 
 
 .. _Security:
 
 ==================
-Security
+보안
 ==================
 
-Students are submitting code that executes directly on a server that you are responsible for. It is possible that a student will submit malicious code. Your system must protect against this and ensure that the external grader runs only code that is relevant to the course problems.  How you implement these protections depends on the programming language you are using and your deployment architecture.  You must ensure that malicious code won't damage your server.
+학습자는 교수자 또는 강좌 운영팀이 담당하는 서버에서 직접 실행되는 코드를 제출한다. 학습자가 악성 코드를 제출할 가능성이 있다. 이것에 대항하여 시스템을 보호해야 하고, 외부 채점자가 강좌 문제와 관련된 코드만 실행하도록 해야 한다. 이러한 보호를 구현하는 방법은 사용 중인 프로그래밍 언어와 배포 아키텍처(deployment architecture)에 따라 달라진다. 악성 코드가 서버를 손상하지 않도록 확인해야 한다.
 
 .. _Reliability and Recovery:
 
 ==============================
-Reliability and Recovery
+안정성 및 복구
 ==============================
 
-Once your course starts, many students will submit code at any possible time, and expect to see results quickly.  If your external grader is prone to failure or unexpected delays, the student experience will be poor.
+일단 강좌를 시작하면, 많은 학습자는 가능한 시간에 언제든지 코드를 제출할 것이며, 신속하게 결과를 보기를 기대할 것이다. 외부 채점자가 오류를 내거나 또는 예기치 않게 지연할 경향이 있는 경우, 학습자의 경험은 질적으로 좋지 않을 것이다.
 
-Therefore, you must ensure that your grader has high availability and can recover from errors. Prior to your course starting, you must have a plan to immediately notify the team responsible for operating your grader, as well as edX operations, when the grader fails. In collaboration with edX, you should develop a procedure to quickly identify the cause of failure, which can be your grader or edX's XQueue.
+따라서, 외부 채점자가 이용 가용성이 높고 오류를 복구할 수 있는지 확인해야 한다. 강좌를 시작하기에 앞서, 채점자가 실패할 때, edX 운영팀 뿐만 아니라, 채점자의 운영에 책임이 있는 강좌 운영팀에게 즉시 알리기 위한 계획이 있어야 한다. EdX와 협력하여 채점자 또는 edX의 XQueue가 원인이 될 수 있는 실패의 원인을 신속하게 찾기 위한 절차를 개발해야 한다.
 
-Contact your edX Program Manager for more information.
+더 자세한 내용은 edX 프로그램 관리자에게 문의한다.
 
-If you know the grader will be unavailable at a certain time for maintenance, you should :ref:`Add a Course Update`. 
+유지 관리를 위해 특정 시간에 채점자를 이용할 수 없는 경우, :ref:`Add a Course Update` (강좌 업데이트를 추가)해야 한다. 
 
 .. _Testing:
 
 ==================
-Testing
+테스트
 ==================
 
-You should test your grader thoroughly before your course starts.  Be sure to test incorrect code as well as correct code to ensure that the grader responds with appropriate scores and messages.
+강좌를 시작하기 전에 채점자를 철저하게 테스트 해야 한다. 채점자가 적절한 점수 및 메시지로 응답하는 것을 확인하기 위해 올바른 코드 뿐만 아니라 잘못된 코드도 테스트 해야 한다.
 
 .. _Create a Code Response Problem:
 
 ********************************
-Create a Code Response Problem
+코드 응답 문제 만들기
 ********************************
 
-You create a code response problem in edX Studio by adding a common blank problem, then editing the XML problem definition in the :ref:`Advanced Editor`.
+edX 스튜디오에서 일반적인 빈 문제를 추가하여 코드 응답 문제를 만든 다음, :ref:`Advanced Editor`  (고급 편집기)에서 XML 문제 정의를 편집한다.
 
-See :ref:`Working with Problem Components` for more information.
+더 자세한 내용은 :ref:`Working with Problem Components`  (문제 구성 요소로 작업하기)를 참조하도록 한다.
 
-Following is a basic example of the XML definition of a problem that uses an external grader::
+다음은 외부 채점자를 사용하는 문제의 XML 정의에 대한 기본 예제이다:
 
  <problem display_name="Problem 6">
     <text>
@@ -211,10 +211,10 @@ Following is a basic example of the XML definition of a problem that uses an ext
     </coderesponse>
  </problem>
 
-Note the following about the XML definition:
+다음은 XML 정의에 관한 주석이다:
 
-* **queuename**: The value of the queuename attribute of the <coderesponse> element maps to an XQueue that edX sets up for the course.  You get this name from your edX Program Manager. You must use this exact name in order for the problem to communicate with the correct XQueue.
+* **queuename**: <coderesponse> 요소의 queuename 값은 edX가 강좌를 위해 설정한 XQueue로 연결된다. edX 프로그램 관리자로부터 이 이름을 얻을 수 있다. 올바른 XQueue와 통신하기 위해 문제에 대한 순서대로 정확한 이름을  사용해야 한다. 
 
-* **Input Type**: In this example, the input type is specificed by the **<textbox>** element.  When you use <textbox>, the student enters code in a browser field when viewing the course unit.  The other element you can use to specify the input type is <filesubmission>, which enables the student to attach and submit a code file in the unit.
+* **Input Type**: 이 예제에서, 입력 유형은 **<textbox>** 요소에 의해 지정된다. <textbox>를 사용하면, 학습자는 강좌 학습활동(course unit)을 볼 때 브라우저 필드에서 코드를 입력한다. 입력 유형을 지정하기 위해 사용할 수 있는 다른 요소는 학습자가 학습활동(unit)에서 코드 파일을 첨부하여 제출할 수 있도록 하는 <filesubmission>이다. 
 
-* **<grader_payload>**: You can use the <grader_payload> element to send information to the external grader in the form of a JSON object. For example, you can use <grader_payload> to tell the grader which tests to run for this problem.
+* **<grader_payload>**: 외부 채점자에게 JSON 개체 형태로  정보를 보내기 위해 <grader_payload>요소를 사용할 수 있다. 예를 들어, 채점자에게 해당 문제에 대해 어느 테스트를  실행해야 하는지 이야기 하기 위해 <grader_payload>를 사용할 수 있다.  
