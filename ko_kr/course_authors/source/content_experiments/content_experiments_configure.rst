@@ -65,32 +65,27 @@ edX 플랫폼은 집단 설정에서 학습자를 각 실험 집단에 배정한
 
 실험 집단 배정은:
 
-* Dynamic
+* 다이나믹하다
 
-  The edX Platform assigns a student to an experiment group the first time he or
-  she views a content experiment that uses the group configuration.
+  edX 플랫폼은 학습자를 하나의 실험 집단에 우선 배정하면, 학습자는 집단 설정에 따른 콘텐츠 실험에 참여하게 된다. 
 
-* Random
+* 무작위이다
   
-  You cannot control which students are assigned to which experiment group. 
+  학습자가 할당되는 실험집단은 조절할 수 없다.
   
-* Evenly distributed
+* 고르게 분포된다.
   
-  The edX Platform keeps track of the size of experiment groups, and assigns new
-  students to groups evenly. For example, if you have two experiment groups in a
-  configuration, each group includes 50% of the students in the course; if you
-  have four experiment groups, each group includes 25% of the students.
+  edX 플랫폼은 실험 집단들의 크기를 계속 점검하고, 새로운 학습자를 집단에 고르게 배정한다. 예를 들어, 2개의 실험 집단이 설정에 되어 있다면, 각 집단은 강좌에 등록한 50%의 학습자를 포함하게 된다; 4개의 실험 집단이 있다면, 각 집단은 학습자의 25%씩 배정된다. 
 
-* Permanent
+* 영구적이다.
   
-  Students remain in their assigned experiment groups regardless of how many
-  content experiments you set up that use the same group configuration.
+  동일한 집단 설정이 적용되는 콘텐츠 실험의 수를 고려하지 않고 학습자는 배정된 실험 집단에 남아 있게 된다. 
 
 
 .. _Set up Group Configurations in edX Studio:
 
 ************************************************
-Set up Group Configurations in edX Studio 
+edX Studio에서 실험 집단 설정하기
 ************************************************
 
 .. note:: 
