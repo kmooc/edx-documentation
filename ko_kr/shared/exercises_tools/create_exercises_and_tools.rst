@@ -1,32 +1,22 @@
 .. _Create Exercises:
 
 ############################
-Creating Exercises and Tools
+연습 및 도구 만들기
 ############################
 
 ************************************
-Introduction to Exercises and Tools
+연습 및 도구 소개
 ************************************
 
-Studio allows you to create a wide variety of exercises and tools for your
-course. Many of these exercises and tools have templates in Studio so that you
-can create them easily. In addition, individual course teams frequently create
-exercises that don't have templates in Studio. We're striving to make these
-tools available to all our course teams as well, and we have instructions for
-creating some of them in this section.
+스튜디오는 강좌에 대해 다양한 연습 및 도구를 만들 수 있도록 허용한다. 쉽게 만들 수 있도록 스튜디오에 대부분의 연습 및 도구에 대한 템플릿이 있다. 또한, 개별 강좌 운영팀은 자주 스튜디오에 템플릿이 없는 연습을 만들기도 한다. Edx는 모든 강좌 운영팀이 이러한 도구를 이용할 수 있도록 노력하고 있으며, 본 주제에서 연습 및 도구 중 일부를 만들기 위한 지침을 제시한다
 
-Depending on the exercise or tool, you'll use an HTML, Problem, or Advanced
-component. The page for each individual exercise or tool contains an example of
-each exercise or tool, together with all the files, code, and step-by-step
-instructions that you need to create the exercise or tool.
+연습 또는 도구에 따라, HTML, 문제, 또는 고급 구성 요소를 사용하게 될 것이다. 각 개별 연습 또는 도구에 대한 페이지는 모든 파일, 코드 및 연습이나 도구를 만드는데 필요한 단계별 지침과 함께 각 연습 또는 도구에 대한 예제를 포함하고 있다.
 
-.. note:: 
-  Problems must include labels for accessibility. The label generally includes
-  the text of the main question in your problem. Instructions for adding labels
-  appear in the page for each individual problem.
+.. 참고:: 
+  문제는 접근성에 대한 라벨을 포함해야 한다. 라벨은 일반적으로 문제에 있는 주요 질문의 텍스트를 포함한다. 라벨 추가 지침은 각 개별 문제에 대한 페이지에 표시된다.
 
 ****************************
-General Exercises and Tools
+일반적 연습 및 도구
 ****************************
 
 .. list-table::
@@ -36,127 +26,91 @@ General Exercises and Tools
           :width: 100
           :alt: Example annotation problem
      - :ref:`Annotation`
-     - Annotation problems ask students to respond to questions about a
-       specific block of text. The question appears above the text when the
-       student hovers the mouse over the highlighted text so that students can
-       think about the question as they read.
+     - 주석 문제는 학습자에게 텍스트의 특정 블록에 대한 질문에 응답하도록 요청한다. 문제는 학습자가 읽으면서 질문에 대해 생각할 수 있도록, 학습자가 강조 표시된 텍스트 위로 마우스를 이동할 때 텍스트 위에 나타난다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png
           :width: 100
           :alt: Example poll
      - :ref:`Conditional Module`
-     -  You can create a conditional module to control versions of content that
-        groups of students see. For example, students who answer "Yes" to a
-        poll question then see a different block of text from the students who
-        answer "No" to that question.
+     -  학습자 그룹이 참조하는 콘텐츠의 버전을 제어하기 위해 조건부 모듈을 만들 수 있다. 예를 들어, 설문 조사 질문에  "예"라고 대답한 학습자는 그 질문에  "아니오" 라고 대답하는 학습자와 다른 텍스트의 블록을 참조하게 된다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/JavaScriptInputExample.png
           :width: 100
           :alt: Example JavaScript problem
      - :ref:`Custom JavaScript`
-     - Custom JavaScript display and grading problems (also called *custom
-       JavaScript problems* or *JS Input problems*) allow you to create a
-       custom problem or tool that uses JavaScript and then add the problem or
-       tool directly into Studio.
+     - 사용자 지정 JavaScript 표시 및 채점 문제(사용자 지정 JavaScript 문제 또는 JS 입력 문제 라고도 함)는 JavaScript를 사용하는 사용자 지정 문제 또는 도구를 만들고, 스튜디오에 직접 문제 또는 도구를 추가할 수 있도록 허용한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/external-grader-correct.png
           :width: 100
           :alt: Example external grader
      - :ref:`External Grader`
-     - An external grader is a service that receives student responses to a
-       problem, processes those responses, and returns feedback and a problem
-       grade to the edX platform. You build and deploy an external grader
-       separately from the edX platform. An external grader is particularly
-       useful for software programming courses where students are asked to
-       submit complex code.
+     - 외부 채점자(external grader)는 문제에 대한 학습자의 응답을 받고, 그 응답을 처리하고 edX 플랫폼으로 피드백과 문제 점수를 반환하는 서비스이다. edX 플랫폼과는 별도로 외부 채점자를 만들고 배포할 수 있다. 외부 채점자는 학습자가 복잡한 코드를 제출해야 하는 소프트웨어 프로그래밍 강좌에 특히 유용하다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/google-calendar.png   
           :width: 100
           :alt: Google Calendar
      - :ref:`Google Calendar Tool`
-     - You can embed a Google calendar in your course so that students see the
-       calendar in the courseware. You can use a Google calendar to share quiz
-       dates, office hours, or other schedules of interest to students.
+     - 학습자가 강좌 내용에서 볼 수 있도록 강좌에 구글 캘린더를 포함할 수 있다. 퀴즈 날짜, 근무 시간, 또는 학습자에게 관심이 될만한 다른 일정을 공유하기 위해 구글 캘린더를 사용할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/google-spreadsheet.png   
           :width: 100
           :alt: Google Drive Files Tool
      - :ref:`Google Drive Files Tool`
-     - You can embed a Google Drive file, such as a document, spreadsheet, or
-       image, in your course so that students see the file in the courseware.
+     - 학습자가 강좌 내용(courseware)에서 볼 수 있도록 강좌에 문서, 스프레드시트, 또는 이미지 등의 구글 드라이브 파일을 포함할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/GoogleHangout_WithPeople.png   
           :width: 100
           :alt: Google Hangout
      - :ref:`Google Instant Hangout`
-     - You can add the ability for students to participate in instant hangouts
-       directly from your course. With instant hangouts, students can interact
-       through live video and voice, share screens and watch videos together,
-       and collaborate on documents.
+     - 강좌에서 직접 인스턴트 행아웃(instant hangouts)에 참여할 수 있도록 학습자에게 능력을 부여할 수 있다. 인스턴트 행아웃(instant hangouts)을 통해, 학습자는 실시간 동영상 및 음성을 통해 상호작용하고, 화면을 공유하며 동영상을 함께 보고, 문서에 관해 공동 작업 할 수 있다. 
    * - .. image:: ../../../shared/building_and_running_chapters/Images/IFrame_1.png
           :width: 100
           :alt: Example IFrame tool
      - :ref:`IFrame`
-     - IFrames allow you to integrate ungraded exercises and tools from any
-       Internet site into an HTML component in your course.
+     - 강좌에서 모든 인터넷 사이트에 있는 채점되지 않은 연습 및 도구를 HTML 구성 요소로 통합할 수 있도록 허용한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/LTIExample.png
           :width: 100
           :alt: Example LTI component
      - :ref:`LTI Component`
-     - LTI components allow you to add an external learning application or non-PDF textbook to Studio.
+     - LTI 구성 요소는 외부 학습 응용 프로그램 또는 비 PDF 교재를 스튜디오에 추가할 수 있도록 허용한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PA_QandRField.png
           :width: 100
           :alt: Example open response assessment
      - :ref:`Open Response Assessments 2`
-     - In open response assessments, students receive feedback on written
-       responses of varying lengths as well as image files that the students
-       upload. Open response assessments include self assessment and peer
-       assessment.
+     - 공개 응답 평가(open response assessments)에서, 학습자는 학습자가 업로드하는 이미지 파일 뿐만 아니라 다양한 길이의 서면 응답에 대한 피드백을 받는다. 공개 응답 평가는 자기 평가 및 동료 평가를 포함한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png
           :width: 100
           :alt: Example poll
      - :ref:`Poll`
-     - You can run polls in your course so that your students can share
-       opinions on different questions.
+     - 강좌에서 학습자가 다른 질문에 대한 의견을 공유할 수 있도록 여론 조사를 실행할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWithAdaptiveHintExample.png
           :width: 100
           :alt: Example problem with adaptive hint
      - :ref:`Problem with Adaptive Hint`
-     - A problem with an adaptive hint evaluates a student's response, then
-       gives the student feedback or a hint based on that response so that the
-       student is more likely to answer correctly on the next attempt. These
-       problems can be text input or multiple choice problems.
+     - 적응형 힌트 문제는 학습자의 응답을 평가한 후, 답안에 따라 학습자에게 피드백 또는 힌트를 준다. 그러면 학습자는 다음 시도에 올바르게 대답을 할 가능성이 많아진다. 이 문제는 텍스트 입력 또는 다중 선택 문제가 될 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWrittenInLaTeX.png
           :width: 100
           :alt: Example problem written in LaTeX
      - :ref:`Problem Written in LaTeX`
-     - If you have an problem that is already written in LaTeX, you can use
-       this problem type to easily convert your code into XML.
+     - 이미 라텍스에서 문제를 작성한 경우, 코드를 XML로 쉽게 변환하기 위해 이 문제 유형을 사용할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/SFD_SN_bodyexample.png
           :width: 100
           :alt: Image of student notes in a course
      - :ref:`Student Notes Tool`
-     - With student notes, students can make notes about what they read and
-       highlight passages in the course content.
+     - 학습자 주석(student notes)을 통해, 학습자는 강좌 콘텐츠에서 읽은 것과 강조한 글에 대한 주석을 만들 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/TextInputExample.png
           :width: 100
           :alt: Example text input problem
      - :ref:`Text Input`
-     - In text input problems, students enter text into a response field. The
-       response can include numbers, letters, and special characters such as
-       punctuation marks.
+     - 텍스트 입력 문제에서, 학습자는 응답 입력 필드에 텍스트를 입력한다. 응답은 숫자, 문자와 문장 부호와 같은 특수 문자를 포함할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/WordCloudExample.png
           :width: 100
           :alt: Example word cloud
      - :ref:`Word Cloud`
-     - Word clouds arrange text that students enter - for example, in response
-       to a question - into a colorful graphic that students can see.
+     - 워드 클라우드는 예를 들어 질문에 대한 응답처럼 학습자가 입력한 텍스트를 학습자가 볼 수 있는 화려한 그래픽으로 정렬한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/CustomPythonExample.png  
           :width: 100
           :alt: Example write-your-own-grader problem
      - :ref:`Write Your Own Grader`
-     - In custom Python-evaluated input (also called "write-your-own-grader")
-       problems, the grader uses a Python script that you create and embed in
-       the problem to evaluates a student's response or provide hints. These
-       problems can be any type.
+     - 사용자 지정 파이썬 평가 입력 문제 (또한 “스스로 채점을 작성하는 문제")에서, 채점자 (grader)는 학습자의 응답을 평가하거나 힌트를 제공하기 위해 만들고 문제에 포함시킨 파이썬 스크립트를 사용한다. 이 문제는 모든 종류가 될 수 있다.
 
 
 ********************************
-Image-Based Exercises and Tools
+이미지 기반 연습 및 도구
 ********************************
 
 .. list-table::
@@ -166,8 +120,7 @@ Image-Based Exercises and Tools
           :width: 100
           :alt: Example drag and drop problem
      - :ref:`Drag and Drop`
-     - In drag and drop problems, students respond to a question by dragging
-       text or objects to a specific location on an image.
+     - 끌어서 놓기 문제(drag and drop problems)에서, 학습자는 이미지에 특정 위치에 텍스트 또는 개체를 드래그하여 질문에 답한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/image-modal.png
           :width: 100
           :alt: Example full screen image tool
