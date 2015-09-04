@@ -293,21 +293,22 @@ HTML 구성 요소에서 강좌 학습활동 링크를 추가할 수 있다.
 .. _Add a Link to a File:
 
 
-Add a Link to a File
+파일에 링크 추가하기
 ***********************************
 
-You can add a link in an HTML component to any file you've uploaded for the
-course. For more information about uploading files, see :ref:`Add Files to a
-Course`.
 
-#. On the **Files & Uploads** page, copy the **Embed URL** of the file.
+담당자는 강좌를 위해 업로드 한 어떤 파일에 대해서도 HTML 구성 요소에서 링크를 추가할 수 있다. 파일 업로드 하기에 대한 자세한 내용은 :ref:`Add Files to a
+Course` 을 참조한다.
+
+
+#. **파일 업로드**  페이지에서 파일의 **Embed URL** 을 복사한다
 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Link_File.png
    :alt: Image of Files and Uploads page with the URL field circled 
   
-  .. note:: 
-   You must use the **Embed URL** to link to the file, not the **External URL**.
+  .. 참고:: 
+   담당자는 파일에 링크를 포함시키기 위해 **External URL** 이 아닌 **Embed URL**  을 사용 해야 한다.
 
 2. Select the text that you want to make into the link.
 
