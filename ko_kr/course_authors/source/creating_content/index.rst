@@ -1,20 +1,16 @@
 .. _Creating Course Content Index:
 
 ############################
-Creating Course Content
+강좌 콘텐츠 만들기
 ############################
 
-Use the chapters in this section to understand how to create course content of
-different types.
+다른 유형의 강좌 콘텐츠를 만드는 방법을 이해하기 위해 본 주제에서 제공하는 장을 이용하도록 한다.
 
-For information on creating exercises and tools, see :ref:`Exercises and Tools
-Index`.
+연습문제(exercises) 만들기 및 도구에 관한 정보는 :ref:`Exercises and Tools Index` 를 참조하도록 한다. 
 
-For information on creating content libraries from which you can randomly draw
-content for randomized assigments, see :ref:`Content Libraries`.
+임의로 무작위 할당에 대한 콘텐츠를 만들 수 있는 콘텐츠 라이브러리 만들기에 관한 정보는 :ref:`Content Libraries` 를 참조하도록 한다. 
 
-For information on how to develop your course content in the Studio Outline
-page, see :ref:`Developing Your Course Index`.
+Studio 개요 페이지에서 강좌 콘텐츠를 개발하는 방법에 관한 정보는 :ref:`Developing Your Course Index` 를 참조하도록 한다.
 
 
 
