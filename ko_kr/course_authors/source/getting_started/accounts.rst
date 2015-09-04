@@ -45,10 +45,10 @@ kmooc.org 및 edX Edge
 
 edX.org 또는 Edge에 가입한다.  
 
-#. kmooc.org에서 등록 및 로그인 페이지
-   <https://courses.edx.org/account/login>`_, 로 이동한 다음 **가입하기** 를 선택한다.  
+#. kmooc.org의 경우, `등록 및 로그인 페이지
+   <https://courses.edx.org/account/login>`_. 로 이동한 다음 **가입하기** 를 선택한다.  
 
-   For Edge, go to the `registration page <https://edge.edx.org/register>`_.
+   Edge의 경우, 등록 및 로그인 페이지 `registration page <https://edge.edx.org/register>`_ 로 이동한다.
 
 #. 가입 화면에서, 별표(*)의 입력란에 개인정보를 입력한다.
 
