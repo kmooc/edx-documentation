@@ -29,42 +29,21 @@
 * 동영상, 자막, 다운로드 링크등이 제 위치에서 잘 작동하는지 확인한다. 
 * 강좌의 콘텐츠가 충분히 검토되고 테스트 되었는지 확인하기 위해 강좌 운영팀과 베타 테스트에게서 받은 피드백을 확인한다. 
 
-**Welcome Students**
+**학습자 환영하기**
 
-* Two months before the course start date, prepare and send a welcome email
-  message to currently enrolled students. See :ref:`Prelaunch Reminder` and :ref:`Send_Bulk_Email`.
-* Compose a welcome message and add it to the **Course Info** page. See
-  :ref:`Add a Course Update`.
-* Verify that a syllabus and other references are available on the **Course
-  Handouts** page. See :ref:`Add Course Handouts`.
-* One month before the course start date, prepare and send a welcome email
-  message to currently enrolled students.
-* One week before the course start date, prepare and send a welcome email
-  message to currently enrolled students.
-* Add an "Introduce Yourself" post to a discussion topic. For a MOOC, you may
-  want to manage the size of the thread by distributing student responses
-  across multiple threads. For example, you can start different threads for
-  introductions based on geographical location, such as "Introduce Yourself:
-  Europe", "Introduce Yourself: North America", etc. See
-  :ref:`Running_discussions`.
-* On the course start date, prepare and send a launch email message to
-  currently enrolled students. See :ref:`Launch Day Welcome`. 
+* 강좌 시작 두 달 전에, 수강하는 학습자들에게 환영 메세지를 보낸다. :ref:`Prelaunch Reminder` 및 :ref:`Send_Bulk_Email` 확인
+* 환영 메세지를 작성하고  **강좌 안내** 에 추가 한다. See :ref:`Add a Course Update`.
+* 강좌 계획서와 참고 자료는 **학습 자료** 에서 이용가능한지 확인한다. :ref:`Add Course Handouts` 확인.
+* 강의 시작 한 달 전에, 현재 등록한 학습자들에게 환영 메시지를 보낸다.
+* 강의 시작 일주일 전에, 현재 등록한 학습자들에게 환영 메시지를 보낸다.
+* 게시판에 "자기 소개를 하세요"라는 주제를 추가 한다. MOOC 에서는 여러게의 쓰레드로 학습자의 응답이 분산되도록 하여 학습자의 응답 수를 관리할 필요가 있다. 예를 들어, 지역에 따라 소개를 위한 쓰레드를 나눠둘 수 있다. 가령, "자기 소개를 하세요:유럽 지역 ", " 자기 소개를 하세요: 북미지역", 등 :ref:`Running_discussions` 확인
+* 강좌가 시작되면현재 등록된 학습자들에게 환영 메시지를 보낸다. :ref:`Launch Day Welcome` 확인. 
 
-**Prepare Staff**
+**운영팀 준비하기**
 
-* Define communication methods for all course contributors, including staff,
-  instructors, and the discussion team. For example, set up a course-specific
-  email address.
-* Verify that all course contributors know how to record their work, report
-  issues, and collaborate on tasks.
-* Verify that the instructors and course staff selected for your course
-  have the correct role assignments in the LMS. See :ref:`Course_Staffing`.
-* Verify that discussion admins, discussion moderators, and community TAs have
-  registered and activated their user accounts, enrolled in the course, and
-  been assigned their roles on the Instructor Dashboard. See
-  :ref:`Assigning_discussion_roles`.
-* Define methods for managing discussions and guidance for discussion
-  moderators, and distribute to the discussion team. See
-  :ref:`Moderating_discussions` and :ref:`Guidance for Discussion Moderators`.
+* 강좌 운영팀, 교수자, 게시판 관리팀 등 모든 강좌 관계자와 연락하는 방법을 확정한다. 예를 들어 강좌별 이메일 주소를 설정한다. * 모든 강좌 관계자가 업무를 기록하고, 문제를 보고하고 협력해서 일을 진행하는 방법을 확인 한다. 
+* 교수자와 강좌 운영팀이 LMS에서 제대로 역할이 할당되어 있는지 확인한다. :ref:`Course_Staffing` 확인.
+* 게시판 관리자, 게시판 운영자, 커뮤니티 조교가 등록되어 졌고 계정이 확성화 되어졌는지 확인한다. 그리고 교수자 데시보드에서 역할이 할당되어 졌는지 확인한다. :ref:`Assigning_discussion_roles` 확인
+* 게시판을 관리하는 방법과 토의를 진행하기 위한 안내, 강좌 관리에 배정하는 방법을 정의 한다. :ref:`Moderating_discussions` and :ref:`Guidance for Discussion Moderators` 확인.
 
 
