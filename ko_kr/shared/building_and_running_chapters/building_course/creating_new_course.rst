@@ -17,9 +17,9 @@
 * :ref:`Add Course Team Members`
 
 기존 강좌를 다시 운영할 수도 있다. 이에 관해선 
-:ref:`Rerun a Course`  을 참고하길 바란다.
+:ref:`Rerun a Course`  를 참고하길 바란다.
 
-또한 :ref:`Export a Course` 및 :ref:`Import a Course` 를 Studio에서 할 수 있다.
+또한 Studio에서 :ref:`Export a Course` 및 :ref:`Import a Course` 를 할 수 있다.
 XML에서 강좌를 편집할 때 이 기능을 이용하면 된다.
 
 .. _Edge: http://edge.edx.org
@@ -35,7 +35,7 @@ XML에서 강좌를 편집할 때 이 기능을 이용하면 된다.
 #. **새 강좌** 를 클릭한다.
 #. 필요한 정보를 입력하고 **저장** 을 클릭한다.
 
-  .. 참고::  새로운 강좌 정보를 신중하게 입력한다. 본 정보는 강좌 URL의 일부가 된다. 강좌를 만든 후 URL을 변경하려면 도움말 사이트 (http://help.edge.edx.org)를 통해K-MOOC에 문의 해야 한다.
+  .. 참고::  새로운 강좌 정보를 신중하게 입력한다. 본 정보는 강좌 URL의 일부가 된다. 강좌를 만든 후 URL을 변경하려면              도움말사이트 (http://help.edge.edx.org)를 통해K-MOOC에 문의 해야 한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/new_course_info.png
      :alt: Image of the course creation page
@@ -51,7 +51,7 @@ XML에서 강좌를 편집할 때 이 기능을 이용하면 된다.
   
 4. **저장** 을 클릭한다.
 
-강좌를 만들면 강좌 개요 페이지를 연다. 아직 어떤 콘텐츠도 만들지 않았으므로, 이 페이지는 비어 있다.
+강좌를 만들면 강좌 개요 페이지가 열린다. 아직 어떤 콘텐츠도 만들지 않았으므로, 페이지가 비어 있을 것이다.
 
 브라우저의 주소 표시줄에서, 강좌의 URL이 강좌 기관명, 강좌 번호 및 기관별 강좌번호를 포함하고 있음을 확인한다. 
 
@@ -82,10 +82,10 @@ Studio의 강좌 준비 점검 메뉴를 이용하면, 강좌에 필요한 부�
 
 * Studio 시작하기
 * 강좌 개요 초안 만들기
-* KMOOC의 지원 도구 보기
+* K-MOOC의 지원 도구 보기
 * 강좌 안내 작성하기
 
-먼저, **도구** 메뉴에서, **준비 점검** 을 클릭한다.
+먼저 **도구** 메뉴에서 **준비 점검** 을 클릭한다.
 
  .. image:: ../../../shared/building_and_running_chapters/Images/checklist.png
   :alt: Image of the course checklist
@@ -95,7 +95,7 @@ Studio의 강좌 준비 점검 메뉴를 이용하면, 강좌에 필요한 부�
 
 강좌 운영팀은 준비 점검의 각 항목을 접거나 펼칠 수 있다.
 
-또한 작업을 완료하면 완료된 작업을 체크할 수 있다. Studio는 자동으로 변경 사항을 저장하며, 강좌 운영팀의 다른 구성원이 변경 사항을 볼 수 있다.
+또한 작업을 완료하면 완료된 작업을 체크할 수 있다. Studio는 자동으로 변경사항을 저장하며, 강좌 운영팀의 다른 구성원이 변경 사항을 볼 수 있다.
 
 .. _Add Course Team Members:
 
