@@ -23,12 +23,11 @@
 .. note::  
 ``split_test`` 는 콘텐츠 실험의 내부 edX 플랫폼 이름이다.  
 
-#. From the **Settings** menu, select **Advanced Settings**.
+#. **환경** 메뉴에서 **고급환경** 을 선택한다.
 
-#. On the **Advanced Settings** page, locate **Advanced Modules List**.
+#. **고급환경** 에서, **고급 모듈 목록** 을 찾는다.
 
-#. In the **Advanced Modules List** field, add ``"split_test"``. Be sure that
-   you include the double quotation marks.
+#. **고급 모듈 목록** 칸에, ``"split_test"`` 를 추가한다. 큰따옴표가 포함되었는지 확인한다. 
 
    If you have multiple values, ensure that they are separated by commas
    (``,``).
