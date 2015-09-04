@@ -54,333 +54,229 @@
     :alt: Image of a problem from a student's point of view, with callouts for 
           attempts and showing the answer
 
-#. **Feedback.** After a student clicks **Check**, all problems return a
-   green check mark or a red X.
+#. **피드백.** 학습자가 **확인하기** 를 클릭한 후, 모든 문제는 녹색 확인 표시 또는 빨간색 X를 반환한다
 
    .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyofaProblem_Feedback.png
     :alt: Image of feedback checkmark and x from a student's point of view
 
-#. **Correct answer.** Most problems require that the instructor specify
-   a single correct answer.
+#. **정확한 답안.** 대부분의 문제에 대하여 교수자는 단일 정답을 지정해야 한다.
 
-#. **Explanation.** The instructor may include an explanation that
-   appears when a student clicks **Show Answer**.
+#. **설명.** 교수자는 학습자가 **답안 표시** 를 클릭하면 나타나는 설명을 포함할 수 있다.
 
-#. **Reset button.** Students can click **Reset** to clear any input that has
-   not yet been submitted, and try again to answer the question. If the student
-   has already submitted an answer, clicking **Reset** clears the submission
-   and, if the problem contains randomized variables and randomization is set
-   to **On Reset**, changes the values the student sees in the problem. If the
-   number of Maximum Attempts that was set for this problem has been reached,
-   the **Reset** button is not visible.
+#. **재설정 버튼.** 학습자는 제출되지 않은 모든 입력을 취소하고, 질문에 다시 대답하기 위해 **재설정** 을 클릭할 수 있다. 학습자가 이미 답안을 제출한 경우, **재설정** 을 클릭하는 것은 제출을 삭제하며, 만약 무작위 변수를 포함하는 문제에서 무작위 추출하기(randomization)가 **재설정 가능** 으로 설정된 경우, 문제에서 학습자가 보는 값은 변경된다. 문제에 대해 설정된 최대 시도 횟수에 도달하면, **재설정** 버튼은 더 이상 표시되지 않는다.
 
-#. **Hide Answer button.**
+#. **답안 버튼 숨기기.**
 
    .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise3.png
     :alt: Image of a problem in the course accordian
 
-#. **Grading.** The instructor may specify whether a group of problems
-   is graded. If a group of problems is graded, a clock icon appears for
-   that assignment in the course accordion.
+#. **채점하기.** 교수자는 그룹 문제들의 채점 여부를 지정할 수 있다. 그룹 문제가 채점되는 경우, 강좌 아코디언에서 해당 과제에 대한 시계 아이콘이 나타난다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images//clock_icon.png
 
-#. **Due date.** The date that the problem is due. A problem that is
-   past due does not have a **Check** button. It also does not accept
-   answers or provide feedback.
+#. **기한.** 문제를 제출하기로 되어 있는 날짜이다. 기한을 넘긴 문제는 **확인** 버튼이 없다. 또한 답안을 수락하지 않거나 피드백을 제공하지 않는다.
 
-.. note:: Problems can be **open** or **closed.** Closed problems do not 
-          have a **Check** button. Students can still see questions, solutions,
-          and revealed explanations, but they cannot check their work, submit
-          responses, or change an earlier score.
+.. 참고:: 문제는 **열리거나 닫힐** 수 있다. 닫힌 문제는 **확인** 버튼이 없다. 학습자는 여전히 질문, 답안 및 공개된 설명을 볼 수 있지만, 문제 풀기 상태를 확인하거나, 답안을 제출 하거나, 또는 이전 점수를 변경하는 등의 작업은 할 수 없다.
 
-There are also some attributes of problems that are not immediately
-visible. You can set these attributes in Studio.
+또한 즉시 표시되지 않는 문제의 몇 가지 특성이 있다. K-MOOC 담당자는 스튜디오에서 이러한 특성을 설정할 수 있다.
 
-*  **Randomization.** For some problems, the instructor can specify
-   whether a problem will use randomly generated numbers that vary from
-   student to student.
+*  **무작위 추출하기.** 몇 가지 문제에 대하여, 교수자는 문제가 학습자마다 다르도록 임의로 생성된 숫자를 사용할 것인지 여부를 지정할 수 있다.
 
-*  **Weight.** Different problems in a particular problem set may be
-   given different weights.
+*  **가중치.** 특정 문제 세트에서 다른 문제는 다른 가중치가 주어질 수 있다.
 
-*  **Label.** To improve accessibility for students who have disabilities, each
-   problem needs a descriptive label. The label typically contains part or all
-   of the text of the question in the problem. Most templates include a space
-   for a label. You can find example labels in the documentation for each
-   problem or tool type.
+*  **라벨.** 장애가 있는 학습자의 접근성을 개선하기 위해, 각 문제는 설명 라벨이 필요하다. 라벨은 일반적으로 문제에 있는 질문의 텍스트의 일부 또는 전부를 포함한다. 대부분의 템플릿은 라벨에 대한 공간을 포함한다. K-MOOC 담당자는 각 문제 또는 도구 유형에 대한 문서에서 예제 라벨을 찾을 수 있다.
 
 .. _Problem Studio View:
 
 ************************************
-The Studio View of a Problem
+스튜디오에서 문제 보기
 ************************************
 
-All problems are written in XML. However, Studio offers two interfaces for
-editing problem components: the Simple Editor and the Advanced Editor.
+. 모든 문제는 XML로 작성된다. 그러나, 스튜디오는 문제 구성요소를 편집하기 위해 두 개의 인터페이스를 제공한다: 간단한 편집기 및 고급 편집기.
 
-*  The **Simple Editor** allows you to edit problems visually, without
-   having to work with XML.
+*   **간단한 편집기** 는 K-MOOC 담당자가 XML 작업을 하지 않고 문제를 시각적으로 편집할 수 있도록 허용한다. 
 
-*  The **Advanced Editor** converts the problem to edX’s XML standard and
-   allows you to edit that XML directly.
+*  **고급 편집기** 는 문제를 edX의 XML 표준으로 변환하고 K-MOOC 담당자가 해당 XML을 직접 편집할 수 있도록 허용한다.
 
-You can switch at any time from the Simple Editor to the Advanced Editor by
-clicking **Advanced Editor** in the top right corner of the Simple Editor
-interface. However, it is not possible to switch from the Advanced Editor to
-the Simple Editor.
+K-MOOC 담당자는 간단한 편집기 인터페이스의 오른쪽 상단 모서리에서 **고급 편집기** 를 클릭하여 언제든지 간단한 편집기에서 고급 편집기로 전환할 수 있다. 그러나, 그것은 고급 편집기에서 간단한 편집기로 전환하는 것은 불가능하다.
 
 .. _Simple Editor:
 
 =================
-The Simple Editor
+간단한 편집기
 =================
 
-Several problem templates, including multiple choice and text input problem
-templates, open in the Simple Editor. The following image shows a multiple
-choice problem in the Simple Editor.
+다중 선택 및 텍스트를 입력하는 문제의 템플릿을 포함한 여러 가지 문제의 템플릿은 간단한 편집기에서 연다.  다음 이미지는 간단한 편집기에서 다중 선택 문제를 보여준다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_SimpleEditor.png
  :alt: Image of a problem in the simple editor
 
-The Simple Editor includes a toolbar that helps you format the text of your
-problem. When you select text and then click the formatting buttons, the Simple
-Editor formats the text for you automatically. The toolbar buttons are the
-following:
+간단한 편집기는 K-MOOC 담당자가 문제의 텍스트의 서식을 지정하는데 도움이 되는 도구 모음을 포함한다. 텍스트를 선택한 다음 서식 버튼을 클릭하면, 간단한 편집기는 자동으로 텍스트 형식을 바꾼다. 도구 모음 버튼은 다음과 같다:
 
-1. Create a level 1 heading.
-2. Create multiple choice options.
-3. Create checkbox options.
-4. Create text input options.
-5. Create numerical input options.
-6. Create dropdown options.
-7. Create an explanation that appears when students click **Show Answer**.
-8. Open the problem in the Advanced Editor.
-9. Open a list of formatting hints.
+1. 수준 1 머리글을 만든다. 
+2. 다중 선택 옵션을 만든다.
+3. 확인란(checkbox) 옵션을 만든다. 
+4. 텍스트 입력 옵션을 만든다.
+5. 숫자 입력 옵션을 만든다.
+6. 드롭 다운 옵션을 만든다. 
+7. 학습자가 **답안 표시** 를 클릭 하면 표시되는 설명을 만든다.
+8. 고급 편집기에서 문제를 연다.
+9. 서식하기 힌트 목록을 연다.
 
-The following problem templates open in the Simple Editor.
+다음 문제 템플릿은 간단한 편집기에서 열린다. 
 
-*  :ref:`Checkbox` In checkbox problems, students select one or more options
-   from a list of possible answers.
+*  :ref:`Checkbox` 체크박스 문제에서, 학습자는 가능한 답변 목록에서 하나 이상의 옵션을 선택한다.
 
-*  :ref:`Dropdown` In dropdown problems, students select one answer from a
-   dropdown list.
+*  :ref:`Dropdown` 드롭다운 문제에서, 학습자는 드롭다운 목록에서 하나의 답변을 선택한다.
 
-*  :ref:`Multiple Choice` Multiple choice problems require students to
-   select one answer from a list of choices that appear directly below
-   the question.
+*  :ref:`Multiple Choice` 다중 선택 문제에서 학습자는 질문 아래에 표시되는 선택 목록에서 하나의 답변을 선택해야 한다.
 
-*  :ref:`Numerical Input` Numerical input problems require answers that
-   include only integers, fractions, and a few common constants and
-   operators.
+*  :ref:`Numerical Input`숫자 입력 문제는 오직 정수, 분수, 그리고 몇 가지 일반적인 상수와 연산자를 포함하는 답변만을 요구한다.
 
-*  :ref:`Text Input` In text input problems, students enter a short text
-   answer to a question.
+*  :ref:`Text Input` 텍스트 입력 문제에서, 학습자는 질문에 대한 답변을 짧은 텍스트를 입력한다.
 
 
 .. _Advanced Editor:
 
 ===================
-The Advanced Editor
+고급 에디터
 ===================
-The **Advanced Editor** opens a problem in XML. Templates for problems such as
-such as drag and drop and math expression input open directly in the Advanced
-Editor.
+**고급 편집기** 는 xml에서 문제를 연다. 끌어서 놓기 및 수식 입력과 같은 문제에 대한 템플릿은 고급 편집기에서 직접 연다.
 
-The following image shows the multiple choice problem above in the Advanced
-Editor instead of the Simple Editor.
+다음 이미지는 간단한 편집기 대신 고급 편집기에서 위의 다중 선택 문제를 보여준다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images//MultipleChoice_AdvancedEditor.png
  :alt: Image of a problem in the advanced editor
 
-The following problem templates open in the Advanced Editor.
+다음 문제 템플릿은 고급 편집기에서 열린다.
 
-* :ref:`Circuit Schematic Builder` In circuit schematic problems, students
-  create and modify circuits on an interactive grid and submit computer-
-  generated analyses of the circuits for grading.
+* :ref:`Circuit Schematic Builder` 회로 구조 문제에서, 학습자는 대화형 그리드에서 회로를 만들고 수정하며, 컴퓨터에서 생성된 회로 분석을 채점용으로 제출한다.
 
-* :ref:`Custom JavaScript` With custom JavaScript display and grading problems,
-  you can incorporate problem types that you've created in HTML into Studio via
-  an IFrame.
+* :ref:`Custom JavaScript` 사용자 지정 자바 스크립트 표시 및 문제 채점에 대해, K-MOOC 담당자는 IFrame을 통해 HTML에서 만든 문제 유형을 스튜디오로 통합할 수 있다.
 
-* :ref:`Drag and Drop` Drag and drop problems require students to drag text or
-  objects to a specific location on an image.
+* :ref:`Drag and Drop` 끌어서 놓기 문제는 학습자가 이미지의 특정 위치에 텍스트 또는 개체를 끌어놓아야 한다.
 
-* :ref:`Image Mapped Input` Image mapped input problems require students to
-  click a specific location on an image.
+* :ref:`Image Mapped Input` 이미지가 그려진 입력 문제는 학습자가 이미지의 특정 위치를 클릭해야 한다.
 
-* :ref:`Math Expression Input` Math expression input problems require students
-  to enter a mathematical expression as text, such as e=m\*c^2.
+* :ref:`Math Expression Input` 수식 입력 문제는 학습자가 수식을 e = m * c ^2와 같은 텍스트로 입력해야 한다.
 
-* :ref:`Problem with Adaptive Hint` These problems can give students feedback
-  or hints based on their responses. Problems with adaptive hints can be text
-  input or multiple choice problems.
+* :ref:`Problem with Adaptive Hint` 이러한 문제는 학습자에게 그들의 답안에 따라 피드백 또는 힌트를 줄 수 있다.  적응형 힌트 문제는 텍스트 입력 문제 또는 다중 선택 문제가 될 수 있다.
 
-* :ref:`Problem Written in LaTeX` This problem type allows you to convert
-  problems that you’ve already written in LaTeX into the edX format. Note that
-  this problem type is still a prototype, however, and may not be supported in
-  the future.
+* :ref:`Problem Written in LaTeX` 이 문제 유형은 K-MOOC 담당자가 이미 LaTeX로 작성한 문제를 edX 형식으로 변환할 수 있도록 허용한다. 그러나 이 문제 유형은 여전히 프로토타입(prototype)이며 앞으로 지원되지 않을 수 있음을 주의한다.
 
-* :ref:`Write Your Own Grader` Custom Python-evaluated input (also called
-  "write-your-own-grader" problems evaluate students' responses using an
-  embedded Python script that you create. These problems can be any type.
+* :ref:`Write Your Own Grader` 사용자 정의 Python에서 평가된 입력 (또한 스스로 채점 작성(“write-your-own-grader”))이라고 불리는 문제는 K-MOOC 담당자가 만든 포함된 Python 스크립트를 사용하여 학습자의 답안을 평가한다. 이러한 문제는 모든 종류가 될 수 있다.
 
 .. _Problem Settings:
 
 ******************
-Problem Settings
+문제 설정
 ******************
 
-In addition to the text of the problem, problems that you create using a
-Problem component have the following settings. These settings appear on the
-**Settings** tab in the component editor.
+문제 텍스트 뿐만 아니라, 문제 구성요소를 이용하여 만든 문제는 다음과 같은 설정을 가진다. 이러한 설정은 구성요소 편집기에서 **설정** 탭에 표시 됩니다.
 
-*  **Display Name**
-*  **Maximum Attempts**
-*  **Problem Weight**
-*  **Randomization**
-*  **Show Answer**
-*  **Show Reset Button**
+*  **표시 이름**
+*  **최대 시도**
+*  **문제 가중치**
+*  **무작위 추출하기**
+*  **답안 표시**
+*  **재설정 표시 버튼**
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_Attributes.png
  :alt: Image of the Settings tab in a Problem component
 
 ===============
-Display Name
+표시 이름
 ===============
 
-This setting indicates the name of your problem. The display name
-appears as a heading over the problem in the LMS and in the course
-ribbon at the top of the page.
+이 설정은 문제의 이름을 나타낸다. 표시 이름은 LMS와 문제 페이지의 상단에 강좌 리본에 있는 문제 위에 제목으로 나타난다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbComponent_LMS_DisplayName.png
  :alt: Image of the problem in a unit page from a student's point of view
 
 ==============================
-Maximum Attempts
+최대 시도
 ==============================
 
-This setting specifies the number of times a student is allowed to attempt
-answering the problem. By default, the course-wide **Maximum Attempts**
-advanced setting is null, meaning that the maximum number of attempts for
-problems is unlimited. If the course-wide **Maximum Attempts** setting is
-changed to a specific number, the **Maximum Attempts** setting for individual
-problems defaults to that number, and cannot be set to unlimited.
+이 설정은 학습자가 문제에 대한 답변을 시도할 수 있는 횟수를 지정한다. 기본적으로, 강좌 전체에 걸친 **최대 시도** 고급 설정은 null이다. 이것은 문제에 대한 최대 시도 횟수에 제한이 없음을 의미한다. 강좌 전체에 걸친 **최대 시도** 설정을 특정 숫자로 변경하는 경우, 개별 문제에 대한 **최대 시도** 설정을 그 숫자를 기본값으로 가지고, 더 이상 무제한으로 설정 될 수 없다.
 
-.. note:: Only questions that have a **Maximum Attempts** setting of 1 or 
- higher are included on the Student Answer Distribution report that you can
- download during your course.
+.. 참고:: 1 또는 더 높은 **최대 시도** 설정을 가지는 문제만이 강좌 동안 다운로드 할 수 있는 학습자 답변 배포 보고서에 포함된다. 
 
 .. _Problem Weight:
 
 ==============================
-Problem Weight
+문제 비중
 ==============================
 
-.. note:: Studio stores scores for all problems, but scores only count 
-          toward a student’s final grade if they are in a subsection that is
-          graded.
+.. 참고:: 스튜디오는모든 문제에 대한 점수를 저장 하지만, 점수가 채점된 소주제에 있는 경우만 학습자의 최종 성적으로 계산된다.
 
-This setting specifies the maximum number of points possible for the
-problem. The problem weight appears next to the problem title.
+이 설정은 문제에 대해 가능한 포인트의 최대수를 지정한다. 문제 가중치는 문제 제목 옆에 표시되어 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWeight_DD.png
  :alt: Image of a problem from a student's point of view, with the possible 
        points circled
 
-By default, each response field, or “answer space,” in a Problem
-component is worth one point. Any Problem component can have multiple
-response fields. For example, the Problem component above
-contains one dropdown problem that has three separate questions for students
-to answer, and thus has three response fields.
+기본적으로, 문제 구성요소에서 각 답안 입력입력 필드 또는 "답변 공간"은 1점의 가치가 있다. 모든 문제 구성요소는 다중 답안 입력 입력 필드를 가질 수 있다. 예를 들어 위의 문제 구성요소는 세 가지 별도의 질문에 대답해야 하는 하나의 드롭다운 문제를 포함함으로 세 가지 답안 입력 입력 필드가 있어야 한다. 
 
-The following Problem component contains one text input problem,
-and has just one response field.
+다음의 문제 구성요소는 하나의 텍스트 입력 문제를 포함함으로 단지 하나의 답안 입력 입력 필드가 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWeight_TI.png
  :alt: Image of a text input problem from a student's point of view
 
-Computing Scores
+점수 계산하기
 ****************
 
-The score that a student earns for a problem is the result of the
-following formula:
+학습자 문제에 대해 얻는 점수는 다음 공식의 결과이다:
 
-**Score = Weight × (Correct answers / Response fields)**
+**점수 = 가중치 x (정답/답변 입력입력 필드)**
 
-*  **Score** is the point score that the student receives.
+*  **점수** 는 학습자가 받는 포인트 점수이다. 
 
-*  **Weight** is the problem’s maximum possible point score.
+*  **가중치** 는 문제의 최대 가능한 포인트 점수이다.
 
-*  **Correct answers** is the number of response fields that contain correct
-   answers.
+*  **정답** 은 정답을 포함하는 답안 입력 입력 필드 수이다. 
 
-*  **Response fields** is the total number of response fields in the problem.
+*  **답안 입력 필드** 는 문제에서 답안 입력 입력 필드의 총 수이다.
 
-**Examples**
+**예제**
 
-The following are some examples of computing scores.
+점수 계산하기의 몇 가지 예는 다음과 같다.
 
-*Example 1*
+*예제 1*
 
-A problem’s **Weight** setting is left blank. The problem has two
-response fields. Because the problem has two response fields, the
-maximum score is 2.0 points.
+문제의 **가중치** 설정은 비어 있는 채로 남아 있다. 문제는 두 개의 답안 입력 필드를 가진다. 문제가 두 개의 답안 입력 필드를 가지기 때문에, 최대 점수는 2.0점이다. 하나의 답안 입력 필드는 정답을 포함하고, 다른 답안 입력 필드는 오답을 포함하는 경우, 학습자의 점수는 2점 중에 1.0점이다. 
 
-If one response field contains a correct answer and the other response
-field contains an incorrect answer, the student’s score is 1.0 out of 2
-points.
+*예제 2*
 
-*Example 2*
+문제의 가중치는 12로 설정되어 있다. 문제는 세 개의 답안 입력 필드를 가진다. 학습자의 답변이 2개의 정답과 1 개의 오답을 포함하는 경우 학습자의 점수는 12점 중에 8.0점이다.
 
-A problem’s weight is set to 12. The problem has three response fields.
+*예제 3*
 
-If a student’s response includes two correct answers and one incorrect
-answer, the student’s score is 8.0 out of 12 points.
-
-*Example 3*
-
-A problem’s weight is set to 2. The problem has four response fields.
-
-If a student’s response contains one correct answer and three incorrect
-answers, the student’s score is 0.5 out of 2 points.
+문제의 가중치는 2로 설정되어 있다. 문제는 네 개의 답안 입력 필드를 가진다. 학습자의 답변이 하나의 정답과  3 개의 오답을 포함하는 경우, 학습자의 점수는 2점 중에 0.5 점이다.
 
 .. _Randomization:
 
 ===============
-Randomization
+무작위 추출하기
 ===============
 
-This setting specifies whether certain values in your problem change each time
-a different student accesses the problem, or each time a single student tries
-to answer the problem. For example, the highlighted values in the problem below
-change each time a student submits an answer to the problem.
+이 설정은 다른 학습자가 문제에 접근할 때마다 혹은 한 학습자가 문제에 각각 답변할 때마다 문제에서 특정 값이 변경되는지 여부를 지정한다. 예를 들어 아래 문제에서 강조 표시된 값은 학습자가 문제에 대한 답변을 제출할 때마다 변경된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Rerandomize.png
  :alt: The same problem shown twice, with color highlighting on values that 
        can change
 
-If you want to change, or "randomize," specific values in your problem, you
-have to do both the following:
+: K-MOOC 담당자가 문제에서 특정 값을 변경 또는  "무작위 추출하기" 하려는 경우, 다음의 두 가지를 반드시 해야 한다: 
 
-* Make sure that your problem contains a Python script that randomizes the
-  values that you want.
+* 해당 문제가 K-MOOC 담당자가 원하는 값을 무작위 추출하기 하는 Python 스크립트를 포함하고 있는지 확인한다. 
 
-* Enable randomization in the Problem component. 
+* 문제 구성요소에서 무작위 추출하기를 이용 가능하게 만든다. 
 
-.. note:: Note that specifying this **Randomization** setting is different 
- from *problem randomization*. The **Randomization** setting randomizes
- variables within a single problem. Problem randomization offers different
- problems or problem versions to different students. For more information, see
- :ref:`Problem Randomization`.
+.. 참고:: **무작위 추출하기** 설정을 지정하는 것은 문제 무작위 추출하기와 다르다는 것에 주의한다 **무작위 추출하기** 설정은 단일 문제 내에서 변수를 무작위로 바꾼다. 문제 무작위 추출하기는 다른 학습자에게 다른 문제 또는 다른 문제 버전을 제공한다. 더 자세한 내용은 :ref:`Problem Randomization` 를 참조하도록 한다.
 
-To enable randomization, select an option for the **Randomization** setting.
-This setting has the following options.
+무작위 추출하기를 이용 가능하게 만들려면, **무작위 추출하기** 설정에 대한 옵션을 선택한다. 이 설정은 다음과 같은 옵션을 가지고 있다.
 
 +-------------------+--------------------------------------+
-| **Always**        | Students see a different version of  |
-|                   | the problem each time they click     |
-|                   | **Check**.                           |
+| **Always**        |학습자는 **확인하기**을 클릭할 때마다 문제의 다른 버전을 본다.                           |
 +-------------------+--------------------------------------+
 | **On Reset**      | Students see a different version of  |
 |                   | the problem each time they click     |
