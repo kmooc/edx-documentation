@@ -1,27 +1,20 @@
 .. _Working with Problem Components:
 
 ################################
-Working with Problem Components
+문제 구성요소
 ################################
 
 ******************************
-Overview of Problem Components
+문제 구성요소 개관
 ******************************
 
-The problem component allows you to add interactive, automatically
-graded exercises to your course content. You can create many different
-types of problems in Studio.
+문제 구성요소는 K-MOOC 담당자가 상호작용하며 자동으로 채점되는 연습문제를 강좌 콘텐츠에 추가할 수 있도록 허용한다. K-MOOC 담당자는 스튜디오에서 다양한 유형의 문제를 만들 수 있다.
 
-All problems receive a point score, but, by default, problems do not count
-toward a student's grade. If you want the problems to count toward the
-student's grade, change the assignment type of the subsection that contains the
-problems.
+모든 문제는 포인트 점수를 받게 되지만, 기본적으로 문제는 학습자의 성적(grade)으로 포함되지는 않는다. 학습자의 성적으로 문제가 포함되기를 원하는 경우, 문제를 포함 하고 있는 소주제의 과제 유형을 바꾸도록 한다.
 
-This section covers the basics of Problem components: what they look like to
-you and your students, and the options that every problem component has. For
-more information about individual problem types, see :ref:`Create Exercises`.
+본 주제에서는 K-MOOC 담당자 및 학습자에게 문제 구성요소가 어떻게 보여지는지, 그리고 모든 문제 구성요소가 가지고 있는 옵션은 무엇인지 등 문제 구성요소의 기초를 다룬다. 각 문제 유형에 대한 더 자세한 내용은:ref:`Create Exercises` 를 참조하도록 한다.
 
-For more information, see the following topics.
+더 자세한 내용은 다음 주제를 참조하도록 한다.
 
 * :ref:`Problem Student View`
 * :ref:`Problem Studio View`
@@ -34,46 +27,28 @@ For more information, see the following topics.
 .. _Problem Student View:
 
 ************************************
-The Student View of a Problem
+학습자가 볼 문제 보기
 ************************************
 
-All problems on the edX platform have several component parts.
+. EdX 플랫폼에 있는 모든 문제는 여러 가지 구성 요소들을 가진다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise1.png
  :alt: Image of a problem from a student's point of view, with callouts for 
        elements of the problem
 
-#. **Problem text.** The problem text can contain any standard HTML formatting.
+#. **문제 텍스트**. 문제 텍스트는 어떤 표준 HTML 서식이라도 포함할 수 있다.
 
-#. **Response field with the student’s answer.** Students enter answers
-   in *response fields*. The appearance of the response field depends on
-   the type of the problem.
+#. **학습자 답안을 포함하는 답안 입력 입력 필드.** 학습자는 *답안 입력 입력 필드* 에 답을 입력한다. 답안 입력 입력 필드의 모양은 문제의 유형에 따라 달라진다.
 
-#. **Rendered answer.** For some problem types, Studio uses MathJax to
-   render plain text as “beautiful math.”
+#. **만들어진 답변.** 일부 문제 유형에 대해, 스튜디오는 일반 텍스트를 "아름다운 수학공식"으로 만들기 위해 MathJax를 사용한다.
 
-#. **Check button.** The student clicks **Check** to submit a response
-   or find out if his answer is correct. If the answer is correct, a green
-   check mark appears. If it is incorrect, a red X appears. When the
-   student clicks the **Check button**, Studio saves the grade and current
-   state of the problem.
+#. **확인하기 버튼.** 학습자는 답안을 제출하거나 그의 대답이 올바른지 알기 위해 **확인** 을 클릭한다. 답이 맞으면, 녹색 확인 표시가 나타난다. 답이 틀리면, 빨간색 X가 나타난다. 학습자가 **확인하기 버튼** 을 클릭하면, 스튜디오는 성적 및 문제의 현재 상태를 저장한다.
 
-#. **Save button.** The student can click **Save** to save his current
-   response without submitting it for a grade. This allows the student to
-   stop working on a problem and come back to it later.
+#. **저장하기 버튼.** 학습자는 성적을 위해 답안을 제출하지 않고 현재 답안을 저장하기 위해 **저장** 을 클릭할 수 있다. 이것은 학습자가 문제 풀기를 멈추고 나중에 다시 돌아와 계속 풀 수 있도록 허용한다.
 
-#. **Show Answer button.** This button is optional. When the student
-   clicks **Show Answer**, the student sees both the correct answer (see 2
-   above) and the explanation (see 10 below). The instructor sets whether
-   the **Show Answer** button is visible.
+#. **답안 표시 버튼.** 이 버튼은 선택 사항이다. 학습자가 **답안 표시** 를 클릭하면 학습자는 정확한 답 (위의 2번 참조)과 설명 (아래 10번 참조)을 모두 보게 된다. 교수자는 **답안 표시** 버튼이 표시되는지 여부를 설정한다. 
 
-#. **Attempts.** The instructor may set a specific number of attempts or allow
-   unlimited attempts for a problem. By default, the course-wide **Maximum
-   Attempts** advanced setting is null, meaning that the maximum number of
-   attempts for problems is unlimited. If the course-wide **Maximum Attempts**
-   setting is changed to a specific number, the **Maximum Attempts** setting
-   for individual problems defaults to that number, and cannot be set to
-   unlimited.
+#. **시도하기.** 교수자는 문제 풀기에 대한 특정 시도 횟수를 설정하거나 또는 무제한 시도를 허용할 수 있다. 기본적으로는 강좌 전체에 **최대 시도** 에 대한 고급 설정은 null이며, 문제에 대한 최대 시도 횟수에 제한이 없음을 의미한다. 강좌 전체에 걸친 **최대 시도** 설정을 특정한 수로 변경하려면, 개별 문제에 대한 **최대 시도** 설정은 그 숫자를 기본값으로 가지며, 더 이상 무제한으로 설정 될 수 없다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images//AnatomyOfExercise2.png
     :alt: Image of a problem from a student's point of view, with callouts for 
