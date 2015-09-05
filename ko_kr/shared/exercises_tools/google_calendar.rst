@@ -123,7 +123,7 @@ OLX에서 구글 캘린더 활용하기
   .. image:: ../../../shared/building_and_running_chapters/Images/google-calendar-settings.png
    :alt: Google calendar settings
 
-7. **저장**을 선택한다. 
+7. **저장** 을 선택한다. 
    
    **캘린더 설정** 페이지를 닫고, **캘린더** 탭으로 돌아간다. 다음에서 :ref:`obtaining the Google calendar's ID<Obtain the
    Google Calendar ID>` 에 대해 계속 알아보도록 한다.
@@ -169,9 +169,9 @@ Calendars in edX Studio>` 는 것을 확인한다.
 
 #. **강좌 개요** 페이지에서, 구글 캘린더 구성 요소를 추가하고 싶은 학습활동을 연다. 
 
-#. . **새 구성 요소 추가** 에서 **고급** 을 클릭한 후, **구글 캘린더** 를 선택한다.
+#. **새 구성 요소 추가** 에서 **고급** 을 클릭한 후, **구글 캘린더** 를 선택한다.
    
-   ** 새 구성 요소** 는 포함된 기본 edX 구글 캘린더와 함께 학습활동에 추가된다.
+    **새 구성 요소** 는 포함된 기본 edX 구글 캘린더와 함께 학습활동에 추가된다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/google-calendar-studio.png
     :width: 600
