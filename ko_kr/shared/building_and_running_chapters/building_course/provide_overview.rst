@@ -336,7 +336,7 @@
  :alt: An image of a course listing in the student dashboard, with the
      advertised start date circled.
 
-만약 강좌 운영팀이 기본적으로 설정된 시작일(01/01/2030)과 **대략적인 개강 시기** 를 변경하지 않는다면, 학습자 대시보드에서 개강일이 **준비중입니다.** 로 표시될 것이다.
+만약 강좌 운영팀이 기본적으로 설정된 시작일(01/01/2030)과 대략적인 개강 시기 를 변경하지 않는다면, 학습자 대시보드에서 개강일이 **준비중입니다.** 로 표시될 것이다.
 
 
 .. _The Course End Date:
