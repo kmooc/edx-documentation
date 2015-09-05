@@ -277,7 +277,7 @@ Best Practices for Custom Content Types
 
 강좌에 외부 콘텐츠 링크를 포함할 때는, 장애를 가진 학습자가 쉽게 접근할 수 없을 수 있으므로 외부 자료에 대한 접근성을 고려해야 한다. 학습자에게 공유하기 전에 모든 링크를 테스트할 것을 권장한다. 
 
-강좌에 외부 교재 및 기타 출판물을 PDF 형태로 통합하기 위해 eReader 도구 또는 Adding Files to a Course를 사용할 수 있다. 또한 강좌에 HTML 형식으로 그러한 자료를 통합시킬 수 있다. 외부업체에서 제공된 PDF 파일들을 작업하는 것에 대한 지침으로 Best Practices for Accessible PDFs 를 참조하고, 접근할 수 있는 HTML 만들기에 관한 지침으로 Best Practices for HTML Markup을 참조하도록 한다.
+강좌에 외부 교재 및 기타 출판물을 PDF 형태로 통합하기 위해 eReader 도구 또는 :ref:`Add Files to a Course` 를 사용할 수 있다. 또한 강좌에 HTML 형식으로 그러한 자료를 통합시킬 수 있다. 외부업체에서 제공된 PDF 파일들을 작업하는 것에 대한 지침으로 :ref:`Best Practices for Accessible PDFs` 를 참조하고, 접근할 수 있는 HTML 만들기에 관한 지침으로 :ref:`Best Practices for HTML Markup`  을 참조하도록 한다.
 
 
 **자료**
