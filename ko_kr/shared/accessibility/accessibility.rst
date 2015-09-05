@@ -256,8 +256,11 @@ Best Practices for Custom Content Types
 * 시뮬레이션을 이해하기 위해 시력이 요구되는가? 그렇다면, 시뮬레이션이 전달하는 개념을 설명하는 텍스트를 제공하도록 한다
 * 시뮬레이션을 작동 하는데 마우스가 필요한가? 그렇다면, 시뮬레이션이 전달하는 개념을 설명하는 텍스트를 제공하도록 한다.
 * 시뮬레이션은 점멸하거나 깜박거리는 콘텐츠를 포함하고 있는가? 그렇다면 이러한 콘텐츠가 시뮬레이션의 특성상 매우 중요하지만,
+ 
   * 학습자가 평가에 반영되는 활동을 하기 위해 이러한 시뮬레이션을 사용하도록 요구하지 않도록 한다.
+    activity; and
   * 시뮬레이션이 점멸성의 깜빡임 또는 깜박이 콘텐츠를 포함하고 있다는 경고를 제공하도록 한다.
+ 
 
 ++++++++++++++++++++++++++++++++++++++++++++
 온라인 연습문제 및 평가
@@ -277,12 +280,12 @@ Best Practices for Custom Content Types
 
 강좌에 외부 콘텐츠 링크를 포함할 때는, 장애를 가진 학습자가 쉽게 접근할 수 없을 수 있으므로 외부 자료에 대한 접근성을 고려해야 한다. 학습자에게 공유하기 전에 모든 링크를 테스트할 것을 권장한다. 
 
-강좌에 외부 교재 및 기타 출판물을 PDF 형태로 통합하기 위해 eReader 도구 또는 :ref:`Add Files to a Course` 를 사용할 수 있다. 또한 강좌에 HTML 형식으로 그러한 자료를 통합시킬 수 있다. 외부업체에서 제공된 PDF 파일들을 작업하는 것에 대한 지침으로 :ref:`Best Practices for Accessible PDFs` 를 참조하고, 접근할 수 있는 HTML 만들기에 관한 지침으로 :ref:`Best Practices for HTML Markup`  을 참조하도록 한다.
+강좌에 외부 교재 및 기타 출판물을 PDF 형태로 통합하기 위해 eReader 도구 또는 :ref:`Add Files to a Course` 를 사용할 수 있다. 또한 강좌에 HTML 형식으로 그러한 자료를 통합시킬 수 있다. 외부업체에서 제공된 PDF 파일들을 작업하는 것에 대한 지침으로 :ref:`Best Practices for Accessible PDFs` 를 참조하고, 접근할 수 있는 HTML 만들기에 관한 지침으로 :ref:`Best Practices for HTML Markup` 을 참조하도록 한다.
 
 
 **자료**
 
-* National Center for Accessible Media에 있는 디지털 도서 내에서 과학 콘텐츠에 대한 설명을 위한 효과적인 사례 (Effective Practices for Description of Science Content within Digital Talking Books)는 그래프, 차트, 다이어그램 및 그림을 설명하기 위한 모범 사례를 제공한다. 
+* National Center for Accessible Media에 있는 디지털 도서 내에서 과학 콘텐츠에 대한 설명을 위한 효과적인 사례는 그래프, 차트, 다이어그램 및 그림을 설명하기 위한 모범 사례를 제공한다. 
   http://ncam.wgbh.org/experience_learn/educational_media/stemdx
 
 * 워싱턴 대학의 DO-IT 프로젝트는 접근성이 높은 수학 콘텐츠를 만드는 방법에 관한 지침을 제공한다.
@@ -364,8 +367,7 @@ Best Practices for Custom Content Types
 
 자막은 비디오의 음성 콘텐츠의 텍스트 버전으로 시작한다. 스크립트를 사용하여 비디오를 만든 경우에는 자막을 만들기가 훨씬 쉽다. 간단히 녹화된 비디오를 검토하고 필요에 따라 자막을 업데이트 하면 된다. 그렇지 않다면, 직접 비디오를 기록하거나, 이런 작업을 할 사람을 구해야 한다. 수수료를 받고 실시간 비디오 자막을 만들어 줄 회사들은 많이 있다 (즉, 시간 코드를 사용하여 비디오와 텍스트가 동기화되는 자막). 
 
-K-MOOC 플랫폼은 .srt 형식으로 자막의 사용을 지원한다. 플랫폼에 비디오 파일을 통합할 때는, 그 비디오에 관한 실시간 자막을 가진 .srt 파일을 또한 업로드 해야 한다. 실시간 자막을 추가하는 방법에 대한 자세한 사항은 Working with Video Components를 참조하도록 한다. 
-See :ref:`Working with Video Components` for details on how to add timed transcripts.
+K-MOOC 플랫폼은 .srt 형식으로 자막의 사용을 지원한다. 플랫폼에 비디오 파일을 통합할 때는, 그 비디오에 관한 실시간 자막을 가진 .srt 파일을 또한 업로드 해야 한다. 시간별로 나타나는 자막을 추가하는 방법에 대한 자세한 사항은 :ref:`Working with Video Components` 를 참조하도록 한다. 
 
 
 ++++++++++++++++++++++++++++++++++++++++++++
@@ -422,4 +424,4 @@ HTML 콘텐츠를 만들 때 다음 지침에 유의하도록 한다.
 결론
 ************************************************************
 
-K-MOOC 사명의 핵심은 컴퓨터와 인터넷만으로 보다 높은 수준의 학습(higher-level learning)에 대한 접근을 제공하는 것이다. 강좌 운영팀이 소속 기관의 장애 지원 서비스와 함께 정보 기술 자원을 활용할 때 본 안내서가 유용하게 쓰여지기를 바란다. 새로운 아이디어가 있다면 accessibility@edx.org에서 함께 의견을 공유하기를 바란다. 
+K-MOOC 사명의 핵심은 컴퓨터와 인터넷만으로 보다 높은 수준의 학습에 대한 접근을 제공하는 것이다. 강좌 운영팀이 소속 기관의 장애 지원 서비스와 함께 정보 기술 자원을 활용할 때 본 안내서가 유용하게 쓰여지기를 바란다. 새로운 아이디어가 있다면 accessibility@edx.org에서 함께 의견을 공유하기를 바란다. 
