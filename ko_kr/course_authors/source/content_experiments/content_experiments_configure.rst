@@ -162,63 +162,55 @@ edX Studio에서 실험 집단 설정하기
 =============================
 
 .. note:: 
- You can only delete a group configuration that is not currently used in a
- content experiment. You cannot delete a group configuration that is used in a
- content experiment.
+ 콘텐츠 실험에서 현재 새용되지 않는 집단 설정을 삭제할 수 있다. 콘텐츠 실험에서 사용되고 있는 집단 설정은 삭제할 수 없다. 
 
-#. On the **Group Configurations** page, hover over the group configuration and
-   click the Delete icon. 
+#. **집단 설정** 페이지에서, 집단 설정으로 이동하고 삭제 아이콘을 클릭한다. 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/group-configuration-delete.png
    :alt: Edit a Group Configuration page
 
-2. When prompted to confirm the deletion, click **Delete**.
+2. 삭제를 확인하기 위해 메세지가 나타날 때, **삭제** 를 클릭한다.
 
 
 .. _View Experiments that Use a Group Configuration:
 
 ===============================================
-View Experiments that Use a Group Configuration
+집단 설정을 이용하는 실험 보기
 ===============================================
 
-You can view the experiments that use each of your group configurations.
+각 집단 설정을 사용하는 실험을 볼 수 있다. 
 
-On the **Group Configurations** page, click the name of a group to see its
-details. You see links to experiments that use the group configuration:
+**집단 설정** 페이지에서, 자세한 사항을 보기 위해 집단명을 클릭한다. 집단설정을 사용한 실험의 링크를 보게 된다.  
 
 .. image:: ../../../shared/building_and_running_chapters/Images/group_configurations_experiments.png
  :alt: A group configuration with the experiments using it circled
 
-Click a link to go to the unit page that contains the experiment.
+실험이 포함된 학습활동 페이지로 이동하기 위해 링크를 클릭한다. 
 
 
 ===============================================
-View a Group Configuration from an Experiment
+실험에서 집단 설정 보기
 ===============================================
 
-When working with a content experiment, you can view details about the group
-configuration used by that experiment in two ways:
+콘텐츠 실험을 작업에서, 두가지 방법으로 실험에 사용되는 집단 설정에 대해 볼 수 있다. 
 
-* In a unit that contains a content experiment, in the content experiment block,
-  click the name of the group configuration.
+* 콘텐츠 실험을 포함하는 학습활동에서, 콘텐츠 실험 블럭에서, 집단 설정명을 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_group_config_link.png
  :alt: Content experiment in the unit page with the group configuration link
      circled
 
-* At the top of the content experiment page, click the name of the group
-  configuration.
+* 콘텐츠 실험페이지의 상단에, 집단 설명명을 클릭한다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_page_group_config_link.png
  :alt: Content experiment page with the group configuration link circled
 
-In both cases, the group configuration opens:
+이제 집단 설정이 나타난다:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/group_configurations_experiments.png
  :alt: A Group Configuration with the experiments using it circled
 
-You can use the link in the group configuration to return to the unit that
-contains the content experiment.
+콘텐츠 실험이 포함된 학습활동으로 돌아가기 위해 집단 설정에 있는 링크를 이용할 수 있다. 
 
 .. import OLX-content experiment doc that's shared in OLX guide.
 
