@@ -4,9 +4,9 @@
 공지사항 및 학습 자료 추가하기
 ######################################################
 
-교수자는 스튜디오에서 공지사항 및 학습 자료를 추가한다.
+Studio에서 공지사항 및 학습 자료를 추가할 수 있다.
 
-학습자는 강좌에 있는 **공지사항** 탭에서 강좌 업데이트 및 학습 자료를 볼 수 있다.
+학습자는 **공지사항** 탭에서 공지사항 및 학습 자료를 볼 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/course_info.png
  :alt: Image of the Course Info page, with a Course Updates & News section on
