@@ -367,7 +367,7 @@ the course has not yet started.
    :alt: Image of a course on the student dashboard that has ended, but not
      been graded
 
-* 수료증 취득 기준 점수와 같거나 더 높은 최종 점수를 얻은 학습자는 PDF로 수료증을 발급받기 위해 **인증서 다운로드하기** 를 클릭할 수 있다.
+* 수료증 취득 기준 점수와 같거나 더 높은 최종 점수를 얻은 학습자는 PDF로 수료증을 발급받기 위해 **인증서 다운로드하기** 를 클릭할 수 있다. 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-completed-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
