@@ -1,17 +1,14 @@
 .. _Exercises and Tools Index:
 
 ############################
-Creating Exercises and Tools
+연습 및 도구 만들기
 ############################
 
-Use the chapters in this section to understand how to create exercises and
-tools in your course.
+이 장에서는 강좌에서 연습 및 도구 만드는 방법을 안내한다. 
 
-For information on how to develop your course content in the Studio Outline
-page, see :ref:`Developing Your Course Index`.
+Studio의 게요 페이지에서 강좌 콘텐츠를 만드는 방법에 대한 정보는 :ref:`Developing Your Course Index` 에 있다.
 
-For information on building specific course component types, see :ref:`Creating
-Course Content Index`.
+특정 강좌의 학습활동유형을 만들기 위한 정보는 :ref:`Creating Course Content Index` 에 있다.
 
 
 .. toctree::
