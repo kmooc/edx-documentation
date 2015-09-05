@@ -68,29 +68,16 @@ edx.org 사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자
      :alt: A course listed on the dashboard with the Re-run Course and View 
            Live options shown 
 
-3. 재개강하고 싶은 강좌를 찾아서 **강좌 재개강하기** 를 클릭한다. The
-   **Create a re-run of a course** page opens with values already supplied in
-   the **Course Name**, **Organization**, and **Course Number** fields.
+3. 재개강하고 싶은 강좌를 찾아서 **강좌 재개강하기** 를 클릭한다. 
+   **강좌명**, **기관명**, and **강좌 번호** 영역에 이미 정보가 입력되어 있을 것이다. 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/rerun_course_info.png
      :alt: The course creation page for a rerun, with the course name, 
            organization, and course number supplied
 
-4. Supply a **Course Run** to indicate when the new course will be offered. 
+4. 단, **기관별 강좌 번호** 는 새롭게 수정한다. 
    
-   Together, the course number, the organization, and the course run are used
-   to create the URL for the new course. The combination of these three values
-   must be unique for the new course. In addition, the total number of
-   characters used for the name, organization, number, and run must be 65 or
-   fewer.
-
-5. Click **Create Re-Run**. Your **My Courses** dashboard opens with a status
-   message about the course creation process.
-
-   Duplication of the course structure and content takes several minutes. You
-   can work in other parts of Studio or in the LMS, or on other web sites,
-   while the process runs. The new course appears on your **My Courses**
-   dashboard in Studio when configuration is complete.
+5. 그후 **강좌 재개강하기** 를 클릭한다. 그러면 **강좌** 대시보드에 강좌 생성 과정에 관한 메시지가 열릴 것이다.
 
 .. _Update the New Course:
 
