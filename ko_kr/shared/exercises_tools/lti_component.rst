@@ -1,30 +1,22 @@
 .. _LTI Component:
 
 ###############
-LTI Component
+LTI 구성요소
 ###############
 
-You might have discovered or developed an external learning application that you
-want to add to your online course. Or you might have a digital copy of your
-textbook that uses a format other than PDF. You can add external learning
-applications or textbooks to Studio by using a Learning Tools Interoperability
-(LTI) component. The LTI component is based on the `IMS Global Learning Tools
-Interoperability <http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html>`_
-version 1.1.1 specifications.
+온라인 강좌에 추가하려는 외부 학습 응용 프로그램을 발견하거나 개발해 왔을 수도 있을 것이다.  또는 PDF 이외의 형식을 사용한 교과서의 디지털 복사본을 가지고 있을 수도 있다. 상호 운용성 학습 도구 (LTI) 구성 요소를 사용하여 외부 학습 응용 프로그램 또는 교과서를 스튜디오에 추가할 수 있다. LTI 구성 요소는 IMS 글로벌 상호 운용성 학습 도구(`IMS Global Learning Tools
+Interoperability <http://www.imsglobal.org/LTI/v1p1p1/ltiIMGv1p1p1.html>`_ ) 버전 1.1.1 규격을 기반으로 한다. 
 
-You can use an LTI component in several ways.
 
-* You can add external LTI content that is only displayed and does not require
-  a student response, such as textbook content.
+여러 가지 방법으로 LTI 구성 요소를 사용할 수 있다.
 
-* You can add external LTI content that requires a student response. An
-  external provider will grade student responses.
+* 교과서 콘텐츠와 같이 학습자 응답을 요구 하지 않고 단지 표시만 되는 외부 LTI 콘텐츠를 추가할 수 있다.
 
-* You can use the component as a placeholder for syncing with an external
-  grading system.
+* 학습자 응답을 필요로 하는 외부 LTI 콘텐츠를 추가할 수 있다. 외부 공급자는 학습자 응답을 채점할 것이다.
 
-For example, the following LTI component incorporates a Cerego tool that
-students interact with.
+* 외부 채점 시스템과 동기화 되도록 자리 표시자로서 구성 요소를 사용할 수 있다.
+
+예를 들어, 다음 LTI 구성 요소는 학습자가 상호작용 하는 Cerego 도구를 통합한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/LTIExample.png
    :alt: Cerego LTI component example
@@ -35,42 +27,23 @@ students interact with.
 Obtain LTI Information
 ************************
 
-Before you create an LTI component from an external LTI provider in a
-unit, you need the following information.
+학습활동에서 외부 LTI 공급자로부터 LTI 구성 요소를 만들기 전에, 다음과 같은 정보가 필요하다.
 
--  The **launch URL** (if the LTI component requires a student response
-   that will be graded). You obtain the launch URL from the LTI
-   provider. The launch URL is the URL that Studio sends to the external
-   LTI provider so that the provider can send back students’ grades.
+-  **실행 URL** 이다 (LTI 구성 요소가 채점될 학습자 응답을 요구하는 경우). LTI 공급자로부터 실행 URL를 얻을 수 있다. 실행 URL은 스튜디오가 외부 LTI 공급자에게 보내어 공급자가 학습자의 성적을 다시 보낼 수 있도록 하는 URL이다.
 
-- The **LTI Passports** policy key. This policy key has three parts: an LTI ID,
-  a client key, and a client secret.
+- **LTI 여권** 정책 키이다. 이 정책 키는 세 부분으로 되어 있다: LTI ID, 클라이언트 키, 클라이언트 비밀.
 
-  -  The **LTI ID**. This is a value that you create to refer to the external LTI
-     provider. You should create an LTI ID that you can remember easily.
+  -  **LTI ID** 이다. 이것은 외부 LTI 공급자가 참조할 수 있도록 만든 값이다. 쉽게 기억할 수 있는 LTI ID를 만들어야 한다.
 
-     The LTI ID can contain uppercase and lowercase alphanumeric
-     characters, as well as underscore characters (_). It can be any length. For example, you may create an LTI ID that is
-     as simple as **test_lti_id**, or your LTI ID may be a string of
-     numbers and letters such as  **id_21441** or
-     **book_lti_provider_from_new_york**.
-  -  The **client key**. This value is a sequence of characters that you
-     obtain from the LTI provider. The client key is used for
-     authentication and can contain any number of characters. For example,
-     your client key may be **b289378-f88d-2929-ctools.school.edu**.
-  -  The **client secret**. This value is a sequence of characters that
-     you obtain from the LTI provider. The client secret is used for
-     authentication and can contain any number of characters. For example,
-     your client secret can be something as simple as **secret**, or it
-     may be a string of numbers and letters such as **23746387264** or
-     **yt4984yr8**.
+     LTI ID는 밑줄 문자 (_) 문자 뿐만 아니라 소문자와 대문자 영숫자를 포함할 수 있다. LTI ID는 어떤 길이도 될 수 있다. 예를 들어, **test_lti_id** 와 같이 간단한 LTI ID를 만들 수 있다. 아니면 LTI ID는 **id_21441** 또는 **book_lti_provider_from_new_york** 와 같이 숫자와 문자의 문자열이 될 수 있다.
+  -  **클라이언트 키** 이다. 이 값은 LTI 공급자로부터 가져와야 하는 문자 시퀀스이다. 클라이언트 키는 인증을 위해 사용되고, 임의 개수의 문자를 포함할 수 있다. 예를 들어, 클라이언트 키는 **b289378-f88d-2929-ctools.school.edu** 이 될 수 있다.
+  -  **클라이언트 비밀** 이다. 이 값은 LTI 공급자로부터 가져와야 하는 문자 시퀀스이다. 클라이언트 비밀은 인증을 위해 사용되고, 임의 개수의 문자를 포함할 수 있다. 예를 들어, 클라이언트 비밀은 **secret** 과 같이 간단한 것일 수 있다. 또는 **23746387264** 또는 **yt4984yr8** 와 같은 숫자와 문자의 문자열이 될 수 있다. 
 
-  To create the **LTI Passports** policy key, combine the LTI ID, client key, and client secret in the following format (make sure to include the colons):
+  T**LTI 여권** 정책 키를 만들려면 LTI ID, 클라이언트 키, 및 클라이언트 비밀을 다음 형식으로 결합해야 한다 (콜론을 포함하는지 확인하도록 한다). 
 
   ``lti_id:client_key:client_secret``
 
-  For example, an **LTI Passports** policy key may resemble any of the following:
-
+  예를 들어 **LTI 여권** 정책 키는 다음 중 하나와 유사할 수 있다.
   ``test_lti_id:b289378-f88d-2929-ctools.school.edu:secret``
   
   ``id_21441:b289378-f88d-2929-ctools.school.edu:23746387264``
@@ -78,61 +51,50 @@ unit, you need the following information.
   ``book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8``
 
 ************************
-Create an LTI Component
+LTI 구성 요소 만들기
 ************************
 
-Creating an LTI component in your course has three steps.
+강좌에서 LTI 구성 요소를 만들려면 세 단계가 있다.
 
-#. Add LTI to the **Advanced Module List**  policy key.
-#. Register the LTI provider.
-#. Create the LTI component in an individual unit.
+#. LTI를 **고급 모듈 목록** 정책 키에 추가한다.
+#. LTI 공급자를 등록한다.
+#. 개별 학습활동에서 LTI 구성 요소를 만든다.
 
 ======================================================
-Step 1. Add LTI to the Advanced Module List Policy Key
+1 단계. LTI를 고급 모듈 목록 정책 키에 추가하기
 ======================================================
 
-#. On the **Settings** menu, click **Advanced Settings**.
+#. **설정** 메뉴에서 **고급 설정** 을 클릭한다.
 
-#. In the field for the **Advanced Module List** policy key, place your cursor
-   between the brackets.
+#. **고급 모듈 목록** 정책 키에 대한 입력 필드에서, 괄호 사이에 커서를 놓는다.
 
-#. Enter ``"lti"``. Make sure to include the quotation marks, but not the
-   period.
+#. ``"lti"`` 를 입력한다. 마침표가 아닌, 인용 부호를 포함하도록 확인한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/LTIPolicyKey.png
      :width: 500
      :alt: Image of the advanced_modules key in the Advanced Settings page, with the LTI value added
 
-.. note:: If the **Advanced Module List** field already contains text, place your cursor directly
-   after the closing quotation mark for the final item, and then enter a comma
-   followed by ``"lti"`` (make sure that you include the quotation marks).
+.. 참고:: **고급 모듈 목록** 입력 필드에 이미 텍스트가 있으면, 마지막 항목에 대한 닫는 따옴표 바로 뒤에 커서를 놓은 다음, ``"lti"`` 다음 쉼표를 입력한다 (인용 부호를 포함하는지 확인한다.).
 
-4. At the bottom of the page, click **Save Changes**.
+4. 페이지 하단에서 **변경 사항 저장** 을 클릭한다.
 
-The page refreshes automatically. At the top of the page,
-you see a notification that your changes have been saved.
+페이지는 자동으로 새로 고쳐진다. 페이지의 상단에, 변경 사항이 저장되었다는 알림을 볼 수 있다.
 
 ==========================================
-Step 2. Register the External LTI Provider
+2 단계. 외부 LTI 공급자 등록하기
 ==========================================
 
-To register the external LTI provider, you’ll add the **LTI Passports** policy
-key to the course's advanced settings.
+외부 LTI 공급자를 등록 하려면 강좌의 고급 설정에 **LTI 여권** 정책 키를 추가한다.
 
-#. On the **Advanced Settings** page, locate the **LTI Passports**
-   policy key.
+#. **고급 설정** 페이지에서, **LTI 여권** 정책 키를 찾는다.
 
-#. Place your cursor between the brackets.
+#. 괄호 사이 커서를 놓는다. 
 
-#. Enter the **LTI Passports** policy key surrounded by quotation marks.
-
-   For example, the text in the **LTI Passports** field may resemble the following.
+#. 인용 부호로 둘러싸인 곳에 ** LTI 여권** 정책 키를 입력한다. 예를 들어 **LTI 여권** 입력 필드에 들어가는 텍스트는 다음과 유사할 수 있다.
 
    ``"test_lti_id:b289378-f88d-2929-ctools.umich.edu:secret"``
 
-   If you have multiple LTI providers, separate the values for each **LTI
-   Passports** policy key with a comma. Make sure to surround each entry with
-   quotation marks.
+   여러 명의 LTI 공급자가 있는 경우, 쉼표로 각 **LTI 여권** 정책 키의 값을 구분한다. 따옴표로 각 항목을 둘러싸는 것을 확인한다.
 
    .. code-block:: xml
 
@@ -140,26 +102,23 @@ key to the course's advanced settings.
       "id_21441:b289378-f88d-2929-ctools.school.edu:23746387264",
       "book_lti_provider_from_new_york:b289378-f88d-2929-ctools.company.com:yt4984yr8"
 
-4. At the bottom of the page, click **Save Changes**.
+4. 페이지의 하단에, **변경 사항 저장** 을 클릭한다.
 
-The page refreshes automatically. At the top of the page, you see a
-notification that your changes have been saved, and you can see your entries
-for the **LTI Passports** policy key.
+페이지는 자동으로 새로 고쳐진다. 페이지의 상단에, 변경된 사항이 저장되었다는 알림이 표시되고, **LTI 여권** 정책 키에 대한 항목을 볼 수 있다.
 
 ==========================================
-Step 3. Add the LTI Component to a Unit
+3단계. LTI 구성요소를 학습활동에 추가하기
 ==========================================
 
-#. In the unit where you want to create the problem, click **Advanced**
-   under **Add New Component**, and then click **LTI**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, specify the settings that you want. See :ref:`LTI Component Settings` for a description of each setting.
-#. Click **Save**.
+#. 문제를 만들려는 학습활동에서, **새 구성 요소 추가** 에서 **고급** 을 클릭한 다음, **LTI** 를 클릭한다.
+#. 표시되는 구성 요소에서, **편집** 을 클릭한다.
+#. 구성 요소 편집기에서, 원하는 설정을 지정한다. 각 설정에 대한 설명은 :ref:`LTI Component Settings` (LTI 구성 요소 설정)을 참조하도록 한다.
+#. C**저장** 을 클릭한다.
 
 .. _LTI Component settings:
 
 **********************
-LTI Component Settings
+LTI 구성요소 설정
 **********************
 
 .. list-table::
@@ -168,24 +127,20 @@ LTI Component Settings
 
    * - Setting
      - Description
-   * - Accept grades past deadline
-     - Specifies whether third party systems are allowed to post grades past the deadline. By default, this value is set to True.
-   * - Button Text     
-     - Enter a custom label for the button that launches the third-party LTI
-       application.           
-   * - Custom Parameters     
-     - Enables you to add one or more custom parameters. For example, if you
-       added an e-book, you can set a custom parameter that opens the e-book to
-       a specific page. You could also use a custom parameter to set the
-       background color of the LTI component.
+   * - 마감을 지난 성적 받아들이기
+     - 제 3 자 시스템이 마감을 지나 성적을 게시하는 것을 허용할지 여부를 지정한다. 기본적으로, 이 값은 True로 설정되어 있다
+   * - 버튼 텍스트      
+     - 제 3자 LTI 응용 프로그램을 실행하는 버튼에 대한 사용자 지정 레이블을 입력한다.           
+   * - 사용자 지정 매개변수    
+     - 하나 이상의 사용자 지정 매개변수를 추가할 수 있다. 예를 들어, e-book(전자책)을 추가하는 경우, 전자책이 특정 페이지로 열리도록 사용자 지정 매개변수를 설정할 수 있다. 또한 LTI 구성 요소의 배경색을 설정하기 위해 사용자 지정 매개변수를 사용할 수 있다.
 
-       Every custom parameter has a key and a value. You must add the key and value in the following format.
+       모든 사용자 지정 매개변수는 키와 값을 가진다. 다음 형식으로 키와 값을 추가해야 한다.
 
        ::
 
           key=value
 
-       For example, a custom parameter may resemble the following.
+       예를 들어, 사용자 지정 매개변수는 다음과 유사할 수 있다.
 
        ::
 
@@ -193,42 +148,24 @@ LTI Component Settings
 
           page=144
 
-       To add a custom parameter, click **Add**.
-   * - Display Name               
-     - Specifies the name of the component. This name appears above the
-       component and in the course ribbon at the top of the page in the
-       courseware. Unique, descriptive display names help you identify problems
-       quickly and accurately for analysis.
-   * - Hide External Tool
-     - Indicates whether you want to launch an external tool or to use this
-       component as a placeholder for syncing with an external grading system.
-       If you set the value to True, Studio hides the **Launch** button and any
-       IFrames for this component. By default, this value is set to False.
+       사용자 지정 매개변수를 추가 하려면, **추가** 를 클릭한다.
+   * - 표시 이름              
+     - 구성 요소 이름을 지정한다. 이 이름은 구성 요소 위에 그리고 강좌 내용 페이지의 상단에 강좌 리본에 나타난다. 독특한, 설명적인 표시 이름은 분석을 위해 문제를 신속하고 정확하게 식별하는데 도움을 준다.
+   * - 외부 도구 숨기기
+     - 외부 도구를 실행하거나 또는 외부 채점 시스템과 동기화하기 위한 자리 표시자로 이 구성 요소를 사용할 것인지 여부를 나타낸다. 값을 True로 설정하면, 스튜디오는 **실행** 버튼을 숨기고, 해당 구성 요소에 대한 모든 IFrame를 숨긴다. 기본적으로, 이 값은 False로 설정되어 있다.
    * - LTI ID     
-     - Specifies the LTI ID for the external LTI provider. This value must be
-       the same LTI ID that you entered on the **Advanced Settings** page.
+     - 외부 LTI 공급자에 대한 LTI ID를 지정한다. 이 값은 **고급 설정** 페이지에서 입력한 것과 동일한 LTI ID 여야 한다.
    * - LTI URL 
-     - Specifies the URL of the external tool that this component launches.This
-       setting is applicable when **Hide External Tool** is set to False.      
-   * - Open in New Page
-     - Specify whether the problem opens in a new page. If you set this value to
-       True, the student clicks a link that opens the LTI content in a new
-       window. If you set this value to False, the LTI content opens in an
-       IFrame in the current page. This setting is applicable when **Hide
-       External Tool** is set to False.
-   * - Request user's email     
-     - If **Open in New Page** is set to True, you can also request user
-       information. Set this value to True to request the user's email address.
-   * - Request user's username     
-     - If **Open in New Page** is set to True, you can also request user
-       information. Set this value to True to request the user's username.    
-   * - Scored     
-     - Indicates whether the LTI component receives a numerical score from the
-       external LTI system. By default, this value is set to False.       
-   * - Weight
-     - Specifies the number of points possible for the problem. By default, if
-       an external LTI provider grades the problem, the problem is worth 1
-       point, and a student’s score can be any value between 0 and 1. This
-       setting is applicable when **Scored** is set to True.
+     - 해당 구성 요소가 실행하는 외부 도구의 URL을 지정한다. 이 설정은 **외부 도구 숨기기** 가 False로 설정되어 있으면 적용될 수 있다.    
+   * - 페이지에서 열기
+     - 문제를 새 페이지에서 열지 여부를 지정한다. 이 값을 True로 설정하면, 학습자는 새 창에서 LTI 콘텐츠가 열리는 링크를 클릭하게 된다. 이 값을 False로 설정하면, 현재 페이지의 IFrame에서 LTI 콘텐츠가 열린다. 이 설정은 **외부 도구 숨기기** 가 False로 설정되어 있으면 적용될 수 있다.
+   * - 이용자 이멜일 요청하기
+     - **새 페이지에서 열기** 를 True로 설정하는 경우, 또한 이용자 정보를 요청할 수 있다. 사용자의 이메일 주소를 요청하기 위해 이 값을 True로 설정한다.
+   * - 이용자의 사용자이름 요청하기  
+     - **새 페이지에서 열기** 를 True로 설정하는 경우, 또한 이용자 정보를 요청할 수 있다. 이용자의 사용자이름을 요청하기 위해 이 값을 True로 설정한다.   
+   * - 득점
+     - LTI 구성 요소가 외부 LTI 시스템으로부터 숫자 점수를 받는지 여부를 나타낸다. 기본적으로, 이 값은 False로 설정된다.     
+   * - 가중치
+     - 문제에 대한 가능한 포인트의 수를 지정한다. 기본적으로, 외부 LTI 공급자가 문제를 채점하는 경우, 문제는 1 포인트 점수를 가지며, 학습자의 점수는 0과 1 사이의 어떤 값도 될 수 있다. 이 설정은 **득점** 이 True로 설정된 경우 적용될 수 있다.
 
-       For more information about problem weights and computing point scores, see :ref:`Problem Weight`.
+       문제 가중치 및 포인트 점수를 계산하는 것에 관한 더 자세한 내용은 :ref:`Problem Weight` 를 참조하도록 한다.
