@@ -45,8 +45,8 @@ Studio에서 강좌를 만드는 또 다른 방법은 기존 강좌를 재개강
    * - 위키
      - 아니오.
 
-See :ref:`Use Re-Run to Create a Course<Use ReRun to Create a Course>` and
-:ref:`Update the New Course`.
+보다 자세한 정보는 :ref:`Use Re-Run to Create a Course<Use ReRun to Create a Course>` 와
+:ref:`Update the New Course` 에 있다.
 
 .. _Use ReRun to Create a Course:
 
