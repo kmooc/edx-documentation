@@ -304,8 +304,8 @@
  :alt: An image of two courses in the student dashboard, with the start dates
      and times circled.
 
-.. note:: If you do not specify a start time for your course, students see
-   the default start time, 00:00 Coordinated Universal Time (UTC).
+.. 참고:: 강좌 시작 시간을 지정하지 않으면, 기본 시간이 00:00 (UTC)로 설정된다.
+   
 
 
 .. _Set the Advertised Start Date:
