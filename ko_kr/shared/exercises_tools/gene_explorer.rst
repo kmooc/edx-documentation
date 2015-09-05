@@ -46,4 +46,4 @@ For more information about the Gene Explorer, see `The Gene Explorer <http://int
 * **너비** 및 **높이** 는 픽셀 단위로 응용 프로그램의 크기를 지정한다.
 * **genex_dna_sequence** 는 문제를 열 때 나타나는 기본 DNA 시퀀스이다.
 * **dna_sequence** 는 응용 프로그램의 상태 및 학습자의 답안을 포함한다. 이 값은 **genex_dna_sequence** 와 동일해야 한다. 
-* **genex_problem_number** 는 문제의 번호를 지정한다. 이 수는 MITx 7.00 x 강좌에 있는 5 개의 유전자 편집기 문제를 기반으로 한다 - 예를 들어 7.00 x 강좌에서 두 번째 유전자 편집기 문제처럼 문제를 만들 경우, **genex_problem_number ** 값은 2가 된다. 이 수는 1, 2, 3, 4, 또는 5 이어야 한다.
+* **genex_problem_number** 는 문제의 번호를 지정한다. 이 수는 MITx 7.00 x 강좌에 있는 5 개의 유전자 편집기 문제를 기반으로 한다 - 예를 들어 7.00 x 강좌에서 두 번째 유전자 편집기 문제처럼 문제를 만들 경우, **genex_problem_number** 값은 2가 된다. 이 수는 1, 2, 3, 4, 또는 5 이어야 한다.
