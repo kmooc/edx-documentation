@@ -234,7 +234,7 @@ Best Practices for Custom Content Types
 * 이미지의 중요한 특징을 구별하기 위해 한가지 색상만 사용하지 않는다. 예를 들어, 선 그래프 상에서, 데이터 요소를 구분 하기 위해 색상뿐만 아니라 다른 기호를 사용하도록 한다.
 * 가능하다면, SVG와 같이 확장을 지원하는 이미지 형식을 사용한다. 작지만 필수적인 세부 사항을 담고 있는 복잡한 그래픽의 고해상도 버전을 제공하는 것이 좋다. 
 * 그래픽의 정보를 기술한 텍스트를 제공한다. 차트와 그래프에 대한 기술 텍스트로는 동일한 데이터를 나타내는 표가 될 수 있다. 
-  See :ref:`Best Practices for Describing Images` for details about providing text alternatives for images.
+  이미지의 텍스트 제공과 관련된 제사한 정보는 :ref:`Best Practices for Describing Images` 을 본다. 
 
 +++++++++++++++++++++++++++++++++++++++++++
 수학 콘텐츠
