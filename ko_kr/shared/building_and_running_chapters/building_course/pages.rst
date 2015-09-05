@@ -21,7 +21,7 @@
 
 대신 메뉴를 추가할 수 있다. 추가 메뉴는 기본 메뉴 옆에 위치할 것이다.
 
-예를 들어, 다음 그림과 같이 ** 강좌 일정** 및 **교수자 블로그** 를 포함할 수 있다.
+예를 들어, 다음 그림과 같이 **강좌 일정** 및 **교수자 블로그** 를 포함할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/page_bar_lms.png
  :alt: Image of the page bar in the LMS
