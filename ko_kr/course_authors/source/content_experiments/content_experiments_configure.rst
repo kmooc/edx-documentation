@@ -109,28 +109,21 @@ edX Studio에서 실험 집단 설정하기
    :width: 800
    :alt: Create a New Group Configuration page
 
-2. Enter a name in the **Group Configuration Name** field. Use a meaningful
-name, because you will select from group configuration names when you create
-content experiments. Students do not see the group configuration name.
+2. **집단 설정명** 을 입력한다. 의미 있는 명칭을 이용 하는 것은 콘텐츠 실험을 만들때 집단 설정을 선택하기 때문이다. 학습자는 이 집단 설정명을 알지 못한다. 
 
-#. Optionally, enter a description for the new group configuration.
+#. 선택적으로, 새로운 집단 설정에 대한 설명을 입력한다.  
    
-#. By default, a new configuration already contains two groups. Modify the
-   groups or add and delete groups as needed. A group configuration must have at
-   least one group.
+#. 기본적으로, 새로운 설정은 2개의 집단이 포함되어 있다. 집단을 수정하거나 필요에 따라 추가 혹은 삭제할 수 있다. 집단 설정은 최소 1개의 집단은 있어야 한다.
 
-  * Modify group names as needed. You see group names in the unit page in
-    Studio, but group names are not visible to students.       
-  * Click **Add another group** to include another group as part of
-    the configuration. 
-  * Click the **X** to the right of an existing group to remove it from the
-    configuration. A group configuration must have at least one group.
+  * 집단 명을 필요한 만큼 수정한다. Studio의 학습 활동 페이지에서 집단 명을 볼 수 있다. 
+    그러나, 집단명은 학습자는 볼 수 없다. 
+  * 설정에 또다른 집단을 추가하기 위해 **다른 집단 추가** 를 클릭한다.
+  * 기존의 집단의 오른쪽에 **X** 를 클릭하여 설정으로부터 제거할 수 있다. 
+    집단 설정에는 최소 1개의 집단이 있어야 한다. 
 
-5. Click **Create** to save the new group configuration.
+5. **생성** 을 클릭하여 새 집단 설정을 저장한다. 
    
-The group configuration is then listed in the page. You can see the number of
-groups that the configuration contains, as well as whether the configuration is
-in use in the course:
+그러면 집단 설정은 페이지에 나타난다. 설정에 포함된 집단의 수를 볼 수 있고, 설정이 강좌에서 사용되는지 여부를 볼 수 있다.:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/group_configurations_one_listed.png
  :width: 800
@@ -141,36 +134,31 @@ in use in the course:
 .. _Edit a Group Configuration:
 
 =============================
-Edit a Group Configuration
+집단 설정 편집하기 
 =============================
 
-.. important:: You can change the name of a group configuration at any time.
-   However, before you modify any other characteristics of a group configuration
-   that is currently used in a running course, review `Guidelines for Modifying
-   Group Configurations`_.
+.. important:: 집단 설정의 명칭은 언제든지 변경할 수 있다. 그러나 운영중인 강좌에 현재 이용되는 집단 설정의 성격을 변경하기 전에 `Guidelines for Modifying Group Configurations`_ 을 살펴본다. 
 
-#. On the **Group Configurations** page, hover over the group configuration and
-   click **Edit**.
+#. **집단 설정** 페이지에서, 집단 설정으로 가서 **편집** 을 클릭한다. 
    
    .. image:: ../../../shared/building_and_running_chapters/Images/group_configurations_edit.png
     :alt: The Group Configurations page with Edit button
 
-   The following page opens:
+   그러면 다음 페이지가 열린다 :
 
    .. image:: ../../../shared/building_and_running_chapters/Images/save-group-config.png
     :alt: Edit a Group Configuration page
 
-#. Modify the name and description as needed.
+#. 필요하다면 명칭과 설명을 수정한다. 
 
-#. Modify groups in the configuration as needed. See `Create a Group
-   Configuration`_ for details.
+#. 필요하다면 설정에서 집단을 수정한다. `Create a Group Configuration`_ 에 자세하게 안내되어 있다.
    
-#. Click **Save** to save your changes.
+#. **저장** 을 클릭하여 변경사항을 저장한다. 
 
 .. _Delete a Group Configuration:
 
 =============================
-Delete a Group Configuration
+집단 설정 삭제하기
 =============================
 
 .. note:: 
