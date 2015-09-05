@@ -18,11 +18,10 @@ Drag and Drop 문제 만들기
 #. **파일 업로드** 페이지에서, 이미지 파일을 업로드한다. 파일 업로드에 대한 자세한 내용은 :ref:`Add Files to a Course` 을 참조한다.
 #. 문제를 만들려는 학습활동에서, **새 구성 요소 추가** 아래에 **문제** 를 클릭한 다음, **고급** 탭을 클릭한다.
 #. **드래그 앤 드랍** 을 클릭한다.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example text with the text of your
-   problem.
+#. 표시되는 구성 요소에서 **편집** 을 클릭한다.
+#. 구성 요소 편집기에서 예제 텍스트를 문제 텍스트로 대체한다.
 #. ``<drag_and_drop_input>`` 태그에서, **파일 업로드** 페이지에서 **https://studio.edx.org/c4x/edX/DemoX/asset/L9_buckets.png** 을 이미지 파일의 URL로 대체한다 (예, **/static/Image.png** ).
-#. 하나 이상의 ``<draggable>`` 태그에 대하여, ** 라벨** 속성의 텍스트를 학습자가 드래그 할 라벨의 텍스트로 대체한다. 예를 들어, 학습자가 이미지에 "아이슬란드"라는 단어를 드래그하기 원한다면, 새로운 태그는 다음과 유사할 것이다.
+#. 하나 이상의 ``<draggable>`` 태그에 대하여, **라벨** 속성의 텍스트를 학습자가 드래그 할 라벨의 텍스트로 대체한다. 예를 들어, 학습자가 이미지에 "아이슬란드"라는 단어를 드래그하기 원한다면, 새로운 태그는 다음과 유사할 것이다.
    
    ``<draggable id="1" label="Iceland"/>``
 
