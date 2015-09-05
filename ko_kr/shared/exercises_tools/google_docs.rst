@@ -22,7 +22,7 @@
 
 * `구글 드라이브 파일 변경하기`_
 
-또한 강좌 내용에 :ref:`Google calendars<Google Calendar Tool>` 를 사용할 수 있다. 더 자세한 내용은 :ref:`Google Calendar Tool`를 참조하도록 한다.
+또한 강좌 내용에 :ref:`Google calendars<Google Calendar Tool>` 를 사용할 수 있다. 더 자세한 내용은 :ref:`Google Calendar Tool` 를 참조하도록 한다.
 
 *********
 개관
