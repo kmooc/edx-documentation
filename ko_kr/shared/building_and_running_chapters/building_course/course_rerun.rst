@@ -54,12 +54,7 @@ Studio에서 강좌를 만드는 또 다른 방법은 기존 강좌를 재개강
 Use Re-Run to Create a Course
 ********************************************
 
-강좌를 재개강하기 전에,
-
-* edge.edx.org사이트에서 호스팅되는 강좌라면, 강좌 운영팀이 Studio에서 강좌를 만들 수 있는 권한이 있는지 확인한다.
-:ref:`Use Studio on Edge` 에서 더 자세한 안내를 볼 수 있다.
-
-* edx.org사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자에게 문의한다. 플랫폼 관리자는 재개강 기능을 이용하여 새로운 강좌를 만들 것이다. :ref:`update the new course<Update the New Course>` 에서 더 자세한 안내를 볼 수 있다.
+edx.org 사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자에게 문의한다. 플랫폼 관리자는 재개강 기능을 이용하여 새로운 강좌를 만들 것이다. :ref:`update the new course<Update the New Course>` 에서 더 자세한 안내를 볼 수 있다.
 
 강좌를 재개강하려면 Studio에서 강좌 개설 권한이 있어야 하고, 재개강하려는 강좌의 강좌 운영팀 구성원이어야 한다. 
   
