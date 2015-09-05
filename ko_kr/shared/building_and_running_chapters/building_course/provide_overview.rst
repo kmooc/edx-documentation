@@ -319,31 +319,24 @@
 이를 위해서는,
 
 #. Studio의 **설정** 메뉴에서, **고급 설정** 을 클릭한다. 
-#. Find the **Course Advertised Start Date** policy key. The default value is
-   **null**.
-#. Enter the value you want to display as the advertised start date. You can
-   use any string, enclosed in double quotation marks. If you format the string
-   as a date (for example, as 02/01/2014), the value is parsed and presented to
-   students as a date.
-
+#. **대략적인 개강 시기** 영역을 찾아 내려간다. 기본값은 **null** 로 되어 있다.
+#. 원하는 시기를 입력한다.
+   
   .. image:: ../../../shared/building_and_running_chapters/Images/advertised_start.png
    :alt: Image of the advertised start date policy key with a value of "anytime,
        self-paced"
 
-4. Click **Save Changes** at the bottom of the page.
+4. 페이지 하단에서 **변경 사항 저장** 을 클릭한다.
 
-The start date shown on the dashboard is now the value of the **Course
-Advertised Start Date** policy key:
+학습자 대시보드에서서 개강일이 아래 그림과 같이 **대략적인 개강 시기** 가 나올 것이다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course_adver_start.png
  :width: 600
  :alt: An image of a course listing in the student dashboard, with the
      advertised start date circled.
 
-If you do not change the default course start date (01/01/2030), and the
-**Course Advertised Start Date** policy value is ``null``, then the student
-dashboard does not list a start date for the course. Students just see that
-the course has not yet started.
+만약 강좌 운영팀이 기본적으로 설정된 시작일(01/01/2030)과 **대략적인 개강 시기** 를 변경하지 않는다면, 학습자 대시보드에서 개강일이 **준비중입니다.** 로 표시될 것이다.
+
 
 .. _The Course End Date:
 
