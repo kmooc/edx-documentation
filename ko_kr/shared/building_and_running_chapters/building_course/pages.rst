@@ -26,7 +26,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/page_bar_lms.png
  :alt: Image of the page bar in the LMS
 
-강좌 운영팀은 성적 규정, 강좌 슬라이드, 또는 그 밖의 다른 필요를 위해 다른 메뉴를 만들 수 있다.
+강좌 운영팀은 성적 규정, 강좌 슬라이드, 또는 그 밖의 다른 목적으로 다른 메뉴를 만들 수 있다.
 
 * Google calendar: Google calendar의 코드를 입력하면 사용 가능하다. 
 
