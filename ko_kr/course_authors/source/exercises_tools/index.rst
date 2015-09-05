@@ -1,12 +1,12 @@
 .. _Exercises and Tools Index:
 
 ############################
-연습 및 도구 만들기
+연습 문제 및 도구 만들기
 ############################
 
-이 장에서는 강좌에서 연습 및 도구 만드는 방법을 안내한다. 
+이 장에서는 강좌에서 연습 문제 및 도구 만드는 방법을 안내한다. 
 
-Studio의 게요 페이지에서 강좌 콘텐츠를 만드는 방법에 대한 정보는 :ref:`Developing Your Course Index` 에 있다.
+Studio의 개요 페이지에서 강좌 콘텐츠를 만드는 방법에 대한 정보는 :ref:`Developing Your Course Index` 에 있다.
 
 특정 강좌의 학습활동유형을 만들기 위한 정보는 :ref:`Creating Course Content Index` 에 있다.
 
