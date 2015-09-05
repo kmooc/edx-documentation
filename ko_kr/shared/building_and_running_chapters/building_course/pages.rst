@@ -49,7 +49,7 @@
 강좌 메뉴 추가하기
 ****************
 
-#. Studio의 **콘텐츠** 에서 **메뉴** 를 선택한다. 
+#. Studio의 **콘텐츠** 에서 **강좌 메뉴** 를 선택한다. 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/pages_page.png
    :alt: Image of the Pages screen
