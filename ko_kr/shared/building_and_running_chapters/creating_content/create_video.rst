@@ -257,6 +257,9 @@ The following options appear on the **Advanced** tab in the video component.
         **동영상 다운로드 허용**를 **True** 로 설정해야 한다.
         
 
+        모든 표준 브라우저가 동영상을 재생할 수 있는지 확인하기 위해, 
+        .webm 또는 .mp4 포맷을 사용할 것을 **적극** 권장한다.
+
 
 .. _Video TOC:
 
