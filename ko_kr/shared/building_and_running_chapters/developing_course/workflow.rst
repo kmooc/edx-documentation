@@ -36,24 +36,21 @@
 
 강좌를 이루는 기본 요소를 이해했다면, 이제 강좌 콘텐츠를 Studio에서 개발할 수 있다.
 
-먼저, :ref:`course outline<Developing Your Course Outline>` 에서 :ref:`sections<Create a Section>`, :ref:`subsections<Create a Subsection>`, :ref:`units<Create a Unit>` 가 이루어 져야 한다.
+먼저, :ref:`강좌 개요<Developing Your Course Outline>` 에서 :ref:`주제<Create a Section>`, :ref:`소주제<Create a Subsection>`, :ref:`학습활동<Create a Unit>` 으로 이루어 져야 한다.
 
 성적에 반영되는 소주제 설정도 할 수 있다.
-:ref:`set the assignment type and due date<Set the Assignment Type and Due Date
-for a Subsection>` 에 그에 대한 안내가 나와있다.
+:ref:`과제 유형 및 마감일 설정<Set the Assignment Type and Due Date for a Subsection>` 에 안내가 나와있다.
 
-:ref:`create components<Add a Component>` 를 참고해 구성요소도 추가할 수 있다.
+:ref:`구성요소 만들기<Add a Component>` 를 참고해 구성요소도 추가할 수 있다.
 
-이 외에도, :ref:`control content visibility<Controlling Content
-Visibility>` 를 참고하면 학습활동 게시와 공개일 설정을 통해 콘텐츠를 학습자에게 보이거나 감추는 것을 설정할 수 있다. 
+이 외에도, :ref:`콘텐츠 공개 설정<Controlling Content Visibility>` 을 참고하면 학습활동 게시와 공개일 설정을 통해 콘텐츠를 학습자에게 보이거나 감추는 것을 설정할 수 있다. 
 
 이러한 콘텐츠 제작 과정을 아래 도표와 같이 요약할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/workflow-create-content.png
  :alt: Diagram of the content creation process
 
-콘텐츠 개발 과정에서 콘텐츠를 테스트해보는 것이 원활한 강좌 운영에 도움이 될 것이다. 이에 대한 안내는 :ref:`test course content <Testing Your Course
-Content>` 에 있다.
+콘텐츠 개발 과정에서 콘텐츠를 테스트해보는 것이 원활한 강좌 운영에 도움이 될 것이다. 이에 대한 안내는 :ref:`강좌 콘텐츠 시험해보기 <Testing Your Course Content>` 에 있다.
 
 .. _Making Course Content Visible to Students:
 
@@ -64,14 +61,14 @@ Content>` 에 있다.
 콘텐츠를 만들 때, 이를 학습자에게 공개할 것인지 여부와 공개 시점을 설정할 수있다. 
 아래 항목들에 관해 공개 설정이 가능하다.
 
-* :ref:`course start date<The Course Start Date>`
-* :ref:`section<Set a Section Release Date>` and
-  :ref:`subsection<Set a Subsection Release Date>`
-* :ref:`publishing status<Hide a Unit from Students>` of the unit
-* :ref:`Hide content from students<Hide a Unit from Students>` setting
+* :ref:`강좌 시작일 설정하기<The Course Start Date>`
+* :ref:`주제<Set a Section Release Date>` 와
+  :ref:`소주제<Set a Subsection Release Date>`
+* :ref:`학습활동의 게시 상태<Hide a Unit from Students>`
+* :ref:`학습활동 감추기<Hide a Unit from Students>` 설정
 * :ref:`Content Groups`
   
-공개 설정에 대한 자세한 안내는 Content Visibility` 에 있다.
+공개 설정에 대한 자세한 안내는 :ref:`Controlling Content Visibility` 에 있다.
 
 .. _Making Course Content Searchable:
 
@@ -79,12 +76,13 @@ Content>` 에 있다.
 콘텐츠 검색 기능 활성화하기
 ***********************************
 
-학습자는 :ref:`HTML components<Working with HTML
+학습자는 :ref:`HTML 구성요소<Working with HTML
 Components>` 의 강좌 텍스트와 동영상 자막을 **강좌 내용** 탭의 왼쪽 상단의 **검색** 박스에서 검색할 수 있다.
 
-강좌 운영팀이 :ref:`publish<Publish a Unit>` 하면 Studio가 자동으로 콘텐츠에 색인을 달기 때문이다. 
+강좌 운영팀이 :ref:`게시<Publish a Unit>` 하면 Studio가 자동으로 콘텐츠에 색인을 달기 때문이다. 
 
-필요한 경우, 직접 색인을 달 수도 있다. 이를 위해 **강좌 개요** 페이지의 오른쪽 상단에서 **콘텐츠 색인 다시 달기**를 클릭한다. 
+필요한 경우, 직접 색인을 달 수도 있다. **강좌 개요** 페이지의 오른쪽 상단에서 **콘텐츠 색인 다시 달기**를 클릭한다. 
+
 .. _Revising Content:
 
 ****************************
@@ -105,5 +103,5 @@ Components>` 의 강좌 텍스트와 동영상 자막을 **강좌 내용** 탭�
 .. image:: ../../../shared/building_and_running_chapters/Images/workflow-revise-content.png
  :alt: Diagram of the content creation process
 
-강좌 콘텐츠를 변경하는 동안 :ref:`test course content <Testing Your Course
+강좌 콘텐츠를 변경하는 동안 :ref:`강좌 콘텐츠 시험해보기 <Testing Your Course
 Content>` 를 해보는 것이 좋다는 것에 유의한다.
