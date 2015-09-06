@@ -1,13 +1,12 @@
 .. _Student Data:
 
 ############################
-Student Data
+학습자 데이터
 ############################
 
-You can access data about the individuals who are enrolled in your course at
-any time after you create the course.
+자신의 강좌에 등록한 학습자들의 정보는 강좌를 개설하고 난 이후 어느 때건 접속해서 볼 수 있다. 
 
-For information about student data, see the following topics:
+학습자 자료에 대한 정보는 다음과 같은 소재를 포함한다
 
 * :ref:`PII`
 
@@ -17,193 +16,133 @@ For information about student data, see the following topics:
   
 * :ref:`Track Student Activity`
 
-To supplement the student data available from the Instructor Dashboard, you can
-use the charts and reports that are available from edX Insights. For more
-information, see `Using edX Insights`_.
+교수자 대시보드에 명시된 학습자 자료를 보충하려면 edX 인사이트 상에서 표 및 보고기능을 이용하도록 한다. 보다 자세한 정보는 `Using edX Insights`_ 을 참조한다.
 
 .. _PII:
 
 ***************************************************************
-Guidance for Working with Personal Information
+학습자 개인 정보 이용 안내
 ***************************************************************
 
-The information that edX collects from site registrants includes personal
-information that can be used to identify, contact, and locate individuals. This
-information is available to course authors for the students who are enrolled in
-their courses.
+edX가 사이트 등록자를 통해 얻게 되는 정보는 개개인을 파악하고 이들과 연락을 주고 받으며 소재파악을 하기 위한 용도로 사용되는 개인 정보를 포함한다. 본 정보는 자신의 강좌에 등록한 학습자들을 위하여 강좌 개설자 역시 접근 가능하다.  
 
-Course staff should follow the policies established by their organizations
-and comply with the legal requirements of their locales to prevent public
-distribution or misuse of this information.
+강좌 운영팀은 자신의 조직에서 수립한 정책을 따르고 지역의 법적인 요구조건을 준수하여 본 정보가 공개되지 않도록 한다. 
 
 .. **Question**: I just made this statement up. What guidance can/should we give, for immediate publication and in the future? (sent to Tena and Jennifer Adams 31 Jan 14)
 
 .. _Access_student_data:
 
 ****************************
-Access Student Data
+학습자 데이터 확인하기
 ****************************
 
-You can download data about the students who are currently enrolled in your
-course in a CSV (comma-separated values) file. For courses that have fewer than
-200 students enrolled, you can also view data for enrolled students on the
-Instructor Dashboard.
+자신의 강좌에 현재 등록되어 있는 학습자들의 데이터는 CSV (콤마-분리 형식)의 파일로 다운받을 수 있다. 200명 이하의 학습자들이 등록되어 있는 강좌의 경우, 교수자 대시보드에서 등록된 학습자의 데이터를 확인할 수 있다.  
 
 ======================
-Student-Reported Data
+학습자가 보고한 데이터
 ======================
 
-When students register with edX, they select a public username and supply
-information about themselves. Most of this information is optional, so not all
-of the students who are enrolled in your course provide it.
+학습자가 edX를 통해 등록을 할 경우 이들은 공용으로 사용되는 사용자 이름을 선택하고 자신들의 정보를 제공해야 한다. 이런 정보의 대부분은 선택사항이므로 강좌에 등록된 모든 학습자들이 이러한 정보를 제공해야 하는 것은 아니다. 
 
  .. image:: ../../../shared/building_and_running_chapters/Images/Registration_page.png
    :alt: Fields that collect student information during registration
 
-Students then enroll in as many individual courses as they choose, which enrolls
-them in each selected course.
+학습자들은 각각 선택한 강좌에 등록을 할 때 자신이 선택한 강좌만큼 등록할 수 있다. 자신의 강좌에 등록된 모든 학습자들이 보고한 정보에 접근 가능하다.
 
-You can access this self-reported information for all of the students who are
-enrolled in your course:
+* 사용자 이름
+* 이름
+* 이메일
+* 생년
+* 성별
+* 학력
+* 우편 주소
+* 목표
 
-* username
-* name
-* email
-* year_of_birth
-* gender
-* level_of_education
-* mailing_address
-* goals
+강좌 운영팀이 접근 가능한 학습자 데이터는 언제나 실시간 및 현재 등록상태를 반영한다. 학습자들은 정해진 등록 기간 동안 강좌에 등록할 수 있고 언제든 등록을 철회할 수 있다. 학습자들은 언제든지 이메일 주소 및 자신의 전체 이름을 변경할 수 있다. 그에 대한 결과로 등록된 학습자의 숫자가 시간이 지남에 따라 어떻게 변하는지 주기적으로 학습자 데이터를 다운로드 받아 확인 할 수 있다.
 
-The student data that is available to course staff always reflects the set of
-live, current enrollments. Students can enroll in your course throughout the
-defined enrollment period, and they can unenroll from a course at any time.
-Students can also change their email addresses and full names at any time. As a
-result, you may want to download student data periodically to gain insights into
-how the student population changes over time.
-
-.. note:: In the future, edX may also request that students select a language 
- and location. This data is not collected at this time.
+.. 참고:: 차후 edX는 학습자가 자신의 언어와 소재지를 설정하도록 요구할 수 있다. 본 데이터는 그때 수집되지는 않는다.  
 
 .. _View and download student data:
 
 ==========================================
-Download or View Student Data
+학습자 데이터의 다운로드 및 열람
 ==========================================
 
-You can download a report of student data to learn about the individuals who
-are enrolled in your course. In addition to the self-reported data collected at
-registration, this report includes the user account ID numbers that edX assigns
-to each registrant. For courses that include student cohorts, this report
-includes the cohort group that is assigned to each student.
+자신의 강좌에 등록된 학습자에 대해 알아가기 위해 학습자 데이터 보고서를 다운 받을 수 있다. 등록 시 수집한 자기 보고식 데이터와 더불어서 본 보고서는 edX이 각각의 등록자에게 부여한 사용자 계정 아이디 번호도 포함하고 있다. 학습자 집단을 포함하고 있는 강좌들에서 본 보고서는 각각의 학습자에게 부여된 학습집단 역시 포함하고 있다. 
 
-When you choose to download student data, a process starts on the edX servers.
-The number of students enrolled in your course, and whether your course has the
-cohort feature enabled, affect how long this process takes. You can download a
-report of student profile information in a CSV (comma-separated values) file
-after the process is complete.
+학습자 데이터를 다운받기로 결정할 경우 edX 서버를 통해 처리가 되기 시작한다. 자신의 강좌에 등록된 학습자 수 및 자신의 강좌가 학습 집단 기능이 활성화 되었는지의 여부가 처리기간이 얼마나 길어질지를 결정하게 된다. 처리과정이 완료 된 이후 학습자 프로필 정보를 CSV (콤마-분리 형식)파일로 다운받을 수 있다.
 
-For courses with fewer than 200 students enrolled, you also have the option to
-view student data on the Instructor Dashboard.
+200명 이하의 학습자들이 등록된 강좌에서는 교수자 대시보드에 있는 학습자 데이터를 열람할 수 있는 선택권이 주어진다.  
 
-.. note:: In addition to the data for enrolled students, data for the course 
- staff is included in the file or display.
+.. 참고:: 등록된 학습자의 데이터 외에도 강좌 운영팀의 데이터가 파일 혹은 표시항목에 포함되어 있다. 
 
-To download student data:
+학습자 데이터를 다운 받으려면 다음의 절차를 따른다.
 
-#. View the live version of your course.
+#. 자신 강좌의 라이브 버전을 살펴본다. 
 
-#. Click **Instructor**, then click **Data Download**.
+#. **교수자** 를 클릭한 다음 데이터 다운로드를 클릭한다. 
 
-#. To download data about enrolled students in a CSV file, click **Download
-   profile information as a CSV**.
+#. CSV파일로 등록된 학습자의 데이터를 다운 받으려면, **CSV 로 프로필 정보 다운하기** 를 클릭한다. 
 
-  A status message indicates that report generation is in progress. This
-  process can take some time to complete, but you can navigate away from this
-  page and do other work while it runs.
+  보고서가 현재 생성 중이라는 상태 메시지가 뜨게 된다. 본 처리과정은 완료되기 까지 어느 정도 시간이 걸리기도 하지만 본 페이지를 검색하여 처리가 되는 동안 다른 작업을 수행할 수도 있다. 
 
-  To track the progress of the report process, reload the page in your browser
-  and scroll down to the **Pending Instructor Tasks** section.
+  보고서 처리과정의 진행단계를 추적하려면 브라우저에 페이지를 다시 로딩하고 **현재 진행중인 교수자 업무 영역으로** 접근한다. 
 
-4. To open or save a student data report, click the
-   ``{course_id}_student_profile_info_{date}.csv`` file name at the bottom of
-   the page.
+4. 학습자 데이터 보고서를 열거나 저장하려면 페이지 아래에 있는 {강좌 아이디} 학습자 프로필 정보 {날짜}.csv 파일을 클릭한다. 
 
-  All student-supplied data is included in this file without truncation.
+ 학습자가 제공한 모든 데이터는 잘려지는 현상 없이 본 파일에 포함된다. 
 
-To view student data:
+학습자 데이터를 열람하려면 다음의 절차를 따른다. 
 
-.. note:: This option is available only for courses with an enrollment of less 
- than 200.
+.. 참고:: 본 선택사항은 200명 이하의 학습자들이 등록된 강좌에서만 가능하다.
 
-#. View the live version of your course.
+#. 자신 강좌의 라이브 버전을 살펴본다. 
 
-#. Click **Instructor**, then click **Data Download**.
+#. **교수자** 를 클릭하고 **데이터 다운로드** 를 클릭한다. 
 
-#. To display data about enrolled students, click **List enrolled students'
-   profile information**. 
+#. 등록된 학습자의 데이터를 표시하려면 **등록된 학습자의 프로필 정보 목록** 을 클릭한다. 
 
-   A table of the student data displays, with one row for each enrolled
-   student. Longer values, such as student goals, are truncated.
+   각각의 등록된 학습자들이 한 줄로 표시된 학습자 데이터표가 생성된다. 학습자 목표와 같은 길이가 긴 입력사항들은 잘려지게 된다.   
 
  .. image:: ../../../shared/building_and_running_chapters/Images/StudentData_Table.png
   :alt: Table with columns for the collected data points and rows for each 
         student on the Instructor Dashboard
 
-For courses that have the cohorts feature enabled, this report also includes a
-Cohort column with each student's assigned cohort group.
+학습집단 기능이 활성화된 강좌들에선 본 보고서가 각각의 학습자들이 지정된 학습 집단과 함께 학습집단 칼럼도 포함한다. 
 
-.. note:: The columns for language and location are included in this report 
- for backward compatibility only. This data is no longer collected during
- student registration.
-
+.. 참고:: 본 언어 및 소재지에 대한 칼럼은 하위 호환성을 위해서만 본 보고서에 포함된다. 본 데이터는 학습자 등록 시 더 이상 수집되지 않는다. 
 .. _Access_anonymized:
 
 ********************************
-Access Anonymized Student IDs
+익명 학습자 데이터 확인하기
 ********************************
 
-Some of the tools that are available for use with the edX platform, including
-external graders and surveys, work with anonymized student data. If it becomes
-necessary for you to deanonymize previously anonymized data, you can download a
-CSV file to use for that purpose.
+edX 플랫폼과 함께 활용 가능한 몇몇 도구들은 외부 채점자, 설문조사, 그리고 익명 학습자 데이터와 관련된 작업들을 포함한다. 기존에 익명 처리된 데이터를 다시 공개할 필요가 있을 경우, CSV파일을 다시 다운받아 해당 용도로 활용한다. 
 
-To download a file of assigned user IDs and anonymized user IDs:
+할당된 사용자 아이디 및 익명 처리된 사용자 아이디의 파일을 다운 받으려면 다음의 절차를 따른다.  
 
-#. View the live version of your course.
+#. 자신 강좌의 라이브 버전을 살펴본다. 
 
-#. Click **Instructor**, then click **Data Download**.
+#. **교수자** 를 클릭하고 **데이터 다운로드** 를 클릭한다. 
 
-#. Click **Get Student Anonymized IDs CSV**.
+#. **학습자의 익명 처리된 아이디 CSV 받기** 를 클릭한다. 
 
-You are prompted to open or save the {course-id}-anon-id.csv file for your
-course. This file contains the user ID that is assigned to each student at
-registration and its corresponding edX-wide anonymized user ID and course
-specific anonymized user ID. Values are included for every student who ever
-enrolled for your course.
+자신 강좌에 대해 {강좌 –아이디}-익명-아이디.csv파일을 열거나 저장할 수 있다. 본 파일은 등록시 각각의 학습자에게 할당된 사용자 아이디와 그에 상응하는 edX 익명 사용자 아이디와 강좌에 적용되는 익명 사용자 아이디를 포함하고 있다. 자신의 강좌를 등록하였던 모든 학습자의 데이터가 포함되어 있다.
 
-To research and deanonymize student data, you can use this file together with
-the ``{course_id}_student_profile_info_{date}.csv`` file of student data or the
-``{course_id}_grade_report_{date}.csv`` file of grades.
-
+학습자 데이터를 검색하여 익명처리를 변경하여 공개로 바꿀 경우 본 파일과 함께 학습자 데이터의 {강좌 아이디} 학습자 프로필 정보 {날짜}.csv 파일 혹은 {강좌 아이디} 성적 보고 {날짜}.csv파일을 함께 사용하도록 한다. 
 .. _Track Student Activity:
 
 ******************************
-Track Student Activity
+참여율이 높은 학습자 확인하기
 ******************************
 
-To monitor student activity during your course, you can review the number of
-students who, each week, interacted with your course. To be considered active,
-students must visit pages, play videos, add to discussions, submit answers to
-problems, or complete other course activities. The active student count is
-updated weekly.
+강좌를 진행할 동안 학습자 활동을 감시하기 위해서 매주 강좌에 참여하는 학습자들의 숫자를 살펴볼 수 있다. 적극적인 참여의 페이지를 방문하여 비디오를 보고 토의에 참여하며 문제에 해당하는 답을 제출하고 각기 다른 강좌 활동들을 완료해야 한다. 적극적으로 참여하는 학습자들은 매주 업데잇 된다. 
 
-To display the number of active students:
+적극적으로 참여하는 학습자의 숫자를 표시하려면 다음의 절차를 따른다. 
 
-#. View the live version of your course.
+#. 자신 강좌의 라이브 버전을 살펴본다. 
 
-#. Click **Instructor**, then click **Analytics**. The count of active students
-   appears at the top of the page.
+#. **교수자** 를 클릭하고 **분석** 을 클릭한다. 적극적으로 참여하는 학습자들의 숫자가 페이지 상단에 표시된다. 
 
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
