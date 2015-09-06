@@ -1,36 +1,36 @@
 .. _Math Expression Input:
 
 ####################################
-Math Expression Input Problems
+수식 입력 문제
 ####################################
 
-In math expression input problems, students enter text that represents a mathematical expression into a field, and text is converted to a symbolic expression that appears below that field. Unlike numerical input problems, which only allow integers and a few select constants, math expression problems can include unknown variables and more complicated symbolic expressions. 
+수식 입력 문제에서는 학습자가 수학식을 간소화한 일반 문자열을 필드에 입력하고 Enter키를 치면 해당 문자열이 기호식으로 변환되어 해당 필드 바로 밑에 표시된다. 정수 및 일부 상수만을 입력할 수 있는 수치 입력 문제와 달리 수식 입력 문제에서는 미지의 변수 및 다소 복잡한 기호식도 입력할 수 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/MathExpressionInputExample.png
  :alt: Image of math expression input problem
 
-For more information about characters that students can enter, see :ref:`Math Response Formatting for Students`.
+수식 입력 문제에 입력할 수 있는 문자에 관한 보다 자세한 정보를 :ref:`Math Response Formatting for Students` 에서 확인할 수 있다.
 
-The grader uses a numerical sampling to determine whether the student's response matches the instructor-provided math expression, to a specified numerical tolerance. The instructor must specify the allowed variables in the expression as well as the range of values for each variable.
+채점자는 수치 샘플링을 이용하여 학습자 답변이 사전 설정된 수치적 허용 한계 내에서 교수자가 제시하는 수식과 일치하는지 판단한다. 교수자는 해당 수식에 사용할 수 있는 변수와 각 변수값의 범위를 반드시 규정해야 한다.
 
-.. warning:: Math expression input problems cannot currently include negative numbers raised to fractional powers, such as (-1)^(1/2). Math expression input problems can include complex numbers raised to fractional powers, or positive non-complex numbers raised to fractional powers.
+.. 주의:: 현재까지 수식 입력 문제에서는 음수를 분수로 거듭제곱한 표현(예: (-1)^(1/2))을 입력할 수 없다. 그러나 복소수의 분수 거듭제곱 또는 양의 비복소수의 분수 거듭제곱은 입력 가능하다.
 
-When you create a math expression input problem in Studio, you'll use `MathJax <http://www.mathjax.org>`_ to change your plain text into "beautiful math." For more information about how to use MathJax in Studio, see :ref:`MathJax in Studio`.
+Studio에서 수식 입력 문제를 생성하는 경우 MathJax를 이용하여 일반 문자열을 “진짜 수학식”으로 변환한다. Studio에서 MathJax를 사용하는 방법에 관해서는 Studio에서 MathJax 사용하는 방법 간략 소개( :ref:`MathJax in Studio` ) 을 참조한다.
 
 ************************************************
-Create a Math Expression Input Problem
+수식 입력 문제 생성하기
 ************************************************
 
-To create a math expression input problem:
+수식 입력 문제를 생성하는 단계는 다음과 같다.
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Math Expression Input**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with your own code. To practice, you may want to use the sample problem code below.
-#. Click **Save**.
+#. 문제를 생성하고자 하는 학습 활동에서 **새 구성 요소 추가(Add New Component)** 아래에 있는 **문제(Problem)** 를 클릭한 후 **고급(Advanced)** 탭을 클릭한다.
+#. **수식 입력** 을 클릭한다.
+#. 구성 요소가 표시되면 **편집** 을 클릭한다.
+#. 구성 요소 편집기에 있는 예시 코드를 원하는 코드로 바꾼다. 아래의 예제 코드를 이용하여 연습할 수 있다.
+#. **저장** 을 클릭한다.
 
-**Sample Problem Code**
+
+**예제 코드**
 
 .. code-block:: xml
 
@@ -67,11 +67,11 @@ To create a math expression input problem:
 .. _Math Expression Input Problem XML:
 
 **********************************
-Math Expression Input Problem XML
+수식 입력 문제 XML
 **********************************
 
 ============
-Templates
+템플릿
 ============
 
 .. code-block:: xml
@@ -106,7 +106,7 @@ Templates
   </problem>
 
 ====
-Tags
+태그
 ====
 
 * ``<formularesponse>``
@@ -114,28 +114,28 @@ Tags
 * ``<responseparam>``
 * ``<script>``
 
-**Tag:** ``<formularesponse>``
+**태그:** ``<formularesponse>``
 
-Specifies that the problem is a math expression input problem. The ``<formularesponse>`` tag is similar to ``<numericalresponse>``, but ``<formularesponse>`` allows unknown variables.
+해당 문제가 수식 입력 문제라는 사실을 규정한다. ``<formularesponse>`` 태그는 ``< numericalresponse >`` 와 같은 형태이다. ``<formularesponse>`` 태그는 미지의 변수를 허용한다.
 
-  Attributes
+  속성
 
-  **type**: Can be "cs" (case sensitive, the default) or "ci" (case insensitive, so that capitalization doesn't matter in variable names).
+  **type**: “cs”(대소문자 구분 (초기값)) 또는 “ci”(대소문자 구분하지 않음. 변수명을 대문자와 무관하게 하기 위함)가 될 수 있다.
 
-  **answer**: The correct answer to the problem, given as a mathematical expression. If you precede a variable name in the problem with a dollar sign ($), you can include a script in the problem that computes the expression in terms of that variable.
+  **answer**: 문제에 대한, 수식으로 된 정답. 문제 내부에 있는 변수명 맨앞에 달러 기호($)를 붙일 경우 해당 수식을 그 변수에 대해 계산할 수 있는 스크립트를 해당 문제 안에 포함할 수 있다.
 
-  **samples**: Specifies important information about the problem in four lists:
+  **samples**: 문제에 대한 중요 정보를 다음 네 가지 목록에서 지정한다.
 
-    * **variables**: A set of variables that students can enter.
-    * **lower_bounds**: For every defined variable, a lower bound on the numerical tests to use for that variable.
-    * **upper_bounds**: For every defined variable, an upper bound on the numerical tests to use for that variable.
-    * **num_samples**: The number of times to test the expression.
+    * **variables**: 학습자가 입력할 수 있는 일련의 변수
+    * **lower_bounds**: 정의된 각 변수에 있어 해당 변수를 사용하기 위한 수치 테스트의 하한
+    * **upper_bounds**: 정의된 각 변수에 있어 해당 변수를 사용하기 위한 수치 테스트의 상한
+    * **num_samples**: 해당 수식의 테스트 횟수
 
-    Commas separate items inside each of the four individual lists, and the at sign (@), colon (:), and pound sign (#) characters separate the four lists. The format is the following:
+    상기한 네 가지 리스트 각각의 내부 항목은 반점(,)으로 서로 분리한다. 또, 이들 네 가지 리스트는 특수 문자 앳(@), 콜론(:), 파운드(#)로 분리한다. 형식은 다음과 같다.
 
     ``"variables@lower_bounds:upper_bounds#num_samples``
 
-    For example, a ``<formularesponse>`` tag that includes the **samples** attribute may look like either of the following.
+    가령, samples 속성을 포함하는 ``<formularesponse>`` 태그는 다음 중 하나와 같은 형태를 취할 수 있다.
 
     ``<formularesponse samples="x,n@1,2:3,4#10">``
 
@@ -145,43 +145,44 @@ Specifies that the problem is a math expression input problem. The ``<formulares
 
   * ``<formulaequationinput />``
 
-**Tag:** ``<formulaequationinput />``
+**태그:** ``<formulaequationinput />``
 
-Creates a response field where a student types an answer to the problem in plain text, as well as a second field below the response field where the student sees a typeset version of the plain text. The parser that renders the student's plain text into typeset math is the same parser that evaluates the student's response for grading.
+학습자가 문제에 대한 답을 일반 문자열로 입력할 답변(response) 필드, 그리고 학습자가 자신이 입력한 일반 문자열이 수식으로 변환된 형태를 확인할 수 있는 두 번째 필드를 해당 답변 필드 아래에 생성한다. 학습자가 입력한 일반 문자열을 수식으로 변환하는 이 파서는 학습자 답변을 평가, 채점하는 파서와 동일한다.
 
-  Attributes
+
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - label (required)
-       - Specifies the name of the response field.
-     * - size (optional)
-       - Specifies the width, in characters, of the response field where students enter answers.
+     * - 속성
+       - 설명
+     * - label(필수)
+       - 답변 필드의 이름을 지정한다.
+     * - size (선택)
+       - 학습자가 답을 입력하는 답변 필드의 폭(width)을 문자(개수)로 지정한다.
 
   Children
   
-  (none)
+  (내용 없음)
 
-**Tag:** ``<responseparam>``
+**태그:** ``<responseparam>``
 
-Used to define an upper bound on the variance of the numerical methods used to approximate a test for equality.
+동일성 검정을 근사하는 데 사용하는 수치 해석의 분산의 상한을 정의하는 데 사용한다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - default (required)
-       - A number or a percentage specifying how close the student and grader expressions must be. Failure to include a tolerance leaves expressions vulnerable to unavoidable rounding errors during sapling, causing some student input to be graded as incorrect, even if it is algebraically equivalent to the grader's expression.
+     * - 속성
+       - 설명
+     * - default (필수)
+       - 학습자 입력 수식이 채점자 제시 수식과 얼마나 유사해야 하는지를 규정하는 숫자 또는 백분율이다. 허용 한계를 포함하지 않을 경우 학습자 입력 수식에 회피 불가능한 오류인 반올림 오차가 개입할 위험이 증가하며 이로 인해 채점자 제시 수식과 대수적으로 동일한 의미를 갖는 경우에도 학습자 입력 수식 일부가 오답으로 처리된다.
      * - type
-       - "tolerance"--defines a tolerance for a number
+       - “tolerance” 어떤 수치에 대한 허용 오차를 정의한다.
 
   Children
   
-  (none)
+  (내용 없음)
 
