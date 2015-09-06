@@ -24,25 +24,18 @@
 가입과 수강신청
 *********************************
 
-Before a student can enroll in a course, he or she must:
+강좌에 등록하려면 다음 사항이 우선 이루어져야 한다.
 
-#. Register a user account, which includes supplying a valid email address, on
-   ``www.edx.org``, ``edge.edx.org``, or your implementation of the edX
-   platform. Each platform requires a separate user account.
+#.  ``www.edx.org``나 ``edge.edx.org`` 에 가입해야 한다. 두 플랫폼을 모두 이용하려면, 각각에서 모두 가입해야 한다.
 
-#. Activate the registered account by following the emailed instructions.
+#. 이메일 안내에 따라 등록된 계정을 활성화한다.
 
-As long as the course **Enrollment End Date** has not passed, students who
-have registered and activated user accounts can enroll themselves in
-``www.edx.org`` courses, or can enroll in other courses if they know the URL.
-For a more detailed description of this process from a student's point of
-view, see :ref:`Sample Student Login Guide`.
+수강 신청 종료 날짜가 지나지 않은 한, 위 사항이 이루어지면 학습자 스스로 수강 신청할 수 있으며, 학습자가 알고 있는 URL에서 다른 강좌를 수강할 수 있다. 
+학습자의 입장에서 이 과정이 어떻게 이루어지는지에 대한 자세한 정보는 :ref:`Sample Student Login Guide` 에 있다.
 
-Course authors and instructors, however, can enroll students in a course either
-before or after the students register their user accounts.
+그러나, 강좌 개설자와 교수자가 학습자가 등록하기 전이나 후에도 학습자를 등록할 수 있다.
 
-To work on a course, all course staff members must also have registered and
-activated user accounts and be enrolled in the course.
+수업을 진행하기 위해 모든 강좌 관계자들은 반드시 강좌에 등록하거나 사용자 계정을 할성화 시켜야 한다.
 
 .. _enroll_student:
 
@@ -50,65 +43,49 @@ activated user accounts and be enrolled in the course.
 학습자 수강 등록 처리하기
 *********************************
 
-You enroll students, and other course staff members, in your course by
-supplying their email addresses. After the **Enrollment End Date** for a
-course students can no longer enroll themselves; however, you can still
-explicitly enroll students.
+이메일 주소를 입력하는 것으로 학습자와 다른 강좌 운영팀을 강좌에 등록 시킬 수 있다. 수강 신청 종료일 후에는 학습자 스스로가 더 이상 등록할 수 없지만 다음과 같은 방법으로 학습자를 등록할 수 있다. 
 
-When you enroll people in a course you have these options:
 
-* **Auto Enroll**. When you choose this option, the people who you enroll do
-  not need to complete an explicit course enrollment step. Of the list of email
-  addresses that you supply, those that correspond to a registered user account
-  are immediately enrolled in the course, and your course displays on the
-  **Current Courses** dashboard for those users on log in. Email addresses on
-  the list that do not match a registered user account are enrolled as soon as
-  that account is registered and activated.
+* **자동 등록** 을 선택할 경우 강좌 운영팀이 등록한 학습자는
+  정식 수강 신청 단계를 거치지 않아도 된다. 단, 강좌 운영팀이 입력한 이메일 주소가 정확하게 입력되어야
+  한다. 그러면 해당 학습자는 즉시 강좌에 등록되어
+  *수강중인 강좌**  대시보드에서 강좌를 볼 수 있을 것이다.
 
-  If you do not select **Auto Enroll**, the people who you enroll must also actively locate your course and enroll themselves in it. These students see the course on their dashboards after they have done so.
-
-* **Notify students by email**. When you choose this option, an email message is
-  automatically sent to each of the email addresses that you supply. The message
-  includes the name of the course and, for students who are not already
-  enrolled, a reminder to use that same email address to enroll.
-
-  An example of the email message that a student received when this option was
-  selected during enrollment follows. In this example, the student already had a
-  registered and activated edx.org account, and both **Auto Enroll** and
-  **Notify students by email** were selected.
+* **메일로 학습자에게 공지** 를 선택할 경우, 입력된 각 이메일 주소로
+  이메일이 자동 발송된다. 이 메세지는 아직 수강신청하지 않은 학습자를 위해
+  강좌명과 등록처리를 위해 이 이메일 주소를 사용하라는 안내가 포함된다.
+  
+  발송되는 이메일은 아래와 같다. 아래는 학습자가 K-MOOC 플랫폼에 가입했으며, 강좌 운영팀이 **자동 등록** 및 
+  **메일로 학습자에게 공지** 를 선택한 경우다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/Course_Enrollment_Email.png
         :alt: Email message inviting a student to enroll in an edx.org course
 
-To enroll students or staff members:
+학습자 또는 관리자를 등록 시키려면, 
 
-#. View the live version of your course.
+#. 적용 결과 보기를 클릭한다.  
 
-#. Click **Instructor**, then click **Membership**. 
+#. 교수자 대시보드의 **교수자** 탭에서 **등록 관리** 를 클릭한다.
 
-#. In the **Batch Enrollment** section of the page, enter the username or email
-   address of the student, or enter multiple names or addresses separated by
-   commas or new lines.
+#. **일괄 등록** 에서 아이디 또는 학습자 이메일 주소를 입력한다. 
+   여러 명을 입력할 경우, 쉼표나 다른 줄 사용을 통해 학습자를 구분해야 한다. 
 
-  You can copy and paste data from a CSV file of email addresses. However,
-  note that this feature is better suited to courses with smaller enrollments,
-  rather than courses with massive enrollments.
+  등록 시킬 학습자가 많은 경우에는 이메일 주소 CVS 파일에서 데이터를 
+  복사하거나 붙여넣기를 하는 것이 좋다. 위의 방법은 소규모 인원을 등록시켜야 하는 강의에서 적합하다.
 
-4. To streamline the course enrollment process, leave **Auto Enroll** selected.
+4. 강좌의 수강 신청 과정을 간소화 하려면 **자동 등록** 을 선택한다.  
 
-#. To send students an email message, leave **Notify students by email**
-   selected.
+#. 학습자에게 메일을 보내 등록 사실을 확인받으려면 **메일로 학습자에게 공지** 을 선택한다.
 
-#. Click **Enroll**.
+#. **등록** 을 클릭한다.
 
 .. _view_enrollment_count:
 
 ***************************
-전체 수강신청자 수 보기
+전체 등록 인원 수 보기
 ***************************
 
-After you create a course, you can access the total number of people who are
-enrolled in it. When you view an enrollment count, note that:
+강좌 개설 후, 그 강좌에 등록된 총 학습자 수에 대한 정보를 알 수 있다. 수강신청 인원을 볼 때 주의해야 할 사항은 다음과 같다. 
 
 * In addition to students, the enrollment count includes the course author,
   course team members, instructors, and course staff. (To work with a
