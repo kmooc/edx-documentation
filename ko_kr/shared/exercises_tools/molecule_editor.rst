@@ -1,12 +1,12 @@
 .. _Molecule Editor:
 
 #######################
-Molecule Editor Tool
+분자 편집기 도구
 #######################
 
-Students can use the molecule editor to learn how to create molecules. The molecule editor allows students to draw molecules that follow the rules for covalent bond formation and formal charge, even if the molecules are chemically impossible, are unstable, or do not exist in living systems. The molecule editor warns students if they try to submit a structure that is chemically impossible.
+학습자는 분자 편집기(molecular editor)를 이용하여 분자 생성 방법을 학습할 수 있다. 분자 학습기를 통해 공유 결합 형성 및 형식 전하 규칙에 따른 분자를 구성할 수 있다. 분자 편집기를 이용하면 화학적으로 구성 불가하거나 불안정한 분자, 생명계에는 존재하지 않는 분자도 구성할 수 있다. 단, 화학적으로 구성 불가능한 분자 구조를 제출하고자 할 때 분자 편집기가 경고 메시지를 표시한다.
 
-The molecule editor incorporates two tools: the JSME molecule editor created by Peter Erl and Bruno Bienfait, and JSmol, a JavaScript-based molecular viewer from Jmol. (You don't need to download either of these tools--Studio uses them automatically.) For more information about the JSME molecule editor, see `JSME Molecule Editor <http://peter-ertl.com/jsme/index.html>`_. For more information about JSmol, see `JSmol <http://sourceforge.net/projects/jsmol/>`_.
+분자 편집기는 두 가지 도구, 즉 Peter Erl과 Bruno Bienfait가 개발한 JSME 분자 편집기 및 Jmol이 제공하는 자바스크립트 기반 분자 뷰어 JSmol를 포함하고 있다. (Studio는 이 두 가지 도구를 자동으로 사용한다. 별도로 내려받을 필요가 없다.) JSME 분자 편집기 및 JSmol에 관한 보다 자세한 정보를 `JSME Molecule Editor <http://peter-ertl.com/jsme/index.html>`_ 및 `JSmol <http://sourceforge.net/projects/jsmol/>`_ 에서 각각 확인할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Molecule_Editor.png
   :alt: Image of the molecule editor
@@ -14,45 +14,45 @@ The molecule editor incorporates two tools: the JSME molecule editor created by 
 .. _Create the Molecule Editor:
 
 ******************************
-Create the Molecule Editor
+분자 편집기 생성하기
 ******************************
 
-To create a molecule editor, you need the following files:
+분자 편집기를 생성하기 위해서는 다음 파일이 필요한다.
 
 * MoleculeAnswer.png
 * MoleculeEditor_HTML.png
 * dopamine.mol
 
-To download all of these files in a .zip archive, go to http://files.edx.org/MoleculeEditorFiles.zip.
+http://files.edx.org/MoleculeEditorFiles.zip에서 상기 모든 파일을 하나의 .zip 파일로 내려받을 수 있다.
 
-.. note:: The molecule that appears when the tool starts is a dopamine molecule. To use a different molecule, download the .mol file for that molecule from the `list of molecules <http://www.biotopics.co.uk/jsmol/molecules/>`_ on the `BioTopics <http://www.biotopics.co.uk/>`_ website. Then, upload the .mol file to the **Files & Uploads** page for your course in Studio, and change "dopamine.mol" in the example code to the name of your .mol file.
+.. 참고:: 편집기 시작 시 표시되는 것은 도파민 분자이다. 다른 분자로 교체하고자 하는 경우 BioTopics 웹 사이트의 분자 목록(`list of molecules <http://www.biotopics.co.uk/jsmol/molecules/>`_ )에서 원하는 분자의 .mol을 내려받아 Studio에서 강좌에 해당하는 **파일 업로드** 페이지에 올린 후 예제 코드의 “dopamine.mol”을 “원하는이름.mol”로 바꾼다.
 
-To create the molecule editor that appears in the image above, you need an HTML component followed by a Problem component.
+상기 이미지에 표시된 분자 편집기를 생성하려면 “문제(Problem)” 구성 요소 앞에 HTML 구성 요소 하나가 있어야 한다.
 
-#. Upload all of the files listed above to the **Files & Uploads** page in your course.
-#. Create the HTML component.
+#. 강좌의 **Files & Uploads** 페이지에 상기 파일을 모두 업로드한다.
+#. HTML 구성 요소를 생성한다.
 
-  #. In the unit where you want to create the problem, click **HTML** under **Add New Component**, and then click **HTML**.
-  #. In the component that appears, click **Edit**.
-  #. In the component editor, paste the HTML component code from below.
-  #. Make any changes that you want, and then click **Save**.
+  #. 문제를 생성하고자 하는 학습 활동에서 **새 구성 요소 추가** 아래에 있는 **HTML** 을 클릭한 후 다시 **HTML** 을 클릭한다.
+  #. 구성 요소가 표시되면 **편집** 을 클릭한다.
+  #. 구성 요소 편집기에 아래의 HTML 구성 요소를 복사해 넣는다.
+  #. 원하는 대로 변경한 후 **저장** 을 클릭한다.
 
-3. Create the Problem component.
+3. 문제 구성 요소를 생성한다.
 
-  #. Under the HTML component, click **Problem** under **Add New Component**, and then click **Blank Advanced Problem**.
-  #. In the component that appears, click **Edit**.
-  #. In the component editor, paste the Problem component code from below.
-  #. Click **Save**.
+  #. HTML 구성 요소에서 **새 구성 요소 추가** 아래의 **문제** 를 클릭한 후 **고급 문제 생성** 을 클릭한다.
+  #. 해당 구성 요소가 표시되면 **편집** 을 클릭한다.
+  #. 구성 요소 편집기에서 아래의 문제 구성 요소를 복사해 넣는다.
+  #. **저장** 을 클릭한다.
 
 .. _EMC Problem Code:
 
 ========================
-Molecule Editor Code
+분자 편집기 코드
 ========================
 
-To create the molecule editor, you need an HTML component and a Problem component.
+분자 편집기를 생성하려면 HTML 구성 요소 하나와 문제 구성 요소 하나가 필요한다.
 
-HTML Component Code
+HTML 구성 요소 코드
 ***************************
 
 .. code-block:: xml
@@ -101,7 +101,7 @@ HTML Component Code
 
 
 
-Problem Component Code
+문제 구성 요소 코드
 ***************************
 
 .. code-block:: xml
@@ -124,7 +124,7 @@ Problem Component Code
     </solution>
   </problem>
 
-**Problem 2**
+**문제 2**
 
 ::
 
@@ -142,7 +142,7 @@ Problem Component Code
     </customresponse>
   </problem>
 
-**Problem 3**
+**문제 3**
 
 ::
 
