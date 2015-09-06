@@ -1,125 +1,122 @@
 .. _Guidance for Discussion Moderators:
 
 ######################################
-Guidance for Discussion Moderators
+토의 조정자
 ######################################
 
-Discussion forums are hugely important tools in running a successful MOOC; they allow for substantive community development, in addition to being excellent sources of feedback and ideas for future iterations of the course. 
+게시판은 MOOC를 성공적으로 운영하기 위해서 상당히 중요한 도구이다. 게시판은 실질적으로
+커뮤니티를 활성화할 뿐만 아니라, 향후 되풀이되는 강좌에 대한 피드백과 아이디어를 제공하는 훌륭한 정보원이 된다. . 
 
-Moderators are the key to effectively managing these online communities.
-Moderators keep the discussions productive and relay important information
-(errors, student confusion with or interest in particular topics, and so on) to
-the rest of the course staff. Discussions can be moderated by any of a number of
-members of the course team, but dedicating enough time to moderation is the best
-way to cultivate a successful discussion culture.
+이러한 온라인 커뮤니티를 효과적으로 관리하는 데 있어서 조정자는 중요한 역할을 한다. 조정자는 게시판을 유익하게 만들고 중요한 정보(오류, 학습자가 흥미로워하는 특정 주제 혹은 학습자가 혼란스러워하는 특정 주제 등)를 나머지 강좌 운영진에게 전달한다. 많은 강좌 운영진들에 의해 게시판이 검토될 수 있지만, 검토하는 것에 많은 시간을 투자하는 것은 성공적인 게시판 문화를 도모하는 데 가장 좋은 방법이다. 
 
-Please feel free to use some or all of the information in this chapter to guide the contributions of your discussion moderators.
+토의 조정자의 역할을 설명하는 이 주제에 모든/일부 정보를 자유롭게 사용해도 좋다. 
 
 **********************
-Responsibilities
+조정자의 역할
 **********************
 
-* Answer basic questions posed by students, and direct students with questions to the right resources: syllabi, course documents, course updates, useful lecture segments, example problems, etc. 
+* 학습자가 작성한 기본 질문에 답변한다. 그리고 질문이 있는 학습자에게 적합한 자료(강의 계획서, 강좌 기록, 강좌 업데이트 사항, 강의의 일부분, 예제 문제 등)를 제공한다.
 
-* Relay reports of errata, common misconceptions and questions, highly disruptive participants, bugs, and amusing or interesting posts to the most appropriate course staff. 
+* 정오표, 일반적인 오해와 질문, 매우 공격적인 참가자, 버그와 재미있거나 흥미로운 게시물에 관한 보고서는 가장 적합한 강좌 운영진에게 전달한다. 
 
-* Enforce the Honor Code by editing or deleting problem answers, or requests for answers, promptly. 
+* 문제가 있는 질문에 대한 답변이나 답글을 즉시 편집하거나 삭제함으로써, 명예규범을 적용한다. 
 
-* Edit out offensive content from the discussion, and remind the originators of discussion etiquette and expectations. 
+* 게시판에서 불쾌한 내용을 편집하고 해당 게시물 작성자에게 게시판 예절과 요구사항을 상기시킨다. 
 
-* Communicate problems and successes to your fellow moderators. 
+* 게시판을 운영, 관리하면서 발생하는 문제와 성공 사례를 동료 조정자에게 전달한다.  
 
-* Identify students whose presence in the discussions has a strongly positive impact. These students can be promoted to community TA role and publicly acknowledged. 
+* 게시판에 매우 긍정적인 영향을 미치는 학습자를 파악한다. 이러한 학습자는 커뮤니티 TA 역할로 승격될 수 있으며, 이에 관해 사람들에게 공개적으로 알린다. 
 
-* Add helpful items to the FAQ or Course Info page. 
+* 도움이 되는 항목을 FAQ이나 강좌 정보 페이지에 추가한다.
 
 ***************************************
-Qualities of good discussion moderators
+조정자의 자질
 ***************************************
 
-* Good or great content knowledge: stellar students from previous years often make good moderators. 
+* 훌륭하고 좋은 콘텐츠 지식: 전년도에 뛰어난 학습자는 종종 좋은 조정자가 된다. 
 
-* Solid communication skills: the ability to organize positive, consistent, and effective communication with students, other moderators, and course staff. 
+* 믿음직한 의사소통 능력: 학습자, 다른 조정자와 강좌 운영팀과 효율적이고 긍정적이며 일관성 있는 소통을 준비할 수 있는 능력. 
 
-* Time: keeping up-to-date with the discussions for a large MOOC requires at least 5 hours per week for reading posts, replying to or editing posts, and communicating with the other moderators and course staff. 
+* 시간: 큰 MOOC의 게시판에 동향을 따라가기 위해서 게시물을 읽고, 답글이나 댓글을 추가하거나 게시물을 편집하고 다른 조정자와 강좌 운영진과 소통하기 위해서는 적어도 매주 5시간은 필요하다.  
 
-* Enthusiasm: this is the best predictor of moderator excellence! 
+* 열정: 이것은 조정자의 자질 중에 가장 중요한 것이다!
 
 ******************************************
-Best practices for discussion moderation
+조정자 지침 사항
 ******************************************
 
-* Always maintain a positive attitude. Keeping a positive attitude is crucial to encouraging participation in the discussion community. 
+* 항상 긍정적인 자세를 유지한다. 긍정적인 자세를 유지하는 것은 게시판 커뮤니티에 참여를 장려하는 데 매우 중요하다. 
 
-* Encourage discussion between students. Actively thank students who answer the questions of others. 
+* 학습자 사이에서 게시판 사용을 장려한다. 다른 사람의 질문에 답변하는 학습자에게 적극적으로 고마움을 표시한다. 
 
-* Use the course’s FAQ and Course Info pages as resources. Provide links to these pages in your responses when appropriate. Suggest that information be added to these resources when necessary to respond to a common question or fix confusion. 
+* 강좌 자료로써 강좌의 FAQ와 강좌 정보 페이지를 사용한다. 답변이 있는 이러한 페이지를 적절한 때에 링크를 걸어둔다. 공통 질문에 답변할 필요가 있거나, 혼란스러운 상황을 바로잡을 필요가 있을 때, 정보를 이러한 자료에 추가해두는 것이 좋다. 
 
-* Always make it obvious that you have read the student’s question. When posting a response, make sure that you are on topic. Respond in the context of the thread.
+* 학습자의 질문을 읽었다는 것을 항상 확실하게 해둔다. 게시물 문맥 내에서 게시물에 맞게 답변을 한다. 
 
-* Develop a discussion persona. Try to answer your questions in your own slightly unique way. 
+* 게시판 페르소나 개발. 자신만의 독특한 방법으로 자신의 질문에 대답해보려 노력한다. 
 
 *******************************************
-Guidelines for specific types of posts
+게시글 유형별 가이드라인
 *******************************************
 
-Certain types of posts require more attention from the moderators than others, or may need to be handled in a particular way.
+어떤 게시글 유형은 다른 사람들보다 조정자의 더 많은 관심이 필요하거나, 특별한 방법으로 처리해야 할 필요가 있을 때가 있다. 
 
 ============================
-Time sensitive problems 
+시간에 민감한 문제
 ============================
 
-* Try to be present on discussion threads when assignment due dates are approaching or new content is being released. The discussions tend to be extra busy at these times. 
+* 주어진 마감일이 다가오거나 새로운 콘텐츠가 공개될 때, 게시판 게시물에 참여하려고 노력한다. 게시판은 이 시기에 특히 더 바쁜 경향이 있다.  
 
-* Please alert the course staff about problems that need to be dealt with quickly, such as problems with a graded assignment. Setting up a course email address that is checked frequently is a good way to manage these alerts. 
-
-============================
-Content Questions 
-============================
-
-* Assist with content questions sensitively, but be careful not to post
-  spoilers. Do not ask students to post their solutions!
-
-* A good guiding question can be better than an answer.
+* 과제 평가에 문제처럼 빠르게 처리할 필요가 있는 문제에 대해서는 강좌 운영진에게 알리길 바란다. 자주 확인하는 강좌 메일 주소를 설정하는 것은 이러한 알림을 관리하는 좋은 방법이다.  
 
 ============================
-Redundant posts 
+콘텐츠 질문
 ============================
 
-* When possible, help discourage redundancy by responding to such posts with links to an earlier or higher quality thread that asks the same question. 
+* 민감한 콘텐츠 질문을 해결하기 위해 돕지만, 스포일러를 게시하지 않도록 주의를 한다. 학습자에게 자신만의 해결책을 게시하도록 요구해서는 안 된다. 
 
-* When responding to a post, search for similar posts and respond to the most pertinent thread. Redirect the other posts to the thread with your response and then close the redundant threads. 
+* 좋은 질문은 답변보다 더 좋을 수 있다. 
+
+============================
+중복 게시물
+============================
+
+* 가능하면, 같은 질문에 답을 달아놓은 질 높은 게시물이나 더 쉽게 설명한 게시물에 링크를 걸어 이러한 질문에 답함으로써, 중복 게시물을 막는 데 도움을 준다. 
+
+
+* 게시글에 답변을 추가할 때, 비슷한 게시글이 있는지 검색하고 가장 적합한 게시물에 응답한다. 게시글을 답변이 있는 게시물로 다시 보낸 후 중복 게시물을 닫는다.  
 
 ========================================================
-Off topic, inappropriate, or offensive posts 
+주제에 벗어나거나 부적절한 게시글 또는 불쾌감을 주는 게시글
 ========================================================
 
-* Don’t simply delete them; instead, edit and explain why they were edited. Inappropriate posts include spoilers, solutions, and information on how to pirate educational materials. 
+* 이러한 게시물을 완전히 삭제하지 않는다. 그 대신에 편집하고 그 게시물을 편집하는 이유에 관해서 설명한다. 부적절한 게시글은 스포일러, 해결책과 교육 자료의 저작권을 침해하는 방법에 관한 정보 등을 포함한다.
 
-* Check links that students post. If offensive sites and materials are found, they need to be edited quickly. 
-
-============================
-Bugs or errors 
-============================
-
-* Check if there is in fact an error. 
-
- - If not, suggest to the students that they check their work. 
-
- - If so, contact course staff, and notify the thread that the error has been reported.
-
-* Use language that does not assign blame or discourage users from the platform. 
-
- You might say: “Thanks for letting us know about that issue. We are working with edX to get it fixed as quickly as possible.” 
+* 학습자가 올린 링크를 확인한다. 불쾌감을 주는 사이트와 자료가 발견된다면, 빠르게 편집할 필요가 있다.  
 
 ============================
-Feature requests 
+버그나 오류
 ============================
 
-* Keep an organized collection of feature requests cultivated by the course team. That list can subsequently be shared with an edX product manager, who will log those requests internally. 
+* 사실상에 오류가 있는지 확인한다.
 
-* Reply to the post to let the person know that their request was heard, without promising that the feature will be implemented. 
+ - 만약 없다면, 학습자가 자신의 게시물을 확인하도록 제시한다. 
 
- You might say: “Thanks for your suggestion. I’ve logged it for review by edX staff, who will prioritize feature requests on the development roadmap.” 
+ - 만약 있다면, 강좌 운영진에게 연락해서 오류가 있는 게시물을 통보한다. 
 
-* Search the discussions for other similar requests, and respond to and close those as well.
+* 사용자가 플랫폼을 사용하는 데 있어서 좌절시키지 않는 언어나 책임이 돌리지 않은 언어를 사용한다.
+
+다음과 같이 말할 수 있다. : “문제에 대해 알려주셔서 감사합니다. 가능한 한 빨리 문제를 바로잡기 위해 K-MOOC 운영팀과 함께 노력하고 있습니다.” 
+
+============================
+기능 요청
+============================
+
+* 강좌 운영진이 구축한 잘 정리된 기능요청 컬렉션을 보유한다. 이후에 그 목록은 내부적으로 이러한 요청을 기록하는 K-MOOC 제품 관리자와 공유할 수 있다. 
+
+* 기능이 구현될 것이라는 약속 없이 그들의 요청을 들었다는 것을 알 수 있도록 게시물에 답글을 추가한다. 
+
+ 다음과 같이 말할 수 있다. : “귀하의 제안에 감사합니다. K-MOOC 운영팀이 검토하기
+위해 그것을 기록했으며, 그들은 로드맵에 대한 기능 요청을 우선순위로 할 것입니다.” 
+
+비슷한 다른 요청에 대한 내용을 검색한다. 그리고 그것들도 마저 답변하고 마무리 짓는다. 
