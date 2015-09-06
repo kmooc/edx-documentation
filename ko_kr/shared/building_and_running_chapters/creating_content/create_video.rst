@@ -266,7 +266,11 @@ The following options appear on the **Advanced** tab in the video component.
     * - **동영상 종료 시간**
       - 전체 동영상을 재생하지 않으려면 동영상을 종료하기 원하는 시간을 지정한다. 
         HH:MM:SS 형태로 지정된다. 최대 재생 표기 값은 23:59:59이다.
-
+    * - **유튜브 IDs**
+      - 동영상의 다른 속도로 개별 동영상 파일을 업로드 한 경우처럼 
+        (.75 배속의 YouTube ID, 1.25 배속의 YouTube ID, 1.5 배속의 YouTube ID), 
+        이 입력 필드에 그러한 동영상에 대한 YouTube IDs를 입력하도록 한다. 
+        이 설정은 이전 버전의 브라우저에서 동영상 재생을 지원하기 위해 선택적이다.
 
 
 .. _Video TOC:
