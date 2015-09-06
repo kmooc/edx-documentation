@@ -148,7 +148,7 @@ Studio에서 강좌에 활용할 다양한 연습문제 및 도구를 만들 수
           :width: 100
           :alt: Example checkbox problem
      - :ref:`Checkbox`
-     - 체크박스 문제에서, 학습자는 가능한 답안 목록에서 하나 이상의 옵션을 선택한다. 학습자는 문제에 대해 올바르게 대답하기 위해 적용되는 모든 옵션을 선택해야 한다
+     - 문제에서, 학습자는 가능한 답안 목록에서 하나 이상의 옵션을 선택한다. 학습자는 문제에 대해 올바르게 대답하기 위해 적용되는 모든 옵션을 선택해야 한다
    * - .. image:: ../../../shared/building_and_running_chapters/Images/DropdownExample.png
           :width: 100
           :alt: Example dropdown problem
