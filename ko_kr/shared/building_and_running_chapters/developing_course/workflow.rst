@@ -4,17 +4,17 @@
 강좌 콘텐츠 
 ###############################################
 
-:ref:`setting up your course<Setting up your Course Index>` 에서의 작업이 모두 끝났다면,
+:ref:`강좌 설정하기<Setting up your Course Index>` 에서의 작업이 모두 끝났다면,
 이제 강좌 콘텐츠를 개발할 차례다.
 
 이 장은 강좌 콘텐츠 개발 단계의 개요를 다룬다. 아래 링크에 구체적인 안내가 있다.
 
-* `Understanding Course Building Blocks`_
+* `강좌의 기본 구성요소 이해하기`_
 * `Creating New Course Content`_
 * `Making Course Content Visible to Students`_
 * `Revising Content`_
 
-.. _Understanding Course Building Blocks:
+.. _강좌의 기본 구성요소 이해하기:
 
 ************************************************
 강좌의 기본 구성요소 이해하기
