@@ -1,26 +1,25 @@
 .. _Problem with Adaptive Hint:
 
 ################################
-Problem with Adaptive Hint
+응답 맞춤형 힌트가 있는 문제
 ################################
 
-A problem with an adaptive hint evaluates a student's response, then gives the student feedback or a hint based on that response so that the student is more likely to answer correctly on the next attempt. These problems can be text input problems.
+응답 맞춤형 힌트가 있는 문제는 학습자의 응답을 평가한 후 해당 학습자에게 피드백을 제공하거나 응답을 토대로 힌트를 주어 학습자가 다음 기회에 정답에 보다 근접하도록 한다. 이러한 유형으로는 텍스트 입력 문제가 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWithAdaptiveHintExample.png
  :alt: Image of a problem with an adaptive hint
 
 ******************************************
-Create a Problem with an Adaptive Hint
+응답 맞춤형 힌트가 있는 문제 생성하기
 ******************************************
 
-To create the above problem:
+응답 맞춤형 힌트가 있는 문제는 다음과 같은 절차로 생성한다.
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Problem with Adaptive Hint**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with the code below.
-#. Click **Save**.
+#. 문제를 생성하고자 하는 학습 활동에서 **신규 구성 요소 추가**의 **문제** 를 클릭한 후 **고급** 탭을 클릭한다.
+#. **응답 맞춤형 힌트가 있는 문제** 를 클릭한다.
+#. 구성요소가 표시되면 **편집** 을 클릭한다.
+#. 구성요소 편집기에서 기존 코드를 삭제하고 아래 코드를 입력한다.
+#. **저장** 을 클릭한다.
 
 .. code-block:: xml
 
@@ -60,11 +59,11 @@ To create the above problem:
 .. _Problem with Adaptive Hint XML:
 
 *********************************
-Problem with Adaptive Hint XML
+응답 맞춤형 힌트 XML이 있는 문제
 *********************************
 
 ========
-Template
+템플릿
 ========
 
 .. code-block:: xml
