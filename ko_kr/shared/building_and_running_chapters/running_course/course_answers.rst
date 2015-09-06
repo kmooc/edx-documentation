@@ -1,13 +1,10 @@
 .. _Review_Answers:
 
 ############################
-Answer Data
+답안 데이터
 ############################
 
-To review student answers to the problems in your course, you can review the
-answer submitted by a selected student for a specific problem, download a
-course-wide report of answer data, or review a histogram of student answers for
-a selected problem.
+자신의 강좌에서 학습자들이 제출한 문항 답안을 검토하려면, 특정 문제에 대해 학습자들이 제출한 답안을 검토하고 전체 강좌의 답안 기록 데이터를 다운로드 받거나 선택한 문제의 학습자 답안 히스토그램을 검토할 수 있다. 
 
 * :ref:`Student_Answer_Submission`
 
@@ -18,269 +15,183 @@ a selected problem.
 .. _Student_Answer_Submission:
 
 ************************************************************
-Check a Student's Answer Submission and Submission History
+답안 등 제출이력 확인하기
 ************************************************************
 
-For a single student and problem, you can review the exact response submitted,
-the number of attempts made, and the date and time of the submission. You
-identify the student by supplying a username.
+단일의 학습자 혹은 문항에 대해서 제출한 정확한 답안, 풀기 위해 시도한 횟수, 그리고 제출 시간과 날짜를 확인할 수 있다. 사용자 이름을 제공함으로써 학습자들을 파악할 수 있다. 
 
-To review a response submitted by a student:
+학습자가 제출한 답안을 확인하려면 다음의 절차를 확인한다. 
 
-#. View the live version of your course.
+#. 자신 강좌의 라이브 버전을 살펴본다. 
 
-#. Click **Courseware** and navigate to the unit that contains the problem
-   you want to review.
+#. **강좌내용** 을 클릭하고 검토하고자 하는 문제를 포함하고 있는 학습활동을 검색한다
 
-#. Display the problem and then click **Submission History** below the problem.
+#. 문제를 표시하고 문제 아래에 있는 **제출 기록** 을 클릭한다. 
 
-#. Enter the username for the student whose work you want to review, then click
-   **View History** at the end of the page.
+#. 검토하고자 하는 작업을 수행한 학습자의 사용자 이름을 입력하고 페이지 아래에 있는 **열람기록** 을 클릭한다. 
 
-  Information about the response or responses provided by the student displays.
+  답안 혹은 학습자 표시에 의한 답안에 대한 정보
 
-To close the Submission History Viewer, click on the browser page outside of the
-viewer.
+제출 기록 보기를 닫으려면 페이지 표시 밖의 브라우저 페이지를 클릭한다. 
    
 .. _Student_Answer_Distribution:
 
 ****************************************
-Student Answer Distribution
+학습자 답안 분포
 ****************************************
 
-For certain types of problems in your course, you can download a CSV file with
-data about the distribution of student answers. Student answer distribution data
-is included in the file for problems of these types:
+자신 강좌의 특정 문제에 대해서 학습자 답안의 분포도에 대한 데이터를 CSV 파일로 다운받을 수 있다. 학습자 답안 분포데이터는 아래와 같은 형식으로 각 문항에 대한 파일을 포함하고 있다. 
 
-* Checkboxes (``<choiceresponse>``)
-* Dropdown (``<optionresponse>``)
-* Multiple choice (``<multiplechoiceresponse>``)
-* Numerical input (``<numericalresponse>``)
-* Text input (``<stringresponse>``)
-* Math expression input (``<formularesponse>``)
+* 체크박스(<선택 답안>)
+* 드롭다운 (<선택사항 답안>)
+* 복수선택 (<복수 선택 답안>)
+* 숫자 입력 (<숫자 답안>)
+* 텍스트 입력 (<텍스트 답안>)
+* 수학적 표현 입력 (<수학 공식 답안>)
 
-The file includes a row for each problem-answer combination selected by your
-students. For example, for a problem that has a total of five possible answers
-the file includes up to five rows, one for each answer selected by at least one
-student. For problems with **Randomization** enabled in Studio (sometimes
-called rerandomization), there is one row for each problem-variant-answer
-combination selected by your students. See :ref:`Problem Settings`.
+파일은 학습자가 선택한 각각의 문제-답안 조합을 한 줄로 표시하고 있다. 예를 들어, 총 다섯 가지 답안을 제시하고 있는 문제의 경우 파일은 다섯 가지 줄을 포함하고 있는데 이 때 각각의 줄은 적어도 한명 이상의 학습자가 선택한 답안을 포함하고 있다. Studio에서 활성화된 무작위 기능에 해당하는 문제의 경우 (재 무작위라고도 함.), 학습자가 선택한 각각의 문제-답안 조합을 한 줄에 표시하고 있다. :ref:`Problem Settings` 을 참조하기 바란다.  
 
-The CSV file contains the following columns:
+CSV 파일은 다음의 칼럼을 포함하고 있다. 
 
 .. list-table::
    :widths: 20 60
    :header-rows: 1
 
-   * - Column
-     - Description
-   * - ModuleID
-     - The internal identifier for the Problem component.
-   * - PartID
-     - For a Problem component that contains multiple problems, the internal
-       identifier for each individual problem. For a Problem component that
-       contains a single problem, the internal identifier of that problem.
-   * - Correct Answer
-     - 0 if this **AnswerValue** is incorrect, or 1 if this **AnswerValue** is
-       correct.
-   * - Count
-     - The number of times that students entered or selected this answer as
-       their most recent submission for the problem or problem variant. For
-       problems with the number of **Attempts** set to a value greater than 1,
-       this means that each student contributes a maximum of 1 to this count,
-       even if the same answer is provided in multiple attempts.
-   * - ValueID
-     - The internal identifier of the answer choice for checkboxes and multiple
-       choice problems. Blank for dropdown, numerical input, text input, and
-       math expression input problems.
-   * - AnswerValue
-     - The text label of the answer choice for checkboxes, dropdown, and
-       multiple choice problems. The value entered by the student for numerical
-       input, text input, and math expression input problems.
-   * - Variant
-     - For problems that use the **Randomization** setting in Studio, contains
-       the unique identifier for a variant of the problem. Blank for problems
-       that do not use the **Randomization** setting, or that use the **Never**
-       option for this setting.
-   * - Problem Display Name
-     - The **Display Name** defined for the problem.
-   * - Question
-     - The label for accessibility that appears above the answer choices or the
-       text entry field for the problem. In Studio's Simple Editor, this text is
-       surrounded by two pairs of angle brackets (>>Question<<). Blank for
-       questions that do not have an accessibility label defined.
+   * - 칼럼
+     - 설명
+   * - 모듈 ID
+     - 문제 내용의 내부 식별자
+   * - 파트 ID
+     - 복수 문제들을 포함하고 있는 각각의 문제와 관련된 각각 문제의 내부 식별자. 단일한 문제만을 포함하고 있는 문제일 경우 이에 해당하는 내부 식별자
+   * - 정답
+     - **답안 수치** 가 틀렸을 경우 0, 올바른 경우 1
+   * - 숫자
+     - 학습자가 입력하거나 해당 문제에 대하여 가장 최근 제출한 답안 혹은 문항 변화량 등의 횟수. 1보다 큰 숫자로 설정된 시도횟수를 나타내고 있는 문항의 경우 이는 각 학습자가 해당 횟수에서 최대 1에 해당하는 시도를 하였다는 뜻이고 이는 동일한 답안을 여러 번 시도하였다는 점과는 상관이 없다. 
+   * - 수치 ID
+     - 체크 박스 혹은 복수답안 문항에 대한 답안의 내부 식별자. 드롭다운을 위한 공백, 숫자 입력, 텍스트 입력, 수학적 표현 답안 문항등. 
+   * - 답안 입력
+     - 체크박스, 드롭다운, 그리고 복수답안 문항등과 관련된 텍스트 표시 답안. 숫자 입력, 텍스트 입력, 그리고 수학적 표현 입력 문항과 관련하여 학습자가 입력한 수치
+   * - 변화량
+     - Studio상에서 **무작위** 설정을 사용하는 각각의 문항에 대해 문항의 변화량에 대한 특수 식별자 역할을 함. **무작위** 설정을 사용하지 않는 문항에선 공백으로 표시되거나 본 설정에서 **절대그렇게 하지 않음** 이란 기능을 사용. 
+   * - 문제 표시 이름
+     - 문항에서 제시된 **표시 이름**
+   * - 질문
+     - 선택 답안 혹은 문항에 적용되는 텍스트 입력 위에 나타나는 접근성과 관련된 표시. Studio의 기본 편집자에서 이 텍스트의 경우 두 쌍의 꺽쇠괄호 표시가 되고 (>>문제<<) 이러한 정의된 접근 표시가 없을 경우 문항을 공백으로 둔다.  
 
-Entries are sorted by the value in each column, starting with the ModuleID on
-the left and continuing through the columns to the right.
+답안의 경우 각 칼럼마다 표시된 값으로 정렬이 되고 이는 왼쪽에 모듈아이디로 시작이 되며 칼럼의 오른쪽으로 이어진다.
 
 .. _Download_Answer_Distributions:
 
 ===================================================
-Download the Student Answer Distribution Report
+학습자 답안 분포 기록 다운로드
 ===================================================
 
-An automated process runs periodically on the edX servers to update the CSV file
-of student answer data. A link to the most recently updated version of the CSV
-file is available on the Instructor Dashboard.
+자동화된 처리과정이 edX에 주기적으로 실행되어 학습자 답안 데이터의 CSV파일을 업데이트 한다. 가장 최근에 업데이트된 CSV파일의 버전은 교수자 대시보드에서 확인 가능하다. 
 
-To download the most recent file of student answer data:
+가장 최근의 학습자 답안 데이터 파일을 다운로드 하려면 다음의 절차를 따른다.  
 
-#. View the live version of your course.
+#. 자신 강좌의 라이브 버전을 살펴본다. 
 
-#. Click **Instructor**, then click **Data Download**.
+#. **교수자** 를 클릭하고 **데이터 다운로드** 를 클릭한다.
 
-#. At the bottom of the page, click the ``{course_id}_answer_distribution.csv``
-   file name. You may have to scroll down to find this file.
+#. 페이지 밑에 {강좌 아이디} 답안 분포도.csv파일 이름을 클릭한다. 여기서 스크롤을 내려서 파일을 확인할 수 있다. 
 
 ==========================================================================
-Frequently Asked Questions about the Student Answer Distribution Report
+학습자 답안 분포 기록에 대해 자주 묻는 질문들
 ==========================================================================
 
-Answers to questions about the student answer distribution report follow.   
+학습자 답안 본포 기록에 대한 질문의 답안은 아래와 같다.  
 
-**My course doesn't have a student answer distribution report. How can I
-generate it?**
+**내 강좌는 학습자 답안 기록이 없다. 어떻게 생성해야 하는가?**
 
-Student answer distribution reports are generated automatically, and refreshed
-several times each day. The ``{course_id}_answer_distribution.csv`` file
-displays after all of the ``{course_id}_grade_report_{date}.csv`` files. Be sure
-to scroll to the end of the list of available reports.
+학습자 답안 분포 기록은 자동적으로 생성되며 하루에도 여러 번 갱신된다. {강좌 아이디}_답안_분포.csv파일은 모든 {강좌 아이디}_점수_기록_{날짜}.csv파일 다음에 표시된다. 확인 가능한 기록목록의 끝까지 스크롤을 내려보도록 한다.
 
-**Why are some problems missing from this report? The ones that are missing do
-have the problem types listed under** :ref:`Review_Answers`.
+**왜 몇몇 문제가 기록에서 빠져 있는가? 빠져 있는 문제들의 경우** :ref:`Review_Answers` 에 목록화되어 있는 문항 유형을 가지고 있다.
 
-This report includes only problems that at least one student has answered since
-early March 2014. For those problems, this report only includes activity that
-occurred after October 2013.
+본 기록은 최소 한 명 이상의 학습자가 2014년 3월 보다 이른 날짜에 답안을 작성하였을 경우에 해당하는 문제들만을 포함하고 있다. 이러한 문항들의 경우 본 기록은 2013년 10월 이후 발생한 활동만을 포함한다. 
 
-**Why don't I see an AnswerValue for some of my problems?**
+ **왜 특정 문항에 대한 답안값을 볼 수가 없는가?**
 
-For checkboxes and multiple choice problems, the answer choices actually
-selected by a student after early March 2014 display as described in the
-previous answer. Answer choices selected by at least one student after October
-2013, but not selected since early March 2014, are included on the report but do
-not include an **AnswerValue**. The **ValueID** does display the internal
-identifiers, such as choice_1 and choice_2, for those answers.
+체크박스 혹은 복수답안 문항에서 보면, 기존 답변에서 언급했다시피 선택 답안은 2014년 3월보다 이른 날짜에 학습자가 선택한 것이다. 2014년 3월보다 이르지는 않지만 2013년 10월 이후 적어도 한명 이상의 학습자가 선택한 답안의 경우 기록에 포함되어 있지만 답안값은 포함하고 있지 않다. **답안값 아이디** 의 경우 해당 답안에 대해 답안 1 답안 2와 같이 내부 식별자를 표시한다.
 
-**Why don't I see a Question for some of my problems?**
+**왜 몇몇 문항에 대한 질문을 볼 수가 없는가?**
 
-The value in the **Question** column is the accessibility label for the problem.
-For more information about how to set up labels for problems, see :ref:`Create
-Exercises`.
+**질문** 칼럼값은 해당 문항의 접근표시이다. 문항에 대한 표시를 설정하기 위한 보다 자세한 설명은 :ref:`Create Exercises` 을 참조하기 바란다. 
 
-Also, for problems that use the **Randomization** setting in Studio, if a
-particular answer has not been selected since early March 2014, the **Question**
-is blank for that answer.
+또한, Studio의 **무작위** 설정을 사용하는 문항의 경우 특정 답안이 2014년 3월 보다 이른 날짜에 작성되었다면 해당 답안에 대한 **질문** 이 공백으로 남아있게 된다.
 
-**My students are saying that they answered a question, but it isn't showing up
-in the report. How can that be?**
+ **나의 학습자들이 말하길 자신들은 질문에 대답을 하였는데 기록에는 보이지 않는다고 한다. 어떻게 이럴 수가 있나?**
 
-Only questions that have a **Maximum Attempts** setting of 1 or higher are
-included on the report.
+**최대** 1 혹은 그 이상의 시도를 한 질문만이 기록에 표시된다. 
 
-**I made a correction to a problem after it was released. How can I tell which
-students tried to answer it before I made the change?**
+ **문제가 발생하기 전에 이를 시정하였다. 변경사항을 적용하기 이전 어떤 학습자가 이와 관련된 문항에 답을 하고자 하였는지 파악할 수 있는가?**
 
-Problem **Count** values reflect the entire problem history. If you change a
-problem after it is released, it may not be possible for you to determine which
-answers were given before and after you made the change.
+문항 **횟수** 값은 전체 문항기록을 반영한다. 문항을 제출하고 나서 변경하였다면 변경사항이 적용되기 이전과 이후에 어떤 답안이 제출되었는지 파악할 수 없다. 
 
-**Why is the same answer showing up in two different rows when I view the report
-in a spreadsheet?**
+ **스프래드시트 상에서 검토를 하고 있는데 두 가지 다른 줄에서 어떻게 같은 답안이 발견될 수 있는가?**
 
-Some spreadsheet applications can alter the data in the CSV report for display
-purposes. For example, for different student answers of "0.5" and ".5" Excel
-correctly includes the two different lines from the CSV, but displays the
-**AnswerValue** on both of them as "0.5". If you notice answers that appear to
-be the same on separate lines with separate counts, you can review the actual,
-unaltered data by opening the CSV file in a text editor.
+몇몇 스프래드시트 어플리케이션의 경우 표시상의 이유로 CSV 기록에서 데이터를 변경할 수 있다. “0.5” 와 “.5”라는 다른 학습자 답안을 예로 들어보면, 엑셀은 CSV상에서 각기 다른 두 가지 줄을 올바르게 포함하지만 이 두 가지의 **답안값** 은 “0.5”로 표시하게 되는 것이다. 각각 다른 횟수에 각기 다른 줄에 동일한 답안이 표시되었을 경우, 텍스트 편집자에서 CSV를 열어서 실제 변경되지 않은 데이터를 검토할 수 있다. 
 
-**Why are there strange characters in the report when I view it in a
-spreadsheet?**
+ **스프래트시트를 검토하고 있는데 왜 기록상에 이상한 문자들이 있는가?**
 
-The CSV file is UTF-8 encoded, but not all spreadsheet applications interpret
-and render UTF-8 encoded characters correctly. For example, a student answer
-distribution report with answer values in French displays differently in
-Microsoft Excel for Mac than in OpenOffice Calc.
+CSV파일은 UTF-8로 암호화되었지만 모든 스프래드시트 어플리케이션이 이를 해석하여 올바른 UTF-8 문자를 부여하지는 않는다. 예를 들면, 불어로 된 답안값에 대한 학습자의 답안 분포 기록은 맥 상의 마이크로 엑셀과 오프오피스 계산상에서 다르게 나타난다.  
 
-  Answer Values in Microsoft Excel for Mac:
+  맥상의 마이크로 엑셀에 표시된 답안값:
 
    .. image:: ../../../shared/building_and_running_chapters/Images/student_answer_excel.png
      :alt: A spreadsheet that replaces accented French characters with underscores
 
-  Answer Values in OpenOffice Calc:
+  오픈오피스 계산에 표시된 답안값:
 
    .. image:: ../../../shared/building_and_running_chapters/Images/student_answer_calc.png
      :alt: A spreadsheet that displays accented French characters correctly
 
-If you notice characters that do not display as expected in a spreadsheet, try a
-different spreadsheet application such as LibreOffice or Apache OpenOffice to
-open the CSV file.
+스프래드시트에서 예상한 것과 다르게 표시된 문자가 있다면 CSV파일을 열 때LibreOffice 혹은 Apache OpenOffice와 같이 다른 스프래드시트 어플리케이션을 사용해보도록 한다.
 
 ==========================================================================
-Interpret the Student Answer Distribution Report
+학습자 답안 분포 기록에 대한 해석
 ==========================================================================
 
-You can use the Student Answer Distribution report to review student responses
-to assignments, which can then help you evaluate the structure and completeness
-of your courseware and problem components.
+과제물에 대한 학습자 답안을 검토할 때 학습자 답안 분포 기록을 사용할 수 있는데 그럴 경우 강좌 내용 및 문항내용의 구조 및 완벽성에 대해 평가할 수 있게 해준다. 
 
-As an example, you define a text input question in Studio to have a single
-correct answer, "Warfarin". When you produce the Student Answer Distribution
-report, you verify that this answer was in fact marked correct: there is a 1 in
-the **Correct Answer** column for this **AnswerValue**.
+예를 들어, “Warfarin”이라는 단일 정답을 표시하기 위하여 스토디오 상의 텍스트 입력 질문을 정의한다. 학습자 답안 분포 기록을 생성할 경우, 본 답안은 정답인 것처럼 표시된다. 본 **답안값** 의 **정답칼럼** 에 1이 표시되게 되는 것이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/SAD_Answer_Review.png
     :alt: In Excel, 5 rows show 5 answer values, 4 of which show comprehension of the question, but only 1 answer is marked as correct
 
-However, as you view the report you notice other student answers that you did
-not set up to be marked as correct in Studio, but that you might (or might not)
-also consider to be correct, such as "Warfarin or Coumadin". The **Correct
-Answer** column shows that the other answers were marked incorrect (0), but for
-future iterations of your course you may want to revise the question or update
-the problem to evaluate additional variations of the answer as correct.
+하지만, 기록에서 나타나는 바와 같이, Studio상에서 “Warfarin 혹은 Coumadin”과 같이 정답으로 표기되지 않도록 설정하였지만 정답으로 간주할 만한 (혹은 그렇지 않은) 다른 학습자 답안들을 볼 수 있다. **정답 칼럼** 은 다른 답안들이 경우 오답 (0)으로 표시하고 있지만 차후 강좌를 다시 반복해서 개설할 경우 정답에 대한 추가적인 답안 변화를 평가하기 위하여 해당 문제를 수정하거나 업데잇 해야 할 것이다. 
 
-Many spreadsheet applications offer data visualization options, such as charts
-or graphs. Charts can help make your students' common misconceptions  easier to
-identify.
+여러 스프래드시트 어플리케이션의 경우 표나 그래프와 같은 시각 선택사항을 제공한다. 표의 경우 학습자의 흔한 오류를 쉽게 파악할 수 있게 해준다.  
 
 .. image:: ../../../shared/building_and_running_chapters/Images/SAD_Column_Chart.png
     :alt: In Excel, AnswerValue and Count columns next to each other, values for 4 rows selected, and a column chart of the count for the 4 answers
 
-In this example, the Student Answer Distribution report is open in Microsoft
-Excel. To create a chart that shows how many of your students chose various
-answers to a multiple choice question, you move the **AnswerValue** and
-**Count** columns next to each other. After you click and drag to select the
-report cells that contain the data you want to chart, you click the Charts
-toolbar and then click the type of chart you want.
+본 예시에서는, 학습자 답안 분포기록은 마이크로소프트 엑셀에서 표시하고 있다. 얼마나 많은 학습자들이 복수답안 문항에서 여러 답안들을 선택하였는지 보여주는 표를 작성하려면 **답안값** 과 **횟수** 칼럼을 각각 옆에 위치시켜야 한다. 표를 생성하고자 하는 데이터를 포함하고 있는 기록의 셀을 선택하기 위해 클릭 및 드래그를 한 후 표 툴바를 클릭하고 난 다음 원하는 표의 종류를 클릭한다.   
 
-.. note:: Refer to the help for the spreadsheet application that you use for information on using these options. You may have to make changes to your spreadsheet, such as reordering columns. Save a copy of the file you originally downloaded as a backup before you begin. 
+.. 참고:: 이러한 선택사항에서 사용되는 정보를 다룰 경우 스프래드시트 어플리케이션에 대한 도움메뉴를 참조하도록 한다. 칼럼의 순서를 바꾸는 등 스프래스시트 상의 변경사항을 적용해야 할 수도 있다. 작업을 시작하기 전 기존에 다운로드한 파일의 복사본을 저장하도록 한다.  
 
-You can adjust your course content based on common student mistakes. While most
-students in this example selected the correct answer, the number of incorrect
-answer(s) can guide future changes to the courseware.
+일반적으로 학습자들이 범하는 오류에 기초하여 강좌의 내용을 조정할 수 있다. 본 예시상에서 대부분의 학습자들은 정답을 선택하였지만 오답의 숫자를 통해 차후 강좌내용의 변경사항을 적용할 수 있다. 
 
 .. _score_histogram:
 
 **************************************************
-View a Histogram of Scores for a Single Problem
+단일문제 점수의 히스토그램 보기
 **************************************************
 
-You can view a chart of the score distribution for a specified problem. 
+특정 문제에 대해 점수 분포표를 볼 수 있다. 
 
-.. note:: To view the score distribution for a problem, you need its unique identifier. You can display a histogram for problems that have the  ``/problem/`` prefix in the unique identifier. See :ref:`find_URL`.
 
-To display the distribution of scores for a problem:
+.. 참고:: 특정 문제에 대한 점수 분포를 보려면 이에 대한 단독 식별자가 필요하다. 단독 식별자에서 /문제/접두사를 가지고 있는 문제에 대한 히스토그램을 표시할 수 있다. :ref:`find_URL` 을 참조하기 바란다. 
 
-#. View the live version of your course.
+문제에 대한 점수 분포를 표시하려면 다음의 절차를 따른다. 
 
-#. Click **Instructor**, then click **Analytics**. 
+#. 자신 강좌의 라이브 버전을 살펴본다
 
-#. In the Score Distribution section, select a problem by using its unique
-   identifier.
+#. ** 교수자** 를 클릭하고 **분석** 을 클릭한다.  
 
-   The **Analytics** page updates to display a histogram of scores for that
-   problem.
+#. 점수 분포부분에서 단독 식별자를 활용하여 문제를 선택한다
+
+   분석 페이지는 특정 문제에 대한 점수 히스토그램을 표시하기 위하여 업데이트 된다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/score_histogram.png
      :alt: Graph of the number of students who received different scores for a
@@ -289,33 +200,19 @@ To display the distribution of scores for a problem:
 ..  **Question**: (sent to Olga 31 Jan 14) this is a tough UI to use: how do they correlate the codes in this drop-down with actual constructed problems? the copy-and-paste UI on the Student Admin page actually works a little better imo. LMS-2522
 
 ===================================================
-Interpret a Score Histogram
+점수 히스토그램의 해석
 ===================================================
 
-The histogram of scores for a selected problem provides the following
-information.
+선택된 문제에 대한 점수 히스토그램은 다음의 정보를 제공한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/score_histogram_callouts.png
      :alt: Histogram with indicators for the number of students scored value and
          the x-axis numbers that indicate plotted scores
 
-* The x-axis indicates the number of points that students can receive for the
-  problem, unweighted. Although decimal values are marked on the x-axis, each
-  score is a whole number. The whole number value at the left of a plotted bar
-  is the score that applies to it.
+* x축은 특정 문제에 대해 학습자들이 받을 수 있는 점수의 숫자를 나타내고 이는 가중되지 않은 수치이다. 소수점들 역시 x축에 표시되지만 각각의 점수는 전체 점수를 나타낸다. 점선으로 표시된 막대기왼쪽으로 표시된 전체 숫자값이 이에 적용되는 점수이다.
 
-* The y-axis indicates the number of students who have answered and checked the
-  problem.
+* y축은 문항에 대한 답안을 작성하고 이에 대해 확인한 학습자들의 숫자이다. 
 
-* Above the graph, a number of **students scored** displays. This number
-  indicates the total number of database records that exist for the problem: it
-  includes not only students who have answered and checked the problem to
-  receive a score, but also students who have opened the problem but not yet
-  completed it.
+* 그래프 위로, **학습자 점수** 의 숫자가 표시된다. 이 숫자의 경우 해당 문제에 대해 데이터 베이스화된 기록의 숫자를 나타낸다. 즉, 점수를 받기 위해 문제의 답안을 작성하고 이에 대해 확인한 학습자들의 숫자뿐만 아니라 문항을 보고 답안 작성을 완료하지 않은 학습자들의 숫자 역시 포함한다.
 
-* An automated process runs approximately weekly on the edX servers to update
-  score histograms. This process runs less frequently than the process that
-  updates the student answer distribution report: at certain times during a
-  course the number of students shown in a score histogram can be quite
-  different than the **Count** for the same problem in a student answer
-  distribution report.
+* 자동화된 처리과정은 edX 서버를 통해 점수 히스토그램을 업데이트 시키기 위하여 거의 매주 실시된다. 이 처리과정은 학습자 답안 분포 기록을 업데이트 시키는 처리과정 보다 덜 자주 실행된다. 강좌가 진행되는 중 어떤 특정한 시기에 점수 히스토그램에 표시된 학습자들의 숫자는 학습자 답안 분포 기록에서 같은 문제에 대한 학습자 수와 확연히 다를 수도 있다.  
