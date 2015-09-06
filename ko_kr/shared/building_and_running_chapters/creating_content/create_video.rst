@@ -190,36 +190,47 @@ YouTube
 
 동영상 구성요소에서 **고급** 탭에 다음 옵션이 나타난다.
 
+.. _Video Advanced Options:
+
+==================
+Advanced Options
+==================
+
+The following options appear on the **Advanced** tab in the video component.
+
 .. list-table::
     :widths: 30 70
 
-   
-      
-        
-    
-      
-         
+    * - **구성요소 표시 이름**
+      - 학습자가 보게 될 이름이다. 이것은 **기본** 탭에 있는 
+        **표시 이름** 입력 필드와 동일하다.
+    * - **기본 자막**
+      -  **기본** 탭의 **기본 자막** 입력 필드에 사용되는 자막 파일의 이름이다. 
+         이 입력 필드는 자동으로 채워진다. 이 설정을 변경할 필요가 없다.
          
     * - **자막 다운로드 허용**
-      - 학습자가 정기 자막을 다운로드 하도록 허용하는지 지정한다. 
-         이 값을 True로 설정하면 자막 파일을 다운로드 하는 링크가 
-         동영상 아래에 나타난다.
+      - 학습자가 정기 자막을 다운로드 하도록 허용하는지 지정한다.
+        이 값을 True로 설정하면 자막 파일을 다운로드 하는 링크가 
+        동영상 아래에 나타난다.
 
-        기본적으로 스튜디오는 .srt 자막을 업로드하면 .txt 자막을 만든다. **자막 다운로드 허용** 을 **True** 로 설정하면 
-        학습자는 .srt 또는.txt 버전의 자막을 다운로드 할 수 있다. .pdf 등 다른 형식으로 자막 다운로드를 제공하려는 경우 
-        **강좌 자료 업로드하기** 입력 필드를 사용 하여 스튜디오에 파일을 업로드 한다.
- 
+        기본적으로 스튜디오는 .srt 자막을 업로드하면 .txt 자막을 만든다.
+        **자막 다운로드 허용** 을 **True** 로 설정하면 
+        학습자는 .srt 또는.txt 버전의 자막을 다운로드 할 수 있다. 
+        .pdf 등 다른 형식으로 자막 다운로드를 제공하려는 경우 
+        **강좌 자료 업로드하기** 입력 필드를 사용 하여 스튜디오에 
+        파일을 업로드 한다.
+
     * - **다운로드 할 수 있는 자막 URL**
-      - **파일 및 업로드** 페이지 또는 인터넷에 게시된 자막 파일의 비.srt 버전에 
-        대한 URL이다. 학습자는 동영상 아래 비.srt 
+      - **파일 및 업로드** 페이지 또는 인터넷에 게시된 자막 파일의 
+        비.srt 버전에 대한 URL이다. 학습자는 동영상 아래 비.srt 
         자막을 다운로드 하는 링크를 보게 된다.
 
         이 입력 필드에 자막을 추가하면 추가한 자막만이 다운로드 가능하다. 
-        .Srt 및.txt 자막은 이용할  수 없게 된다. .Srt 이외의 형태로 다운로드 
+        .Srt 및.txt 자막은 이용할  수 없게 된다. .Srt 이외의 형태로 다운로드
         가능한 자막을 제공하려는 경우에, **강좌 자료 업로드하기** 입력 필드를 
         사용하여 학습자를 위한 자료를 업로드 할 것을 권장한다. 
         자세한 내용은 :ref:`Additional Transcripts` 를 참조하도록 한다.
-        
+         
 
     * - **동영상 ID**
       - 동영상 파일을 프로세스 및 호스트 하기 위해 EdX와 함께 작업하는 강좌 운영팀에 
@@ -231,12 +242,13 @@ YouTube
         내용은 :ref:`Transcripts in Additional Languages` 를 참조 하도록 한다.
     * - **강좌 자료 업로드하기**
       - 동영상이 동반하는 강좌 자료를 업로드 할 수 있다. 강좌 자료는 
-        어떤 형식도 될 수 있다. 학습자는 동영상 아래 **강좌 자료 다운로드하기**를 
+        어떤 형식도 될 수 있다. 학습자는 동영상 아래 **강좌 자료 다운로드하기**를
         클릭하여 강좌 자료를 다운로드 할 수 있다.
     * - **동영상 다운로드 허용**
       - 학습자가 EdX 동영상 플레이어를 사용할 수 없거나, YouTube에 접근할 수 없는 경우 
-      다른 형식으로 동영상 버전을 다운로드할 수 있는지 여부를 지정한다. 
-      이 값을 **True** 로 설정하면 **Video File URLs** 입력 필드에 최소 한 개 이상의 비-YouTube URL을 추가 해야 한다.
+        다른 형식으로 동영상 버전을 다운로드할 수 있는지 여부를 지정한다. 
+        이 값을 **True** 로 설정하면 **Video File URLs** 입력 필드에
+        최소 한 개 이상의 비-YouTube URL을 추가 해야 한다.
     * - **동영상 파일 URLs**
       - 비-YouTube 버전으로 게시된 동영에 대한 URL 또는 URLs 이다. 모든 URL은 
         .mpeg,.webm,.mp4, 또는.ogg 형식으로 끝나야 하고 YouTube URL이 될 수 없다. 
@@ -260,92 +272,6 @@ YouTube
         이 입력 필드에 그러한 동영상에 대한 YouTube IDs를 입력하도록 한다. 
         이 설정은 이전 버전의 브라우저에서 동영상 재생을 지원하기 위해 선택적이다.
         
-
-
-.. _Video Advanced Options:
-
-==================
-Advanced Options
-==================
-
-The following options appear on the **Advanced** tab in the video component.
-
-.. list-table::
-    :widths: 30 70
-
-    * - **구성요소 표시 이름**
-      - 학습자가 보게 될 이름이다. 이것은 **기본** 탭에 있는 
-        **표시 이름** 입력 필드와 동일하다.
-    * - **기본 자막**
-      -  **기본** 탭의 **기본 자막** 입력 필드에 사용되는 자막 파일의 이름이다. 
-         이 입력 필드는 자동으로 채워진다. 이 설정을 변경할 필요가 없다.
-         You do not have to change this setting.
-    * - **Download Transcript Allowed**
-      - Specifies whether you want to allow students to download the timed
-        transcript. If you set this value to **True**, a link to download the
-        file appears below the video.
-
-        By default, Studio creates a .txt transcript when you upload an .srt
-        transcript. Students can download the .srt or .txt versions of the
-        transcript when you set **Download Transcript Allowed** to **True**. If
-        you want to provide the transcript for download in a different format
-        as well, such as .pdf, upload a file to Studio by using the **Upload
-        Handout** field.
-
-    * - **Downloadable Transcript URL**
-      - The URL for a non-.srt version of the transcript file posted on the
-        **Files & Uploads** page or on the Internet. Students see a link to
-        download the non-.srt transcript below the video.
-
-        When you add a transcript to this field, only the transcript that you
-        add is available for download. The .srt and .txt transcripts become
-        unavailable. If you want to provide a downloadable transcript in a
-        format other than .srt, we recommend that you upload a handout for
-        students by using the **Upload Handout** field. For more information,
-        see :ref:`Additional Transcripts`.
-
-    * - **EdX Video ID**
-      - An optional field used only by course teams that are working with
-        edX to process and host video files.
-    * - **Show Transcript**
-      - Specifies whether the transcript plays along with the video by default.
-    * - **Transcript Languages**
-      - The transcript files for any additional languages. For more
-        information, see :ref:`Transcripts in Additional Languages`.
-    * - **Upload Handout**
-      - Allows you to upload a handout to accompany this video. Your handout
-        can be in any format. Students can download the handout by clicking
-        **Download Handout** under the video.
-    * - **Video Download Allowed**
-      - Specifies whether students can download versions of this video in
-        different formats if they cannot use the edX video player or do not
-        have access to YouTube. If you set this value to **True**, you must add
-        at least one non-YouTube URL in the **Video File URLs** field.
-    * - **Video File URLs**
-      - The URL or URLs where you posted non-YouTube versions of the video.
-        Every URL should end in .mpeg, .webm, .mp4, or .ogg and cannot be a
-        YouTube URL. Each student will be able to view the first listed video
-        that is compatible with the student's computer. To allow students to
-        download these videos, you must set **Video Download Allowed** to
-        **True**.
-
-        To help make sure all standard browsers can play your video, we
-        **strongly** recommend that you use the .mp4 or .webm format.
-
-    * - **Video Start Time**
-      - The time you want the video to start if you do not want the entire
-        video to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.
-    * - **Video Stop Time**
-      - The time you want the video to stop if you do not want the entire video
-        to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.
-    * - **YouTube IDs**
-      - If you have uploaded separate video files to YouTube for different
-        speeds of your video (YouTube ID for .75x speed, YouTube ID for 1.25x
-        speed, YouTube ID for 1.5x speed), enter the YouTube IDs for these
-        videos in these fields. These settings are optional, to support video
-        play on older browsers.
-
-
 
 .. _Video TOC:
 
