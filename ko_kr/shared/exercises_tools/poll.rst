@@ -2,61 +2,60 @@
 .. _Poll:
 
 ##########
-Poll Tool
+설문 조사 도구
 ##########
 
-You can run polls in your course so that your students can share opinions on different questions.
+강좌에서 설문 조사를 시행함으로써 학습자가 다양한 질문지에 대한 의견을 교환할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png
 
-.. note:: Creating a poll requires you to export your course, edit some of your course's XML files in a text editor, and then re-import your course. We recommend that you create a backup copy of your course before you create the poll. We also recommend that you only edit the files that will contain polls in the text editor if you're very familiar with editing XML. 
+.. note:: 설문 조사 도구를 생성하려면 강좌를 내보내고 해당 강좌의 XML 파일 일부를 텍스트 편집기로 편집한 후 해당 강좌에 다시 들여와야(re-import) 한다. 설문 조사 도구를 생성하기에 앞서 강좌 백업 사본을 하나 만들어 둘 것을 권고한다. XML 편집에 익숙한 경우라도 설문 조사 도구를 포함한 파일만을 텍스트 편집기에서 편집할 것을 또한 권고한다.
 
 **************
-Terminology
+용어
 **************
 
-Sections, subsections, units, and components have different names in the **Course Outline** view and in the list of files that you'll see after you export your course and open the .xml files for editing. The following table lists the names of these elements in the **Course Outline** view and in a list of files.
-
+강좌 개요 보기에 규정된 주제, 소주제(subsection), 학습활동(unit), 구성 요소(component)는 강좌를 내보내고 .xml 파일을 열어 편집한 후 여러분이 보게 될 파일 목록에서는 다른 이름으로 명시된다. 강좌 개요 보기 및 파일 목록에 등장하는 이들 요소의 명칭을 다음 표로 정리한다.
 .. list-table::
    :widths: 15 15
    :header-rows: 0
 
-   * - Course Outline View
+   * - 강좌 개요 보기
      - File List
-   * - Section
+   * - 주제
      - Chapter
-   * - Subsection
+   * - 소주제
      - Sequential
-   * - Unit
+   * - 학습활동
      - Vertical
-   * - Component
+   * - 구성요소
      - Discussion, HTML, problem, or video
 
-For example, when you want to find a specific section in your course, you'll look in the **Chapter** folder when you open the list of files that your course contains. To find a unit, you'll look in the **Vertical** folder.
+이를 테면, 어떤 강좌의 특정 주제(Section)를 해당 강좌가 포함하고 있는 파일 목록에서 찾고자 한다면 **Chapter**  폴더를 조사해야 한다는 뜻이다. 마찬가지로 강좌에서의 학습 활동(Unit)은 **Vertical** 폴더에서 찾아야 한다.
 
 .. _Create a Poll:
 
 **************
-Create a Poll
+설문 조사 생성하기
 **************
 
-#. In the unit where you want to create the poll, create components that contain all the content that you want *except* for the poll. Make a note of the 32-digit unit ID that appears in the **Unit Identifier** field under **Unit Location**.
+#. 설문 조사를 생성하고자 하는 학습 활동에서, 해당 설문 조사를 제외하고 여러분이 원하는 모든 콘텐츠를 포함하는 구성 요소를 생성한다. **학습 활동 위치**의 **학습 활동 식별자(Unit Identifier)** 필드에 표시되는 32자리 숫자의 학습 활동 ID를 기록하는 것이 좋다.
 
-#. Export your course. For information about how to do this, see :ref:`Exporting and Importing a Course`. Save the .tar.gz file that contains your course in a memorable location so that you can find it easily.
+#. 강좌를 내보내기 한다. 내보내는 방법을 확인하려면 강좌 내보내기 및 들여오기()를 참조한다. 강좌를 포함하고 있는 .tar.gz 파일을 기억하기 쉬운 장소에 저장하여 추후 쉽게 찾을 수 있게 한다.
 
-#. Locate the .tar.gz file that contains your course, and then unpack the .tar.gz file so that you can see its contents in a list of folders and files.
+#. 강좌를 포함하고 있는 .tar.gz 파일을 찾은 후 압축을 푼다. 폴더 및 파일 목록에서 압축 해제된 내용을 확인한다
 
-   - To do this on a Windows computer, you'll need to download a third-party program. For more information, see `How to Unpack a tar File in Windows <http://www.haskell.org/haskellwiki/How_to_unpack_a_tar_file_in_Windows>`_, `How to Extract a Gz File <http://www.wikihow.com/Extract-a-Gz-File>`_, `The gzip Home Page <http://www.gzip.org/>`_, or the `Windows <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#windows>`_ section of the `How to Open .tar.gz Files <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page.
+   - 윈도우즈를 OS로 사용하는 컴퓨터에서 이 작업을 시행하려면 서드파티 프로그램이 필요한다. 자세한 정보가 필요할 경우 윈도우즈에서 tar 파일 압축 푸는 방법(How to Unpack a tar File in Windows), Gz파일 압축 푸는 방법(How to Extract a Gz File), gzip 홈페이지, .tar.gz 파일 여는 방법 페이지(How to Open .tar.gz Files) 중 윈도우즈(Windows) 섹션을 참조바란다.
 
-   - For information about how to do this on a Mac, see the `Mac OS X <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#mac-os-x>`_ section of the `How to Open .tar.gz Files <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/>`_ page.
+   - Mac에서 이를 시행하려면 tar.gz 파일 여는 방법 페이지 중 Mac OS X 섹션을 참조바란다.
 
-#. In the list of folders and files, open the **Vertical** folder. 
+#. 폴더 및 파일 목록에서 **Vertical** 폴더를 연다.
 
    .. note:: If your unit is not published, open the **Drafts** folder, and then open the **Vertical** folder in the **Drafts** folder.
 
-#. In the **Vertical** folder, locate the .xml file that has the same name as the unit ID that you noted in step 1, and then open the file in a text editor such as Sublime 2. For example, if the unit ID is e461de7fe2b84ebeabe1a97683360d31, you'll open the e461de7fe2b84ebeabe1a97683360d31.xml file.
+#. **Vertical** 폴더 내부에서, 상기 단계1에서 기록해 둔 학습 활동 ID와 동일한 이름을 가진 .xml 파일을 찾아 Sublime 2와 같은 텍스트 편집기에서 연다. 가령, 학습 활동 ID가 e461de7fe2b84ebeabe1a97683360d31인 경우 e461de7fe2b84ebeabe1a97683360d31.xml 파일을 연다.
 
-   The file contains a list of all the components in the unit, together with the URL names of the components. For example, the following file contains an HTML component followed by a Discussion component.
+  이 파일은 해당 학습 활동의 모든 구성 요소와 그 구성 요소의 URL 이름의 목록을 포함하고 있다. 가령 다음 파일은 Discussion 구성 요소 앞에 HTML 구성 요소를 포함한다.
 
    .. code-block:: xml
      
@@ -65,7 +64,7 @@ Create a Poll
         <discussion url_name="8320c3d511484f3b96bdedfd4a44ac8b"/>
        </vertical>
 
-#. Add the following poll code in the location where you want the poll. Change the text of the prompt to the text that you want.
+#. 설문 조사를 생성하고자 하는 위치에 다음 설문 조사 코드를 추가한다. 프롬프트 텍스트를 여러분이 원하는 텍스트로 갈음한다.
 
    .. code-block:: xml
       
@@ -75,7 +74,7 @@ Create a Poll
       <answer id="no">No</answer>
     </poll_question>
 
-   In the example above, if you wanted your poll to appear between the HTML component and the Discussion component in the unit, your code would resemble the following.
+   상기 예시에서 설문 조사를 해당 학습 활동의 HTML 구성 요소와 Discussion 구성 요소 사이에 게시하고자 하는 경우 코드는 다음과 유사한 형태가 된다.
 
    .. code-block:: xml
 
@@ -89,27 +88,27 @@ Create a Poll
       <discussion url_name="8320c3d511484f3b96bdedfd4a44ac8b"/>
      </vertical>
 
-#. After you add the poll code, save and close the .xml file.
+#. 설문 조사 코드를 추가한 후 .xml 파일을 저장하고 닫는다.
 
-#. Re-package your course as a .tar.gz file.
+#. 강좌를 .tar.gz 파일로 다시 압축한다.
 
-   * For information about how to do this on a Mac, see `How to Create a Tar GZip File from the Command Line <http://osxdaily.com/2012/04/05/create-tar-gzip/>`_.
+   * Mac에서 압축하는 방법은  `How to Create a Tar GZip File from the Command Line <http://osxdaily.com/2012/04/05/create-tar-gzip/>`_ 에서 확인한다.
 
-   * For information about how to do this on a Windows computer, see `How to Make a .tar.gz on Windows <http://stackoverflow.com/questions/12774707/how-to-make-a-tar-gz-on-windows>`_.
+   * 윈도우즈 환경에서 압축하는 방법은  computer, see `How to Make a .tar.gz on Windows <http://stackoverflow.com/questions/12774707/how-to-make-a-tar-gz-on-windows>`_ 에서 확인한다.
 
-#. In Studio, re-import your course. You can now review the poll question and answers that you added in Studio.
+#. Studio에서 강좌를 들여오기 한다. 이제 설문 조사 문항과 선택지를 Studio에서 검토할 수 있다.
 
 .. note::
 
-  * Although polls render correctly in Studio, you cannot edit them in Studio. You will need to follow the export/import process outlined above to make any edits to your polls.
+  * Studio에서 설문 조사를 적절히 실행할 수는 있으나 편집할 수는 없다. 설문 조사 도구를 편집할 경우 상기한 내보내기/들여오기 절차를 따른다.
   
-  * A .csv file that contains student responses to the problem is not currently available for polls. However, you can obtain the aggregate data directly in the problem.  
+  * 현재로서는 문제에 대한 학습자 응답을 포함하는 .csv 파일은 설문 조사에서 사용할 수 없다. 단, 이와 관련한 집합체 데이터를 해당 문제에서 직접 획득할 수 있다.
 
 *********************
-Format description
+포맷 설명
 *********************
 
-The main tag of Poll module input is:
+설문 조사 모듈 입력의 메인 태그는 다음과 같다.
 
 .. code-block:: xml
 
@@ -119,33 +118,31 @@ The main tag of Poll module input is:
 any xml and ``answer`` tag. All inner xml, except for ``answer`` tags, we call "question".
 
 ==================
-poll_question tag
+poll_question 태그
 ==================
 
-Xmodule for creating poll functionality - voting system. The following attributes can
-be specified for this tag::
+Xmodule은 설문 조사 기능, 즉 투표 시스템을 생성하기 위한 것이다. 이 태그에는 다음 속성을 지정할 수 있다.::
 
     name - Name of xmodule.
     [display_name| AUTOGENERATE] - Display name of xmodule. When this attribute is not defined - display name autogenerate with some hash.
     [reset | False] - Can reset/revote many time (value = True/False)
 
 ============
-answer tag
+answer 태그
 ============
 
-Define one of the possible answer for poll module. The following attributes can
-be specified for this tag::
+설문 조사 모듈에 가능한 답변 가운데 하나를 정의한다. 이 태그에는 다음 속성을 지정할 수 있다.::
 
     id - unique identifier (using to identify the different answers)
 
-Inner text - Display text for answer choice.
+내부 텍스트 – 선택지에 대한 표시 텍스트
 
 ***********
-Example
+예시
 ***********
 
 ==================
-Example of poll
+설문 조사 예시
 ==================
 
 .. code-block:: xml
@@ -159,7 +156,7 @@ Example of poll
     </poll_question>
 
 ================================================
-Example of poll with unable reset functionality
+초기화 기능이 없는 설문 조사 예시
 ================================================
 
 .. code-block:: xml
