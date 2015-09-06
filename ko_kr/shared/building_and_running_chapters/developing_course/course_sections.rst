@@ -157,7 +157,7 @@
 주제 만들기
 ****************************
 
-주제를 만든 후, ``1/1/2030 00:00:00 UTC`` 으로 기본값이 설정된 :ref:`course start date<The Course Start Date>`을 바꾸지 않으면, 주제가 계속 ``공개일이 지정되지 않음`` 상태에 있게 된다.
+주제를 만든 후, ``1/1/2030 00:00:00 UTC`` 으로 기본값이 설정된 :ref:`course start date<The Course Start Date>` 을 바꾸지 않으면, 주제가 계속 ``공개일이 지정되지 않음`` 상태에 있게 된다.
 
 개강일을 변경하면, 주제 공개일의 기본값이 개강일로 바뀐다.
 
@@ -172,9 +172,9 @@
 
 #. 신규 주제명을 입력한다. 학습자들은 이 주제명을 볼 것이다.
 
-#. 이어서 :ref:`Add subsections<Create a Subsection>` 를 추가한다.
+#. 이어서 :ref:`소주제 만들기<Create a Subsection>` 를 추가한다.
    
-신규 주제를 추가한 후, :ref:`test course content <Testing Your Course
+신규 주제를 추가한 후, :ref:`강좌 콘텐츠 시험해보기 <Testing Your Course
 Content>` 를 권장한다.
 
 .. _주제명 바꾸기:
