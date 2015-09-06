@@ -398,7 +398,7 @@ LaTeX 코드를 포함하는 HTML 구성요소를 만들려면:
 
 #. 구성요소를 생성 하고자 하는 학습활동에서, **신규 구성요소 추가** 에서 **html** 을 클릭한 후, **E-text Written in LaTeX** 를 클릭한다. 새 구성요소가 학습활동에 추가된다.
 
-#.새 구성요소를 열려면 **편집** 을 클릭한다. 구성요소 편집기가 열린다.
+#. 새 구성요소를 열려면 **편집** 을 클릭한다. 구성요소 편집기가 열린다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/latex_component.png
    :alt: Image of the HTML component editor with the LaTeX compiler.
