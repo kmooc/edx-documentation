@@ -10,9 +10,9 @@
 이 장은 강좌 콘텐츠 개발 단계의 개요를 다룬다. 아래 링크에 구체적인 안내가 있다.
 
 * `강좌의 기본 구성요소 이해하기`_
-* `Creating New Course Content`_
-* `Making Course Content Visible to Students`_
-* `Revising Content`_
+* `신규 콘텐츠 만들기`_
+* `콘텐츠 공개하기`_
+* `콘텐츠 변경하기`_
 
 .. _강좌의 기본 구성요소 이해하기:
 
