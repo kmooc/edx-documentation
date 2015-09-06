@@ -20,7 +20,7 @@
 * `학습활동 미리보기`_
 * `학습활동 게시하기`_
 * `학습활동 변경 취소하기`_
-* `게시된 학습활동 보기 `_
+* `게시된 학습활동 보기`_
 * `학습활동 감추기`_
 * `학습활동 삭제하기`_
 
@@ -85,7 +85,7 @@ Studio에서 학습활동 보기
 학습활동 작업 흐름
 ************************************************
 
-먼저 :ref:`section<Developing Course Sections>` 와 :ref:`subsection<Developing Course Subsections>` 을 만들면
+먼저 :ref:`주제<Developing Course Sections>` 와 :ref:`소주제<Developing Course Subsections>` 을 만들면
 학습활동을 만들 수 있게 된다.
 
 학습활동을 만드는 기본 순서는 아래와 같은데,
@@ -96,8 +96,8 @@ Studio에서 학습활동 보기
    
 학습활동을 게시한 후 
 
-#. :ref:`Modify components in the unit<Developing Course Components>`.
-#. :ref:`Publish the changes to the unit<Publish a Unit>`
+#. :ref:`학습활동에서 구성요소 수정하기<Developing Course Components>`.
+#. :ref:`학습활동에서 수정하여 게시하기<Publish a Unit>`
 
 작업이 가능하기도 하다.
    
@@ -109,8 +109,7 @@ Studio에서 학습활동 보기
 
 이러한 단계를 거치다보면, 학습활동의 **게시 상태** 가 바뀌게 된다.
 
-The publishing status controls the content available to students, along with
-:ref:`release dates<Release Dates>`. See the next section for more information.
+게시 상태는 학습자가 활용가능한 콘텐츠를 조절한다. :ref:`공개일<Release Dates>`. 
 
 .. _학습활동 게시 상태 및 학습자 공개 설정:
 
@@ -216,9 +215,9 @@ Studio에서 강좌 운영팀은 작업중인 학습활동을 보게 되는 반�
 강좌 운영팀에게만 공개
 ===========================
 
-:ref:`hide a unit from students<Hide a Unit from Students>` 상태일 때, 학습활동의 게시 상태가 **강좌 운영팀에게만 공개** 로 바뀌게 된다.
+:ref:`학습활동 감추기<Hide a Unit from Students>` 상태일 때, 학습활동의 게시 상태가 **강좌 운영팀에게만 공개** 로 바뀌게 된다.
 
-:ref:`section<Hide a Section from Students>` 또는 :ref:`subsection<Hide a
+:ref:`주제<Hide a Section from Students>` 또는 :ref:`소주제<Hide a
 Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없다.
 
 게시되었거나 공개일이 지났더라도 학습자가 이 상태의 학습활동은 볼 수 없다.
@@ -254,9 +253,9 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 #. 학습활동명을 입력한다. 
 
-#. 필요하다면, :ref:`Add components<Add a Component>` 를 시작한다.
+#. 필요하다면, :ref:`구성요소 추가하기<Add a Component>` 를 시작한다.
 
-새로 만든 학습활동을 학습자가 볼 수 있게 하려면 :ref:`publish the unit<Publish a Unit>` 한다.
+새로 만든 학습활동을 학습자가 볼 수 있게 하려면 :ref:`학습활동 게시하기<Publish a Unit>` 한다.
 
 
 .. _학습활동 편집하기:
@@ -276,7 +275,6 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 변경된 버전을 학습자가 보게 하려면, 반드시 
 :ref:`publish the unit<Publish a Unit>` 해야 한다.
-
 
 ==============================
 학습활동명 편집
