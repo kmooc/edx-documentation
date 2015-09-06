@@ -110,23 +110,21 @@
 .. _unenroll_student:
 
 *********************************
-학습자 수강 등록 취소하기
+학습자 등록 취소하기
 *********************************
 
-You can remove students from a course by unenrolling them. To prevent students
-from re-enrolling, course enrollment must also be closed. You use Studio to
-set the **Enrollment End Date** for the course to a date in the past. See
-:ref:`Set Important Dates for Your Course`.
+학습자의 등록을 취소함으로써 해당 학습자를 전체 수강 인원에서 삭제할 수 있다. 학습자가 다시 등록 하는 것을 방지하려면 수강 신청이 종료되어야 한다. Studio에서 현재 보다 이전 시점으로 **수강 신청 종료 날짜** 를 설정한다. 이에 관해선
+:ref:`Set Important Dates for Your Course` 에 더 자세히 안내되어 있다.
 
 **Note**: Unenrollment does not delete data for a student. An unenrolled
 student's state remains in the database and is reinstated if the student does
 re-enroll.
 
-To unenroll students, you supply the email addresses of enrolled students. 
+등록된 학습자의 등록을 취소하려면, 이메일 주소를 입력해야 한다. 
 
-#. View the live version of your course.
+#. 적용 결과 보기를 클릭한다.  
 
-#. Click **Membership**. 
+#. 교수자 대시보드의 **교수자** 탭에서 **등록 관리** 를 클릭한다.
 
 #. In the **Batch Enrollment** section of the page, enter a username or an email
    address, or multiple names or addresses separated by commas or new lines.
