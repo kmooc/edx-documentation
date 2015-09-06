@@ -6,7 +6,7 @@
 
 강좌를 개발할 때는 주로 Studio에 있는 강좌 개요에서 작업하게 되는데, 이 장에서 이에 대해 다룬다. 
 
-* `Open the Course Outline`_
+* `강좌 개요 열기`_
 * `Example of a Developed Course in the Outline`_
 * `View the Course Organization as a Student`_
 * `Navigate the Course Outline`_
@@ -22,6 +22,9 @@
 * :ref:`Developing Course Subsections`
 * :ref:`Developing Course Units`
 * :ref:`Developing Course Components`
+
+
+.. _강좌 개요 열기:
 
 ****************************
 강좌 개요 열기
