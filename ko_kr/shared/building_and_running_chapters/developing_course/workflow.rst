@@ -81,20 +81,13 @@ Content>` 에 있다.
 콘텐츠 검색 기능 활성화하기
 ***********************************
 
-Learners can search course text in :ref:`HTML components<Working with HTML
-Components>` and video transcripts by using the **Search** box in the upper-left
-corner of the **Courseware** tab. 
+학습자는 :ref:`HTML components<Working with HTML
+Components>` 의 강좌 텍스트와 동영상 자막을 **강좌 내용** 탭의 왼쪽 상단의 **검색** 박스에서 검색할 수 있다.
 
-Before learners can search your course, Studio must index the content. Studio
-indexes all new course content automatically when you :ref:`publish<Publish a
-Unit>` the content. 
+강좌 운영팀이 :ref:`publish<Publish a
+Unit>` 하면 Studio가 자동으로 콘텐츠에 색인을 달기 때문이다. 
 
-If necessary, you can manually reindex all of the content in your course at any
-time. Typically, you would only manually reindex your course content if learners
-see unexpected search results. To reindex your course content, select **Reindex
-Content** in the upper-right corner of the **Course Outline** page. Reindexing
-usually takes less than 30 seconds.
-
+필요한 경우, 직접 색인을 달 수도 있다. 이를 위해 **강좌 개요** 페이지의 오른쪽 상단에서 **콘텐츠 색인 다시 달기**를 클릭한다. 
 .. _Revising Content:
 
 ****************************
