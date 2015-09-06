@@ -46,30 +46,29 @@ HTML 구성요소 편집 옵션
   콘텐츠를 만들거나, 편집하고, 포맷을 맞출 수 있다. 
   비쥬얼 편집기와 함께, 쉽게 강좌 콘텐츠의 서식을 지정할 수 있고, 링크 및 이미지를 추가할 수 있다. 
   비쥬얼 편집기는 HTML 코드에 접근하도록 해서 조금만 수정해도 서식을 설정할 수 있다. 
-  그러나, 비쥬얼 편집기에서 HTML 보기는 원본 HTML 편집기에서 할 수 있는 세부 제어를 제공하지 않으며, 
+  그러나, 비쥬얼 편집기에서 HTML 보기는 Raw HTML 편집기에서 할 수 있는 세부 제어를 제공하지 않으며, 
   사용자 서식 및 스크립트를 지원하지 않는다.
 
 * :ref:`The Raw HTML Editor`
 
-  원본 HTML 편집기로 HTML 코드를 직접 작업할 수 있다. 
-  강좌 콘텐츠 안에 사용자 서식이나 스크립트를 사용해야 한다면 원본 HTML 편집기를 사용해야 한다.
+  Raw HTML 편집기로 HTML 코드를 직접 작업할 수 있다. 
+  강좌 콘텐츠 안에 사용자 서식이나 스크립트를 사용해야 한다면 Raw HTML 편집기를 사용해야 한다.
 
 
 HTML 구성요소 에디터 설정하기
 ************************************
 
-**설정** 탭에서 HTML 구성요소에 대한 편집기를 설정할 수 있다
+**설정** 에서 HTML 구성요소에 대한 편집기를 설정할 수 있다
 
 .. image:: ../../../shared/building_and_running_chapters/Images/set_html_editor.png
  :alt: The Editor selection drop-down list in the HTML Component Settings tab
 
-**비주얼** 또는 **원본** 을 선택한다. 편집기를 변경하려면, 반드시 **저장** 을 클릭하고 새로운 편집기를 사용하기 위해 구성요소를 다시 열어야 한다.
+**화면편집기** 또는 **직접 HTML 편집** 을 선택한다. 편집기를 변경하려면, 반드시 **저장** 을 클릭하고 새로운 편집기를 사용하기 위해 구성요소를 다시 열어야 한다.
 
 .. 주의:: 
- HTML 원본 편집기로 강좌 콘텐츠 작업을 한 후 비주얼 편집기로 변경하게 되면, 
- 앞서 만들었던 사용자 정의 HTML이 삭제될 수 있다. 
- 그러므로 비주얼 편집기를 사용하여 시작하고, 사용자 정의 HTML을 만들 필요가 있을 때 
- 원본 HTML 편집기로 전환하여 이용할 것을 권장한다.
+ 직접 HTML 편집기로 강좌 콘텐츠 작업을 한 후 비주얼 편집기로 변경하게 되면, 
+ 앞서 만들었던 HTML이 삭제될 수 있다. 그래서 우선 비주얼 편집기로 편집을 시작하고나서, 사용자 HTML을 만들 필요가 있을 때 
+ 직접 HTML 편집기로 전환하여 이용할 것을 권장한다.
  
 .. _The Visual Editor:
 
@@ -77,7 +76,7 @@ HTML 구성요소 에디터 설정하기
 비쥬얼 편집기
 *****************************************
 
-비쥬얼 편집기는 편집기 상단에서 서식 버튼을 클릭하여 텍스트를 포맷할 수 있는 “what you see is what you get” (WYSIWYG) 인터페이스를 제공한다. 
+비쥬얼 편집기는 편집기 상단의 서식 버튼들을 클릭하여 서식을 지정할 수 있는 “what you see is what you get” (WYSIWYG) 인터페이스를 제공한다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/HTMLEditor.png
  :alt: Image of the HTML component editor
@@ -85,29 +84,28 @@ HTML 구성요소 에디터 설정하기
 .. 참고:: 
   비쥬얼 편집기가 :ref:`course handouts <Adding Course Updates and Handouts>` 에 대해서는 지원되지 않는다.
 
-다음 이미지는 편집 옵션에 대한 결과를 보여준다. 
+다음 이미지는 편집 옵션에 설명이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/HTML_VisualView_Toolbar.png
   :alt: Image of the HTML editor, with call-outs for formatting buttons
 
 #. 머리글 1, 머리글 2, 또는 단락 등 선택한 단락에 대한 서식 스타일을 선택한다. 
    
-#. Arial, Courier New, 또는 Times New Roman 같이 글꼴을 선택한다.
+#. Arial, Courier New, 또는 Times New Roman 같은 글꼴을 선택한다.
    
 #. 선택한 텍스트를 굵게 한다.
 #. 선택한 텍스트를 기울게 한다.
 #. 선택한 텍스트에 밑줄 긋는다.
 #. 선택한 텍스트에 색상을 적용한다.
-#. 코드로서 선택한 텍스트를 서식한다.
+#. 선택한 텍스트를 코드로 표시한다.
 #. 글머리 기호 목록을 만든다.
 #. 번호 매기기 목록을 만든다.
 #. 선택한 단락의 들여쓰기를 감소시키고 증가시킨다.
 #. 선택한 단락을 인용구로 만든다.
-#. 선택한 텍스트에서 링크를 만든다. 이에 관해 :ref:`Add a Link in an HTML
-   Component` 에 더 자세한 안내가 있다.
+#. 선택한 텍스트에서 링크를 만든다. :ref:`Add a Link in an HTML Component` 에 자세한 안내가 있다.
 #. 현재 링크를 삭제한다. 
-#. 마우스 커서 위치에 이미지를 삽입한다. 이에 관해 :ref:`Add an Image to an HTML Component` 에 더 자세한 안내가 있다.
-#. 아래에 설명된 방식으로 HTML 소스 코드에 대한 작업을 한다.
+#. 마우스 커서 위치에 이미지를 삽입한다. :ref:`Add an Image to an HTML Component` 에 자세한 안내가 있다.
+#. HTML 소스 코드 작업을 한다.
 
 
 .. _Work with HTML code:
