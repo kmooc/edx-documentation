@@ -1,80 +1,69 @@
 .. _Numerical Input:
 
 ########################
-Numerical Input
+수식 입력 문제
 ########################
 
-Numerical input problems are the simpler of the two mathematics tools that Studio offers. In these problems, students enter numbers or specific and relatively simple mathematical expressions to answer a question. The text that the students enter is converted to a symbolic expression that appears below the response field. 
+Studio가 제공하는 수식 입력 도구 가운데 보다 기본적인 도구이다. 이 유형의 문제에서는 학습자가 질문에 대한 답변으로 숫자 또는 비교적 단순한 특정 수식을 입력한다. 학습자가 입력한 문자열은 기호식으로 변환되어 답변 필드 아래에 표시된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image292.png
  :alt: Image of a numerical input problem
 
-Note that students' responses don't have to be exact for these problems. You can specify a margin of error, or tolerance. You can also specify a correct answer explicitly, or use a Python script. For more information, see the instructions below.
+이 유형의 문제에서는 학습자 답변의 값이 해석적으로 정확하지 않아도 되며 오차 범위 또는 허용 한계를 지정할 수 있다. 직접 정답을 지정하거나 Python 스크립트를 사용할 수도 있다. 이를 아래에 보다 자세하게 설명한다.
 
-Responses for numerical input problems can include integers, fractions,
-and constants such as *pi* and *g*. Responses can also include text
-representing common functions, such as square root (sqrt) and log base 2
-(log2), as well as trigonometric functions and their inverses, such as
-sine (sin) and arcsine (arcsin). For these functions, the
-text that the student enters is converted into mathematical symbols. The following
-example shows the way the system renders students' text responses in
-numerical input problems. 
+수식 입력 문제에 대한 답변은 정수, 분수, 그리고 원주율(pi)이나 중력 가속도(g) 등의 상수를 포함할 수 있다. 제곱근(sqrt)이나 10을 밑으로 하는 로그 등의 간단한 함수, 그리고 사인(sin), 아크사인(arcsin)과 같은 삼각함수 및 역삼각함수를 나타내는 문자열도 가능하다. 학습자가 이들 함수를 나타내는 문자열을 입력하면 해당 문자열이 수학 기호로 변환된다. 수식 입력 문제에서 학습자의 문자열을 수식으로 변환하는 장면을 아래의 예에 제시한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Math5.png
  :alt: Image of a numerical input probem rendered by Studio
 
-For more information about characters that students can enter, see :ref:`Math Response Formatting for Students`.
+학습자가 입력할 수 있는 문자에 관한 보다 구체적인 정보를 :ref:`Math Response Formatting for Students` 에서 확인할 수 있다.
 
 ***********************************
-Create a Numerical Input Problem 
+수식 입력 문제 생성하기 
 ***********************************
 
-You can create numerical problems in the Simple Editor or in the Advanced Editor regardless of the answer to the problem. If the text of your problem doesn't include any italics, bold formatting, or special characters, you can create the problem in the Simple Editor. If the text of your problem contains special formatting or characters, or if your problem contains a Python script, you'll use the Advanced Editor.
+기본 편집기나 고급 편집기로 수식 입력 문제를 생성할 수 있다. 어떤 편집기를 사용하든 문제에 대한 답은 동일한다. 문제의 지문에 이탤릭체, 볼드체, 특수 문자가 없는 경우라면 기본 편집기로 생성 가능하다. 문제 지문에 특수 포맷이나 특수 문자, 또는 Python 스크립트가 포함되는 경우 고급 편집기를 사용한다.
 
-For example, the following example problems require the Advanced Editor. 
+이를 테면, 아래의 예제를 생성하려면 고급 편집기를 사용해야 한다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/NumericalInput_Complex.png
  :alt: Image of a more complex numerical input problem
 
-For more information about including a Python script in your problem, see :ref:`Write Your Own Grader`.
+문제 지문에 Python 스크립트를 입력하는 방법에 대한 보다 구체적인 정보는 :ref:`Write Your Own Grader` 을 참조한다.
 
 ==================
-Simple Editor
+기본 에디터
 ==================
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Numerical
-   Input** on the **Common Problem Types** tab.
-   
-3. When the new Problem component appears, click **Edit**.
-#. In the component editor, replace the sample problem text with your own text.
-#. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
-#. Select the text of the answer, and then click the numerical input button. 
+#. **새 구성 요소 추가** 에서 **문제** 를 클릭한다.
+#. **문제 구성 요소 유형 선택** 화면에서 **공통 문제 유형** 탭의 **수식 입력** 을 클릭한다.
+3. 새 문제 구성 요소가 표시되면 **편집** 을 클릭한다.
+#. 구성 요소 편집기의 예제 문자열을 원하는 문자열로 바꾼다.
+#. 표시(label)로 사용할 문제 텍스트를 결정한 후 해당 텍스트를 두 쌍의 꺾쇠괄호(>><<)로 묶는다.
+#. 정답 텍스트를 선택한 후 수식 입력 단추를 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_NumInput.png
     :alt: Image of the numerical input button
 
-When you do this, an equal sign appears next to the answer.
+이 과정을 완료하면 정답 옆에 “=” 표시가 나타난다.
         
-7. (Optional) Specify a margin of error, or tolerance. You can specify a percentage, number, or range.
+7. (선택 사항) 오차 범위 또는 허용 한계를 지정한다. 백분율, 숫자 또는 범위를 지정할 수 있다.
 
-   * To specify a percentage on either side of the correct answer, add **+-NUMBER%** after the answer. For example, if you want to include a 2% tolerance, add **+-2%**. 
+   * 정답 양측(±)으로 허용 한계를 지정하려면 해당 정답 뒤에 +-숫자%를 입력한다. 가령 2%의 허용 오차를 두고자 하는 경우 +-2%를 입력한다. 
 
-   * To specify a number on either side of the correct answer, add **+-NUMBER** after the answer. For example, if you want to include a tolerance of 5, add **+-5**.
+   * 정답 양측(±)으로 숫자를 지정하려면 해당 정답 뒤에 +-숫자를 입력한다. 가령 허용 한계 5를 두고자 하는 경우 +-5를 입력한다.
 
-   * To specify a range, use brackets [] or parentheses (). A bracket indicates that range includes the number next to it. A parenthesis indicates that the range does not include the number next to it. For example, if you specify **[5, 8)**, correct answers can be 5, 6, and 7, but not 8. Likewise, if you specify **(5, 8]**, correct answers can be 6, 7, and 8, but not 5.
+   * 범위를 지정하려면 대괄호([]) 또는 괄호(())를 이용한다. 대괄호는 해당 대괄호에 인접한 숫자를 포함한다는 의미이며 괄호는 해당 괄호에 인접한 숫자를 포함하지 않는다는 뜻이다. 이를테면, 범위를 [5, 8)로 지정할 경우 5, 6, 7은 정답이나 8은 정답이 아니다. 범위를 (5, 8]로 지정할 경우 6, 7, 8은 정답이나 5는 정답이 아니다.
 
-8. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+8. 구성 요소 편집기에서 설명용 텍스트를 선택한 후 설명 단추를 눌러 해당 텍스트에 설명(explanation) 태그를 추가한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
-9. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+9. **설정** 탭에서 원하는 설정을 구성한다.
+#. **저장** 을 클릭한다.
 
-For the first example problem above, the text in the Problem component is the
-following.
+상기 첫 번째 예제 가운데 문제 구성 요소의 텍스트는 다음과 같다.
 
 ::
 
@@ -87,12 +76,12 @@ following.
    [explanation]
 
 ==================
-Advanced Editor
+고급 편집기
 ==================
 
-To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
+이 유형의 문제를 고급 편집기로 생성하려는 경우 “문제(Problem)” 구성 요소 편집기의 **고급** 탭을 클릭한 후 기존 코드를 다음 코드로 교체한다..
 
-**Problem Code**:
+**문제 코드**:
 
 .. code-block:: xml
 
@@ -143,16 +132,16 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
 .. _Numerical Input Problem XML:
 
 ****************************
-Numerical Input Problem XML
+수식 입력 문제 XML
 ****************************
 
 =========
-Templates
+템플릿
 =========
 
-The following templates represent problems with and without a decimal or percentage tolerance.
+십진법 숫자 체계 또는 백분율로 나타낸 허용 한계 부여 여부에 따른 수식 입력 문제의 템플릿이다.
 
-Problem with no tolerance
+허용 한계를 주지 않은 문제
 ***************************
 
 .. code-block:: xml
@@ -170,7 +159,7 @@ Problem with no tolerance
   </solution>
   </problem>
 
-Problem with a decimal tolerance
+십진법 숫자로 허용 한계를 준 문제
 ************************************
 
 .. code-block:: xml
@@ -191,7 +180,7 @@ Problem with a decimal tolerance
   </solution>
   </problem>
 
-Problem with a percentage tolerance
+백분율 허용 한계를 준 문제
 ************************************
 
 .. code-block:: xml
@@ -212,7 +201,7 @@ Problem with a percentage tolerance
   </solution>
   </problem>
 
-Answer created with a script
+스크립트로 생성한 정답
 ************************************
 
 .. code-block:: xml
@@ -239,95 +228,96 @@ Answer created with a script
   </problem>
 
 ====
-Tags
+태그
 ====
 
-* ``<numericalresponse>`` (required): Specifies that the problem is a numerical input problem.
-* ``<formulaequationinput />`` (required): Provides a response field where the student enters a response.
-* ``<responseparam>`` (optional): Specifies a tolerance, or margin of error, for an answer.
-* ``<script>`` (optional):
+* ``<numericalresponse>`` (필수): 해당 문제를 수식 입력 문제로 지정한다.
+* ``<formulaequationinput />`` (필수): 학습자 답변을 입력할 답변 필드를 제공한다.
+* ``<responseparam>`` (선택): 정답에 대한 허용 한계 또는 오차 범위를 지정한다.
+* ``<script>`` (선택):
 
-.. note:: Some older problems use the ``<textline math="1" />`` tag instead of the ``<formulaequationinput />`` tag. However, the ``<textline math="1" />`` tag has been deprecated. All new problems should use the ``<formulaequationinput />`` tag.
+.. 참고:: 기존 문제 일부는 ``<formulaequationinput />`` 태그 대신 ``<textline math="1" />`` 태그를 사용하고 있다. 그러나 ``<textline math="1" />`` 태그에 대한 비판이 있기 때문에 새로 생성하는 문제에서는 ``<formulaequationinput />`` 태그를 사용한다.
 
-**Tag:** ``<numericalresponse>``
+**태그:** ``<numericalresponse>``
 
-Specifies that the problem is a numerical input problem. The ``<numericalresponse>`` tag is similar to the ``<formularesponse>`` tag, but the ``<numericalresponse>`` tag does not allow unspecified variables.
+해당 문제를 수식 입력 문제로 지정한다. ``<numericalresponse>`` 태그는 ``<formularesponse>`` 와 유사하지만 지정되지 않은 변수를 허용하지 않는다는 점에서 다르다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - answer (required)
-       - The correct answer to the problem, given as a mathematical expression. 
+     * - 속성
+       - 설명
+     * - answer (필수)
+       - 문제의 정답. 수식으로 제시된다.
 
-  .. note:: If you include a variable name preceded with a dollar sign ($) in the problem, you can include a script in the problem that computes the expression in terms of that variable.
+  .. 참고:: 문제 지문에서 변수명 앞에 달러 기호($)를 붙이면 해당 수식을 해당 변수에 대해 계산하는 스크립트를 삽입할 수 있다.
 
-  The grader evaluates the answer that you provide and the student's response in the same way. The grader also automatically simplifies any numeric expressions that you or a student provides. Answers can include simple expressions such as "0.3" and "42", or more complex expressions such as "1/3" and "sin(pi/5)". 
+
+  채점자는 제공하는 답과 학습자 답변을 동일한 방식으로 평가한다. 또한 채점자는 강좌 운영팀 또는 학습자가 어떠한 수식을 제시하더라도 이를 자동적으로 단순화한다. 정답은 0.3이나 42처럼 단순할 수도, 1/3이나 sin(pi/5)처럼 다소 복잡할 수도 있다.
 
   Children
   
   * ``<responseparam>``
   * ``<formulaequationinput>``
 
-**Tag:** * ``<formulaequationinput>``
+**태그:** * ``<formulaequationinput>``
 
-Creates a response field in the LMS where students enter a response.
+학습자가 답변을 입력하는 LMS에 답변 필드를 생성한다.
 
-  Attributes
-
-  .. list-table::
-     :widths: 20 80
-
-     * - Attribute
-       - Description     
-     * - label (required)
-       - Specifies the name of the response field.
-     * - size (optional)
-       - Defines the width, in characters, of the response field in the LMS.
-  
-  Children
-
-  (none)
-
-**Tag:** ``<responseparam>``
-
-Specifies a tolerance, or margin of error, for an answer.
-
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - type (optional)
-       - "tolerance": Defines a tolerance for a number
-     * - default (optional)
-       - A number or a percentage specifying a numerical or percent tolerance.
-
-  Children
+     * - 속성
+       - 설명    
+     * - label (필수)
+       - 답변 필드의 이름을 지정한다.
+     * - size (선택)
+       - LMS 내 답변 필드의 폭(width)을 문자(개수)로 정의한다.
   
-  (none)
+  Children
 
-**Tag:** ``<script>``
+  (내용 없음)
 
-Specifies a script that the grader uses to evaluate a student's response. A problem behaves as if all of the code in all of the script tags were in a single script tag. Specifically, any variables that are used in multiple ``<script>`` tags share a namespace and can be overriden.
+**태그:** ``<responseparam>``
 
-As with all Python, indentation matters, even though the code is embedded in XML.
+정답에 대한 허용 한계 또는 오차 범위를 지정한다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - type (required)
-       - Must be set to "loncapa/python".
+     * - 속성
+       - 설명
+     * - type (선택)
+       - “tolerance”: 숫자에 대한 허용 한계를 정의한다.
+     * - default (선택)
+       - 십진법 체계의 수 또는 백분율 허용 한계를 지정하는 숫자 또는 백분율
 
   Children
   
-  (none)
+  (내용 없음)
+
+**태그:** ``<script>``
+
+채점자가 학습자 답변을 평가하는 데 사용하는 스크립트를 지정한다. 이 경우 문제는 모든 스크립트 태그에 포함된 모든 코드가 단 하나의 스크립트 태그에 포함된 것처럼 작동한다. 특히, 2개 이상의 ``<script>`` 태그에서 복수의 변수를 사용하는 경우 이들 변수는 단 하나의 네임스페이스를 공유하며 따라서 재정의 될(overriden) 수 있다.
+
+모든 Phthon이 그러하듯, 들여쓰기(indentation)가 중요한다. 해당 코드가 XML에 임베드 된 경우 역시 그러한다.
+
+  속성
+
+  .. list-table::
+     :widths: 20 80
+
+     * - 속성
+       - 설명
+     * - type (필수)
+       - 반드시 “loncapa/phython”로 설정해야 한다.
+
+  Children
+  
+  (내용 없음)
