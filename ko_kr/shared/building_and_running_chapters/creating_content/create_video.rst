@@ -193,13 +193,13 @@ YouTube
 .. list-table::
     :widths: 30 70
 
-    * - **구성요소 표시 이름**
-      - 학습자가 보게 될 이름이다. 이것은 **기본** 탭에 있는 
-        **표시 이름** 입력 필드와 동일하다.
-    * - **기본 정기 자막**
-      -  **기본** 탭의 **기본 자막** 입력 필드에 사용되는 자막 파일의 이름이다. 
-         이 입력 필드는 자동으로 채워진다. 이
-         설정을 변경할 필요가 없다.
+   
+      
+        
+    
+      
+         
+         
     * - **자막 다운로드 허용**
       - 학습자가 정기 자막을 다운로드 하도록 허용하는지 지정한다. 
          이 값을 True로 설정하면 자막 파일을 다운로드 하는 링크가 
@@ -273,12 +273,12 @@ The following options appear on the **Advanced** tab in the video component.
 .. list-table::
     :widths: 30 70
 
-    * - **Component Display Name**
-      - The name that you want your students to see. This is the same as the
-        **Display Name** field on the **Basic** tab.
-    * - **Default Timed Transcript**
-      -  The name of the transcript file that is used in the **Default Timed
-         Transcript** field on the **Basic** tab. This field is auto-populated.
+    * - **구성요소 표시 이름**
+      - 학습자가 보게 될 이름이다. 이것은 **기본** 탭에 있는 
+        **표시 이름** 입력 필드와 동일하다.
+    * - **기본 자막**
+      -  **기본** 탭의 **기본 자막** 입력 필드에 사용되는 자막 파일의 이름이다. 
+         이 입력 필드는 자동으로 채워진다. 이 설정을 변경할 필요가 없다.
          You do not have to change this setting.
     * - **Download Transcript Allowed**
       - Specifies whether you want to allow students to download the timed
