@@ -91,24 +91,22 @@ Unit>` 하면 Studio가 자동으로 콘텐츠에 색인을 달기 때문이다.
 .. _Revising Content:
 
 ****************************
-Revising Content
+콘텐츠 변경하기
 ****************************
 
-You can revise your course content at any time. 
+언제든지 강좌 콘텐츠를 변경할 수 있다.
 
-* When you :ref:`reorganize sections, subsections, and units<Reorganize the
-  Course Outline>` in the outline, the new order is immediately visible to
-  students if the section and subsection are released.
+* 강좌 개요에서 :ref:`reorganize sections, subsections, and units<Reorganize the
+  Course Outline>` 하면, 변경사항을 학습자가 곧바로 볼 수 있다. 
 
-* When you :ref:`edit a unit<Edit a Unit>`, or :ref:`components<Add a
-  Component>` within a unit, you must :ref:`publish<Publish a Unit>` those
-  changes to make them visible to students.
+* :ref:`edit a unit<Edit a Unit>` 또는 :ref:`components<Add a
+  Component>` 할 때, 변경사항을 학습자가 보게 하려면 반드시 :ref:`publish<Publish a Unit>` 해야 한다.
+ 
 
-The following diagram summarizes the content revision workflow and content
-visibility:
+아래는 강좌 콘텐츠 변경에 따라 학습자 공개 상태를 요약해서 보여주는 도표다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/workflow-revise-content.png
  :alt: Diagram of the content creation process
 
-It is recommended that you :ref:`test course content <Testing Your Course
-Content>` during the revision process.
+강좌 콘텐츠를 변경하는 동안 :ref:`test course content <Testing Your Course
+Content>` 를 해보는 것이 좋다는 것에 유의한다.
