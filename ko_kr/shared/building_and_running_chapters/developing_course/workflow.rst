@@ -20,13 +20,13 @@
 강좌의 기본 구성요소 이해하기
 ************************************************
 
-시작하기 전에, K-MOOC 강좌를 이루는 기본 요소를 먼저 이해하면 도움이 될 것이다.
+시작하기 전에, 강좌를 이루는 기본 요소를 먼저 이해하면 도움이 될 것이다.
 
-* :ref:`The course outline<Developing Your Course Outline>` 에서 강좌의 콘텐츠 구성 등 전체 그림을 한 눈에 볼 수 있다. 
-* :ref:`Course sections<Developing Course Sections>` 는 강좌에서 가장 상위 범주에 해당한다. 순차적으로 공개되는 주제를 보면    개강일 이후 강좌가 진행되는 흐름을 알 수도 있고, 강좌가 어떻게 구성되어 있는지를 한 눈에 볼 수 있기도 하다. 각 주제는 1개    이상의 소주제를 가진다.
-* :ref:`Course subsections<Developing Course Subsections>` 는 주제의 하위 개념으로, 주제에서 1개 이상의 학습활동이 포함된      소주제로 나뉘게 된다. 소주제를 살펴보면 강좌에서 무엇을 중점으로 두는지 이해할 수 있게 된다.
-* :ref:`Course units <Developing Course Units>` 은 소주제의 일부로써, 학습자가 소주제를 클릭하면 한 번에 하나씩 볼 수 있다.
-* :ref:`Course components<Developing Course Components>` 는 학습활동의 부분으로, 실제 강좌 콘텐츠라고 볼 수 있다. 1개의 학습활동은 1개 이상의 구성요소를 포함할 수 있다
+* :ref:`강좌 개요<Developing Your Course Outline>` 에서 강좌의 콘텐츠 구성 등 전체 그림을 한 눈에 볼 수 있다. 
+* :ref:`강좌 주제<Developing Course Sections>` 는 강좌에서 가장 상위 범주에 해당한다. 순차적으로 공개되는 주제를 보면    개강일 이후 강좌가 진행되는 흐름을 알 수도 있고, 강좌가 어떻게 구성되어 있는지를 한 눈에 볼 수 있기도 하다. 각 주제는 1개    이상의 소주제를 가진다.
+* :ref:`강좌 소주제<Developing Course Subsections>` 는 주제의 하위 개념으로, 주제에서 1개 이상의 학습활동이 포함된      소주제로 나뉘게 된다. 소주제를 살펴보면 강좌에서 무엇을 중점으로 두는지 이해할 수 있게 된다.
+* :ref:`강좌 학습활동 <Developing Course Units>` 은 소주제의 일부로써, 학습자가 소주제를 클릭하면 한 번에 하나씩 볼 수 있다.
+* :ref:`강좌 구성요소<Developing Course Components>` 는 학습활동의 부분으로, 실제 강좌 콘텐츠라고 볼 수 있다. 1개의 학습활동은 1개 이상의 구성요소를 포함할 수 있다
 
 .. _Creating New Course Content:
 
@@ -34,11 +34,9 @@
 신규 콘텐츠 만들기
 ****************************************
 
-K-MOOC 강좌를 이루는 기본 요소를 이해했다면, 이제 강좌 콘텐츠를 Studio에서 개발할 수 있다.
+강좌를 이루는 기본 요소를 이해했다면, 이제 강좌 콘텐츠를 Studio에서 개발할 수 있다.
 
-먼저, :ref:`course
-outline<Developing Your Course Outline>` 에서 :ref:`sections<Create a Section>`, :ref:`subsections<Create a
-Subsection>`, :ref:`units<Create a Unit>` 가 이루어 져야 한다.
+먼저, :ref:`course outline<Developing Your Course Outline>` 에서 :ref:`sections<Create a Section>`, :ref:`subsections<Create a Subsection>`, :ref:`units<Create a Unit>` 가 이루어 져야 한다.
 
 성적에 반영되는 소주제 설정도 할 수 있다.
 :ref:`set the assignment type and due date<Set the Assignment Type and Due Date
@@ -84,8 +82,7 @@ Content>` 에 있다.
 학습자는 :ref:`HTML components<Working with HTML
 Components>` 의 강좌 텍스트와 동영상 자막을 **강좌 내용** 탭의 왼쪽 상단의 **검색** 박스에서 검색할 수 있다.
 
-강좌 운영팀이 :ref:`publish<Publish a
-Unit>` 하면 Studio가 자동으로 콘텐츠에 색인을 달기 때문이다. 
+강좌 운영팀이 :ref:`publish<Publish a Unit>` 하면 Studio가 자동으로 콘텐츠에 색인을 달기 때문이다. 
 
 필요한 경우, 직접 색인을 달 수도 있다. 이를 위해 **강좌 개요** 페이지의 오른쪽 상단에서 **콘텐츠 색인 다시 달기**를 클릭한다. 
 .. _Revising Content:
