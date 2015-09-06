@@ -1,56 +1,51 @@
 .. _Multiple Choice:
 
 ########################
-Multiple Choice Problem
+선택형 문제
 ########################
 
-In multiple choice problems, students select one option from a list of answer options. Unlike with dropdown problems, whose answer choices don't appear until the student clicks the drop-down arrow, answer choices for multiple choice problems are always visible directly below the question.
+선택형 문제(multiple choice problem)에서는 학습자가 일련의 선택지 가운데 한 가지를 선택한다. 학습자가 드롭다운(dropdown) 화살표를 클릭하기 전까지 선택지가 표시되지 않는 드롭다운형 문제와 달리, 선택형 문제에서는 해당 질문지 아래에서 선택지를 가시적으로 직접 확인할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoiceExample.png
  :alt: Image of a multiple choice problem
 
-Multiple choice problems also have several advanced options, such as presenting a random set of choices to each student. For more information about these options, see :ref:`Multiple Choice Advanced Options`.
+또한, 선택형 문제에는 각 학습자에게 일련의 선택지를 무작위로 제시하는 등, 몇 가지 고급 선택 조건이 있다. :ref:`Multiple Choice Advanced Options` 에서 이들 선택 조건에 관한 보다 자세한 정보를 확인할 수 있다.
 
 ****************************************
-Create a Multiple Choice Problem
+선택형 문제 생성하기
 ****************************************
 
-You can create multiple choice problems in the Simple Editor or in the Advanced Editor.
+ “기본 편집기(Simple Editor)” 또는 “고급 편집기(Advanced Editor)”에서 선택형 문제를 생성할 수 있다.
 
-.. note:: All problems must include labels for accessibility. The label generally includes the text of the main question in your problem. To add a label for a common problem, surround the text of the label with angle brackets pointed toward the text (>>label text<<).
+.. 참고:: 모든 문제에는 접근성 지원 표시(labels for accessibility)가 반드시 있어야 한다. 일반적으로 이 표시에는 해당 문제의 주 질문지 텍스트가 포함된다. 공통 문제용 표시를 추가하려면 해당 표시의 텍스트를 꺾쇠괄호(<>)로 묶되 뾰족한 쪽이 텍스트를 향하게 한다.(>>label text<<).
 
 ================
-Simple Editor
+기본 편집기
 ================
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Multiple
-   Choice** on the **Common Problem Types** tab.
-#. When the new Problem component appears, click **Edit**.
-#. In the component editor, replace the sample problem text with the text of your 
-   problem. Enter each answer option on its own line.
-#. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
-#. Select all the answer options, and then click the multiple choice button. 
+#. **새 구성 요소 추가** 에서 **문제** 를 클릭한다.
+#. **문제 구성 요소 유형 선택** 화면의 **공통 문제 유형** 탭에서 **선택형** 을 클릭한다.
+#. 새 문제 구성 요소가 표시되면 **편집** 을 클릭한다.
+#. 구성 요소 편집기의 예제 텍스트를 생성하고자 하는 문제의 텍스트로 바꾼다. 각 선택지를 해당 열에 입력한다.
+#. 표시로 사용할 문제의 텍스트를 결정한 후 해당 텍스트를 꺾쇠괄호(>><<)로 묶는다.
+#. 선택지를 모두 선택한 후 선택형 문제 단추를 클릭한다.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_MultChoice.png
     :alt: Image of the multiple choice button
    
-   When you do this, the component editor adds a pair of parentheses next to each 
-   possible answer.
+   이제 구성 요소 편집기가 각 잠재 정답 뒤에 한 쌍의 괄호를 추가한다.
    
-#. Add an "x" between the parentheses next to the correct answer.
+#. 정답 옆의 괄호 사이에 “x”를 입력한다.
    
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. 구성 요소 편집기에서 설명(explanation) 텍스트를 선택한 후 설명 단추를 클릭하여 해당 텍스트에 설명 태그를 추가한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+#. **설정** 탭에서 여러분이 원하는 설정을 지정한다. 
+#. **저장** 을 클릭한다.
 
-For the example problem above, the text in the Problem component is the
-following.
+상기 예제에 대한 문제 구성 요소 내부의 텍스트는 다음과 같다.
 
 ::
 
@@ -76,10 +71,10 @@ following.
     [Explanation]
 
 ================
-Advanced Editor
+고급 편집기
 ================
 
-To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
+고급 편집기에서 이 문제를 생성하려면 문제 구성 요소 편집기에서 **고급** 탭을 클릭한 후 기존 코드를 다음으로 교체한다.
 
 .. code-block:: xml
 
@@ -105,10 +100,10 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
 .. _Multiple Choice Advanced Options:
 
 *********************************************
-Advanced Options for Multiple Choice Problems
+선택형 문제 고급 선택 조건
 *********************************************
 
-Multiple choice problems have several advanced options. You can change the order of answers in the problem, include explanations that appear when a student selects a specific incorrect answer, or present a random set of choices to each student. For more information, see the following:
+선택형 문제에는 다양한 고급 선택 조건이 있다. 문제 안에 있는 선택지의 순서를 변경할 수 있고 학습자가 특정 오답을 선택할 경우 나타나는 설명을 삽입하거나 학습자별로 선택지 집합을 무작위로 제시할 수도 있다. 보다 자세한 정보가 필요할 경우 다음 을 참조한다.
 
 
 * :ref:`Shuffle Answers in a Multiple Choice Problem`
@@ -118,32 +113,32 @@ Multiple choice problems have several advanced options. You can change the order
 .. _Shuffle Answers in a Multiple Choice Problem:
 
 =============================================
-Shuffle Answers in a Multiple Choice Problem
+선택형 문제의 선택지 순서 변경하기
 ============================================= 
 
-Optionally, you can configure a multiple choice problem so that it shuffles the order of possible answers.
+선택 조건의 하나로, 선택형 문제의 구성을 변경하여 선택지 순서를 바꿀 수 있다.
 
-For example, one view of the problem could be:
+가령, 어떤 학습자가 보는 문제 화면은 다음과 같을 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/multiple-choice-shuffle-1.png
  :alt: Image of a multiple choice problem
 
-And another view of the same problem, for another student or for the same student of a subsequent view of the unit, could be:
+동일한 문제에 대하여 다른 학습자 또는 상기 학습자가 보는 문제 화면을 다음과 같이 구성할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/multiple-choice-shuffle-2.png
  :alt: Image of a multiple choice problem with shuffled answers
 
-You can also have some answers shuffled, but not others. For example, you may want to have the answer "All of the Above" fixed at the end of the list, but shuffle other answers.
+또한, 선택지 중 일부의 순서를 바꾸되 나머지는 그대로 둘 수도 있다. 이를테면 원래의 선택지 순서를 그대로 유지한 채 선택지 가장 아래에 “위의 모든 답(All of the Above)”이라는 항목을 둘 수 있다.
 
-You can configure the problem to shuffle answers through :ref:`Simple Editor` or :ref:`Advanced Editor`.
+선택지 순서 변경과 관련한 문제 구성은 :ref:`Simple Editor` 또는 :ref:`Advanced Editor` 로 가능하다.
 
 
-Use the Simple Editor to Shuffle Answers
+기본 편집기로 선택지 순서 변경하기
 *********************************************
 
-You can configure the problem to shuffle answers in :ref:`Simple Editor`.
+:ref:`Simple Editor` 에서 선택지 순서를 변경할 수 있다.
 
-For example, the following text defines a multiple choice problem, before shuffling is enabled. The ``(x)`` indicates the correct answer::
+예를 들어, 선택지 순서 변경에 앞서 다음 텍스트로 정의되는 선택형 문제가 있다고 가정한다. 이때, (x)는 정답을 의미한다.
 
  >>What Apple device competed with the portable CD player?<<
      ( ) The iPad
@@ -151,7 +146,7 @@ For example, the following text defines a multiple choice problem, before shuffl
      (x) The iPod
      ( ) The vegetable peeler
 
-To add shuffling to this problem, add ``!`` in the parenthesis of the first answer::
+이 문제의 선택지 순서를 바꾸려면 첫 번째 선택지의 괄호 사이에 느낌표(!)를 입력한다.
 
  >>What Apple device competed with the portable CD player?<<
      (!) The iPad
@@ -159,7 +154,8 @@ To add shuffling to this problem, add ``!`` in the parenthesis of the first answ
      (x) The iPod
      ( ) The vegetable peeler
 
-To fix an answer's location in the list, add ``@`` in the parenthesis of that answer::
+선택지 중 하나의 위치를 고정하려면 해당 선택지의 괄호 사이에 앳(@)을 삽입한다.
+
 
  >>What Apple device competed with the portable CD player?<<
      (!) The iPad
@@ -168,16 +164,16 @@ To fix an answer's location in the list, add ``@`` in the parenthesis of that an
      ( ) The vegetable peeler
      (@) All of the above
 
-You can combine symbols within parenthesis as necessary. For example, to show the correct answer in a fixed location, you could use::
+필요에 따라 복수의 기호를 삽입할 수 있다. 이를테면 정답의 위치를 고정하고자 하는 경우 다음과 같이 할 수 있다.
  
   (x@) The iPod
 
-Use the Advanced Editor to Shuffle Answers
+고급 편집기로 선택지 순서 변경하기
 *********************************************
 
-You can configure the problem to shuffle answers through XML in :ref:`Advanced Editor`.
+:ref:`Advanced Editor` 의 XML을 통해 선택지 순서를 변경할 수 있다.
 
-For example, the following XML defines a multiple choice problem, before shuffling is enabled:
+예를 들어, 선택지 순서 변경에 앞서 다음 XML로 선택형 문제를 정의할 수 있다.
 
 .. code-block:: xml
 
@@ -192,7 +188,7 @@ For example, the following XML defines a multiple choice problem, before shuffli
  </multiplechoiceresponse>
 
 
-To add shuffling to this problem, add ``shuffle="true"`` to the ``<choicegroup>`` element:
+이 문제의 선택지 순서를 변경하려면 ``<choicegroup>`` 에 ``shuffle="true"`` 를 추가한다.
 
 .. code-block:: xml
 
@@ -206,7 +202,7 @@ To add shuffling to this problem, add ``shuffle="true"`` to the ``<choicegroup>`
   </choicegroup>
  </multiplechoiceresponse>
 
-To fix an answer's location in the list, add ``fixed="true"`` to the ``choice`` element for the answer:
+선택지 가운데 하나의 위치를 고정하려면 해당 선택지에 해당하는 ``choice`` 에 ``fixed="true"`` 를 추가한다.
 
 .. code-block:: xml
 
@@ -225,27 +221,27 @@ To fix an answer's location in the list, add ``fixed="true"`` to the ``choice`` 
 .. _Targeted Feedback in a Multiple Choice Problem:
 
 ===============================================
-Targeted Feedback in a Multiple Choice Problem
+선별적 피드백을 제공하는 선택형 문제
 ===============================================
 
-You can configure a multiple choice problem so that explanations for incorrect answers are automatically shown to students. You can use these explanations to guide students towards the right answer. Therefore, targeted feedback is most useful for multiple choice problems for which students are allowed multiple attempts.
+오답에 대한 설명을 학습자에게 자동 제시하여 학습자가 정답을 찾는 데 안내가 되도록 선택형 문제를 구성할 수 있다. 따라서, 학습자가 정답을 찾을 때까지 답을 반복 선택할 수 있는 선택형 문제에서는 선별적 피드백이 가장 유용한다.
 
 
-Use the Advanced Editor to Configure Targeted Feedback
+기본 편집기로 선별적 피드백 구성하기
 ********************************************************
 
-You configure the problem to provide targeted feedback through XML in :ref:`Advanced Editor`.
+:ref:`Advanced Editor` 의 XML을 통해 선별적 피드백을 제공하는 문제를 구성한다.
 
 Follow these XML guidelines:
 
-* Add a ``targeted-feedback`` attribute to the ``<multiplechoiceresponse>`` element, with no value: ``<multiplechoiceresponse targeted-feedback="">``
-* Add a ``<targetedfeedbackset>`` element before the ``<solution>`` element.
-* Within ``<targetedfeedbackset>``, add one or more ``<targetedfeedback>`` elements.
-* Within each ``<targetedfeedback>`` element, enter your explanation for the incorrect answer in HTML as markup described below.
-* Connect the ``<targetedfeedback>`` element with a specific incorrect answer by using the same ``explanation-id`` attribute value for each.
-* Use the ``<solution>`` element for the correct answer, with the same ``explanation-id`` attribute value as the correct ``<choice>`` element.
+* ``<multiplechoiceresponse>`` 에 ``targeted-feedback`` 속성을 추가한다. 값은 주지 않는다.
+* ``<solution>`` 앞에 ``<targetedfeedbackset>`` 을 추가한다.
+* ``<targetedfeedbackset>`` 내부에 ``<targetedfeedback>`` 을 1개 이상 추가한다.
+* 아래의 설명과 같이 각 ``<targetedfeedback>`` 내부에 오답에 대한 설명을 HTML 마크업으로 입력한다.
+* 각 오답에 대한 동일한 ``explanation-id`` 속성값을 이용하여 ``<targetedfeedback>`` 을 해당 오답에 연결한다.
+* 정답에는 ``<solution>`` 을 이용한다. 이 때, 정답의 ``<choice>`` 와 동일한 ``explanation-id`` 속성값을 사용한다.
 
-For example, the XML for the multiple choice problem is:
+이를테면 선택형 문제에 대한 XML은 다음과 같다.
 
 .. code-block:: xml
 
@@ -259,7 +255,7 @@ For example, the XML for the multiple choice problem is:
     </choicegroup>
    </multiplechoiceresponse>
  
-This is followed by XML that defines the targeted feedback:
+이 뒤에 선택형 피드백을 정의하는 XML이 온다.
 
 .. code-block:: xml
 
@@ -294,29 +290,29 @@ This is followed by XML that defines the targeted feedback:
 .. _Answer Pools in a Multiple Choice Problem:
 
 =============================================
-Answer Pools in a Multiple Choice Problem
+선택지 풀을 제공하는 선택형 문제
 =============================================
 
-You can configure a multiple choice problem so that a random subset of choices are shown to each student. For example, you can add 10 possible choices to the problem, and each student views a set of five choices.
+선택지를 무작위로 조합한 하위 집합을 각 학습자에게 제시하는 선택형 문제를 구성할 수 있다. 가령, 해당 선택형 문제에 잠재적 정답 10가지를 부여한 후 5개의 선택지로 구성한 집합 1개를 각 학습자에게 제시할 수 있다.
 
-The answer pool must have at least one correct answer, and can have more than one. In each set of choices shown to a student, one correct answer is included. For example, you may configure two correct answers in the set of 10. One of the two correct answers is included in each set a student views.
+전체 선택지(선택지 풀) 중에는 반드시 최소 1가지의 정답이 있어야 하며 그 개수는 2개 이상일 수도 있다. 1명의 학습자에게 제시되는 각 선택지 집합에는 1개의 정답이 포함된다. 이를테면, 10개로 구성된 선택지 집합에 2개의 정답이 있도록 문제를 구성할 수 있다. 각 학습자에게 제공되는 선택지 각각에 이 2가지 정답 가운데 하나가 포함된다.
 
-Use the Advanced Editor to Configure Answer Pools
+고급 편집기로 선택지 풀 구성하기
 **************************************************
 
-You configure the problem to provide answer pools through XML in :ref:`Advanced Editor`.
+:ref:`Advanced Editor` 의 XML을 통해 선택지 풀(answer pool)을 제공하는 문제를 구성한다.
 
-Follow these XML guidelines:
+다음 XML 지침을 따른다.
 
-* In the ``<choicegroup>`` element, add the ``answer-pool`` attribute, with the numerical value indicating the number of possible answers in the set. For example, ``<choicegroup answer-pool="4">``.
+* ``<choicegroup>`` 에서 ``answer-pool`` 속성을 부여한다. 이 때, 숫자로 된 값은 해당 선택지 집합에 포함된 선택지의 개수를 나타낸다. 이를테면 ``<choicegroup answer-pool="4">`` 과 같이 구성할 수 있다.
 
-* For each correct answer, to the ``<choice>`` element, add an ``explanation-id`` attribute and value that maps to a solution. For example, ``<choice correct="true" explanation-id="iPod">The iPod</choice>``.
+* 각 정답의 ``<choice>`` 에 ``explanation-id`` 속성과 풀이에 해당하는 값을 부여한다. 이를테면, ``<choice correct="true" explanation-id="iPod">The iPod</choice>`` 와 같이 구성할 수 있다.
 
-* For each ``<solution>`` element, add an ``explanation-id`` attribute and value that maps back to a correct answer. For example, ``<solution explanation-id="iPod">``.
+* 각 ``<solution>`` 에 ``explanation-id`` 속성과 정답으로 되돌리는 값을 부여한다. 이를테면 ``<solution explanation-id="iPod">`` 와 같이 구성할 수 있다.
 
-.. note:: If the choices include only one correct answer, you do not have to use the ``explanation-id`` in either the ``choice`` or ``<solution>`` element. You do still use the ``<solutionset>`` element to wrap the ``<solution>`` element.
+.. 참고:: 전체 선택지 가운데 정답이 단 1가지인 경우 ``<choice>`` 나 ``<solution>`` 에 ``explanation-id`` 속성을 부여할 필요가 없다. 그러나 이 경우에도 ``<solutionset>`` 으로 ``<solution>`` 을 래핑해야 한다..
 
-For example, for the following multiple choice problem, a student will see four choices, and in each set one of the choices will be one of the two correct ones. The explanation shown for the correct answer is the one with the same explanation ID.
+이를테면 다음 선택형 문제에서는 각 학습자에게 4가지 선택지로 구성된 선택지 집합이 제시되며 각 집합에 속한 선택지 가운데 1개가 전체 2가지 정답 가운데 하나가 된다. 정답에 표시되는 설명에는 동일한 설명 ID(explanation ID)가 부여된다.
 
 .. code-block:: xml
 
@@ -353,11 +349,11 @@ For example, for the following multiple choice problem, a student will see four 
 .. _Multiple Choice Problem XML:
 
 ******************************
-Multiple Choice Problem XML 
+선택형 문제 XML
 ******************************
 
 ================
-Template
+템플릿
 ================
 
 .. code-block:: xml
@@ -380,62 +376,62 @@ Template
   </problem>
 
 ================
-Tags
+태그
 ================
 
-* ``<multiplechoiceresponse>`` (required): Indicates that the problem is a multiple choice problem.
-* ``<choicegroup>`` (required): Indicates the beginning of the list of options. 
-* ``<choice>`` (required): Lists an answer option.
+* ``<multiplechoiceresponse>`` (필수): 해당 문제가 선택형 문제임을 나타낸다.
+* ``<choicegroup>`` (필수): 선택지 목록의 시작을 나타낸다.
+* ``<choice>`` (필수): 선택지를 나열한다.
 
-**Tag:** ``<multiplechoiceresponse>``
+**태그:** ``<multiplechoiceresponse>``
 
-Indicates that the problem is a multiple choice problem.
+해당 문제가 선택형 문제임을 나타낸다.
 
-  Attributes
+  속성
 
-  (none)
+  (내용 없음)
 
   Children
 
   * ``<choicegroup>``
-  * All standard HTML tags (can be used to format text)
+  * 모든 표준 HTML 태그 (텍스트 포맷에 사용)
 
-**Tag:** ``<choicegroup>``
+**태그:** ``<choicegroup>``
 
-Indicates the beginning of the list of options.
+선택지 목록의 시작을 나타낸다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - label (required)
-       - Specifies the name of the response field.
-     * - type (required)
-       - Must be set to "MultipleChoice".
+     * - 속성
+       - 설명
+     * - label (필수)
+       - 답변 필드의 명칭을 지정한다.
+     * - type (필수)
+       - 반드시 “MultipleChoice”로 설정해야 한다.
 
   Children
 
   * ``<choice>`` 
 
-**Tag:** ``<choice>``
+**태그:** ``<choice>``
 
-Lists an answer option. 
+선택지를 나열한다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - correct (at least one required)
-       - Indicates a correct or incorrect answer. When the attribute is set to "true", the choice is a correct answer. When the attribute is set to "false", the choice is an incorrect answer. Only one choice can be a correct answer.
+     * - 속성
+       - 설명
+     * - correct (최소 1개 필수)
+       - 정답 혹은 오답임을 나타낸다. 속성이 “true”로 지정할 경우 해당 선택지는 정답이 된다. 속성을 “false”로 지정할 경우 해당 선택지는 오답이 된다. 단 1개의 선택지가 정답이 될 수 있다.
      * - name
-       - A unique name that the back end uses to refer to the choice.
+       - 최종 사용자가 선택지를 지칭하는 데 .사용하는 고유한 명칭이다
 
   Children
   
-  (none)
+  (내용 없음)
