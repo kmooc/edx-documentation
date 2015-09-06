@@ -275,6 +275,24 @@ Studio에서 문제 보기
 .. 참고:: **문제 변수 무작위 설정** 설정을 지정하는 것은 문제 무작위 추출하기와 다르다는 것에 주의한다 **문제 변수 무작위 설정** 설정은 단일 문제 내에서 변수를 무작위로 바꾼다. 문제 무작위 추출하기는 다른 학습자에게 다른 문제 또는 다른 문제 버전을 제공한다. 더 자세한 내용은 :ref:`Problem Randomization` 를 참조하도록 한다.
 
 무작위 추출하기를 이용가능하게 만들려면, **문제 변수 무작위 설정** 설정에 대한 옵션을 선택한다. 이 설정은 다음과 같은 옵션을 가지고 있다.
++-------------------+--------------------------------------+
+| **Always**        | Students see a different version of  |
+|                   | the problem each time they click     |
+|                   | **Check**.                           |
++-------------------+--------------------------------------+
+| **On Reset**      | Students see a different version of  |
+|                   | the problem each time they click     |
+|                   | **Reset**.                           |
++-------------------+--------------------------------------+
+| **Never**         | All students see the same version    |
+|                   | of the problem. This is the default. |
++-------------------+--------------------------------------+
+| **Per Student**   | Individual students see the same     |
+|                   | version of the problem each time     |
+|                   | they look at it, but that version    |
+|                   | is different from the version that   |
+|                   | other students see.                  |
++-------------------+--------------------------------------+
 
 +-------------------+--------------------------------------+
 | **Always**        |학습자는 **확인** 을 클릭할 때마다 문제의 다른 버전을 본다.                           |
