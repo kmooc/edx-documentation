@@ -63,12 +63,12 @@ HTML 구성요소 에디터 설정하기
 .. image:: ../../../shared/building_and_running_chapters/Images/set_html_editor.png
  :alt: The Editor selection drop-down list in the HTML Component Settings tab
 
-**화면편집기** 또는 **직접 HTML 편집** 을 선택한다. 편집기를 변경하려면, 반드시 **저장** 을 클릭하고 새로운 편집기를 사용하기 위해 구성요소를 다시 열어야 한다.
+** Visual** 또는 **Raw** 를 선택한다. 편집기를 변경하려면, 반드시 **저장** 을 클릭하고 새로운 편집기를 사용하기 위해 구성요소를 다시 열어야 한다.
 
 .. 주의:: 
- 직접 HTML 편집기로 강좌 콘텐츠 작업을 한 후 비주얼 편집기로 변경하게 되면, 
- 앞서 만들었던 HTML이 삭제될 수 있다. 그래서 우선 비주얼 편집기로 편집을 시작하고나서, 사용자 HTML을 만들 필요가 있을 때 
- 직접 HTML 편집기로 전환하여 이용할 것을 권장한다.
+ Raw HTML 편집기로 강좌 콘텐츠 작업을 한 후 비주얼 편집기로 변경하게 되면, 
+ 앞서 만들었던 HTML이 삭제될 수 있다. 그래서 우선 비주얼 편집기로 편집을 시작하고, 사용자 HTML을 만들 필요가 있을 때 
+ Raw HTML 편집기로 전환하여 이용할 것을 권장한다.
  
 .. _The Visual Editor:
 
@@ -84,7 +84,7 @@ HTML 구성요소 에디터 설정하기
 .. 참고:: 
   비쥬얼 편집기가 :ref:`course handouts <Adding Course Updates and Handouts>` 에 대해서는 지원되지 않는다.
 
-다음 이미지는 편집 옵션에 설명이다. 
+다음 이미지는 편집 옵션에 대한 설명이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/HTML_VisualView_Toolbar.png
   :alt: Image of the HTML editor, with call-outs for formatting buttons
@@ -115,34 +115,34 @@ HTML 구성요소 에디터 설정하기
 *****************************************
 
 비쥬얼 편집기에서 만드는 강좌 콘텐츠를 위해 HTML 소스 코드에 대한 작업을 하려면, 편집기 도구 모음에서 
-**HTML** 을 클릭한다. 그러면 HTML 소스 코드 편집기가 열린다.
+**HTML** 을 클릭한다. 그러면 HTML 소스코드 편집기가 열린다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/HTML_source_code.png
  :alt: Image of the HTML source code editor
 
 필요에 따라 HTML 코드를 편집한다. 
 
-비쥬얼 편집기에 있는 HTML 코드 보기에서 사용자 지정 스타일 또는 스크립트를 추가하지 않는 대신, 원본 HTML 편집기(raw HTML editor)를 사용해야 한다.
+비쥬얼 편집기에 있는 HTML 소스코드에서는 사용자 스타일 및 스크립트를 추가할 수 없고, Raw HTML 편집기를 사용해야 한다.
 
-소스 코드 편집기를 닫고 비쥬얼 편집기에서 변경 내용을 적용하려면 **확인** 을 클릭한다. 그러면 비쥬얼 편집기는 HTML 코드가 유효하다는 것을 확인하려고 한다. 예를 들어, 단락 태그를 닫지 않는 경우, 편집기가 그것을 닫을 것이다. 
+소스코드 편집기를 닫고 비쥬얼 편집기에서 변경 내용을 적용하려면 **확인** 을 클릭한다. 그러면 비쥬얼 편집기는 HTML 코드가 유효한지 확인한다. 예를 들어, 단락 태그를 닫지 않는 경우, 편집기가 자동으로 추가해 줄 것이다.
 
 .. 주의:: 
- 소스 코드 편집기에서 **확인** 을 클릭하면 HTML 구성 요소에 대한 변경 내용을 저장하지 않는다.
- 그 후 변경 내용을 저장하기 위해 **저장** 을 클릭한 후 구성 요소를 닫아야 한다. 
+ 소스코드 편집기에서 **확인** 을 클릭하더라도 HTML 구성요소의 변경 내용은 저장되지 않는다.
+ 그래서, 비쥬얼 편집기에서 변경 내용을 저장하기 위해 **저장** 을 클릭한 후 구성 요소를 닫아야 한다. 
  **취소** 를 클릭하면 HTML 소스 코드에서 수행한 변경 내용이 사라진다.
 
 .. _The Raw HTML Editor:
 
 *****************************
-HTML 에디터
+Raw HTML 편집기
 *****************************
 
-HTML 구성 요소를 위해 원본 편집기를 선택하면 텍스트 편집기에서 콘텐츠를 편집할 수 있다. 
+HTML 구성요소를 위해 Raw 편집기를 선택하면, 텍스트 편집기에서 콘텐츠를 편집할 수 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/raw_html_editor.png
  :alt: The raw HTML editor
 
-이때 유효한 HTML을 입력해야 한다. 원본 HTML 편집기가 HTML 코드를 검사 하지 않기 때문에, 철저하게 강좌에 있는 HTML 콘텐츠를 시험해볼 필요가 있다.
+편집할 때 유효한 HTML을 입력해야 한다. Raw HTML 편집기가 HTML 코드를 검사 하지 않기 때문에, 강좌의 HTML 콘텐츠를 꼼꼼하게 테스트해볼 필요가 있다.
 
 
 .. _HTML Component Templates:
@@ -151,16 +151,14 @@ HTML 구성 요소를 위해 원본 편집기를 선택하면 텍스트 편집�
 HTML 구성요소 템플릿
 *****************************
 
-새로운 HTML 구성 요소를 만들 때 템플릿의 목록에서 선택할 수 있다.
+새로운 HTML 구성요소를 만들 때 템플릿의 목록에서 선택할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/html_templates.png
  :alt: The list of HTML Component templates
 
-원본 HTML 템플릿은 원본 HTML 편집기를 사용하도록 설정되어 있다. 그외 모든 템플릿은 비쥬얼 편집기를 사용한다. 
+Raw HTML 템플릿은 Raw HTML 편집기를 사용하도록 설정되어 있다. 그외 모든 템플릿은 비쥬얼 편집기를 사용한다. 
 
-어떤 HTML 구성 요소에 대해서라도, 구성 요소를 만드는데 사용된 템플릿에 상관없이 편집기를 변경할 수 있다. 
-이에 관해 `Set the Editor for an HTML Component`_ 에 안내되어 있다.
-
+HTML 구성요소는 템플릿으로 만든다고 해도 에디터로 변경할 수 있다. `Set the Editor for an HTML Component`_ 에 안내되어 있다.
 
 
 .. _Create an HTML Component:
@@ -169,40 +167,39 @@ HTML 구성요소 템플릿
 HTML 구성요소 만들기
 *****************************
 
-To create an HTML component:
+HTML 구성요소를 만들기 위해서:
 
-1. **Add New Component** 에서 **HTML** 을 클릭한다.
+1. **신규 구성요소 추가** 에서 **HTML** 을 클릭한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/NewComponent_HTML.png
    :alt: Image of adding a new HTML component
 
 2. 템플릿을 선택한다. 
 
-   이제부터 **Text** 를 선택하여, 선택된 비쥬얼 편집기를 통해 빈 구성 요소를 만든다고 가정한다.
+   이제부터 **Text** 를 선택하여, 선택된 비쥬얼 편집기로 빈 구성요소를 만든다고 하자.
    
-   학습활동(unit) 아래쪽에 빈 구성요소가 나타난다.
+   학습활동 아래쪽에 빈 구성요소가 나타난다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/HTMLComponent_Edit.png
    :alt: Image of an empty HTML component
 
 3. 해당 구성 요소에서, **편집** 을 클릭한다. 
 
-   비쥬얼 편집기에서 HTML 구성 요소가 열린다.
+   비쥬얼 편집기에서 HTML 구성요소가 열린다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/HTMLEditor_empty.png
    :alt: Image of the HTML component editor
 
-4. 강좌 콘텐츠를 입력하고 서식을 지정한다. 필요에 따라 :ref:`Work with HTML code` 할 수도 있다. 
+4. 강좌 콘텐츠를 입력하고 서식을 지정한다. :ref:`Work with HTML code` 참고한다.
 
-5. 구성 요소 편집기의 오른쪽 상단에서 **설정**을 클릭하고 난 다음, 
-    **Display Name** 영역에 텍스트를 입력한다.
-   
+5. 구성요소 편집기의 오른쪽 상단에서 **설정**을 클릭한 후, 
+    **메뉴명** 에 텍스트를 입력한다.
 
    편집기로 돌아가려면, 오른쪽 상단에서 **편집기** 를 클릭한다.
 
 6. HTML 구성요소를 저장하려면, **저장** 을 클릭한다. 
 
-비쥬얼 편집기 사용 시, 다음과 같은 작업도 할 수 있다.
+비쥬얼 편집기에서, 다음과 같은 작업도 할 수 있다.
 
 * :ref:`Add a Link in an HTML Component`
 * :ref:`Add an Image to an HTML Component`
@@ -214,7 +211,7 @@ To create an HTML component:
 HTML 구성요소에 링크 추가하기
 ***********************************
 
-비쥬얼 편집기를 사용하여 웹 사이트, 강좌 학습활동, 또는 HTML 구성요소에 있는 파일을 추가하려고 할 때는  **Insert link** 대화상자로 작업할 수 있다.
+비쥬얼 편집기를 사용하여 웹 사이트, 강좌 학습활동, HTML 구성요소에 있는 파일을 추가하려고 할 때는 **링크 삽입** 대화상자로 작업할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_DBox.png
  :alt: Image of the Insert link dialog box
