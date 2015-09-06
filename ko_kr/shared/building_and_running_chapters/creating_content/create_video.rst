@@ -10,16 +10,16 @@
 
 적극적으로 학습이 이루어지도록 하기 위해 강좌 동영상을 만들 수 있으며 토의 및 문제 등과 같은 구성요소를 강좌에 추가할 수 있다. 강좌에 동영상는 몇 가지 단계가 있다.
 
-#. :ref:`동영상 만들기`.
-#. :ref:`동영상 자막 만들기 및 찾기`.
-#. :ref:`동영상 자막 만들기 및 찾기`.
-#. :ref:`동영상 구성요소 만들기`.
+#. :ref:`Create the Video`.
+#. :ref:`Create Transcript`.
+#. :ref:`Post the Video Online`.
+#. :ref:`Create a Video Component`.
 
 또한 다음을 참조하도록 한다:
 
 * :ref:`Video TOC`
-* :ref:`추가 자막`
-* :ref:`sjson파일을 위한 단계`
+* :ref:`Additional Transcripts`
+* :ref:`Steps for sjson files`
 
 .. 참고:: 강좌에 동영상을 추가하기 전에 :ref:`Best Practices for Accessible Media` 를 검토하도록 한다.
 
