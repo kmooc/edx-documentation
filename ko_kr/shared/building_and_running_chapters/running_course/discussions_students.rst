@@ -1,17 +1,12 @@
 .. _Discussions for Students and Staff:
 
 ###############################################
-Participating in Course Discussions
+게시판 활용하기
 ###############################################
 
-Course discussions give you the opportunity to start conversations with other
-students, ask questions of the course team, and participate in the course
-community. If you have not previously participated in an online discussion
-forum, see the introductory :ref:`"anatomy"<Anatomy of edX Course Discussions>`
-section.
+강좌 게시판은 다른 학습자와 대화를 시작할 수 있으며, 강좌 운영진에게 질문하고, 강좌 커뮤니티에 참여할 기회를 제공한다. 이전에 온라인 게시판을 사용해본 적이 없다면, 서두의 :ref:`"anatomy"<Anatomy of edX Course Discussions>` 주제를 참고하길 바란다. 
 
-This chapter also describes features of edX discussions that can make your
-participation more effective. These include ways to:
+이 주제에서는 효과적으로 활용할 수 있는 K-MOOC 게시판의 기능에 관한 설명하고자 한다. K-MOOC 게시판의 기능은 다음과 같다. :
 
 * :ref:`Find Posts`
 
@@ -24,16 +19,23 @@ participation more effective. These include ways to:
 .. _Anatomy of edX Course Discussions:
 
 **********************************
-Anatomy of edX Course Discussions 
+K-MOOC 강좌 게시판 구조 
 **********************************
 
 ====================================
-Posts, Responses, and Comments
+게시글, 답글과 댓글
 ====================================
 
 ::
 
-  Post: "Please introduce yourself."
+  게시글: “자신 소개를 하십시오.”
+  -답글: “제 이름은 Lee입니다. 저는 호주 캔버라에 있는 중학교에서 수학을 가르칩니다.”
+-답글: “안녕하세요, 제 이름은 Sumei고요, 저는 홍콩, 중국 출신입니다.”
+-댓글: “안녕하세요, Sumei씨. 저는 홍콩에서 이 강좌를 수강하고 있습니다. 스터디 그룹을 
+만들면 좋겠어요!”
+    -댓글: “저 역시도 스터디 그룹을 만들고 싶어요. 숙제하는 데 도움이 될 것 같아요!”
+-답글: “안녕하세요, 저는 요하네스버그에 있어요. 대학 입학시험을 준비하기 위해 
+이 강좌를 듣고 있어요!”
     - Reponse: "My name is Lee and I teach secondary school maths in Canberra,
       Australia."
     - Reponse: "Hello everyone, I am Sumei from Hong Kong, China."
