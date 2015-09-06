@@ -23,7 +23,7 @@ content libraries<Enable Content Libraries>` 을 설정하였다면 이러한 �
 
 강좌에서 콘텐츠 보관함은 개별 사용자와 접근 권한 수준을 갖는다. 처음에 누군가 콘텐츠 보관함을 생성하였을 때 보관함에 할당된 사용자는 본인 뿐이며, 이후 다른 사용자를 보관함에 추가할 수 있다. 자세한 사항은 :ref:`Give Other Users Access to Your Library`  를 참고하기 바란다. 직접 생성하였거나 접근 권한을 부여 받은 콘텐츠 보관함은 스튜디오 홈페이지의 **콘텐츠 보관함** 탭 표시된다.
 
-콘텐츠 보관함의 생성 및 관리에 대한 더욱 자세한 사항은 다음의 섹션을 참고하기 바란다.
+콘텐츠 보관함의 생성 및 관리에 대한 더욱 자세한 사항은 다음 링크에 있다.
 
 * :ref:`Enable Content Libraries`
 * :ref:`Create a New Library`
@@ -44,7 +44,7 @@ content libraries<Enable Content Libraries>` 을 설정하였다면 이러한 �
 .. _Create a New Library:
 
 ********************
-새로운 콘텐츠 보관함 생성
+신규 콘텐츠 보관함 만들기
 ********************
 
 :ref:`content libraries<Content Libraries>`  사용하여 구성요소 풀을 구축할 수 있고, 강좌에 무작위로 할당할 수 있다. 강좌생성 권한이 있으면 콘텐츠 보관함을 생성할 수 있다.
