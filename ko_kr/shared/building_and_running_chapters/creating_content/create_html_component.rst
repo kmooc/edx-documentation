@@ -272,7 +272,7 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
 
    ``/jump_to_id/<unit identifier>``
 
-    <unit identifier> 대신에 1단계에서 복사했던 학습활동 위치ID로 대체하고 /를 끝에 포함해야 한다. 
+    <unit identifier> 대신에 1단계에서 복사했던 학습활동 위치ID로 대체 한다. 
    
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_CourseUnit.png
     :alt: Image of the Insert link dialog box with a link to a unit identifier
