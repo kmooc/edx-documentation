@@ -193,9 +193,9 @@
    
 #. 소주제명을 입력한다.
 
-#. 필요한 경우, 이어서 :ref:`Add units<Create a Unit>` 을 추가한다.
+#. 필요한 경우, 이어서 :ref:`학습활동 만들기<Create a Unit>` 을 추가한다.
    
-신규 소주제를 추가한 후, :ref:`test course content <Testing Your Course
+신규 소주제를 추가한 후, :ref:`강좌 콘텐츠 시험해보기 <Testing Your Course
 Content>` 를 권장한다.
 
 .. _소주제명 바꾸기:
