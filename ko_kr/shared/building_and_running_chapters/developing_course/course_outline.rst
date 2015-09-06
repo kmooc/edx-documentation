@@ -44,7 +44,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/outline_empty.png
  :alt: An empty course outline
 
-그래서 :ref:`create the first section<Create a Section>` 안내에 따라, 주제부터 만드는 것이 좋다.
+그래서 :ref:`첫 주제 만들기<Create a Section>` 안내에 따라, 주제부터 만드는 것이 좋다.
   
 .. _강좌 개요 예시:
 
@@ -60,11 +60,11 @@
 
 이 예시가 보여주듯이, 강좌는 다음 구조로 구성된다.
 
-#. :ref:`Sections<Developing Course Sections>`
-#. :ref:`Subsections<Developing Course Subsections>`
-#. :ref:`Units<Developing Course Units>`
+#. :ref:`주제<Developing Course Sections>`
+#. :ref:`소주제<Developing Course Subsections>`
+#. :ref:`학습활동<Developing Course Units>`
 
-:ref:`Components<Developing Course Components>` 는 강좌 개요에 나타나지 않는다. 
+:ref:`구성요소<Developing Course Components>` 는 강좌 개요에 나타나지 않는다. 
 구성요소가 포함되어 있는 학습활동을 클릭해야 해당 구성요소를 볼 수 있다.
 
 이 장에서는 우선 강좌 개요에 대한 안내가 이어질 것이다.
@@ -100,7 +100,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
  :alt: The outline with an expanded subsection
 
 학습활동을 열려면 학습활동명을 클릭하면 된다. 
-학습활동에 대한 자세한 안내가 :ref:`unit page<Developing Course Units>` 에 있다.
+학습활동에 대한 자세한 안내가 :ref:`학습활동 페이지<Developing Course Units>` 에 있다.
 
 .. _강좌 개요에 콘텐츠 추가하기:
 
@@ -135,7 +135,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 강좌 세부 사항 설정 변경
 ***************************************************
 
-강좌 개요에서 주제, 소주제 및 학습활동의 설정을 변경할 수 있다.
+강좌 개요에서 주제, 소주제, 학습활동의 설정을 변경할 수 있다.
 이에 대한 구체적인 안내가 아래 링크에 있다.
 
 * :ref:`Set a Section Release Date`
@@ -211,7 +211,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 강좌 개요에서 강좌 콘텐츠 삭제하기
 ************************************************
 
-주제, 소주제 및 학습 활동을 강좌 개요에서 삭제할 수 있다.
+주제, 소주제, 학습 활동을 강좌 개요에서 삭제할 수 있다.
 
 .. note:: 강좌 콘텐츠를 삭제한 후에는 되돌릴 수 없다.
 만약 나중에 사용할 수도 있는 콘텐츠라면, 삭제하지 말고 비공개 주제로 콘텐츠를 옮겨두길 권한다.
