@@ -1,234 +1,172 @@
 .. _Bulk Email:
 
 ##############################
-Bulk Email 
+전체 메일
+
 ##############################
 
-For courses on edx.org, you can send bulk email messages to course participants
-directly from the Instructor Dashboard. Messages can use HTML styling, and can
-include links to videos, social media pages for the course, and other material.
-All course contributors who are assigned the course staff or instructor role can
-use bulk emails to communicate with course participants before, during, and
-after the course run.
-
-For templates that you can use when preparing your own messages, see
-:ref:`Example Messages to Students`.
+ **edx.org** 에 관한 강좌의 경우, 교수자 대시보드에서 강좌 수강생에게 전체 메일을 보낼 수 있다. 메시지는 HTML 형식을 사용할 수 있으며, 강좌에 관한 비디오, 소셜 미디어 페이지와 기타 자료를 링크로 걸어둘 수 있다. 강좌 운영팀이나 교수자로 역할을 부여 받은 모든 강좌 참가자들은 강좌를 운영하기 전/중/후에 강좌 수강생과 소통하기 위해서 전체 메일을 사용할 수 있다. 메시지를 작성할 때 사용할 수 있는 양식에 관해서는 :ref:`Example Messages to Students` 를 참고하길 바란다. 
 
 
 *************************
-Message Addressing
+메일 수신자 설정
 *************************
 
-When you send an email message from the Instructor Dashboard, you choose its
-recipients by selecting one of these predefined groups:
+교수자 대시보드에서 메일을 보낼 때, 미리 정의된 그룹 중에 하나를 선택하여 수신자를 선택한다. :
 
-* **Myself**, to test out a message before sending it to a larger group.
-* **Staff and Instructors**, to contact other members of the administrative
-  team.
-* **All (students, staff and instructors)**, to communicate with currently
-  enrolled students and the administrative team. 
+* **내게 쓰기** , 단체에 메일을 보내기 전에 테스트하기 위해
+* **강좌 운영팀과 교수자에게 쓰기** , 다른 관리팀 일원에게 연락하기 위해
+* **모두(학습자, 강좌 운영팀과 교수자)에게 쓰기** , 현재 수강 중인 학습자뿐만 아니라 관리팀에게 연락하기 위해
 
-  Email messages are sent to all enrolled students with these exceptions:
+  메일은 다음을 제외하고 수강 중인 모든 학습자에게 전송된다. :
 
-  * Students who have not replied to the account activation email message
-    that is sent when they registered on edx.org. 
-  * Students who have opted out of
-    receiving email messages through the **Email Settings** link, which is present
-    for each course on the **Current Courses** dashboard.
+  * edx.org에 등록할 때 전송되는 계정 활성화 메일에 답신하지 않은 학습자
+  * **현재 강좌** 대시보드에서 각 강좌에 참석한 학습자가 **메일 수신자 설정** 링크를 통해 메일 수신 거부를 설정한 경우.
 
-Before you use the bulk email feature, consider that messages **cannot be
-cancelled** after they are sent. If you plan to send a message to all course
-participants, be sure to review each draft carefully, and send the message to
-yourself first for thorough testing.
+전체 메일 기능을 사용하기 전에, 전송된 메시지는 취소할 수 없음을 한 번 더 생각한다. 만약 모든 강좌 수강생에게 메시지를 전송할 계획이라면, 조심스럽게 각 초안을 검토하고 철저한 테스트를 위해 자신에게 먼저 메시지를 전송해보길 바란다. 
 
 .. _Send_Bulk_Email:
 
 **************************************************
-Send Email Messages to Course Participants
+메일 보내기
 **************************************************
 
-To send an email message to course participants:
+강좌 수강생에게 메일을 보내기 위해:
 
-#. View the live version of your course.
+#. 강좌의 라이브 버전을 본다.
 
-#. Click **Instructor** then click **Email**.
+#. **교수자** 를 클릭한 후 **메일** 을 클릭한다. 
 
-#. Select who you want to send the message to from the **Send to** dropdown
-   list. You can select:
+#. **받는 사람** 드롭다운 목록에서 메일을 보내고 싶은 사람을 선택한다. :
 
-  * **Myself**
-  * **Staff and Instructors**
-  * **All (students, staff and instructors)**
+  * **내게 쓰기**
+  * **강좌 운영팀과 교수자에게 쓰기**
+  * **모두(학습자, 강좌 운영팀과 교수자)에게 쓰기**
 
-4. Enter a **Subject** for the message. A subject is required.
+4. 메일 제목을 선택한다. 제목은 필수 항목이다.
 
-#. Enter the text for the message. Message text is required. 
+#. 메일 내용을 입력한다. 메일 내용은 필수 항목이다. 
    
-   Messages can use HTML styling, including text formatting and links. The
-   email message editor offers the same formatting options as the HTML
-   component editor in Studio. See :ref:`Working with HTML Components`.
+   메시지는 텍스트 서식과 링크를 포함하여 HTML 형식을 사용할 수 있다. 메일 편집기는 Studio에 HTML 구성요소 편집기와 같은 서식 옵션을 제공한다. **HTML 구성요소** 를 참고하길 바란다. 
 
-#. Click **Send Email**. You can perform other tasks on the Instructor
-   Dashboard or navigate to other pages while you wait for your message to be
-   sent.
+#. **메일 전송하기** 를 클릭한다. 메일이 전송될 때까지 기다리면서, 다른 페이지를 검토하거나 교수자 대시모드에서 다른 업무를 수행할 수 있다. 
 
-After you send a message, a bulk email task is queued for processing.
-Multiple courses use the same queue to complete these tasks, so it can take
-some time for your message to be sent to all of its recipients. If your course
-is a MOOC, consider limiting the number of messages that you send to all
-course participants to no more than one per week.
+
+메일은 전송한 후에 전체 메일 작업 처리를 위해 대기한다. 다양한 강좌가 이러한 작업을 완료하는 데 있어서 같은 대기 행렬을 사용하기 때문에, 모든 수신자에게 메일을 전송하는 데 약간의 시간이 걸릴 수 있다. 만약 MOOC 강좌라면, 모든 강좌 수강생에게 전송하는 메일의 수를 일주일에 하나로 제한하는 것을 고려해야 한다. 
 
 .. _Email_queuing:
 
 ****************************
-Message Workflow States
+메일 발신 절차
 ****************************
 
-When you click **Send Email** for a message, the server begins to process a
-bulk email task. The server assigns a series of different workflow states to
-the task.
+**메일 전송하기** 를 클릭하면, 서버는 전체 메일 전송 작업을 시작한다. 서버는 일련의 다양한 작업 흐름 상태를 컴퓨터로 처리되는 일의 최소 단위(task)에 대입한다. 
   
 .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_states.png
        :alt: Flowchart of the possible states of a bulk email task 
 
-The workflow states for a bulk email task are:
+전체 메일 전송 작업을 위한 작업 흐름 상태는 다음과 같다. :
 
-* Queuing: The bulk email task is created and being queued for background
-  processing.
-* Pending: The task is queued and is waiting to run.
-* Started: Background processing is in progress to create emailing subtasks.
-* Progress: The emailing subtasks are in progress. 
-* Success: All emailing subtasks are complete. Note that the bulk email task
-  can be in this state even if some or all of its emailing subtasks failed.
-* Failure: An error occurred and task processing did not complete successfully.
+* 대기 행렬: 전체 메일 전송 작업이 실행되고, 배경 처리를 위해 대기한다. 
+* 보류: 작업이 대기 되어 실행을 기다리고 있다.
+* 시작: 메일 전송 하위 작업을 수행하기 위해 배경 작업이 진행된다.
+* 진행: 메일 전송 하위 작업이 진행된다.
+* 성공: 모든 메일 전송 하위 작업이 완료된다. 전체 메일 전송 작업은 일부 메일 전송 하위 작업이 실패하더라도 이 상태에서 있을 수 있음에 주목한다.
+* 실패: 오류가 발생하고, 작업 처리가 성공적으로 완료되지 않았다. 
 
-While the bulk email task is in progress, you can find out how far it has
-gotten in the workflow by checking the **Pending Instructor Tasks** section on
-the **Email** page.
+전체 메일 전송 작업이 진행되는 동안 **메일** 페이지에서 **계류 중인 교수자 임무** 를 확인함으로써, 작업 흐름에 도달하는 데 걸리는 시간을 알아볼 수 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_pending.png
        :alt: Information about an email message, including who submitted it 
              and when, in tabular format
 
-When the bulk email task is complete, you can find its final state by checking
-the Email Task History report. See :ref:`Email Task History Report`.
+전체 메일 전송 작업이 완료되면, **메일 발신 기록** 을 확인하여 최종 상태를 확인할 수 있다. **메일 발신 기록** 을 참고하길 바란다. 
 
 .. _Review Sent Messages:
 
 ********************************
-Review Sent Messages
+보낸 메일 다시 보기
 ********************************
 
-You can review a list of all of the messages that have been sent for the
-course. For any listed message, you can review the subject, the username of the
-person who sent it, the date and time sent, its selected recipients, and the
-message text.
+강좌에 관해 전송된 모든 메일 목록을 검토할 수 있다. 나열된 메일은 제목, 보낸 사람, 보낸 날짜와 시간, 받은 사람 그리고 메일 내용까지 검토할 수 있다. 
 
-#. View the live version of your course.
+#. 강좌의 라이브 버전을 본다.
 
-#. Click **Instructor** then click **Email**. 
+#. **교수자** 를 클릭한 후 **메일** 을 클릭한다. 
 
-#. In the **Email Task History** section of the page, click **Sent Email
-   History**. The list of sent messages displays.
+#. **메일 발신 기록** 항목에 **보낸 메일 기록** 을 클릭한다. 보낸 메일 목록이 뜬다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_list.png
     :alt: A tabular list of sent messages, with columns for subject, sent by,  
           time sent, and number sent
 
-4. To review additional information for a message, click its subject. The
-   message opens in a dialog box.
+4. 메시지의 추가 정보를 검토하기 위해 메일 제목을 클릭한다. 대화 상자에서 메시지가 열린다.
  
    .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_sent.png
     :alt: A dialog box with the subject, sent by, date and time sent, sent to, 
           and message for an email message, and an option to Copy Email 
           to Editor
 
-5. Optionally, use the message as the basis for a new message: click **Copy
-   Email to Editor**. The dialog box closes and you can edit the text, links,
-   and formatting that were duplicated into the **Subject** and **Message**
-   fields.
+5. 선택적으로 새로운 메일을 위한 기반으로 기존의 메일을 사용할 경우, **편집기로 메일 복사하기** 를 클릭한다. 대화상자는 닫히고, **제목** 과 **내용** 필드에서 복사한 텍스트, 링크, 서식을 편집할 수 있다. 
 
-   When you create a message by copying a previously-sent message, be sure to
-   review and test it thoroughly before you send it to all course participants.
+   이전에 보낸 메일을 복사하여 새로운 메일을 작성할 때, 모든 강좌 수강생에게 이것을 보내기 전에 철저히 검토하고 테스트해야 한다
 
 .. _Email Task History Report:
 
 ********************************
-Email Task History Report
+메일 발신 기록
 ********************************
 
-The Email Task History report can help you keep track of who sent messages,
-when, and to how many people. For each message sent, the report includes the
-username of the requester, the date and time it was submitted, the duration and
-state of the entire task, the task status, and the task progress.
+메일 발신 기록 다시 보기 보고서는 메일을 전송한 사람, 시간과 전송한 사람의 수를 추적할 수 있다. 전송된 각 메일에 대한 보고서에는 요청자 이름, 전송 날짜와 시간, 작업 진행 기간과 상태, 작업 등이 포함된다. 다음과 같은 전송된 전체 메일과 관련된 질문을 조사하기 위해 이 기록을 사용할 수 있다. :
 
-You can use this history to investigate questions relating to bulk email
-messages that have been sent, such as:
+* 학습자가 강좌와 관련된 메일을 받은 빈도
+* 메일이 성공적으로 전송되었는지 여부
+* 시간 경과에 따라 강좌와 관련된 메일을 받은 사람의 수의 변화
 
-* How frequently students are sent course-related email messages.
-* Whether a message was sent successfully.
-* The change in the number of people who were sent course-related messages over
-  time.
+메일 발신 기록 보고서를 제출하려면:
 
-To produce the Email Task History report:
+#. 강좌의 라이브 버전을 본다. 
 
-#. View the live version of your course.
+#. 교수자를 클릭한 후 메일을 클릭한다. 
 
-#. Click **Instructor** then click **Email**. 
-
-#. In the **Email Task History** section of the page, click **Show Email Task
-   History**. A report like the following example displays on the Instructor
-   Dashboard.
+#. **메일 발신 기록** 에서 **메일 발신 기록 보기** 를 클릭한다. 다음 예시와 같은 보고서는 교수자 대시보드에 나타난다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Bulk_email_history.png
        :width: 800
        :alt: A tabular report with a row for each message sent and columns for requester, date and time submitted, duration, state, task status, and task progress.
 
 *******************************
-Review Email Task History
+메일 발신 기록 다시 보기
 *******************************
 
-For tasks with a **State** of Success, the **Task Progress** column shows an
-informational message. These messages can have a format such as "Message
-successfully emailed for 13457 recipients (skipping 29) (out of 13486)". To
-interpret this message, note that:
+성공 **상태** 로 작업한 경우, **작업 진행** 열에 정보를 제공하는 메시지가 나타난다. 이 메시지는 “13,457명의 수신자에게 성공적으로 전달된 메시지(29명 읽지 않음) (13,486명 중)”와 같은 형식을 가질 수 있다. 이 메시지를 해석하기 위해서 다음을 알아야 한다. :
 
-* The first number ("recipients") indicates the number of messages sent to the
-  selected recipients.
+* 첫 번째 숫자(“수신자”)는 선택한 수신자에게 보낸 메시지의 수를 나타낸다. 
 
-* The second number ("skipping") indicates the number of enrolled and activated
-  users who were not sent the message. This count is of students who have opted
-  not to receive course email messages.
+* 두 번째 숫자(“읽지 않음”)는 강좌에 등록되어 있으며, 계정이 활성화된 사용자 중 메시지를 받지 않은 사용자의 수를 나타낸다. 이 수는 강좌와 관련된 메일 수신을 거부한 학생의 수이다. 
 
-* The final number ("out of") indicates the number of users in the set of
-  recipients you selected who were enrolled in the course (and had activated
-  their user accounts) when you sent the email message. 
+* 마지막 숫자(“총 사람 수”)는 메일을 전송할 때 (그들의 사용자 계정이 활성화되었으며) 강좌에 등록되어 있어 선택한 수신자에 있는 사용자의 수를 나타낸다. 
 
-  Note that the **Total number of enrollees** shown on the **Course Info** page
-  includes all currently enrolled students, regardless of account activation
-  status, and as a result can be different than this number.
 
-If the "recipients" and "out of" numbers are the same, the message reads
-"Message successfully emailed for 13457 recipients" instead.
+  강좌 정보 페이지에 나타난 총 등록자 수는 계정 활성화 상태와 상관없이 현재 등록된 모든 학습자를 말하며, 결과적으로 위의 총 사람 수와 다를 수 있다. 
 
-Other **Task Progress** messages for tasks with a **State** of Success indicate
-that some or all of the emailing subtasks did not successfully send email:
+만약 “수신자”와 “총 사람 수”가 같다면, “13,457명의 수신자에게 성공적으로 전달된 메시지”라는 메시지를 읽을 수 있을 것이다. 
 
-* "Message emailed for {number succeeded} of {number attempted} recipients" 
-* "Message failed to be emailed for any of {number attempted} recipients"
-* "Unable to find any recipients to be emailed"
+성공 **상태** 로 작업한 경우, 다른 작업 프로그램에는 “모든/일부 메일 전송 하위 작업이 성공적으로 메일을 전송하지 않았음”이라는 메시지가 뜬다.
+
+* “{메일 전송 시도한 수}의 수신자 중 {메일 전송 성공한 수}의 수신자에게 메일을 전송했습니다.”  
+“{메일 전송 시도한 수}의 수신자에게 메일 전송에 실패했습니다.”
+* “메일을 전송할 수신자를 찾을 수 없습니다.”
   
-No **Task Progress** messages display for tasks that have a **State** of
-Failure.
+ **작업 진행** 메시지는 실패한 **상태** 인 작업에서 보이지 않는다. 
 
 .. _Example Messages to Students:
 
 *********************************
-Example Messages to Students
+메일 예제
 *********************************
 
-You can use these example messages, prepared for delivery before typical course
-milestones, as models for your own course communications.
+강좌 소통을 위한 모델로서 일반적인 강좌 일정보다 앞서 강좌를 준비하면서, 다음 메일 예시를 사용할 수 있다. 
 
 * :ref:`Prelaunch Reminder`
 * :ref:`Launch Day Welcome`
@@ -240,412 +178,272 @@ milestones, as models for your own course communications.
 * :ref:`Course Farewell and Certificates`
 * :ref:`New Course Run Announcement`
 
-These messages are styled as email messages, but you could also post this
-information in a course discussion topic or on the **Course Info** page.
+이러한 메시지는 메일 형태로 되어 있지만, 강좌 게시판 주제나 **강좌 정보** 페이지에 이러한 정보를 게시할 수 있다
 
-.. important:: Revise these message templates carefully to include facts for your own course, meet the needs of your students, and reflect your own objectives and personality. Search for the "{" and "}" characters to locate prompts and replace them with course-specific values.
+.. 중요:: 자신이 수강하는 강좌의 정보를 포함하고 학습자의 요구사항을 충족하며 각자의 목표와 성향을 반영하기 위해 이러한 메시지 서식을 수정한다. 프롬프트(지시 메시지)를 찾기 위해 {“and”} 문자를 검색하고, 그들을 각 강좌에 해당하는 값으로 바꾼다. 
 
 .. _Prelaunch Reminder: 
 
 ********************
-Pre-launch Reminder
+개강 전 알림 메일
 ********************
 
-Pre-launch reminders raise awareness of the course start date, publicize the
-course, and generate excitement. In addition to the course start date and time,
-the example that follows also lets students know that:
+개강 전 알림 메일은 강좌 시작 날짜를 상기시키고, 강좌를 알리며 흥미를 유발한다. 강좌 시작 일자와 시간뿐만 아니라 메일 예시에서 학습자는 다음 사항을 알아야 한다. 
 
-* UTC is used in edX courses. Alternatively, you could include information
-  about your course or the edX platform that will contribute to your students'
-  success.
+* UTC는 K-MOOC에 사용된다. 또한, 학습자가 성공적으로 강좌를 수강할 수 있는 K-MOOC 플랫폼이나 강좌에 대한 정보를 포함한다.
 
-* The course has a companion social media site. Alternatively, you might
-  include information about planned meetups or other community-building
-  opportunities.
+* 강좌와 짝을 이루는 소셜 미디어 사이트가 있다. 조직적인 만남에 대한 정보나 다른 커뮤니티 구축 기회를 제공할 수 있다. 
 
-You may want to send out more than one message before the course launches: use
-this template as a starting point for crafting the different messages you want
-to deliver. Replace values enclosed by {braces} with information that applies
-to your course.
+강좌가 시작되기 전에 하나 이상의 메시지를 보낼 수 있다. : 전송하고 싶은 다른 메시지를 작성하는 데 도움을 주는 출발점으로 이 서식을 사용한다. {중괄호} 안에 들어간 값을 해당 강좌에 적용되는 정보로 바꾼다. 
 
 :: 
 
-  Subject: {course number} Starts Soon!
+  제목: {강좌명} 곧 시작합니다!
 
-  Hello {course name} student,
+  안녕하십니까? {강좌명} 수강자 여러분,
 
-  We are excited that you are joining us for {course number} {course name},
-  offered by {organization name} through edX. Class begins on {day}, {date} at
-  {time} UTC (which is {time} {local time zone}). Note that edX courses use
-  Coordinated Universal Time (UTC) for due dates and release times.
+  여러분이 우리와 함께 {강좌 번호} {강좌명}에 수강 신청하신 것에 대해 기쁘게 생각합니다. {조직명}에 의해 제공되는 edX. 강좌가 ({시간} {지방 시간}인) {시간} UTC에 {날짜}, {일}에 시작됩니다. edX 강좌는 마감일과 공개 시간에 대해 협정 세계시(UTC)를 사용합니다.
 
-  In case you haven't already found it, {course number} has its own official
-  Facebook page {add link}. You can find videos and photos posted there before
-  the course even begins.
+ {강좌 번호}는 공식 페이스북 페이지{링크 추가}가 있습니다. 공식 페이스북 페이지에는 심지어 강좌가 개설되기 전에 게시된 사진과 비디오를 볼 수 있을 것입니다. 만약 여러분이 처음으로 edX 강좌를 수강하는 학습자라면, edx101 {링크 추가}, edX 시현 강좌에 등록하는 것을 고려해보시길 바랍니다. 이 강좌는 {강좌명}을 시작하기 전에, edX 플랫폼을 탐구할 기회뿐만 아니라, 진행 상황을 추적하고 문제에 답하는 방법을 배울 기회를 제공합니다. 
 
-  If this is your first edX course, consider enrolling in edx101 {add link},
-  the edX Demo course. This course gives you an opportunity to explore the edX
-  platform and learn how to answer problems and track your progress, before
-  {course number} begins.
-
-  Your {course number} course staff
+  {강좌 번호} 강좌 운영진 올림
 
 .. _Launch Day Welcome:
 
 ********************
-Launch Day Welcome
+개강일 인사 메일
 ********************
 
-On your course start date, you can send an email message that both welcomes
-students and gives them specific actions to accomplish. This example directs
-students to two of the course pages to encourage exploration and discovery, and
-personally introduces the course team leader. Search for the values enclosed by
-{braces} in this template and replace them with information for your course.
+개강날 학습자들을 환영하고 이들이 해야할 일들을 명시한 이메일을 보내도록 한다. 
+아래의 예시는 학습자들에게 두 강좌를 소개하고 이들로 하여금 페이지를 둘러보고 궁금하였던 점에 대한 답을 찾으며 개인적으로 강좌 팀 지도자를 소개하게 된다. 본 예시에서 괄호{ }안에 있는 수치들을 검색하여 자신의 강좌 정보로 교체하도록 한다. 
 
 :: 
 
-  Subject: {course number} Starts Today!
+  주제: {강좌 번호} 오늘이 시작!
 
-  Hello everyone!
+  안녕하십니까 여러분!
 
-  At this time, edX course {course number} is available from your Dashboard
-  {add link}, and the staff would like to officially welcome you to the course!
-  You'll find materials for the first week on the Courseware page,
-  including both video lectures and problem sets.
+  이제 edX 강좌 {강좌 번호}가 여러분들의 대시보드에서 {추가, 링크}에서 사용 가능하고 운영팀이 해당 강좌에 대해 여러분들을 공식적으로 반길 것입니다. 
+강좌 내용 페이지에서 비디오 강의 및 문제집을 포함한 첫번째 주 강의 내용을 확인할 수 있습니다. 
+시간을 가지고 강좌 정보 페이지를 둘러본 후 유인물을 읽어보고 강좌 정책 및 강의 교육 철할에 대해 익숙해지도록 합니다. 
+본인은 여러분들의 강좌를 이끌것이며 모두 {주제}를 즐겁게 배우는 시간을 가졌으면 합니다. 어려울 수도 있고 절망적일 수도 있지만 보람있는 일일 것이며 많은 것을 배울 것입니다. 
 
-  Please take some time to go to the Course Info page to read the handouts
-  and get familiar with course policies and philosophy.
-
-  I will be your course lead and I hope you will all have a great time learning
-  {subject}! It may be challenging, it may be frustrating, but it will be
-  rewarding and you will learn a ton.
-
-  On behalf of the staff, welcome, good luck, and have fun!
-
-  {name} and the {course number} staff
+  {이름} 과 {강좌 번호} 운영팀 
 
 .. _Verified Registration Reminder:
 
 *********************************************
-Reminder to Register for Verified Certificate
+인증 수료증 안내 메일
 *********************************************
 
-After your course has launched, you can send an email to remind students that
-the last day to register for a verified certificate is approaching. You can use
-this template as a starting point for your own message; search for the values
-enclosed by {braces} and replace them with information for your course.
+개강을 하고 나면, 이메일을 보내 학습자들에게 인증 수료 등록 마지막일이 다가오고 있음을 상기시킨다. 본 예시를 활용하여 메시지 작성의 초안을 생각해보도록 한다. 괄호 {}안의 수치를 검색하여 자신 강좌에 맞는 정보로 교체하도록 한다. 
 
 ::
 
-  Subject: Earn an edX verified certificate for {course name}!
+  주제: {강좌 이름}을 위한 edX 검증된 수료증 받기!
 
-  Dear students, 
+  학습자들에게. 
 
-  Interested in using an edX certificate to bolster a college application or to
-  advance your career? With an edX verified certificate, you can demonstrate to
-  colleges, employers, and colleagues that you successfully completed a
-  challenging edX course, while helping to support the edX mission.
+  대학교 지원 준비를 탄탄히 하거나 자신의 커리어에 도움이 될만한 edX 수료증을 활용하는 것에 관심이 있습니까? edX 의 검증된 수료증이 있을 경우 대학측, 고용인, 그리고 동기들에게 자신이 성공적으로 힘든 edX 강좌를 이수하고 edX 미션을 수행하는데 도움이 되었다는 사실을 증명할 수 있습니다. 
 
-  We would like to remind you that {date} is the last day to register for a
-  verified certificate in {course name}. Registering for a certificate is easy!
-  Just go to this course on your edX dashboard and click "Challenge Yourself".
+  상기시켜드릴 점은 {날짜}가 {강좌 이름}에서 검증된 수료증에 대한 등록 마지막 날이라는 것입니다. 수료증을 위한 등록절차는 간단합니다. 자신의 edX 대시보드에서 본 강좌로 들어간 다음 “자기 자신에 대한 도전”을 클릭합니다. 
+좋은 결과 기대합니다.
 
-  Good luck!
-
-  {name} and the {course number} staff
+  {이름}과 {강좌 번호} 강좌 운영팀
 
 .. _Weekly Highlights:
 
 *********************
-Weekly Highlights
+주별 학습 주요 사항 안내 메일
 *********************
 
-Sending a weekly email to students can be a great way to keep them engaged and
-provide encouragement. At the end of each week you might send students an email
-that summarizes the content covered, and reminds students about upcoming
-assessments or milestones in the course. Optionally, to encourage participation
-in the discussion forums, you might also highlight particularly interesting or
-important discussions, and provide links to the discussion topics.
+일주일 마다 한번씩 학습자들에게 이메일을 보내는 것이 이들이 적극적으로 학업에 임할 수 있게 하고 격려해줄 수 있는 좋은 방법이다. 매주말마다 학습자들에게 이메일을 보내서 수업에서 다루었던 내용들을 요약해주고 학습자들에게 앞으로 제출해야 하는 과제들 및 수업의 전반적인 중요 쟁점들을 상기시켜 주도록 한다. 또한, 게시판 토의를 활성화시키기 위하여 흥미롭거나 중요한 토의에 대해 강조를 할 수도 있고 해당 주제와 관련된 링크를 제공할 수도 있다.
 
-You can use this template as a starting point for designing your own message,
-omitting the discussion highlights if they are not appropriate for your course
-(the example discussion highlights are from a course about urban solutions to
-the global water crisis). Search for the values enclosed by {braces} and replace
-them with information for your course.
+메시지를 처음 작성할 때 본 예시를 활용할 수 있고 자신 강좌에 적절하지 않다고 판단이 될 경우 토의 강조에 대한 내용은 생략할 수 있다 (토의 강조에 대한 예시는 도시해결책부터 전세계 수자원 위기를 다루고 있는 강좌에 다룬 내용이다). 괄호 {}안의 수치를 검색하여 자신 강좌에 맞는 정보로 교체하도록 한다.
 
 ::
 
-  Subject: {Course Name} Week 1 Highlights
+  주제: {강좌 이름} 첫번째 주 강조 내용
 
-  We hope you all had a great week! Below, we have provided links to some
-  exciting discussions that have been going on, and a Q&A video with {Professor}
-  that recaps some of the questions that have come up this week.
+  모두 좋은 한주 보냈길 바랍니다. 아래에 링크를 제공하여 현재 진행중인 몇몇 흥미로운 토의에 관해 나누고 {교수}와 함께 이번주 다루었던 내용에 대한질문을 다시 정리할 겸 비디오 질문과 답변시간을 가지려 합니다. 
 
-  We'd also like to remind you to take this week's quiz by {date} at {time} UTC.
-  The next module will be available on {Time and Date}.
+  상기시켜드릴 점은 이번주 {시간} {날짜} UTC에 이번 주 퀴즈가 있을 것입니다. 
+다음 모듈은 {시간과 날짜}에 올라올 것입니다. 
 
-  {Link to Video}
+  {비디오 링크}
 
-  Here are a few highlights from the discussion forum this week. Please join us
-  online and keep the conversation going!
+  이번 주 토의의 언급된 몇가지 중요한 점들입니다. 온라인으로 참석하여 함께 대화를 나누어 보도록 합시다.
 
-  * There has been quite a debate over whether urban stream restoration is
-    possible and what types of restoration are desirable. How can we improve
-    restoration practice and its outcomes? {Link to the Discussion}
+  * 도시 개울 재건이 가능한지 그리고 어떠한 재건활동이 이상적일지에 대해 많은 논쟁이 있었습니다. 어떻게 하면 재건작업 및 그에 따른 결과를 개선시킬수 있을까요? {토의 링크}
 
-  * Please continue to share your stories of urban stream restoration - there
-    are many great examples here of what is possible! {Link to the Discussion}
+  * 계속해서 도시 개울 재건과 관련된 여러분들의 스토리를 공유해주시기 바랍니다 – 가능한 여러 가지 모범 예시들이 많습니다. {토의 링크}
 
-  See you next week, 
-  {name} and the {course number} staff
+  다음주에 뵙겠습니다. 
+  {이름} 그리고 {강좌 번호} 강좌 운영팀
 
 
 .. _Midcourse Encouragement:
 
 *****************************
-Mid-Course Encouragement
+참여 독려 메일
 *****************************
 
-While your course is running, you can send messages to promote community,
-remind students of upcoming due dates, and address any recurring issues.
+자신의 강좌가 진행 중일 때, 학습자들에게 메시지를 보내 공동체를 활성화 시킬 수 있고 학습자들에게 마감일을 상기시키며 앞으로 진행될 쟁점에 대해 다룰 수 있다. 
 
-This example gives students guidance on how to keep up with the course schedule
-and encourages contributions to the discussions. You may want to send out more
-than one message while the course is running. You can use this template as a
-starting point for your own messages; search for the values enclosed by
-{braces} and replace them with information for your course.
+아래 예시는 학습자들이 어떻게 강좌 일정을 따르고 토의에 참여할 수 있게 권장할 수 있는지 나타내고 있다. 강좌가 진행 중일 때 하나 이상의 메시지를 보낼 수도 있다. 메시지를 처음 보낼 경우 본 예시를 활용할 수도 있다. 괄호 {}안의 수치를 검색하여 자신 강좌에 맞는 정보로 교체한다. 
 
 :: 
 
-  Subject: {course name} Announcements
+  주제: {강좌 이름} 공고
 
-  Dear students,
+  학습자들에게
 
-  We hope that you are learning a lot in {course number}! Remember that problem
-  set {number} is due on {date} at {time} UTC. You can always check the
-  schedule {add link} on the Course Info page to plan ahead.
+  {강좌 번호}를 통해서 많은 것을 배우고 있기를 기대합니다. 문제집 {번호}가 {날짜} {시간} UTC까지 제출 마감일입니다. 강좌 정보 페이지를 통해서 일정표 {추가 링크}를 확인해서 미리 계획하시기 바랍니다. 
 
-  The contributions to the course discussions have been amazing. You'll also
-  see on the Course Info page that we have made several of you community
-  TAs to thank you for your thoughtful contributions. Keep those conversations
-  going!
+  강좌 토의에 대한 참여는 굉장히 좋았습니다. 강좌 정보 페이지를 통해 몇몇 공동체 조교들을 뽑아 여러분들의 사려 깊은 참여에 감사의 뜻을 전합니다. 계속해서 좋은 대화 이어나갔으면 합니다. 
 
-  We have a few additional announcements.
+  몇 가지 추가적인 공고내용이 있습니다. 
 
-  * Week {number} on {subject} is now available on the Courseware page.
+  * {숫자}주차 {주제}가 현재 강좌 내용 페이지에서 확인 가능합니다. 
 
-  * Problem set {number} is also available. It is due on {date} at {time} UTC. 
+  * 문제집 {숫자}가 현재 확인 가능하고 {날짜} {시간}UTC이 마감일입니다. 
 
-  * Remember that the due dates for problem sets and exams are in UTC (the GMT
-    time zone). See the current UTC time here {add link}. Please convert the
-    times given to your own time zone!
+  * 문제집 및 시험 마감일은 UTC시간을 적용한다는 사실을 (GMT 표준 시간대) 기억하시기 바랍니다. 현재 UTC시간을 여기서 확인하기 바랍니다 {추가 링크}. 해당 시간을 자신의 표준 시간대로 환산합니다. 계속해서 본 강좌에서 성공적인 성취를 달성하기 바랍니다. 
 
-  Wishing you continued success in the course,
 
-  {name} and the {course number} staff
+  {이름}과 {강좌 번호} 강좌 운영팀 
 
 .. _Midcourse Events:
 
 *********************
-Mid-Course Event
+주요 일정 안내 메일
 *********************
 
-Before an exam or other significant course event, messages can provide
-practical information about the exam, communicate expectations regarding
-conduct, and also encourage students to continue working toward course
-completion. This example lets students know:
+시험이나 다른 강좌 주요 일정 이전에 메시지를 보내 시험에 대한 실용적인 정보를 제공하고 기대되는 행동 수칙에 대해 이야기해 볼 수 있고 학습자들로 하여금 성공적으로 강좌를 수료할 수 있게끔 최선을 다할 수 있도록 격려할 수 있다. 
 
-* How long they have to complete the exam, and when they can see answers to
-  questions.
+* 시험 시간은 얼마나 되고 문제에 대한 해답은 언제 받을 수 있는가
 
-* How to communicate any errors or other issues found during the exam to the
-  course staff.
+* 시험시간 동안 오류나 다른 기타 쟁점에 대해 감독관과 어떻게 소통할 수 있는가
 
-* Whether the course discussions will be open or closed during the exam. (In
-  the example that follows, the discussions will remain **open**.)
+* 시험 시간 동안 강좌 토의의 가능 여부 (아래에 제시되는 예시에서는 토의가 **허용되었다** )
 
-* What constitutes an honor code violation.
+* 명예 규범 위반은 어떻게 구성이 되는가
 
-* What technical limitations, if any, are imposed by external tools such as
-  graders.
+* 채점자와 같이 외부인들이 겪을 수 있는 기술적인 한계가 있다면 어떤 것이 있는가
 
-Be sure to search for the values enclosed by {braces} and replace them with
-information for your course.
+괄호 {}안의 수치를 반드시 검색하여 자신 강좌에 맞는 정보로 교체한다. 
 
 :: 
 
   Subject: {course number} Exam Info
 
-  Hello {course name} student,
+  안녕하세요 {강좌 이름} 여러분들
 
-  Great job working through week {number}! As you know, the {course number}
-  exam is next week. If you missed a problem set, you can still earn a
-  certificate. Each problem set is worth only {number}% of the overall grade,
-  but this exam is worth {number}%.
 
-  Please read this important information about the exam before you begin taking
-  it.
+  {숫자}주차 학습 내용을 잘 소화하셨습니다. 잘 아시다시피, {강좌 번호} 시험이 다음주에 있을 예정입니다. 문제지 제출을 하지 않았을 경우, 여전히 수료증을 발급받을 수 있습니다. 각각의 문제집은 전체 점수의 {숫자}%만의 비중이 있지만 본 시험은 {숫자}%의 비중입니다. 
+시험보기 전에 본 시험에 대한 중요한 정보를 읽어보기 바랍니다..
 
-  * The exam starts on {date} at {time} UTC and must be finished by {date} at
-    {time} UTC. Plan your schedule accordingly.
+  * 시험은 {날짜} {시간} UTC에 시작하며 {날짜} {시간} UTC에 마치게 됩니다. 이에 따라 적절히 시간 배분을 하시기 바랍니다. 
 
-  * Be sure that you know what time the UTC deadline is in your time zone. See
-    the current UTC time {add link}. No extensions will be given.
+  * UTC 마감일이 자신의 국가가 속해 있는 표준 시간대에 몇 시인지 파악합니다. 현재 UTC 시간 {추가 링크}을 보시기 바랍니다. 연장은 불가합니다.
 
-  * The exam is not timed. You can start, stop, and come back to it until the
-    deadline.
+  * 시험은 시간적용이 되지 않습니다. 시작하고 멈춘 후 마감시간까지 돌아오시기 바랍니다.
 
-  * Each exam question allows only one answer submission. If you accidentally
-    click "Check", that problem cannot be reset for you.
+  * 시험 문제에는 하나의 답안만이 유효합니다. 잘못 “확인”을 클릭한 경우 시험은 학습자를 위하여 재설정되지 않습니다.
 
-  * The exam covers everything (video lectures, reading, and problem sets) from
-    weeks {number}-{number}. If you missed any of these materials, you will
-    want to review them before you take the exam.
+  * 시험은 {숫자}주차부터 {숫자}주차까지 배운 내용을 모두 다룹니다 (비디오 수업, 읽기, 문제집). 이 수업내용 중 아직 공부하지 못한 부분들이 있다면 시험 보기 전까지 검토하시기 바랍니다. 
 
-  * You can use the textbook and the Internet to clarify your knowledge of exam
-    topics, as long as you are not deliberately looking up answers to exam
-    questions.
+  * 시험 문제에 대한 답안을 직접 의도적으로 찾지 않는 이상 교재와 인터넷을 활용하여 시험 주제에 대한 지식을 확인할 수 있습니다. 
 
-  * Course discussions will remain open during the exam, but anyone who posts
-    an answer to an exam question will be violating the honor code and risk
-    being removed from the class, forfeiting the certificate.
+  * 강좌 토의는 시험시간 동안 가능하지만 시험 문제에 대한 답안을 올리는 사람이 있다면 이는 명예규범을 위반하는 행위로써 수료증을 박탈당하고 강좌를 더 이상 듣지 못하게 될 수도 있습니다.
 
-  * If you need to alert the staff to an issue with the exam while the exam is
-    open, add a post to the General discussion topic and include [EXAM] in
-    the subject line.
+  * 시험이 시작되고 난 후 시험과 관련된 문제를 운영팀에게 알리고 싶을 경우, 주제 행에 일반 토의 주제와 관련된 게시물을 추가하고 [시험]을 포함시킵니다. 
 
-  * Check the Course Info page periodically. It is the fastest way the
-    staff has to communicate any delays, corrections, or changes.
+  * 주기적으로 강좌 정보 페이지를 확인합니다. 강좌 운영팀과 지연, 정정, 및 변경사항과 관련해 소통할 수 있는 가장 빠른 방법입니다.
 
-  Good luck!
+  좋은 결과 있기를 바랍니다. 
 
-  {name} and the {course number} staff
+  {이름}과 {강좌 번호} 강좌 운영팀
 
 .. _Technical Issue:
 
 **********************
-Technical Issue
+기술적 문제 관련 메일
 **********************
 
-In the event of an unanticipated system failure, a message can both alert
-students to the problem and reassure them that the issue is either resolved or
-being addressed. The message can also provide information about any changes
-made to the course as a result.
+예상하지 못한 시스템 장애가 발생할 경우, 메시지를 보내서 학습자들에게 해당 문제에 대한 위험을 알리고 해당 장애가 현재 처리 중이거나 해결 중이라는 상황을 알려서 이들이 안심할 수 있도록 한다. 메시지는 그에 대한 결과로 강좌에 변화가 생길 경우, 이에 대한 정보를 제공할 수 있다. 
 
-Technical issues can arise during a course for many different reasons, so this
-example is likely to need revision to apply to an issue that you encounter.
-Keep in mind that to reassure the students who are affected by the problem, the
-message should have a positive tone, and calmly and briefly identify the
-problem, the status of its solution, and any after effects.
+강좌가 진행 중일 동안 여러 가지 이유로 인해 기술적인 문제가 발생한다. 그러므로 아래 예시는 현재 겪고 문제가 어떤 것이냐에 따라 다르게 변경하여 적용해야 할 것이다. 주의해야 할 점은 해당 문제에 영향을 받는 학습자들을 안심시키고 메시지는 긍정적인 어조를 띄어야 하며 해당 문제, 해결 방안의 상황, 그리고 다른 여파에 관련된 사항을 차분하고 간결하게 다루어야 한다는 점이다.   
 
 ::
 
-  Dear students,
+  학습자들에게, 
 
-  We've encountered a technical problem with {video, assignment, etc. name}.
-  {We are working to resolve it now. / This issue has been fixed.}
+ {비디오, 과제, 등, 이름}과 관련해 기술적인 문제가 있었습니다. 
+{현재 처리 중에 있습니다/ 문제가 해결되었습니다}
 
-  As a result of this issue, we have {extended the deadline for / rescored}
-  this assignment so that it will not affect your grade.
+  본 문제에 대한 결과로, 본 과제에 대한 {마감일을 연장하였고/점수를 다시 매기게 되었고} 그로 인해 여러분들 점수에 미치는 영향은 없을 것입니다.
 
-  Thanks for your patience, and we look forward to continuing the course with
-  you.
+  기다려주셔서 감사하고 계속해서 여러분들과 강좌를 진행하기를 희망합니다. 
 
-  {name} and the {course number} staff
+  {이름} 과 {강좌 번호} 강좌 운영팀
 
 .. _Course Farewell and Certificates:
 
 ****************************************
-Course Farewell and Certificates
+종강 안내 및 수료증 안내 메일
 ****************************************
 
-In the last few days before your course ends, a message can direct students to
-a course survey, answer questions about certificates, and provide information
-about future access to course materials. Be sure to replace values enclosed by
-{braces} with information for your course.
+종강하기 몇일 전쯤, 메시지를 보내 학습자들에게 강좌 설문조사, 수료에 관한 질문의 답변에 대한 안내를 함으로써 강좌 교재를 차후 활용할 수 있도록 해당 정보를 제공하도록 한다. 반드시 괄호 {}안에 있는 수치를 검색하여 자신 강좌의 정보로 교체하도록 한다.
 
 :: 
 
-  Subject: {course number} Final Remarks
+  주제: {강좌 이름} 최종 언급 
 
-  Dear students,
+  학습자들에게. 
 
-  Thank you for making {course number} so much fun these last few months! We
-  had a great time getting to know you through the course discussions. We
-  appreciate the effort that you put into this course, and we hope that you
-  enjoyed learning {subject} through edX. With or without a certificate, you
-  should be proud of your accomplishments.
+  {강좌 번호}를 통해 지난 몇 개월 동안 좋은 시간을 가진데 대해 감사함을 표합니다. 의미 있는 시간을 통해 강좌 토의와 함께 여러분들을 알게 됐습니다. 여러분들이 본 강좌에서 보여준 노력에 경의를 표하고 edX를 통해 {주제}를 재미있게 배울 수 있었기를 희망합니다. 수료증 발급의 여부와 상관없이 여러분들은 여러분들의 성취에 자부심을 가져야 합니다
 
-  * Please take a few minutes to answer the exit survey, now available under
-    Courseware. We will use your responses to improve the course in the future.
+  * 몇 분 투자해서 강조자 내용에서 참여할 수 있는 강좌 완료 설문조사를 완료하도록 한다. 여러분들의 반응을 토대로 차후 강좌를 더욱 발전시키도록 하겠습니다.
 
-  * If you qualify for a certificate (overall score {number}% or higher), the
-    edX dashboard will include a link to your certificate in the near future.
-    While you may see the link in a few days, it can take up to two weeks edX
-    to generate all of the course certificates.
+  * 수료증 ({숫자}%에 해당하는 점수 혹은 그 이상)을 받을 자격이 될 경우 edX 대시보드는 가까운 미래에 여러분들이 수료증을 발급받을 수 있는 링크를 제공할 것입니다. 몇 일 이내에 링크를 보실 수 있고 edX가 모든 강좌 수료증을 발급하는데 2주까지 걸릴 수 있습니다
 
-  * As an enrolled student, you will have access to the lecture videos even
-    after the course ends. The problem sets and exams will be removed from the
-    course when it is archived.
+  * 등록된 학습자로써 여러분은 강좌가 끝난 후에도 강의비디오에 접속할 수 있습니다. 문제집과 시험들은 보관이 됨에 따라 강좌에서 삭제된다. 
 
-  * The {course number} discussions close on {date} at {time} UTC. You will not
-    be able to add to the discussions after that time, but you will be able to
-    continue viewing all of the conversations that took place during the
-    course.
+  * {강좌 번호} 토의는 {날짜} {시간} UTC에 종료된다. 이 시간 이후 토의에 참여할 수 없지만 강좌가 진행 중일 동안 이루어졌던 토의내용 및 대화내용은 계속해서 열람 가능합니다.
 
-  We hope that you share what you learned in {course number} with your
-  colleagues, friends, and family.
+  여러분들이 동료, 친구들, 그리고 가족들과 {강좌 번호}에서 배운 내용을 공유하기 바랍니다.
 
-  Good luck on the final exam and beyond!
-
-  {name} and the {course number} staff
+  {이름}과 {강좌 번호} 강좌 운영팀
 
 .. _New Course Run Announcement:
 
 *****************************
-New Course Run Announcement
+신규 강좌 개설 안내 메일
 *****************************
 
-When you prepare a course for a new run, you can use the bulk email feature in
-its previous run (or runs) to inform an engaged and knowledgeable audience:
-your former students. Announcing a new run to students of an earlier run gives
-you the opportunity to highlight key aspects of the course, such as the quality
-and variety of its discussions, or the global interest and relevance of the
-subject, as demonstrated by past enrollment. You can also reveal new features
-or content that have been added to the new course run. By emphasizing the
-value of the course, you get people thinking and talking about their
-experiences, build excitement, and encourage re-enrollment.
+신규 강좌를 개설 할 때, 기존 운영 (혹은 여러 운영) 상태의 전체 이메일 활용하기를 선택하여 현재 수강중인 지식인들, 즉 기존 학습자들에게 정보를 전달할 수 있다. 기존 운영상태에서 신규 강좌에 대해 학습자들에게 알리는 것은 토의의 질과 다양성 혹은 전세계적 관심사 및 기존 등록자수로 증명이 된 주제의 적절성과 같은 강좌의 주요 측면에 대해 강조할 수 있는 기회를 부여한다. 또한 신규 강좌를 통해 추가된 새로운 특징들이나 내용에 대해서 공개할 수도 있다. 강좌가 얼마나 가치 있는지에 대해 강조함으로써 학습자들이 자신의 경험에 대해 다시 생각해보고 이에 대해 공유하며 흥미를 가지고 재등록을 할 수 있게 유도할 수 있는 것이다. 
 
-This message template offers students who did not complete the course, or who
-did not previously choose the verified certificate track, the opportunity to do
-so. It also invites students to share the course with colleagues and and
-friends. 
+본 메시지 예시는 강좌를 이수하지 않은 학습자들 혹은 입증된 수료증 확인 및 이와 관련된 기회를 가지지 못했던 학습자들에게 이를 위한 기회를 제공한다. 특히 학습자들로 하여금 동료 학습자들과 친구들을 통해 해당 강좌를 공유할 수 있도록 해준다. 
+본 예시를 통해 메시지를 작성할 때는 괄호 {}안의 수치를 검색한 다음 자신 강좌에 맞는 정보로 교체하도록 한다.  
 
-When preparing a message from this template, search for values enclosed by
-{braces} and replace them with information that applies to your course.
 
 ::
 
-  Subject: Announcing a new run of {course name}
+  주제: {강좌 번호}의 새로운 실행에 대한 공지
 
-  Hello {course number} leaners,
+  안녕하세요 {강좌 번호} 학습자 여러분
 
-  The next run of {course number} {course name} begins on {date}! We are glad
-  to share this news with you, the students who made the earlier run{s} of
-  {course number} so succesful.
+  {강좌 번호} {강좌 이름}의 다음 실행은 {날짜}에 시작됩니다! 기존 실행된 {강좌 번호}을 성공적으로 마친 학습자 여러분들과 이런 기쁜 소식을 공유할 수 있어서 기쁘게 생각합니다.
 
-  {Success story from the previous run.} 
+  {지난 실행에서의 성공적인 스토리}
 
-  {New content or features for the upcoming run.}
+  {이후 강좌 실행에 대한 새로운 내용 및 특징}
 
-  Perhaps you want to share the {course name} experience with a friend or
-  colleague, earn an ID-verified certificate of achievement, or work through
-  course content that you weren't able to complete before. When {course number}
-  is offered in {time frame}, we welcome you to join the community of learners
-  again.
+  여러분들은 친구들 및 동료들과 {강좌 번호}의 경험을 공유할 수도 있고 아이디로 확인한 성취에 대한 수료증을 얻고 과거 완료하지 못한 강좌 내용에 대해 작업해볼 수 있습니다. {강좌 번호}가 {시간대}에 제공이 되면, 여러분들을 학습자 공동체의 일원으로써 다시 한번 환영할 것입니다. 
 
-  To learn more and to enroll, visit the {course name} page {add link}.
 
-  We hope to see you in the course,
+  이와 관련해 더 많은 사항들과 등록에 대해서는 {강좌 이름} 페이지 {추가 링크}를 방문해주시기 바랍니다. 
+본 강좌를 통해 여러분을 다시 보길 희망합니다. 
 
-  The {course number} Staff
+  {강좌 번호} 강좌 운영팀  
