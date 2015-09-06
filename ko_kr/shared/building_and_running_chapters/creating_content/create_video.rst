@@ -261,6 +261,92 @@ YouTube
         이 설정은 이전 버전의 브라우저에서 동영상 재생을 지원하기 위해 선택적이다.
         
 
+
+.. _Video Advanced Options:
+
+==================
+Advanced Options
+==================
+
+The following options appear on the **Advanced** tab in the video component.
+
+.. list-table::
+    :widths: 30 70
+
+    * - **Component Display Name**
+      - The name that you want your students to see. This is the same as the
+        **Display Name** field on the **Basic** tab.
+    * - **Default Timed Transcript**
+      -  The name of the transcript file that is used in the **Default Timed
+         Transcript** field on the **Basic** tab. This field is auto-populated.
+         You do not have to change this setting.
+    * - **Download Transcript Allowed**
+      - Specifies whether you want to allow students to download the timed
+        transcript. If you set this value to **True**, a link to download the
+        file appears below the video.
+
+        By default, Studio creates a .txt transcript when you upload an .srt
+        transcript. Students can download the .srt or .txt versions of the
+        transcript when you set **Download Transcript Allowed** to **True**. If
+        you want to provide the transcript for download in a different format
+        as well, such as .pdf, upload a file to Studio by using the **Upload
+        Handout** field.
+
+    * - **Downloadable Transcript URL**
+      - The URL for a non-.srt version of the transcript file posted on the
+        **Files & Uploads** page or on the Internet. Students see a link to
+        download the non-.srt transcript below the video.
+
+        When you add a transcript to this field, only the transcript that you
+        add is available for download. The .srt and .txt transcripts become
+        unavailable. If you want to provide a downloadable transcript in a
+        format other than .srt, we recommend that you upload a handout for
+        students by using the **Upload Handout** field. For more information,
+        see :ref:`Additional Transcripts`.
+
+    * - **EdX Video ID**
+      - An optional field used only by course teams that are working with
+        edX to process and host video files.
+    * - **Show Transcript**
+      - Specifies whether the transcript plays along with the video by default.
+    * - **Transcript Languages**
+      - The transcript files for any additional languages. For more
+        information, see :ref:`Transcripts in Additional Languages`.
+    * - **Upload Handout**
+      - Allows you to upload a handout to accompany this video. Your handout
+        can be in any format. Students can download the handout by clicking
+        **Download Handout** under the video.
+    * - **Video Download Allowed**
+      - Specifies whether students can download versions of this video in
+        different formats if they cannot use the edX video player or do not
+        have access to YouTube. If you set this value to **True**, you must add
+        at least one non-YouTube URL in the **Video File URLs** field.
+    * - **Video File URLs**
+      - The URL or URLs where you posted non-YouTube versions of the video.
+        Every URL should end in .mpeg, .webm, .mp4, or .ogg and cannot be a
+        YouTube URL. Each student will be able to view the first listed video
+        that is compatible with the student's computer. To allow students to
+        download these videos, you must set **Video Download Allowed** to
+        **True**.
+
+        To help make sure all standard browsers can play your video, we
+        **strongly** recommend that you use the .mp4 or .webm format.
+
+    * - **Video Start Time**
+      - The time you want the video to start if you do not want the entire
+        video to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.
+    * - **Video Stop Time**
+      - The time you want the video to stop if you do not want the entire video
+        to play. Formatted as HH:MM:SS. The maximum value is 23:59:59.
+    * - **YouTube IDs**
+      - If you have uploaded separate video files to YouTube for different
+        speeds of your video (YouTube ID for .75x speed, YouTube ID for 1.25x
+        speed, YouTube ID for 1.5x speed), enter the YouTube IDs for these
+        videos in these fields. These settings are optional, to support video
+        play on older browsers.
+
+
+
 .. _Video TOC:
 
 ***************************
