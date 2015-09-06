@@ -1,84 +1,61 @@
 .. _Course Data:
 
 ############################
-Course Data
+강좌 데이터
 ############################
 
-After you create a course, you can access information about it from the
-Instructor Dashboard. You can find:
+강좌를 개설하고 나서는 교수자 대시보드에서 해당 강좌에 대한 정보를 볼 수 있다. 다음을 발견할 수 있다. 
 
-* Identifying information for the course.
+* 강좌에 대한 정보 파악
 
-* Whether the course has started or ended.
+* 강좌가 개설되었는지 혹은 종료되었는지에 대한 여부
 
-* The defined grade cutoff for passing or failing.
+* 이수 혹은 낙제에 대해 정의된 점수 경계
 
-Additional data about the course and its students is available from other pages
-in the Instructor Dashboard, and from edX Insights. You also access Insights
-from the Instructor Dashboard: click the link in the banner at the top of each
-page. For more information, see `Using edX Insights`_.
+강좌 및 학습자들에 대한 추가적인 자료는 교수자 대시보드에 있는 다른 페이지 및 edX 인사이트에서 확인 가능하다. 각 페이지에 있는 배너를 클릭하면서 교수자 대시보드에서 인사이트에 접속할 수도 있다. 보다 자세한 정보는  `Using edX Insights`_ 를 참조한다.
 
 *************************************************
-Review Course Data
+강좌 기본 데이터
 *************************************************
 
-To view course data:
+강좌 자료를 보려면 다음의 절차를 따르도록 한다. 
 
-#. View the live version of your course.
+#. 강좌의 라이브 버전을 살펴보도록 한다. 
 
-#. Click **Instructor**, then click **Course Info** if necessary. 
+#. **교수자** 를 클릭하고 필요한 경우 강좌 정보를 클릭한다. 
 
-   The **Basic Course Information** section of the page that opens lists
-   information about the course.
+   페이지의 **기존 강좌 정보** 가 해당 강좌에 대한 정보를 제공한다. 
 
     .. image:: ../../../shared/building_and_running_chapters/Images/Instructor_Dash_Course_Info.png
      :alt: The basic course information section of the Instructor Dashboard 
 
 *************************************************
-Sources in Studio of the Basic Course Information
+Studio에서 강좌 기본 정보 입력하기
 *************************************************
 
-The course data that displays on the Instructor Dashboard is defined in
-Studio, or derived from data that you define in Studio.
+교수자 대시보드에서 보여지는 강좌 자료는 Studio에서 정의되거나 혹은 Studio에서 정의한 자료로부터 정의될 수 있다. 
 
-* **Organization**: Specified in Studio when you create the course. Becomes
-  part of the course URL, and cannot be changed.
+*  **구성** : 강좌를 개설할 당시 Studio에 명시. 강좌 URL의 한 부분이 되며 변경할 수 없음.
 
-* **Course Number**: Specified in Studio when you create the course. Becomes
-  part of the course URL, and cannot be changed.
+* **강좌 번호** : 강좌를 개설할 당시 Studio에 명시. 강좌 URL의 한 부분이 되며 변경할 수 없음.
 
-* **Course Name**: Specified in Studio when you create the course. Becomes
-  part of the course URL, and cannot be changed. In Studio, this field is
-  labeled **Course Run**.
+*  **강좌 이름** : 강좌를 개설할 당시 Studio에 명시. 강좌 URL의 한 부분이 되며 변경할 수 없음. 스튜디어에서 **강좌 실행** 이라고 표시됨. 
 
-* **Course Display Name**: Specified in Studio when you create the course. In
-  Studio, this field is labeled **Course Name**. 
+* **강좌 표시 이름** : 강좌를 개설할 당시 Studio에 명시됨. Studio에서 해당 영역은 **강좌 이름** 이라고 표시됨.  
 
-  This name can be changed in Studio (not recommended if your course is live):
-  From the **Settings** menu select **Advanced Settings**. The value for the
-  **Course Display Name** policy key defines the course name that appears in the
-  LMS only.
+  본 이름은 Studio에서 변경할 수 있다 (강좌가 라이브로 진행될 경우 추천하는 사항은 아니다). **설정메뉴** 에서, **고급 설정** 을 선택한다. **강좌 표시 이름** 의 주요 정책의 가치는 LMS에서만 나타나는 강좌 이름을 정의한다. 
 
-  The illustration that follows shows the information collected by Studio for
-  a new course side-by-side with the same information in the **Basic Course
-  Information** section of the Instructor Dashboard.
+  다음에 나오는 이미지처럼 Studio의 정보는 교수자 대시보드의 **기본 강좌 정보** 와 동일한 정보와 함께 나타나는 새로운 강좌를 나타내고 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Course_Info_Comparison.png
    :alt: The Course Name in Studio and the Course Display Name in the LMS are boxed; the Course Run in Studio and the Course Name in the LMS are circled
    :width: 800
 
-* **Has the course started**: Derived from the **Course Start Date** and the
-  current date. This date can be changed in Studio (not recommended if your
-  course is live): select **Settings** > **Schedule & Details**.
+*  **시작된 강좌: 강좌 시작 날짜** 및 현재 날짜로부터 결정됨. 본 날짜는 Studio에서 변경가능 (강좌가 라이브로 진행될 경우 권장되지 않음): **설정** 선택 > **일정표 및 세부사항**
 
-* **Has the course ended**: Derived from the **Course End Date** and the
-  current date. This date can be changed in Studio (not recommended if your
-  course is live): select **Settings** > **Schedule & Details**.
+* **종료된 강좌: 강좌 종료 날짜** 및 현재 날짜로부터 결정됨. 본 날짜는 Studio에서 변경 가능 (강좌가 라이브로 진행될 경우 권장되지 않음): 설정 선택 > 일정표 및 세부사항
 
-* **Grade Cutoffs**: Specified in Studio when you define the cutoff for a
-  failing grade. Students who earn exactly the cutoff value pass the course.
-  Grading can be changed in Studio (not recommended if your course is live):
-  select **Settings** > **Grading**.
+*  **점수 등급** : 낙제에 적용되는 점수 등급을 설정할 경우 Studio에 명시됨. 정확히 낙제 등급에 해당하는 점수를 얻은 학습자들은 과목을 이수한 것으로 간주. 점수는 Studio에서 변경 가능 (과목이 라이브로 진행될 경우 권장되지 않음): **설정** 선택 > **점수 매기기** 
 
 
 
