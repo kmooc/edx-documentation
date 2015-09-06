@@ -11,22 +11,15 @@
 콘텐츠 보관함 개관
 **************************
 
-강좌 생성 권한이 있을 경우, 스튜디오에서 강좌를 무작위로 할당할 수 있는 구성요소 풀을  구축할 수 있는 콘텐츠 보관함을 생성할 수 있다. 콘텐츠 보관함에는 HTML 구성요소, 문제, 비디오 구성요소 등을 추가할 수 있다. 단, 동료 평가와 토론 구성요소는 콘텐츠 보관함에서 지원하지 않는다.
+강좌를 만들 수 있으면, 콘텐츠 보관함을 만들 수 있다.  Studio에 있는 콘텐츠 보관함은 간단히 말해 구성요소 풀로, 보관함의 구성요소는 강좌에 무작위로 부여될 수 있다. 이러한 구성요소로는 HTML, 문제, 비디오 구성요소가 해당되며, 동료 평가와 토론 구성요소는 콘텐츠 보관함에서 지원하지 않는다.
 
-.. 참고:: 콘텐츠 보관함는 강좌 식별자가 다음과 같은 형태일 경우에만 사용할 수 있다: ``{key type}:{org}+{course}+{run}`` . (예: ``course-v1:edX+DemoX+Demo_2015`` 
-강좌를 스튜디오에서 열면, 브라우저 주소 표시줄에 나타나는 URL의 마지막 부분에 강좌 식별자가 표시된다. 더욱 자세한 사항은 :ref:`Create a New Course` 을 확인하기 바란다.
-
+.. 참고:: 콘텐츠 보관함은 강좌 식별자가 다음과 같은 형태일 경우에만 사용할 수 있다. ``{key type}:{org}+{course}+{run}`` . (예: ``course-v1:edX+DemoX+Demo_2015`` 
+강좌를 Studio에서 열면, 브라우저 주소 표시줄에 나타나는 URL의 마지막 부분에 강좌 식별자가 표시된다. 더 자세한 정보는 :ref:`Create a New Course` 에 있다.
 
 콘텐츠 보관함을 생성하고 구성요소를 추가한 이후, :ref:`enabled
-content libraries<Enable Content Libraries>` 을 설정하였다면  이러한 콘텐츠 보관함 구성요소를 강좌 안에서 무작위로 할당하여 사용할 수 있다 
+content libraries<Enable Content Libraries>` 을 설정하였다면 이러한 콘텐츠 보관함 구성요소를 무작위로 부여할 수 있다. 
 
-You do this by
-adding a randomized content block to a course unit and indicating one or more
-libraries from which the randomized content is to drawn, as well as the number
-and type of problems that each student is assigned. If you specify more than one
-library from which to randomly draw components for the randomized assignment,
-the content from all specified libraries is combined before the random selection
-is made.
+이를 위해 학습활동에 무작위 콘텐츠 블록을 추가하고, 무작위 콘텐츠를 가져올 1개 이상의 콘텐츠 보관함을 지정해야 한다. 또한 이때 학습자 1명에게 할당될 문제의 갯수와 종류도 지정해야 한다. 
 
 강좌에서 콘텐츠 보관함은 개별 사용자와 접근 권한 수준을 갖는다. 처음에 누군가 콘텐츠 보관함을 생성하였을 때 보관함에 할당된 사용자는 본인 뿐이며, 이후 다른 사용자를 보관함에 추가할 수 있다. 자세한 사항은 :ref:`Give Other Users Access to Your Library`  를 참고하기 바란다. 직접 생성하였거나 접근 권한을 부여 받은 콘텐츠 보관함은 스튜디오 홈페이지의 **콘텐츠 보관함** 탭 표시된다.
 
