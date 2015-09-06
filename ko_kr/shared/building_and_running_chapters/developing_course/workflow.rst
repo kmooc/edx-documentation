@@ -50,7 +50,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/workflow-create-content.png
  :alt: Diagram of the content creation process
 
-콘텐츠 개발 과정에서 콘텐츠를 테스트해보는 것이 원활한 강좌 운영에 도움이 될 것이다. 이에 대한 안내는 :ref:`강좌 콘텐츠 시험해보기 <Testing Your Course Content>` 에 있다.
+콘텐츠 개발 과정에서 콘텐츠를 테스트해보는 것이 원활한 강좌 운영에 도움이 될 것이다. 이에 대한 안내는 :ref:`강좌 콘텐츠 시험해 보기 <Testing Your Course Content>` 에 있다.
 
 .. _Making Course Content Visible to Students:
 
@@ -81,7 +81,7 @@ Components>` 의 강좌 텍스트와 동영상 자막을 **강좌 내용** 탭�
 
 강좌 운영팀이 :ref:`게시<Publish a Unit>` 하면 Studio가 자동으로 콘텐츠에 색인을 달기 때문이다. 
 
-필요한 경우, 직접 색인을 달 수도 있다. **강좌 개요** 페이지의 오른쪽 상단에서 **콘텐츠 색인 다시 달기**를 클릭한다. 
+필요한 경우, 직접 색인을 달 수도 있다. **강좌 개요** 페이지의 오른쪽 상단에서 **콘텐츠 색인 다시 달기** 를 클릭한다. 
 
 .. _Revising Content:
 
