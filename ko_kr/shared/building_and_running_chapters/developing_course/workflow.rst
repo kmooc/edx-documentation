@@ -22,18 +22,11 @@
 
 시작하기 전에, K-MOOC 강좌를 이루는 기본 요소를 먼저 이해하면 도움이 될 것이다.
 
-* :ref:`The course outline<Developing Your Course Outline>` is the container
-  for all of your course content. The outline contains one or more sections.
-* :ref:`Course sections<Developing Course Sections>` are at the top level of
-  your course and typically represent a time period. A section contains one or
-  more subsections.
-* :ref:`Course subsections<Developing Course Subsections>` are parts of a
-  section, and usually represent a topic or other organizing principle. A
-  subsection contains one or more units.
-* :ref:`Course units <Developing Course Units>` are lessons in a subsection
-  that students view as single pages. A unit contains one or more components.
-* :ref:`Course components<Developing Course Components>` are objects within
-  units that contain your actual course content.
+* :ref:`The course outline<Developing Your Course Outline>` 에서 강좌의 콘텐츠 구성 등 전체 그림을 한 눈에 볼 수 있다. 
+* :ref:`Course sections<Developing Course Sections>` 는 강좌에서 가장 상위 범주에 해당한다. 순차적으로 공개되는 주제를 보면    개강일 이후 강좌가 진행되는 흐름을 알 수도 있고, 강좌가 어떻게 구성되어 있는지를 한 눈에 볼 수 있기도 하다. 각 주제는 1개    이상의 소주제를 가진다.
+* :ref:`Course subsections<Developing Course Subsections>` 는 주제의 하위 개념으로, 주제에서 1개 이상의 학습활동이 포함된      소주제로 나뉘게 된다. 소주제를 살펴보면 강좌에서 무엇을 중점으로 두는지 이해할 수 있게 된다.
+* :ref:`Course units <Developing Course Units>` 은 소주제의 일부로써, 학습자가 소주제를 클릭하면 한 번에 하나씩 볼 수 있다.
+* :ref:`Course components<Developing Course Components>` 는 학습활동의 부분으로, 실제 강좌 콘텐츠라고 볼 수 있다. 1개의 학습활동은 1개 이상의 구성요소를 포함할 수 있다
 
 .. _Creating New Course Content:
 
