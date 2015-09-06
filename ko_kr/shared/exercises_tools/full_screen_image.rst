@@ -4,7 +4,7 @@
 전체 화면 이미지 도구
 ######################
 
-일부 큰 이미지는 강좌 내용에서 학습자가 보기에 어려울 수 있다. 전체 화면 이미지 도구는 학습자가 문맥에서 모든 세부 정보를 볼 수 있도록 이미지를 확대할 수 있도록 허용한다. 
+일부 큰 이미지는 강좌 내용에서 학습자가 보기에 어려울 수 있다. 전체 화면 이미지 도구는 학습자가 문맥에서 모든 세부 정보를 볼 수 있도록 이미지를 확대할 수 있도록 한다. 
 
 ****************************************
 학습자 화면에서 전체 화면 이미지 보기
@@ -15,12 +15,12 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modal.png
  :alt: Image of the full screen image tool with the Full Screen button.
 
-학습자가 **전체 화면** 을 클릭하면, 이미지가 열리고 전체 브라우저 창에 표시된다. **닫기** , **확대** 및 **축소**  버튼들이 표시된다:
+학습자가 **전체 화면** 을 클릭하면, 이미지가 열리고 전체 브라우저 창에 표시된다. **닫기** , **확대** 및 **축소**  버튼들이 표시된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modal-window.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
-그러면 학습자는 이미지 위에서 확대 할 수 있고, 이미지의 원하는 부분을 보기 위해 이미지를 drag (드래그) 할 수 있다:
+그러면 학습자는 이미지 위에서 확대 할 수 있고, 이미지의 원하는 부분을 보기 위해 이미지를 drag (드래그) 할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modeal-zoomed.png
  :alt: Image of the Image Modal tool with the Full Screen button.
@@ -41,11 +41,11 @@
 
 #. 다음의 자리 표시자를 자신의 콘텐츠로 대체한다.
 
-   * <a>요소의 href 속성의 값을 이미지에 대한 경로로 대체한다. 클래스 속성의 값은 변경하지 않는다. 예를 들면:
+   * <a>요소의 href 속성의 값을 이미지에 대한 경로로 대체한다. 클래스 속성의 값은 변경하지 않는다. 예를 들면,
 
      **<a href="/static/Image1.jpg" class="modal-content">**
 
-   * 2.	<img> 요소의 src 속성의 값을 이미지에 대한 경로로 대체한다. 예를 들면:
+   * 2.	<img> 요소의 src 속성의 값을 이미지에 대한 경로로 대체한다. 예를 들면,
      
      **<img alt="Full screen image" src="/static/Image1.jpg"/>**
 
