@@ -20,7 +20,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modal-window.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
-그러면 학습자는 이미지 위에서 확대 할 수 있고, 이미지의 원하는 부분을 보기 위해 이미지를 drag (드래그) 할 수 있다.
+그러면 학습자는 이미지 위에서 확대 할 수 있고, 이미지의 원하는 부분을 보기 위해 이미지를 드래그할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modeal-zoomed.png
  :alt: Image of the Image Modal tool with the Full Screen button.
@@ -31,7 +31,7 @@
 
 #. **파일 업로드** 페이지에 이미지 파일을 업로드한다. 이 작업을 수행하는 방법에 대한 더 자세한 내용은 :ref:`Add Files to a Course` (강좌에 파일 추가하기)를 참조하도록 한다.
 
-#. **새 구성 요소 추가** 에서, **html** 을 클릭한 다음, **전체 화면 이미지** 를 클릭한다.
+#. **신규 구성 요소 추가** 에서, **html** 을 클릭한 다음, **전체 화면 이미지** 를 클릭한다.
 
 #. 표시되는 새 구성 요소에서, **편집** 을 클릭한다.
 
@@ -60,4 +60,4 @@
 
    .. 참고:: 전체 화면 이미지로 만든 구성 요소 뿐만 아니라, HTML 구성 요소에서 이와 동일한 HTML 코드를 사용할 수 있다.
 
-#. HTML 구성 요소를 저장 하기 위해 **저장** 을 클릭한다.
+#. HTML 구성 요소를 저장하기 위해 **저장** 을 클릭한다.
