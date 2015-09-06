@@ -87,33 +87,25 @@
 
 강좌 개설 후, 그 강좌에 등록된 총 학습자 수에 대한 정보를 알 수 있다. 수강신청 인원을 볼 때 주의해야 할 사항은 다음과 같다. 
 
-* In addition to students, the enrollment count includes the course author,
-  course team members, instructors, and course staff. (To work with a
-  course in Studio or the LMS, you must be enrolled in that course.)
+* 학습자 뿐만 아니라, 전체 등록 인원에 강좌 개설자, 강좌 운영팀 구성원, 교수자 등이 포함된다. 
 
-* Students can unenroll from courses, and course authors and instructors can
-  unenroll students when necessary.
-
+* 학습자는 등록을 취소할 수 있으며 강좌 개설자와 교수자가 필요시 학습자의 등록을 취소할 수도 있다. 
+ 
   **Note**: The enrollment count displays the number of currently enrolled
   students and course team staff. It is not a historical count of everyone who
   has ever enrolled in the course.
 
-The total number of current enrollees is shown as the sum of the number of
-people who selected each of the certification tracks (verified, audit, or
-honor) that are available for your course.
+전체 등록 인원 수를 보려면,
 
-To view the enrollment count for a course:
+#. 적용 결과 보기를 클릭한다.  
 
-#. View the live version of your course.
-
-#. Click **Instructor**, then click **Course Info** if necessary. 
+#. 교수자 대시보드의 **교수자** 탭에서 **강좌 정보** 를 클릭한다. 
 
   The **Enrollment Information** section of the page that opens shows the
   number of people who are currently enrolled in your course and in each of the
   certification tracks.
 
-You can also view or download a list of the people who are enrolled in the
-course. See :ref:`Student Data`.
+ :ref:`Student Data` 에서 전체 등록 인원 데이터를 수집할 수도 있다.
 
 .. _unenroll_student:
 
