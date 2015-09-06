@@ -78,5 +78,5 @@ course as staff<View Your Live Course>` 를 통해 콘텐츠를 볼 수 있다.
 
 강좌에 학습집단을 활성화하면, 특정 구성요소가 특정 학습자 집단에게만 보이게 할 수 있다.   
 
-:ref:`About Content Groups` and :ref:`Cohorted Courseware
+:ref:`About Content Groups` 와 :ref:`Cohorted Courseware
 Overview` 에 이에 대한 더 자세한 안내가 있다.
