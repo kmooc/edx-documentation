@@ -13,7 +13,7 @@ HTML 또는 HyperText Markup Language는 웹 페이지를 만드는데 이용되
 
 학습자가 KMOOC담당자의 강좌에서 텍스트나 이미지를 볼 때 브라우저에서 형식화되고 표현된 HTML 코드를 보게 된다. HTML에 대한 더 많은 정보는 `Wikipedia <http://en.wikipedia.org/wiki/HTML>`_ 에 있다. 
 
-HTML 구성요소는 강좌 콘텐츠를 만드는 기초 재료이다. HTML 구성요소는 텍스트, 링크, 이미지 등을 추가하고 형식화 하는데 사용된다. K-MOOC 담당자는 콘텐츠를 제작할 때 HTML 코드를 이용하여 직접 HTML 구성요소를 만들어낼 수도 있고, 다음에서 설명될 내용과 같이 자세한 HTML 코드가 숨겨지는 비주얼 에디터를 사용할 수도 있다.
+HTML 구성요소는 강좌 콘텐츠를 만드는 기초 재료이다. HTML 구성요소는 텍스트, 링크, 이미지 등을 추가하고 형식화 하는데 사용된다. 콘텐츠를 제작할 때 HTML 코드를 이용하여 직접 HTML 구성요소를 만들어낼 수도 있고, 다음에서 설명될 내용과 같이 자세한 HTML 코드가 숨겨지는 비주얼 에디터를 사용할 수도 있다.
 
 더 많은 정보는 다음 주제별로 안내되어 있다. 
 
@@ -26,7 +26,7 @@ HTML 구성요소는 강좌 콘텐츠를 만드는 기초 재료이다. HTML 구
 * :ref:`Add an Image to an HTML Component`
 * :ref:`Import LaTeX Code`
 
-.. 참고:: 
+.. note:: 
  HTML 구성요소로 작업을 시작하기 전에 :ref:`Developing Your Course Index` 와 :ref:`Best Practices for HTML
  Markup` 를 먼저 살펴보는 것을 권한다.
 
@@ -65,7 +65,7 @@ HTML 구성요소 에디터 설정하기
 
 ** Visual** 또는 **Raw** 를 선택한다. 편집기를 변경하려면, 반드시 **저장** 을 클릭하고 새로운 편집기를 사용하기 위해 구성요소를 다시 열어야 한다.
 
-.. 주의:: 
+.. note:: 
  Raw HTML 편집기로 강좌 콘텐츠 작업을 한 후 비주얼 편집기로 변경하게 되면, 
  앞서 만들었던 HTML이 삭제될 수 있다. 그래서 우선 비주얼 편집기로 편집을 시작하고, 사용자 HTML을 만들 필요가 있을 때 
  Raw HTML 편집기로 전환하여 이용할 것을 권장한다.
@@ -81,7 +81,7 @@ HTML 구성요소 에디터 설정하기
 .. image:: ../../../shared/building_and_running_chapters/Images/HTMLEditor.png
  :alt: Image of the HTML component editor
 
-.. 참고:: 
+.. note:: 
   비쥬얼 편집기가 :ref:`course handouts <Adding Course Updates and Handouts>` 에 대해서는 지원되지 않는다.
 
 다음 이미지는 편집 옵션에 대한 설명이다. 
@@ -126,7 +126,7 @@ HTML 구성요소 에디터 설정하기
 
 소스코드 편집기를 닫고 비쥬얼 편집기에서 변경 내용을 적용하려면 **확인** 을 클릭한다. 그러면 비쥬얼 편집기는 HTML 코드가 유효한지 확인한다. 예를 들어, 단락 태그를 닫지 않는 경우, 편집기가 자동으로 추가해 줄 것이다.
 
-.. 주의:: 
+.. note::  
  소스코드 편집기에서 **확인** 을 클릭하더라도 HTML 구성요소의 변경 내용은 저장되지 않는다.
  그래서, 비쥬얼 편집기에서 변경 내용을 저장하기 위해 **저장** 을 클릭한 후 구성 요소를 닫아야 한다. 
  **취소** 를 클릭하면 HTML 소스 코드에서 수행한 변경 내용이 사라진다.
@@ -298,7 +298,7 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Link_File.png
    :alt: Image of Files and Uploads page with the URL field circled 
   
-  .. 참고:: 
+  .. note:: 
    파일 링크를 포함시키기 위해 **Web URL** 이 아닌 **스튜디오 URL** 을 사용해야 한다.
 
 2. 링크로 만들 텍스트를 선택한다.
@@ -330,7 +330,7 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
 
 비쥬얼 편집기를 사용하면 강좌를 위해 업로드 한 어떤 이미지라도 HTML 구성 요소에 추가할 수 있다. 이미지 업로드하기에 대한 자세한 내용은 :ref:`Add Files to a Course` 을 참조하도록 한다.
 
-.. 참고:: 
+.. note::  
 
 . HTML 구성요소에 이미지를 추가하기 전에 :ref:`Best Practices for Describing Images` 를 확인한다.
 
@@ -342,7 +342,7 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
    :alt: Image of the Files & Upload page with the Embed URL for the image
        circled
 
-  .. 참고::
+  .. note:: 
    . 이미지를 추가하기 위해 **Web URL** 이 아닌 **스튜디오 URL** 을 사용해야 한다.
 
 2. 도구모음에서 이미지 아이콘을 클릭한다.
@@ -383,7 +383,7 @@ HTML 구성요소에 LaTeX 코드를 가져올 수 있다. 예를 들어 다음�
 .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeX_LMS.png
  :alt: Image of math formulas created with LaTeX
 
-.. 주의:: 
+.. note::  
 LaTeX 코드를 XML로 변환하기 위해 Studio가 사용하는 LaTeX 프로세서는 3rd party 도구이다. 이 기능을 주의하여 사용하는 것이 좋다. LaTeX 프로세서를 사용할 경우 반드시 프로그램 관리자와 함께 작업하도록 한다. 
 
 LaTeX 기능은 기본적으로 작동되지 않는다. 사용하려면 강좌에서 고급 설정을 변경해야 한다.
