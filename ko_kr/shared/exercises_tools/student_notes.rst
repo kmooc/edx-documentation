@@ -1,53 +1,49 @@
 .. _Student Notes Tool:
 
 ##############################
-Student Notes Tool
+학습자 노트 도구
 ##############################
 
-The Student Notes tool allows students to highlight and make notes about what
-they read in the body of the course. 
+학습자는 학습자 노트 도구를 이용하여 강좌 본문에서 읽은 내용을 강조하고 여기에 기록을 남길 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/SFD_SN_bodyexample.png
   :width: 500
   :alt: Image of a course page that includes highlighted text and a student note
 
-.. note:: The Student Notes tool is available for text, including text in 
- HTML components. However, the tool is currently not available for discussions,
- exercises, video transcripts, or PDF documents.
+.. note:: 학습자 노트 도구는 HTML 구성요소로 작성된 텍스트를 포함, 텍스트에는 이용 가능하다. 
+ 그러나 학습자 노트 도구는 토론, 연습, 동영상 자막 또는 PDF 문서에는 사용할 수 없다.
+ 
 
-Students can access their notes either in the body of the course or on a
-**Notes** tab. On the **Notes** tab, a student can see all the notes that the
-student has made during the course. It also contains links to the location of
-the notes in the course content.
+학습자는 강좌 본문에서 또는 **노트** 탭에서 자신의 학습자 노트 도구에 접근할 수 있다.
+학습자는 **노트** 탭에서 강좌 수강 중 자신이 기록한 모든 노트를 볼 수 있다. 
+학습자 노트 도구는 강좌 콘텐츠 내부의 노트 위치로 연결되는 링크를 또한 포함하고 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/SFD_SN_NotesTab.png
   :width: 500
   :alt: The Student Notes page listing all the notes a student has made in the
       course
 
-For detailed information about the ways students can use student notes, see
-`SFD Student Notes <http://edx.readthedocs.org/projects/doroob-student-documentation/en/latest/SFD_student_notes.html>`_.
+학습자가 학습자 노트를 사용하는 방법에 관한 안내는
+`SFD Student Notes <http://edx.readthedocs.org/projects/doroob-student-documentation/en/latest/SFD_student_notes.html>`_ 에 있다.
 
 *****************************
-Enable the Student Notes Tool
+학습자 노트 도구 활성화하기
 *****************************
 
-The Student Notes tool is disabled by default. You enable or disable student
-notes on the **Advanced Settings** page in Studio.
+T학습자 노트 도구는 초기값으로 비활성화되어 있다. Studio의 **고급 설정** 페이지에서 학습자 노트의 활성화/비활성화 설정을 변경할 수 있다.
 
-.. note:: If you disable student notes after students have made notes in 
- your course, students cannot access the notes that they have made.
+.. note:: 학습자가 여러분의 강좌에서 노트를 작성한 후 학습자 노트를 비활성화할 경우 
+학습자는 자신이 작성한 노트에 접근할 수 없다.
 
-To enable or disable the Student Notes tool, follow these steps.
+학습자 노트 도구를 활성화 또는 비활성화하려면,	
 
-#. On the **Settings** menu, click **Advanced Settings**.
+#. **설정** 에서, **고급 설정** 을 클릭한다.
 
-#. In the **Enable Student Notes** field, enter **true** to enable notes, or enter **false** to disable notes.
+#. **학습자 노트 활성화하기** 에서, **true** 입력시 활성화, **false** 입력시 비활성화된다.
 
-#. At the bottom of the page, click **Save Changes**.
+#. 페이지 하단에서 **변경사항 저장** 을 클릭한다.
 
-The page refreshes automatically. At the top of the page, you see a notification
-that your changes have been saved.
+페이지는 자동으로 새로고침 되면서, 변경이 저장됐다는 안내가 페이지 상단에 표시되는 것을 확인할 수 있을 것이다.
 
 
 
