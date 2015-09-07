@@ -1,10 +1,10 @@
 .. _Sample Student Login Guide:
 
 ======================================
-Sample Student Login Guide 
+로그인 안내
 ======================================
 
-Create a login guide for your individual course.
+각 강좌를 위한 로그인 안내를 만든다.
 
 **STUDENT LOGIN GUIDE FOR [COURSE NUMBER]**
 
@@ -15,9 +15,9 @@ Welcome to [COURSE NAME] on edX! This guide will walk you through setting up
 your student account with edX, enrolling in [COURSE NAME], and accessing the
 course materials.
 
-**Step 1: Open the course enrollment page**
+**1단계: 강좌 등록 페이지를 연다**
 
-*Example*
+*예*
 
 .. code-block:: html
 
@@ -27,10 +27,9 @@ course materials.
     https://edge.edx.org/courses/edX/PHOTO101/Digital_SLR_Photography_101/about
 
 
-The above URL should bring you to the course enrollment page: [REPLACE WITH
-SCREENSHOT OF YOUR ENROLLMENT PAGE]
+상단의 URL은 강좌 등록 페이지로 가져와야 한다.: [REPLACE WITH SCREENSHOT OF YOUR ENROLLMENT PAGE]
 
-*Example*
+*예*
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image302.png
  :width: 600 
@@ -38,24 +37,23 @@ SCREENSHOT OF YOUR ENROLLMENT PAGE]
 
 
 
-**Step 2: Request to enroll in the course** Click on the blue Enroll in [NUMBER
-OF YOUR CLASS] button: [REPLACE WITH PART OF YOUR SCREENSHOT ABOVE]
+**2단계: 강좌 수강을 요청한다.** 파란색 [NUMBER
+OF YOUR CLASS] 수강신청 버튼을 클릭한다. [REPLACE WITH PART OF YOUR SCREENSHOT ABOVE]
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image303.png
  :width: 600 
  :alt: Image of the registration button
 
-A pop-up user authentication window will appear. It will ask you to log in or
-sign up for edX. (If you already have an account with edX, use it to log in. You
-should now be enrolled in the course. Skip to Step 5. Otherwise, go on with Step
-3.)
+사용자 인증 창이 나타날 것이다. 로그인 혹은 edX에 가입을 물을 것이다.
+(이미 edX에 계정이 있다면, 로그인을 사용한다. 강좌에 등록되어 있어야 한다. 5단계로 건너뛴다. 
+ 그렇지 않다면 3단계로 간다.)
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Image305.png
  :width: 600 
  :alt: Image of the registration page
 
 
-**Step 3: Create your account with edX**
+**Step 3: edX에 계정을 만든다**
 
 Fill out the form in the pop-up window. (Some tips: Use an email address you
 check regularly. Also, the username you choose will also be your screen name in
