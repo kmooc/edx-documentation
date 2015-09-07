@@ -65,8 +65,8 @@ Protex 단백질 구성기 도구
 
 In this code:
  
-* **width** and **height** specify the dimensions of the application, in pixels.
-* **target_shape** lists the amino acids that, combined in the order specified, create the shape you've asked students to create. The list can only include the following letters, which correspond to the one-letter code for each amino acid. (This list appears in the upper-left corner of the protein builder.)
+* **width** 와 **height** 는 애플리케이션의 크기를 픽셀 단위로 지정한다.
+* **target_shape** 는 지정된 순서로 결합되어, 여러분이 학습자에게 생성하라 지시하는 형태를 생성하는 아미노산의 목록이다. 이 목록은 다음 문자만을 포함할 수 있다. 해당 문자는 각 아미노산에 해당하는 1자 코드이다. (이 목록은 단백질 구성기의 좌측 상단에 표시된다.)
 
   .. list-table::
      :widths: 15 15 15 15
