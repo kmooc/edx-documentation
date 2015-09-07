@@ -26,7 +26,7 @@
      - 
    * - ``<customresponse cfn="test_add" expect="20">``
      - 
-   * - <textline size="10" correct_answer="3"/>
+   * - ``<textline size="10" correct_answer="3"/>``
      - 이 태그는 size, correct_answer 및 label 속성을 포함한다. 단, correct_answer는 선택 속성이다.
 
 정답 태그 포맷(Answer Tag Format) 또는 스크립트 태그 포맷(Script Tag Format) 중 어느 하나에서 이러한 유형의 문제 가운데 하나를 생성할 수 있다. :ref:`Answer Tag Format` 혹은 :ref:`Script Tag Format`.
