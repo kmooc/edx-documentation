@@ -38,8 +38,7 @@ Components>` 에 자세한 안내가 있다.
 학습자가 소주제를 클릭하면 한 번에 하나씩 볼 수 있다. 
 
 1개의 학습활동은 1개 이상의 :ref:`소주제<Developing Course Components>` 를 가질 수 있는데, 이러한 구성요소로는 :ref:`HTML 콘텐츠<Working with HTML Components>`,
-:ref:`문제들<Working with Problem Components>`, :ref:`게시판<Working
-with Discussion Components>` 및 
+:ref:`문제들<Working with Problem Components>`, :ref:`게시판<Working with Discussion Components>` 및 
 :ref:`동영상<Working with Video Components>` 이 있다.
 
 .. _강좌 개요에서 학습활동 보기:
