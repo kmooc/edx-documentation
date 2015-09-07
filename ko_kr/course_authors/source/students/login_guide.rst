@@ -8,19 +8,17 @@
 
 **STUDENT LOGIN GUIDE FOR [COURSE NUMBER]**
 
-
-How to Set Up Your edX Account and Enroll in Your Class
+edX 계정 설정 및 강좌를 수강하는 방법
 
 Welcome to [COURSE NAME] on edX! This guide will walk you through setting up
 your student account with edX, enrolling in [COURSE NAME], and accessing the
 course materials.
 
-**1단계: 강좌 등록 페이지를 연다**
+**1단계: 강좌 등록 페이지를 여세요.**
 
 *예*
 
 .. code-block:: html
-
 
     https://edge.edx.org/courses/[YOUR_CLASS_PATH]/about [REPLACE WITH URL TO YOUR ENROLLMENT PAGE ON EDGE]
 
@@ -36,8 +34,7 @@ course materials.
  :alt: Image of a course registration page
 
 
-
-**2단계: 강좌 수강을 요청한다.** 파란색 [NUMBER
+**2단계: 강좌 수강을 요청하세요.** 파란색 [NUMBER
 OF YOUR CLASS] 수강신청 버튼을 클릭한다. [REPLACE WITH PART OF YOUR SCREENSHOT ABOVE]
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image303.png
@@ -53,7 +50,7 @@ OF YOUR CLASS] 수강신청 버튼을 클릭한다. [REPLACE WITH PART OF YOUR S
  :alt: Image of the registration page
 
 
-**Step 3: edX에 계정을 만든다**
+**Step 3: edX에 계정을 만드세요**
 
 Fill out the form in the pop-up window. (Some tips: Use an email address you
 check regularly. Also, the username you choose will also be your screen name in
@@ -62,17 +59,16 @@ first and last name). Please include your last name as part of your username so
 we can tell who you are in the course discussions.)
 
 
-**Step 4: Activate your edX account**
+**Step 4: edX 계정을 활성화 하세요 **
 
-Check your email. This is where your course activation link has been sent. You must click on this to finalize your access to the course.
+이메일을 확인한다. 이메일에는 계정 활성화를 할 수 있는 링크가 포함되어 있다. 강좌를 이용하기 위한 절차를 마무리하기 위해서 링크를 클릭해야 한다. 
 
-Congratulations! You should now have an edX account and be enrolled in [ENTER
-YOUR COURSE NUMBER].
+축하합니다! edX에 계정 갖게 되었고 [ENTER YOUR COURSE NUMBER] 에 등록되었습니다. .
 
-Proceed with Step 5 to access the class materials.
+강좌의 자료를 이용하기 위해 5단계로 이동하세요
 
 
-**Step 5: Log in to edX and go the course website**
+**Step 5: 로그인해서 강좌 웹사이트로 가세요**
 
 Log in to your account on edX at https://edge.edx.org/
 by using the username and password you just created.
