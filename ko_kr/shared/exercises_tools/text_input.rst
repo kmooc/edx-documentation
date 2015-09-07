@@ -1,55 +1,53 @@
 .. _Text Input:
 
 ########################
-Text Input Problem
+텍스트 입력 문제 
 ########################
 
 
 
-In text input problems, students enter text into a response field. The response can include numbers, letters, and special characters such as punctuation marks. Because the text that the student enters must match the instructor's specified answer exactly, including spelling and punctuation, we recommend that you specify more than one attempt for text input problems to allow for typographical errors.
+텍스트 입력 문제 에서는 학습자가 응답 필드에 텍스트를 입력한다. 응답은 숫자, 문자, 그리고 구두점과 같은 특수 문자를 포함할 수 있다. 학습자가 입력한 텍스트는 철자법과 구두점 사용법을 포함, 교수자가 지정한 답과 반드시 정확히 일치해야 한다. 따라서 학습자가 오타를 낼 가능성을 고려하여 텍스트 입력 문제 에 대한 응답 기회를 2회 이상으로 지정할 것을 권고한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/TextInputExample.png
  :alt: Image of a text input probem
 
 ****************************
-Create a Text Input Problem
+텍스트 입력 문제 생성하기
 ****************************
 
-You can create text input problems in the Simple Editor or in the Advanced Editor.
+텍스트 입력 문제 는 기본 편집기 또는 고급편집기로 생성할 수 있다.
 
-.. note:: All problems must include labels for accessibility. The label generally includes the text of the main question in your problem. To add a label for a common problem, surround the text of the label with angle brackets pointed toward the text (>>label text<<).
+.. note:: 모든 문제는 접근성 지원 표시를 반드시 포함해야 한다. 일반적으로 접근성 지원 표시에는 문제의 주 질문지 텍스트가 포함된다. 공통 문제용 접근성 표시를 추가하려면 해당 표시의 텍스트를 꺾쇠괄호(<>)로 묶되 뾰족한 쪽이 텍스트를 향하게 한다(>>label text<<). 
 
 ==============
-Simple Editor
+기본 편집기
 ==============
 
-To create a text input problem in the Simple Editor, follow these steps.
+기본 편집기로 텍스트 입력 문제 를 생성하려면,
 
-#. Under **Add New Component**, click **Problem**.
-#. In the **Select Problem Component Type** screen, click **Text Input**
-   on the **Common Problem Types** tab.
-#. In the new Problem component that appears, click **Edit**.
-#. Replace the default text with the text for your problem.
-#. Determine the text of the problem to use as a label, and then surround that text with two sets of angle brackets (>><<).
-#. Select the text of the answer, and then click the text input button. 
+#. **신규 구성요소 추가** 에서  **문제** 를 클릭한다. 
+#. **문제 구성요소 유형 선택(Select Problem Component Type)** 화면에서 **공통 문제 유형(Common Problem Types)**
+   탭의 **텍스트 입력(Text Input)** 을 클릭한다. 
+#. 새 문제 구성요소가 표시되면 **편집** 을 클릭한다. 
+#. 기존 텍스트를 여러분의 문제로 바꾼다.
+#. 접근성 지원 표시로 사용할 문제 지문을 결정한다. 이어, 해당 텍스트를 두 쌍의 꺾쇠괄호(>><<)로 묶는다. 
+#. 정답 텍스트를 선택한 후 텍스트 입력 단추를 클릭한다.
    
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_TextInput.png
     :alt: Image of the text input button
    
-   When you do this, an equal sign appears next to the answer.
+   이 단계까지 진행하면 답 옆에 = 기호가 표시된다.
   
    
-#. In the component editor, select the text of the explanation, and then click the 
-   explanation button to add explanation tags around the text.
+#. 구성요소 편집기에서 설명 텍스트를 선택한 후 설명 단추를 클릭하여 텍스트 주변에 설명 태그를 추가한다.  
 
    .. image:: ../../../shared/building_and_running_chapters/Images/ProbCompButton_Explanation.png
     :alt: Image of the explanation button
 
-#. On the **Settings** tab, specify the settings that you want. 
-#. Click **Save**.
+#. **설정(Settings)** 탭에서 원하는 설정값을 지정한다.  
+#. **저장** 을 클릭한다. .
 
-For the example problem above, the text in the Problem component is the
-following.
+상기 예제의 경우 문제 구성요소 내부의 텍스트는 다음과 같다. 
 
 ::
 
@@ -65,10 +63,10 @@ following.
     [explanation]
 
 =====================
-Advanced Editor
+고급 편집기
 =====================
 
-To create this problem in the Advanced Editor, click the **Advanced** tab in the Problem component editor, and then replace the existing code with the following code.
+고급 편집기로 텍스트 입력 문제 를 생성하는 경우 문제 구성요소 편집기에서 **고급** 탭을 클릭한 후 기존 코드를 다음 코드로 바꾼다. 
 
 .. code-block:: xml
 
@@ -108,19 +106,16 @@ To create this problem in the Advanced Editor, click the **Advanced** tab in the
 
 
 ******************************************
-Multiple Responses in Text Input Problems
+텍스트 입력 문제 의 복수 응답
 ******************************************
 
-You can specify more than one correct response for text input problems. 
-For example, instead of requiring students to enter exactly "Dr. Martin Luther 
-King, Junior," you can allow answers of "Martin Luther King," "Doctor Martin 
-Luther King," and other variations. To do this, you can use the Simple Editor or the Advanced Editor.
+텍스트 입력 문제 에서 1개 이상의 정답을 지정할 수 있다. 이를테면 “Dr. Martin Luther King, Junior”을 정확히 입력하는 대신 “Martin Luther King”이나 “Doctor Martin Luther King” 등의 기타 변형도 수용하는 것이다. 이 역시 기본 편집기나 고급 편집기로 생성할 수 있다.
 
 ==============
-Simple Editor
+기본 편집기
 ==============
 
-To specify additional correct responses in the Simple Editor, include "or=" (without the quotation marks) before each additional correct response.
+기본 편집기로 추가 정답을 지정할 경우 각 추가 정답 앞에 "or=" 를 삽입한다. (큰따옴표는 입력하지 않다.)   
 
 ::
 
@@ -131,10 +126,10 @@ To specify additional correct responses in the Simple Editor, include "or=" (wit
     or= Martin Luther King
 
 =====================
-Advanced Editor
+고급 편집기
 =====================
 
-To specify additional correct responses in the Advanced Editor, add an ``<additional_answer>``  for each correct response inside the opening and closing ``<stringresponse>`` tags.
+고급 편집기로 추가 정답을 지정할 경우 ``<stringresponse>`` 의 여는 태그와 닫는 태그 안쪽에서 각 추가 정답에 ``<additional_answer>`` 
 
 .. code-block:: xml
 
@@ -153,16 +148,14 @@ To specify additional correct responses in the Advanced Editor, add an ``<additi
 
 
 ******************************************
-Case Sensitivity and Text Input Problems
+텍스트 입력 문제의 대소문자 구분
 ******************************************
 
-By default, text input problems do not require a case sensitive response. You can change this
-and require a case sensitive answer.
+텍스트 입력 문제 는 응답에서 대소문자를 구분하지 않는 것이 초기 설정이다. 이를 변경하여 대소문자 구분을 필수로 하는 정답을 요구할 수 있다.
 
-To make a text input response case sensitive, you must use :ref:`Advanced Editor`.
+텍스트 입력 응답에서 대소문자를 구분하려면 반드시 :ref:`Advanced Editor` 를 사용해야 한다.
 
-In the Advanced Editor, you see that the **type** attribute of the **stringresponse** 
-element equals **ci**, for *case insensitive*. For example:
+고급 편집기에서 *대소문자를 구분하지 않는 경우* **stringresponse** 요소의 **type** 속성을 **ci** 로 한다. 이를테면 다음과 같다. 
 
 ::
 
@@ -170,7 +163,7 @@ element equals **ci**, for *case insensitive*. For example:
       <textline size="20"/>
     </stringresponse>
 
-To make the response case sensitive, change the value of the **type** attribute to **cs**.
+대소문자를 구분하려면 **type** 속성을 **cs**로 변경한다.
 
 ::
 
@@ -179,18 +172,17 @@ To make the response case sensitive, change the value of the **type** attribute 
     </stringresponse>
 
 *************************************************
-Response Field Length of Text Input Problems
+텍스트 입력 문제 의 응답 필드 길이
 *************************************************
 
-By default, the response field for text input problems is 20 characters long. 
+텍스트 입력 문제 의 응답 필드 길이 초기 설정값은 20글자이다.
 
-You should preview the unit to ensure that the length of the response input field
-accommodates the correct answer, and provides extra space for possible incorrect answers.
+학습 활동을 미리보기하여 해당 응답 입력 필드 길이가 정답 기입에 충분한지 확인하고 기입 가능성이 있는 오답을 고려하여 여분의 길이를 더 주는 것이 좋다.
 
-If the default response field length is not sufficient, you can change it using :ref:`Advanced Editor`.
+응답 필드 길이 초기값이 충분하지 않은 경우 :ref:`Advanced Editor` 로 이를 변경할 수 있다.
 
-In the advanced editor, in the XML block for the answer, you see that the **size** attribute of the **textline** element equals **20**:
-
+고급 편집기의 경우, 정답에 대한 XML 블록에서 **textline** 요소의 **size** 속성값은 **20** 이다. 
+ 
 ::
 
     <stringresponse answer="Democratic Republic of the Congo" type="ci">
@@ -206,23 +198,25 @@ To change the response field length, change the value of the **size** attribute:
     </stringresponse>
 
 ********************************************************
-Hints and Regular Expressions in Text Input Problems
+텍스트 입력 문제 의 힌트 및 정규 표현식
 ********************************************************
 
-You can provide hints that appear when students enter common incorrect answers in text input problems. You can also set a text input problem to allow a regular expression as an answer. To do this, you'll have to modify the problem's XML in the Advanced Editor. 
+텍스트 입력 문제 에서 학습자가 흔히 예상되는 오답을 기입할 때 힌트를 표시할 수 있다. 텍스트 입력 문제 가 어떤 정규 표현식을 답으로 인정하게 할 수도 있다. 이렇게 하려면 고급 편집기에서 해당 문제 의 XML을 변경해야만 한다.
 
-The regular expression that the student enters must contain the part of the answer that the instructor specifies. For example, if an instructor has specified  ``<answer="example answer" type="regexp">``, correct answers include ``example answered``, ``two example answers``, or even ``==example answer==``, but not ``examples`` or ``example anser``.
 
-You can add ``regexp`` to the value of the ``type`` attribute, for example: ``type="ci regexp"`` or ``type="regexp"`` or ``type="regexp cs"``. In this case, any answer or hint are treated as regular expressions.
+학습자가 입력하는 정규 표현식은 교수자가 지정한 정답의 일부를 반드시 포함해야 한다. 가령 교수자가  ``<answer="example answer" type="regexp">`` 을 지정한 경우 ``example answered`` , ``two example answers`` ,``==example answer==`` 등은 정답이지만 ``examples`` 나 ``example anser`` 은 정답이 아니다.
 
+``regexp`` 을 ``type`` 속성값에 추가할 수 있다. 이를테면 ``type="ci regexp"`` , ``type="regexp"`` , ``type="regexp cs"`` . 등이 가능하다. 이 경우 어떤 답 혹은 힌트라도 정규 표현식으로 간주한다.
+ 
+ 
 .. _Text Input Problem XML:
 
 ***********************
-Text Input Problem XML
+텍스트 입력 문제 XML
 ***********************
 
 ==============
-Template
+템플릿
 ==============
 
 .. code-block:: xml
@@ -260,135 +254,135 @@ Template
 Tags
 =======
 
-* ``<stringresponse>``: Indicates that the problem is a text input problem. 
-* ``<textline>``: Child of ``<stringresponse>``. Creates a response field in the LMS where the student enters a response.
-* ``<additional_answer>`` (optional): Specifies an additional correct answer for the problem. A problem can contain an unlimited number of additional answers.
-* ``<hintgroup>`` (optional): Indicates that the instructor has provided hints for certain common incorrect answers.
-* ``<stringhint />`` (optional): Child of ``<hintgroup>``. Specifies the text of the incorrect answer to provide the hint for. Contains answer, type, name.
-* ``<hintpart>``: Contains the name from ``<stringhint>``. Associates the incorrect answer with the hint text for that incorrect answer.
-* ``<startouttext />``: Indicates the beginning of the text of the hint.
-* ``<endouttext />``: Indicates the end of the text of the hint.
+* ``<stringresponse>``: 텍스트 입력 문제 임을 나타낸다.
+* ``<textline>``: ``<stringresponse>`` 의 차일드. 학습자가 응답을 입력하는 LMS에 응답 필드를 생성한다. 
+* ``<additional_answer>`` (선택): 문제 에 대한 추가 정답을 지정한다. 하나의 문제 가 가질 수 있는 추가 정답의 갯수는 제한이 없다.
+* ``<hintgroup>`` (선택): 교수자가 흔히 발생하는 어떤 오답에 힌트를 제공했음을 나타낸다.
+* ``<stringhint />`` (선택): ``<hintgroup>`` 의 차일드. 힌트를 제공할 오답의 텍스트를 지정한다. answer, type, name을 포함한다.
+* ``<hintpart>``: ``<stringhint>``의 name을 포함한다. 오답과 그 오답에 대한 힌트 텍스트를 조합한다. 
+* ``<startouttext />``: 힌트 텍스트의 시작을 나타낸다.
+* ``<endouttext />``: 힌트 텍스트의 끝을 나타낸다.
 
-**Tag:** ``<stringresponse>``
+**태그:** ``<stringresponse>``
 
-Indicates that the problem is a text input problem.
+텍스트 입력 문제 임을 나타낸다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - answer (required)
-       - Specifies the correct answer. To designate the answer as a regular expression, add "regexp" to the **type** attribute. If you do not add "regexp" to the **type** attribute, the student's answer must match the value in this attribute exactly.
-     * - type (optional)
-       - Can specify whether the problem is case sensitive and allows regular expressions. If the ``<stringresponse>`` tag includes ``type="ci"``, the problem is not case sensitive. If the tag includes ``type="cs"``, the problem is case sensitive. If the tag includes ``type="regexp"``, the problem allows regular expressions. A **type** attribute in a ``<stringresponse>`` tag can also combine these values. For example, ``<stringresponse type="regexp cs">`` specifies that the prolem allows regular expressions and is case sensitive.
+     * - 속성
+       - 설명
+     * - answer (필수)
+       - 정답을 지정한다. 답을 정규 표현식으로 지정하기 위해 **type** 속성에 “regexp”를 추가한다. **type** 속성에 “regexp”를 추가하지 않을 경우 학습자의 응답은 이 속성값과 반드시 정확히 일치해야 한다.  
+     * - type (선택)
+       - 문제 가 대소문자를 구분하는지, 그리고 정규 표현식을 허용하는지 여부를 지정할 수 있다. ``<stringresponse>`` 태그가 ``type="ci"`` 를 포함하는 경우 해당 문제 는 대소문자를 구분하지 않다. ``<stringresponse>`` 태그가 ``type="cs"`` 를 포함하는 경우 해당 문제 는 대소문자를 구분한다. ``<stringresponse>`` 태그가 ``type="regexp"`` 를 포함하는 경우 해당 문제는 정규 표현식을 허용한다. ``<stringresponse>`` 태그의 ``type`` 속성은 이들 값을 조합할 수도 있다. 가령, ``<stringresponse type="regexp cs">`` 는 해당 문제 가 정규 표현식을 허용하며 동시에 대소문자를 구분하는 것으로 규정한다.  
 
   Children
 
-  * ``<textline />`` (required)
-  * ``<additional_answer>`` (optional)
-  * ``<hintgroup>`` (optional)
+  * ``<textline />`` (필수)
+  * ``<additional_answer>`` (선택)
+  * ``<hintgroup>`` (선택)
     
-**Tag:** ``<textline />``
+**태그:** ``<textline />``
  
-Creates a response field in the LMS where the student enters a response.
+학습자가 응답을 입력하는 LMS에 응답 필드를 생성한다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - label (required)
-       - Contains the text of the problem.
-     * - size (optional)
+     * - 속성
+       - 설명
+     * - label (필수)
+       - 문제의 텍스트를 포함한다.
+     * - size (선택)
        - Specifies the size, in characters, of the response field in the LMS.
-     * - hidden (optional)
-       - If set to "true", students cannot see the response field.
-     * - correct_answer (optional)
-       - Lists the correct answer to the problem.
+     * - hidden (선택)
+       - **true** 로 설정된 경우 학습자는 응답 필드를 볼 수 없다.
+     * - correct_answer (선택)
+       - 문제의 정답 목록이다.
 
   Children
   
-  (none)
+  (내용 없음)
 
-**Tag:** ``<additional_answer>``
+**태그:** ``<additional_answer>``
 
-Specifies an additional correct answer for the problem. A problem can contain an unlimited number of additional answers.
+문제 에 대한 추가 정답을 지정한다. 하나의 문제 가 가질 수 있는 추가 정답의 갯수는 제한이 없다.
 
-  Attributes
+  속성
 
-  (none)
+  (내용 없음)
 
   Children
 
-  (none)
+  (내용 없음)
 
-**Tag:** ``<hintgroup>``
+**태그:** ``<hintgroup>``
 
-Indicates that the instructor has provided hints for certain common incorrect answers.
+교수자가 흔히 발생하는 어떤 오답에 힌트를 제공했음을 나타낸다.
 
-  Attributes
+  속성
 
-  (none)
+  (내용 없음)
 
   Children
   
-  * ``<stringhint>`` (required)
+  * ``<stringhint>`` (필수)
 
-**Tag:** ``<stringhint>``
+**태그:** ``<stringhint>``
 
-Specifies a common incorrect answer to the problem.
+해당 문제 에 흔히 발생하는 오답을 지정한다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - answer (required)
-       - The text of the incorrect answer.
-     * - name (required)
-       - The name of the hint that you want to provide.
+     * - 속성
+       - 설명
+     * - answer (필수)
+       - 오답의 텍스트이다.
+     * - name (필수)
+       - 제공하고자 하는 힌트의 명칭이다.
      * - type
-       - Specifies whether the text of the specified incorrect answer is case sensitive. Can be set to "cs" (case sensitive) or "ci" (case insensitive).
+       - 특정 오답의 텍스트가 대소문자를 구분하는지 여부를 지정한다. "cs"(대소문자 구분) 또는 "ci"(대소문자 비구분)이 될 수 있다.  
 
   Children
 
-  * ``<hintpart>`` (required)
+  * ``<hintpart>`` (필수)
 
-**Tag:** ``<hintpart>``
+**태그:** ``<hintpart>``
 
-Associates a common incorrect answer with the hint for that incorrect answer.
+오답과 그 오답에 대한 힌트 텍스트를 조합한다.
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
+     * - 속성
        - Description
      * - on
-       - The name of the hint. This must be the same as the **name** attribute of the ``<stringhint>`` tag. (The ``<stringhint>`` tag provides the name of the hint and the incorrect answer to associate with the hint. The ``<hintpart>`` tag contains the name of the hint and the text of the hint.)
+       - 힌트의 명칭. <stringhint> 태그의 **name** 속성과 반드시 동일해야 한다. ( ``<stringhint>`` 태그는 힌트의 명칭과, 그 힌트와 조합할 오답을 제공한다. ``<hintpart>`` 태그는 힌트의 명칭 및 그 힌트의 텍스트를 포함한다.)  
 
   Children
 
   * ``<startouttext />`` (required)
   * ``<endouttext />`` (required)
 
-**Tags:** ``<startouttext />`` and ``<endouttext>``
+**태그:** ``<startouttext />`` 와 ``<endouttext>``
 
-Surround the text of the hint.
+힌트 텍스트를 둘러싼다.
 
-  Attributes
+  속성
   
-  (none)
+  (내용 없음)
 
   Children
   
-  (none)
+  (내용 없음)
 
