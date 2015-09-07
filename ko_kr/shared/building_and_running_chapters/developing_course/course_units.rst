@@ -231,14 +231,13 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 강좌개요나 학습활동 페이지에서 학습활동을 만들 수 있다.
 
-강좌개요에서 학습활동을 만드려면, 신규 학습활동을 추가하고 싶은 소주제를 펼친다.
+강좌개요에서 학습활동을 만들려면, 신규 학습활동을 추가하고 싶은 소주제를 펼친다.
 
-#. In the outline, expand the subsection in which you want to create a new
-   unit.
-#. Click **New Unit** at the bottom of the expanded subsection. A new
-   unit is added at the end of the subsection.
-#. On the unit page, the unit name is selected. Edit the name as needed.
-#. :ref:`Add components<Add a Component>` to the new unit as needed.
+#. 개요에서, 새로운 학습활동을 만들기위해 소주제를 펼친다.
+#. 펼쳐진 소주제의 아래에 있는 **새로운 학습활동"" 을 클릭한다. 
+   새로운 학습활동은 소주제의 끝에 추가된다.
+#. 학습활동 페이지에서, 학습활동명을 선택한다. 활동명을 편집한다.
+#. 필요하다면 :ref:`구성요소 추가하기<Add a Component>` 를 한다. 
 
 학습활동 페이지에서 학습활동을 만드려면,
 
@@ -264,15 +263,18 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 다음 방법으로 학습활동을 편집할 수 있다.
 
-* `Edit the unit name`_
-* :ref:`Develop components<Developing Course Components>`
-* `Reorganize Components in Units`_
+* `학습활동명 편집`_
+* :ref:`구성요소<Developing Course Components>`
+* `구성요소 재구성하기`_
 
 게시한 학습활동을 편집하면, 공개 여부와 관계 없이 학습활동의 상태가 
 **학습활동이 변경됨** 으로 바뀐다.
 
 변경된 버전을 학습자가 보게 하려면, 반드시 
 :ref:`학습활동 게시하기<Publish a Unit>` 해야 한다.
+
+
+.. _학습활동명 편집:
 
 ==============================
 학습활동명 편집
@@ -285,6 +287,8 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 편집 아이콘을 클릭하면, 이름을 편집할 수 있는 상태가 된다.
 새 이름을 입력한 후 탭 키를 누르거나 이름 입력란 밖의 아무 곳이나 클릭하면, 이름이 저장된다.
+
+.. _구성요소 재구성하기:
 
 ==============================
 구성요소 재구성하기
@@ -359,8 +363,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-publish-icon-unit.png
  :alt: Publishing icon for a unit
 
-.. 참고:: 
-게시 아이콘은 새로 추가되거나 변경된 콘텐츠가 있을 때에만 나타난다. 
+.. note:: 게시 아이콘은 새로 추가되거나 변경된 콘텐츠가 있을 때에만 나타난다. 
 
 .. _학습활동 변경 취소하기:
 
@@ -377,8 +380,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-discard-changes.png
  :alt: Unit status panel with Discard Changes circled
 
-.. 주의::
-학습활동 변경을 취소하면, 변경사항이 영구적으로 삭제된다. 삭제된 변경사항을 되돌릴 수 없음에 주의한다.
+.. warning:: 학습활동 변경을 취소하면, 변경사항이 영구적으로 삭제된다. 삭제된 변경사항을 되돌릴 수 없음에 주의한다.
 
 .. _게시된 학습활동 보기 :
 
@@ -465,8 +467,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 학습활동을 삭제하면, 학습활동에 포함된 모든 구성요소들이 삭제된다는 것에 유의해야 한다.
 
-.. 주의::  
- 삭제 후에는 콘텐츠를 복구할 수 없다. 나중에 필요할 수도 있다고 생각되는 콘텐츠는 삭제하지 말고, 
+.. warning:: 삭제 후에는 콘텐츠를 복구할 수 없다. 나중에 필요할 수도 있다고 생각되는 콘텐츠는 삭제하지 말고, 
  비공개 주제에 옮겨두는 것을 권장한다. 
 
 학습활동을 삭제하려면:
