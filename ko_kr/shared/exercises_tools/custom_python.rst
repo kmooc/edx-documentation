@@ -4,12 +4,12 @@
 Write-Your-Own-Grader Problem
 ##############################
 
-In custom Python-evaluated input (also called "write-your-own-grader" problems), the grader uses a Python script that you create and embed in the problem to evaluates a student's response or provide hints. These problems can be any type. Numerical input and text input problems are the most popular write-your-own-grader problems.
+맞춤형 Python 평가 입력(”write-your-own-grader” 문제 라고도 한다)에서 채점자는 여러분이 학습자의 응답을 평가하거나 힌트를 제공할 목적으로 생성하여 문제 내부에 임베드한 Python 스크립트를 사용한다. 이러한 문제 는 어떠한 유형이라도 취할 수 있다. “write-your-own-grader” 문제 가운데 빈도가 가장 높은 것은 수식 입력 및 텍스트 입력 문제 이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/CustomPythonExample.png
  :alt: Image of a write your own grader problem
 
-Custom Python-evaluated input problems can include the following:
+맞춤형 Python 평가 입력 문제 는 다음 항목을 포함할 수 있다.:
 
 * :ref:`Chemical Equation`
 * :ref:`Custom JavaScript`
@@ -21,23 +21,23 @@ Custom Python-evaluated input problems can include the following:
    :widths: 20 80
 
    * - ``<script type="loncapa/python">``
-     - Indicates that the problem contains a Python script.
+     - 문제 에 Python 스크립트가 포함돼 있음을 나타낸다.
    * - ``<customresponse cfn="test_add_to_ten">``
      - 
    * - ``<customresponse cfn="test_add" expect="20">``
      - 
    * - <textline size="10" correct_answer="3"/>
-     - This tag includes the ``size``, ``correct_answer``, and ``label`` attributes. The ``correct_answer`` attribute is optional.
+     - 이 태그는 size, correct_answer 및 label 속성을 포함한다. 단, correct_answer는 선택 속성이다.
 
-You can create one of these problems in :ref:`Answer Tag Format` or :ref:`Script Tag Format`.
+정답 태그 포맷(Answer Tag Format) 또는 스크립트 태그 포맷(Script Tag Format) 중 어느 하나에서 이러한 유형의 문제 가운데 하나를 생성할 수 있다. :ref:`Answer Tag Format` 혹은 :ref:`Script Tag Format`.
 
 .. _Answer Tag Format:
 
 **************************
-Answer Tag Format
+정답 태그 포맷
 **************************
 
-The answer tag format encloses the Python script in an ``<answer>`` tag:
+정답 태그 포맷은 Python 스크립트를 ``<answer>`` 태그로 둘러싼다:
 
 .. code-block:: xml
 
@@ -51,28 +51,27 @@ The answer tag format encloses the Python script in an ``<answer>`` tag:
       overall_message = 'Please try again'
   </answer>
 
-.. important:: Python honors indentation. Within the ``<answer>`` tag, you must begin your script with no indentation.
+.. important:: 중요: Python은 들여쓰기를 준수한다.  ``<answer>`` 태그 내부의 스크립트는 반드시 들여쓰기 없이 시작해야 한다. 
 
-The Python script interacts with these variables in the global context:
+Python 스크립트는 일반적으로 다음 변수들과 상호작용한다.:
 
-* ``answers``: An ordered list of answers the student provided. For example, if the student answered ``6``, ``answers[0]`` would equal ``6``.
-* ``expect``: The value of the ``expect`` attribute of ``<customresponse>`` (if provided).
-* ``correct``: An ordered list of strings indicating whether the student answered the question correctly.  Valid values are ``"correct"``, ``"incorrect"``, and ``"unknown"``.  You can set these values in the script.
-* ``messages``: An ordered list of messages that appear under each response field in the problem. You can use this to provide hints to users. For example, if you include ``messages[0] = "The capital of California is Sacramento"``, that message appears under the first response field in the problem.
-* ``overall_message``: A message that appears beneath the entire problem. You can use this to provide a hint that applies to the entire problem rather than a particular response field.
+* ``answers``: 학습자가 제공한 답의 순서 목록. 학습자가 답으로 ``6`` 을 입력한 경우 ``answers[0]`` 은 ``6`` 과 동일하다. 
+* ``expect``: ``<customresponse>`` 의 ``expect`` 속성값. (규정된 경우)  
+* ``correct``: 학습자가 질문지에 정확히 답했는지 여부를 나타내는 스트링 순서 목록. 유효한 값은 ``"correct"``, ``"incorrect"``, ``"unknown"``이다. 이들 변수를 스크립트 내부에 설정할 수 있다. 
+* ``messages``: 문제 의 각 응답 필드 아래에 표시되는 메시지 순서 목록. 이 변수를 이용하여 사용자에게 힌트를 제공할 수 있다. 가령  ``messages[0] = "The capital of California is Sacramento"`` 를 입력한 경우 이 메시지가 문제 내부 응답 필드 아래에 표시된다.  
+* ``overall_message``: 전체 문제 아래에 표시되는 메시지. 이 변수를 이용하여 특정 응답 필드 1개가 아니라 문제 전체에 적용되는 힌트를 제공할 수 있다.
 
 ========================================================================
-Create a Custom Python-Evaluated Input Problem in Answer Tag Format
+정답 태그 포맷으로 맞춤형 Python 평가 입력 문제 생성하기
 ========================================================================
 
-To create a custom Python-evaluated input problem using an ``<answer>`` tag:
+``<answer>``  태그를 이용하여 맞춤형 Python 평가 입력 문제 를 생성하기 위한 차는 다음과 같다:
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Custom Python-Evaluated Input**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with the following code.
-#. Click **Save**.
+#. 문제를 생성하고자 하는 학습 활동에서 **신규 구성요소 추가**의 **Problem** 를 클릭한 후 **고급** 탭을 클릭한다. 
+#. 맞춤형 Python 평가 입 력**Custom Python-Evaluated Input** 을 클릭한다. 
+#. 구성요소가 표시되면 **편집** 을 클릭한다.
+#. 구성요소 편집기에서 기존 코드를 다음 코드로 바꾼다.
+#. **저장** 을 클릭한다.
 
 .. code-block:: xml
 
@@ -94,15 +93,15 @@ To create a custom Python-evaluated input problem using an ``<answer>`` tag:
         </answer>
     </problem>
 
-.. important:: Python honors indentation. Within the ``<answer>`` tag, you must begin your script with no indentation.
+.. important:: Python은 들여쓰기를 준수한다. ``<answer>`` 태그 내부의 스크립트는 반드시 들여쓰기 없이 시작해야 한다.   
 
 .. _Script Tag Format:
 
 **************************
-Script Tag Format
+스크립트 태그 포맷
 **************************
 
-The script tag format encloses a Python script that contains a "check function" in a ``<script>`` tag, and adds the ``cfn`` attribute of the ``<customresponse>`` tag to reference that function:
+스크립트 태그 포맷은 ``<script>`` 태그 안에서 “check function”을 포함하는 Python 스크립트를 둘러싼다. 또, ``<customresponse>`` 태그의 ``cfn`` 속성을 추가하여 해당 함수를 참조한다:
 
 .. code-block:: xml
 
@@ -131,23 +130,23 @@ The script tag format encloses a Python script that contains a "check function" 
 
   </problem>
 
-**Important**: Python honors indentation. Within the ``<script>`` tag, the ``def check_func(expect, ans):`` line must have no indentation.
+**Important**: Python은 들여쓰기를 준수한다. ``<script>`` 태그 안에서 ``def check_func(expect, ans):`` 행은 대 들여쓰지 않아야 한다.
 
-The **check** function accepts two arguments:
+**check** 함수는 두 가지 인자(argument)를 수용한다:
 
-* ``expect`` is the value of the ``expect`` attribute of ``<customresponse>`` (if provided)
-* ``answer`` is either:
+* ``expect`` ``<customresponse>`` 의 ``expect`` 속성값. (규정된 경우) 
+* ``answer``:
 
-    * The value of the answer the student provided, if the problem only has one response field.
-    * An ordered list of answers the student provided, if the problem has multiple response fields.
+    * 문제에 단 1개의 응답 필드가 있는 경우, 학습자가 제공하는 답의 값.
+    * 문제에 복수의 응답 필드가 있는 경우, 학습자가 제공하는 답의 순서 목록.
 
-The **check** function can return any of the following to indicate whether the student's answer is correct:
+**check** 함수는 다음 항목 중 어떤 것이라도 리턴하여 학습자의 답이 옳은지 여부를 나타낸다:
+* ``True``: 학습자가 모든 응답 필드에 옳게 답했음을 나타낸다.
+* ``False``: 학습자가 옳지 않게 답했음을 나타낸다. 모든 응답 필드가 옳지 않음으로 표시된다.
+* 형태(form) 사전: ``{ 'ok': True, 'msg': 'Message' }``
+``ok`` 에 대한 사전값이 ``True`` 로 설정된 경우 모든 응답 필드가 옳음으로 표시된다. 같은 값이 ``False`` 로 설정된 경우 모든 응답 필드가 옳지 않음으로 표시된다. ``msg`` 는 모든 응답 필드 아래에 표시되며 XHTML 마크업을 포함할 수 있다. 
 
-* ``True``: Indicates that the student answered correctly for all response fields.
-* ``False``: Indicates that the student answered incorrectly. All response fields are marked as incorrect.
-* A dictionary of the form: ``{ 'ok': True, 'msg': 'Message' }``
-  If the dictionary's value for ``ok`` is set to ``True``, all response fields are marked correct; if it is set to ``False``, all response fields are marked incorrect. The ``msg`` is displayed beneath all response fields, and it may contain XHTML markup.
-* A dictionary of the form 
+* 형태 사전
 
 .. code-block:: xml
       
@@ -158,9 +157,9 @@ The **check** function can return any of the following to indicate whether the s
             { 'ok': False, 'msg': 'Feedback for input 2'},
             ... ] }
 
-The last form is useful for responses that contain multiple response fields. It allows you to provide feedback for each response field individually, as well as a message that applies to the entire response.
+마지막 형태는 복수의 응답 필드를 포함하는 응답에 유용하다. 이를 통해 각 응답 필드에 개별적으로 피드백을 제공할 수 있으며 전체 응답에 적용될 메시지를 제공할 수 있다.
 
-Example of a checking function:
+판별 함수(checking function)의 예를 아래에 제시한다:
 
 .. code-block:: python
 
@@ -174,22 +173,21 @@ Example of a checking function:
                         { 'ok': check2, 'msg': 'Feedback 2'},
                         { 'ok': check3, 'msg': 'Feedback 3'} ] }
 
-The function checks that the user entered ``1`` for the first input, ``2`` for the  second input, and ``3`` for the third input. It provides feedback messages for each individual input, as well as a message displayed beneath the entire problem.
+이 함수는 사용자가 첫 번째 입력으로 ``1`` 을, 두 번째 입력으로 ``2`` 를, 세 번째 입력으로 ``3`` 을 기입했다는 사실을 확인한다. 각 개별 입력에 대한 피드백 메시지와 전체 문제 아래에 표시되는 메시지를 제공한다.  
 
 ========================================================================
-Create a Custom Python-Evaluated Input Problem in Script Tag Format
+스크립트 태그 포맷으로 맞춤형 Python 평가 입력 문제 생성하기
 ========================================================================
 
-To create a custom Python-evaluated input problem using a ``<script>`` tag:
+``<script>`` 태그를 이용하여 맞춤형 Python 평가 입력 문제 를 생성하는 차는 다음과 같다:
 
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Custom Python-Evaluated Input**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, replace the example code with the following code.
-#. Click **Save**.
+#. 문제를 생성하고자 하는 학습 활동에서 **신규 구성요소 추가** 의 **문제** 를 클릭한 후 **고급** 탭을 클릭한다.  
+#. 맞춤형 Python **평가 입력(Custom Python-Evaluated Input)** 을 클릭한다.
+#. 구성요소가 표시되면 **편집** 을 클릭한다.
+#. 구성요소 편집기에서 기존 코드를 다음 코드로 바꾼다.
+#. **저장** 을 클릭한다.
 
-**Problem Code**:
+**문제 코드**:
 
 .. code-block:: xml
 
@@ -232,9 +230,9 @@ To create a custom Python-evaluated input problem using a ``<script>`` tag:
   </solution>
   </problem>
 
-**Templates**
+**템플릿**
 
-The following template includes answers that appear when the student clicks **Show Answer**. 
+다음 템플릿은 학습자가 **정답 보기(Show Answer)** 를 클릭하면 표시되는 정답을 포함하고 있다.. 
 
 .. code-block:: xml
 
@@ -261,7 +259,7 @@ The following template includes answers that appear when the student clicks **Sh
       </solution>
   </problem>
 
-The following template does not return answers when the student clicks **Show Answer**. If your problem doesn't include answers for the student to see, make sure to set **Show Answer** to **Never** in the problem component.
+다음 템플릿은 학습자가 정답 보기를 클릭해도 답을 리턴하지 않다. 학습자에게 표시되는 답을 포함하지 않는 문제인 경우 문제 구성요소에서 **정답 보기(Show Answer)** 를 **아님(Never)** 으로 설정한다. 
 
 .. code-block:: xml
 
@@ -291,22 +289,18 @@ The following template does not return answers when the student clicks **Show An
 .. _Create a Randomized Custom Python-Evaluated Input Problem:
 
 *****************************************************************
-Create a Randomized Custom Python-Evaluated Input Problem
+무작위 맞춤형 Python 평가 입력 문제 생성하기
 *****************************************************************
 
-You can create a custom Python-evaluated input problem that randomizes
-variables in the Python code. 
+Python 코드에서 변수를 무작위 추출하는 맞춤형 Python 평가 입력 문제를 생성할 수 있다.
 
 .. note:: 
-  In the problem settings, you must set the **Randomization** value to
-  something other than **Never** to have Python variables randomized. See
-  :ref:`Randomization` for more information.
+ 문제 설정에서 반드시 **무작위 추출(Randomization)** 값을 **아님(Never)** 을 제외한 다른 값으로 지정함으로써 Python 변수를 무작위 추출할 수 있게 해야 한다.   :ref:`Randomization` 에서 보다 구체적인 정보를 확인한다. 
 
-The following example demonstrates using randomization with a Python-evaluated
-input problem.
+Python 평가 입력 문제 에서 무작위 추출을 시행하는 방법을 다음 예시에서 확인할 수 있다.
 
 .. note::
- This example uses the method ``random.randint`` to generate random numbers.  You can use any standard Python library for this purpose.
+ 아래의 예시는 ``random.randint`` 방법으로 무작위 수를 만든다. Python 표준 라이브러리를 사용한다. 
 
 .. code-block:: xml
 
