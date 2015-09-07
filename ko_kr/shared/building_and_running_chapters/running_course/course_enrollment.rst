@@ -75,7 +75,7 @@
 
 4. 강좌의 수강 신청 과정을 간소화 하려면 **자동 등록** 을 선택한다.  
 
-#. 학습자에게 메일을 보내 등록 사실을 확인받으려면 **메일로 학습자에게 공지** 을 선택한다.
+#. 학습자에게 메일을 보내 등록 사실을 확인받으려면 **메일로 학습자에게 공지** 를 선택한다.
 
 #. **등록** 을 클릭한다.
 
@@ -126,17 +126,17 @@ re-enroll.
 
 #. 교수자 대시보드의 **교수자** 탭에서 **등록 관리** 를 클릭한다.
 
-#. In the **Batch Enrollment** section of the page, enter a username or an email
-   address, or multiple names or addresses separated by commas or new lines.
+#. **일괄 등록** 에서 아이디 또는 학습자 이메일 주소를 입력한다. 
+   여러 명을 입력할 경우, 쉼표나 다른 줄 사용을 통해 학습자를 구분해야 한다. 
+   
+#. 학습자에게 메일을 보내 등록 사실을 확인받으려면 **메일로 학습자에게 공지** 를 선택한다.
+   
 
-#. To send students an email message, leave **Notify students by email**
-   selected.
+.. note:: **등록 취소** 를 클릭하면, **자동 등록** 할 수 없다.
 
-.. note:: The **Auto Enroll** option has no effect when you click **Unenroll**.
-
-5. Click **Unenroll**. The course is no longer listed on the students'
-   **Current Courses** dashboards, and the students can no longer contribute to
-   discussions or the wiki or access the courseware.
+5. **등록 취소** 를 클릭한다. 그러면 **수강중인 강좌** 대시보드에 강좌가 나가타지 않을 것이며, 
+   해당 학습자는 게시판이나 위키 등 강좌 내용에 접근할 수 없다.
+   
 
 
 .. _Using edX Insights: http://edx-insights.readthedocs.org/en/latest/
