@@ -1,41 +1,37 @@
 .. _Problem Written in LaTeX:
 
 ############################
-Problem Written in LaTeX
+LaTex로 작성한 문제
 ############################
 
-.. warning:: This problem type is still a prototype and may not be supported in the future. By default, the ability to create these problems is not enabled in Studio. You must change the advanced settings in your course before you can create problems with LaTeX. Use this problem type with caution.
+.. warning:: 이 유형의 문제는 아직 개발이 완료되지 않았으며 향후 지원이 중단될 수도 있다.  초기 설정으로는 이 유형의 문제를 Studio에서 생성할 수 없다. LaTex로 문제를 생성하기에 앞서 강좌 고급 설정을 반드시 변경해야 한다. 이 유형의 문제는 주의해서 사용한다.
 
-If you have an problem that is already written in LaTeX, you can use this problem type to easily convert your code into XML. After you paste your code into the LaTeX editor, you'll only need to make a few minor adjustments. 
+LaTex로 작성한 기존 문제가 있는 경우 이 유형의 문제를 이용하여 여러분의 코드를 XML로 쉽게 변환할 수 있다. 여러분의 코드를 LaTex 편집기에 붙여 넣은 후 일부 경미한 요소만 변경하면 된다.
 
-.. note:: If you want to use LaTeX to typeset mathematical expressions
-          in problems that you haven't yet written, use any of the other problem
-          templates together with `MathJax <http://www.mathjax.org>`_. For more
-          information about how to create mathematical expressions in Studio using
-          MathJax, see *A Brief Introduction to MathJax in Studio*.
+.. note:: 아직 입력하지 않은 문제에 포함된 수식을 입력하기 위해 LaTex를 사용하는 경우 기타 문제 템플릿과 
+          MathJax를 함께 이용한다. MathJax를 이용하여 Studio에서 수식을 생성하는 
+          관한 보다 구체적인 정보는 
+          *A Brief Introduction to MathJax in Studio* 에 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWrittenInLaTeX.png
  :alt: Image of a problem written in LaTeX
 
 ************************************
-Create a Problem Written in LaTeX
+LaTex로 작성한 문제 만들기
 ************************************
 
-To create a problem written in LaTeX:
+LaTex로 작성한 문제를 만들려면,
 
-#. Enable the policy key in your course.
+#. 강좌 규정 키를 활성화한다.
 
-   #. In Studio, click **Settings**, and then click **Advanced Settings**.
-   #. In the field for the **Enable LaTeX Compiler** policy key, change
-      **false** to **true**.
-   #. At the bottom of the page, click **Save Changes**.
+   #. Studio에서 **설정** 을 클릭한 후 **고급 설정** 을 클릭한다.
+   #. **LaTex 컴파일러 활성화** 규정 키 필드에서 **false** 를 **true** 로 변경한다.
+   #. 페이지 하단에서 **변경사항 저장** 을 클릭한다.
    
-#. In the unit where you want to create the problem, click **Problem**
-   under **Add New Component**, and then click the **Advanced** tab.
-#. Click **Problem Written in LaTeX**.
-#. In the component editor that appears, click **Edit**.
-#. In the lower left corner of the component editor, click **Launch
-   LaTeX Source Compiler**.
-#. Replace the example code with your own code. You can also upload a Latex file into the editor from your computer by clicking **Upload** in the bottom right corner.
-#. In the lower left corner of the LaTeX source compiler, click **Save &
-   Compile to edX XML**.
+#. 문제를 생성하고자 하는 학습 활동의 **신규 구성요소 추가**에서 **문제**를 클릭한 후 **고급** 탭을 클릭한다.
+#. **LaTex로 작성한 문제** 를 클릭한다.
+#. I구성요소 편집기가 표시되면 **편집** 을 클릭한다.
+#. 구성요소 편집기 좌측 하단에서 ** LaTex 소스 컴파일러 실행** 을 클릭한다.
+#. 예시 코드를 원하는코드로 바꾼다. 좌측 하단의 **업로드** 를 클릭하여 LaTex 파일을 컴퓨터의 편집기로 업로드할 수도 있다.
+#. LaTex 소스 컴파일러 좌측 하단에서 **저장 및 K-MOOC XML** 로 컴파일을 클릭한다.
+  
