@@ -91,7 +91,7 @@ Studio에서 학습활동 보기
 
 #. :ref:`새 학습활동 만들기<Create a Unit>`.
 #. :ref:`학습활동에 구성요소 추가하기<Add a Component>`.
-#. :ref:`학습활도 게시하기<Publish a Unit>`.
+#. :ref:`학습활동 게시하기<Publish a Unit>`.
    
 학습활동을 게시한 후 
 
@@ -160,7 +160,7 @@ Studio에서 학습활동 보기
 
 학습활동을 학습 관리 시스템에서 못보더라도, :ref:`강좌 콘텐츠 미리보기<Preview Course Content>` 에서 볼 수 있다.
 
-학습활동을 학습자가 볼 수 있게 하려면, 반드시 :ref:`학습활동 게시<Publish a Unit>` 해야 한다는 것에 유의한다.
+학습활동을 학습자가 볼 수 있게 하려면, 반드시 :ref:`학습활동 게시하기<Publish a Unit>` 해야 한다는 것에 유의한다.
 
 .. _공개됨:
 
@@ -272,7 +272,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 **학습활동이 변경됨** 으로 바뀐다.
 
 변경된 버전을 학습자가 보게 하려면, 반드시 
-:ref:`publish the unit<Publish a Unit>` 해야 한다.
+:ref:`학습활동 게시하기<Publish a Unit>` 해야 한다.
 
 ==============================
 학습활동명 편집
