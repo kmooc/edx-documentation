@@ -170,7 +170,7 @@ get more information about the PRs.
 .. _Resources for Students:
 
 **************************
-Resources for Students
+학습자를 위한 자료
 **************************
 
 Documentation
