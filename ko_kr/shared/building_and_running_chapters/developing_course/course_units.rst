@@ -47,7 +47,7 @@ Components>` 에 자세한 안내가 있다.
 강좌 개요에서 학습활동 보기
 ****************************
 
-학습활동을 보려면, 주제와 소주제를 먼저 펼쳐야 한다. 이에 대한 안내는 :ref:`expand<Navigating the Course Outline>` 에 있다.
+학습활동을 보려면, 주제와 소주제를 먼저 펼쳐야 한다. 이에 대한 안내는 :ref:`Navigating the Course Outline` 에 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units
