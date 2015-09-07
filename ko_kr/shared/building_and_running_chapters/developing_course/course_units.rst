@@ -38,7 +38,7 @@ Components>` 에 자세한 안내가 있다.
 학습자가 소주제를 클릭하면 한 번에 하나씩 볼 수 있다. 
 
 1개의 학습활동은 1개 이상의 :ref:`소주제<Developing Course Components>` 를 가질 수 있는데, 이러한 구성요소로는 :ref:`HTML 콘텐츠<Working with HTML Components>`,
-:ref:`문제들<Working with Problem Components>`, :ref:`게시판<Working with Discussion Components>` 및 
+:ref:`문제<Working with Problem Components>`, :ref:`게시판<Working with Discussion Components>` 및 
 :ref:`동영상<Working with Video Components>` 이 있다.
 
 .. _강좌 개요에서 학습활동 보기:
@@ -120,13 +120,13 @@ Studio에서 학습활동 보기
 
 * `초안 (게시된 적 없음)`_ 일 때, 학습자는 학습활동을 볼 수 없다. 
 
-* `강좌 운영팀에게만 공개`_ 일 때, 학습자는 학습활동을 볼 수 없다. 이에 대해 `Hide a Unit from Students`_ 에 더 자세한 안내가 있다. 
+* `강좌 운영팀에게만 공개`_ 일 때, 학습자는 학습활동을 볼 수 없다. 이에 대해 `학습활동 감추기`_ 에 더 자세한 안내가 있다. 
 
-* `아직 공개되지 않음`_  일 때, :ref:`release date <Release Dates>` 전까지는 학습자가 학습활동을 볼 수 없다. 하지만 공개일이 되면, 게시 상태가 `공개됨`_ 로 바뀌게 된다.
+* `아직 공개되지 않음`_  일 때, :ref:`공개일<Release Dates>` 전까지는 학습자가 학습활동을 볼 수 없다. 하지만 공개일이 되면, 게시 상태가 `공개됨`_ 로 바뀌게 된다.
 
 * `공개됨`_ 일 때, 학습자는 학습활동을 볼 수 있다.
   
-* `학습활동이 변경됨`_ 의 상태일 때, 주제의 :ref:`release date <Release Dates>` 이 이미 지난 경우라면 
+* `학습활동이 변경됨`_ 의 상태일 때, 주제의 :ref:`공개일 <Release Dates>` 이 이미 지난 경우라면 
 학습자가 변경된 학습활동을 바로 볼 수 있는 것이 아니라, 변경 이전의 학습활동을 보게 된다.
 
 :ref:`Controlling Content Visibility` 에 공개 설정에 대한 더 자세한 안내가 있다.
@@ -158,8 +158,7 @@ Studio에서 학습활동 보기
 
 공개일이 지났더라도 강좌 운영팀이 Studio에서 작업중인 콘텐츠는 학습자에게 공개되지 않는다.
 
-학습활동을 학습 관리 시스템에서 못보더라도, :ref:`preview the
-unit<Preview Course Content>` 에서 볼 수 있다.
+학습활동을 학습 관리 시스템에서 못보더라도, :ref:`강좌 콘텐츠 미리보기<Preview Course Content>` 에서 볼 수 있다.
 
 학습활동을 학습자가 볼 수 있게 하려면, 반드시 :ref:`publish the unit<Publish a Unit>` 해야 한다는 것에 유의한다.
 
@@ -205,7 +204,7 @@ Studio에서 강좌 운영팀은 작업중인 학습활동을 보게 되는 반�
 :ref:`publish the unit<Publish a Unit>` 해야 한다.
 
 
-:ref:`preview the changes to a unit<Preview Course Content>` 를 통해
+:ref:`강좌 콘텐츠 미리보기<Preview Course Content>` 를 통해
 변경사항이 어떻게 적용되는지 미리 볼 수 있다.
 
 .. _Visible to Staff Only:
