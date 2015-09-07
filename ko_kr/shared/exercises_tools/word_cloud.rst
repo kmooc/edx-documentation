@@ -5,62 +5,52 @@ Word Cloud Tool
 ##################
 
 
-In a word cloud tool, students enter words into a field in response
-to a question or prompt. The words all the students have entered then
-appear instantly as a colorful graphic, with the most popular responses
-appearing largest. The graphic becomes larger as more students answer.
-Students can both see the way their peers have answered and contribute
-their thoughts to the group.
+Word Cloud (워드 클라우드) 도구에서 학습자는 질문지 또는 프롬프트에 대한 응답으로 어떤 필드에 단어를 입력한다. 학습자 모두가 입력한 단어들은 형형색색의 그래픽으로 즉시 나타나며 입력 빈도가 가장 큰 응답이 가장 크게 표시된다. 응답하는 학습자가 많아질수록 그래픽도 커진다. 학습자는 동료들이 응답하는 방식을 확인하며 자신의 생각을 동료 집단에 제공할 수도 있다.
 
-
-For example, the following word cloud was created from students'
-responses to a question in a HarvardX course.
+다음의 워드 클라우드는 HarvardX 강좌의 질문지에 대한 학습자 응답을 바탕으로 생성한 것이다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/WordCloudExample.png
   :alt: Image of a word cloud problem
 
 ****************************
-Create a Word Cloud Tool
+워드 클라우드 도구 만들기
 ****************************
 
-To create a word cloud tool:
+워드 클라우드 도구를 만들려면,
 
-#. Add the Word Cloud advanced component. 
+#. 워드 클라우드(Word Cloud) 고급 구성요소를 추가한다.
 
-    #. On the **Settings** menu, click **Advanced Settings**.
+    #. **설정** 메뉴에서 **고급 설정**을 클릭한다.
 
-    #. In the field for the **Advanced Module List** policy key, place your
-       cursor between the brackets.
-
-    #. Enter the following value. Make sure to include the quotation marks.
+    #. **고급 모듈 목록** 규정 키 필드에서 대괄호 사이에 커서를 놓는다.
+       
+    #. 다음 값을 입력한다. 따옴표도 함께 입력해야 한다.
 
        ``"word_cloud"``
 
-    4. At the bottom of the page, click **Save Changes**.
+    4. 페이지 하단에서 **변경사항 저장** 을 클릭한다.
 
-       The page refreshes automatically. At the top of the page, you see a
-       notification that your changes have been saved.
+       페이지가 자동으로 새로고침되며, 변경이 저장됐다는 안내 메시지가 페이지 상단에 표시된다.
+       
 
-    5. Return to the unit where you want to add the specialized problem. The
-       list of possible components now contains an Advanced component.
+    5. 이 특수 문제를 추가하고자 하는 학습 활동으로 복귀한다. 가능한 구성요소 목록에 고급 구성요소가 포함됐다.
+       
+#. 문제를 만들고자 하는 학습 활동에서 **신규 구성요소 추가** 하단의 **고급** 을 클릭한다.
+  
+#. **문제** 유형 목록에서 **워드 클라우드(Word Cloud)** 를 클릭한다.
+#. 구성요소가 나타나면 **편집** 을 클릭한다.
+#. 구성요소 편집기에서 여러분이 원하는 설정을 지정한다. **표시명** 을 제외한 모든 항목의 초기값을 그대로 
+   유지할 수도 있다.
 
-#. In the unit where you want to create the problem, click **Advanced**
-   under **Add New Component**.
-#. In the list of problem types, click **Word Cloud**.
-#. In the component that appears, click **Edit**.
-#. In the component editor, specify the settings that you want. You can
-   leave the default value for everything except **Display Name**.
+   -  **표시명** : 강좌 리본 및 문제 상단 제목으로 표시되는 명칭
+      
+   -  **입력** : 학습자가 단어, 구 또는 문장을 입력하는 텍스트 박스의 갯수
+      
+   -  **최대 단어 수** : 해당 워드 클라우드가 표시하는 단어의 최대 갯수. 
+      학습자가 300개의 단어를 중복 없이 입력하고 
+      최대 단어수가 250인 경우 가장 빈번하게 입력된 단어 250개만 워드 클라우드에 나타난다.
+      
+   -  **백분율 보기** : 학습자들이 주어진 한 단어를 입력한 횟수. 입력한 모든 단어의 백분율은 해당 단어 부근에 표시된다.
+      
 
-   -  **Display Name**: The name that appears in the course ribbon and
-      as a heading above the problem.
-   -  **Inputs**: The number of text boxes into which students can enter
-      words, phrases, or sentences.
-   -  **Maximum Words**: The maximum number of words that the word cloud
-      displays. If students enter 300 different words but the maximum is
-      set to 250, only the 250 most commonly entered words appear in the
-      word cloud.
-   -  **Show Percents**: The number of times that students have entered
-      a given word as a percentage of all words entered appears near
-      that word.
-
-#. Click **Save**.
+#. **저장** 을 클릭한다.
