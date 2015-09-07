@@ -45,16 +45,16 @@ Studio에서 강좌를 만드는 또 다른 방법은 기존 강좌를 재개강
    * - 위키
      - 아니오.
 
-보다 자세한 정보는 :ref:`Use Re-Run to Create a Course<Use ReRun to Create a Course>` 와
+보다 자세한 정보는 :ref:`강좌를 만들기위해 재 개강하기<Use ReRun to Create a Course>` 와
 :ref:`Update the New Course` 에 있다.
 
 .. _Use ReRun to Create a Course:
 
 ********************************************
-Use Re-Run to Create a Course
+강좌를 만들기위해 재 개강하기
 ********************************************
 
-edx.org 사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자에게 문의한다. 플랫폼 관리자는 재개강 기능을 이용하여 새로운 강좌를 만들 것이다. :ref:`update the new course<Update the New Course>` 에서 더 자세한 안내를 볼 수 있다.
+edx.org 사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자에게 문의한다. 플랫폼 관리자는 재개강 기능을 이용하여 새로운 강좌를 만들 것이다. :ref:`새 강좌 업데이트하기<Update the New Course>` 에서 더 자세한 안내를 볼 수 있다.
 
 강좌를 재개강하려면 Studio에서 강좌 개설 권한이 있어야 하고, 재개강하려는 강좌의 강좌 운영팀 구성원이어야 한다. 
   
@@ -87,8 +87,7 @@ edx.org 사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자
 
 이전 강좌를 재개강하여 강좌를 만들 때 새로운 강좌의 설정 및 콘텐츠를 신중하게 검토해야 한다. 또한 학습자에게 훌륭한 학습 경험이 되도록 개강 전에 강좌에 대해 철저하게 테스트 해야 한다. 
 
-이에 대해, :ref:`Testing Your Course Content` 와 
-:ref:`Beta_Testing` 에 자세한 안내가 있다.
+이에 대해, :ref:`Testing Your Course Content` 와 :ref:`Beta_Testing` 에 자세한 안내가 있다.
 
 재개강을 준비할 때, 다음 작업이 완료되었는지 확인하길 바란다.  
 
@@ -121,7 +120,7 @@ edx.org 사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자
 
 * 위키를 만든다.
   
-:ref:`course checklists<Use the Course Checklist>` 을 이용해 개강 준비가 되었는지 확인하면 편리하다. 그외에도 개강 준비에 도움이 되는 도구 및 아이디어에 대한 안내가 :ref:`Launch` 에 있다.
+:ref:`강좌 체크리스트<Use the Course Checklist>` 을 이용해 개강 준비가 되었는지 확인하면 편리하다. 그외에도 개강 준비에 도움이 되는 도구 및 아이디어에 대한 안내가 :ref:`Launch` 에 있다.
 
 .. _edge.edx.org: http://edge.edx.org
 .. _edx.org: http://edx.org
