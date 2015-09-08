@@ -15,12 +15,12 @@
   
 주제와 관련된 작업은 다음과 같은 것이 있다.
 
-* `주제 만들기`_
-* `주제명 바꾸기`_
-* `주제 공개일 설정하기`_
-* `주제 내 전체 학습 활동 게시하기`_
-* `학습자에게 주제 감추기`_
-* `주제 삭제하기`_
+* :ref:`Create a Section`
+* :ref:`Change a Section Name`
+* :ref:`Set a Section Release Date`
+* :ref:`Publish all Units in a Section`
+* :ref:`Hide a Section from Students`
+* :ref:`Delete a Section`
 
 
 .. _What Is a Section?:
@@ -77,11 +77,13 @@
 
 강좌 개설자는 주제의 공개일을 조절할 수 있다. 콘텐츠를 학습자에게 공개하려면, 그 콘텐츠가 들어가 있는 주제가 공개되어야 한다. 주제의 공개 상태로는 다음과 같은 것이 있다.
 
-* `공개일이 지정되지 않음`_
-* `예정됨`_
-* `공개됨`_
-* `공개 후 변경 사항은 아직 게시되지 않음`_
-* `강좌 운영팀에게만 공개됨`_
+* `Unscheduled`_
+* `Scheduled`_
+* `Released`_
+* `Released with Unpublished Changes`_
+* `Staff Only Content`_
+
+.. _Unscheduled:
 
 ========================
 공개일이 지정되지 않음
@@ -98,6 +100,8 @@
 
 학습자가 콘텐츠를 볼 수 있게 하려면, 강좌 운영팀이 반드시 공개일을 지정해야 한다.
 
+.. _Scheduled:
+
 ==========
 예정됨
 ==========
@@ -112,6 +116,8 @@
 
 주제의 공개 예정일이 지나야만 학습자가 볼 수 있다는 것에 유의해야 한다.
 
+.. _Released:
+
 ===========================
 공개됨
 ===========================
@@ -122,6 +128,8 @@
 
 .. image:: ../../../shared/building_and_running_chapters/Images/section-released.png
  :alt: An unscheduled section
+
+.. _Released with Unpublished Changes:
 
 ==================================
 공개 후 변경 사항은 아직 게시되지 않음
@@ -138,6 +146,8 @@
 
 학습자가 변경된 학습활동을 보려면, 강좌 운영팀이 반드시 해당 학습활동을 게시해야 한다.
 
+.. _Staff Only Content:
+
 ===========================
 강좌 운영팀에게만 공개
 ===========================
@@ -152,7 +162,7 @@
  :alt: A section with a hidden unit 
 
 
-.. _주제 만들기:
+.. _Create a Section:
 
 ****************************
 주제 만들기
@@ -178,7 +188,7 @@
 신규 주제를 추가한 후, :ref:`강좌 콘텐츠 시험해보기 <Testing Your Course
 Content>` 를 권장한다.
 
-.. _주제명 바꾸기:
+.. _Change a Section Name:
 
 ********************************
 주제명 바꾸기 
@@ -192,7 +202,7 @@ Content>` 를 권장한다.
 편집 아이콘을 클릭한다. 그러면 편집가능한 상태의 입력란이 생기게 된다. 
 그곳에 새 이름을 입력하고 탭 키를 누르거나 입력란 바깥의 영역을 클릭하면 그 이름이 저장된다. 
 
-.. _주제 공개일 설정하기:
+ .. _Set a Section Release Date:
 
 ********************************
 주제 공개일 설정하기
@@ -216,7 +226,7 @@ Content>` 를 권장한다.
 
 :ref:`Release Dates` 에 더 자세한 안내가 나와있다.
 
-.. _주제 내 전체 학습 활동 게시하기:
+.. _Publish all Units in a Section:
 
 ********************************
 주제 내 전체 학습 활동 게시하기
@@ -231,7 +241,7 @@ Content>` 를 권장한다.
 
 학습자 공개 설정과 공개 상태에 관해 :ref:`Unit Publishing Status` 에 더 자세한 안내가 나와있다.
 
-.. _학습자에게 주제 감추기:
+.. _Hide a Section from Students:
 
 ********************************
 학습자에게 주제 감추기
@@ -263,7 +273,7 @@ Content>` 를 권장한다.
  소주제나 학습활동 중 학습자에게 보이지 않게 설정해둔 것은 계속 그 상태가 유지된다. 
 
 
-.. _주제 삭제하기:
+.. _Delete a Section:
 
 ********************************
 주제 삭제하기
@@ -281,4 +291,4 @@ Content>` 를 권장한다.
   .. image:: ../../../shared/building_and_running_chapters/Images/section-delete.png
    :alt: The section with Delete icon circled
 
-2. 삭제를 확인하는 대화상자가 뜨면 **네, 주제를 삭제합니다.** 를 클릭한다.
+2. 삭제를 확인하는 대화상자가 뜨면 **예, 주제를 삭제합니다.** 를 클릭한다.
