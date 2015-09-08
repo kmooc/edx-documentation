@@ -25,6 +25,7 @@
 * :ref:`Close_discussions`
   
 강좌에 학습집단 활용이 수업 게시판 관리 방법에 어떠한 영향을 미치는지에 대한 안내는 :ref:`Moderating Discussions for Cohorts` 에 있다.
+
 .. _Overview_discussions:
 
 ********************************
@@ -43,8 +44,7 @@
 
 강좌 운영팀과 학습자는 게시판에 글을 남기고, 답글을 작성하고, 댓글을 달 수 있으며, 다른 학습자에 의해서 남긴 글과 답글, 댓글을 볼 수 있다. 강좌 운영팀과 학습자 모두 게시판의 운영이나 관리 권한을 부여 받을 수 있다. 게시판 스레드는 강의 기록의 일부로써 저장된다.
 
-.. note:: 
-:ref:`Discussions for Students and Staff` 는 학습자가 활용할 수 있는 모든 기능에 관해 설명하고 있어서, 온라인 토의에 익숙하지 않은 학습자들에게 유용할 것이다.
+.. note:: :ref:`Discussions for Students and Staff` 는 학습자가 활용할 수 있는 모든 기능에 관해 설명하고 있어서, 온라인 토의에 익숙하지 않은 학습자들에게 유용할 것이다.
 
 .. _Organizing_discussions:
 
@@ -69,7 +69,7 @@ Discussion Topics` 와 :ref:`Create ContentSpecific Discussion Topics` 에 있�
 
 #. Studio에서 강좌를 연다.
 
-#. **설정** 을 선택한 후 **고급 설정**을 선택한다. 
+#. **설정** 을 선택한 후 **고급 설정** 을 선택한다. 
 
 #.  **게시판 주제 도표화(Discussion Topic Mapping)** 까지 화면을 내린다. 기본값은 다음과 같다:
 
@@ -235,10 +235,7 @@ Discussion Topics` 와 :ref:`Create ContentSpecific Discussion Topics` 에 있�
 
 가이드라인을 통해 게시판을 최대한 활용할 수 있으며, 학습자가 학습 자료 파일이나 수업 중에 규정된 메뉴에서 가이드라인을 활용할 수 있다. 이러한 가이드라인은 K-MOOC 게시판 기능을 선택적으로 소개할 수 있다. 
 
-You can also share the :ref:`Discussions for Students and Staff` chapter with
-your students. It describes features that are available to all discussion
-participants, and may be useful to students who are new to online discussion
-forums.
+:ref:`Discussions for Students and Staff`  장을 학습자와 공유할 수 있습니다. 게시판을 이용하는 모든 참여자가 활용가능한 특징을 보여주며, 온라인 토의 게시판에 처음인 학습자에게 유용할 것이다. 
 
 .. For a template that you can use to develop your own guidelines, see
 .. :ref:`Discussion Forum Guidelines`.
@@ -422,4 +419,4 @@ Studio는 아래와 같이 라인 필드와 들여쓰기를 추가하여 입력 
      :alt: Same policy value but with a line feed after each bracket and comma,
          and an indent before each date
 
-예를 들어, 강좌 게시판을 닫을 때(또는 열 때)를 학습자에게 알리기 위해 전송하는 전자 메일 서식은:ref:`Example Messages to Students` 를 참고하길 바란다. 
+예를 들어, 강좌 게시판을 닫을 때(또는 열 때)를 학습자에게 알리기 위해 전송하는 전자 메일 서식은 :ref:`Example Messages to Students` 를 참고하길 바란다. 
