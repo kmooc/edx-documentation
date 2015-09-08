@@ -13,7 +13,7 @@
 * :ref:`Preview Course Content` 또는,
 * :ref:`View Your Live Course`  를 할 수 있다.
 
-.. 참고:: 콘텐츠 그룹을 만들어 특정 콘텐츠를 특정 학습자들만 볼 수 있게 하려면, :ref:`Preview Cohort Specific
+.. note:: 콘텐츠 그룹을 만들어 특정 콘텐츠를 특정 학습자들만 볼 수 있게 하려면, :ref:`Preview Cohort Specific
   Courseware` 를 살펴보는 것이 좋다.
 
 강좌 베타 테스트에 관해서는
@@ -49,7 +49,7 @@ Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
 
 이렇게 변경된 학습활동을 게시하지 않으면, 이것이 학습자에게 어떻게 보일지 강좌 운영팀이 미리 볼 수 있다.
 
- **변경사항 미리보기** 를 클릭하여, 이것이 적용될 학습활동을 다음과 같이 미리볼 수 있는 것이다. 
+**변경사항 미리보기** 를 클릭하여, 이것이 적용될 학습활동을 다음과 같이 미리볼 수 있는 것이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-lms-added-comp.png
  :alt: A unit in the LMS with a video, problem, and discussion
@@ -60,8 +60,7 @@ Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
 
 한편, 콘텐츠 그룹을 만들 경우 특정 콘텐츠를 특정 학습자들만 볼 수 있게 할 수 있다. 이때 강좌가 어떻게 보이는지를 미리보는 방법은 :ref:`Preview Cohort Specific Courseware` 에 안내되어 있다.
 
-.. 참고:: 
-  학습활동의 상태가 :ref:`Published
+.. note:: 학습활동의 상태가 :ref:`Published
   and Live 일 때,  **변경사항 미리보기** 가 되지 않는다. 왜냐하면 이미 게시되어 공개되었기 때문에
   강좌 운영팀이 학습자보다 먼저 보는 것이 아니기 때문이다.
 
@@ -124,7 +123,7 @@ Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
 .. image:: ../../../shared/building_and_running_chapters/Images/test-view-as-student.png  
    :alt: Image of the View Course As drop down list with Staff, Student, and named content group options
 
-.. 참고:: 학습집단을 활성화하고, 특정 콘텐츠를 특정 콘텐츠 그룹에게만 공개한다면
+.. note:: 학습집단을 활성화하고, 특정 콘텐츠를 특정 콘텐츠 그룹에게만 공개한다면
   학습자 관리 시스템에서 보기 권한을 해당 콘텐츠 그룹으로 선택하면 된다.
   이에 관해 :ref:`Preview Cohort Specific Courseware` 에 더 자세한 안내가 있다.
  
