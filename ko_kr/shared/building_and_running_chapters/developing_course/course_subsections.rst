@@ -6,23 +6,23 @@
 
 소주제를 만들기 전에, 우선 다음 사항을 이해해야 한다.
 
-* `소주제란?`_
-* `개요에서 소주제 보기`_
-* `학습자 화면에서 소주제 보기`_
-* `소주제와 학습자 공개 설정`_
-* `소주제의 공개 상태`_
+* :ref:`What is a Subsection?`
+* :ref:`Viewing Subsections in the Outline`
+* :ref:`The Student View of a Subsection`
+* :ref:`Subsections and Visibility to Students`
+* :ref:`Release Statuses of Subsections`
   
 소주제와 관련된 작업은 다음과 같은 것이 있다.
 
-* `소주제 만들기`_
-* `소주제명 바꾸기`_
-* `소주제 공개일 설정하기`_
-* `과제 유형 및 마감일 설정`_
-* `소주제의 전체 학습 활동 게시하기`_
-* `학습자에게 소주제 감추기`_
-* `소주제 삭제하기`_
+* :ref:`Create a Subsection`
+* :ref:`Change a Subsection Name`
+* :ref:`Set a Subsection Release Date`
+* :ref:`Set the Assignment Type and Due Date for a Subsection`
+* :ref:`Publish all Units in a Subsection`
+* :ref:`Hide a Subsection from Students`
+* :ref:`Delete a Subsection`
 
-.. _소주제란?:
+.. _What Is a Subsection?:
 
 ****************************
 소주제란?
@@ -32,7 +32,7 @@
 소주제를 살펴보면 강좌에서 무엇을 중점으로 두는지 이해할 수 있게 된다.
 
 
-.. _개요에서 소주제 보기:
+.. _Viewing Subsections in the Outline:
 
 ***********************************
 개요에서 소주제 보기
@@ -43,7 +43,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/subsections.png
  :alt: Three collapsed subsections in the outline
 
-.. _학습자 화면에서 소주제 보기:
+.. _The Student View of a Subsection:
 
 *********************************
 학습자 화면에서 소주제 보기
@@ -55,7 +55,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/subsections_student.png
  :alt: The student view of the outline
 
-.. _소주제와 학습자 공개 설정:
+.. _Subsections and Visibility to Students:
 
 ************************************************
 소주제와 학습자 공개 설정
@@ -70,7 +70,7 @@
 * 학습활동이 게시되었거나,
 * 학습활동이 따로 학습자에게 비공개로 설정되어 있지 않은 경우 학습자가 볼 수 있다.
 
-.. _소주제의 공개 상태:
+.. _Release Statuses of Subsections:
 
 ************************************************
 소주제의 공개 상태
@@ -85,6 +85,8 @@
 * `공개된 소주제의 학습활동 변경`_
 * `공개됨`_
 
+ 
+
 ==========================
 주제와 함께 공개 예정
 ==========================
@@ -96,7 +98,7 @@
 
 .. image:: ../../../shared/building_and_running_chapters/Images/subsection-scheduled.png
  :alt: A subsection scheduled to release with the section
-
+ 
 
 ========================
 공개일이 지정되지 않음
@@ -112,7 +114,7 @@
  :alt: An unscheduled subsection
 
 학습자가 콘텐츠를 볼 수 있게 하려면, 강좌 운영팀이 반드시 주제의 공개일을 지정해야 한다.
-
+ 
 ===================================
 주제 공개 후 소주제 공개 
 ===================================
@@ -127,6 +129,7 @@
  :alt: A subsection scheduled to release later than the section
 
 소주제를 공개하기로 예정된 날짜가 지나야만, 학습자가 소주제를 볼 수 있다.  
+ 
 
 ==================================
 공개 예정인 소주제의 학습활동 변경
@@ -141,7 +144,7 @@
 
 .. image:: ../../../shared/building_and_running_chapters/Images/section-scheduled-with-changes.png
  :alt: A scheduled subsection with unpublished changes
-
+ 
 ==================================
 공개된 소주제의 학습활동 변경 
 ==================================
@@ -152,6 +155,7 @@
 
 .. image:: ../../../shared/building_and_running_chapters/Images/section-released-with-changes.png
  :alt: A released subsection with unpublished changes
+ 
 
 ===========================
 공개됨
@@ -176,8 +180,8 @@
 
 .. image:: ../../../shared/building_and_running_chapters/Images/section-hidden-unit.png
  :alt: A section with a hidden unit 
-
-.. _소주제 만들기:
+ 
+.. _Create a Subsection: 
 
 ****************************
 소주제 만들기
@@ -197,9 +201,9 @@
    
 신규 소주제를 추가한 후, :ref:`강좌 콘텐츠 시험해보기 <Testing Your Course
 Content>` 를 권장한다.
-
-.. _소주제명 바꾸기:
-
+ 
+ .. _Change a Subsection Name:  
+ 
 ********************************
 소주제명 바꾸기
 ********************************
@@ -207,7 +211,7 @@ Content>` 를 권장한다.
 소주제명 위에 마우스를 갖다대면 소주제명 옆에 편집 아이콘이 나타날 것이다.
 편집 아이콘을 클릭한다. 그러면 편집가능한 상태의 입력란이 생기게 된다. 그곳에 새 이름을 입력하고 탭 키를 누르거나 입력란 바깥의 영역을 클릭하면 그 이름이 저장된다.
 
-.. _소주제 공개일 설정하기: 
+.. _Set a Subsection Release Date: 
 
 ********************************
 소주제 공개일 설정하기
@@ -231,7 +235,7 @@ Content>` 를 권장한다.
 
 :ref:`Release Dates` 에 더 자세한 안내가 나와있다.
 
-.. _과제 유형 및 마감일 설정:
+.. _Set the Assignment Type and Due Date for a Subsection:
 
 ********************************************************
 과제 유형 및 마감일 설정
@@ -261,7 +265,7 @@ Content>` 를 권장한다.
 
 성적에 대한 더 자세한 안내는 :ref:`Establish a Grading Policy` 에 있다.
 
-.. _소주제의 전체 학습 활동 게시하기:
+.. _Publish all Units in a Subsection:
 
 **********************************
 소주제의 전체 학습 활동 게시하기
@@ -276,7 +280,7 @@ Content>` 를 권장한다.
 
 학습자 공개 설정과 공개 상태에 관해 :ref:`Unit Publishing Status` 에 자세히 안내되어 있다.
 
-.. _학습자에게 소주제 감추기:
+.. _Hide a Subsection from Students:
 
 ********************************
 학습자에게 소주제 감추기  
@@ -309,7 +313,7 @@ Content>` 를 권장한다.
 또한 게시하지 않은 학습활동도 여전히 공개되지 않는다.  
 
 
-.. _소주제 삭제하기:
+.. _Delete a Subsection:
 
 ********************************
 소주제 삭제하기
