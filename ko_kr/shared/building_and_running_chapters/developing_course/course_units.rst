@@ -10,7 +10,7 @@
 * :ref:`Viewing Units in the Outline`
 * :ref:`Viewing the Unit Page`
 * :ref:`Viewing Units as a Student`
-* :ref:`Unit Publishing Status and Visibility to Students'
+* :ref:`Unit Publishing Status and Visibility to Students:`
 * :ref:`Unit Publishing Status`
 
 학습활동과 관련된 작업은 다음과 같은 것이 있다.
