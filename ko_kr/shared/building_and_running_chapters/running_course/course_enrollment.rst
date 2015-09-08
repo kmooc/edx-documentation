@@ -99,9 +99,7 @@
 
 #. 교수자 대시보드의 **교수자** 탭에서 **강좌 정보** 를 클릭한다. 
 
-  The **Enrollment Information** section of the page that opens shows the
-  number of people who are currently enrolled in your course and in each of the
-  certification tracks.
+  이 페이지의 **등록 정보** 는 현재 강좌에 등록된 사람들의 수를 보여주고, 이수증 발급 과정에 등록된 수를 보여준다. 
 
  :ref:`Student Data` 에서 전체 등록 인원 데이터를 수집할 수도 있다.
 
@@ -114,7 +112,7 @@
 학습자의 등록을 취소함으로써 해당 학습자를 전체 수강 인원에서 삭제할 수 있다. 학습자가 다시 등록 하는 것을 방지하려면 수강 신청이 종료되어야 한다. Studio에서 현재 보다 이전 시점으로 **수강 신청 종료 날짜** 를 설정한다. 이에 관해선
 :ref:`Set Important Dates for Your Course` 에 더 자세히 안내되어 있다.
 
-**Note**: 등록 취소는 학습자의 데이터를 삭제하지 않는다. 등록 취소된 학생의 상태는 데이터베이스에 남아 있고, 재 등록시 저장된 정보를 활용하게 된다. 
+.. note:: 등록 취소는 학습자의 데이터를 삭제하지 않는다. 등록 취소된 학생의 상태는 데이터베이스에 남아 있고, 재 등록시 저장된 정보를 활용하게 된다. 
 
 등록된 학습자의 등록을 취소하려면, 이메일 주소를 입력해야 한다. 
 
