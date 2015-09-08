@@ -6,29 +6,29 @@
 
 학습활동을 만들기 전에, 우선 다음 사항을 이해해야 한다.
 
-* `학습활동이란?`_
-* `강좌 개요에서 학습활동 보기`_
-* `강좌 개요에서 학습활동 보기`_
-* `학습자 화면에서 학습활동 보기`_
-* `학습활동 게시 상태 및 학습자 공개 설정`_
-* `학습활동 게시 상태`_
+* :ref:`What is a Unit?`
+* :ref:`Viewing Units in the Outline`
+* :ref:`Viewing the Unit Page`
+* :ref:`Viewing Units as a Student`
+* :ref:`Unit Publishing Status and Visibility to Students
+* :ref:`Unit Publishing Status`
 
 학습활동과 관련된 작업은 다음과 같은 것이 있다.
 
-* `학습활동 만들기`_
-* `학습활동 편집하기`_
-* `학습활동 미리보기`_
-* `학습활동 게시하기`_
-* `학습활동 변경 취소하기`_
-* `게시된 학습활동 보기`_
-* `학습활동 감추기`_
-* `학습활동 삭제하기`_
+* :ref:`Create a Unit`
+* :ref:`Edit a Unit`
+* :ref:`Preview a Unit`
+* :ref:`Publish a Unit`
+* :ref:`Discard Changes to a Unit`
+* :ref:`View a Published Unit`
+* :ref:`Hide a Unit from Students`
+* :ref:`Delete a Unit`
 
 강좌 운영팀은 학습활동에 구성요소를 추가할 수 있다. 
 이에 관해 :ref:`강좌 구성요소<Developing Course
 Components>` 에 자세한 안내가 있다. 
 
-.. _학습활동이란?:
+.. _What is a Unit?:
 
 ****************************
 학습활동이란?
@@ -41,7 +41,7 @@ Components>` 에 자세한 안내가 있다.
 :ref:`문제<Working with Problem Components>`, :ref:`게시판<Working with Discussion Components>` 및 
 :ref:`동영상<Working with Video Components>` 이 있다.
 
-.. _강좌 개요에서 학습활동 보기:
+.. _Viewing Units in the Outline:
 
 ****************************
 강좌 개요에서 학습활동 보기
@@ -52,7 +52,7 @@ Components>` 에 자세한 안내가 있다.
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units
 
-.. _Studio에서 학습활동 보기:
+.. _Viewing the Unit Page:
 
 ****************************
 Studio에서 학습활동 보기
@@ -65,7 +65,7 @@ Studio에서 학습활동 보기
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-page.png
  :alt: The Unit page
 
-.. _학습자 화면에서 학습활동 보기:
+.. _Viewing Units as a Student:
 
 ****************************
 학습자 화면에서 학습활동 보기
@@ -78,7 +78,7 @@ Studio에서 학습활동 보기
 .. image:: ../../../shared/building_and_running_chapters/Images/Units_LMS.png
  :alt: Image of units from the student's point of view
 
-.. _학습활동 작업 흐름:
+.. _The Unit Workflow:
 
 ************************************************
 학습활동 작업 흐름
@@ -110,7 +110,7 @@ Studio에서 학습활동 보기
 
 게시 상태는 학습자가 :ref:`공개일<Release Dates>`에 따른 활용가능한 콘텐츠를 조절한다. 
 
-.. _학습활동 게시 상태 및 학습자 공개 설정:
+.. _Unit Publishing Status and Visibility to Students:
 
 *************************************************
 학습활동 게시 상태 및 학습자 공개 설정
@@ -131,7 +131,7 @@ Studio에서 학습활동 보기
 
 :ref:`Controlling Content Visibility` 에 공개 설정에 대한 더 자세한 안내가 있다.
 
-.. _학습활동 게시 상태:
+.. _Unit Publishing Status:
 
 ************************************************
 학습활동 게시 상태
@@ -145,7 +145,7 @@ Studio에서 학습활동 보기
 * `학습활동이 변경됨`_
 * `강좌 운영팀에게만 공개`_
 
-.. _초안 (게시된 적 없음):
+.. _Draft (Never Published):
 
 ========================
 초안 (게시된 적 없음)
@@ -162,7 +162,7 @@ Studio에서 학습활동 보기
 
 학습활동을 학습자가 볼 수 있게 하려면, 반드시 :ref:`학습활동 게시하기` 를 해야 한다는 것에 유의한다.
 
-.. _공개됨:
+.. _Published and Live:
 
 ====================
 공개됨
@@ -174,7 +174,7 @@ Studio에서 학습활동 보기
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-published.png
  :alt: Status panel of a unit that is published
 
-.. _아직 공개되지 않음:
+.. _Published Not Yet Released:
 
 ====================================
 아직 공개되지 않음
@@ -223,7 +223,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-unpublished.png
  :alt: Status panel of a unit that has pending changes
 
-.. _학습활동 만들기:
+.. _Create a Unit:
 
 ****************************
 학습활동 만들기
@@ -255,7 +255,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 새로 만든 학습활동을 학습자가 볼 수 있게 하려면 :ref:`학습활동 게시하기<Publish a Unit>` 한다.
 
 
-.. _학습활동 편집하기:
+.. _Edit a Unit:
 
 **************
 학습활동 편집하기
@@ -274,7 +274,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 :ref:`학습활동 게시하기<Publish a Unit>` 해야 한다.
 
 
-.. _학습활동명 편집:
+.. _Edit the Unit Name:
 
 ==============================
 학습활동명 편집
@@ -288,7 +288,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 편집 아이콘을 클릭하면, 이름을 편집할 수 있는 상태가 된다.
 새 이름을 입력한 후 탭 키를 누르거나 이름 입력란 밖의 아무 곳이나 클릭하면, 이름이 저장된다.
 
-.. _구성요소 재구성하기:
+.. _Reorganize Components in Units:
 
 ==============================
 구성요소 재구성하기
@@ -310,7 +310,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-drag-moved.png
  :alt: A component being dragged to a new location  
 
-.. _학습활동 미리보기:
+.. _Preview a Unit:
 
 ****************************
 학습활동 미리보기
@@ -332,8 +332,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 게시된 학습활동을 변경할 때 새 창을 띄우면 편리하다.
 새 창에서는 미리보기 기능을 활용해 변경사항을 보고, 다른 창으로는 변경 전의 학습활동을 봄으로써 둘을 비교해보면 유용할 것이다.
-
-.. _학습활동 게시하기:
+ 
 .. _Publish a Unit:
 
 ****************************
@@ -346,6 +345,8 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 학습활동 페이지나 강좌 개요에서 학습활동을 게시할 수 있다.
 
+ .. _Use the Unit Page to Publish a Unit:
+
 =======================================
 학습활동 페이지에서 게시하기
 =======================================
@@ -354,6 +355,8 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-publish-button.png
  :alt: Unit status panel with Publish button circled
+
+.. _Use the Outline to Publish a Unit:
 
 =======================================
 강좌 개요에서 학습활동 게시하기
@@ -366,7 +369,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 .. note:: 게시 아이콘은 새로 추가되거나 변경된 콘텐츠가 있을 때에만 나타난다. 
 
-.. _학습활동 변경 취소하기:
+.. _Discard Changes to a Unit:
 
 ****************************
 학습활동 변경 취소하기
@@ -383,7 +386,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 .. warning:: 학습활동 변경을 취소하면, 변경사항이 영구적으로 삭제된다. 삭제된 변경사항을 되돌릴 수 없음에 주의한다.
 
-.. _게시된 학습활동 보기 :
+.. _View a Published Unit:
 
 ****************************
 게시된 학습활동 보기 
@@ -401,7 +404,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 학습활동의 상태가 `초안 (게시된 적 없음)`_ 인 경우,  **적용 결과 보기** 버튼이 활성화되지 않는다.
 
-.. _학습활동 감추기:
+.. _Hide a Unit from Students:
 
 ****************************
 학습활동 감추기
@@ -413,6 +416,8 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 강좌 개요나 학습활동 페이지에서 학습활동을 감출 수 있다. 
 
+.. _ Use the Unit Page to Hide a Unit:
+
 =======================================
 학습활동 페이지에서 학습활동을 감추기
 =======================================
@@ -423,6 +428,8 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
  :alt: Unit status panel with Hide from Students checked
 
 :ref:`Controlling Content Visibility` 에 더 자세한 안내가 있다.
+
+.. _ Use the Outline to Hide a Unit:
 
 =======================================
 강좌개요 페이지에서 학습활동을 감추기
@@ -442,6 +449,8 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 #. **저장** 을 클릭한다.
 
+.. _Make a Hidden Unit Visible to Students:
+
 =======================================
 감추었던 학습활동 공개하기
 =======================================
@@ -458,7 +467,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
 
 그러면 공개 여부를 다시 확인하는 대화상자가 뜰 것이다.
 
-.. _학습활동 삭제하기:
+.. _Delete a Unit:
 
 ********************************
 학습활동 삭제하기
