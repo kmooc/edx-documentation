@@ -1,7 +1,7 @@
 .. _Glossary:
 
 ############
-Glossary
+주요 용어
 ############
 
 :ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` - :ref:`G` - :ref:`H` - :ref:`I` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`P` - :ref:`R` - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
@@ -14,9 +14,10 @@ A
 
 .. _AB Test:
 
-**A/B Test**
+**A/B 테스트**
 
-  :ref:`Content Experiment`를 살펴본다.
+  :ref:`Content Experiment` 를 살펴본다.
+  
 
 .. _About Page:
 
@@ -28,16 +29,15 @@ A
 
 .. _Advanced Editor_g:
  
-**Advanced Editor**
+**고급 에디터**
 
   문제 구성요소에서의 문제 유형을 만들고 편집할 수 있도록 하는 XML 에디터로, 추가정보는 :ref:`Advanced Editor` 를 살펴 본다. 
 
 
 
-
 .. _Assignment Type:
  
-**Assignment Type**
+**과제 유형**
 
   The category of graded student work, such as homework, exams, and exercises.
 
@@ -52,7 +52,7 @@ C
 
 .. _Certificate:
  
-**Certificate**
+**이수증**
 
   A document issued to an enrolled student who successfully completes a course.
   Not all edX courses offer certificates, and not all students enroll as
@@ -85,7 +85,7 @@ C
 
 .. _Cohort:
  
-**Cohort**
+**학습 집단**
 
   A group of students who participate in a class together. Students who are in
   the same cohort group can communicate and share experiences in private
@@ -97,7 +97,7 @@ C
 
 .. _Component_g:
  
-**Component**
+**구성요소**
 
   The part of a unit that contains your actual course content. A unit can
   contain one or more components. For more information, see :ref:`Developing
@@ -105,7 +105,7 @@ C
 
 .. _Content Experiment:
 
-**Content Experiment**
+**콘텐츠 실험**
 
   You can define alternative course content to be delivered to different,
   randomly assigned groups of students. Also known as A/B or split testing, you
