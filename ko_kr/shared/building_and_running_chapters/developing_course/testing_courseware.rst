@@ -60,9 +60,7 @@ Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
 
 한편, 콘텐츠 그룹을 만들 경우 특정 콘텐츠를 특정 학습자들만 볼 수 있게 할 수 있다. 이때 강좌가 어떻게 보이는지를 미리보는 방법은 :ref:`Preview Cohort Specific Courseware` 에 안내되어 있다.
 
-.. note:: 학습활동의 상태가 :ref:`Published
-  and Live 일 때,  **변경사항 미리보기** 가 되지 않는다. 왜냐하면 이미 게시되어 공개되었기 때문에
-  강좌 운영팀이 학습자보다 먼저 보는 것이 아니기 때문이다.
+.. note:: 학습활동의 상태가 :ref:`Published and Live` 일 때,  **변경사항 미리보기** 가 되지 않는다. 왜냐하면 이미 게시되어 공개되었기 때문에 강좌 운영팀이 학습자보다 먼저 보는 것이 아니기 때문이다.
 
 .. _View Your Live Course:
 
@@ -132,7 +130,7 @@ Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
 
 * 공개되지 않은 주제나 소주제를 볼 수 없다.
 
-* 주제와 소주제가 공개되었다면, :ref:`Published and Live`의 학습활동을 볼 수 있다. 
+* 주제와 소주제가 공개되었다면, :ref:`Published and Live` 의 학습활동을 볼 수 있다. 
   :ref:`Draft (Unpublished Changes)` 상태의 학습활동의 경우, 가장 최근에 게시된 버전을 보게 된다.
 
 * :ref:`Draft (Never Published)` 나 :ref:`Visible to Staff Only` 상태의 학습활동을 볼 수 없다.
