@@ -16,7 +16,7 @@
 .. note:: 콘텐츠 보관함은 강좌 식별자가 다음과 같은 형태일 경우에만 사용할 수 있다. ``{key type}:{org}+{course}+{run}`` . (예: ``course-v1:edX+DemoX+Demo_2015`` 
 강좌를 Studio에서 열면, 브라우저 주소 표시줄에 나타나는 URL의 마지막 부분에 강좌 식별자가 표시된다. 더 자세한 정보는 :ref:`Create a New Course` 에 있다.
 
-콘텐츠 보관함을 생성하고 구성요소를 추가한 이후, :ref:`enabled content libraries<Enable Content Libraries` 를 설정하였다면 콘텐츠 보관함 구성요소를 임의로 부여할 수 있다. 
+콘텐츠 보관함을 생성하고 구성요소를 추가한 이후, :ref:`Enable Content Libraries` 를 설정하였다면 콘텐츠 보관함 구성요소를 임의로 부여할 수 있다. 
 
 학습활동에 무작위 콘텐츠 블록을 추가하고, 무작위 콘텐츠를 가져올 1개 이상의 콘텐츠 보관함을 지정해야 한다. 또한 이때 학습자 1명에게 할당될 문제의 갯수와 종류도 지정해야 한다. 
 
@@ -78,7 +78,7 @@
   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraryID.png
      :alt: The Library ID for the new library is shown the sidebar
 
-.. note:: 새로운 보관함에 부여된 ID를 복사하거나 기록해두어야 한다. 이는 강좌 유닛에 randomized content block을 추가할 때  randomized content을 위한 소스로서 보관함을 명시하기 위하여 보관함 ID를 사용해야 하기 때문이다.
+.. note:: 새로운 보관함에 부여된 ID를 복사하거나 기록해두어야 한다. 이는 강좌 학습활동에 randomized content block을 추가할 때  randomized content을 위한 소스로서 보관함을 명시하기 위하여 보관함 ID를 사용해야 하기 때문이다.
 
 
 .. _Edit a Library:
@@ -115,7 +115,7 @@ Users Access to Your Library`를 참고하기 바란다.
 콘텐츠 보관함에 구성요소 추가
 ****************************
 
-콘텐츠 보관함에 :ref:`components<What is a Component>`  를 추가하는 방법은 다음과 같다.
+콘텐츠 보관함에 :ref:`components<What is a Component`  를 추가하는 방법은 다음과 같다.
 
 #. Studio에 로그인 한다.
 #. **콘텐츠 보관함** 을 클릭하고, 구성요소를 추가하고 싶은 보관함을 클릭한다.
@@ -186,8 +186,7 @@ Studio에서 보관함에 있는 콘텐츠를 보기 위해서는 다음 단계�
 콘텐츠 보관함 삭제
 *****************
 
-콘텐츠 보관함은 삭제할 수 없다. 대신 사용하기를 원하지 않는 보관함을 중시키실 수 있다. 그러기 위해서는 먼저 해당 콘텐츠 보관함의 구성요소가 다른 강좌에서 사용 되지 않는 지를 확인한 후 모든 구성요소를 삭제해야 한다. 또한 강좌 안에서 무작위 할당 콘텐츠로 사용되지 않게  다른 강좌의 강좌운영팀이 명확하게 알 수 있도록 :ref:`edit the
-name of the library<Edit a Library`  할 수 있다.
+콘텐츠 보관함은 삭제할 수 없다. 대신 사용하기를 원하지 않는 보관함을 중시키실 수 있다. 그러기 위해서는 먼저 해당 콘텐츠 보관함의 구성요소가 다른 강좌에서 사용 되지 않는 지를 확인한 후 모든 구성요소를 삭제해야 한다. 또한 강좌 안에서 무작위 할당 콘텐츠로 사용되지 않게  다른 강좌의 강좌운영팀이 명확하게 알 수 있도록 :ref:`Edit a Library`  할 수 있다.
 
 콘텐츠 보관함에서 구성요소를 삭제하는 자세한 방법은 :ref:`Edit Components in
 a Library` 을 참고하면 된다.
