@@ -64,7 +64,7 @@
 - :ref:`Working with Problem Components`
 - :ref:`Working with Video Components`
   
-구성요소를 추가한 후, :ref:`publish the unit<Publish a Unit>` 작업이 이루어져야 학습자가 이를 볼 수 있다.
+구성요소를 추가한 후, :ref:`Publish a Unit` 작업이 이루어져야 학습자가 이를 볼 수 있다.
 
 .. _Edit a Component:
 
@@ -79,7 +79,7 @@
 
 편집하려는 구성요소에 나오는 안내에 따라, 편집을 시작하면 된다.
 
-구성요소를 편집한 후, :ref:`publish the unit<Publish a Unit>` 를 하지 않으면 학습자가 변경사항을 볼 수 없다는 것에 유의한다.
+구성요소를 편집한 후, :ref:`Publish a Unit` 를 하지 않으면 학습자가 변경사항을 볼 수 없다는 것에 유의한다.
 
 =====================================
 구성요소 메뉴명 설정하기
@@ -166,10 +166,10 @@
 
 부모 구성요소는 콘텐츠를 직접 포함하지 않는다. 자녀 구성요소에 HTML, 동영상, 문제 등의 콘텐츠가 포함된다.
 
-부모 구성요소는 메뉴명을 가진다. 학습활동이 아직 게시되지 않은 상태일 때, 부모 구성요소의 **설정**을 클릭하면 
+부모 구성요소는 메뉴명을 가진다. 학습활동이 아직 게시되지 않은 상태일 때, 부모 구성요소의 **설정** 을 클릭하면 
 메뉴명을 바꿀 수 있다. 
 
-.. 참고:: 
+.. note:: 
   콘텐츠 실험 등 특수한 유형의 부모 구성요소는 편집 방식이 조금 다를 수 있다.
   
 
@@ -294,9 +294,7 @@ component you are moving appears in the new location:
 .. image:: ../../../shared/building_and_running_chapters/Images/drag_child_component.png
  :alt: Image of dragging a child component to a new location
 
-You can also drag a child component outside of a parent, so that the child
-moves to the same level as the parent.
+하나의 부모 외의 자녀 구성요소를 드래그 할 수 있고, 자녀 구성요소는 부모가 동일한 수준에서 이동할 수 있다. 
 
 .. note:: 
-  For content experiments, you cannot drag a child component outside of a test
-  group.
+  콘텐츠 실험을 위해, 자녀 구성요소를 테스트 집단 밖으로 드래그 할 수 없다. 
