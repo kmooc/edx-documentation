@@ -6,7 +6,7 @@
 
 학습활동을 만들기 전에, 우선 다음 사항을 이해해야 한다.
 
-* `What is a Component`_
+* :ref:`What is a Component`
 * `Add a Component`_
 * `Edit a Component`_
 * `Duplicate a Component`_
