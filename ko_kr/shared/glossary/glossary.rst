@@ -39,9 +39,9 @@ A
  
 **과제 유형**
 
-  The category of graded student work, such as homework, exams, and exercises.
+  학습자 성적에 포함되는 과제 유형으로, 숙제, 시험, 연습문제 등.
 
-  For more information, see :ref:`Establish a Grading Policy`.
+  추가 정보는 :ref:`Establish a Grading Policy` 를 살펴 본다. 
 
 .. _C:
 
@@ -54,33 +54,30 @@ C
  
 **이수증**
 
-  A document issued to an enrolled student who successfully completes a course.
-  Not all edX courses offer certificates, and not all students enroll as
-  certificate candidates.
-
+  강좌를 성공적으로 이수한 학습자에게 발급되는 문서. 
+  모든 K-MOOC 강좌가 이수증을 발급하지 않으며, 등록된 모든 학습자가 이수증을 받을 수 있는 것은 아니다. 
 
 
 .. _Checkbox Problem:
  
-**Checkbox Problem**
+**체크박스 문제**
 
-  A problem that prompts the student to select one or more options from a list of possible answers. For more information, see :ref:`Checkbox`.
+  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크 하는 문제유형이다. 추가 정보는 see :ref:`Checkbox` 를 살펴본다. 
 
 
 .. _Chemical Equation Response Problem:
  
-**Chemical Equation Response Problem**
+**화학 공식 문제**
 
-  A problem that allows the student to enter chemical equations as answers. For more information, see :ref:`Chemical Equation`.
+  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제유형이다. 추가 정보는 see :ref:`Chemical Equation` 를 살펴본다. 
 
 
 .. _Circuit Schematic Builder Problem:
  
-**Circuit Schematic Builder Problem**
+**회로도 문제**
 
-  A problem that allows the student to construct a schematic answer (such as an electronics circuit) on an interactive grid.
-
-  See :ref:`Circuit Schematic Builder` for more information.
+  학습자가 인터랙티브 그리드(interactive grid)에 문제의 답으로 회로도를 구성하도록 하는 문제유형이다. 
+  추가 정보는 :ref:`Circuit Schematic Builder` 를 살펴 본다. 
 
 
 .. _Cohort:
