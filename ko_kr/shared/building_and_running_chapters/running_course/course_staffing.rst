@@ -9,9 +9,9 @@
 권한 부여는 학습 관리 시스템 또는 Studio에서 이루어지며, 권한을 받으면 학습 관리 시스템과 스튜디오 모두에서 작업할 수 있다.
 
 
-.. note:: The LMS “Course Staff” role is the same as the Studio “Staff” role, and the LMS “Instructors” role is the same as the Studio “Admin” role.
+.. note:: LMS의 “강좌 운영팀” 역할은 Studio의 "운영팀"역할과 동일하며, LMS의 "교수자(Instructor)" 역할은 Studio의 "관리자(Admin)" 역할과 동일하다. 
 
-또한 강좌 베타 테스트를 위한 팀을 구성해 구성원에게 각자 다른 역할을 부여함으로써 토의를 조정하고 게시판을 관리하는 방법을 시험해볼 수도 있다.  베타 테스터와 게시판 관리자들은 반드시 강좌에 등록해야 하지만, 강좌 운영팀 혹은 교수자 역할, 혹은 스튜디오에서의 역할을 맡을 필요는 없다. 더 자세한 정보는 :ref:`Beta_Testing` 및 :ref:`Assigning_discussion_roles` 에 있다.
+강좌 베타 테스트를 위한 팀을 구성해, 구성원에게 각자 다른 역할을 부여함으로써 토의를 조정하고 게시판을 관리하는 방법을 테스트해 볼수도 있다.  베타 테스터와 게시판 관리자들은 반드시 강좌에 등록해야 하지만, 강좌 운영팀 혹은 교수자 역할, 혹은 스튜디오에서의 역할을 맡을 필요는 없다. 더 자세한 정보는 :ref:`Beta_Testing` 및 :ref:`Assigning_discussion_roles` 에 있다.
 
 
 ****************************
