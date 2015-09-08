@@ -6,11 +6,11 @@
 
 주제를 만들기 전에, 우선 다음 사항을 이해해야 한다.
 
-* `주제란?`_
-* `강좌 개요에서 주제 보기`_
-* `학습자 화면에서 주제 보기`_
-* `주제 및 학습자 공개 설정`_
-* `주제의 공개 상태`_
+* :ref: `What Is a Section?`
+* :ref: `Viewing Sections in the Outline`
+* :ref: `The Student View of a Section`
+* :ref: `Sections and Visibility to Students`
+* :ref: `Release Statuses of Sections`
 
   
 주제와 관련된 작업은 다음과 같은 것이 있다.
@@ -22,7 +22,8 @@
 * `학습자에게 주제 감추기`_
 * `주제 삭제하기`_
 
-.. _주제란?:
+
+.. _What Is a Section?:
 
 ****************************
 주제란?
@@ -31,7 +32,7 @@
 주제는 강좌에서 가장 상위 범주에 해당한다. 순차적으로 공개되는 주제를 보면 개강일 이후 강좌가 진행되는 흐름을 알 수도 있고, 
 강좌가 어떻게 구성되어 있는지를 한 눈에 볼 수 있기도 하다. 각 주제는 1개 이상의 소주제를 가진다.
 
-.. _강좌 개요에서 주제 보기:
+.. _Viewing Sections in the Outline:
 
 ********************************
 강좌 개요에서 주제 보기
@@ -42,7 +43,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/sections-outline.png
  :alt: Four sections in the outline
 
-.. _학습자 화면에서 주제 보기:
+.. _The Student View of a Section:
 
 ******************************
 학습자 화면에서 주제 보기 
@@ -54,7 +55,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/sections_student.png
  :alt: The students view of the course with two sections circled
 
-.. _주제 및 학습자 공개 설정:
+.. _Sections and Visibility to Students:
 
 ************************************************
 주제 및 학습자 공개 설정
@@ -68,7 +69,7 @@
 * 학습활동이 게시되었거나,
 * 학습활동이 따로 학습자에게 비공개로 설정되어 있지 않은 경우 학습자가 볼 수 있다.
 
-.. _주제의 공개 상태:
+.. _Release Statuses of Sections:
 
 ************************************************
 주제의 공개 상태
