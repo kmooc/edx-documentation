@@ -77,11 +77,11 @@
 
 강좌 개설자는 주제의 공개일을 조절할 수 있다. 콘텐츠를 학습자에게 공개하려면, 그 콘텐츠가 들어가 있는 주제가 공개되어야 한다. 주제의 공개 상태로는 다음과 같은 것이 있다.
 
-* `Unscheduled`_
-* `Scheduled`_
-* `Released`_
-* `Released with Unpublished Changes`_
-* `Staff Only Content`_
+* :ref:`Unscheduled`
+* :ref:`Scheduled`
+* :ref:`Released`
+* :ref:`Released with Unpublished Changes`
+* :ref:`Staff Only Content`
 
 .. _Unscheduled:
 
