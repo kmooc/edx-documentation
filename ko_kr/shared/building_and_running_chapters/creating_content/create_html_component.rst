@@ -176,24 +176,23 @@ HTML 구성요소를 만들려면,
 
 2. 템플릿을 선택한다. 
 
-   이제부터 **Text** 를 선택하여, 선택된 비쥬얼 편집기로 빈 구성요소를 만든다고 가정하면,
+   **텍스트** 를 선택했다고 가정하면,
    
    학습활동 아래쪽에 빈 구성요소가 나타난다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/HTMLComponent_Edit.png
    :alt: Image of an empty HTML component
 
-3. 해당 구성 요소에서, **편집** 을 클릭한다. 
+3. 해당 구성요소에서, **편집** 을 클릭한다. 
 
    비쥬얼 편집기에서 HTML 구성요소가 열린다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/HTMLEditor_empty.png
    :alt: Image of the HTML component editor
 
-4. 강좌 콘텐츠를 입력하고 서식을 지정한다. :ref:`Work with HTML code` 참고한다.
+4. 강좌 콘텐츠를 입력하고 서식을 지정한다. 이에 대해 더 자세한 정보는 :ref:`Work with HTML code` 에 있다.
 
-5. 구성요소 편집기의 오른쪽 상단에서 **설정**을 클릭한 후, 
-    **메뉴명** 에 텍스트를 입력한다.
+5. 구성요소 편집기의 오른쪽 상단에서 **설정**을 클릭한 후, **메뉴명** 에 텍스트를 입력한다.
 
    편집기로 돌아가려면, 오른쪽 상단에서 **편집기** 를 클릭한다.
 
