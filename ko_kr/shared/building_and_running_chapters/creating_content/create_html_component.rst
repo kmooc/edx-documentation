@@ -39,7 +39,7 @@ HTML 구성요소는 강좌 콘텐츠를 만드는 기초 재료이며, 텍스�
 HTML 구성요소 편집 옵션
 ********************************************
 
-다음의 두 가지 방법으로 HTML 작업을 수행할 수 있다.
+HTML 작업은 다음 두 가지 방법으로 수행할 수 있다.
 
 * :ref:`The Visual Editor`
 
@@ -58,14 +58,14 @@ HTML 구성요소 편집 옵션
 HTML 구성요소 에디터 설정하기
 ************************************
 
-**설정** 에서 HTML 구성요소에 대한 편집기를 설정할 수 있다
+**설정** 에서 HTML 구성요소에 대한 편집기를 설정한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/set_html_editor.png
  :alt: The Editor selection drop-down list in the HTML Component Settings tab
 
-**Visual** 또는 **Raw** 를 선택한다. 편집기를 변경하려면, 반드시 **저장** 을 클릭하고 새로운 편집기를 사용하기 위해 구성요소를 다시 열어야 한다.
+**Visual** 또는 **Raw** 를 선택 후 반드시 **저장** 을 클릭한다. 그리고 새로운 편집기를 사용하기 위해 구성요소를 다시 연다.
 
-.. note:: 
+.. warning:: 
  Raw HTML 편집기로 강좌 콘텐츠 작업을 한 후 비주얼 편집기로 변경하게 되면, 
  앞서 만들었던 HTML이 삭제될 수 있다. 그래서 우선 비주얼 편집기로 편집을 시작하고, 사용자 HTML을 만들 필요가 있을 때 
  Raw HTML 편집기로 전환하여 이용할 것을 권장한다.
