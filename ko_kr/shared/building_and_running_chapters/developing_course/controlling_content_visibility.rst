@@ -8,9 +8,9 @@
 다음 설정이 콘텐츠 공개 설정과 관련되어 있다.
 
 * :ref:`Release Dates`
-* :ref:``Unit Publishing Status`
-* :ref:``Content Hidden from Students`
-* :ref:``Content Groups`
+* :ref:`Unit Publishing Status`
+* :ref:`Content Hidden from Students`
+* :ref:`Content Groups`
  
 .. _Release Dates:
 
