@@ -259,28 +259,24 @@ references the parent component file that contains the child components:
         <problem url_name="b40ecbe4ed1b4280ae93e2a158edae6f"/>
     </vertical>
 
-Theoretically, there is no limit to the levels of component nesting you can use
-in your course.
+이론적으로 강좌에서 사용할 수 있는 구성요소 중첩(nesting)은 제한이 없다.
 
 
 ======================================
-The Student View of Nested Components
+중첩된 구성요소에 대한 학습자 보기
 ======================================
 
-For students, all parent and child components are displayed on the unit page.
-The following example shows the student view of the unit described above:
+학습자를 위해, 모든 부모와 자녀 구성요소는 학습활동 페이지에 나타난다.  
+다음 예는 위에서 설명한 학습활동의 학습자 보기 상태를 보여준다:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/nested_components_student_view.png
  :alt: Image of the student's view of nested components
 
-.. note:: 
- The visibility of nested components depends on the visibility of 
- the parent unit. The parent unit must be public for students to see nested
- components. For more information, see :ref:`Unit States and Visibility to Students`.
+.. note:: 중첩된 구성요소의 적용된 화면은 부모 학습활동의 적용된 화면을 따른다. 부모 학습활동은 중첩된 구성요소를 보기 위해 학생들에게 개방되어져야 한다. 자세히 보기 위해, see :ref:`Unit States and Visibility to Students` 를 살펴 본다.
 
 
 *******************************
-Reorganizing Child Components
+자녀 구성요소의 재 조직화
 *******************************
 
 You can reorganize child components through the same drag and drop process you
