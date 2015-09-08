@@ -201,7 +201,7 @@ Studio에서 강좌 운영팀은 작업중인 학습활동을 보게 되는 반�
 보게 된다. 공개일이 지나지 않은 경우에는 학습자가 볼 수 없다. 
 
 변경된 버전을 학습자가 보게 하려면, 반드시 
-:ref:`publish the unit<Publish a Unit>` 해야 한다.
+:ref:`Publish a Unit` 해야 한다.
 
 
 :ref:`강좌 콘텐츠 미리보기<Preview Course Content>` 를 통해
@@ -440,7 +440,7 @@ Subsection from Students>` 상태이면 학습자가 학습활동을 볼 수 없
    .. image:: ../../../shared/building_and_running_chapters/Images/outline-unit-settings.png
     :alt: The unit settings icon circled
 
-   The **Settings** dialog box opens.
+   **설정** 창이 열린다.
 
 #. **학습자에게 감추기** 의 체크박스를 클릭한다.
 
