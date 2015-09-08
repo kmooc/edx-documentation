@@ -261,7 +261,7 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
    .. image:: ../../../shared/building_and_running_chapters/Images/UnitIdentifier.png
     :alt: Image of the unit page with the unit identifier circled
 
-#. 링크를 추가 하려는 곳에 HTML 구성 요소를 연다.
+#. 링크를 추가하려는 곳에 HTML 구성요소를 연다.
 
 #. 링크로 만들려는 텍스트를 선택한다. 
 
@@ -271,7 +271,7 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
 
    ``/jump_to_id/<unit identifier>``
 
-    <unit identifier> 대신에 1단계에서 복사했던 학습활동 위치ID로 대체 한다. 
+    <unit identifier> 대신에 1단계에서 복사했던 학습활동 위치ID로 대체한다. 
    
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-EditLink_CourseUnit.png
     :alt: Image of the Insert link dialog box with a link to a unit identifier
@@ -289,16 +289,16 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
 파일에 링크 추가하기
 ***********************************
 
-강좌를 위해 업로드한 모든 파일을 HTML 구성요소에서 링크로 추가할 수 있다. 파일 업로드를 하기 위해서는 :ref:`Add Files to a Course` 을 참조한다.
+강좌를 위해 업로드한 모든 파일을 HTML 구성요소에서 링크로 추가할 수 있다. 파일 업로드에 대한 자세한 정보는 :ref:`Add Files to a Course` 에 있다.
 
 
-#. **파일 업로드**  페이지에서 파일의 **URL** 을 복사한다
+#. **파일 업로드** 페이지에서 파일의 **URL** 을 복사한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Link_File.png
    :alt: Image of Files and Uploads page with the URL field circled 
   
   .. note:: 
-   파일 링크를 포함시키기 위해 **Web URL** 이 아닌 **스튜디오 URL** 을 사용해야 한다.
+   파일 링크로는 **Web URL** 이 아닌 **Studio URL** 을 사용해야 한다.
 
 2. 링크로 만들 텍스트를 선택한다.
 
@@ -318,7 +318,7 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
 
 #. **확인** 을 클릭한다.
 
-#. HTML 구성요소를 저장하고 링크를 테스트 한다.
+#. HTML 구성요소를 저장하고 링크가 잘 되는지 확인한다.
 
 
 .. _Add an Image to an HTML Component:
@@ -327,37 +327,33 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
  HTML 구성요소에 이미지 추가하기
 ***********************************
 
-비쥬얼 편집기를 사용하면 강좌를 위해 업로드 한 어떤 이미지라도 HTML 구성 요소에 추가할 수 있다. 이미지 업로드하기에 대한 자세한 내용은 :ref:`Add Files to a Course` 을 참조하도록 한다.
+비쥬얼 편집기를 사용하면 강좌를 위해 업로드 한 어떤 이미지라도 HTML 구성 요소에 추가할 수 있다. 이미지 업로드하기에 대한 자세한 내용은 :ref:`Add Files to a Course` 에 있다.
 
 .. note::  
 
 . HTML 구성요소에 이미지를 추가하기 전에 :ref:`Best Practices for Describing Images` 를 확인한다.
 
-이미지를 추가하기 위해, 강좌에 업로드한 이미지 파일의 URL이 필요하다. 그리고나서 HTML 구성요소에서 이용할 수 있는 이미지에 대한 링크를 만들 수 있다
+이미지를 추가하기 위해, 강좌에 업로드한 이미지 파일의 URL이 필요하다. 
 
-#.. **파일 업로드** 페이지에서 원하는 이미지의 **스튜디오 URL** 을 복사한다.
+#. **파일 업로드** 페이지에서 원하는 이미지의 **Studio URL** 을 복사한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/image_link.png
    :alt: Image of the Files & Upload page with the Embed URL for the image
        circled
 
   .. note:: 
-   . 이미지를 추가하기 위해 **Web URL** 이 아닌 **스튜디오 URL** 을 사용해야 한다.
+   . 이미지를 추가하기 위해 **Web URL** 이 아닌 **Studio URL** 을 사용해야 한다.
 
 2. 도구모음에서 이미지 아이콘을 클릭한다.
 
-#. **이미지 삽입/편집** 대화 상자에서, **소스** 입력칸에 다음을 입력한다
-
-   ``/static/FileName.type``
-
-  위의 예문처럼 슬래시를 포함하도록 한다 (/).
+#. **이미지 삽입/편집** 대화 상자에서, **소스** 입력칸에 **Studio URL** 을 붙여넣기한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_Insert-Edit_Image.png
     :alt: Image of the Insert image dialog box with a reference to a file
 
 4. **이미지 설명** 입력 필드에 이미지를 설명하는 텍스트를 입력한다. 이 텍스트는 HTML에서 ``alt`` 속성 값이 되고, 강좌가 높은 접근성을 갖도록 하기 위해서 필요하다. 자세한 내용은 :ref:`Best Practices for Describing Images` 를 참조한다. 
 
-#. 이미지 크기를 사용자가 지정할 수 있다. 이미지가 너비와 높이를 동일한 비율로 유지되도록 하기 위해서는 **비율 제한** 을 선택한다. 
+#. **이미지 크기** 를 사용자가 지정할 수 있다. 이미지가 너비와 높이를 동일한 비율로 유지되도록 하기 위해서는 **비율 제한** 을 선택한다. 
 
 #. 이미지의 간격 및 테두리를 변경 하려면 **고급** 탭을 클릭한다. 
 
@@ -368,7 +364,7 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
 
 #. HTML 구성요소에 이미지를 삽입하려면 **확인** 을 클릭한다.
 
-#. HTML 구성요소를 저장하고 이미지를 테스트한다.
+#. HTML 구성요소를 저장하고 이미지가 나오는지 확인한다.
 
 
 .. _Import LaTeX Code:
@@ -383,26 +379,26 @@ HTML 구성요소에 LaTeX 코드를 가져올 수 있다. 예를 들어 다음�
  :alt: Image of math formulas created with LaTeX
 
 .. note::  
-LaTeX 코드를 XML로 변환하기 위해 Studio가 사용하는 LaTeX 프로세서는 3rd party 도구이다. 이 기능을 주의하여 사용하는 것이 좋다. LaTeX 프로세서를 사용할 경우 반드시 프로그램 관리자와 함께 작업하도록 한다. 
+LaTeX 코드를 XML로 변환하기 위해 Studio가 사용하는 LaTeX 프로세서는 외부 제공 도구이다. 이 기능을 주의하여 사용하는 것이 좋다. LaTeX 프로세서를 사용할 경우 반드시 프로그램 관리자와 함께 작업하도록 한다. 
 
 LaTeX 기능은 기본적으로 작동되지 않는다. 사용하려면 강좌에서 고급 설정을 변경해야 한다.
 
-LaTeX 코드를 포함하는 HTML 구성요소를 만들려면:
+LaTeX 코드를 포함하는 HTML 구성요소를 만들려면,
 
-#. 강좌에서 정책키를 활성화해서 사용한다.
+#. 강좌에서 정책 키를 활성화해서 사용한다.
 
    #. Studio에서 **설정** 메뉴를 클릭한 후 **고급 설정** 을 클릭한다.
    #. **LaTeX 컴파일러 사용하기** 정책키 입력칸에서, false를 true로 변경한다.
-   #. 페이지 하단에 있는, **변경 사항 저장하기** 을 클릭한다.
+   #. 페이지 하단에 있는, **변경 사항 저장하기** 를 클릭한다.
 
-#. 구성요소를 생성 하고자 하는 학습활동에서, **신규 구성요소 추가** 에서 **html** 을 클릭한 후, **E-text Written in LaTeX** 를 클릭한다. 새 구성요소가 학습활동에 추가된다.
+#. 구성요소를 만들고자 하는 학습활동에서, **신규 구성요소 추가** 에서 **html** 을 클릭한 후, **E-text Written in LaTeX** 를 클릭한다. 새 구성요소가 학습활동에 추가된다.
 
-#. 새 구성요소를 열려면 **편집** 을 클릭한다. 구성요소 편집기가 열린다.
+#. **편집** 을 클릭한다. 구성요소 편집기가 열린다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/latex_component.png
    :alt: Image of the HTML component editor with the LaTeX compiler.
 
-4. 구성 요소 편집기에서 **LaTex  소스 컴파일러 실행** 을 클릭한다. LaTex 편집기가 열린다.
+4. 구성요소 편집기에서 **LaTex  소스 컴파일러 실행** 을 클릭한다. LaTex 편집기가 열린다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeXEditor.png
     :alt: Image of the HTML component editor with the LaTeX compiler
@@ -418,4 +414,4 @@ LaTeX 코드를 포함하는 HTML 구성요소를 만들려면:
 
 #. 학습활동 페이지에서, 콘텐츠가 LMS에서 보이듯이 원하는 방식으로 보이는지 확인하기 위해 **미리보기** 를 클릭한다.
 
-   오류가 나타나는 경우, 해당 학습활동 페이지로 다시 이동한다. 구성 요소를 다시 열기 위해 **편집** 을 클릭하고 난 다음  그리고 LaTeX 코드를 편집하기 위해 구성 요소 편집기의 왼쪽 아래 모서리에 있는 **LaTex 소스 컴파일러 시작하기** 를 클릭한다.
+   오류가 나타나는 경우, 해당 학습활동 페이지로 다시 이동한다. 구성 요소를 다시 열기 위해 **편집** 을 클릭한 후 LaTeX 코드를 편집하기 위해 구성 요소 편집기의 왼쪽 아래 모서리에 있는 **LaTex 소스 컴파일러 시작하기** 를 클릭한다.
