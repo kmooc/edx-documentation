@@ -10,9 +10,8 @@
 
 콘텐츠를 시험해보는 방법으로, 
 
-
-* `Preview Course Content`_ 또는,
-* `View Your Live Course`_  를 할 수 있다.
+* :ref:`Preview Course Content` 또는,
+* :ref:`View Your Live Course`  를 할 수 있다.
 
 .. 참고:: 콘텐츠 그룹을 만들어 특정 콘텐츠를 특정 학습자들만 볼 수 있게 하려면, :ref:`Preview Cohort Specific
   Courseware` 를 살펴보는 것이 좋다.
@@ -33,7 +32,7 @@
 (Never Published)`, :ref:`Draft (Unpublished Changes)`, 또는 :ref:`Visible to
 Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
 
-예를 들어, :ref:`publish a unit<Publish a Unit>` 를 하는데, 이 학습활동에 동영상과 게시판이 포함되어 있는 경우
+예를 들어, :ref:`Publish a Unit` 를 하는데, 이 학습활동에 동영상과 게시판이 포함되어 있는 경우
 
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-studio.png
  :alt: A unit in Studio with a video and discussion
@@ -55,9 +54,9 @@ Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
 .. image:: ../../../shared/building_and_running_chapters/Images/test-unit-lms-added-comp.png
  :alt: A unit in the LMS with a video, problem, and discussion
 
-이는 :ref:`publish the change<Publish a Unit>` 후, 학습자가 보게 될 화면이다. 
+이는 :ref:`Publish a Unit` 후, 학습자가 보게 될 화면이다. 
 
-진행중인 강좌에서는, :ref:`publish the change<Publish a Unit>` 전까지는 학습자가 선다형 문제가 추가되기 전의 콘텐츠를 보게 될 것이다. 
+진행중인 강좌에서는, :ref:`Publish a Unit` 전까지는 학습자가 선다형 문제가 추가되기 전의 콘텐츠를 보게 될 것이다. 
 
 한편, 콘텐츠 그룹을 만들 경우 특정 콘텐츠를 특정 학습자들만 볼 수 있게 할 수 있다. 이때 강좌가 어떻게 보이는지를 미리보는 방법은 :ref:`Preview Cohort Specific Courseware` 에 안내되어 있다.
 
@@ -110,7 +109,7 @@ Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
   이 학습활동을 보려면, :ref:`Preview
   Course Content` 에서 안내된 방법에 따라 미리보기 모드에서 볼 수 있다.
  
-* :ref:`run your course<Running Your Course Index>` 를 지원하는 교수자 대시보드를 이용할 수 있다. 
+* :ref:`Running Your Course Index` 를 지원하는 교수자 대시보드를 이용할 수 있다. 
 
 **운영팀 보기** 권한으로 강좌를 보면, 의도했던 대로 강좌가 만들어지고 진행되는지 시험해볼 수 있다.
 예를 들어, 소주제의 공개일 전에, 강좌 운영팀이 문제를 풀어보며 정답을 택했을 때 초록색 체크 표시가 나타나는지,
@@ -141,7 +140,7 @@ Staff Only` 상태의 학습활동 콘텐츠를 미리 보는 것이다.
   이를 보려면, 교수자 보기 권한이나 미리보기 모드로 전환해야 한다. 
   이에 관해선 :ref:`Preview Course Content` 에 안내되어 있다.
 
-* :ref:`run your course<Running Your Course Index>` 를 지원하는 교수자 대시보드를 이용할 수 있다. 
+* :ref:`Running Your Course Index` 를 지원하는 교수자 대시보드를 이용할 수 있다. 
 
 
 *************************************
