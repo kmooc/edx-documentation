@@ -6,11 +6,11 @@
 
 주제를 만들기 전에, 우선 다음 사항을 이해해야 한다.
 
-* :ref: `What Is a Section?`
-* :ref: `Viewing Sections in the Outline`
-* :ref: `The Student View of a Section`
-* :ref: `Sections and Visibility to Students`
-* :ref: `Release Statuses of Sections`
+* :ref:`What Is a Section?`
+* :ref:`Viewing Sections in the Outline`
+* :ref:`The Student View of a Section`
+* :ref:`Sections and Visibility to Students`
+* :ref:`Release Statuses of Sections`
 
   
 주제와 관련된 작업은 다음과 같은 것이 있다.
