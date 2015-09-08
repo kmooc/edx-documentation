@@ -7,11 +7,11 @@
 학습활동을 만들기 전에, 우선 다음 사항을 이해해야 한다.
 
 * :ref:`What is a Component`
-* `Add a Component`_
-* `Edit a Component`_
-* `Duplicate a Component`_
-* `Delete a Component`_
-* `Components that Contain Other Components`_
+* :ref:`Add a Component`
+* :ref:`Edit a Component`
+* :ref:`Duplicate a Component`
+* :ref:`Delete a Component`
+* :ref:`Components that Contain Other Components`
 
 구성요소의 종류에 대한 더 자세한 안내는 아래 링크에 있다.
 
@@ -26,9 +26,7 @@
 
 구성요소는 학습활동의 부분으로, 실제 강좌 콘텐츠라고 볼 수 있다. 1개의 학습활동은 1개 이상의 구성요소를 포함할 수 있다.
 
-학습자는 학습활동에 있는 모든 구성요소명을 볼 수 있다.
-A student can view the name of all components in a unit by hovering over the
-unit in the ribbon at the top of the page.
+학습자는 페이지 상단의 리본(ribbon)에 있는 학습활동에 속한 모든 구성요소를 마우스로 이동하여 명칭을 확인할 수 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ComponentNames_CourseRibbon.png
  :alt: Image of the component list for a unit
@@ -245,8 +243,7 @@ references the parent component file that contains the child components:
         <vertical url_name="c5c8b27c2c5546e784432f3b2b6cf2ea"/>
     </vertical>
 
-The two verticals referenced by the parent component refer to the child
-components, which contain the actual content of your course:
+부모 콤포넌트에 의해 참조된 verticals는 강좌의 실제 콘텐츠를 포함한 자녀 컴포넌트를 의미한다. :
 
 .. code-block:: xml
 
