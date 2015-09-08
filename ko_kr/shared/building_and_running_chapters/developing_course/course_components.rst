@@ -51,7 +51,7 @@
 구성요소 추가하기
 ********************
 
-강좌개요에서 **+새로운 학습활동**을 클릭한 후, 
+강좌개요에서 **+새로운 학습활동** 을 클릭한 후, 
 바뀐 페이지의 **신규 구성요소 추가** 에서 원하는 구성요소 유형을 클릭한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/AddNewComponent.png
@@ -86,7 +86,7 @@
 =====================================
 
 상단에 가로로 나타나는 구성요소 페이지의 명칭을 설정할 수 있다.
-이 이름은 학습자가 course ribbob의 아이콘에 마우스 커서를 올릴 때에도 나타난다.
+이 이름은 학습자가 강좌 리본의 아이콘에 마우스 커서를 올릴 때에도 나타난다.
 
 구성요소 메뉴명을 설정하려면,
 
@@ -108,7 +108,7 @@
 **********************
 
 구성요소를 복사하면, 구성요소 사본이 첫 번째 구성요소 바로 아래에 추가된다.
-그러면 그 사본을 수정할 수 있다. 대부분의 경우, 구성요소를 복사하여 사본을 편집하는 것이 신규 구성요소를 만드는 것 보다 빠르다.
+그러면 사본을 수정할 수 있다. 대부분의 경우, 구성요소를 복사하여 사본을 편집하는 것이 신규 구성요소를 만드는 것 보다 빠르다.
 
 구성요소를 복사하려면, 구성요소 영역의 오른쪽 상단에서 복사 아이콘을 클릭하면 된다.
 
@@ -117,9 +117,9 @@
 
 그후 편집중인 구성요소의 안내를 따라 진행한다.
 
-구성요소를 복사해서 만든 구성요소는 :ref:`publish the unit<Publish a Unit>` 후에 학습자에게 공개될 수 있다.
+구성요소를 복사해서 만든 구성요소는 :ref:`Publish a Unit` 후에 학습자에게 공개될 수 있다.
 
-.. 참고::  콘텐츠 실험은 복사할 수 없다.
+.. 참고:: 콘텐츠 실험은 복사할 수 없다.
 
 .. _Delete a Component:
 
@@ -137,9 +137,9 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/unit-delete.png
   :alt: Image of a unit with Delete icon circled
 
-2. 삭제 여부를 확인하는 대화상자가 뜨면, **네, 구성요소를 삭제합니다.**를 클릭한다.
+2. 삭제 여부를 확인하는 대화상자가 뜨면, **네, 구성요소를 삭제합니다.** 를 클릭한다.
 
-구성요소를 삭제하더라도, :ref:`publish the unit<Publish a Unit>` 하기 전에는 학습자가 볼 수 있다는 것에 유의한다.
+구성요소를 삭제하더라도, :ref:`Publish a Unit` 하기 전에는 학습자가 볼 수 있다는 것에 유의한다.
 
 .. _Components that Contain Other Components:
 
@@ -190,10 +190,10 @@
 
 구성요소와 관련된 작업은 아래 링크에 있다.
 
-* `Edit a Component`_
-* `Set the Display Name for a Component`_
-* `Duplicate a Component`_
-* `Delete a Component`_
+* :ref:`Edit a Component`
+* :ref:`Set the Display Name for a Component`
+* :ref:`Duplicate a Component`
+* :ref:`Delete a Component`
 
 ======================================
 자녀 구성요소 추가하기
@@ -232,9 +232,9 @@ s.org/projects/devdata/en/latest/course_data_formats/course_xml.html>`_ 에 있�
         <html url_name="6a5cf0ea41a54b209e0815147896d1b2"/>
         <vertical url_name="131a499ddaa3474194c1aa2eced34455"/>
     </vertical>
-
-The ``<vertical url_name="131a499ddaa3474194c1aa2eced34455"/>`` element above
-references the parent component file that contains the child components:
+ 
+위의 ``<vertical url_name="131a499ddaa3474194c1aa2eced34455"/>`` 는 자녀 구성요소를 포함한
+부모 구성요소를 참조한다:
  
 .. code-block:: xml
 
@@ -272,7 +272,8 @@ references the parent component file that contains the child components:
 .. image:: ../../../shared/building_and_running_chapters/Images/nested_components_student_view.png
  :alt: Image of the student's view of nested components
 
-.. note:: 중첩된 구성요소의 적용된 화면은 부모 학습활동의 적용된 화면을 따른다. 부모 학습활동은 중첩된 구성요소를 보기 위해 학생들에게 개방되어져야 한다. 자세히 보기 위해, see :ref:`Unit States and Visibility to Students` 를 살펴 본다.
+.. note:: 
+  중첩된 구성요소의 적용된 화면은 부모 학습활동의 적용된 화면을 따른다. 부모 학습활동은 중첩된 구성요소를 보기 위해 학생들에게   개방되어져야 한다. 자세히 보기 위해, see :ref:`Unit States and Visibility to Students` 를 살펴 본다.
 
 
 *******************************
