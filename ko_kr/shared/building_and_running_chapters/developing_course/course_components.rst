@@ -178,7 +178,7 @@
 ======================================
 
 부모 구성요소의 **보기** 를 클릭하면, 모든 자녀 구성요소를 볼 수 있다.
-다음 예시에서, 자녀 구성요소 A가 HTMK과 동영상을 포함하고 있다.
+다음 예시에서, 자녀 구성요소 A가 HTML과 동영상을 포함하고 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/child-components-a.png
  :alt: Image of an expanded child component
