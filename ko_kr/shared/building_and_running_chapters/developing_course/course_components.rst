@@ -177,7 +177,7 @@
 자녀 구성요소 편집하기
 ======================================
 
-부모 구성요소의 **보기**를 클릭하면, 모든 자녀 구성요소를 볼 수 있다.
+부모 구성요소의 **보기** 를 클릭하면, 모든 자녀 구성요소를 볼 수 있다.
 다음 예시에서, 자녀 구성요소 A가 HTMK과 동영상을 포함하고 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/child-components-a.png
@@ -279,17 +279,14 @@ references the parent component file that contains the child components:
 자녀 구성요소의 재 조직화
 *******************************
 
-You can reorganize child components through the same drag and drop process you
-use for other objects in your course outline. You hover over the element handle
-on the right side of the screen until the mouse pointer changes to a four-
-headed arrow. Then, click and drag the element to the location that you want.
+강좌 외에 다른 객체에 사용한 동일한 드래그 앤 드롭과정을 통해 자녀 구성요소를 재조직할 수 있다. 
+이동용 마우스포인트(화살표4개인)로 바뀔때까지 화면의 오른쪽 하단으로 요소를 움직인다. 그리고, 
+원하는 지점으로 요소를 클릭해서 드래그 한다.  
 
-Furthermore, when you have multiple levels of nesting, you can drag a child
-component into a different parent component, if both parents are expanded. For
-example, you can select the video component that is in Child Component A and
-drag it into Child Component B. Select the video component, and as you drag it
-into Child Component B, release the mouse button when a dashed outline of the
-component you are moving appears in the new location:
+또한, 중첩의 다중수준이 있을 경우, 다른 부모 구성요소로, 두 부모가 확장된다면, 
+자녀 구성요소를 드래그 할 수 있다. 예를 들어, 자녀 구성요소 A에서 동영상 구성요소를 선택하고
+자녀 구성요소 B로 드래그 할 수 있다. 동영상 구성요소를 선택하여 자녀 구성요소 B로 이동한것처럼, 
+움직이는 구성요소는 새로운 지점에서 점선의 개요(outline)이 나타날 때 마우스 버튼을 놓는다:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/drag_child_component.png
  :alt: Image of dragging a child component to a new location
