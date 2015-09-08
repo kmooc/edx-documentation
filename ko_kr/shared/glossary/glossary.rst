@@ -16,21 +16,21 @@ A
 
 **A/B Test**
 
-  See `Content Experiment`_.
+  :ref:`Content Experiment`를 살펴본다.
 
 .. _About Page:
 
 **About Page**
 
-  The course page that provides potential students with a course summary, prerequisites, a course video and image, and important dates.
+  예비 학습자에게 강좌의 요약, 선수강좌, 강좌 비디오와 이미지, 중요한 일정을 제공하는 페이지이다. 
 
-  See :ref:`Providing a Course Overview` for more information.
+  추가 정보는 :ref:`Providing a Course Overview` 를 살펴 본다. 
 
 .. _Advanced Editor_g:
  
 **Advanced Editor**
 
-  An XML-only editor in a Problem component that allows you to can create and edit any type of problem. For more information, see :ref:`Advanced Editor`.
+  문제 구성요소에서의 문제 유형을 만들고 편집할 수 있도록 하는 XML 에디터로, 추가정보는 :ref:`Advanced Editor` 를 살펴 본다. 
 
 
 
