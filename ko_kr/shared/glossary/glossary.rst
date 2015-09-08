@@ -62,14 +62,14 @@ C
  
 **체크박스 문제**
 
-  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크 하는 문제유형이다. 추가 정보는 see :ref:`Checkbox` 를 살펴본다. 
+  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크 하는 문제유형이다. 추가 정보는 :ref:`Checkbox` 를 살펴본다. 
 
 
 .. _Chemical Equation Response Problem:
  
 **화학 공식 문제**
 
-  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제유형이다. 추가 정보는 see :ref:`Chemical Equation` 를 살펴본다. 
+  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제유형이다. 추가 정보는 :ref:`Chemical Equation` 를 살펴본다. 
 
 
 .. _Circuit Schematic Builder Problem:
