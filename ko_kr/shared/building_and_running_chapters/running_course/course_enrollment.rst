@@ -16,7 +16,7 @@
 
 * :ref:`unenroll_student`
 
-강좌의  수강신청 데이터는  edX Insights에서 이용할 수 있다. 강좌 보기의 교수자 대시보드에서 Insights에 접근할 수 있다: **교수자** 클릭 후, 각 페이지의 상단에 있는 배너의 링크를 클릭한다. 자세한 정보는  `Using edX Insights`_ 에서 확인한다.
+강좌의  수강신청 데이터는  edX Insights에서 이용할 수 있다. 강좌 보기의 교수자 대시보드에서 Insights에 접근할 수 있다: **교수자** 클릭 후, 각 페이지의 상단에 있는 배너의 링크를 클릭한다. 자세한 정보는 :ref:`Using edX Insights` 에서 확인한다.
 
 .. _registration_enrollment:
 
@@ -91,9 +91,7 @@
 
 * 학습자는 등록을 취소할 수 있으며 강좌 개설자와 교수자가 필요시 학습자의 등록을 취소할 수도 있다. 
  
-  **Note**: The enrollment count displays the number of currently enrolled
-  students and course team staff. It is not a historical count of everyone who
-  has ever enrolled in the course.
+  **Note**: 전체 등록 인원 수는 현재 수강신청하여 등록되어 있는 학습자와 강좌 운영팀의 수이다. 강좌에 등록되었던 모든 이를 누적하여 산출한 것이 아니다. 
 
 전체 등록 인원 수를 보려면,
 
@@ -116,9 +114,7 @@
 학습자의 등록을 취소함으로써 해당 학습자를 전체 수강 인원에서 삭제할 수 있다. 학습자가 다시 등록 하는 것을 방지하려면 수강 신청이 종료되어야 한다. Studio에서 현재 보다 이전 시점으로 **수강 신청 종료 날짜** 를 설정한다. 이에 관해선
 :ref:`Set Important Dates for Your Course` 에 더 자세히 안내되어 있다.
 
-**Note**: Unenrollment does not delete data for a student. An unenrolled
-student's state remains in the database and is reinstated if the student does
-re-enroll.
+**Note**: 등록 취소는 학습자의 데이터를 삭제하지 않는다. 등록 취소된 학생의 상태는 데이터베이스에 남아 있고, 재 등록시 저장된 정보를 활용하게 된다. 
 
 등록된 학습자의 등록을 취소하려면, 이메일 주소를 입력해야 한다. 
 
