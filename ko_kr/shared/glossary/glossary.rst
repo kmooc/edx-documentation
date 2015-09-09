@@ -98,11 +98,7 @@
 
 **콘텐츠 실험**
 
-  You can define alternative course content to be delivered to different,
-  randomly assigned groups of students. Also known as A/B or split testing, you
-  use content experiments to compare the performance of students who have been
-  exposed to different versions of the content. For more information, see
-  :ref:`Creating Content Experiments`.
+  다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. 참고: :ref:`Creating Content Experiments`
 
 **Content-Specific Discussion Topic**
 
@@ -562,7 +558,7 @@ T
 
 .. _Text Input Problem:
  
-**Text Input Problem**
+**텍스트 입력 문제**
 
   A problem that asks the student to enter a line of text, which is then checked against a specified expected answer.
 
@@ -571,11 +567,9 @@ T
 
 .. _Transcript:
  
-**Transcript**
+**자막**
 
-  A printed version of the content of a video. You can make video transcripts available to students.
-
-  See :ref:`Working with Video Components` for more information.
+  동영상 콘텐츠를 텍스트로 옮긴 것이다. 학습자를 위해 동영상 자막을 만들어 활용할 수 있다. 참고: :ref:`Working with Video Components` 
 
 
 .. _V:
@@ -586,11 +580,9 @@ V
 
 .. _Video Component:
  
-**Video Component**
+**동영상 구성요소**
 
-  A component that you can use to add recorded videos to your course. 
-
-  See :ref:`Working with Video Components` for more information.
+  강좌에서 이용되는 녹화된 동영상을 사용하도록 하는 구성요소.  참고: :ref:`Working with Video Components` 
 
 
 .. _W:
@@ -601,11 +593,11 @@ W
 
 .. _Wiki:
  
-**Wiki**
+**위키(Wiki)**
 
-  The page in each edX course that allows students as well as course staff to add, modify, or delete content. 
+  각 K-MOOC 강좌는 위키 페이지에서 학습자 및 강좌 운영팀에서 콘텐츠를 작성하고, 수정하며, 삭제할 수 있다.
  
-  Students can use the wiki to share links, notes, and other helpful information with each other. 
+  학습자는 위키를 링크, 노트, 도움이되는 정보를 서로에게 공유하기 위해 사용할 수 있다. 
 
 
 .. _X:
