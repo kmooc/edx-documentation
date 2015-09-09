@@ -4,12 +4,12 @@
 주요 용어
 ############
 
-:ref:`A` - :ref:`C` - :ref:`D` - :ref:`E` - :ref:`F` - :ref:`G` - :ref:`H` - :ref:`I` - :ref:`L` - :ref:`M` - :ref:`N` - :ref:`P` - :ref:`R` - :ref:`S` - :ref:`T` - :ref:`V` - :ref:`W` - :ref:`XYZ<X>`
+:ref:`가` - :ref:`나` - :ref:`다` - :ref:`라` - :ref:`마` - :ref:`바` - :ref:`사` - :ref:`아` - :ref:`자` - :ref:`차` - :ref:`카` - :ref:`타` - :ref:`파` - :ref:`하` 
 
-.. _A:
+.. _가:
 
 ****
-A
+가
 ****
 
 .. _AB Test:
@@ -43,10 +43,10 @@ A
 
   추가 정보는 :ref:`Establish a Grading Policy` 를 살펴 본다. 
 
-.. _C:
+.. _나:
 
 ****
-C
+나
 ****
 
 
@@ -84,21 +84,15 @@ C
  
 **학습 집단**
 
-  A group of students who participate in a class together. Students who are in
-  the same cohort group can communicate and share experiences in private
-  discussions.
+  강좌에서 함께 참여하는 학습자 집단. 동일한 학습 집단에 속해 있는 학습자는 집단내에서만 소통하고 공유의 경험을 가질 수 있다.
 
-  Cohorts are an optional feature of courses on the edX platform. For
-  information about how you enable the cohort feature, set up cohort groups,
-  and assign students to them, see :ref:`Cohorts Overview`.
+  K-MOOC 플랫폼에서 강좌의 선택적 특성이다. 학습집단의 활성화바법, 설정방법, 학습자를 학습집단에 배정하는 방법은 :ref:`Cohorts Overview` 를 참고 한다. 
 
 .. _Component_g:
  
 **구성요소**
 
-  The part of a unit that contains your actual course content. A unit can
-  contain one or more components. For more information, see :ref:`Developing
-  Course Components`.
+  실제 강좌 콘텐츠를 포함하고 있는 학습활동(unit) 영역의 부분. 하나의 학습활동은 하나 이상의 구성요소를 가질 수 있다. 참고: :ref:`Developing Course Components`.
 
 .. _Content Experiment:
 
@@ -180,10 +174,10 @@ C
 
   A custom response problem evaluates text responses from students using an embedded Python script. These problems are also called "write-your-own-grader" problems. For more information, see :ref:`Write Your Own Grader`. 
 
-.. _D:
+.. _다:
 
 ****
-D
+다
 ****
 
 .. _Data Czar_g:
@@ -227,10 +221,10 @@ D
   A problem that asks students to choose from a collection of answer options, presented as a drop-down list. For more information, see :ref:`Dropdown`.
 
 
-.. _E:
+.. _라:
 
 ****
-E
+라
 ****
 
 .. _edX101_g:
@@ -255,33 +249,31 @@ E
 
 .. _edX Studio:
  
-**edX Studio**
+**Studio**
 
-  The edX tool you use to build your courses. 
-
-  See :ref:`What is Studio?` for more information.
+  강좌를 만드는데 사용하는 도구. 참고: :ref:`What is Studio?` 
 
 
 .. _Exercises:
  
-**Exercises**
+**연습문제**
 
-  Practice or practical problems interspersed in edX course content to keep the learner engaged. Exercises are also an important measure of teaching effectiveness and learner comprehension.
+  연습 문제는 학습자 참여가 지속되도록 하기 위해 K-MOOC 강좌 콘텐츠에서 포함된다. 연습문제는 교수활동의 효과성과 학습자의 이해를 측정하기 위해 중요하다. 
 
-.. _F:
+.. _마:
 
 ***
-F
+마
 ***
 
-**Forum**
+**포럼(Forum)**
 
-  See :ref:`Discussion<D>`.
+  참고: :ref:`Discussion<D>`.
 
-.. _G:
+.. _바:
 
 ****
-G
+바
 ****
 
 .. _grade:
@@ -302,36 +294,31 @@ G
   See :ref:`PA Rubric` for more information.
 
 
-.. _H:
+.. _사:
 
 ****
-H
+사
 ****
 
 .. _HTML Component:
  
-**HTML Component**
+**HTML 구성요소**
 
-  The component where you add and format text for your course. An HTML component can contain text, lists, links and images. 
-
-  See :ref:`Working with HTML Components` for more information.
+  강좌에 추가하거나 텍스트 서식을 위한 구성요소. HTML 구성요소는 텍스트, 목록, 링크, 이미지를 포함. 추가: :ref:`Working with HTML Components`
 
 
-
-.. _I:
+.. _아:
 
 ****
-I
+아
 ****
 
 
 .. _Image Mapped Input Problem:
  
-**Image Mapped Input Problem**
+**이미지맵 입력 문제**
 
-  A problem that presents an image and accepts clicks on the image as an answer.
-
-  See :ref:`Image Mapped Input` for more information.
+  이미지를 부여주고 정답을 위해 이미지를 클릭하는 문제. 참고: :ref:`Image Mapped Input` 
 
 .. _Import:
  
@@ -344,10 +331,10 @@ I
 
  
 
-.. _L:
+.. _아:
 
 ****
-L
+아
 ****
 
 
@@ -365,12 +352,9 @@ L
 
 .. _Learning Management System:
  
-**Learning Management System (LMS)**
+**학습관리시스템(Learning Management System, LMS)**
 
-  The platform that students use to view courses, and that course staff members
-  use to manage enrollment and staff privileges, moderate dicussions, and
-  access data while the course is running.
-
+  강좌가 운영되는 동안 학습자가 강좌를 보거나, 강좌 운영팀이 등록 관리를 하거나, 운영자의 권한을 관리하거나, 토의를 조정하거나, 데이터에 접근하는데 기반이 되는 플랫폼.
 
 
 .. _Live Mode:
@@ -382,10 +366,10 @@ L
   See :ref:`View Your Live Course` for more information.
 
 
-.. _M:
+.. _자:
 
 ****
-M
+자
 ****
 
 .. _Math Expression Input Problem:
@@ -417,10 +401,10 @@ M
   See :ref:`Multiple Choice` for more information.
 
 
-.. _N:
+.. _차:
 
 ****
-N
+차
 ****
 
 .. _Numerical Input Problem:
@@ -433,10 +417,10 @@ N
 
 
 
-.. _P:
+.. _카:
 
 ****
-P
+카
 ****
 
 .. _Pages_g:
@@ -490,10 +474,10 @@ The page in the learning management system that shows students their scores on g
 
 ..  See :ref:`Public and Private Units` for more information.
 
-.. _Q:
+.. _파:
 
 *****
-Q
+파
 *****
 
 **Question**
@@ -504,10 +488,10 @@ Q
 
   See :ref:`Discussions` for more information.
   
-.. _R:
+.. _하:
 
 ****
-R
+하
 ****
 
 .. _Rubric:
