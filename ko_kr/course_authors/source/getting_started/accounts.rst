@@ -45,7 +45,7 @@ kmooc.kr 및 테스트서버
 kmooc.kr 또는 테스트서버에 가입한다.  
 
 #. kmooc.kr의 경우, `등록 및 로그인 페이지
-   <https://courses.edx.org/account/login>`_. 로 이동한 다음 **가입하기** 를 선택한다.  
+   <https://kmooc.kr/login>`_. 로 이동한 다음 **가입하기** 를 선택한다.  
 
    테스트서버의 경우, `등록 및 로그인 페이지 <http://edx.kotech.biz/register?next=%2Fdashboard>`_ 로 이동한다.
 
