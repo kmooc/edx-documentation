@@ -67,14 +67,6 @@ Email
 
 * 질문을 하거나 다른 edX 협력 기관에 있는 동료들 및 edX 관리자와의 토론에 참여하기 위해 openedx-studio Google 그룹에 가입한다.
 
-위키 및 웹 사이트
--------------------
-
-edX 제품 팀은 Open edX Public Product Roadmap를 포함하는  Open edX Product위키를 관리한다. 
-
-edX Author Support사이트는 edX관리자에 의해 모니터링되는 토론을 진행한다.
-
-
 
 .. _edX Guide for Students: http://edx-guide-for-students.readthedocs.org/en/latest/
 
