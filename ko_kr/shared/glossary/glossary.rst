@@ -246,13 +246,13 @@
 
 **주제**
 
-주제는 강좌에서 가장 상위 범주에 해당한다. 순차적으로 공개되는 주제를 보면 개강일 이후 강좌가 진행되는 흐름을 알 수도 있고, 강좌가 어떻게 구성되어 있는지를 한 눈에 볼 수 있기도 하다. 각 주제는 1개 이상의 소주제를 가진다. :ref:`Developing Course Sections` 에 자세한 안내가 있다.
+  주제는 강좌에서 가장 상위 범주에 해당한다. 순차적으로 공개되는 주제를 보면 개강일 이후 강좌가 진행되는 흐름을 알 수도 있고, 강좌가 어떻게 구성되어 있는지를 한 눈에 볼 수 있기도 하다. 각 주제는 1개 이상의 소주제를 가진다. :ref:`Developing Course Sections` 에 자세한 안내가 있다.
 
 .. _Progress Page:
  
-**진도 페이지**
+**진도 페이지** 
 
-학습 관리 시스템에 있는 페이지로 성적에 반영되는 소주제에서의 점수를 보여준다.
+  학습 관리 시스템에 있는 페이지로 성적에 반영되는 소주제에서의 점수를 보여준다.
 
 
 
@@ -267,7 +267,7 @@
  
 **체크박스 문제**
 
-  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크하는 문제유형이다.  :ref:`Checkbox` 에 자세히 안내되어 있다. 
+  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크하는 문제유형이다.  :ref:`Checkbox` 에 자세한 안내가 있다.
 
 
 .. _Grading Rubric:
@@ -320,7 +320,7 @@
  
 **문제 구성요소**
 
-  A component that allows you to add interactive, automatically graded exercises to your course content. You can create many different types of problems. :ref:`Working with Problem Components`  에 자세한 안내가 있다.
+  A component that allows you to add interactive, automatically graded exercises to your course content. You can create many different types of problems. :ref:`Working with Problem Components` 에 자세한 안내가 있다.
 
 .. _Preview Mode:
  
@@ -369,7 +369,7 @@
  
 **화학 공식 문제**
 
-  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제 유형이다.  :ref:`Chemical Equation` 에 자세히 안내되어 있다. 
+  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제 유형이다.  :ref:`Chemical Equation` 에 자세한 안내가 있다.
 
 .. _Circuit Schematic Builder Problem:
  
@@ -458,7 +458,7 @@ T
  
 **자막**
 
-  동영상 콘텐츠를 텍스트로 옮긴 것이다. 학습자를 위해 동영상 자막을 만들어 활용할 수 있다. 참고: :ref:`Working with Video Components` 
+  동영상 콘텐츠를 텍스트로 옮긴 것이다. 학습자를 위해 동영상 자막을 만들어 활용할 수 있다. :ref:`Working with Video Components` 에 자세한 안내가 있다.
 
 
 .. _V:
