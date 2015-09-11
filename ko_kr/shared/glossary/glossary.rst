@@ -324,7 +324,7 @@
 
 .. _Preview Mode:
  
-**미리보기 모드e**
+**미리보기 모드**
 
   A view that allows you to see all the units of your course as students see
   them, regardless of the unit status and regardless of whether the release
