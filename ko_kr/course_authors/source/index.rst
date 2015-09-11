@@ -22,4 +22,4 @@ edX 과정 개발 및 운영 매뉴얼 번역본
    cohorts/index
    releasing_course/index
    running_course/index
-   students/index
+
