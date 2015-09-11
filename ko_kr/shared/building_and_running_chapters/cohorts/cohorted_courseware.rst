@@ -5,9 +5,9 @@
 학습집단별 강좌 내용 만들기
 ###################################
 
-강좌에서 학습집단을 활성화했다면 :ref:`cohorts enabled<Enabling and Configuring Cohorts>` 각 학습집단에 속한 학습자에게 다른 학습 경험을 제공할 수 있다.
+강좌에서 학습집단을 활성화했다면 :ref:`Enabling and Configuring Cohorts` 각 학습집단에 속한 학습자에게 다른 학습 경험을 제공할 수 있다.
 
-일부 학습자에게 다른 학습자와 다른 내용을 제공할 수 있도록 강좌를 설계할 수 있다. 스튜디오에서 콘텐츠 그룹 :ref:`content groups<About Content Groups>` 을 만들고, 하나 또는 그 이상의 콘텐츠 그룹에게만 공개되는 특정 구성 요소를 지정할 수 있다. 하나 이상의 학습집단을 하나의 콘텐츠 그룹으로 결합시킨다면, 콘텐츠 그룹으로 결합된 학습집단의 학습자 만이 그들을 위해 설계된 강좌의 내용을 볼 수 있다.
+일부 학습자에게 다른 학습자와 다른 내용을 제공할 수 있도록 강좌를 설계할 수 있다. 스튜디오에서 콘텐츠 그룹 :ref:`About Content Groups` 을 만들고, 하나 또는 그 이상의 콘텐츠 그룹에게만 공개되는 특정 구성 요소를 지정할 수 있다. 하나 이상의 학습집단을 하나의 콘텐츠 그룹으로 결합시킨다면, 콘텐츠 그룹으로 결합된 학습집단의 학습자 만이 그들을 위해 설계된 강좌의 내용을 볼 수 있다.
 
 콘텐츠 그룹에 대한 세부적인 사항은, 콘텐츠 그룹 :ref:`About Content Groups` 에서 확인할 수 있다. 예시: 학습집단별 강좌 내용에서 학습집단별 강좌 내용 :ref:`Cohorted Courseware Example` 의 사례를 참고할 수 있다.
 
@@ -16,18 +16,17 @@
 
 스튜디오에서:
 
-#. :ref:`Enable cohorts in your course<Enabling and Configuring Cohorts>`.
-#. :ref:`Create content groups<Creating Content Groups>`. 
-#. :ref:`Specify components in courseware as visible only to particular content
-   groups<Specify Components in Courseware as Visible Only to Certain Content
-   Groups>`.
+#. :ref:`Enabling and Configuring Cohorts`.
+#. :ref:`Creating Content Groups`. 
+#. :ref:`Specify Components in Courseware as Visible Only to Certain Content
+   Groups`.
      
 LMS에서: 
 
-#. :ref:`Assign students to cohorts<Options for Assigning Students to Cohorts>`.  
-#. :ref:`Associate one or more cohorts with a content group<Associate Cohorts
-   with Content Groups>`.
-#. :ref:`Preview cohort-specific courseware<Preview Cohort Specific Courseware>`.
+#. :ref:`Options for Assigning Students to Cohorts`.  
+#. :ref:`Associate Cohorts
+   with Content Groups`.
+#. :ref:`Preview Cohort Specific Courseware`.
 
 
 .. _Cohorted Courseware Example:
@@ -36,7 +35,7 @@ LMS에서:
 예시: 학습집단별 강좌 내용
 ***********************************
 
-한 대학의 졸업생과 현재 이 대학에 재학 중인 학습자로 구성된 두 개의 학습집단 :ref:`cohorts<Cohorts Overview>` 이 있는 강좌를 가정하자. 두 개의 학습집단 중 어디에도 속하지 않는 학습자는 이들이 코스웨어 또는 토의 게시판에 방문하였을 때, 기본 학습집단인 세 번째 학습집단에 자동적으로 배치될 것이다. 학습집단을 활성화하고 학습자를 학습집단에 배치하는 방법에 대한 자세한 정보는 학습집단 기능 활성화 및 설정하기 :ref:`Enabling and Configuring Cohorts` 에서 참고할 수 있다. 
+한 대학의 졸업생과 현재 이 대학에 재학 중인 학습자로 구성된 두 개의 학습집단 :ref:`Cohorts Overview` 이 있는 강좌를 가정하자. 두 개의 학습집단 중 어디에도 속하지 않는 학습자는 이들이 코스웨어 또는 토의 게시판에 방문하였을 때, 기본 학습집단인 세 번째 학습집단에 자동적으로 배치될 것이다. 학습집단을 활성화하고 학습자를 학습집단에 배치하는 방법에 대한 자세한 정보는 학습집단 기능 활성화 및 설정하기 :ref:`Enabling and Configuring Cohorts` 에서 참고할 수 있다. 
 
 모든 학습자가 대체로 동일 학습 경험을 가질 수 있도록 하고자 하며, 대학과 관련한 두 개의 학습집단의 학습자에게는 그들이 흥미를 가질 수 있는 특정한 내용들을 제공 하고자 한다.
 
@@ -55,7 +54,7 @@ LMS에서:
 콘텐츠 그룹
 **************
 
-콘텐츠 그룹은 특정 강좌 콘텐츠를 있는 가상의 학습자 분류이다. 특정 강좌 콘텐츠를 일부 학습자의 학습집단 :ref:`cohorts<Cohorts Overview>` 에게만 볼 수 있게 지정하기 위해서 콘텐츠 그룹을 사용할 수 있다. 
+콘텐츠 그룹은 특정 강좌 콘텐츠를 있는 가상의 학습자 분류이다. 특정 강좌 콘텐츠를 일부 학습자의 학습집단 :ref:`Cohorts Overview` 에게만 볼 수 있게 지정하기 위해서 콘텐츠 그룹을 사용할 수 있다. 
 
 스튜디오에서 콘텐츠 그룹을 생성할 수 있으며, 구성 요소가 하나 또는 그 이상의 콘텐츠 그룹만 선택적으로 볼 수 있도록 **강좌 한 눈에 보기** 에서 공개 설정을 사용할 수 있다. 공개 설정에 명확히 제한된 설정이 없는 구성 요소는 학습집단에 상관 없이 모든 학습자가 볼 수 있다.
 
@@ -163,7 +162,7 @@ Groups` 에서 볼 수 있다.
 
 7. **저장** 을 클릭한다.
    
-   이후 콘텐츠 그룹과 학습집단이 결합된다. 이 콘텐츠 그룹에만 공개되도록 설정된 강좌의 콘텐츠들 :ref:`designate as visible to that content group<Specify Components in Courseware as Visible Only to Certain Content Groups>` 은 결합된 학습집단과 기존의 학습집단에 속한 학습자에게 공개된다.
+   이후 콘텐츠 그룹과 학습집단이 결합된다. 이 콘텐츠 그룹에만 공개되도록 설정된 강좌의 콘텐츠들 :ref:`Specify Components in Courseware as Visible Only to Certain Content Groups` 은 결합된 학습집단과 기존의 학습집단에 속한 학습자에게 공개된다.
 
 다른 학습집단을 동일 콘텐츠 그룹이다 또 다른 콘텐츠 그룹에 결합시키기 위해서는 위의 3.에서 7.의 단계를 반복하면 된다.
 
