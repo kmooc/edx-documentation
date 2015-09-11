@@ -21,7 +21,8 @@
 .. _Simple Editor_g:
  
 **간편 편집기**
-일부 문제 유형에서 이용가능한 것으로, 버튼 형식으로 되어 있어 사용하기 편리하다. :ref:`Problem Studio View` 에 자세한 안내가 있다.
+
+  일부 문제 유형에서 이용가능한 것으로, 버튼 형식으로 되어 있어 사용하기 편리하다. :ref:`Problem Studio View` 에 자세한 안내가 있다.
 
 .. _Courseware:
  
@@ -39,9 +40,7 @@
 
 **강좌 소개**
 
-  예비 학습자에게 강좌의 요약, 선수강좌, 강좌 비디오와 이미지, 중요한 일정을 제공하는 페이지이다. 
-
-  :ref:`Providing a Course Overview` 에 자세한 안내가 있다.
+  예비 학습자에게 강좌의 요약, 선수강좌, 강좌 비디오와 이미지, 중요한 일정을 제공하는 페이지이다. :ref:`Providing a Course Overview` 에 자세한 안내가 있다.
 
 **강좌 일반 주제**
 
@@ -53,9 +52,7 @@
  
 **강좌 자료**
 
-  학습자가 강좌와 관련해 다운받을 수 있는 자료로, 강좌 정보 페이지 오른쪽에 있다.
-
-  :ref:`Add Course Handouts` 에 자세한 안내가 있다.
+  학습자가 강좌와 관련해 다운받을 수 있는 자료로, 강좌 정보 페이지 오른쪽에 있다. :ref:`Add Course Handouts` 에 자세한 안내가 있다.
 
 
 .. _Course Info Page:
@@ -78,9 +75,7 @@
  
 **과제 유형**
 
-  학습자 성적에 포함되는 과제 유형으로, 숙제, 시험, 연습문제 등이 있다.
-
-   :ref:`Establish a Grading Policy` 에 자세한 안내가 있다.
+  학습자 성적에 포함되는 과제 유형으로, 숙제, 시험, 연습문제 등이 있다.  :ref:`Establish a Grading Policy` 에 자세한 안내가 있다.
 
 .. _Component_g:
  
@@ -101,9 +96,7 @@
 
   학습활동에 토의 주제를 올려서 학습자들이 토의할 수 있도록, 게시판 구성요소를 추가할 수 있다.  
   예를 들어, 한 페이지에서 토의 구성요소에 이어 바로 동영상 구성요소를 볼 수 있게도 할 수 있는 것이다.
-  게시판 구성요소를 학습활동에 추가하면, 콘텐츠별 토의 주제를 만들게 되는 셈이다.
-
-  :ref:`Working with Discussion Components` 에 자세한 안내가 있다.
+  게시판 구성요소를 학습활동에 추가하면, 콘텐츠별 토의 주제를 만들게 되는 셈이다.  :ref:`Working with Discussion Components` 에 자세한 안내가 있다.
 
 .. _Run:
  
@@ -136,8 +129,7 @@
  
 **드롭다운 문제**
 
-  드롭다운 목록의 형식으로 제시된 선택지에서 정답을 선택하는 문제 유형이다. 
-  :ref:`Dropdown` 에 자세한 안내가 있다.
+  드롭다운 목록의 형식으로 제시된 선택지에서 정답을 선택하는 문제 유형이다.  :ref:`Dropdown` 에 자세한 안내가 있다.
 
 
 .. _라:
@@ -250,17 +242,14 @@
  
 **적용 결과 보기**
 
-  학습자에게 학습활동이 어떻게 볼지 검토하는 기능이다. 학습활동을 포함하는 주제나 소주제의 공개일과 관계 없이 볼 수 있다.  
-  :ref:`View Your Live Course` 에 자세한 안내가 있다.
+  학습자에게 학습활동이 어떻게 볼지 검토하는 기능이다. 학습활동을 포함하는 주제나 소주제의 공개일과 관계 없이 볼 수 있다.   :ref:`View Your Live Course` 에 자세한 안내가 있다.
 
 
 .. _Section_g:
 
 **주제**
 
-주제는 강좌에서 가장 상위 범주에 해당한다. 순차적으로 공개되는 주제를 보면 개강일 이후 강좌가 진행되는 흐름을 알 수도 있고, 강좌가 어떻게 구성되어 있는지를 한 눈에 볼 수 있기도 하다. 각 주제는 1개 이상의 소주제를 가진다.
-
-:ref:`Developing Course Sections` 에 자세한 안내가 있다.
+주제는 강좌에서 가장 상위 범주에 해당한다. 순차적으로 공개되는 주제를 보면 개강일 이후 강좌가 진행되는 흐름을 알 수도 있고, 강좌가 어떻게 구성되어 있는지를 한 눈에 볼 수 있기도 하다. 각 주제는 1개 이상의 소주제를 가진다. :ref:`Developing Course Sections` 에 자세한 안내가 있다.
 
 .. _Progress Page:
  
@@ -288,17 +277,14 @@
  
 **채점 기준표**
  
-  List of the items that a student's response should cover in an open response assessment.
-
- :ref:`PA Rubric` 에 자세한 안내가 있다.
+  List of the items that a student's response should cover in an open response assessment. :ref:`PA Rubric` 에 자세한 안내가 있다.
 
 
 .. _Multiple Choice Problem:
  
 **선다형 문제**
   
-  선택지에서 적절한 답을 선택하는 문제다.
-  :ref:`Multiple Choice` 에 자세히 안내되어 있다. 
+  선택지에서 적절한 답을 선택하는 문제다.  :ref:`Multiple Choice` 에 자세한 안내가 있다.
 
 
 .. _차:
@@ -337,9 +323,7 @@
  
 **문제 구성요소**
 
-  A component that allows you to add interactive, automatically graded exercises to your course content. You can create many different types of problems.
-
-  :ref:`Working with Problem Components`  에 자세한 안내가 있다.
+  A component that allows you to add interactive, automatically graded exercises to your course content. You can create many different types of problems. :ref:`Working with Problem Components`  에 자세한 안내가 있다.
 
 .. _Preview Mode:
  
@@ -374,9 +358,7 @@
 
   A question is a type of contribution that you can make to a course discussion
   topic to surface an issue that the course staff or other students can
-  resolve. 
-
-  :ref:`Discussions` 에 자세한 안내가 있다.
+  resolve.  :ref:`Discussions` 에 자세한 안내가 있다.
 
   
 .. _하:
@@ -397,7 +379,7 @@
 **회로도 문제**
 
   학습자가 인터랙티브 그리드(interactive grid)에 문제의 답으로 회로도를 구성하도록 하는 문제유형이다. 
-  :ref:`Circuit Schematic Builder` 에 자세히 안내되어 있다. 
+  :ref:`Circuit Schematic Builder` 에 자세한 안내가 있다.
 
 .. _Cohort:
  
@@ -405,7 +387,7 @@
 
   강좌에서 함께 참여하는 학습자 집단으로, 동일한 학습 집단에 속해 있는 학습자는 집단내에서만 소통하고 공유의 경험을 가질 수 있다.
 
-  K-MOOC 플랫폼에서 강좌의 선택적 특성이다. 학습집단의 활성화방법, 설정방법, 학습자를 학습집단에 배정하는 방법은 :ref:`Cohorts Overview` 에 자세히 안내되어 있다. 
+  K-MOOC 플랫폼에서 강좌의 선택적 특성이다. 학습집단의 활성화방법, 설정방법, 학습자를 학습집단에 배정하는 방법은 :ref:`Cohorts Overview` 에 자세한 안내가 있다.
   
   
 
