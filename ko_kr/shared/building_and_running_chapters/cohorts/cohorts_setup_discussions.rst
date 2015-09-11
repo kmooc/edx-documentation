@@ -83,8 +83,8 @@ CourseWide Discussion Topics` 의 예시임)의 환경 설정에 관하여 기�
        "i4x-edX-Open-edx_demo_course_brainstorming"
    ]
    
-5. 만일 **학습집단 설정** 필드에서 ``"cohorted_discussions"`` 값이 다른 policy keys에 
-   뒤따른다면, 닫힌 중괄호 문자 다음에 쉼표 (``],``) 를 입력해야 한다. 정의한 policy keys를 
+5. 만일 **학습집단 설정** 필드에서 ``"cohorted_discussions"`` 값이 다른 정책 키값에 
+   뒤따른다면, 닫힌 중괄호 문자 다음에 쉼표 (``],``) 를 입력해야 한다. 정의한 정책키값를 
    구분하기 위해서 반드시 쉼표를 입력해야 한다.
 
 .. Adding a line to force a line space
@@ -186,7 +186,7 @@ CourseWide Discussion Topics` 의 예시임)의 환경 설정에 관하여 기�
     ]
 
 
-6. 만일 **학습집단 설정** 필드에서 ``"cohorted_discussions"`` 값이 다른 policy keys에 뒤따른다면, 닫힌 중괄호 문자 다음에 쉼표 (``],``) 를 입력해야 한다. 정의한 policy keys를 구분하기 위해서 반드시 쉼표를 입력해야 한다.    
+6. 만일 **학습집단 설정** 필드에서 ``"cohorted_discussions"`` 값이 다른 정책 키값에 뒤따른다면, 닫힌 중괄호 문자 다음에 쉼표 (``],``) 를 입력해야 한다. 정의한 정책 키값를 구분하기 위해서 반드시 쉼표를 입력해야 한다.    
 
  .. image:: ../../../shared/building_and_running_chapters/Images/cohort_config_cohorted_discussions.png
   :alt: Cohort Configuration dictionary field with the cohort key set as true, the always cohort inline discussions key set as false, and two discussion topics IDs entered under the cohorted discussions policy key
