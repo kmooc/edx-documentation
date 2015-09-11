@@ -5,12 +5,12 @@
 학습 집단 기능 사용하기
 #############################
 
-By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학습 집단을 
+By :ref:`Enabling and Configuring Cohorts` 강좌에서 학습 집단을 
 설정을 이용하여 학습자 소규모 커뮤니티를 만들 수 있다. 학습자 집단별로 다른 강좌 경험을 설계할 수 있다.
 학습 집단별로 나뉘어진 토의 주제에서, 학습자는 소속된 학습 집단 안에서 의사소통을 하고 경험을 공유할 수 있다. 
 학습 집단 내 토의는 학습자가 공동체 의식을 갖도록 하는 데 도움이 되고, 특별한 경험을 제공하며, 보다 깊이 있고 유의미한 강좌에 참여할 수 있도록 한다.
 
-강좌에서 학습 집단 기능을 사용하기 위해, 학습자의 커뮤니티을 의미하는 학습 집단을 정의하고, 학습 집단 배치 방법을 선택한다. :ref:`assigning students to cohorts<Options for Assigning Students to Cohorts>`.
+강좌에서 학습 집단 기능을 사용하기 위해, 학습자의 커뮤니티을 의미하는 학습 집단을 정의하고, 학습 집단 배치 방법을 선택한다. :ref:`Options for Assigning Students to Cohorts`.
 
 .. note::    
    * 모든 학습자는 반드시 하나의 학습 집단에 소속되어야 한다. 
@@ -21,11 +21,11 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
    강좌에 참여하는 학습자가 학습 집단에서 일관된 경험을 가질 수 있도록,
    강좌 시작 이후에는 학습자가 속한 학습 집단을 변경하지 않는다.
 
-강좌에서 학습 집단에 관한 참고할 수 있는 자료는 다음과 같다:
+강좌에서 학습 집단에 관한 참고할 수 있는 자료는 다음과 같다.
 
 * :ref:`Enabling and Configuring Cohorts` 
 
-* :ref:`학습 집단별 게시판 설정하기<Setting Up Discussions in Courses with Cohorts>` 
+* :ref:`학습 집단별 게시판 설정하기` 
 
 * :ref:`Moderating Discussions for Cohorts` 
 
@@ -92,8 +92,8 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 
 
 .. note:: 모든 학습자를 단일 학습 집단으로 지정하고 싶다면, 
-   모든 학습자를 단일 학습 집단으로 지정하고 싶다면, 혼합적 배치에서 :ref:`hybrid assignment strategy<Hybrid Assignment>` . 기술한 바와 같이 단일의 자동 배치 학습 집단으로 설정할 수 있다.기술한 바와 같이 단일의 자동 배치 학습 집단으로 설정할 수 있다.
-   자동 배치 학습 집단을 만들지 않는다면,시스템은 자동적으로 기본 학습 집단 :ref:`default cohort<Default Cohort Group>` 을 생성하고 필요시 학습자를 배치한다.   
+   모든 학습자를 단일 학습 집단으로 지정하고 싶다면, 혼합적 배치에서 :ref:`Hybrid Assignment` . 기술한 바와 같이 단일의 자동 배치 학습 집단으로 설정할 수 있다.기술한 바와 같이 단일의 자동 배치 학습 집단으로 설정할 수 있다.
+   자동 배치 학습 집단을 만들지 않는다면,시스템은 자동적으로 기본 학습 집단 :ref:`Default Cohort Group` 을 생성하고 필요시 학습자를 배치한다.   
 
 학습자 직접 배치 방법 :ref:`Implementing the Manual Assignment Strategy` 에서 보다 많은 정보를 확인 할 수 있다.
 
@@ -132,4 +132,4 @@ By :ref:`setting up cohorts<Enabling and Configuring Cohorts>` 강좌에서 학�
 
 강좌가 시작될 때 학습자가 “기본 학습 집단”이 아닌 다른 학습 집단명으로 나타나도록 하기 위해서, 선호하는 명칭으로 자동배치 학습 집단을 추가할 수 있으며, 자동배치 학습 집단 정의 :ref:`Define Auto Cohorts` 에서 설정할 수 있다. (이러한 기능은 강좌가 시작되기 전에 설정하는 것이 좋다)
 
-학습자가 기본 학습 집단에 배치되어 있는지 알고 싶다면, 학습자 프로필 정보 보고서 :ref:`student profile information report<View and download student data>` 를 참고할 수 있으며, 학습 집단을 달리 배치할 수도 있다.  토의 주제가 여러 가지로 나눠진 경우, 학습자는 현재 속해있는 학습 집단 구성원들의 게시글만 볼 수 있다는 것에 유의해야 하며, 학습자의 학습 집단을 변경하는 경우에 게시글들은 “사라지게 된다”. 학습 집단의 배치를 변경하는 것은 가능하면 강좌 운영 초기에 마쳐야 학습자가 게시글을 보거나  기여한 정도를 확인할 수 있다.
+학습자가 기본 학습 집단에 배치되어 있는지 알고 싶다면, 학습자 프로필 정보 보고서 :ref:`View and download student data` 를 참고할 수 있으며, 학습 집단을 달리 배치할 수도 있다.  토의 주제가 여러 가지로 나눠진 경우, 학습자는 현재 속해있는 학습 집단 구성원들의 게시글만 볼 수 있다는 것에 유의해야 하며, 학습자의 학습 집단을 변경하는 경우에 게시글들은 “사라지게 된다”. 학습 집단의 배치를 변경하는 것은 가능하면 강좌 운영 초기에 마쳐야 학습자가 게시글을 보거나  기여한 정도를 확인할 수 있다.
