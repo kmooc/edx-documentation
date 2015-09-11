@@ -12,7 +12,6 @@ edX 과정 개발 및 운영 매뉴얼 번역본
    :maxdepth: 2
 
    read_me
-   preface
    change_log
    getting_started/index
    building_course/index
