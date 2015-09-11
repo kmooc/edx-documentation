@@ -24,7 +24,7 @@
 
   학습자가 강좌와 관련해 다운받을 수 있는 자료로, 강좌 정보 페이지 오른쪽에 있다.
 
-  더 자세한 정보는 :ref:`Add Course Handouts` for more information 에 있다.
+  :ref:`Add Course Handouts` 에 자세한 안내가 있다.
 
 
 .. _Course Info Page:
@@ -47,7 +47,7 @@
   주로 학습이 일어나는 곳으로, 주제, 소주제 및 학습활동 등이 이 페이지에 담겨있다.
 
 
-** 강좌 일반 주제**
+**강좌 일반 주제**
 
   Optional categories that you create to guide how students find and share
   information in the course discussion. Examples of course-wide discussion
@@ -98,20 +98,20 @@
  
 **구성요소**
 
-  실제 강좌 콘텐츠를 포함하고 있는 학습활동(unit) 영역의 부분. 하나의 학습활동은 하나 이상의 구성요소를 가질 수 있다. 자세한 내용은 :ref:`Developing Course Components` 에 있다. 
+  실제 강좌 콘텐츠를 포함하고 있는 학습활동 영역의 부분. 하나의 학습활동은 하나 이상의 구성요소를 가질 수 있다. :ref:`Developing Course Components` 에 자세한 안내가 있다.
   
-  **Discussion**
+  **게시판**
 
   The set of topics defined to promote course-wide or unit-specific dialog.
   Students use the discussion topics to communicate with each other and the
   course staff in threaded excahnges.
 
-  See :ref:`Discussions` for more information.
+  :ref:`Discussions` 에 자세한 안내가 있다.
 
 
 .. _Discussion Component:
  
-**Discussion Component**
+**게시판 구성요소**
 
   Discussion topics that course staff add directly to units. For example, a
   Video component can be followed by a Discussion component so that students
@@ -119,7 +119,7 @@
   a dicussion component to a unit, you create a content-specific discussion
   topic.
 
-  See :ref:`Working with Discussion Components` for more information.
+  :ref:`Working with Discussion Components` 에 자세한 안내가 있다.
 
 
 .. _나:
@@ -129,7 +129,7 @@
 ****
 
 
-.. _Certificate:
+
  
 
 
@@ -272,6 +272,8 @@
 **이미지맵 입력 문제**
 
   이미지를 부여주고 정답을 위해 이미지를 클릭하는 문제. 참고: :ref:`Image Mapped Input` 
+
+.. _Certificate:
 
 **이수증**
 
