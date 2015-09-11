@@ -31,11 +31,9 @@ K-MOOC 강좌 게시판 구조
   게시글: “자신 소개를 하십시오.”
     - 답글: “제 이름은 Lee입니다. 저는 호주 캔버라에 있는 중학교에서 수학을 가르칩니다.”
     - 답글: “안녕하세요, 제 이름은 Sumei고요, 저는 홍콩, 중국 출신입니다.”
-      - 댓글: “안녕하세요, Sumei씨. 저는 홍콩에서 이 강좌를 수강하고 있습니다. 스터디 그룹을 
-만들면 좋겠어요!”
+      - 댓글: “안녕하세요, Sumei씨. 저는 홍콩에서 이 강좌를 수강하고 있습니다. 스터디 그룹을 만들면 좋겠어요!”
       - 댓글: “저 역시도 스터디 그룹을 만들고 싶어요. 숙제하는 데 도움이 될 것 같아요!”
-    - 답글: “안녕하세요, 저는 요하네스버그에 있어요. 대학 입학시험을 준비하기 위해 
-이 강좌를 듣고 있어요!”
+    - 답글: “안녕하세요, 저는 요하네스버그에 있어요. 대학 입학시험을 준비하기 위해 이 강좌를 듣고 있어요!”
 
 이 예시는 게시판을 활용할 수 있는 여러 가지 방법을 보여준다. 게시글은 대화로 시작하고, 댓글은 게시글에 대한 회신이며, 댓글은 특정 답글에 대해 더 자세히 말하는 것이다. 게시글, 답글과 댓글을 남기기 전에, 자신이 가장 참여하고 싶은 것에 가장 적합한 옵션이 무엇인지 잠시 생각해보길 바란다. 이것은 강좌 게시판을 유지하는 데 도움을 줄 뿐만 아니라 쉽게 따라 할 수 있다. 
 
@@ -95,7 +93,7 @@ K-MOOC 강좌 게시판 구조
 게시판 검색하기
 =======================
 
-텍스트를 검색하려면, **게시판** 을 클릭하고 게시글 목록 위에 **모든 게시글 검색** 필드에 구문, 단어 또는 단어 일부를 입력한다. 입력 키를 누르고, 검색하면 다음을 찾으려고 노력한다:
+텍스트를 검색하려면, **게시판** 을 클릭하고 게시글 목록 위에 **모든 게시글 검색** 필드에 구문, 단어 또는 단어 일부를 입력한다. 입력 키를 누르고, 검색하면 다음을 찾으려고 노력한다.
 
 * 게시글, 답글, 댓글에서 텍스트와의 일치성 또는 근접성. 디스플레이는 모든 상호작용 단계에서 일치하는 게시글의 목록을 보여주기 위해 업데이트한다. 
 
@@ -149,7 +147,7 @@ K-MOOC 강좌 게시판 구조
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_content_specific_post.png
   :alt: Adding a post about specific course content
 
-5. 게시글 유형을 선택한다: **질문** 이나 **토의** 중 하나를 클릭한다.
+5. 게시글 유형을 선택한다. **질문** 이나 **토의** 중 하나를 클릭한다.
 
 #. 제목 필드에 게시글에 관한 짧게 설명할 수 있는 식별자를 입력한다. 제목은 다른 사람이 **게시판** 메뉴를 열람하거나 강좌 일반 주제 중 하나를 스크롤 할 때, 볼 수 있는 게시글의 일부이다. 
 
@@ -164,7 +162,7 @@ K-MOOC 강좌 게시판 구조
 
 #. **새 게시글 추가하기** 버튼을 클릭한다. 
 
-#. 게시물 유형을 선택한다: **질문** 이나 **토의** 중의 하나를 클릭한다.
+#. 게시물 유형을 선택한다. **질문** 이나 **토의** 중의 하나를 클릭한다.
 
 #. 게시글에 가장 적절한 게시판 주제를 선택한다. 
 
@@ -268,18 +266,16 @@ K-MOOC 강좌 게시판 구조
 
 다른 학습자와 강좌 운영팀이 작성한 게시판 주제를 읽으면서, 완벽한 답글이나 댓글을 작성하지 않고 피드백을 제공하기 위해 다음과 같이 할 수 있다. :
 
-* :ref:`Vote for posts and responses<Vote for Posts or Responses>` to provide
+* :ref:`Vote for Posts or Responses` to provide
   positive feedback.
 
-* :ref:`Follow posts<Follow Posts>` so that you can check back in on
+* :ref:`Follow Posts` so that you can check back in on
   interesting conversations and questions easily.
 
-* :ref:`Answer questions, and mark your questions as answered<Answer
-  Questions>`.
+* :ref:`Answer
+  Questions`.
 
-* :ref:`Report a contribution<Report Discussion Misuse>` that is inappropriate
-  to the course staff.
-
+* :ref:`Report Discussion Misuse` 
 피드백 옵션을 선택하려면, 게시글, 답글, 댓글 우측 상단에 아이콘을 사용한다. 커서를 이 아이콘 위에 올려두면, 공감과 팔로우를 할 수 있는 아이콘이 뜬다. 
 
 
