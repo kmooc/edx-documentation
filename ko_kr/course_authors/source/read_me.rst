@@ -2,13 +2,15 @@
 본 도움말에 대하여
 *******
 
-*K-MOOC 강좌 개발 도움말* 은 RST 파일 및 Sphinx(스핑크스)를 사용하여 만들어진다. 원한다면, 이 도움말을 GitHub에서 직접 업데이트하고 수정할 수 있다.
+*edX 과정 개발 및 운영 매뉴얼 번역본* 은 edX에서 제공하는 "Building and Running an edX Course"를 한글화한 것으로 RST 파일 및 Sphinx(스핑크스)를 사용하여 만들어집니다. 
 
-  https://github.com/edx/edx-documentation/tree/master/en_us/course_authors/source
+본 매뉴얼의 사용자는 2015년 한국형 무크(K-MOOC) 시범운영 참여대학의 관련 담당자(콘텐츠 제작 및 운영 관련)입니다.
+번역 과정에서 edX 플랫폼에 대한 언급을 할 때 본 매뉴얼의 사용자 편의상 K-MOOC로 수정하여 매뉴얼에 반영하였습니다.
+또한 콘텐츠 제작 및 운영과 관련이 깊지 않은 내용은 수정하였습니다. 참고하시기 바랍니다.
 
-GitHub에서의 수정은 우선 해당 프로젝트의 사본을 만들어 수정한 다음, 원본 프로젝트로 다시 끌어오기를 요청하는 식으로 이루어진다. 모든 끌어오기 요청은 K-MOOC로부터의 승인이 필요하다. 
+이 문서의 저작권은 edX에 있으나 임의 편집 및 배포 가능합니다. 
 
-보다 자세한 내용은 docs@edx.org로 문의 바란다.
+감사합니다.
 
 .. _Sphinx: http://sphinx-doc.org/
 .. _LaTeX: http://www.latex-project.org/
