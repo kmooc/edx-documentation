@@ -4,12 +4,12 @@
 맞춤형 Python 평가 입력 문제 
 ##############################
 
-맞춤형 Python 평가 입력(”write-your-own-grader” 문제 라고도 한다)에서 채점자는 여러분이 학습자의 응답을 평가하거나 힌트를 제공할 목적으로 생성하여 문제 내부에 임베드한 Python 스크립트를 사용한다. 이러한 문제 는 어떠한 유형이라도 취할 수 있다. “write-your-own-grader” 문제 가운데 빈도가 가장 높은 것은 수식 입력 및 텍스트 입력 문제 이다. 
+맞춤형 Python 평가 입력(”write-your-own-grader” 문제 라고도 한다)에서 채점자는 학습자의 응답을 평가하거나 힌트를 제공하기위한 목적으로 생성하여, 문제 내부에 임베드한 Python 스크립트를 사용한다. Python 스크립트가 사용된 문제는 어떠한 유형이든 만들 수 있다. 맞춤형 Python 평가 입력 문제에서 많이 이용되는 것은 수식 입력 및 텍스트 입력 문제이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/CustomPythonExample.png
  :alt: Image of a write your own grader problem
 
-맞춤형 Python 평가 입력 문제 는 다음 항목을 포함할 수 있다.:
+맞춤형 Python 평가 입력 문제는 다음을 포함할 수 있다.:
 
 * :ref:`Chemical Equation`
 * :ref:`Custom JavaScript`
@@ -21,7 +21,7 @@
    :widths: 20 80
 
    * - ``<script type="loncapa/python">``
-     - 문제 에 Python 스크립트가 포함돼 있음을 나타낸다.
+     - 문제에 Python 스크립트가 포함되어 있음을 나타낸다.
    * - ``<customresponse cfn="test_add_to_ten">``
      - 
    * - ``<customresponse cfn="test_add" expect="20">``
@@ -57,18 +57,18 @@ Python 스크립트는 일반적으로 다음 변수들과 상호작용한다.:
 
 * ``answers``: 학습자가 제공한 답의 순서 목록. 학습자가 답으로 ``6`` 을 입력한 경우 ``answers[0]`` 은 ``6`` 과 동일하다. 
 * ``expect``: ``<customresponse>`` 의 ``expect`` 속성값. (규정된 경우)  
-* ``correct``: 학습자가 질문지에 정확히 답했는지 여부를 나타내는 스트링 순서 목록. 유효한 값은 ``"correct"``, ``"incorrect"``, ``"unknown"``이다. 이들 변수를 스크립트 내부에 설정할 수 있다. 
-* ``messages``: 문제 의 각 응답 필드 아래에 표시되는 메시지 순서 목록. 이 변수를 이용하여 사용자에게 힌트를 제공할 수 있다. 가령  ``messages[0] = "The capital of California is Sacramento"`` 를 입력한 경우 이 메시지가 문제 내부 응답 필드 아래에 표시된다.  
+* ``correct``: 학습자가 질문지에 정확히 답했는지 여부를 나타내는 스트링 순서 목록. 유효한 값은 ``"correct"``, ``"incorrect"``, ``"unknown"`` 이다. 이들 변수를 스크립트 내부에 설정할 수 있다. 
+* ``messages``: 문제의 각 응답 필드 아래에 표시되는 메시지 순서 목록. 이 변수를 이용하여 사용자에게 힌트를 제공할 수 있다. 가령 ``messages[0] = "The capital of California is Sacramento"`` 를 입력한 경우 이 메시지가 문제 내부 응답 필드 아래에 표시된다.  
 * ``overall_message``: 전체 문제 아래에 표시되는 메시지. 이 변수를 이용하여 특정 응답 필드 1개가 아니라 문제 전체에 적용되는 힌트를 제공할 수 있다.
 
 ========================================================================
 정답 태그 포맷으로 맞춤형 Python 평가 입력 문제 생성하기
 ========================================================================
 
-``<answer>``  태그를 이용하여 맞춤형 Python 평가 입력 문제 를 생성하기 위한 차는 다음과 같다:
+``<answer>``  태그를 이용하여 맞춤형 Python 평가 입력 문제를 생성하기 위한 절차는 다음과 같다:
 
 #. 문제를 생성하고자 하는 학습 활동에서 **신규 구성요소 추가**의 **Problem** 를 클릭한 후 **고급** 탭을 클릭한다. 
-#. 맞춤형 Python 평가 입 력**Custom Python-Evaluated Input** 을 클릭한다. 
+#. 맞춤형 Python 평가 입력 **Custom Python-Evaluated Input** 을 클릭한다. 
 #. 구성요소가 표시되면 **편집** 을 클릭한다.
 #. 구성요소 편집기에서 기존 코드를 다음 코드로 바꾼다.
 #. **저장** 을 클릭한다.
@@ -101,7 +101,7 @@ Python 스크립트는 일반적으로 다음 변수들과 상호작용한다.:
 스크립트 태그 포맷
 **************************
 
-스크립트 태그 포맷은 ``<script>`` 태그 안에서 “check function”을 포함하는 Python 스크립트를 둘러싼다. 또, ``<customresponse>`` 태그의 ``cfn`` 속성을 추가하여 해당 함수를 참조한다:
+스크립트 태그 포맷은 ``<script>`` 태그 안에서 “check function” 을 포함하는 Python 스크립트를 둘러싼다. 또, ``<customresponse>`` 태그의 ``cfn`` 속성을 추가하여 해당 함수를 참조한다:
 
 .. code-block:: xml
 
@@ -130,7 +130,7 @@ Python 스크립트는 일반적으로 다음 변수들과 상호작용한다.:
 
   </problem>
 
-**Important**: Python은 들여쓰기를 준수한다. ``<script>`` 태그 안에서 ``def check_func(expect, ans):`` 행은 대 들여쓰지 않아야 한다.
+**Important**: Python은 들여쓰기를 준수한다. ``<script>`` 태그 안에서 ``def check_func(expect, ans):`` 행은 절대 들여쓰지 말아야 한다.
 
 **check** 함수는 두 가지 인자(argument)를 수용한다:
 
@@ -179,7 +179,7 @@ Python 스크립트는 일반적으로 다음 변수들과 상호작용한다.:
 스크립트 태그 포맷으로 맞춤형 Python 평가 입력 문제 생성하기
 ========================================================================
 
-``<script>`` 태그를 이용하여 맞춤형 Python 평가 입력 문제 를 생성하는 차는 다음과 같다:
+``<script>`` 태그를 이용하여 맞춤형 Python 평가 입력 문제를 생성하는 절차는 다음과 같다:
 
 #. 문제를 생성하고자 하는 학습 활동에서 **신규 구성요소 추가** 의 **문제** 를 클릭한 후 **고급** 탭을 클릭한다.  
 #. 맞춤형 Python **평가 입력(Custom Python-Evaluated Input)** 을 클릭한다.
@@ -232,7 +232,7 @@ Python 스크립트는 일반적으로 다음 변수들과 상호작용한다.:
 
 **템플릿**
 
-다음 템플릿은 학습자가 **정답 보기(Show Answer)** 를 클릭하면 표시되는 정답을 포함하고 있다.. 
+다음 템플릿은 학습자가 **정답 보기(Show Answer)** 를 클릭하면 표시되는 정답을 포함하고 있다.
 
 .. code-block:: xml
 
@@ -295,9 +295,9 @@ Python 스크립트는 일반적으로 다음 변수들과 상호작용한다.:
 Python 코드에서 변수를 무작위 추출하는 맞춤형 Python 평가 입력 문제를 생성할 수 있다.
 
 .. note:: 
- 문제 설정에서 반드시 **무작위 추출(Randomization)** 값을 **아님(Never)** 을 제외한 다른 값으로 지정함으로써 Python 변수를 무작위 추출할 수 있게 해야 한다.   :ref:`Randomization` 에서 보다 구체적인 정보를 확인한다. 
+ 문제 설정에서 반드시 **무작위 추출(Randomization)** 값을 **아님(Never)** 을 제외한 다른 값으로 지정함으로써 Python 변수를 무작위 추출할 수 있게 해야 한다. :ref:`Randomization` 에서 보다 구체적인 정보를 확인한다. 
 
-Python 평가 입력 문제 에서 무작위 추출을 시행하는 방법을 다음 예시에서 확인할 수 있다.
+Python 평가 입력 문제에서 무작위 추출을 시행하는 방법을 다음 예시에서 확인할 수 있다.
 
 .. note::
  아래의 예시는 ``random.randint`` 방법으로 무작위 수를 만든다. Python 표준 라이브러리를 사용한다. 
