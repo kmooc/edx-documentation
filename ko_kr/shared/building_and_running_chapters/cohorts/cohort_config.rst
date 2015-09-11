@@ -135,7 +135,7 @@
 학습자를 학습집단에 직접 배치하기 위해, 우선 직접 배치를 정의하고 나서 학습자를 학습집단에 배치하게 된다.
 
 직접 배치나 혼합 배치 방식을 사용하기 위해서는 다음의 절차 따라야 한다.
-이와 관련해서는 :ref:`All Manual Assignment`  혹은 :ref:`Hybrid Assignment` .
+이와 관련해서는 :ref:`All Manual Assignment`  혹은 :ref:`Hybrid Assignment` 를 확인한다.
 
 학습자 직접 배치 절차를 완료하기 전에, 반드시 :ref:`Enable Cohorts` 를 설정해야 한다.
 
