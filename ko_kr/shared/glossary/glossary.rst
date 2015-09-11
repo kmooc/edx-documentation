@@ -16,7 +16,7 @@
 
 **A/B 테스트**
 
-  :ref:`Content Experiment` 를 살펴본다.
+  :ref:`Content Experiment` 에 자세히 안내되어 있다.
   
 
 .. _About Page:
@@ -25,13 +25,13 @@
 
   예비 학습자에게 강좌의 요약, 선수강좌, 강좌 비디오와 이미지, 중요한 일정을 제공하는 페이지이다. 
 
-  추가 정보는 :ref:`Providing a Course Overview` 에 있다. 
+  :ref:`Providing a Course Overview` 에 자세히 안내되어 있다. 
 
 .. _Advanced Editor_g:
  
 **고급 에디터**
 
-  문제 구성요소에서의 문제 유형을 만들고 편집할 수 있도록 하는 XML 에디터로, 추가정보는 :ref:`Advanced Editor` 를 살펴 본다. 
+  문제 구성요소에서의 문제 유형을 만들고 편집할 수 있도록 하는 XML 에디터로, :ref:`Advanced Editor` 에 자세히 안내되어 있다. 
 
 
 
@@ -39,9 +39,9 @@
  
 **과제 유형**
 
-  학습자 성적에 포함되는 과제 유형으로, 숙제, 시험, 연습문제 등.
+  학습자 성적에 포함되는 과제 유형으로, 숙제, 시험, 연습문제 등이 있다.
 
-  추가 정보는 :ref:`Establish a Grading Policy` 를 살펴 본다. 
+   :ref:`Establish a Grading Policy` 에 자세히 안내되어 있다. 
 
 .. _나:
 
@@ -58,30 +58,29 @@
  
 **체크박스 문제**
 
-  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크하는 문제유형이다. 추가 정보는 :ref:`Checkbox` 를 살펴본다. 
+  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크하는 문제유형이다.  :ref:`Checkbox` 에 자세히 안내되어 있다. 
 
 
 .. _Chemical Equation Response Problem:
  
 **화학 공식 문제**
 
-  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제 유형이다. 추가 정보는 :ref:`Chemical Equation` 에 있다. 
-
+  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제 유형이다.  :ref:`Chemical Equation` 에 자세히 안내되어 있다. 
 
 .. _Circuit Schematic Builder Problem:
  
 **회로도 문제**
 
   학습자가 인터랙티브 그리드(interactive grid)에 문제의 답으로 회로도를 구성하도록 하는 문제유형이다. 
-  추가 정보는 :ref:`Circuit Schematic Builder` 에 있다. 
+  :ref:`Circuit Schematic Builder` 에 자세히 안내되어 있다. 
 
 .. _Cohort:
  
 **학습 집단**
 
-  강좌에서 함께 참여하는 학습자 집단. 동일한 학습 집단에 속해 있는 학습자는 집단내에서만 소통하고 공유의 경험을 가질 수 있다.
+  강좌에서 함께 참여하는 학습자 집단으로, 동일한 학습 집단에 속해 있는 학습자는 집단내에서만 소통하고 공유의 경험을 가질 수 있다.
 
-  K-MOOC 플랫폼에서 강좌의 선택적 특성이다. 학습집단의 활성화방법, 설정방법, 학습자를 학습집단에 배정하는 방법은 :ref:`Cohorts Overview` 에 있다. 
+  K-MOOC 플랫폼에서 강좌의 선택적 특성이다. 학습집단의 활성화방법, 설정방법, 학습자를 학습집단에 배정하는 방법은 :ref:`Cohorts Overview` 에 자세히 안내되어 있다. 
 
 .. _Component_g:
  
