@@ -63,8 +63,8 @@ CourseWide Discussion Topics` 의 예시임)의 환경 설정에 관하여 기�
 
 #. **설정** 을 선택한 후 **고급 설정** 을 선택한다.
 
-#. **학습집단 설정" 필드에서, 열린 중괄호 문자(``{``) 다음에 커서를 
-   위치시킨 후 **엔터**를 누른다.
+#. **학습집단 설정** 필드에서, 열린 중괄호 문자(``{``) 다음에 커서를 
+   위치시킨 후 **엔터** 를 누른다.
 
 #. 새로운 행에서, ``"cohorted_discussions":`` 를 정의한 후, 하나 이상의 
    일반 주제 ID를 닫힌 대괄호 (``[ ]``) 안에 입력한다. 하나의 토의 주제를 
@@ -113,7 +113,7 @@ CourseWide Discussion Topics` 의 예시임)의 환경 설정에 관하여 기�
 =====================================================================
 
 강좌에 추가한 모든 주제별 토의가 학습집단이 아닌 모든 학습자에게 통합적으로 제시되기를 원한다면, 
-:ref:`Make ContentSpecific Discussion Topics Unified`의 단계를 따라야 한다.
+:ref:`Make ContentSpecific Discussion Topics Unified` 의 단계를 따라야 한다.
 
 후에, 강좌의 가장 마지막 영역을 설계할 때, 모든 학습자에게 통합적으로 제시되는 다른 토의 구성요소보다는 학습집단별로 나뉘어진 주제별 토의를 추가하고자 한다면, :ref:`Specify Cohorted Discussions as Exceptions` 의 단계를 따라야 한다. 
 
@@ -144,7 +144,7 @@ CourseWide Discussion Topics` 의 예시임)의 환경 설정에 관하여 기�
  .. image:: ../../../shared/building_and_running_chapters/Images/cohort_config_always_inline.png
   :alt: Cohort Configuration dictionary field with the cohort key set as true and the always cohort inline discussions key set as false
 
-6. 원한대로  입력 내용이 저장되었는지 확인하기 위해서 다시  **학습집단 설정 ** 으로 이동한다.  
+6. 원한대로  입력 내용이 저장되었는지 확인하기 위해서 다시  **학습집단 설정** 으로 이동한다.  
    저장할 때 필요한 구분 문자들이 전부 포함되지 않은 경우에는 입력 이전으로 돌아가고, 경고창은 뜨지 않는다.
 
 
