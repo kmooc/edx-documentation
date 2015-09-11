@@ -204,7 +204,7 @@ To change the response field length, change the value of the **size** attribute:
 텍스트 입력 문제 에서 학습자가 흔히 예상되는 오답을 기입할 때 힌트를 표시할 수 있다. 텍스트 입력 문제 가 어떤 정규 표현식을 답으로 인정하게 할 수도 있다. 이렇게 하려면 고급 편집기에서 해당 문제 의 XML을 변경해야만 한다.
 
 
-학습자가 입력하는 정규 표현식은 교수자가 지정한 정답의 일부를 반드시 포함해야 한다. 가령 교수자가  ``<answer="example answer" type="regexp">`` 을 지정한 경우 ``example answered`` , ``two example answers`` ,``==example answer==`` 등은 정답이지만 ``examples`` 나 ``example anser`` 은 정답이 아니다.
+학습자가 입력하는 정규 표현식은 교수자가 지정한 정답의 일부를 반드시 포함해야 한다. 가령 교수자가  ``<answer="example answer" type="regexp">`` 을 지정한 경우 ``example answered`` , ``two example answers`` , ``==example answer==`` 등은 정답이지만 ``examples`` 나 ``example anser`` 은 정답이 아니다.
 
 ``regexp`` 을 ``type`` 속성값에 추가할 수 있다. 이를테면 ``type="ci regexp"`` , ``type="regexp"`` , ``type="regexp cs"`` . 등이 가능하다. 이 경우 어떤 답 혹은 힌트라도 정규 표현식으로 간주한다.
  
@@ -254,14 +254,14 @@ To change the response field length, change the value of the **size** attribute:
 Tags
 =======
 
-* ``<stringresponse>``: 텍스트 입력 문제 임을 나타낸다.
-* ``<textline>``: ``<stringresponse>`` 의 차일드. 학습자가 응답을 입력하는 LMS에 응답 필드를 생성한다. 
+* ``<stringresponse>`` : 텍스트 입력 문제 임을 나타낸다.
+* ``<textline>`` : ``<stringresponse>`` 의 차일드. 학습자가 응답을 입력하는 LMS에 응답 필드를 생성한다. 
 * ``<additional_answer>`` (선택): 문제 에 대한 추가 정답을 지정한다. 하나의 문제 가 가질 수 있는 추가 정답의 갯수는 제한이 없다.
 * ``<hintgroup>`` (선택): 교수자가 흔히 발생하는 어떤 오답에 힌트를 제공했음을 나타낸다.
 * ``<stringhint />`` (선택): ``<hintgroup>`` 의 차일드. 힌트를 제공할 오답의 텍스트를 지정한다. answer, type, name을 포함한다.
-* ``<hintpart>``: ``<stringhint>``의 name을 포함한다. 오답과 그 오답에 대한 힌트 텍스트를 조합한다. 
-* ``<startouttext />``: 힌트 텍스트의 시작을 나타낸다.
-* ``<endouttext />``: 힌트 텍스트의 끝을 나타낸다.
+* ``<hintpart>`` : ``<stringhint>`` 의 name을 포함한다. 오답과 그 오답에 대한 힌트 텍스트를 조합한다. 
+* ``<startouttext />`` : 힌트 텍스트의 시작을 나타낸다.
+* ``<endouttext />`` : 힌트 텍스트의 끝을 나타낸다.
 
 **태그:** ``<stringresponse>``
 
@@ -299,7 +299,7 @@ Tags
      * - label (필수)
        - 문제의 텍스트를 포함한다.
      * - size (선택)
-       - Specifies the size, in characters, of the response field in the LMS.
+       - LMS의 응답란에 size 를 입력한다. 
      * - hidden (선택)
        - **true** 로 설정된 경우 학습자는 응답 필드를 볼 수 없다.
      * - correct_answer (선택)
@@ -365,7 +365,7 @@ Tags
      :widths: 20 80
 
      * - 속성
-       - Description
+       - 설명
      * - on
        - 힌트의 명칭. <stringhint> 태그의 **name** 속성과 반드시 동일해야 한다. ( ``<stringhint>`` 태그는 힌트의 명칭과, 그 힌트와 조합할 오답을 제공한다. ``<hintpart>`` 태그는 힌트의 명칭 및 그 힌트의 텍스트를 포함한다.)  
 
