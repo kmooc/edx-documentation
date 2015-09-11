@@ -11,21 +11,21 @@
 
 #. :ref:`학습집단 활성화하기<Enable cohorts>`.
 
-#. 학습자를 학습집단에 배치하는 방법 결정하기:
+#. 학습자를 학습집단에 배치하는 방법 결정하기
    
   * :ref:`자동 학습집단 정의<Define Auto Cohorts>`
 
-  * :ref:`Define manual cohorts<Define Manual Cohorts>` 와
-    :ref:`manually assign students<Assign Students to Cohorts Manually>` 
+  * :ref:`Define Manual Cohorts` 와
+    :ref:`Assign Students to Cohorts Manually` 
     
-  * :ref:`Use a combination of automated and manual assignment<Hybrid Assignment>` 
+  * :ref:`Hybrid Assignment` 
 
 3. 선택적으로, 학습집단에 따라 나누길 원하는 토의 주제를 확인한다.
    
-  * :ref:`course-wide discussion topics to be divided by cohort<Identifying Private CourseWide Discussion Topics>` 를 원한다면 일부 설정작업을 완료해야 한다.
+  * :ref:`Identifying Private CourseWide Discussion Topics` 를 원한다면 일부 설정작업을 완료해야 한다.
 
   * 반면, 학습 내용별 토의 주제를 학습 집단별로 나누기를 원한다면,
-    더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`content-specific discussion topics to be unified<Make ContentSpecific Discussion Topics Unified>` 를 원한다면, 약간의 구성 단계를 완료해야 한다.
+    더 이상의 구성 절차를 완료할 필요가 없다. 대신 :ref:`Make ContentSpecific Discussion Topics Unified` 를 원한다면, 약간의 구성 단계를 완료해야 한다.
 
 이러한 구성 절차는 스튜디오와 교수자 대시보드에서 완료할 수 있다. 최상의 학습자 경험을 위해 강좌 시작일 이전에 학습집단 기능을 활성화하는 것이 좋다. 
 
@@ -53,7 +53,7 @@
   :alt: Cohort Configuration dictionary field with the cohorted key defined 
         as true
 
-다음으로 :ref:`implement the automated assignment strategy<Implementing the Automated Assignment Strategy>`, :ref:`implement the manual assignment strategy<Implementing the Manual Assignment Strategy>` 를 할 수 있으며, 두 방법 모두를 설정할 수 있다. 
+다음으로 :ref:`Implementing the Automated Assignment Strategy`, :ref:`Implementing the Manual Assignment Strategy` 를 할 수 있으며, 두 방법 모두를 설정할 수 있다. 
 
 강좌의 학습자 프로필 정보에서 강좌에 등록된 모든 학습자의 학습 집단 배치 결과를 포함하는 보고서를 볼 수 있다. 자세한 내용은 :ref:`View and download student data` 에서 확인할 수 있다
  
@@ -320,7 +320,7 @@ CSV 파일 업로드로 학습자 배치하기
 
 게시물을 게시한 글쓴이의 학습집단이 변경되더라도 게시글, 응답, 댓글은 변경되지 않는다. 학습집단이 변경된 학습자에게 이 게시물은 “사라져” 보인다."
 
-학습자의 학습집단 배치를 확인하려면, 학습자 프로필 보고서 :ref:`student profile report<View and download student data>` 를 다운로드하여 확인할 수 있다. 변경이 필요하다면, 교수자 대시보드의 회원 페이지에서 학습자를 다른 학습집단으로 직접 배치할 수 있다. 변경이 필요하다면, 교수자 대시보드의 **회원** 페이지에서 학습자를 다른 학습집단으로 직접 배치 :ref:`assign students<Assign Students to Cohorts Manually>` 할 수 있다.  
+학습자의 학습집단 배치를 확인하려면, 학습자 프로필 보고서 :ref:`View and download student data` 를 다운로드하여 확인할 수 있다. 변경이 필요하다면, 교수자 대시보드의 회원 페이지에서 학습자를 다른 학습집단으로 직접 배치할 수 있다. 변경이 필요하다면, 교수자 대시보드의 **회원** 페이지에서 학습자를 다른 학습집단으로 직접 배치 :ref:`Assign Students to Cohorts Manually` 할 수 있다.  
 
 
 .. _Renaming a Cohort:
@@ -375,6 +375,6 @@ CSV 파일 업로드로 학습자 배치하기
 학습집단 기능의 비활성화
 ==========================
 
-강좌에서 학습집단 기능을 비활성화 할 수도 있다. 학습집단 기능 활성화 하기 :ref:`enabling the cohort feature<Enable Cohorts>` 의 절차를 따르되, ``"cohorted": false`` 로 설정해야 한다. 모든 게시물들은 바로 모든 학습자가 볼 수 있게 된다
+강좌에서 학습집단 기능을 비활성화 할 수도 있다. 학습집단 기능 활성화 하기 :ref:`Enable Cohorts` 의 절차를 따르되, ``"cohorted": false`` 로 설정해야 한다. 모든 게시물들은 바로 모든 학습자가 볼 수 있게 된다
 
 ``"cohorted": true`` 로 설정하여 학습집단 기능을 재활성화한다면, 사전에 설정되었던 학습집단이 재활성화되고, 게시글의 읽기 설정이 다시 적용된다. 그러나 학습집단 기능이 비활성화되었을 때 생성된 게시글들은 학습집단 기능이 재 활성화되어도 모든 학습자가 볼 수 있다.
