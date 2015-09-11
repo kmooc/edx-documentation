@@ -52,10 +52,6 @@
 
 .. _Certificate:
  
-**이수증**
-
-  강좌를 성공적으로 이수한 학습자에게 발급되는 문서. 
-  모든 K-MOOC 강좌가 이수증을 발급하는 것은 아니며, 등록된 모든 학습자가 이수증을 받을 수 있는 것은 아니다. 
 
 
 .. _Checkbox Problem:
@@ -99,7 +95,7 @@
 
   다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. 자세한 내용은 :ref:`Creating Content Experiments` 에 있다. 
 
-**Content-Specific Discussion Topic**
+**주제별 토의**
 
   A category within the course discussion that appears at a defined point in
   the course to encourage questions and conversations. To add a 
@@ -119,42 +115,42 @@
 
 .. _Course Catalog:
  
-**Course Catalog**
+**강좌 목록**
 
-  The page that lists all courses offered in the edX learning management system.
+  학습 관리 시스템에 등록된 모든 강좌 목록이다. 
 
 
 
 .. _Course Handouts:
  
-**Course Handouts**
+**강좌 자료**
 
-  Course handouts are files you make available to students in the Course Info page.
+  학습자가 강좌와 관련해 다운받을 수 있는 자료로, 강좌 정보 페이지 오른쪽에 있다.
 
-  See :ref:`Add Course Handouts` for more information.
+  더 자세한 정보는 :ref:`Add Course Handouts` for more information 에 있다.
 
 
 .. _Course Info Page:
  
-**Course Info Page**
+**강좌 정보 페이지**
 
-  The page that opens first every time students access your course. You can post announcements on the Course Info page. The Course Handouts sidebar appears in the right pane of this page.
+  공지사항과 강좌 자료를 확인할 수 있다.
 
 
 .. _Run:
  
-**Course Run**
+**기관별 강좌 번호**
 
-  The term in which your course takes place. You set the course run when you create your course. For more information, see :ref:`Create a New Course`.
+  강좌 제공 기관별로 자유롭게 번호를 지정할 수 있다. :ref:`Create a New Course` 에 자세한 안내가 있다.
 
 .. _Courseware:
  
+**강좌 내용**
 
-**Courseware**
+  주로 학습이 일어나는 곳으로, 주제, 소주제 및 학습활동 등이 이 페이지에 담겨있다.
 
-  The page where students access the primary instructional materials for your course. Sections, subsections, units, and components are all accessed from the Courseware page.
 
-**Course-Wide Discussion Topic**
+** 강좌 일반 주제**
 
   Optional categories that you create to guide how students find and share
   information in the course discussion. Examples of course-wide discussion
@@ -291,6 +287,12 @@
 **이미지맵 입력 문제**
 
   이미지를 부여주고 정답을 위해 이미지를 클릭하는 문제. 참고: :ref:`Image Mapped Input` 
+
+**이수증**
+
+  강좌를 성공적으로 이수한 학습자에게 발급되는 문서. 
+  모든 K-MOOC 강좌가 이수증을 발급하는 것은 아니며, 등록된 모든 학습자가 이수증을 받을 수 있는 것은 아니다. 
+
 
 .. _Import:
  
