@@ -175,7 +175,7 @@ STEM 연습 및 도구
           :width: 100
           :alt: Example chemical equation problem
      - :ref:`Chemical Equation`
-     - 화학 공식 문제는 학습자가 화학 공식을 나타내는 텍스트를 텍스트 상자에 입력할 수 있도록 허용한다. 채점자는 만들고 문제에 포함시킨 Python 스크립트를 사용하여 학습자의 응답을 평가한다.
+     - 학습자가 화학 공식을 텍스트칸에 입력하도록 한다. 채점자는 만들고 문제에 포함시킨 Python 스크립트를 사용하여 학습자의 응답을 평가한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/CircuitSchematicExample_short.png
           :width: 100
           :alt: Example circuit schematic builder problem
@@ -190,29 +190,29 @@ STEM 연습 및 도구
           :width: 100
           :alt: Example math expression input problem
      - :ref:`Math Expression Input`
-     - 스튜디오에 있는 두 가지 유형의 수학 문제 중에 더 복잡한 유형이다. 수학 공식 입력 문제에서, 학습자는 질문에 답하기 위해 수학 공식을 입력한다. 이 문제는 알 수 없는 변수와 더 복잡한 기호식을 포함할 수 있다. 명시적으로 또는 Python 스크립트를 사용하여 정답을 지정할 수 있다.
+     - 스튜디오에 있는 두 가지 유형의 수학 문제중 더 복잡한 유형이다. 학습자는 질문에 답하기 위해 수학 공식을 입력한다. 이 문제는 변수와 복잡한 기호식을 포함할 수 있다. 명시적으로 또는 Python 스크립트를 사용하여 정답을 지정할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/Molecule_Editor.png
           :width: 100
           :alt: Example molecule editor problem
      - :ref:`Molecule Editor`
-     - 분자 편집기는 분자가 화학적으로 불가능하거나, 불안정하거나, 또는 살아있는 시스템에 존재하지 않는 경우라 할지라도, 학습자가 공유 결합 형성 및 형식 전하에 대한 규칙에 따라 분자를 그릴 수 있도록 허용한다.
+     - 분자 편집기는 분자가 화학적으로 불가능하거나, 불안정하거나, 존재하지 않는 경우라 할지라도, 학습자가 공유 결합 형성 및 형식 전하에 대한 규칙에 따라 분자를 그릴 수 있도록한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/MoleculeViewer.png
           :width: 100
           :alt: Example molecule viewer tool
      - :ref:`Molecule Viewer`
-     - 분자 보기(molecule viewer)를 사용하면 학습자가 분자의 3차원 묘사를 볼 수 있도록 만들 수 있다.
+     - 분자 보기(molecule viewer)를 사용하면 학습자가 분자를 3차원으로 볼 수 있도록 만들 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/image292.png
           :width: 100
           :alt: Example numerical input problem
      - :ref:`Numerical Input`
-     - Studio에 있는 두 가지 유형의 수학 문제 중에 더 간단한 유형이다. 숫자 입력 문제에서, 학습자는 질문에 답하기 위해 숫자 또는 구체적이고 비교적 간단한 수학 공식을 입력한다. 이러한 문제는 정수만을 허용하며, 몇 가지 문제는 상수만 허용한다. 허용 오차를 지정하고 명시적으로 또는 Python 스크립트를 사용하여 정답을 지정할 수 있다.
+     - Studio에 있는 두 가지 유형의 수학 문제 중에 더 간단한 유형이다. 학습자는 질문에 답하기 위해 숫자 또는 비교적 간단한 수학 공식을 입력한다. 정수만을 허용하며, 몇 가지 문제는 상수만 허용한다. 허용 오차를 지정하고 분명하게 혹은 Python 스크립트를 사용하여 정답을 지정할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/Periodic_Table.png
           :width: 100
           :alt: Example periodic table problem
      - :ref:`Periodic Table`
-     - 요소에 관한 인터랙티브 주기율표는 학습자가 마우스를 요소 위로 이동하면각 요소에 대한 자세한 정보를 표시한다.
+     - 학습자가 마우스 커서를 원소 위에서 이동하면 원소에 대한 자세한 정보가 나타난다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/ProteinBuilder.png
           :width: 100
           :alt: Example protein builder problem
      - :ref:`Protein Builder`
-     - Protex 단백질 작성기는 학습자가 아미노산을 함께 모아 특정 단백질 모양을 만들 수 있도록 한다.
+     - 학습자가 아미노산을 모아 특정 단백질 모양을 만들 수 있도록 한다.
