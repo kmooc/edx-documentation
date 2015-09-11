@@ -14,7 +14,7 @@
 
 .. note::    
    * 모든 학습자는 반드시 하나의 학습 집단에 소속되어야 한다. 
-     모든 학습자는 토의 주제를 읽고 참여행 한다.
+     모든 학습자는 토의 주제를 읽고 참여해야 한다.
 
    * 각 학습자들은 하나의 학습 집단에만 속할 수 있다.
 
@@ -95,7 +95,7 @@
    모든 학습자를 단일 학습 집단으로 지정하고 싶다면, :ref:`Hybrid Assignment` 에 자세한 안내가 있다. 
    자동 배치 학습 집단을 만들지 않는다면, 시스템은 자동적으로 기본 학습 집단 :ref:`Default Cohort Group` 을 생성하고 필요시 학습자를 배치한다.   
 
-학습자 직접 배치 방법 :ref:`Implementing the Manual Assignment Strategy` 에서 보다 많은 정보를 확인 할 수 있다.
+학습자 직접 배치 방법 :ref:`Implementing the Manual Assignment Strategy` 에서 보다 많은 정보를 확인할 수 있다.
 
 
 .. _Hybrid Assignment:
