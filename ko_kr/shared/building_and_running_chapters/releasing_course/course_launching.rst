@@ -44,6 +44,6 @@
 * 강좌 운영팀, 교수자, 게시판 관리팀 등 모든 강좌 관계자와 연락하는 방법을 확정한다. 예를 들어 강좌별 이메일 주소를 설정한다. * 모든 강좌 관계자가 업무를 기록하고, 문제를 보고하고 협력해서 일을 진행하는 방법을 확인 한다. 
 * 교수자와 강좌 운영팀이 LMS에서 제대로 역할이 할당되어 있는지 확인한다. :ref:`Course_Staffing` 확인.
 * 게시판 관리자, 게시판 운영자, 커뮤니티 조교가 등록되어 졌고 계정이 확성화 되어졌는지 확인한다. 그리고 교수자 데시보드에서 역할이 할당되어 졌는지 확인한다. :ref:`Assigning_discussion_roles` 확인
-* 게시판을 관리하는 방법과 게시판 운영자를 위한 방법을 정하고,게시판 관리 팀에게 제공한다. :ref:`Moderating_discussions` and :ref:`Guidance for Discussion Moderators` 확인.
+* 게시판을 관리하는 방법과 게시판 운영자를 위한 방법을 정하고,게시판 관리 팀에게 제공한다. :ref:`Moderating_discussions` 및 :ref:`Guidance for Discussion Moderators` 확인.
 
 
