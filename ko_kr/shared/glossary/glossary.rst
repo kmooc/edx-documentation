@@ -21,11 +21,11 @@
 
 .. _About Page:
 
-**About Page**
+**강좌 소개**
 
   예비 학습자에게 강좌의 요약, 선수강좌, 강좌 비디오와 이미지, 중요한 일정을 제공하는 페이지이다. 
 
-  추가 정보는 :ref:`Providing a Course Overview` 를 살펴 본다. 
+  추가 정보는 :ref:`Providing a Course Overview` 에 있다. 
 
 .. _Advanced Editor_g:
  
@@ -55,21 +55,21 @@
 **이수증**
 
   강좌를 성공적으로 이수한 학습자에게 발급되는 문서. 
-  모든 K-MOOC 강좌가 이수증을 발급하지 않으며, 등록된 모든 학습자가 이수증을 받을 수 있는 것은 아니다. 
+  모든 K-MOOC 강좌가 이수증을 발급하는 것은 아니며, 등록된 모든 학습자가 이수증을 받을 수 있는 것은 아니다. 
 
 
 .. _Checkbox Problem:
  
 **체크박스 문제**
 
-  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크 하는 문제유형이다. 추가 정보는 :ref:`Checkbox` 를 살펴본다. 
+  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크하는 문제유형이다. 추가 정보는 :ref:`Checkbox` 를 살펴본다. 
 
 
 .. _Chemical Equation Response Problem:
  
 **화학 공식 문제**
 
-  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제유형이다. 추가 정보는 :ref:`Chemical Equation` 를 살펴본다. 
+  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제 유형이다. 추가 정보는 :ref:`Chemical Equation` 에 있다. 
 
 
 .. _Circuit Schematic Builder Problem:
@@ -77,8 +77,7 @@
 **회로도 문제**
 
   학습자가 인터랙티브 그리드(interactive grid)에 문제의 답으로 회로도를 구성하도록 하는 문제유형이다. 
-  추가 정보는 :ref:`Circuit Schematic Builder` 를 살펴 본다. 
-
+  추가 정보는 :ref:`Circuit Schematic Builder` 에 있다. 
 
 .. _Cohort:
  
@@ -86,19 +85,19 @@
 
   강좌에서 함께 참여하는 학습자 집단. 동일한 학습 집단에 속해 있는 학습자는 집단내에서만 소통하고 공유의 경험을 가질 수 있다.
 
-  K-MOOC 플랫폼에서 강좌의 선택적 특성이다. 학습집단의 활성화방법, 설정방법, 학습자를 학습집단에 배정하는 방법은 :ref:`Cohorts Overview` 를 참고 한다. 
+  K-MOOC 플랫폼에서 강좌의 선택적 특성이다. 학습집단의 활성화방법, 설정방법, 학습자를 학습집단에 배정하는 방법은 :ref:`Cohorts Overview` 에 있다. 
 
 .. _Component_g:
  
 **구성요소**
 
-  실제 강좌 콘텐츠를 포함하고 있는 학습활동(unit) 영역의 부분. 하나의 학습활동은 하나 이상의 구성요소를 가질 수 있다. 참고: :ref:`Developing Course Components`.
+  실제 강좌 콘텐츠를 포함하고 있는 학습활동(unit) 영역의 부분. 하나의 학습활동은 하나 이상의 구성요소를 가질 수 있다. 자세한 내용은 :ref:`Developing Course Components` 에 있다. 
 
 .. _Content Experiment:
 
 **콘텐츠 실험**
 
-  다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. 참고: :ref:`Creating Content Experiments`
+  다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. 자세한 내용은 :ref:`Creating Content Experiments` 에 있다. 
 
 **Content-Specific Discussion Topic**
 
@@ -223,26 +222,6 @@
 라
 ****
 
-.. _edX101_g:
- 
-**edX101**
-
-  edX’s online course about how to create online courses. The intended audience is faculty and university administrators. It is also the first course ever to have been developed entirely using edX Studio.
-
-.. _edX101: https://edge.edx.org/courses/edX/edX101/How_to_Create_an_edX_Course/about
-
-
-.. _edX Edge:
- 
-**edX Edge**
-
-  A less restricted site than edX.org. While only consortium members can create and post content on edX.org, any users with course creator permissions can create courses with Studio on studio.edge.edx.org, then view the courses on the learning management system at edge.edx.org.
-
-.. _Edge: http://edge.edx.org
-
-
-
-
 .. _edX Studio:
  
 **Studio**
@@ -262,9 +241,6 @@
 마
 ***
 
-**포럼(Forum)**
-
-  참고: :ref:`Discussion<D>`.
 
 .. _바:
 
