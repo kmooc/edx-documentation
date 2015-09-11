@@ -18,14 +18,12 @@
 
 #. :ref:`Enabling and Configuring Cohorts`.
 #. :ref:`Creating Content Groups`. 
-#. :ref:`Specify Components in Courseware as Visible Only to Certain Content
-   Groups`.
+#. :ref:`Specify Components in Courseware as Visible Only to Certain Content Groups`.
      
 LMS에서: 
 
 #. :ref:`Options for Assigning Students to Cohorts`.  
-#. :ref:`Associate Cohorts
-   with Content Groups`.
+#. :ref:`Associate Cohorts with Content Groups`.
 #. :ref:`Preview Cohort Specific Courseware`.
 
 
@@ -41,7 +39,7 @@ LMS에서:
 
 모든 학습이 끝난 후에, 대학 총장과 단과대학장 등 다양한 대학 관계자의 비디오 메시지를 포함시킬 계획이다. 이러한 비디오는 이 대학 재학생 및 졸업생 학습집단에게만 제공될 것이다. 또한 모든 학습이 끝난 후에, 해당 강좌에서 다룬 내용을 테스트하는 퀴즈를 포함시키고자 한다. 이 퀴즈는 강좌에 등록한 모든 학생들에게 보여질 것이다. 
 
-이를 위해, 스튜디오의 **그룹 설정** 페이지에서 **University-Specific Content** 라는 하나의 콘텐츠 그룹을 생성한다. 교수자 대시보드의 **회원** 에서, “대학 졸업생”과 “대학 재학생” 학습집단을  “University-Specific Content”라는 콘텐츠 그룹에 결합시킨다. 
+이를 위해, 스튜디오의 **그룹 설정** 페이지에서 **University-Specific Content** 라는 하나의 콘텐츠 그룹을 생성한다. 교수자 대시보드의 **회원** 에서, “대학 졸업생”과 “대학 재학생” 학습집단을  “University-Specific Content” 라는 콘텐츠 그룹에 결합시킨다. 
 
 강좌 개요에서, 각 학습의 마지막 비디오 구성 요소를 “University-Specific Content” 콘텐츠 그룹만 볼 수 있도록 공개 설정을 변경한다. 콘텐츠 그룹이 구성 요소의 공개 설정에서 명시되지 않았다면, 모든 학습자가 퀴즈를 볼 수 있으므로 퀴즈 구성 요소의 공개 설정을 편집할 필요가 없다.
 
@@ -131,7 +129,7 @@ Groups` 에서 볼 수 있다.
 
 학습집단에 속해 있는 학습자가 의도한 바와 같이 정확히 콘텐츠를 볼 수 있는지 확인하기 위한 미리 보기는, 학습집단별 강좌 내용 미리 보기 :ref:`Preview Cohort Specific Courseware`  
 
-.. note:: 콘텐츠 그룹의 공개 설정 외에도 학습자에게 학습 활동을 숨길지, 강좌 공개일에 맞춰 학습활동을 공개할지를 설정할 수 있다. 일반적인 코스웨어 미리 보기에 대한 자세한 사항은 강좌 콘텐츠 미리 보기 :ref:`Preview Course Content` 에서 확인할 수 있다.   .
+.. note:: 콘텐츠 그룹의 공개 설정 외에도 학습자에게 학습 활동을 숨길지, 강좌 공개일에 맞춰 학습활동을 공개할지를 설정할 수 있다. 일반적인 코스웨어 미리 보기에 대한 자세한 사항은 강좌 콘텐츠 미리 보기 :ref:`Preview Course Content` 에서 확인할 수 있다. 
 
 .. _Associate Cohorts with Content Groups:
 
@@ -177,7 +175,7 @@ Groups` 에서 볼 수 있다.
 
 특정 콘텐츠 그룹만 볼 수 있도록 강좌의 구성 요소를 지정한 후, 각 그룹이 의도한 바와 같이 학습 내용을 올바르게 볼 수 있는지 확인하기 위해 미리 보기를 할 수 있다
 
-.. note:: I콘텐츠 그룹의 공개 설정 외에도 학습자에게 학습 활동을 숨길지, 강좌 공개일에 맞춰 학습활동을 공개할지를 설정할 수 있다. 일반적인 코스웨어 미리 보기에 대한 자세한 사항은 강좌 콘텐츠 미리 보기 :ref:`Preview Course Content` 에서 확인할 수 있다. 
+.. note:: 콘텐츠 그룹의 공개 설정 외에도 학습자에게 학습 활동을 숨길지, 강좌 공개일에 맞춰 학습활동을 공개할지를 설정할 수 있다. 일반적인 코스웨어 미리 보기에 대한 자세한 사항은 강좌 콘텐츠 미리 보기 :ref:`Preview Course Content` 에서 확인할 수 있다. 
 
 아래는 강좌에서 역할에 따라 볼 수 있는 내용에 대한 것이다:
 
@@ -187,7 +185,7 @@ Groups` 에서 볼 수 있다.
     :header-rows: 1
 
     * - 강좌에서의 역할
-      - When You "View As" This Role
+      - 역할에서 할 수 있는 일
     * - 강좌 운영팀
       - 학습자에게 숨겨진 콘텐츠를 포함하여 강좌의 모든 콘텐츠를 볼 수 있다.
     * - 학습자
