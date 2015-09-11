@@ -65,12 +65,12 @@ Studio에서 강좌에 활용할 다양한 연습문제 및 도구를 만들 수
           :width: 100
           :alt: Example LTI component
      - :ref:`LTI Component`
-     - LTI 구성 요소는 외부 학습 응용 프로그램 또는 비 PDF 교재를 Stuio에 추가할 수 있도록 허용한다.
+     - LTI 구성 요소는 외부 학습 응용 프로그램 또는 PDF가 아닌 교재를 Studio에 추가할 수 있도록 허용한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PA_QandRField.png
           :width: 100
           :alt: Example open response assessment
      - :ref:`Open Response Assessments 2`
-     - 개방형 평가(open response assessments)에서, 학습자는 학습자가 업로드하는 이미지 파일 뿐만 아니라 다양한 길이의 서면 응답에 대한 피드백을 받는다. 개방형 평가는 자기 평가 및 상호 평가를 포함한다.
+     - 개방형 평가(open response assessments)에서, 학습자는 업로드한 이미지 파일 뿐만 아니라 다양한 길이의 응답에 대한 피드백을 받는다. 개방형 평가는 자기평가 및 상호평가를 포함한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png
           :width: 100
           :alt: Example poll
