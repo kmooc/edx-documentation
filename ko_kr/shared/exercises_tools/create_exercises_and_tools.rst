@@ -190,7 +190,7 @@ STEM 연습 및 도구
           :width: 100
           :alt: Example math expression input problem
      - :ref:`Math Expression Input`
-     - 스튜디오에 있는 두 가지 유형의 수학 문제중 더 복잡한 유형이다. 학습자는 질문에 답하기 위해 수학 공식을 입력한다. 이 문제는 변수와 복잡한 기호식을 포함할 수 있다. 명시적으로 또는 Python 스크립트를 사용하여 정답을 지정할 수 있다.
+     - Studio에 있는 두 가지 유형의 수학 문제 중 더 복잡한 유형이다. 학습자는 질문에 답하기 위해 수학 공식을 입력한다. 이 문제는 변수와 복잡한 기호식을 포함할 수 있다. 명시적으로 또는 Python 스크립트를 사용하여 정답을 지정할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/Molecule_Editor.png
           :width: 100
           :alt: Example molecule editor problem
@@ -200,7 +200,7 @@ STEM 연습 및 도구
           :width: 100
           :alt: Example molecule viewer tool
      - :ref:`Molecule Viewer`
-     - 분자 보기(molecule viewer)를 사용하면 학습자가 분자를 3차원으로 볼 수 있도록 만들 수 있다.
+     - 분자 뷰어는 학습자에게 분자를 3차원으로 보여줄 수 있게 한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/image292.png
           :width: 100
           :alt: Example numerical input problem
