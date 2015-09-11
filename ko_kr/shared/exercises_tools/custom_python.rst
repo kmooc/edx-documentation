@@ -4,12 +4,12 @@
 맞춤형 Python 평가 입력 문제 
 ##############################
 
-맞춤형 Python 평가 입력(”write-your-own-grader” 문제 라고도 한다)에서, 채점자는 학습자의 응답을 평가하거나 힌트를 제공하기 위해 문제에 Python 스크립트를 만들어서 임베드 할 수 있다. Python 스크립트가 사용된 문제는 어떠한 유형이든 가능하다. 맞춤형 Python 평가 입력 문제이 많이 이용되는 것은 수식 입력 및 텍스트 입력 문제이다. 
+맞춤형 Python 평가 입력(혹은 ”write-your-own-grader” 문제)에서, 채점자가 학습자의 응답을 평가하거나 힌트를 제공하기 위해 문제에 Python 스크립트를 만들어서 임베드 할 수 있다. Python 스크립트가 사용된 문제는 어떠한 유형이든 가능하다. 맞춤형 Python 평가 입력 문제이 많이 이용되는 것은 수식 입력 및 텍스트 입력 문제이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/CustomPythonExample.png
  :alt: Image of a write your own grader problem
 
-맞춤형 Python 평가 입력 문제는 다음을 포함할 수 있다.:
+맞춤형 Python 평가 입력 문제는 다음을 포함할 수 있다:
 
 * :ref:`Chemical Equation`
 * :ref:`Custom JavaScript`
@@ -29,7 +29,7 @@
    * - ``<textline size="10" correct_answer="3"/>``
      - 이 태그는 size, correct_answer 및 label 속성을 포함한다. 단, correct_answer는 선택 속성이다.
 
-정답 태그 포맷(Answer Tag Format) 또는 스크립트 태그 포맷(Script Tag Format) 중 어느 하나에서 이러한 유형의 문제 가운데 하나를 생성할 수 있다. :ref:`Answer Tag Format` 혹은 :ref:`Script Tag Format`.
+정답 태그 포맷(Answer Tag Format) 또는 스크립트 태그 포맷(Script Tag Format) 중 어느 하나에서 이러한 유형의 문제 가운데 하나를 생성할 수 있다. :ref:`Answer Tag Format` 혹은 :ref:`Script Tag Format` .
 
 .. _Answer Tag Format:
 
@@ -57,9 +57,9 @@ Python 스크립트는 일반적으로 다음 변수들과 상호작용한다.:
 
 * ``answers``: 학습자가 제공한 답의 순서 목록. 학습자가 답으로 ``6`` 을 입력한 경우 ``answers[0]`` 은 ``6`` 과 동일하다. 
 * ``expect``: ``<customresponse>`` 의 ``expect`` 속성값. (규정된 경우)  
-* ``correct``: 학습자가 질문지에 정확히 답했는지 여부를 나타내는 스트링 순서 목록. 유효한 값은 ``"correct"``, ``"incorrect"``, ``"unknown"`` 이다. 이들 변수를 스크립트 내부에 설정할 수 있다. 
-* ``messages``: 문제의 각 응답 필드 아래에 표시되는 메시지 순서 목록. 이 변수를 이용하여 사용자에게 힌트를 제공할 수 있다. 가령 ``messages[0] = "The capital of California is Sacramento"`` 를 입력한 경우 이 메시지가 문제 내부 응답 필드 아래에 표시된다.  
-* ``overall_message``: 전체 문제 아래에 표시되는 메시지. 이 변수를 이용하여 특정 응답 필드 1개가 아니라 문제 전체에 적용되는 힌트를 제공할 수 있다.
+* ``correct`` : 학습자가 질문지에 정확히 답했는지 여부를 나타내는 스트링 순서 목록. 유효한 값은 ``"correct"``, ``"incorrect"``, ``"unknown"`` 이다. 이들 변수를 스크립트 내부에 설정할 수 있다. 
+* ``messages`` : 문제의 각 응답 필드 아래에 표시되는 메시지 순서 목록. 이 변수를 이용하여 사용자에게 힌트를 제공할 수 있다. 가령 ``messages[0] = "The capital of California is Sacramento"`` 를 입력한 경우 이 메시지가 문제 내부 응답 필드 아래에 표시된다.  
+* ``overall_message`` : 전체 문제 아래에 표시되는 메시지. 이 변수를 이용하여 특정 응답 필드 1개가 아니라 문제 전체에 적용되는 힌트를 제공할 수 있다.
 
 ========================================================================
 정답 태그 포맷으로 맞춤형 Python 평가 입력 문제 생성하기
