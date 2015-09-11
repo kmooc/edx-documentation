@@ -33,7 +33,7 @@ kmooc.kr 및 테스트서버
 
 
 .. _Edge: http://edge.edx.org
-.. _edX.org: http://edx.org
+.. _kmooc.kr: http://kmooc.kr
 
 
 .. _Create an Account:
