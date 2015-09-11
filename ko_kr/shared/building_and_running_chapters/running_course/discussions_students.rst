@@ -266,16 +266,15 @@ K-MOOC 강좌 게시판 구조
 
 다른 학습자와 강좌 운영팀이 작성한 게시판 주제를 읽으면서, 완벽한 답글이나 댓글을 작성하지 않고 피드백을 제공하기 위해 다음과 같이 할 수 있다. :
 
-* :ref:`Vote for Posts or Responses` to provide
-  positive feedback.
+* :ref:`Vote for Posts or Responses` 
 
-* :ref:`Follow Posts` so that you can check back in on
-  interesting conversations and questions easily.
+* :ref:`Follow Posts` 
 
 * :ref:`Answer
-  Questions`.
+  Questions`
 
 * :ref:`Report Discussion Misuse` 
+
 피드백 옵션을 선택하려면, 게시글, 답글, 댓글 우측 상단에 아이콘을 사용한다. 커서를 이 아이콘 위에 올려두면, 공감과 팔로우를 할 수 있는 아이콘이 뜬다. 
 
 
@@ -308,7 +307,7 @@ K-MOOC 강좌 게시판 구조
  :alt: The list of posts with the "by most votes" sorting option and the 
        number of votes for the post circled
 
-각 게시글이 받은 공감수는 게시글 목록에서 볼 수 있다. (답글이 받은 공감수는 포함되지 않는다)
+각 게시글이 받은 공감수는 게시글 목록에서 볼 수 있다. (답글이 받은 공감수는 포함되지 않는다.)
 
 .. _Follow Posts:
 
@@ -316,7 +315,7 @@ K-MOOC 강좌 게시판 구조
 게시물 팔로우하기
 ==============================
 
-특히 흥미로운 게시글이나 향후 다시 보고 싶은 게시물이 있다면, 그 게시물을 팔로우할 수 있다. : 게시글을 보고 “팔로우” 아이콘을 클릭한다. 
+특히 흥미로운 게시글이나 향후 다시 보고 싶은 게시물이 있다면, 그 게시물을 팔로우할 수 있다. 게시글을 보고 “팔로우” 아이콘을 클릭한다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_follow.png
  :alt: A post with the Follow icon circled
