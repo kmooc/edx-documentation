@@ -32,7 +32,7 @@ kmooc.kr 및 테스트서버
 .. note:: Edge와 kmooc.org는 강좌 데이터와 계정이 별도로 운영된다. 따라서 K-MOOC 교수자 및 강좌 운영팀이 kmooc.kr과 테스트서버를 모두 이용하려면, 두 사이트에 각각 등록해야 한다.
 
 
-.. _Edge: http://edge.edx.org
+.. _테스트서버: http://dev.kmooc.kr
 .. _kmooc.kr: http://kmooc.kr
 
 
@@ -47,7 +47,7 @@ kmooc.kr 또는 테스트서버에 가입한다.
 #. kmooc.kr의 경우, `등록 및 로그인 페이지
    <https://kmooc.kr/login>`_. 로 이동한 다음 **가입하기** 를 선택한다.  
 
-   테스트서버의 경우, `등록 및 로그인 페이지 <http://edx.kotech.biz/register?next=%2Fdashboard>`_ 로 이동한다.
+   테스트서버의 경우, `등록 및 로그인 페이지 <http://kmooc.kr/register?next=%2Fdashboard>`_ 로 이동한다.
 
 #. 가입 화면에서 별표(*)가 있는 입력칸에 개인정보를 입력한다.
 
