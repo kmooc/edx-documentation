@@ -193,6 +193,13 @@
 
 
 
+.. _Multiple Choice Problem:
+ 
+**선다형 문제**
+  
+  선택지에서 적절한 답을 선택하는 문제다.  :ref:`Multiple Choice` 에 자세한 안내가 있다.
+
+
 
 
 
@@ -275,13 +282,6 @@
 **채점 기준표**
  
   List of the items that a student's response should cover in an open response assessment. :ref:`PA Rubric` 에 자세한 안내가 있다.
-
-
-.. _Multiple Choice Problem:
- 
-**선다형 문제**
-  
-  선택지에서 적절한 답을 선택하는 문제다.  :ref:`Multiple Choice` 에 자세한 안내가 있다.
 
 
 .. _차:
