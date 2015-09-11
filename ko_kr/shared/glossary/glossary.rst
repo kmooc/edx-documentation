@@ -11,11 +11,17 @@
 ****
 가
 ****
+
 .. _Import:
  
 **가져오기**
+
   Studio 외부에서 개발한 강좌를 가져오거나, Studio에서 만들어지지 않은 강좌의 새 버전을 실행하기 위해 가져오기 기능을 활용할 수 있다. :ref:`Import a Course` 에 자세한 안내가 있다.
 
+.. _Simple Editor_g:
+ 
+**간편 편집기**
+일부 문제 유형에서 이용가능한 것으로, 버튼 형식으로 되어 있어 사용하기 편리하다. :ref:`Problem Studio View` 에 자세한 안내가 있다.
 
 .. _Courseware:
  
@@ -158,7 +164,6 @@
 
 
 
-
 .. _바:
 
 ****
@@ -288,26 +293,6 @@
  :ref:`PA Rubric` 에 자세한 안내가 있다.
 
 
-.. _Math Expression Input Problem:
- 
-**Math Expression Input Problem**
-
-  A problem that requires students to enter a mathematical expression as text, such as e=m*c^2.
-
-  See :ref:`Math Response Formatting for Students` for more information.
-
-
-.. _MathJax:
- 
-**MathJax**
-
-  A LaTeX-like language you use to write equations. Studio uses MathJax to render text input such as x^2 and sqrt(x^2-4) as "beautiful math."
-
-  See :ref:`MathJax in Studio` for more information.
-
-
-
-
 .. _Multiple Choice Problem:
  
 **선다형 문제**
@@ -334,7 +319,7 @@
 
 **콘텐츠 실험**
 
-  다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. 자세한 내용은 :ref:`Creating Content Experiments` 에 있다. 
+  다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. :ref:`Creating Content Experiments` 에 자세한 안내가 있다. 
 
 .. _Pages_g:
  
@@ -377,7 +362,7 @@
 ..  visible to students, if the subsection that contains the unit has been
 ..  released.
 
-..  See :ref:`Public and Private Units` for more information.
+..  :ref:`Public and Private Units` 에 자세한 안내가 있다.
 
 .. _파:
 
@@ -391,7 +376,8 @@
   topic to surface an issue that the course staff or other students can
   resolve. 
 
-  See :ref:`Discussions` for more information.
+  :ref:`Discussions` 에 자세한 안내가 있다.
+
   
 .. _하:
 
@@ -462,11 +448,6 @@ S
   See :ref:`Describe Your Course` for more information.
 
 
-.. _Simple Editor_g:
- 
-**Simple Editor**
-
-  The graphical user interface in a Problem component that contains formatting buttons and is available for some problem types. For more information, see :ref:`Problem Studio View`.
 
 .. _Split_Test:
 
@@ -538,6 +519,15 @@ XYZ
   :ref:`Content Experiment` 에 자세히 안내되어 있다.
   
   
+
+.. _MathJax:
+ 
+**MathJax**
+
+  A LaTeX-like language you use to write equations. Studio uses MathJax to render text input such as x^2 and sqrt(x^2-4) as "beautiful math."
+
+  See :ref:`MathJax in Studio` for more information.
+
 .. _LaTeX:
  
 **LaTeX**
