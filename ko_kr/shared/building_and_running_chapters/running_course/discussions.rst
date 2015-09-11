@@ -10,7 +10,7 @@
 
 게시판은 향후 강좌 개선을 위한 피드백이나 아이디어를 얻을 수 있는 중요한 자원이 될 것이다. 
 
-게시판을 운영에 관해 항목별 구체적인 안내는 아래 링크에 있다. 
+게시판 운영에 관해 항목별 구체적인 안내는 아래 링크에 있다. 
 
 * :ref:`Overview_discussions`
 
@@ -71,18 +71,18 @@ Discussion Topics` 와 :ref:`Create ContentSpecific Discussion Topics` 에 있�
 
 #. **설정** 을 선택한 후 **고급 설정** 을 선택한다. 
 
-#.  **게시판 주제 도표화(Discussion Topic Mapping)** 까지 화면을 내린다. 기본값은 다음과 같다:
+#.  **게시판 주제 도표화** 까지 화면을 내린다. 기본값은 다음과 같다.
 
  .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_Add_initial.png
   :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"}}
 
-4. “General” 제목에 제공되는 3줄을 복사한 후 닫힌 중괄호 문자(}) 위에 복사한 내용을 붙여 넣는다. 
+4. “일반” 제목에 제공되는 3줄을 복사한 후 닫힌 중괄호 문자(}) 위에 복사한 내용을 붙여 넣는다. 
 
  .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_Add_paste.png
   :alt: Policy value of {"General": {"id": "i4x-edX-Open-edx_demo_course"} 
         "General": {"id": "i4x-edX-Open-edx_demo_course"}}
 
-5. 두 번째 “General”을 새로운 이름(주제)으로 바꾼다. 
+5. 두 번째 “일반”을 새로운 이름(주제)으로 바꾼다. 
 
 #. 고유 식별자로 두 번째 “id”를 바꾼다. 예를 들어, 새로운 이름(주제)에 대한 언급을 덧붙여도 좋다.
 
