@@ -32,15 +32,9 @@
  :alt: Discussion Topic Mapping field with four course-wide discussion topics 
        defined
 
-You have enabled cohorts for your course to take advantage of that feature
-as it applies to discussion topics.
+브레인스토밍과 공지사항을 학습 집단별로 진행할 수 있도록 해당 주제에 학습 집단을 설정할 수 있다.
 
-The posts that you intend to make to the Course Q&A and General topics, and the
-subjects you expect students to explore there, are appropriate for a unified
-student audience. However, you also want to give students some course-wide
-topics that are divided by cohort. 브레인스토밍과 공지사항을 학습 집단별로 진행할 수 있도록 해당 주제에 학습 집단을 설정할 수 있다.
-
-또한, 학습자가 해당 주제에 게시물을 추가하기 전에, 확인할 수 있는 사람이 누구인지 알 수 있도록 설정할 수 있다.이러한 기능을 사용하기 위해서는 :ref:`Apply Naming Conventions to Discussion Topics` 를 참고하면 된다. 
+또한, 학습자가 해당 주제에 게시물을 추가하기 전에, 확인할 수 있는 사람이 누구인지 알 수 있도록 설정할 수 있다. 이러한 기능을 사용하기 위해서는 :ref:`Apply Naming Conventions to Discussion Topics` 를 참고하면 된다. 
 
 
 .. _Configure CourseWide Discussion Topics as Private:
