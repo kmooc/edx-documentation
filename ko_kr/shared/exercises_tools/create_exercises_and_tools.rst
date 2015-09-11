@@ -12,8 +12,7 @@ Studio에서 강좌에 활용할 다양한 연습문제 및 도구를 만들 수
 
 연습문제 또는 도구에 따라 적절한 HTML, 문제, 또는 고급 구성 요소 중 하나를 사용하게 될 것이다. 각 연습문제 또는 도구에 대한 페이지는 모든 파일, 코드 및 연습이나 도구를 만드는데 필요한 단계별 지침과 함께 각 연습문제 또는 도구에 대한 예제를 포함하고 있다.
 
-.. 참고:: 
-  문제는 접근성 라벨을 포함해야 한다. 라벨은 일반적으로 문제에 있는 주요 질문의 텍스트를 포함한다. 라벨 추가 지침은 각 개별 문제에 대한 페이지에 표시된다.
+.. note:: 문제는 접근성 라벨을 포함해야 한다. 라벨은 일반적으로 문제에 있는 주요 질문의 텍스트를 포함한다. 라벨 추가 지침은 각 개별 문제에 대한 페이지에 표시된다.
 
 ****************************
 일반적 연습문제 및 도구
@@ -86,7 +85,7 @@ Studio에서 강좌에 활용할 다양한 연습문제 및 도구를 만들 수
           :width: 100
           :alt: Example problem written in LaTeX
      - :ref:`Problem Written in LaTeX`
-     - 이미 LaTex에서 문제를 작성한 경우, 코드를 XML로 쉽게 변환하기 위해 이 문제 유형을 사용할 수 있다.
+     - LaTex에서 문제를 작성한 경우, 코드를 XML로 쉽게 변환하기 위해 이 문제 유형을 사용할 수 있다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/SFD_SN_bodyexample.png
           :width: 100
           :alt: Image of student notes in a course
@@ -120,7 +119,7 @@ Studio에서 강좌에 활용할 다양한 연습문제 및 도구를 만들 수
           :width: 100
           :alt: Example drag and drop problem
      - :ref:`Drag and Drop`
-     - 끌어서 놓기 문제(drag and drop problems)에서, 학습자는 이미지에 특정 위치에 텍스트 또는 개체를 드래그하여 질문에 답한다.
+     - drag and drop problems에서, 학습자는 이미지에 특정 위치에 텍스트 또는 개체를 드래그하여 질문에 답한다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/image-modal.png
           :width: 100
           :alt: Example full screen image tool
@@ -135,7 +134,7 @@ Studio에서 강좌에 활용할 다양한 연습문제 및 도구를 만들 수
           :width: 100
           :alt: Example zooming image tool
      - :ref:`Zooming Image`
-     - . 이미지 확대는 학습자가 해당 부분을 자세히 볼 수 있도록 이미지의 부분을 확대할 수 있도록 허용한다. 
+     - 이미지 확대는 학습자가 해당 부분을 자세히 볼 수 있도록 이미지를 확대해준다. 
 
 ************************************
 다양한 유형의 연습문제 및 도구
@@ -148,7 +147,7 @@ Studio에서 강좌에 활용할 다양한 연습문제 및 도구를 만들 수
           :width: 100
           :alt: Example checkbox problem
      - :ref:`Checkbox`
-     - 문제에서, 학습자는 가능한 답안 목록에서 하나 이상의 옵션을 선택한다. 학습자는 문제에 대해 올바르게 대답하기 위해 적용되는 모든 옵션을 선택해야 한다
+     - 학습자는 문제에서 답안 목록에서 하나 이상을 선택한다. 학습자는 문제의 정답을 모두 선택해야 한다
    * - .. image:: ../../../shared/building_and_running_chapters/Images/DropdownExample.png
           :width: 100
           :alt: Example dropdown problem
@@ -158,7 +157,7 @@ Studio에서 강좌에 활용할 다양한 연습문제 및 도구를 만들 수
           :width: 100
           :alt: Example multiple choice problem
      - :ref:`Multiple Choice`
-     - 선다형 문제에서, 학습자는 답안 옵션 목록에서 하나의 옵션을 선택한다. 학습자가 드롭다운 화살표를 클릭할 때까지 답안 선택이 표시되지 않는 드롭다운 문제와는 달리, 선다형 문제에 대한 답안 선택은 항상 질문 바로 아래 표시된다.
+     - 학습자는 답안 선택 목록에서 하나를 선택한다. 학습자가 드롭다운 화살표를 클릭할 때까지 답안 선택이 표시되지 않는 드롭다운 문제와는 달리, 선다형 문제에 대한 답안 선택은 항상 질문 바로 아래 표시된다.
    * - .. image:: ../../../shared/building_and_running_chapters/Images/MultipleChoice_NumericalInput.png
           :width: 100
           :alt: Example multiple choice and numerical input problem
