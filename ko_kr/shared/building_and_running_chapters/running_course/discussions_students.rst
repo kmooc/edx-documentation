@@ -47,7 +47,7 @@ K-MOOC 강좌 게시판 구조
  :alt: A discussion topic that appears below a video in the course, identified 
        by a "Show Discussion" link
 
-대부분 강좌는 “자주 묻는 질문(FAQ)”과 “문제 해결”과 같이 하나 이상의 강좌 일반 주제를 위한 항목을 포함한다. **게시판** 메뉴에서 이러한 주제를 열람할 수 있다.: **모든 게시판** 드롭다운을 클릭한다. 
+대부분 강좌는 “자주 묻는 질문(FAQ)”과 “문제 해결”과 같이 하나 이상의 강좌 일반 주제를 위한 항목을 포함한다. **게시판** 메뉴에서 이러한 주제를 열람할 수 있다. **모든 게시판** 드롭다운을 클릭한다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_course_wide.png
  :alt: Discussion topics are listed on the Discussion page when you click the 
