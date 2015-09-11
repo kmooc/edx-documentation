@@ -175,9 +175,7 @@
  
 **성적 범위**
 
-   수치 점수로 된 성적이 어떻게 관련되는지 한계치를 나타낸다.
-
-  :ref:`Set the Grade Range` 에 자세한 안내가 있다.
+  수치 점수로 된 성적이 어떻게 관련되는지 한계치를 나타낸다. :ref:`Set the Grade Range` 에 자세한 안내가 있다.
 
 .. _Subsection:
  
@@ -198,9 +196,6 @@
 **선다형 문제**
   
   선택지에서 적절한 답을 선택하는 문제다.  :ref:`Multiple Choice` 에 자세한 안내가 있다.
-
-
-
 
 
 .. _아:
@@ -304,23 +299,12 @@
 
   다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. :ref:`Creating Content Experiments` 에 자세한 안내가 있다. 
 
-.. _Pages_g:
- 
-**페이지**
-
-  Pages organize course materials into categories that students select in the
-  learning management system. Pages provide access to the courseware and to
-  tools and uploaded files that supplement the course. Each page appears in
-  your course's navigation bar.
-
-  :ref:`Adding Pages to a Course` 에 자세한 안내가 있다.
-
 
 .. _Problem Component:
  
 **문제 구성요소**
 
-  A component that allows you to add interactive, automatically graded exercises to your course content. You can create many different types of problems. :ref:`Working with Problem Components` 에 자세한 안내가 있다.
+  강좌 콘텐츠에서 상호 작용적이고 자동채점되는 문제 구성요소이다. 다양한 문제의 유형을 만들 수 있다. :ref:`Working with Problem Components` 에 자세한 안내가 있다.
 
 .. _Preview Mode:
  
@@ -330,18 +314,6 @@
 
   :ref:`Preview Course Content` 에 자세한 안내가 있다.
 
-
-
-
-.. _Public Unit:
- 
-.. **Public Unit**
-
-..  A unit whose **Visibility** option is set to Public so that the unit is
-..  visible to students, if the subsection that contains the unit has been
-..  released.
-
-..  :ref:`Public and Private Units` 에 자세한 안내가 있다.
 
 .. _파:
 
@@ -391,15 +363,11 @@
   강좌가 운영되는 동안 학습자가 강좌를 보거나, 강좌 운영팀이 등록 관리를 하거나, 운영자의 권한을 관리하거나, 토의를 조정하거나, 데이터에 접근하는데 기반이 되는 플랫폼이다.
 
 
-
-
 .. _Rubric:
  
 **Rubric**
 
-  개방형 반응 평가에서 학습자의 반응을 다루기 위한 항목들이다. 
-
-  See :ref:`PA Rubric` for more information.
+  개방형 반응 평가에서 학습자의 반응을 다루기 위한 항목들이다. :ref:`PA Rubric` 에 자세히 안내되어 있다. 
 
 
 
@@ -414,9 +382,7 @@ S
 
 **Split Test**
 
-  See `Content Experiment`_.
-
-
+  `Content Experiment`_ 에 자세히 안내되어 있다. 
 
 
 
@@ -430,9 +396,7 @@ T
  
 **텍스트 입력 문제**
 
-  학습자에게 텍스트를 입력하도록 하는 문제로 정답이 아닐 때 체크되어진다. 
-
-  See :ref:`Text Input` for more information.
+  학습자에게 텍스트를 입력하도록 하는 문제로 정답이 아닐 때 체크되어진다. :ref:`Text Input` 에 자세히 안내되어 있다. 
 
 
 .. _Transcript:
@@ -471,7 +435,6 @@ XYZ
 ****
 
 
-
 .. _AB Test:
 
 **A/B 테스트**
@@ -486,29 +449,24 @@ XYZ
 
   강좌 운영팀이 강좌를 개설 및 관리하는데 사용하는 도구로, :ref:`What is Studio?` 에 자세한 안내가 있다.
 
-.. _MathJax:
- 
-**MathJax**
-
-  A LaTeX-like language you use to write equations. Studio uses MathJax to render text input such as x^2 and sqrt(x^2-4) as "beautiful math."
-
-  See :ref:`MathJax in Studio` for more information.
 
 .. _LaTeX:
  
 **LaTeX**
 
-  A document markup language and document preparation system for the TeX typesetting program. 
+  마크업 언어이고, 문서 조판에 이용되는 프로그램이다. :ref:`Import LaTeX Code` 에 자세히 있다. 
+  또한, :ref:`Problem Written in LaTeX` 를 만들 수 있다. 
 
-  In edX Studio, you can :ref:`Import LaTeX Code`.
 
-  You can also create a :ref:`Problem Written in LaTeX`.
+.. _MathJax:
+ 
+**MathJax**
+
+  LaTeX와 같은 공식을 작성하는데 이용할 수 있는 언어이다. Studio 는 MathJax 를 이용하여 x^2 및 sqrt(x^2-4) 와 같은 텍스트를 입력하면 수학 공식으로 변환시켜 준다. :ref:`MathJax in Studio` 에 자세한 안내가 있다. 
+
 
 .. _XBlock:
  
 **XBlock**
 
-  EdX’s component architecture for writing courseware components.  
-
-  Third parties can create components as web applications that can run within the edX learning management system.
-
+  강좌 구성요소를 작성하기 위한 아키텍처이다. K-MOOC의 학습관리 시스템 내에서 실행하기 위한 웹 어플리케이션으로 써드파티 제품들로 구성요소를 만들 수 있다. 
