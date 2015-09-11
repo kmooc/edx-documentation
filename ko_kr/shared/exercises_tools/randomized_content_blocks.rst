@@ -4,7 +4,7 @@
 무작위 콘텐츠 블록
 #########################
 
-:ref:`content libraries<Content Libraries>` 이 활성화되어 있고 사용하고자 하는 콘텐츠가 포함된 보관함에 접근할 수 있는 경우 해당 보관함을 통해 학습자를 위한 무작위 과제를 만들 수 있다.
+:ref:`Content Libraries` 이 활성화되어 있고 사용하고자 하는 콘텐츠가 포함된 보관함에 접근할 수 있는 경우 해당 보관함을 통해 학습자를 위한 무작위 과제를 만들 수 있다.
 
 무작위 과제를 만들려면, 강좌 학습활동 1개에 무작위 콘텐츠 블록을 1개 이상 추가해야 한다. 무작위 콘텐츠 블록 각각에 대해 해당 콘텐츠를 가져올 1개 이상의 보관함을 지정하고 그 갯수를 명시한다. 또한, 각 학습자에게 무작위로 배정할 **문제** 의 유형을 지정할 수 있는데 이는 선택사항이다. 무작위 과제를 위한 구성요소를 무작위로 가져올 보관함을 2개 이상 지정한 경우 모든 지정 보관함에서 가져온 콘텐츠는 무작위 선택에 앞서 조합한다.
 
@@ -54,7 +54,7 @@
 콘텐츠 보관함 활성화하기
 ========================
 
-강좌 내 콘텐츠 보관함의 무작위 구성요소를 사용하기에 앞서 :ref:`content libraries<Content Libraries>` 을 반드시 활성화 해야 한다. 
+강좌 내 콘텐츠 보관함의 무작위 구성요소를 사용하기에 앞서 :ref:`Content Libraries` 을 반드시 활성화 해야 한다. 
 
 #. Studio에서, 보관함 콘텐츠를 제공하고자 하는 강좌를 연다.
 
@@ -67,7 +67,6 @@
 #. **변경사항 저장** 을 클릭한다.
    
    Studio는 강좌 운영팀이 입력한 규정 키를 다시 포맷하여 해당 키의 위치를 새로운 행에서 들여쓰기 한다.
-.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraries_AdvancedSetting.png
      :alt: Advanced Module policy key "library_content"
@@ -79,7 +78,7 @@
 강좌에 무작위 콘텐츠 블록 추가하기
 =============================================
 
-:ref:`enable content libraries<Enable Content Libraries>`  이후 무작위 콘텐츠 블록 고급 구성요소를 이용하여 보관함 콘텐츠를 강좌에 추가할 수 있다.
+:ref:`Enable Content Libraries`  이후 무작위 콘텐츠 블록 고급 구성요소를 이용하여 보관함 콘텐츠를 강좌에 추가할 수 있다.
 
 .. note:: 이 단계를 시작하기에 앞서 무작위 콘텐츠 블록에서 참조하고자 하는 보관함 각각의 
    보관함 ID를 획득한다. 보관함 ID는 각 보관함 페이지의 사이드바에 있다. 
@@ -127,8 +126,7 @@
 필터 설정과 일치하는 소스 보관함의 구성요소 목록에 대해 
 :ref:`View the Matching Components in a Randomized Content Block` 에 안내되어 있다. 
 
-Studio에서 보관함 콘텐츠 전체를 확인하려면, :ref:`View the
-Contents of a Library` 을 참조한다.
+Studio에서 보관함 콘텐츠 전체를 확인하려면, :ref:`View the Contents of a Library` 을 참조한다.
    
 
 .. _View the Matching Components in a Randomized Content Block:
@@ -154,8 +152,7 @@ Contents of a Library` 을 참조한다.
 
 
 Studio에서 보관함의 콘텐츠를 보려면 
- :ref:`View the Contents of a
-Library` 를 참조한다.
+ :ref:`View the Contents of a Library` 를 참조한다.
 
 
 .. _View the Randomized Content as a Student:
@@ -166,11 +163,9 @@ Library` 를 참조한다.
 
 무작위 콘텐츠 블록 내 구성요소의 갯수와 유형을 학습자가 보는 방식으로 보려면, :ref:`Preview a Unit` 를 참조한다.
 
-보관함 내부의 일치하는 구성요소 목록을 보려면, :ref:`View the
-Matching Components in a Randomized Content Block` 을 참조한다. 
+보관함 내부의 일치하는 구성요소 목록을 보려면, :ref:`View the Matching Components in a Randomized Content Block` 을 참조한다. 
 
-Studio에서 보관함의 콘텐츠 전체를 보려면, :ref:`View the
-Contents of a Library` 을 참조한다.
+Studio에서 보관함의 콘텐츠 전체를 보려면, :ref:`View the Contents of a Library` 을 참조한다.
 
 
 .. _Edit Components in Randomized Content Blocks:
