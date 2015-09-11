@@ -96,7 +96,7 @@
 
    * Mac에서 압축하는 방법은  `How to Create a Tar GZip File from the Command Line <http://osxdaily.com/2012/04/05/create-tar-gzip/>`_ 에서 확인한다.
 
-   * 윈도우즈 환경에서 압축하는 방법은  computer, see `How to Make a .tar.gz on Windows <http://stackoverflow.com/questions/12774707/how-to-make-a-tar-gz-on-windows>`_ 에서 확인한다.
+   * 윈도우즈 환경에서 압축하는 방법은, `How to Make a .tar.gz on Windows <http://stackoverflow.com/questions/12774707/how-to-make-a-tar-gz-on-windows>`_ 에서 확인한다.
 
 #. Studio에서 강좌를 들여오기 한다. 이제 설문 조사 문항과 선택지를 Studio에서 검토할 수 있다.
 
