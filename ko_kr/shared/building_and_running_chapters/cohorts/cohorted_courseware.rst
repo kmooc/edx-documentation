@@ -119,7 +119,7 @@ Groups` 에서 볼 수 있다.
 
 4. **저장** 을 클릭한다.
 
-구성 요소의 **공개 설정** 아이콘이 검정색으로 변하고, 사이드 바(sidebar)의 강좌 영역의 세부 사항이 일부 콘텐츠가 특정 그룹에게만 공개된다는 최신 정보로 업데이트 된다. 
+구성 요소의 **공개 설정** 아이콘이 검정색으로 변하고, 사이드 바의 강좌 영역의 세부 사항이 일부 콘텐츠가 특정 그룹에게만 공개된다는 최신 정보로 업데이트 된다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Cohorts_VisibilitySomeGroup.png
    :alt: Visibility icon is black when visibility for a component is restricted
@@ -164,7 +164,7 @@ Groups` 에서 볼 수 있다.
 
 다른 학습집단을 동일 콘텐츠 그룹이다 또 다른 콘텐츠 그룹에 결합시키기 위해서는 위의 3.에서 7.의 단계를 반복하면 된다.
 
-콘텐츠 그룹을 사용하여 학습집단별 강좌 내용을 생성하는 예는 예시: 학습집단별 강좌 내용 :ref:`Cohorted Courseware Example` 을 본다. 
+콘텐츠 그룹을 사용하여 학습집단별 강좌 내용을 생성하는 예는 :ref:`Cohorted Courseware Example` 을 본다. 
 
 
 .. _Preview Cohort Specific Courseware:
