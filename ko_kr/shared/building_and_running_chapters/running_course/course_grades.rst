@@ -20,6 +20,7 @@
 
 어떻게 성적 관리 정책을 펼치고 문제 내용에 대한 작업을 할 것인지에 대한 정보는 :ref:`Establish a Grading Policy` 혹은 :ref:`Working with Problem Components` 을 참조한다. 
 
+
 .. _Review_grades:
 
 ********************************************************
@@ -405,9 +406,6 @@ CSV 파일은 각 학습자마다 하나의 줄을 포함하고 있고 다음의
 #. 문제를 표시하고 강좌 운영팀 오류 검색 정보를 클릭한다. 강좌 운영팀 오류 검색 뷰어가 열린다. 
 
 #.  **아이디** 에 학습자 이메일 주소나 아이디를 입력하고 **학습자 상태 삭제** 를 클릭한다. 성공적으로 처리가 될 경우 메시지가 뜬다. .
-
-#. To close the Staff Debug viewer, click on the browser page outside of the
-   viewer.
 
 교수자 대시보드를 사용할 경우, 문제 고유의 식별자가 필요하다. :ref:`find_URL` 를 참조한다. 
 
