@@ -12,108 +12,6 @@
 가
 ****
 
-.. _AB Test:
-
-**A/B 테스트**
-
-  :ref:`Content Experiment` 에 자세히 안내되어 있다.
-  
-
-.. _About Page:
-
-**강좌 소개**
-
-  예비 학습자에게 강좌의 요약, 선수강좌, 강좌 비디오와 이미지, 중요한 일정을 제공하는 페이지이다. 
-
-  :ref:`Providing a Course Overview` 에 자세히 안내되어 있다. 
-
-.. _Advanced Editor_g:
- 
-**고급 에디터**
-
-  문제 구성요소에서의 문제 유형을 만들고 편집할 수 있도록 하는 XML 에디터로, :ref:`Advanced Editor` 에 자세히 안내되어 있다. 
-
-
-
-.. _Assignment Type:
- 
-**과제 유형**
-
-  학습자 성적에 포함되는 과제 유형으로, 숙제, 시험, 연습문제 등이 있다.
-
-   :ref:`Establish a Grading Policy` 에 자세히 안내되어 있다. 
-
-.. _나:
-
-****
-나
-****
-
-
-.. _Certificate:
- 
-
-
-.. _Checkbox Problem:
- 
-**체크박스 문제**
-
-  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크하는 문제유형이다.  :ref:`Checkbox` 에 자세히 안내되어 있다. 
-
-
-.. _Chemical Equation Response Problem:
- 
-**화학 공식 문제**
-
-  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제 유형이다.  :ref:`Chemical Equation` 에 자세히 안내되어 있다. 
-
-.. _Circuit Schematic Builder Problem:
- 
-**회로도 문제**
-
-  학습자가 인터랙티브 그리드(interactive grid)에 문제의 답으로 회로도를 구성하도록 하는 문제유형이다. 
-  :ref:`Circuit Schematic Builder` 에 자세히 안내되어 있다. 
-
-.. _Cohort:
- 
-**학습 집단**
-
-  강좌에서 함께 참여하는 학습자 집단으로, 동일한 학습 집단에 속해 있는 학습자는 집단내에서만 소통하고 공유의 경험을 가질 수 있다.
-
-  K-MOOC 플랫폼에서 강좌의 선택적 특성이다. 학습집단의 활성화방법, 설정방법, 학습자를 학습집단에 배정하는 방법은 :ref:`Cohorts Overview` 에 자세히 안내되어 있다. 
-
-.. _Component_g:
- 
-**구성요소**
-
-  실제 강좌 콘텐츠를 포함하고 있는 학습활동(unit) 영역의 부분. 하나의 학습활동은 하나 이상의 구성요소를 가질 수 있다. 자세한 내용은 :ref:`Developing Course Components` 에 있다. 
-
-.. _Content Experiment:
-
-**콘텐츠 실험**
-
-  다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. 자세한 내용은 :ref:`Creating Content Experiments` 에 있다. 
-
-**주제별 토의**
-
-  A category within the course discussion that appears at a defined point in
-  the course to encourage questions and conversations. To add a 
-  content-specific discussion topic to your course, you add a discussion 
-  component to a unit. Students cannot contribute to a content-specific 
-  discussion topic until the release date of the section that contains it.
-
-  For more information, see :ref:`Working with Discussion Components` and
-  :ref:`Organizing_discussions`.
-
-.. _Course Accordion:
- 
-**Course Accordion**
-
-  The left-hand navigation bar in the courseware that shows the sections and subsections for a course.  The word “accordion” is intended to evoke the folding and unfolding of an accordion, because when you click a section, the section expands to show subsections.
-
-
-.. _Course Catalog:
- 
 **강좌 목록**
 
   학습 관리 시스템에 등록된 모든 강좌 목록이다. 
@@ -164,26 +62,45 @@
 
   A custom response problem evaluates text responses from students using an embedded Python script. These problems are also called "write-your-own-grader" problems. For more information, see :ref:`Write Your Own Grader`. 
 
-.. _다:
 
-****
-다
-****
+.. _AB Test:
 
-.. _Data Czar_g:
+**A/B 테스트**
 
-**Data Czar**
+  :ref:`Content Experiment` 에 자세히 안내되어 있다.
+  
 
-  A data czar is the single representative at a partner institution who is
-  responsible for receiving course data from edX, and transferring it securely
-  to researchers and other interested parties after it is received.
+.. _About Page:
 
-  See the `edX Research Guide`_.
+**강좌 소개**
 
-.. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
+  예비 학습자에게 강좌의 요약, 선수강좌, 강좌 비디오와 이미지, 중요한 일정을 제공하는 페이지이다. 
+
+  :ref:`Providing a Course Overview` 에 자세히 안내되어 있다. 
+
+.. _Advanced Editor_g:
+ 
+**고급 에디터**
+
+  문제 구성요소에서의 문제 유형을 만들고 편집할 수 있도록 하는 XML 에디터로, :ref:`Advanced Editor` 에 자세히 안내되어 있다. 
 
 
-**Discussion**
+
+.. _Assignment Type:
+ 
+**과제 유형**
+
+  학습자 성적에 포함되는 과제 유형으로, 숙제, 시험, 연습문제 등이 있다.
+
+   :ref:`Establish a Grading Policy` 에 자세히 안내되어 있다. 
+
+.. _Component_g:
+ 
+**구성요소**
+
+  실제 강좌 콘텐츠를 포함하고 있는 학습활동(unit) 영역의 부분. 하나의 학습활동은 하나 이상의 구성요소를 가질 수 있다. 자세한 내용은 :ref:`Developing Course Components` 에 있다. 
+  
+  **Discussion**
 
   The set of topics defined to promote course-wide or unit-specific dialog.
   Students use the discussion topics to communicate with each other and the
@@ -204,6 +121,75 @@
 
   See :ref:`Working with Discussion Components` for more information.
 
+
+.. _나:
+
+****
+나
+****
+
+
+.. _Certificate:
+ 
+
+
+.. _Checkbox Problem:
+ 
+**체크박스 문제**
+
+  학습자가 문제의 답으로 1개 이상의 선택지를 골라 체크하는 문제유형이다.  :ref:`Checkbox` 에 자세히 안내되어 있다. 
+
+
+
+
+
+.. _Content Experiment:
+
+**콘텐츠 실험**
+
+  다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. 자세한 내용은 :ref:`Creating Content Experiments` 에 있다. 
+
+**주제별 토의**
+
+  A category within the course discussion that appears at a defined point in
+  the course to encourage questions and conversations. To add a 
+  content-specific discussion topic to your course, you add a discussion 
+  component to a unit. Students cannot contribute to a content-specific 
+  discussion topic until the release date of the section that contains it.
+
+  For more information, see :ref:`Working with Discussion Components` and
+  :ref:`Organizing_discussions`.
+
+.. _Course Accordion:
+ 
+**Course Accordion**
+
+  The left-hand navigation bar in the courseware that shows the sections and subsections for a course.  The word “accordion” is intended to evoke the folding and unfolding of an accordion, because when you click a section, the section expands to show subsections.
+
+
+.. _Course Catalog:
+ 
+
+.. _다:
+
+****
+다
+****
+
+.. _Data Czar_g:
+
+**Data Czar**
+
+  A data czar is the single representative at a partner institution who is
+  responsible for receiving course data from edX, and transferring it securely
+  to researchers and other interested parties after it is received.
+
+  See the `edX Research Guide`_.
+
+.. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
+
+
+
 .. _Dropdown Problem:
  
 **Dropdown Problem**
@@ -221,7 +207,7 @@
  
 **Studio**
 
-  강좌를 만드는데 사용하는 도구. 참고: :ref:`What is Studio?` 
+  강좌를 만드는데 사용하는 도구. :ref:`What is Studio?` 에 자세히 안내되어 있다. 
 
 
 .. _Exercises:
@@ -325,14 +311,10 @@
 
 .. _Learning Management System:
  
-**학습관리시스템(Learning Management System, LMS)**
-
-  강좌가 운영되는 동안 학습자가 강좌를 보거나, 강좌 운영팀이 등록 관리를 하거나, 운영자의 권한을 관리하거나, 토의를 조정하거나, 데이터에 접근하는데 기반이 되는 플랫폼.
-
 
 .. _Live Mode:
  
-**Live Mode**
+**적용 결과 보기**
 
   A view that allows course staff to review all public units as students see them, regardless of the release dates of the section and subsection that contain the units.
 
@@ -466,6 +448,35 @@ The page in the learning management system that shows students their scores on g
 ****
 하
 ****
+
+
+.. _Chemical Equation Response Problem:
+ 
+**화학 공식 문제**
+
+  학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제 유형이다.  :ref:`Chemical Equation` 에 자세히 안내되어 있다. 
+
+.. _Circuit Schematic Builder Problem:
+ 
+**회로도 문제**
+
+  학습자가 인터랙티브 그리드(interactive grid)에 문제의 답으로 회로도를 구성하도록 하는 문제유형이다. 
+  :ref:`Circuit Schematic Builder` 에 자세히 안내되어 있다. 
+
+.. _Cohort:
+ 
+**학습 집단**
+
+  강좌에서 함께 참여하는 학습자 집단으로, 동일한 학습 집단에 속해 있는 학습자는 집단내에서만 소통하고 공유의 경험을 가질 수 있다.
+
+  K-MOOC 플랫폼에서 강좌의 선택적 특성이다. 학습집단의 활성화방법, 설정방법, 학습자를 학습집단에 배정하는 방법은 :ref:`Cohorts Overview` 에 자세히 안내되어 있다. 
+  
+**학습관리시스템(Learning Management System, LMS)**
+
+  강좌가 운영되는 동안 학습자가 강좌를 보거나, 강좌 운영팀이 등록 관리를 하거나, 운영자의 권한을 관리하거나, 토의를 조정하거나, 데이터에 접근하는데 기반이 되는 플랫폼.
+
+
+
 
 .. _Rubric:
  
