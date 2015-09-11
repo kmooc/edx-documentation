@@ -25,11 +25,11 @@
 
 * :ref:`Enabling and Configuring Cohorts` 
 
-* :ref:`학습 집단별 게시판 설정하기` 
+* :ref:`Set up Discussions in Cohorted Courses` 
 
 * :ref:`Moderating Discussions for Cohorts` 
 
-게시판에 관한 일반 정보는 :ref:`강좌 게시판 관리하기`를 참고할 수 있다. 
+게시판에 관한 일반 정보는 `Discussions` 를 참고할 수 있다. 
 
 
 .. _Options for Assigning Students to Cohorts:
