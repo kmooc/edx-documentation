@@ -1,5 +1,5 @@
 *******
-본 도움말에 대하여
+본 매뉴얼에 대하여
 *******
 
 *edX 과정 개발 및 운영 매뉴얼 번역본* 은 edX에서 제공하는 "Building and Running an edX Course"를 한글화한 것으로 RST 파일 및 Sphinx(스핑크스)를 사용하여 만들어집니다. 
