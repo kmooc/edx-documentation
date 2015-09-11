@@ -67,7 +67,7 @@
 
 .. _Enable Google Drive Files in edX Studio:
 
-edX 스튜디오에서 구글 드라이브 파일 활용하기
+스튜디오에서 구글 드라이브 파일 활용하기
 ***************************************
 
 강좌에서 구글 드라이브 파일을 활용 하려면: 
@@ -141,7 +141,7 @@ OLX에서 구글 드라이브 파일 활용하기
 
 .. _Add a Google Drive File Component in edX Studio:
 
-edX 스튜디오에서 구글 드라이브 파일 구성 요소 추가하기
+스튜디오에서 구글 드라이브 파일 구성 요소 추가하기
 ******************************************************
 
 구성 요소를 추가하기 전에, :ref:`enable Google Drive files<Enable Google Drive Files in edX
