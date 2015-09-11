@@ -191,11 +191,7 @@
 
   구체적이고 상대적으로 간단한 수식을 입력하도록 요구하는 문제다. :ref:`Numerical Input` 에 자세한 안내가 있다.
 
-.. _edX Studio:
- 
-**Studio**
 
-  강좌 운영팀이 강좌를 개설 및 관리하는데 사용하는 도구로, :ref:`What is Studio?` 에 자세한 안내가 있다.
 
 
 
@@ -502,6 +498,12 @@ XYZ
   :ref:`Content Experiment` 에 자세히 안내되어 있다.
   
   
+
+.. _edX Studio:
+ 
+**Studio**
+
+  강좌 운영팀이 강좌를 개설 및 관리하는데 사용하는 도구로, :ref:`What is Studio?` 에 자세한 안내가 있다.
 
 .. _MathJax:
  
