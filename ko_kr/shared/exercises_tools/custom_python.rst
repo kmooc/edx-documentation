@@ -4,7 +4,7 @@
 맞춤형 Python 평가 입력 문제 
 ##############################
 
-맞춤형 Python 평가 입력(”write-your-own-grader” 문제 라고도 한다)에서 채점자는 학습자의 응답을 평가하거나 힌트를 제공하기위한 목적으로 생성하여, 문제 내부에 임베드한 Python 스크립트를 사용한다. Python 스크립트가 사용된 문제는 어떠한 유형이든 만들 수 있다. 맞춤형 Python 평가 입력 문제에서 많이 이용되는 것은 수식 입력 및 텍스트 입력 문제이다. 
+맞춤형 Python 평가 입력(”write-your-own-grader” 문제 라고도 한다)에서, 채점자는 학습자의 응답을 평가하거나 힌트를 제공하기 위해 문제에 Python 스크립트를 만들어서 임베드 할 수 있다. Python 스크립트가 사용된 문제는 어떠한 유형이든 가능하다. 맞춤형 Python 평가 입력 문제이 많이 이용되는 것은 수식 입력 및 텍스트 입력 문제이다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/CustomPythonExample.png
  :alt: Image of a write your own grader problem
