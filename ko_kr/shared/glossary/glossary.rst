@@ -175,7 +175,7 @@
  
 **성적 범위**
 
-  Thresholds that specify how numerical scores are associated with grades, and the score required to pass a course. 
+   수치 점수로 된 성적이 어떻게 관련되는지 한계치를 나타낸다.
 
   :ref:`Set the Grade Range` 에 자세한 안내가 있다.
 
@@ -281,7 +281,7 @@
  
 **채점 기준표**
  
-  List of the items that a student's response should cover in an open response assessment. :ref:`PA Rubric` 에 자세한 안내가 있다.
+  개방형 응답 평가에서 학습자의 응답이 채점되는데 필요한 항목의 목록이다. :ref:`PA Rubric` 에 자세한 안내가 있다.
 
 
 .. _차:
@@ -326,9 +326,7 @@
  
 **미리보기 모드**
 
-  A view that allows you to see all the units of your course as students see
-  them, regardless of the unit status and regardless of whether the release
-  dates have passed.
+  학습활동 상태와 공개일 여부에 따라 학습자가 보는것처럼 강좌의 모든 학습활동을 보여주는 것이다. 
 
   :ref:`Preview Course Content` 에 자세한 안내가 있다.
 
@@ -353,9 +351,7 @@
 
 **Question**
 
-  A question is a type of contribution that you can make to a course discussion
-  topic to surface an issue that the course staff or other students can
-  resolve.  :ref:`Discussions` 에 자세한 안내가 있다.
+  질문은 강좌 운영팀 혹은 다른 학습자가 해결할 수 있는 이슈를 강좌 토의 게시판에서 다루기 위해 토의 주제로 만들 수 있도록 한 것이다.    :ref:`Discussions` 에 자세한 안내가 있다.
 
   
 .. _하:
@@ -401,7 +397,7 @@
  
 **Rubric**
 
-  List of the items that a student's response should cover in an open response assessment.
+  개방형 반응 평가에서 학습자의 반응을 다루기 위한 항목들이다. 
 
   See :ref:`PA Rubric` for more information.
 
@@ -412,20 +408,6 @@
 ****
 S
 ****
-
-
-
-
-
-.. _Short Course Description:
- 
-**Short Course Description**
-
-  The description of your course that appears on the edX `Course List
-  <https://www.edx.org/course-list>`_ page.
-
-  See :ref:`Describe Your Course` for more information.
-
 
 
 .. _Split_Test:
@@ -448,8 +430,7 @@ T
  
 **텍스트 입력 문제**
 
-
-  A problem that asks the student to enter a line of text, which is then checked against a specified expected answer.
+  학습자에게 텍스트를 입력하도록 하는 문제로 정답이 아닐 때 체크되어진다. 
 
   See :ref:`Text Input` for more information.
 
