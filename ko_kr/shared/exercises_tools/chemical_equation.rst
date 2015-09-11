@@ -4,7 +4,7 @@
 화학 공식 문제
 ################################
 
-화학 공식 문제 유형은 학습자가 화학 공식을 나타내는 텍스트를 텍스트 상자에 입력할 수 있도록 허용한다. 시스템은 해당 텍스트를 텍스트 상자 아래에 있는 화학 공식으로 변환한다. 채점자는 문제에 만들고 포함시킨 Python 스크립트를 사용하여 학습자의 답을 평가한다.
+화학 공식 문제 유형은 학습자가 화학 공식을 나타내는 텍스트를 텍스트 상자에 입력할 수 있도록 허용한다. 시스템은 해당 텍스트를 텍스트 상자 아래에 있는 화학 공식으로 변환한다. 채점자는 문제에 만들어 포함시킨 Python 스크립트를 사용하여 학습자의 답을 평가한다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ChemicalEquationExample.png
  :alt: Image of a chemical equation response problem
@@ -115,9 +115,9 @@
 
 해당 문제가 사용자 지정 응답임을 나타낸다. ``<customresponse>`` 태그는 ``<chemicalequation>`` 태그를 둘러싸야 한다.
 
-  Attributes
+  속성
 
-  (none)
+  (내용없음)
 
   Children
 
@@ -133,8 +133,8 @@
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
+     * - 속성
+       - 설명
      * - 크기 
        - 문자로 넣는 응답 입력 필드의 크기를 지정한다.
      * - 라벨 (필수사항)
@@ -142,7 +142,7 @@
 
   Children
   
-  (none)
+  내용 없음
 
 **Tag:** ``<answer>``
 
@@ -153,12 +153,12 @@
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
+     * - 속성 
+       - 설명
      * - 유형 (필수 사항) 
        - "Loncapa/Python" 이어야 한다.
 
   Children
   
-  (none)
+  내용없음
      
