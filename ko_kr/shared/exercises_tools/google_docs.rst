@@ -53,7 +53,7 @@
 #. :ref:`Studio<Enable Google Drive Files in edX Studio>` 또는 :ref:`OLX<Enable Google Drive Files in OLX>` 를 사용하여 :ref:`Enable Google Drive Files in Your Course` .
 
 
-#. `코드가 포함된 구글 드라이브 파일 열기`_.
+#. :ref:`Obtain the Google Drive File Embed Code`
 
 #. :ref:`Studio<Add a Google Drive File Component in edX Studio>` 또는 :ref:`OLX<Add a Google Drive File XBlock in OLX>` 를 사용하여 :ref:`Add a Google Drive File to Your Course` 하기.
 
@@ -101,7 +101,7 @@ OLX에서 구글 드라이브 파일 활용하기
       ...
   </course>
 
-더 자세한 내용은 :ref:`The Courseware Structure` 를 참조하도록 한다.
+더 자세한 내용은 `The Courseware Structure`_ 를 참조하도록 한다.
 
 .. _Obtain the Google Drive File Embed Code:
 
@@ -179,7 +179,7 @@ OLX에서 구글 드라이브 파일 XBlock 추가하기
 
 OLX에서 구글 드라이브 파일 XBlock을 추가하려면, ``google-document`` (구글 문서) 요소를 만든다. vertical (수직) 요소에 google-document (구글 문서) 요소를 포함시킬 수 있거나 또는 ``수직`` 에서 참조하는 독립 실행형 파일로써 ``google-document`` (구글 문서) 요소를 만들 수 있다.
 
-더 자세한 내용은 :ref:`The Courseware Structure` 를 참조하도록 한다. 
+더 자세한 내용은 `The Courseware Structure`_ 를 참조하도록 한다. 
 
 예를 들면:
 
@@ -203,4 +203,6 @@ OLX에서 구글 드라이브 파일 XBlock을 추가하려면, ``google-documen
 강좌에 포함된 구글 드라이브 파일을 변경하고 저장하는 경우, 학습자는 즉시 업데이트를 볼 수 있게 된다. 구글 사용자 인터페이스를 가지고 파일을 변경한다. 구글 문서 구성 요소를 편집할 필요는 없다.
 
 
-.. _The Courseware Structure: http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/organizing-course/course-xml-file.html
+.. _The Courseware Structure: 
+
+http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/organizing-course/course-xml-file.html
