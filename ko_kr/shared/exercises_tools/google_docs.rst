@@ -18,7 +18,7 @@
   * :ref:`Add a Google Drive File to Your Course`
 
     * :ref:`Add a Google Drive File Component in edX Studio`
-    * :ref:`OLX에서 구글 드라이브 파일 XBlock 추가하기`
+    * :ref:`Add a Google Drive File XBlock in OLX`
 
 * `구글 드라이브 파일 변경하기`_
 
@@ -146,7 +146,7 @@ OLX에서 구글 드라이브 파일 활용하기
 스튜디오에서 구글 드라이브 파일 구성 요소 추가하기
 ******************************************************
 
-구성 요소를 추가하기 전에, :ref:`Enable Google Drive Files in edX Studio`  하는지 확인한다.
+구성 요소를 추가하기 전에, :ref:`Enable Google Drive Files in edX Studio` 하는지 확인한다.
 
 구글 드라이브 파일 구성 요소를 추가 하려면: 
 
@@ -166,7 +166,7 @@ OLX에서 구글 드라이브 파일 활용하기
 
 #. **표시 이름** 입력 필드에, 구성 요소에 대한 이름을 입력한다.
 
-#. **소스 코드** 입력 필드에, `코드가 포함된 구글 드라이브 파일 얻기`_ 작업에서 복사한 소스 코드를 붙여 넣는다.
+#. **소스 코드** 입력 필드에, :ref:`Obtain the Google Drive File Embed Code` 작업에서 복사한 소스 코드를 붙여 넣는다.
 
 #. **저장** 을 클릭한다.
 
@@ -179,7 +179,7 @@ OLX에서 구글 드라이브 파일 XBlock 추가하기
 
 OLX에서 구글 드라이브 파일 XBlock을 추가하려면, ``google-document`` (구글 문서) 요소를 만든다. vertical (수직) 요소에 google-document (구글 문서) 요소를 포함시킬 수 있거나 또는 ``수직`` 에서 참조하는 독립 실행형 파일로써 ``google-document`` (구글 문서) 요소를 만들 수 있다.
 
-더 자세한 내용은 `강좌 내용 구조`_  를 참조하도록 한다. 
+더 자세한 내용은 :ref:`The Courseware Structure` 를 참조하도록 한다. 
 
 예를 들면:
 
@@ -191,7 +191,7 @@ OLX에서 구글 드라이브 파일 XBlock을 추가하려면, ``google-documen
     ?key=0AuZ_5O2JZpH5dGVUVDNGUE05aTFNcEl2Z0ZuTUNmWUE&amp;output=html&amp;widge
     t=true&quot;&gt;&lt;/iframe&gt;" display_name="Google Document"/>
 
-``embed_code`` 속성의 값은 `코드가 포함된 구글 드라이브 파일 얻기` _ 작업에서 복사한 소스 코드이다. 
+``embed_code`` 속성의 값은 :ref:`Obtain the Google Drive File Embed Code` 작업에서 복사한 소스 코드이다. 
 
 .. note:: 
   edX 학습 관리 시스템은 구글 드라이브 파일에 대한 높이 및 너비 값을 설정한다. 이러한 속성을 추가하면, LMS는 변경 내용을 무시한다.
