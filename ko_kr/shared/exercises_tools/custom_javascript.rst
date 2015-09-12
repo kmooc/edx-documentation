@@ -11,7 +11,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/JavaScriptInputExample.png
  :alt: Image of a JavaScript Input problem
 
-.. 경고:: 
+.. warning:: 
   하나 이상의 문제를 포함 하는 구성 요소에는 사용자 지정 JavaScript 문제를 사용할 수 없다. 각 사용자 지정 JavaScript 문제는 그 자신의 구성 요소에 있어야 한다. 더 자세한 정보는 :ref:`Multiple Problems in One Component` 를 참조하도록 한다.
 
 ************************************************************
@@ -43,7 +43,7 @@
 
 .zip 파일 저장소에서 이러한 파일을 다운로드 하려면 http://files.edx.org/JSInput.zip로 이동한다.
 
-.. 참고:: SOP를 무시하려는 경우, **jschannel.js** 파일이 또한 필요하고, webGLDemo.html 파일은 약간 다를 것이다. .zip 파일 저장소에서 이러한 모든 파일을 다운로드 하려면 http://files.edx.org/JSInput_BypassSOP.zip로 이동한다.
+.. note:: SOP를 무시하려는 경우, **jschannel.js** 파일이 또한 필요하고, webGLDemo.html 파일은 약간 다를 것이다. .zip 파일 저장소에서 이러한 모든 파일을 다운로드 하려면 http://files.edx.org/JSInput_BypassSOP.zip로 이동한다.
 
 #. JSInput.zip 파일 또는 JSInput_BypassSOP.zip 파일을 다운로드하고 파일 압축을 푼다.
 #. **파일 업로드** 페이지에서.zip 파일로부터 모든 파일을 업로드 한다.
@@ -93,7 +93,7 @@ JavaScript 입력 문제 코드
     </problem>
 
 
-.. 참고::    이 문제를 만들 때 다음 사항을 기억해야 한다.
+.. note:: 이 문제를 만들 때 다음 사항을 기억해야 한다.
 
  - webGLDemo.js 파일은 세 가지 JavaScript 함수를 정의한다 ( **WebGLDemo.getGrade** , **WebGLDemo.getState** , 및 **WebGLDemo.setState** ).
 
