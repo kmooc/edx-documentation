@@ -26,8 +26,7 @@ HTML 구성요소는 강좌 콘텐츠를 만드는 기초 재료이며, 텍스�
 * :ref:`Add an Image to an HTML Component`
 * :ref:`Import LaTeX Code`
 
-.. note:: 
- HTML 구성요소로 작업을 시작하기 전에 :ref:`Developing Your Course Index` 와 :ref:`Best Practices for HTML
+.. note:: HTML 구성요소로 작업을 시작하기 전에 :ref:`Developing Your Course Index` 와 :ref:`Best Practices for HTML
  Markup` 를 먼저 살펴보는 것을 권한다.
 
  HTML 구성요소에 instant hangout을 추가하는 것과 관련해서는 :ref:`Google Instant Hangout` 에 자세히 안내되어 있다. 
@@ -65,8 +64,7 @@ HTML 구성요소 에디터 설정하기
 
 **Visual** 또는 **Raw** 를 선택 후 반드시 **저장** 을 클릭한다. 그리고 새로운 편집기를 사용하기 위해 구성요소를 다시 연다.
 
-.. warning:: 
- Raw HTML 편집기로 강좌 콘텐츠 작업을 한 후 비주얼 편집기로 변경하게 되면, 
+.. warning:: Raw HTML 편집기로 강좌 콘텐츠 작업을 한 후 비주얼 편집기로 변경하게 되면, 
  앞서 만들었던 HTML이 삭제될 수 있다. 그래서 우선 비주얼 편집기로 편집을 시작하고, 사용자 HTML을 만들 필요가 있을 때 
  Raw HTML 편집기로 전환하여 이용할 것을 권장한다.
  
@@ -126,8 +124,7 @@ HTML 구성요소 에디터 설정하기
 
 소스 코드 편집기를 닫고 변경 내용을 적용하려면 **확인** 을 클릭한다. 그러면 비쥬얼 편집기는 HTML 코드가 유효한지 확인한다. 예를 들어, 단락 태그를 닫지 않는 경우, 편집기가 자동으로 추가할 것이다.
 
-.. note::  
- 소스 코드 편집기에서 **확인** 을 클릭하더라도 HTML 구성요소의 변경 내용은 저장되지 않는다.
+.. note:: 소스 코드 편집기에서 **확인** 을 클릭하더라도 HTML 구성요소의 변경 내용은 저장되지 않는다.
  그래서, 비쥬얼 편집기에서 변경 내용을 저장하기 위해 **저장** 을 클릭한 후 구성 요소를 닫아야 한다. 
  **취소** 를 클릭하면 HTML 소스 코드에서 수행한 변경 내용이 사라진다.
 
@@ -329,11 +326,7 @@ HTML 구성요소에서 강좌 학습활동 링크를 추가할 수 있다.
 
 비쥬얼 편집기를 사용하면 강좌를 위해 업로드 한 어떤 이미지라도 HTML 구성 요소에 추가할 수 있다. 이미지 업로드하기에 대한 자세한 내용은 :ref:`Add Files to a Course` 에 있다.
 
-.. note::  
-
-. HTML 구성요소에 이미지를 추가하기 전에 :ref:`Best Practices for Describing Images` 를 확인한다.
-
-이미지를 추가하기 위해, 강좌에 업로드한 이미지 파일의 URL이 필요하다. 
+.. note:: HTML 구성요소에 이미지를 추가하기 전에 :ref:`Best Practices for Describing Images` 를 확인한다. 이미지를 추가하기 위해, 강좌에 업로드한 이미지 파일의 URL이 필요하다. 
 
 #. **파일 업로드** 페이지에서 원하는 이미지의 **Studio URL** 을 복사한다.
 
@@ -378,8 +371,7 @@ HTML 구성요소에 LaTeX 코드를 가져올 수 있다. 예를 들어 다음�
 .. image:: ../../../shared/building_and_running_chapters/Images/HTML_LaTeX_LMS.png
  :alt: Image of math formulas created with LaTeX
 
-.. note::  
-LaTeX 코드를 XML로 변환하기 위해 Studio가 사용하는 LaTeX 프로세서는 외부 제공 도구이다. 이 기능을 주의하여 사용하는 것이 좋다. LaTeX 프로세서를 사용할 경우 반드시 프로그램 관리자와 함께 작업하도록 한다. 
+.. note:: LaTeX 코드를 XML로 변환하기 위해 Studio가 사용하는 LaTeX 프로세서는 외부 제공 도구이다. 이 기능을 주의하여 사용하는 것이 좋다. LaTeX 프로세서를 사용할 경우 반드시 프로그램 관리자와 함께 작업하도록 한다. 
 
 LaTeX 기능은 기본적으로 작동되지 않는다. 사용하려면 강좌에서 고급 설정을 변경해야 한다.
 
