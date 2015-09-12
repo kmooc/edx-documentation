@@ -144,14 +144,14 @@ JSInput 연습은 정적 HTML 페이지에서 IFrame을 만들고, 저자가 지
 허용된 속성은
 
 ==============  ==============  =========  ==========
-Attribute Name   Value Type     Required   Default
+속성명           값 유형        필수       기본
 ==============  ==============  =========  ==========
-html_file        URL string     Yes        None
-gradefn          Function name  Yes        `gradefn`
-set_statefn      Function name  No         None
-get_statefn      Function name  No         None
-height           Integer        No         `500`
-width            Integer        No         `400`
+html_file        URL string     예         None
+gradefn          Function name  예        `gradefn`
+set_statefn      Function name  아니오     None
+get_statefn      Function name  아니오     None
+height           Integer        아니오     `500`
+width            Integer        아니오     `400`
 ==============  ==============  =========  ==========
 
 ========================
@@ -172,7 +172,7 @@ width            Integer        No         `400`
 
   **gradefn** 속성에는 이용자가 **확인** 을 클릭할 때 호출되는 함수의 이름 및 학습자의 답안을 반환하는 함수의 이름을 지정한다. **get_statefn** 및 **set_statefn** 의 속성이 모두 사용되지 않는 한, 이 답안은 문자열로 에워싸인 응답 유형에 전달된다. 위의 **customresponse** 예에서, 이것은 **cfn** 이 이 함수에 대한 답을 ``ans`` 로써 전달할 것임을 의미한다.
 
-  학습자가 문제를 제출하려고 할 때 **gradefn** 함수가 예외를 던지는 경우, 제출은 중단되고, 학습자는 일반적인 경고를 받는다. 경고는 예외 이름을 ``Waitfor Exception`` 로 만들어 사용자 지정될 수 있다; 이 경우, 경고 메시지는 예외 메시지가 될 것이다
+  학습자가 문제를 제출하려고 할 때 **gradefn** 함수가 예외를 던지는 경우, 제출은 중단되고, 학습자는 일반적인 경고를 받는다. 경고는 예외 이름을 ``Waitfor Exception`` 로 만들어 사용자 지정될 수 있다; 이 경우 경고 메시지는 예외 메시지가 될 것이다
 
   .. important:: 학습자의 최신 답안이 제대로 전달된다는 것을 확인하려면 **gradefn** 함수가 동기화 되어 있는지 확인하도록 한다. 또한, 함수가 즉시 반환 하는지도 확인하도록 한다. 현재 학습자는 그의 답안이 계산되거나 만들어지고 있는지 아무런 표시를 가지고 있지 않다. 
 
