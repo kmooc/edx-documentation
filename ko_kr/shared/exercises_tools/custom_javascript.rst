@@ -142,6 +142,7 @@ JSInput 연습은 정적 HTML 페이지에서 IFrame을 만들고, 저자가 지
  </problem>
 
 허용된 속성은
+
 ==============  ==============  =========  ==========
 Attribute Name   Value Type     Required   Default
 ==============  ==============  =========  ==========
