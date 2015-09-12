@@ -22,7 +22,7 @@
 
 * `구글 드라이브 파일 변경하기`_
 
-또한 강좌 내용에 :ref:`Google calendars<Google Calendar Tool>` 를 사용할 수 있다. 더 자세한 내용은 :ref:`Google Calendar Tool` 를 참조하도록 한다.
+또한 강좌 내용에 :ref:`Google Calendar Tool` 를 사용할 수 있다. 더 자세한 내용은 :ref:`Google Calendar Tool` 를 참조하도록 한다.
 
 *********
 개관
@@ -48,12 +48,12 @@
 
 강좌에 구글 드라이브 파일을 포함하려면 다음 3 단계가 있다: 구글 드라이브 가져올 파일 소스 코드.
 
-#. :ref:`Studio<Enable Google Drive Files in edX Studio>` 또는 :ref:`OLX<Enable Google Drive Files in OLX>` 를 사용하여 :ref:`Enable Google Drive files in your course<Enable Google Drive Files in Your Course>` .
+#. :ref:`Studio<Enable Google Drive Files in edX Studio>` 또는 :ref:`OLX<Enable Google Drive Files in OLX>` 를 사용하여 :ref:`Enable Google Drive Files in Your Course` .
 
 
 #. `코드가 포함된 구글 드라이브 파일 열기`_.
 
-#. :ref:`Studio<Add a Google Drive File Component in edX Studio>` 또는 :ref:`OLX<Add a Google Drive File XBlock in OLX>` 를 사용하여 :ref:`Add the Google Drive file to your course<Add a Google Drive File to Your Course>` 하기.
+#. :ref:`Studio<Add a Google Drive File Component in edX Studio>` 또는 :ref:`OLX<Add a Google Drive File XBlock in OLX>` 를 사용하여 :ref:`Add a Google Drive File to Your Course` 하기.
 
 
 
@@ -99,7 +99,7 @@ OLX에서 구글 드라이브 파일 활용하기
       ...
   </course>
 
-더 자세한 내용은 `The Courseware Structure`_ 를 참조하도록 한다.
+더 자세한 내용은 :ref:`The Courseware Structure` 를 참조하도록 한다.
 
 .. _Obtain the Google Drive File Embed Code:
 
@@ -109,7 +109,7 @@ OLX에서 구글 드라이브 파일 활용하기
 
 구글 드라이브 파일을 강좌에 추가하기 전에, 웹에 그 파일을 먼저 게시해야 하고 파일에 대한 소스 코드를 얻어야 한다. 
 
-.. 중요:: 
+.. important:: 
  이 주제에 설명된 작업은 제 3 자 소프트웨어의 사용에 의존한다. 이 소프트웨어는 소유자에 의해 변경될 수 있기 때문에, 여기에 제공된 단계들은 지침이며, 정확한 절차를 위한 것이 아니다.
 
 #. 구글 드라이브 파일을 연다.
@@ -192,7 +192,7 @@ OLX에서 구글 드라이브 파일 XBlock을 추가하려면, ``google-documen
 
 ``embed_code`` 속성의 값은 `코드가 포함된 구글 드라이브 파일 얻기` _ 작업에서 복사한 소스 코드이다. 
 
-.. 참고:: 
+.. note:: 
   edX 학습 관리 시스템은 구글 드라이브 파일에 대한 높이 및 너비 값을 설정한다. 이러한 속성을 추가하면, LMS는 변경 내용을 무시한다.
 
 **************************
