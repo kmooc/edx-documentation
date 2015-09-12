@@ -18,7 +18,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/GeneExplorer.png
   :alt: Image of the Gene Explorer
 
-For more information about the Gene Explorer, see `The Gene Explorer <http://intro.bio.umb.edu/GX/>`_.
+유전자 탐색기에대한 추가 정보를 위해 `The Gene Explorer <http://intro.bio.umb.edu/GX/>`_ 를 살펴본다. 
 
 ********************
 유전자 탐색기 코드
