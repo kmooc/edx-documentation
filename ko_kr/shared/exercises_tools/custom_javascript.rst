@@ -144,12 +144,12 @@ JSInput 연습은 정적 HTML 페이지에서 IFrame을 만들고, 저자가 지
 허용된 속성은
 
 ==============  ==============  =========  ==========
-속성명          값 유형         필수       기본
+속성명           값 유형         필수       기본
 ==============  ==============  =========  ==========
-html_file        URL string     예         None
-gradefn          Function name  예        `gradefn`
-set_statefn      Function name  아니오     None
-get_statefn      Function name  아니오     None
+html_file        URL string     예          None
+gradefn          Function name  예         `gradefn`
+set_statefn      Function name  아니오      None
+get_statefn      Function name  아니오      None
 height           Integer        아니오     `500`
 width            Integer        아니오     `400`
 ==============  ==============  =========  ==========
