@@ -155,7 +155,7 @@ HTML 구성요소 템플릿
 
 Raw HTML 템플릿은 Raw HTML 편집기를 사용하도록 설정되어 있다. 그외 모든 템플릿은 비쥬얼 편집기를 사용한다. 
 
-HTML 구성요소는 템플릿으로 만든다고 해도 에디터로 변경할 수 있다. `Set the Editor for an HTML Component`_ 에 안내되어 있다.
+HTML 구성요소는 템플릿으로 만든다고 해도 에디터로 변경할 수 있다. :ref:`Set the Editor for an HTML Component` 에 안내되어 있다.
 
 
 .. _Create an HTML Component:
