@@ -91,7 +91,7 @@ OLX에서 구글 캘린더 활용하기
       ...
   </course>
 
-더 자세한 내용은 `The Courseware Structure`_ 를 참조하도록 한다.
+더 자세한 내용은 :ref:`The Courseware Structure` 를 참조하도록 한다.
 
 .. _Make the Google Calendar Public and Obtain Its ID:
 
