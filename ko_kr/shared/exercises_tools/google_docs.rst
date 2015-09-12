@@ -74,7 +74,7 @@
 
 #. **설정**  메뉴에서 **고급 설정** 을 선택한다.
 
-#. **고급 모듈 목록** 입력 필드에서 중괄호 사이 커서를 놓고 ``"google-document"``를 입력한다. 이 입력 필드에 다른 값을 보려면, 마지막 값에 대한 닫는 따옴표 후 쉼표를 추가한 다음, ``"google-document"``를 입력한다. 예를 들면:
+#. **고급 모듈 목록** 입력 필드에서 중괄호 사이 커서를 놓고 ``"google-document"`` 를 입력한다. 이 입력 필드에 다른 값을 보려면, 마지막 값에 대한 닫는 따옴표 후 쉼표를 추가한 다음, ``"google-document"`` 를 입력한다. 예를 들면:
    
    .. image:: ../../../shared/building_and_running_chapters/Images/google-advanced-setting.png
     :alt: Advanced modules setting for Google documents
