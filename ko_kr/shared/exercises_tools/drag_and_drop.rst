@@ -46,9 +46,9 @@ Drag and Drop 문제 만들기
 Drag and Drop 문제 코드 샘플
 ==========================================
 
-이미지에 표시되는 드래그 드롭 문제를 만들려면, edX에서 두 개의 파일을 다운로드 한 후, **파일 업로드** 페이지로 이 파일을 업로드하고 난 다음, 문제 구성 요소에 문제에 대한 코드를 추가해야 한다.
+이미지에 표시되는 드래그 드롭 문제를 만들려면, K-MOOC에서 두 개의 파일을 다운로드 한 후, **파일 업로드** 페이지로 이 파일을 업로드하고 난 다음, 문제 구성 요소에 문제에 대한 코드를 추가해야 한다.
 
-#. : EdX에서 다음 파일을 다운로드한다
+#. EdX에서 다음 파일을 다운로드한다
 
   * Allopurinol.gif
   * AllopurinolAnswer.gif
@@ -62,7 +62,7 @@ Drag and Drop 문제 코드 샘플
 #. 구성요소 편집기에서, 예제 코드를 다음 코드로 대체한다. 
 #. **저장** 을 클릭한다.
 
-**문제 코드**:
+**문제 코드** :
 
 .. code-block:: xml
 
@@ -191,15 +191,15 @@ Drag and Drop 문제 XML
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
+     * - 속성
+       - 설명
      * - img (필수사항)
        - 기본 이미지가 될 이미지의 상대적인 경로이다. 모든 draggables는 그 이미지 위로 끌어 올 수 있다.
      * - target_outline 
        - 윤곽선 (회색 파선)이 (대상이 지정된 경우) 대상 주변에 그려질 수 있는지 여부를 지정한다. 그것은 'true' 또는 'false' 가 될 수 있다. 지정되어 있지 않으면 대상은 윤곽선이 필요 없다.
      * - one_per_target 
        - 하나 이상의 draggabl이 단일 대상에 놓여지도록 허용 여부를 지정한다. 그것은 'true' 또는 'false'가 될 수 있다. 지정되어 있지 않으면 기본 값은 'true'이다.
-     * - no_labels (required)
+     * - no_labels (필수)
        - 기본값은 false 이며, 라벨이 설정되지 않은 경우 기본 행동에서, 라벨은 id로부터 얻어진다. no_labels이 true 이면, 라벨은 id에서 자동으로 채워지지 않으며, 라벨을 설정할 수 없고, 단지 아이콘만 얻을 수 있다.
 
   Children
@@ -220,13 +220,13 @@ Drag and Drop 문제 XML
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - id (required)
+     * - 속성
+       - 설명
+     * - id (필수)
        - 개체의 고유 식별자이다.
-     * - label (optional)
+     * - label (선택)
        - 이용자에게 표시되는 텍스트 라벨이다.
-     * - icon (optional)
+     * - icon (선택)
        - draggables이 이미지라면, 이미지 파일에 대한 상대적 경로이다.
      * - can_reuse
        - true 또는 false, 기본값은 false이다. true 인 경우 같은 draggable은 여러 번 사용될 수 있다.
@@ -250,9 +250,9 @@ Drag and Drop 문제 XML
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - id (required)
+     * - 속성
+       - 설명
+     * - id (필수)
        - 대상 개체의 고유 식별자.
      * - x
        - 대상의 상단 왼쪽 모서리에 배치 될 기본 이미지상의 X-좌표.
@@ -515,8 +515,8 @@ Set 과 ``+number``
     }
 
 
-    Correct handling of this example is to create different rules for
-    draggable_1 and draggable_2.
+    이 예를 제대로 다루기 위해 draggable_1 와 draggable_2 를 위해
+    다른 규정을 적용한다. 
 
 * ``unordered_equal`` (또는 ``exact``)에 대하여, 대상 길이가 draggables의 수에 대한 제약을 제공할 것이므로 그룹에 동일한 draggable만 있는 경우, ``number`` 는 필요 없다
 
