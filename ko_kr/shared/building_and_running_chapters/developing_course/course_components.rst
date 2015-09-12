@@ -275,7 +275,8 @@ s.org/projects/devdata/en/latest/course_data_formats/course_xml.html>`_ 에 있�
  :alt: Image of the student's view of nested components
 
 .. note:: 
-  중첩된 구성요소의 적용된 화면은 부모 학습활동의 적용된 화면을 따른다. 부모 학습활동은 중첩된 구성요소를 보기 위해 학생들에게   개방되어져야 한다. 자세히 보기 위해, see :ref:`Unit States and Visibility to Students` 를 살펴 본다.
+  중첩된 구성요소의 적용된 화면은 부모 학습활동의 적용된 화면을 따른다. 부모 학습활동은 중첩된 구성요소를 보기 위해 학습자
+  들에게 개방되어져야 한다. 자세히 보기 위해, :ref:`Unit States and Visibility to Students` 를 살펴 본다.
 
 
 *******************************
@@ -283,13 +284,13 @@ s.org/projects/devdata/en/latest/course_data_formats/course_xml.html>`_ 에 있�
 *******************************
 
 강좌 외에 다른 객체에 사용한 동일한 드래그 앤 드롭과정을 통해 자녀 구성요소를 재조직할 수 있다. 
-이동용 마우스포인트(화살표4개인)로 바뀔때까지 화면의 오른쪽 하단으로 요소를 움직인다. 그리고, 
+이동용 마우스 포인트(화살표 4개)로 바뀔때까지 화면의 오른쪽 하단으로 요소를 움직인다. 그리고, 
 원하는 지점으로 요소를 클릭해서 드래그 한다.  
 
 또한, 중첩의 다중수준이 있을 경우, 다른 부모 구성요소로, 두 부모가 확장된다면, 
 자녀 구성요소를 드래그 할 수 있다. 예를 들어, 자녀 구성요소 A에서 동영상 구성요소를 선택하고
 자녀 구성요소 B로 드래그 할 수 있다. 동영상 구성요소를 선택하여 자녀 구성요소 B로 이동한것처럼, 
-움직이는 구성요소는 새로운 지점에서 점선의 개요(outline)이 나타날 때 마우스 버튼을 놓는다:
+움직이는 구성요소는 새로운 지점에서 점선의 개요가 나타날 때 마우스 버튼을 놓는다:
 
 .. image:: ../../../shared/building_and_running_chapters/Images/drag_child_component.png
  :alt: Image of dragging a child component to a new location
