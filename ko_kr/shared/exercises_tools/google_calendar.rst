@@ -23,8 +23,7 @@
 
 * `구글 캘린더 변경하기`_
 
-또한 강좌에서 문서, 스프레드시트, 및 이미지 등과 같은 구글 드라이브 파일을 사용할 수 있다. 더 자세한 내용은 :ref:`Google Drive Files
-Tool`  를 참조하도록 한다.
+또한 강좌에서 문서, 스프레드시트, 및 이미지 등과 같은 구글 드라이브 파일을 사용할 수 있다. 더 자세한 내용은 :ref:`Google Drive Files Tool`  를 참조하도록 한다.
 
 
 *********
@@ -42,16 +41,14 @@ Tool`  를 참조하도록 한다.
 
 강좌에 구글 캘린더를 포함하려면 세 단계가 있다.
 
-#. :ref:`Enable Google calendars in your course<Enable Google Calendars in the
-   Course>` by using :ref:`Studio<Enable Google Calendars in edX Studio>` or
-   :ref:`OLX<Enable Google Calendars in OLX>`.
+#. :ref:`Enable Google Calendars in the Course` by using :ref:`Enable Google Calendars in edX Studio` or
+   :ref:`OLX<Enable Google Calendars in OLX>` .
 
-#. :ref:`Make the Google calendar public and obtain its ID<Make the Google
-   Calendar Public and Obtain Its ID>`.
+#. :ref:`Make the Google Calendar Public and Obtain Its ID` .
 
-#. :ref:`Add the Google calendar to your course<Add a Google Calendar in the
-   Courseware>` by using :ref:`Studio<Add a Google Calendar Component in edX
-   Studio>` or :ref:`OLX<Add a Google Calendar XBlock in OLX>`.
+#. :ref:`Add a Google Calendar in the
+   Courseware` by using :ref:`Add a Google Calendar Component in edX
+   Studio` or :ref:`OLX<Add a Google Calendar XBlock in OLX>`.
 
 
 .. _Enable Google Calendars in the Course:
@@ -104,8 +101,8 @@ OLX에서 구글 캘린더 활용하기
 
 강좌에 구글 캘린더를 추가할 수 있기 전에, 먼저 구글 캘린더를 공개하고 ID를 얻어야 한다. 
 
-.. 중요:: 
- 이 주제에서 설명하는 작업은 제 3 자 소프트웨어의 사용에 의존한다. 소프트웨어가 소유자에 의해 변경 될 수 있기 때문에 여기에 제공된 단계는 지침을 위한 것이지, 정확한 절차를 위한 것이 아니다.
+.. important:: 
+ 이 주제에서 설명하는 작업은 제3 소프트웨어의 사용에 의존한다. 소프트웨어가 소유자에 의해 변경 될 수 있기 때문에 여기에 제공된 단계는 지침을 위한 것이지, 정확한 절차를 위한 것이 아니다.
 
 구글 캘린더 공개하기
 **********************************************
@@ -211,8 +208,8 @@ OLX에 구글 캘린더 XBlock를 추가 하려면, ``google-calendar`` 요소�
 
 ``calendar_id``  속성의 값은 `Obtain the Google Calendar ID`_ (구글 캘린더 ID 얻기) 작업에서 복사한 캘린더 ID이다.
 
-.. 참고:: 
-  K-MOOC 학습 관리 시스템은 구글 캘린더에 대한 높이 및 너비 값을 설정한다. 이러한 속성을 추가 하면, LMS는 변경 내용을 무시한다.
+.. note:: 
+  K-MOOC 학습 관리 시스템은 구글 캘린더에 대한 height 및 width 값을 설정한다. 이러한 속성을 추가 하면, LMS는 변경 내용을 무시한다.
 
 **************************
 구글 캘린더 변경하기
