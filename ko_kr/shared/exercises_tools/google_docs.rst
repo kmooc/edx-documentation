@@ -7,18 +7,18 @@
 이 장에서는 강좌에 문서, 스프레드시트 및 이미지 등의 구글 드라이브 파일을 포함하는 방법을 설명한다. 더 자세한 내용은 다음 항목 중 하나를 참조하도록 한다.
 
 * `개관`_
-* `강좌에 구글 드라이브 포함하기`_
+* `강좌에 구글 드라이브 파일 포함하기`_
 
-  * `강좌에 구글 드라이브 포함하기`_
+  * :ref:`Enable Google Drive Files in Your Course`
 
-    * `스튜디오에서 구글 드라이브 파일 활용하기`_
-    * `OLX에서 구글 드라이브 파일 활용하기`_
+    * :ref:`Enable Google Drive Files in edX Studio`
+    * :ref:`Enable Google Drive Files in OLX`
 
-  * `소스 코드가 포함된 구글 드라이브 파일 얻기`_
-  * `구글 드라이브 파일을 강좌에 추가하기`_
+  * :ref:`Obtain the Google Drive File Embed Code`
+  * :ref:`Add a Google Drive File to Your Course`
 
-    * `스튜디오에서 구글 드라이브 파일 구성 요소를 추가하기`_
-    * `OLX에서 구글 드라이브 파일 XBlock를 추가하기`_
+    * :ref:`Add a Google Drive File Component in edX Studio`
+    * :ref:`OLX에서 구글 드라이브 파일 XBlock 추가하기`
 
 * `구글 드라이브 파일 변경하기`_
 
@@ -42,6 +42,8 @@
 * 구글 슬라이드 (프레젠테이션)
 * 구글 시트 (스프레드시트)
   
+  
+ 
 ********************************************
 강좌에 구글 드라이브 파일 포함하기
 ********************************************
