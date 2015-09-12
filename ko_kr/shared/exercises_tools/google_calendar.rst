@@ -194,7 +194,7 @@ OLX에서 구글 캘린더 활용하기
 OLX에서 구글 캘린더 XBlock 추가하기
 **********************************************
 
-OLX에 구글 캘린더 XBlock를 추가 하려면, ``google-calendar`` 요소를 만든다. ``vertical`` 요소에 이 요소를 포함시킬 수 있거나 또는 ``vertical`` 요소 내에서 참조되는 해당 파일에 이 요소를 포함시킬 수 있다. 더 자세한 내용은 `The Courseware Structure`_ (강좌내용 구조)를 참조하도록 한다. 
+OLX에 구글 캘린더 XBlock를 추가 하려면, ``google-calendar`` 요소를 만든다. ``vertical`` 요소에 이 요소를 포함시킬 수 있거나 또는 ``vertical`` 요소 내에서 참조되는 해당 파일에 이 요소를 포함시킬 수 있다. 더 자세한 내용은 :ref:`The Courseware Structure` 를 참조하도록 한다. 
 
 예를 들면:
 
@@ -204,7 +204,7 @@ OLX에 구글 캘린더 XBlock를 추가 하려면, ``google-calendar`` 요소�
     calendar_id="abcdefghijklmnop1234567890@group.calendar.google.com" 
     default_view="1" display_name="Class Schedule"/>
 
-``calendar_id``  속성의 값은 `Obtain the Google Calendar ID`_ (구글 캘린더 ID 얻기) 작업에서 복사한 캘린더 ID이다.
+``calendar_id``  속성의 값은 :ref:`Obtain the Google Calendar ID` 작업에서 복사한 캘린더 ID이다.
 
 .. note:: 
   K-MOOC 학습 관리 시스템은 구글 캘린더에 대한 height 및 width 값을 설정한다. 이러한 속성을 추가 하면, LMS는 변경 내용을 무시한다.
