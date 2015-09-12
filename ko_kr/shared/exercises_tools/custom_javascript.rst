@@ -186,7 +186,7 @@ width            Integer        아니오     `400`
 
   전달 되는 상태는
 
-  * **get_statefn** 정의 되지 않은 경우 **gradefn** 의 이전 출력 (즉, 이전 답변)이다.. 
+  * **get_statefn** 정의 되지 않은 경우 **gradefn** 의 이전 출력 (즉, 이전 답변)이다.
   * 그렇지 않으면 **get_statefn** (아래 참조)의 이전 출력이다.
 
   **set_statefn** 를 통해 받는 인수의 적절한 검증을 하는 것은 iframe의 책임이다.
