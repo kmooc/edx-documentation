@@ -26,9 +26,9 @@ Instant Hangout으로, 학습자는 다음을 수행할 수 있다
 * 화면을 공유하고 함께 비디오를 시청한다.
 * 문서를 공동 작업한다.
 
-Instant Hangout 특징의 전체 목록에 대하여, `Google Hangouts page <http://www.google.com/+/learnmore/hangouts/>`_ (구글 행아웃 페이지)를 참조하도록 한다.
+Instant Hangout 특징의 전체 목록에 대하여, `Google Hangouts <http://www.google.com/+/learnmore/hangouts/>`_ (구글 행아웃 페이지)를 참조하도록 한다.
 
-.. 참고:: Instant Hangout에 참여하고 싶은 학습자는 구글 계정이 있어야 한다. 강좌 운영팀은 이를 학습자에게 공지해야 한다.
+.. note:: Instant Hangout에 참여하고 싶은 학습자는 구글 계정이 있어야 한다. 강좌 운영팀은 이를 학습자에게 공지해야 한다.
 
 .. _Instant Hangouts in Your Course:
 
@@ -40,7 +40,7 @@ Instant Hangout
 
 * 한 페이지에서, 전체 강좌 진행 중, 학습자에게 Hangout을 제공하기 위해서 Instant Hangout을 추가할 수 있다. 더 많은 정보는 :ref:`Adding Pages to a Course`  를 참조하도록 한다.
 
-* HTML 구성요소에서, 특정 강좌 학습활동에서 작업하는 학습자에게 행아웃을 제공하기 위해서 Instant Hangout을 추가할 수 있다. HTML 구성요소 만들기에 대한 더 자세한 내용은 :ref:`Working with HTML Components`를 참조하도록 한다.
+* HTML 구성요소에서, 특정 강좌 학습활동에서 작업하는 학습자에게 행아웃을 제공하기 위해서 Instant Hangout을 추가할 수 있다. HTML 구성요소 만들기에 대한 더 자세한 내용은 :ref:`Working with HTML Components` 를 참조하도록 한다.
 
  Instant Hangout은 Hangout으로부터 열리는 페이지에만 적용된다. 예를 들어, 한 강좌의 학습활동에서 Hangout에 참여한 학습자는 그 Hangout에 참여한 학습자들끼리만 상호 작용하고, 다른 학습활동에서 Hangout에 참여하는 학습자는 다른 Hangout 내에서 상호 작용한다.
 
@@ -97,7 +97,7 @@ Instant Hangout 만들기
 
 #. 컴퓨터에서 이 파일의 텍스트를 텍스트 편집기로 복사하고, JavaScript 파일로 해당 파일을 저장한다 (즉, 파일을 저장할 때, 확장자명을.txt에서.js 로 변경한다).
 
-   .. 참고::  서식을 포함하지 않는 원본 GitHub 파일을 복사하는지 확인한다. 서식이 지정된 파일을 복사하지 않도록 한다. 모든 서식지정은 JavaScript가 올바르게 작동하지 않게 되는 원인이 된다.
+   .. note::  서식을 포함하지 않는 원본 GitHub 파일을 복사하는지 확인한다. 서식이 지정된 파일을 복사하지 않도록 한다. 모든 서식지정은 JavaScript가 올바르게 작동하지 않게 되는 원인이 된다.
 
 #. 강좌에서 **파일 업로드** 페이지로 JavaScript 파일을 업로드한다. 더 자세한 내용은 :ref:`Add Files to a Course` 를 참조하도록 한다. 
 
@@ -128,8 +128,8 @@ Instant Hangout 만들기
 JavaScript 파일 업데이트하기
 =============================
 
-구글은 정기적으로 Instant Hangout JavaScript파일을 업데이트한다. 업데이트 알림을 수신하려면, `instant hangouts repository page <https://github.com/google/instant-hangouts/>`_  로 이동한 다음, 페이지의 오른쪽 위 영역에서 **보기** 를 클릭한다.
+구글은 정기적으로 Instant Hangout JavaScript파일을 업데이트한다. 업데이트 알림을 수신하려면, `instant hangouts repository <https://github.com/google/instant-hangouts/>`_  로 이동한 다음, 페이지의 오른쪽 위 영역에서 **보기** 를 클릭한다.
 
 강좌에서 업데이트 된 JavaScript 파일을 사용하려면, 저장소로부터 JavaScript를 강좌에 업로드 한 파일과 같은 이름을 가지는 파일로 복사한다. 새로운 파일을 업로드 하는 경우, 새 파일은 이전 파일을 대체한다.
 
-.. 주의:: 업로드 된 파일의 파일 이름에 버전 번호를 포함하는 경우, JavaScript 파일을 업데이트할 때마다 Instant Hangout 제어를 포함하는 페이지 또는 모든 HTML 구성 요소를 편집해야 한다.
+.. warning:: 업로드 된 파일의 파일 이름에 버전 번호를 포함하는 경우, JavaScript 파일을 업데이트할 때마다 Instant Hangout 제어를 포함하는 페이지 또는 모든 HTML 구성 요소를 편집해야 한다.
