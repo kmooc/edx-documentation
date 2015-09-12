@@ -82,7 +82,7 @@ HTML 구성요소 에디터 설정하기
  :alt: Image of the HTML component editor
 
 .. note:: 
-  :ref:`course handouts <Adding Course Updates and Handouts>` 엔 비쥬얼 편집기가 지원되지 않는다.
+  :ref:`Adding Course Updates and Handouts` 에서는 비쥬얼 편집기가 지원되지 않는다.
 
 다음 이미지는 편집 옵션에 대한 설명이다. 
 
