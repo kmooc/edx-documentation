@@ -45,11 +45,11 @@
 
      **<a href="/static/Image1.jpg" class="modal-content">**
 
-   * 2.	<img> 요소의 src 속성의 값을 이미지에 대한 경로로 대체한다. 예를 들면,
+   * <img> 요소의 src 속성의 값을 이미지에 대한 경로로 대체한다. 예를 들면,
      
      **<img alt="Full screen image" src="/static/Image1.jpg"/>**
 
-   * Src 및 href 속성의 값은 동일해야 하며, 클래스 속성은 변경하지 않도록 한다. 샘플 코드는 다음과 같이 표시된다.
+   * src 및 href 속성의 값은 동일해야 하며, 클래스 속성은 변경하지 않도록 한다. 샘플 코드는 다음과 같이 표시된다.
 
    .. code-block:: xml
 
@@ -58,6 +58,6 @@
      <img alt="Full screen image" src="/static/Image1.jpg"/>
      </a>
 
-   .. 참고:: 전체 화면 이미지로 만든 구성 요소 뿐만 아니라, HTML 구성 요소에서 이와 동일한 HTML 코드를 사용할 수 있다.
+   .. note:: 전체 화면 이미지로 만든 구성 요소 뿐만 아니라, HTML 구성 요소에서 이와 동일한 HTML 코드를 사용할 수 있다.
 
 #. HTML 구성 요소를 저장하기 위해 **저장** 을 클릭한다.
