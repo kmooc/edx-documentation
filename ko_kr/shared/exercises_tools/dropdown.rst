@@ -141,7 +141,7 @@ Dropdown 문제 XML
 
 문제가 드롭다운 문제임을 나타낸다.
 
-  Attributes
+  속성
 
   (none)
 
@@ -158,13 +158,13 @@ Dropdown 문제 XML
   .. list-table::
      :widths: 20 80
 
-     * - Attribute
-       - Description
-     * - options (required)
+     * - 속성
+       - 설명
+     * - options (필수)
        - 답안 옵션을 나열한다. 모든 답안 옵션의 목록은 괄호로 둘러싸여 있다. 개별 답안 옵션은 단일 인용 부호 (')로 둘러싸여 있으며 쉼표 (,)로 구분된다.
-     * - correct (required)
+     * - correct (필수)
        - 정답인지 여부를 나타낸다. 가능한 값은 "true" 및 "false"이다. 단 하나의 **올바른** 속성을 "true"로 설정할 수 있다.
-     * - label (required)
+     * - label (필수)
        - 응답 입력 필드의 이름을 지정한다.
   
   Children
