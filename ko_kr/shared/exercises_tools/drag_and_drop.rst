@@ -302,7 +302,7 @@ Targets on Draggables의 한계
 정답 양식
 **********************
 
-draggables에 대한 대상에 대한 답안을 지정하려면, Answer format for targets on draggables`_ 를 참조하도록 한다. 
+draggables에 대한 대상에 대한 답안을 지정하려면, `Answer format for targets on draggables`_ 를 참조하도록 한다. 
 
 두 가지 정답 양식이 있다: 짧은 양식과 긴 양식.
 
@@ -327,7 +327,7 @@ draggables에 대한 대상에 대한 답안을 지정하려면, Answer format f
 
 . "Draggables"은 draggable ID의 목록이다. "Target"은 draggables이 드래그 되어야 하는 대상 ID의 목록이다.
 
-.. 경고::
+.. warning::
   ``correct_answer`` 목록 내부 dicts에 있는 draggables은 서로 교차하지 않아야 한다.
 
 (draggable id 7에 대하여) 틀린 경우
