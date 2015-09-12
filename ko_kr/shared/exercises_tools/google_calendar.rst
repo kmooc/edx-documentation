@@ -157,8 +157,7 @@ OLX에서 구글 캘린더 활용하기
 스튜디오에서 구글 캘린더 구성 요소 추가하기
 **********************************************
 
-구글 캘린더 구성 요소를 추가하기 전에, 강좌에서 구글 캘린더를 활용할 수 있다 :ref:`enable Google Calendars in your course<Enable Google
-Calendars in edX Studio>` 는 것을 확인한다.
+구글 캘린더 구성 요소를 추가하기 전에, 강좌에서 구글 캘린더를 활용할 수 있다 :ref:`Enable Google Calendars in edX Studio` 는 것을 확인한다.
 
 
 구글 캘린더 구성 요소를 추가 하려면:
