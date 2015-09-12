@@ -162,6 +162,21 @@
 맞춤형 응답 문제는 Python 스크립트가 결합된 텍스트로 된 답안을 평가하는 것이다. :ref:`Write Your Own Grader` 에 자세한 안내가 있다.
 
 
+.. _Problem Component:
+ 
+**문제 구성요소**
+
+  강좌 콘텐츠에서 상호 작용적이고 자동채점되는 문제 구성요소이다. 다양한 문제의 유형을 만들 수 있다. :ref:`Working with Problem Components` 에 자세한 안내가 있다.
+  
+
+.. _Preview Mode:
+ 
+**미리보기 모드**
+
+  학습활동 상태와 공개일 여부에 따라 학습자가 보는것처럼 강좌의 모든 학습활동을 보여주는 것이다. 
+
+  :ref:`Preview Course Content` 에 자세한 안내가 있다.
+
 
 .. _바:
 
@@ -216,6 +231,15 @@
 
   연습 문제는 학습자 참여가 지속되도록 하기 위해 K-MOOC 강좌 콘텐츠에서 포함된다. 연습문제는 교수활동의 효과성과 학습자의 이해를 측정하기 위해 중요하다. 
 
+
+.. _Wiki:
+ 
+**위키(Wiki)**
+
+  각 K-MOOC 강좌는 위키 페이지에서 학습자 및 강좌 운영팀에서 콘텐츠를 작성하고, 수정하며, 삭제할 수 있다.
+  학습자는 위키를 링크, 노트, 도움이 되는 정보를 서로에게 공유하기 위해 사용할 수 있다. 
+
+
 .. _Image Mapped Input Problem:
  
 **이미지맵 입력 문제**
@@ -228,11 +252,6 @@
 
   강좌를 성공적으로 이수한 학습자에게 발급되는 증명서다. 모든 K-MOOC 강좌가 이수증을 발급하는 것은 아니며, 등록된 모든 학습자가 이수증을 받을 수 있는 것은 아니다. 
 
-.. _HTML Component:
- 
-**HTML 구성요소**
-
-  강좌에 추가하거나 텍스트 서식을 위한 구성요소다. HTML 구성요소는 텍스트, 목록, 링크, 이미지를 포함한다. :ref:`Working with HTML Components` 에 자세한 안내가 있다.
 
 
  
@@ -243,6 +262,14 @@
 자
 ****
 
+
+.. _Transcript:
+ 
+**자막**
+
+  동영상 콘텐츠를 텍스트로 옮긴 것이다. 학습자를 위해 동영상 자막을 만들어 활용할 수 있다. :ref:`Working with Video Components` 에 자세한 안내가 있다.
+ 
+ 
 .. _Live Mode:
  
 **적용 결과 보기**
@@ -305,20 +332,17 @@
 
   다른 형태로 강좌 콘텐츠를 재정의하고 임의로 할당된 학습자 집단이 이용하도록 하는 것으로, A/B 분할 테스트로 알려져 있다. 콘텐츠 실험은 다른 버전의 콘텐츠를 이용한 학습자들의 학습 결과를 비교하기 위해 사용한다. :ref:`Creating Content Experiments` 에 자세한 안내가 있다. 
 
+.. _타:
 
-.. _Problem Component:
+****
+타
+****
+
+.. _Text Input Problem:
  
-**문제 구성요소**
+**텍스트 입력 문제**
 
-  강좌 콘텐츠에서 상호 작용적이고 자동채점되는 문제 구성요소이다. 다양한 문제의 유형을 만들 수 있다. :ref:`Working with Problem Components` 에 자세한 안내가 있다.
-
-.. _Preview Mode:
- 
-**미리보기 모드**
-
-  학습활동 상태와 공개일 여부에 따라 학습자가 보는것처럼 강좌의 모든 학습활동을 보여주는 것이다. 
-
-  :ref:`Preview Course Content` 에 자세한 안내가 있다.
+  학습자에게 텍스트를 입력하도록 하는 문제로 정답이 아닐 때 체크되어진다. :ref:`Text Input` 에 자세히 안내되어 있다. 
 
 
 .. _파:
@@ -341,13 +365,6 @@
 
   학습자가 문제의 답으로 화학 공식을 입력할 수 있도록 하는 문제 유형이다.  :ref:`Chemical Equation` 에 자세한 안내가 있다.
 
-.. _Circuit Schematic Builder Problem:
- 
-**회로도 문제**
-
-  학습자가 인터랙티브 그리드(interactive grid)에 문제의 답으로 회로도를 구성하도록 하는 문제유형이다. 
-  :ref:`Circuit Schematic Builder` 에 자세한 안내가 있다.
-
 .. _Cohort:
  
 **학습 집단**
@@ -363,26 +380,14 @@
   강좌가 운영되는 동안 학습자가 강좌를 보거나, 강좌 운영팀이 등록 관리를 하거나, 운영자의 권한을 관리하거나, 토의를 조정하거나, 데이터에 접근하는데 기반이 되는 플랫폼이다.
 
 
-.. _Text Input Problem:
+.. _Circuit Schematic Builder Problem:
  
-**텍스트 입력 문제**
+**회로도 문제**
 
-  학습자에게 텍스트를 입력하도록 하는 문제로 정답이 아닐 때 체크되어진다. :ref:`Text Input` 에 자세히 안내되어 있다. 
+  학습자가 인터랙티브 그리드(interactive grid)에 문제의 답으로 회로도를 구성하도록 하는 문제유형이다. 
+  :ref:`Circuit Schematic Builder` 에 자세한 안내가 있다.
 
 
-.. _Transcript:
- 
-**자막**
-
-  동영상 콘텐츠를 텍스트로 옮긴 것이다. 학습자를 위해 동영상 자막을 만들어 활용할 수 있다. :ref:`Working with Video Components` 에 자세한 안내가 있다.
- 
-
-.. _Wiki:
- 
-**위키(Wiki)**
-
-  각 K-MOOC 강좌는 위키 페이지에서 학습자 및 강좌 운영팀에서 콘텐츠를 작성하고, 수정하며, 삭제할 수 있다.
-  학습자는 위키를 링크, 노트, 도움이 되는 정보를 서로에게 공유하기 위해 사용할 수 있다. 
 
 
 .. _ABC:
@@ -398,11 +403,12 @@ ABC
   :ref:`Content Experiment` 에 자세히 안내되어 있다.
   
 
-.. _edX Studio:
- 
-**Studio**
 
-  강좌 운영팀이 강좌를 개설 및 관리하는데 사용하는 도구로, :ref:`What is Studio?` 에 자세한 안내가 있다.
+.. _HTML Component:
+ 
+**HTML 구성요소**
+
+  강좌에 추가하거나 텍스트 서식을 위한 구성요소다. HTML 구성요소는 텍스트, 목록, 링크, 이미지를 포함한다. :ref:`Working with HTML Components` 에 자세한 안내가 있다.
 
 
 .. _LaTeX:
@@ -432,6 +438,15 @@ ABC
 **Split Test**
 
   `Content Experiment`_ 에 자세히 안내되어 있다. 
+
+
+
+.. _edX Studio:
+ 
+**Studio**
+
+  강좌 운영팀이 강좌를 개설 및 관리하는데 사용하는 도구로, :ref:`What is Studio?` 에 자세한 안내가 있다.
+
 
 
 .. _XBlock:
