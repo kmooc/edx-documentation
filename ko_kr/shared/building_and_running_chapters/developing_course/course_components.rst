@@ -276,7 +276,7 @@ s.org/projects/devdata/en/latest/course_data_formats/course_xml.html>`_ 에 있�
 
 .. note:: 
   중첩된 구성요소의 적용된 화면은 부모 학습활동의 적용된 화면을 따른다. 부모 학습활동은 중첩된 구성요소를 보기 위해 학습자
-  들에게 개방되어져야 한다. 자세히 보기 위해, :ref:`Unit States and Visibility to Students` 를 살펴 본다.
+  들에게 개방되어져야 한다. 자세히 보기 위해, :ref:`Unit Publishing Status and Visibility to Students` 를 살펴 본다.
 
 
 *******************************
