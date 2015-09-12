@@ -180,13 +180,13 @@ OLX에서 구글 캘린더 활용하기
 
 #. **표시 이름** 입력 필드에는 구성 요소에 대한 이름을 입력한다. 
 
-#. **공개 캘린더 ID** 입력 필드에는  :ref:`Obtain the Google Calendar ID` (구글 캘린더 ID 얻기) 작업에서 복사한 캘린더 ID를 붙여 넣는다.
+#. **공개 캘린더 ID** 입력 필드에는  :ref:`Obtain the Google Calendar ID` 작업에서 복사한 캘린더 ID를 붙여 넣는다.
 
 #. **기본 보기** 입력 필드에 대하여, **월** , **주** 또는 **안건** 을 선택한다. 이것은 학습자가 볼 캘린더에 대한 초기 보기이다. 각 학습자는 그 혹은 그녀의 보기를 변경할 수 있다.
 
 #. **저장** 을 선택한다.
 
-학습자에게 구글 캘린더를 포함한 학습활동이 어떻게 보이는지  :ref:`Preview Course Content`  (강좌 콘텐츠 미리보기) 할 수 있다.
+학습자에게 구글 캘린더를 포함한 학습활동이 어떻게 보이는지  :ref:`Preview Course Content` 할 수 있다.
 
 
 .. _Add a Google Calendar XBlock in OLX:
