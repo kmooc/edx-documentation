@@ -89,11 +89,11 @@ Studio에서 실험 집단 설정하기
 ************************************************
 
 .. note:: 
-  집단을 설정하기 전에 :ref:`enable content experiments<Enable Content Experiments>` 콘텐츠 실험을 활성화 해야 한다. 
+  집단을 설정하기 전에 :ref:`Enable Content Experiments` 콘텐츠 실험을 활성화 해야 한다. 
 
 집단 설정을 하기 위해, **설정** 메뉴에서, **집단 설정** 을 선택한다. **집단 설정** 페이지가 열린다. 
 
-이 페이지에서 집단 설정을 :ref:`create<Create a Group Configuration>` 생성, :ref:`edit<Edit a Group Configuration>` 편집, :ref:`delete<Delete a Group Configuration>` 삭제가 가능하다. 또한 :ref:`집단 설정을 사용하는 실험들 보기<View Experiments that Use a Group Configuration>` 를 할 수 있다. .
+이 페이지에서 집단 설정을 :ref:`생성<Create a Group Configuration>` , :ref:`편집<Edit a Group Configuration>` , :ref:`삭제<Delete a Group Configuration>` 가 가능하다. 또한 :ref:`집단 설정을 사용하는 실험들 보기<View Experiments that Use a Group Configuration>` 를 할 수 있다.
 
 .. _Create a Group Configuration:
 
