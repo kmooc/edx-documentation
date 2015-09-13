@@ -322,7 +322,7 @@ Studio가 제공하는 수식 입력 도구 가운데 보다 기본적인 도구
      * - 속성
        - 설명
      * - type (필수)
-       - 반드시 “loncapa/phython”로 설정해야 한다.
+       - 반드시 “loncapa/python” 으로 설정해야 한다.
 
   Children
   
