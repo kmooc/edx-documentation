@@ -137,9 +137,9 @@ Tags
        - 문제의 텍스트를 포함.
      * - size (선택)
        - LMS 에서 응답칸에 입력받는 글자의 수를 나타낸다. 
-     * - hidden (optional)
+     * - hidden (선택)
        - "true" 로하게 되면 학습자는 응답칸을 볼 수 없다. 
-     * - correct_answer (optional)
+     * - correct_answer (선택)
        - 문제의 답. correct_answer 값을 지원하기 위해 문자를 포함하고, 모든 문자는 영어라면 **소문자라야한다**. 
          학습자의 응답은 대소문자에 민감하지 않다. 대소문자 모두 포함할 수 있다. 
 
