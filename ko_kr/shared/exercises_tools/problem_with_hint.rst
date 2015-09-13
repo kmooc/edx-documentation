@@ -4,7 +4,7 @@
 응답 맞춤형 힌트가 있는 문제
 ################################
 
-응답 맞춤형 힌트가 있는 문제는 학습자의 응답을 평가한 후 해당 학습자에게 피드백을 제공하거나 응답을 토대로 힌트를 주어 학습자가 다음 기회에 정답에 보다 근접하도록 한다. 이러한 유형으로는 텍스트 입력 문제가 있다.
+응답 맞춤형 힌트가 있는 문제는 학습자의 응답을 평가한 후 해당 학습자에게 피드백을 제공하거나 응답을 바탕으로 힌트를 주어 학습자가 다음 기회에 정답에 보다 근접하도록 한다. 이러한 유형으로는 텍스트 입력 문제가 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWithAdaptiveHintExample.png
  :alt: Image of a problem with an adaptive hint
@@ -101,22 +101,22 @@
 	  </text>
 	</problem>
 
-.. note:: If the hints that you supply include characters, the letters must be lowercase.
+.. note:: 힌트에서 영어 문자는 소문자로만 주어져야 한다. 
 
 ========
 Tags
 ========
 
-* ``<text>``: Surrounds the script and text in the problem.
-* ``<customresponse>``: Indicates that this problem has a custom response.
-* ``<textline>``: Creates a response field in the LMS where the student enters a response.
-* ``<hintgroup>``: Specifies that the problem contains at least one hint.
+* ``<text>``: 문제에서 스크립트와 텍스트를 감싸는 태그이다.
+* ``<customresponse>``: 문제가 맞춤형(custom) 응답이 있음을 의미한다. 
+* ``<textline>``: 학습자가 응답을 입력할 수 있는 입력칸을 만든다.
+* ``<hintgroup>``: 최소 1개의 힌트가 있는 문제를 나타낸다.
 
 **Tag:** ``<customresponse>``
 
-  Attributes
+  속성
 
-  (none)
+  (내용 없음)
 
   Children
 
@@ -125,39 +125,37 @@ Tags
 
 **Tag:** ``<textline>``
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
      :header-rows: 1
 
-     * - Attribute
-       - Description
-     * - label (required)
-       - Contains the text of the problem.
-     * - size (optional)
-       - Specifies the size, in characters, of the response field in the LMS.
+     * - 속성
+       - 설명
+     * - label (필수)
+       - 문제의 텍스트를 포함.
+     * - size (선택)
+       - LMS 에서 응답칸에 입력받는 글자의 수를 나타낸다. 
      * - hidden (optional)
-       - If set to "true", students cannot see the response field.
+       - "true" 로하게 되면 학습자는 응답칸을 볼 수 없다. 
      * - correct_answer (optional)
-       - The answer to the problem. To supply a correct_answer value that
-         includes letters, all letters **must be lowercase**. (Students'
-         responses to the problem are not case sensitive. They can contain both
-         uppercase and lowercase letters.)
+       - 문제의 답. correct_answer 값을 지원하기 위해 문자를 포함하고, 모든 문자는 영어라면 **소문자라야한다**. 
+         학습자의 응답은 대소문자에 민감하지 않다. 대소문자 모두 포함할 수 있다. 
 
   Children
   
-  (none)
+  (내용 없음)
 
 **Tag:** ``<hintgroup>``
 
-  Attributes
+  속성
 
   .. list-table::
      :widths: 20 80
      :header-rows: 1
 
-     * - Attribute
-       - Description
+     * - 속성
+       - 설명
      * - hintfn
-       - Must be set to **hint_fn** (that is, the tag must appear as ``<hintgroup hintfn="hint_fn"/>``).
+       - **hint_fn** 로 설정해야 한다. (즉, ``<hintgroup hintfn="hint_fn"/>`` 로 나타나야 한다).
