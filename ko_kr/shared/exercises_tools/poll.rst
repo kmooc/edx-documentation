@@ -22,16 +22,18 @@
    :widths: 15 15
    :header-rows: 0
 
-   * - 강좌 개요 보기
-     - 파일 목록
-   * - 주제
+   * - Course Outline View
+     - File List
+   * - Section
      - Chapter
-   * - 소주제
+   * - Subsection
      - Sequential
-   * - 학습활동
+   * - Unit 
      - Vertical
-   * - 구성요소
-     - 게시판, HTML, 문제, 혹은 비디오
+   * - Component
+     - Discussion, HTML, problem, or video
+     
+ 
 
 이를 테면, 어떤 강좌의 특정 주제를 해당 강좌가 포함하고 있는 파일 목록에서 찾고자 한다면 **Chapter** 폴더를 조사해야 한다는 뜻이다. 마찬가지로 강좌에서의 학습 활동은 **Vertical** 폴더에서 찾아야 한다.
 
@@ -57,7 +59,7 @@
 
 #. **Vertical** 폴더 내부에서, 상기 단계1에서 기록해 둔 학습 활동 ID와 동일한 이름을 가진 .xml 파일을 찾아 Sublime 2와 같은 텍스트 편집기에서 연다. 가령, 학습활동 ID가 e461de7fe2b84ebeabe1a97683360d31인 경우 e461de7fe2b84ebeabe1a97683360d31.xml 파일을 연다.
 
-  이 파일은 해당 학습 활동의 모든 구성요소와 그 구성요소의 URL 목록을 포함하고 있다. 가령 다음 파일은 게시판 구성요소 앞에 HTML 구성요소를 포함한다.
+  이 파일은 해당 학습 활동의 모든 구성요소와 그 구성요소의 URL 목록을 포함하고 있다. 가령 다음 파일은 discussion 구성요소 앞에 HTML 구성요소를 포함한다.
 
    .. code-block:: xml
      
@@ -76,7 +78,7 @@
       <answer id="no">No</answer>
     </poll_question>
 
-   상기 예시에서 설문 조사를 해당 학습 활동의 HTML 구성요소와 게시판 구성요소 사이에 게시하고자 하는 경우 코드는 다음과 유사한 형태가 된다.
+   상기 예시에서 설문 조사를 해당 학습활동의 HTML 구성요소와 discussion 구성요소 사이에 게시하고자 하는 경우 코드는 다음과 유사한 형태가 된다.
 
    .. code-block:: xml
 
