@@ -462,7 +462,7 @@ LMS에서 학습자 성적을 검토하고 조정하는 방법에 대 한 정보
    gzip Home Page <http://www.gzip.org/>`_  주제를 참조하도록 한다.
 
 
-   Mac에서이 작업을 수행 하는 방법에 대한 자세한 정보는 `How to Open .tar.gz Files <http://www.ofzenandcomputing.com
+   Mac에서이 작업을 수행하는 방법에 대한 자세한 정보는 `How to Open .tar.gz Files <http://www.ofzenandcomputing.com
    /how-to-open-tar-gz-files/>`_ 페이지의 `Mac OS X
    <http://www.ofzenandcomputing.com/how-to-open-tar-gz-files/#mac-os-x>`_ 주제를 참조하도록 한다 
 
@@ -508,7 +508,7 @@ LMS에서 학습자 성적을 검토하고 조정하는 방법에 대 한 정보
 
    Windows 컴퓨터에서 이 작업을 수행 하는 방법에 대한 내용은, `How to Make
    a .tar.gz on Windows <http://stackoverflow.com/questions/12774707 /how-to-
-   make-a-tar-gz-on-windows>`_을 참조하도록 한다.
+   make-a-tar-gz-on-windows>`_ 을 참조하도록 한다.
 
 
 #. Studio에서 강좌를 다시 가져온다.
