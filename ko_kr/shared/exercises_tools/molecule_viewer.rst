@@ -4,7 +4,7 @@
 분자 뷰어 도구
 #######################
 
-Studio는 분자를 논의하기 위한 두 가지 도구를 제공한다.
+Studio는 분자를 다루기위한 두 가지 도구를 제공한다.
 
 * **분자 뷰어 도구** 를 이용하여 학습자가 볼 수 있는 3차원 분자 모형을 생성할 수 있다.
 * **분자 편집기** 문제 유형을 이용하여 학습자 스스로가 원하는 대로 분자 구조를 구성할 수 있다. :ref:`Molecule Editor` 에서 이 도구에 관한 보다 자세한 정보를 확인할 수 있다.
@@ -17,9 +17,7 @@ Studio는 분자를 논의하기 위한 두 가지 도구를 제공한다.
    :width: 500
    :alt: Image of molecule viewer showing a molecule of Ciprofloxacin
 
-
-
-.. 참고:: 분자 뷰어 도구를 생성하려면 아마존 웹 서비스 심플 스토리지 서비스(Amazon Web Services Simple Storage Service, AWS S3)와 같은 서드파티 파일 호스팅 사이트에 파일을 업로드할 권한 반드시 있어야 한다. 분자 뷰어를 생성하는 경우 대단히 많은 파일을 포함하는 폴더 1개를 해당 호스팅 사이트에 업로드하게 된다. 
+.. note:: 분자 뷰어 도구를 생성하려면 아마존 웹 서비스 심플 스토리지 서비스(Amazon Web Services Simple Storage Service, AWS S3)와 같은 서드파티 파일 호스팅 사이트에 파일을 업로드할 권한 반드시 있어야 한다. 분자 뷰어를 생성하는 경우 대단히 많은 파일을 포함하는 폴더 1개를 해당 호스팅 사이트에 업로드하게 된다. 
 
 .. _Create the Molecule Viewer:
 
@@ -38,7 +36,7 @@ Studio는 분자를 논의하기 위한 두 가지 도구를 제공한다.
 BioTopics 및 edX에서 파일 내려받기
 ================================================
 
-#. 구성하고자 하는 분자에 해당하는 .mol 파일을 생성하거나 내려받는다. `BioTopics website <http://www.biotopics.co.uk/jsmol/molecules>`_ 에서 다양한 .mol 파일을 내려받을 수 있다. 쉽게 찾을 수 있는 장소에 해당 파일을 저장한다..
+#. 구성하고자 하는 분자에 해당하는 .mol 파일을 생성하거나 내려받는다. `BioTopics website <http://www.biotopics.co.uk/jsmol/molecules>`_ 에서 다양한 .mol 파일을 내려받을 수 있다. 쉽게 찾을 수 있는 장소에 해당 파일을 저장한다.
 #. edX에서  `MoleculeViewerFiles.zip <http://files.edx.org/MoleculeViewerFiles.zip>`_ 를 내려받다.
 #. 내려받은 `MoleculeViewerFiles.zip <http://files.edx.org/MoleculeViewerFiles.zip>`_ 의 압축을 푼다.
 
@@ -77,7 +75,7 @@ BioTopics 및 edX에서 파일 내려받기
 
 2. **MoleculeViewerFiles** 폴더 전체를 파일 호스팅 사이트에 업로드한다.
 
-   .. 참고:: 이 폴더에는 많은 파일이 들어 있다. 통신 속도가 빠른 경우에도 업로드를 완료하기까지 수분이 걸릴 수도 있다.
+   .. note:: 이 폴더에는 많은 파일이 들어 있다. 통신 속도가 빠른 경우에도 업로드를 완료하기까지 수분이 걸릴 수도 있다.
 
 ===============================
 Studio에서 구성 요소 생성하기
