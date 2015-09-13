@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-Open Response Assessments
+개방형 응답 평가
 =========================
 
 .. toctree::
