@@ -25,7 +25,7 @@ OLX에 콘텐츠 실험 추가하기
 ``<split_test>`` 요소의  ``url_name`` 값은 ``split_test`` 디렉토리의 콘텐츠 실험명을 참조한다.  
 
 .. caution::
-  1개의 학습활동에 1종의 콘텐츠 실험만 정의할 수 있으며, 다른 구성요소의 모음은 다른 실험 집단과 관련된 것이다.  소주제 혹은 주제 레벨에서 1종의 콘텐츠 실험을 정의할 수 없고, 다른 집단과 관련된 다른 학습 활동들 혹은 소주제들을 둘 수 없다. 
+  1개의 학습활동에 1종의 콘텐츠 실험만 정의할 수 있으며, 다른 구성요소의 모음은 다른 실험 집단과 관련된 것이다. 소주제 혹은 주제 레벨에서 1종의 콘텐츠 실험을 정의할 수 없고, 다른 집단과 관련된 다른 학습 활동들 혹은 소주제들을 둘 수 없다. 
 
 
 .. _Define the Experiment Content in the Split Test File:
@@ -70,6 +70,6 @@ OLX에 콘텐츠 실험 추가하기
 
 * ``group_id_to_child`` 값은 ``policy.json`` 파일에 정의한 집단 ID과 특정 콘텐츠의 집단 ID를 참조한다.  
 
-  예를 들어, 집단 ``0`` 에서의 값``i4x://path-to-course/vertical/group_a`` 은 ``url_name`` 과 ``group_a`` 을 같게 하는 <vertical>요소를 일치시켜야 하다. 따라서, 집단 0 에서의 학습자는 ``<vertical>`` 로 콘텐츠를 보게 된다.
+  예를 들어, 집단 ``0`` 에서의 값 ``i4x://path-to-course/vertical/group_a`` 은 ``url_name`` 과 ``group_a`` 을 같게 하는 <vertical>요소를 일치시켜야 하다. 따라서, 집단 0 에서의 학습자는 ``<vertical>`` 로 콘텐츠를 보게 된다.
 
 ``policy.json`` 파일에 대해 더 정보를 원하면, :ref:`Set Up Group Configuration for OLX Courses` 를 확인한다.
