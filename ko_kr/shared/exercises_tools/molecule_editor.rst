@@ -23,13 +23,13 @@
 * MoleculeEditor_HTML.png
 * dopamine.mol
 
-http://files.edx.org/MoleculeEditorFiles.zip에서 상기 모든 파일을 하나의 .zip 파일로 내려받을 수 있다.
+http://files.edx.org/MoleculeEditorFiles.zip 에서 상기 모든 파일을 하나의 .zip 파일로 내려받을 수 있다.
 
-.. 참고:: 편집기 시작 시 표시되는 것은 도파민 분자이다. 다른 분자로 교체하고자 하는 경우 BioTopics 웹 사이트의 분자 목록(`list of molecules <http://www.biotopics.co.uk/jsmol/molecules/>`_ )에서 원하는 분자의 .mol을 내려받아 Studio에서 강좌에 해당하는 **파일 업로드** 페이지에 올린 후 예제 코드의 “dopamine.mol”을 “원하는이름.mol”로 바꾼다.
+.. note:: 편집기 시작 시 표시되는 것은 도파민 분자이다. 다른 분자로 교체하고자 하는 경우 BioTopics 웹 사이트의 분자 목록(`list of molecules <http://www.biotopics.co.uk/jsmol/molecules/>`_ )에서 원하는 분자의 .mol을 내려받아 Studio에서 강좌에 해당하는 **파일 업로드** 페이지에 올린 후 예제 코드의 “dopamine.mol”을 “원하는이름.mol”로 바꾼다.
 
 상기 이미지에 표시된 분자 편집기를 생성하려면 “문제(Problem)” 구성 요소 앞에 HTML 구성 요소 하나가 있어야 한다.
 
-#. 강좌의 **Files & Uploads** 페이지에 상기 파일을 모두 업로드한다.
+#. 강좌의 **파일 업로드** 페이지에 상기 파일을 모두 업로드한다.
 #. HTML 구성 요소를 생성한다.
 
   #. 문제를 생성하고자 하는 학습 활동에서 **새 구성 요소 추가** 아래에 있는 **HTML** 을 클릭한 후 다시 **HTML** 을 클릭한다.
