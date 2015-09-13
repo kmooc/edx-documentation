@@ -55,7 +55,7 @@
 
 #. 폴더 및 파일 목록에서 **Vertical** 폴더를 연다.
 
-   .. note:: 학습활동이 게시되지 않았다면, **Drafts** 폴더를 열고, **Vertical** 를 연ㄷfolder in the **Drafts** folder.
+   .. note:: 학습활동이 게시되지 않았다면, **Drafts** 폴더를 열고, **Vertical** 를 연다.
 
 #. **Vertical** 폴더 내부에서, 상기 단계1에서 기록해 둔 학습 활동 ID와 동일한 이름을 가진 .xml 파일을 찾아 Sublime 2와 같은 텍스트 편집기에서 연다. 가령, 학습활동 ID가 e461de7fe2b84ebeabe1a97683360d31인 경우 e461de7fe2b84ebeabe1a97683360d31.xml 파일을 연다.
 
@@ -118,8 +118,7 @@
 
     <poll_question> ... </poll_question>
 
-``poll_question`` can include any number of the following tags:
-any xml and ``answer`` tag. All inner xml, except for ``answer`` tags, we call "question".
+``poll_question`` 에는 다음 태그를 포함할 수 있다: xml 및 ``answer`` 태그. 모든 내부 xml, 단 "question"으로 부르는 ``answer`` 태그 제외
 
 ==================
 poll_question 태그
