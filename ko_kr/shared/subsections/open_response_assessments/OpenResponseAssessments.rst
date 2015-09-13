@@ -137,7 +137,7 @@
      - 살릭 법
      - 이 답변은 살릭 법이 에드워드 3세와 필립 6세의 왕위 계승권 다툼에 어떤 식으로 관여하여 백년 전쟁을 촉발했는지 설명했음.
 
-채점 기준을 효과적으로 작성하는 방법에 관해서는 `Understanding Rubrics <http://learnweb.harvard.edu/alps/thinking/docs/rubricar.htm>`_ 을 참조한다.
+채점 기준을 효과적으로 작성하는 방법에 관해서는 `Understanding Rubrics <http://www.saddleback.edu/uploads/goe/understanding_rubrics_by_heidi_goodrich_andrade.pdf>`_ 을 참조한다.
 
 :ref:`PA Add Rubric` 에서 이와 관련한 보다 구체적인 정보를 확인할 수 있다.
 
