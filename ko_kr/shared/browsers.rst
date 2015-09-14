@@ -18,7 +18,7 @@ K-MOOC 플랫폼은 다음 브라우저에서 실행되며 정기적으로 각 �
 학습 관리 시스템
 ***********************************
 
-학습자와 강좌 운영팀이 상호작용하는 학습관리시스템 운영체제 및 브라우저 지원
+학습자와 강좌 운영팀이 상호작용하는 학습관리시스템 운영체제 및 브라우저 지원은 다음과 같다.
 
 .. list-table::
    :widths: 20 10 10 10 10 10
@@ -31,17 +31,17 @@ K-MOOC 플랫폼은 다음 브라우저에서 실행되며 정기적으로 각 �
      - IE 9
      - IE 10
    * - Windows 8
-     - Yes
-     - N/A
-     - Yes
-     - Yes
-     - Yes
-   * - Mac OSX Mavericks or Yosemite
-     - Yes
-     - Yes
-     - Yes
-     - N/A
-     - N/A
+     - 예
+     - 해당없음
+     - 예
+     - 예
+     - 예
+   * - Mac OSX Mavericks 혹은 Yosemite
+     - 예
+     - 예
+     - 예
+     - 해당없음
+     - 해당없음
 
 ***********************************
 Studio
@@ -60,17 +60,17 @@ Studio
      - IE 9
      - IE 10
    * - Windows 8
-     - Yes
-     - N/A
-     - Yes
+     - 예
+     - 해당없음
+     - 예
      - Provisional
      - Provisional
-   * - Mac OSX Mavericks or Yosemite
-     - Yes
-     - Yes
-     - Yes
-     - N/A
-     - N/A
+   * - Mac OSX Mavericks 혹은 Yosemite
+     - 예
+     - 예
+     - 예
+     - 해당없음
+     - 해당없음
 
 ***********************************
 edX Insights
@@ -89,14 +89,14 @@ edX Insights
      - IE 9
      - IE 10
    * - Windows 8
-     - Yes
-     - N/A
-     - Yes
+     - 예
+     - 해당없음
+     - 예
      - Provisional
      - Provisional
-   * - Mac OSX Mavericks or Yosemite
-     - Yes
-     - Yes
-     - Yes
-     - N/A
-     - N/A
+   * - Mac OSX Mavericks 혹은 Yosemite
+     - 예
+     - 예
+     - 예
+     - 해당없음
+     - 해당없음
