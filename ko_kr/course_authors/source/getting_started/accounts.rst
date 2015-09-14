@@ -85,17 +85,21 @@ kmooc.kr과 테스트서버에서 비밀번호를 재설정하는 과정은 동�
 #. kmooc.kr 또는 테스트서버에서 로그인하거나 **수강중인 강좌** 대시보드로 이동한다.
 
 #. 오른쪽 상단에 있는 **계정 설정** 에서 **비밀번호 재설정** 을 클릭한다. 관련 메일이 발신되었다는 메시지가 열린다.
+
    .. image:: ../../../shared/building_and_running_chapters/Images/password-email-dialog.png
    :alt: Image with the Reset Password link highlighted
 
 #. 다음 이메일을 받으면 링크를 클릭한다::
 
      edx.kotech.biz 이용자 계정의 비밀번호 재설정을 요청하였기 때문에, 이 이메일이 전송되었습니다. 
+     
      다음 페이지로 가서 새로운 비밀번호를 선택하세요. 
      https://kmooc.kr/password_reset_confirm/unique-code/
+     
      이를 요청하지 않았다면, 이 이메일을 무시하면 됩니다. 아직 비밀번호가 재설정되지 않았습니다. 
+     
      사이트를 이용해 주셔서 감사합니다. 
-
+     
      K-MOOC 팀 
 
 #. 다음과 같은 대화상자가 열리면 두 입력란에 새로운 비밀번호를 입력하고 **비밀번호 변경** 을 클릭한다.
