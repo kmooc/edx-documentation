@@ -88,7 +88,7 @@ kmooc.kr과 테스트서버에서 비밀번호를 재설정하는 과정은 동�
    .. image:: ../../../shared/building_and_running_chapters/Images/password-email-dialog.png
    :alt: Image with the Reset Password link highlighted
 
-#. 다음 이메일을 받으면 링크를 클릭한다.
+#. 다음 이메일을 받으면 링크를 클릭한다::
 
      edx.kotech.biz 이용자 계정의 비밀번호 재설정을 요청하였기 때문에, 이 이메일이 전송되었습니다. 
      다음 페이지로 가서 새로운 비밀번호를 선택하세요. 
@@ -103,5 +103,7 @@ kmooc.kr과 테스트서버에서 비밀번호를 재설정하는 과정은 동�
   .. image:: ../../../shared/building_and_running_chapters/Images/reset_password.png
    :alt: Image of the Reset Password dialog box
 
-  .. note:: **비밀번호 변경** 을 클릭한 후에는 kmooc.kr 또는 테스트서버에 비밀번호가 재설정된다. 다음에 로그인할 때는 새 비밀번호를 사용해야 한다.
+  .. note:: 비밀번호는 어떤 문자열도 가능하다. 
+  
+  **비밀번호 변경** 을 클릭한 후에는 kmooc.kr 또는 테스트서버에 비밀번호가 재설정된다. 다음에 로그인할 때는 새 비밀번호를 사용해야 한다.
 
