@@ -53,7 +53,7 @@ Drag and Drop 문제 코드 샘플
   * Allopurinol.gif
   * AllopurinolAnswer.gif
 
-  .zip 저장소에서 이 두 파일을 다운로드 하려면, http://files.edx.org/DragAndDropProblemFiles.zip를 클릭한다.
+  .zip 저장소에서 이 두 파일을 다운로드 하려면, `http://files.edx.org/DragAndDropProblemFiles.zip`_를 클릭한다.
 
 2. **파일 업로드** 페이지로 Allopurinol.gif 및 AllopurinolAnswer.gif 파일을 업로드 한다. 
 #. 문제를 만들려는 학습활동에서, **새 구성 요소 추가** 아래에 **문제** 를 클릭하고 난 다음, **고급** 탭을 클릭한다.
