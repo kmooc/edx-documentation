@@ -8,13 +8,11 @@ Studio
 개관
 ***************
 
-이 장에서는 Studio에서 강좌를 만드는 것에 대해 다룬다.
+본 장에서는 Studio에서 강좌를 만들 때 사용하는 도구와 첫 번째 강좌를 만드는 방법을 설명하고 있다. 
 
 * :ref:`What is Studio?`
 * :ref:`Create Your First Course`
 * :ref:`Register Your Course on edX.org`
-
-
 
 .. _What is Studio?:        
             
@@ -28,7 +26,7 @@ Studio를 이용하여 강좌 콘텐츠, 문제, 동영상 및 기타 자료를 
 
 또한 Studio에는 운영팀의 일정 관리, 성적 규정 설정 등 다양한 기능이 있다.
 
-원활한 작업을 위해 Chrome 브라우저 사용을 권장하며, 그 외 다른 소프트웨어는 전혀 필요하지 않다.
+원활한 작업을 위해 Chrome 브라우저 사용을 권장하며, 다른 소프트웨어는 전혀 필요 없다.
 
 
 
@@ -40,7 +38,7 @@ Studio를 이용하여 강좌 콘텐츠, 문제, 동영상 및 기타 자료를 
 
 강좌 개설 권한을 받으면 Studio에 로그인한다.
 
-그리고나서 Studio Home 대시보드를 볼 수 있다.
+그 후 Studio Home 대시보드를 볼 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/first_course.png
  :width: 600
