@@ -4,14 +4,14 @@
 K-MOOC
 #############################
 
-이 장에서는 K-MOOC에 대한 소개 및 K-MOOC를 시작하는 방법에 대해 다룬다.
+본 장에서는 K-MOOC에 대한 소개 및 K-MOOC를 시작하는 방법에 대해 다룬다.
 
 * :ref:`edX.org and edX Edge`
 * :ref:`Create an Account`
 * :ref:`edX101_section`
 * :ref:`Reset Your Password`
 
-이 장은 교수자 및 강좌 운영팀을 위한 것이다. 
+본 장은 교수자 및 강좌 운영팀을 위한 것이다. 
 
 학습자의 강좌 등록에 관련해 보다 자세한 정보는, :ref:`enroll_student` 에 있다.
 
@@ -45,13 +45,13 @@ kmooc.kr 및 테스트서버
 kmooc.kr 또는 테스트서버에 가입한다.  
 
 #. kmooc.kr의 경우, `등록 및 로그인 페이지
-   <https://kmooc.kr/login>`_. 로 이동한 다음 **가입하기** 를 선택한다.  
+   <https://kmooc.kr/login>`_ 로 이동한 다음 **가입하기** 를 선택한다.  
 
    테스트서버의 경우, `등록 및 로그인 페이지 <http://dev.kmooc.kr/login>`_ 로 이동한다.
 
 #. 가입 화면에서 별표(*)가 있는 입력칸에 개인정보를 입력한다.
 
-  .. note:: 강좌에서는 교수자 및 학습자의 **실명** 이 아니라 **아이디** 를 보게 된다.
+  .. note:: 강좌에서는 교수자 및 학습자의 **실명** 이 아니라 **아이디** 가 나타난다.
 
     또한 강좌 운영팀은 기관 이메일 주소를 사용해야 한다.
 
@@ -96,13 +96,9 @@ kmooc.kr과 테스트서버에서 비밀번호를 재설정하는 과정은 동�
 #.	다음 이메일을 받으면 링크를 클릭한다.
 
      edx.kotech.biz 이용자 계정의 비밀번호 재설정을 요청하였기 때문에, 이 이메일이 전송되었습니다. 
-
      다음 페이지로 가서 새로운 비밀번호를 선택하세요. 
-
      https://kmooc.kr/password_reset_confirm/unique-code/
-
      이를 요청하지 않았다면, 이 이메일을 무시하면 됩니다. 아직 비밀번호가 재설정되지 않았습니다. 
-
      사이트를 이용해 주셔서 감사합니다. 
 
      K-MOOC 팀 
@@ -112,5 +108,5 @@ kmooc.kr과 테스트서버에서 비밀번호를 재설정하는 과정은 동�
   .. image:: ../../../shared/building_and_running_chapters/Images/reset_password.png
    :alt: Image of the Reset Password dialog box
 
-  .. 참고:: **비밀번호 변경** 을 클릭한 후에는 kmooc.kr 또는 테스트서버에 비밀번호가 재설정된다. 다음에 로그인할 때는 새 비밀번호를 사용해야 한다.
+  .. note:: **비밀번호 변경** 을 클릭한 후에는 kmooc.kr 또는 테스트서버에 비밀번호가 재설정된다. 다음에 로그인할 때는 새 비밀번호를 사용해야 한다.
 
