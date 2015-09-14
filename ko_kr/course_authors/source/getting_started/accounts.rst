@@ -71,8 +71,6 @@ edX.org는 교수자 및 강좌 운영팀이 K-MOOC 강좌를 수강하거나 �
 
 .. note:: 교수자 및 강좌 운영팀은 강좌 자료 속에 데모 강좌에 관한 정보를 포함시킬 수 있고, 새로운 학습자가 강좌를 수강하기 전에 데모강좌를 수강하도록 권장할 수 있다.
 
-
-
 .. _edX Demo course: https://www.edx.org/course/edx/edx-edxdemo101-edx-demo-1038
 
 
@@ -86,14 +84,12 @@ kmooc.kr과 테스트서버에서 비밀번호를 재설정하는 과정은 동�
 
 #. kmooc.kr 또는 테스트서버에서 로그인하거나 **수강중인 강좌** 대시보드로 이동한다.
 
-#. 오른쪽 상단에 있는 **계정 설정** 에서 **비밀번호 재설정** 을 클릭한다. 
-
-  관련 메일이 발신되었다는 메시지가 열린다.
+#. 오른쪽 상단에 있는 **계정 설정** 에서 **비밀번호 재설정** 을 클릭한다. 관련 메일이 발신되었다는 메시지가 열린다.
  
   .. image:: ../../../shared/building_and_running_chapters/Images/password-email-dialog.png
    :alt: Image with the Reset Password link highlighted
 
-#.	다음 이메일을 받으면 링크를 클릭한다.
+#. 다음 이메일을 받으면 링크를 클릭한다.
 
      edx.kotech.biz 이용자 계정의 비밀번호 재설정을 요청하였기 때문에, 이 이메일이 전송되었습니다. 
      다음 페이지로 가서 새로운 비밀번호를 선택하세요. 
