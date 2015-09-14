@@ -86,8 +86,7 @@ kmooc.kr과 테스트서버에서 비밀번호를 재설정하는 과정은 동�
 
 #. 오른쪽 상단에 있는 **계정 설정** 에서 **비밀번호 재설정** 을 클릭한다. 관련 메일이 발신되었다는 메시지가 열린다.
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/password-email-dialog.png
-   :alt: Image with the Reset Password link highlighted
+   .. image:: ../../../shared/building_and_running_chapters/Images/password-email-dialog.png 
 
 #. 다음 이메일을 받으면 링크를 클릭한다::
 
