@@ -291,13 +291,13 @@
 학습자는 **수강중인 강좌** 대시보드 및 강좌 소개 페이지에서 강좌 시작 날짜와 시간을 참조한다. 강좌 시작 날짜 전에 학습자는 강좌의 일부를 볼 수 있다. 예를 들어, 강좌 등록 후 바로 공지사항 메뉴와 강좌 일반 주제를 볼 수 있다. 강좌 일반 주제에 대한 더 자세한 내용은 :ref:`Create CourseWide Discussion Topics` 에서 확인할 수 있다.
 
 
-다음 예제는 강좌 소개 페이지의 강좌 시작 날짜와 시간을 보여준다.
+다음 예는 강좌 소개 페이지의 강좌 시작 날짜와 시간을 보여준다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-start.png
  :width: 600
  :alt: An image of the course About page, with the start date circled.
 
-다음 예제와 같이, 대시보드에서 학습자는 각 강좌의 개강일을 보게 된다. 
+다음 예와 같이, 대시보드에서 학습자는 각 강좌의 개강일을 보게 된다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-course-to-start.png
  :width: 600
@@ -349,7 +349,7 @@
 .. important::
 강좌 종료 날짜를 설정하지 않을 경우, 학습자는 취득한 수료증에 접근할 수 없다.
 
-성적 및 수료증을 취득한 학습자는 다음 예제에서 보여주는 것처럼 **개별 대시보드** 에서 강좌 종료일을 보게 된다.
+성적 및 수료증을 취득한 학습자는 다음 예에서 보이는 것처럼 **개별 대시보드** 에서 강좌 종료일을 보게 된다.
 
 * 성적 및 수료증 취득이 아직 확정되지 않은 경우, 학습자는 다음과 같은 메시지를 볼 수 있다.
 
