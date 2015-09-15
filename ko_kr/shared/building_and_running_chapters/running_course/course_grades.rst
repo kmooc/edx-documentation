@@ -12,7 +12,7 @@
 
 * :ref:`gradebook`
 
-* :ref:`check_student_progress
+* :ref:`check_student_progress`
 
 * :ref:`Adjust_grades`
 
