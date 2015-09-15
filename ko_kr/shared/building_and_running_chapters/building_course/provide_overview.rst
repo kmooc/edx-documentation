@@ -344,26 +344,26 @@
 강좌 종료일 설정하기 
 =====================
 
-강좌 종료 날짜는 학습자가 그 날짜 이후에 더 이상 수료증을 받을 수 없음을 의미한다. 수료증을 취득한 학습자는 강좌 종료일 후에도 강좌를 볼 수 있다.
+강좌 종료 날짜는 학습자가 그 날짜 이후에 더 이상 이수증을 받을 수 없음을 의미한다. 이수증을 취득한 학습자는 강좌 종료일 후에도 강좌를 볼 수 있다.
 
 .. important::
-강좌 종료 날짜를 설정하지 않을 경우, 학습자는 취득한 수료증에 접근할 수 없다.
+강좌 종료 날짜를 설정하지 않을 경우, 학습자는 취득한 이수증에 접근할 수 없다.
 
-성적 및 수료증을 취득한 학습자는 다음 예에서 보이는 것처럼 **개별 대시보드** 에서 강좌 종료일을 보게 된다.
+성적 및 이수증을 취득한 학습자는 다음 예에서 보이는 것처럼 **개별 대시보드** 에서 강좌 종료일을 보게 된다.
 
-* 성적 및 수료증 취득이 아직 확정되지 않은 경우, 학습자는 다음과 같은 메시지를 볼 수 있다.
+* 성적 및 이수증 취득이 아직 확정되지 않은 경우, 학습자는 다음과 같은 메시지를 볼 수 있다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-wrapping-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
      been graded
 
-* 성적 및 수료증 취득이 확정된 경우, 학습자는 다음과 같은 메시지를 볼 수 있다.
+* 성적 및 이수증 취득이 확정된 경우, 학습자는 다음과 같은 메시지를 볼 수 있다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-no-cert-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
      been graded
 
-* 수료증 취득 기준 점수와 같거나 더 높은 최종 점수를 얻은 학습자는 PDF로 수료증을 발급받기 위해 **인증서 다운로드하기** 를 클릭할 수 있다. 
+* 이수증 취득 기준 점수와 같거나 더 높은 최종 점수를 얻은 학습자는 PDF로 이수증을 발급받기 위해 **인증서 다운로드하기** 를 클릭할 수 있다. 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/dashboard-completed-course.png
    :alt: Image of a course on the student dashboard that has ended, but not
