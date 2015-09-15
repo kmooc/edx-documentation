@@ -4,7 +4,7 @@
 강좌 개요
 ###################################
 
-강좌를 개발할 때는 주로 Studio에 있는 강좌 개요에서 작업하게 되는데, 이 장에서 이에 대해 다룬다. 
+강좌를 개발할 때는 주로 Studio에 있는 강좌 개요에서 작업하게 되는데, 본 장에서 이에 대해 다룬다. 
 
 * `강좌 개요 열기`_
 * `강좌 개요 예시`_
@@ -94,7 +94,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-expand-collapse.png
  :alt: The outline with expand and collapse icons circled
 
-펼칠 경우, 소주제 안의 모든 학습활동이 이렇게 보이게 된다.
+펼칠 경우, 소주제 안의 모든 학습활동이 다음처럼 보이게 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-with-units.png
  :alt: The outline with an expanded subsection
