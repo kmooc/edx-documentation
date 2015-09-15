@@ -277,7 +277,7 @@
     :alt: An image of the course schedule page.
 
 
-.. note:: K-MOOC에서는 **시간** 설정시, Universal Coordinated Time (UTC)을 따르고 있다. 
+.. note:: K-MOOC에서는 **시간** 설정시, 세계협정시(Universal Coordinated Time, UTC)를 따르고 있다. 
 
 .. _The Course Start Date:
 
