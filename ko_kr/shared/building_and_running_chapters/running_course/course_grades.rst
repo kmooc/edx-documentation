@@ -37,7 +37,7 @@
 
 #. **교수자** 를 클릭하고 **데이터** 의 **성적 가중치** 를 클릭한다.
 
-   각 과제별 성적 가중치가 나타난다. 예를 들면, 중간고사는 전체 점수의 0.3 (30%)의 가중치를 산정함.  
+   각 과제별 성적 가중치가 나타난다. 예를 들면, 중간고사는 전체 점수의 0.3 (30%)의 가중치를 산정한다.  
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Grading_Configuration.png
      :alt: XML of course assignment types and weights for grading
