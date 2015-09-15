@@ -69,7 +69,7 @@ edx.org 사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자
            Live options shown 
 
 3. 재개강하고 싶은 강좌를 찾아서 **강좌 재개강하기** 를 클릭한다. 
-   **강좌명**, **기관명**, and **강좌 번호** 영역에 이미 정보가 입력되어 있을 것이다. 
+   **강좌명**, **기관명**, **강좌 번호** 영역에 이미 정보가 입력되어 있을 것이다. 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/rerun_course_info.png
      :alt: The course creation page for a rerun, with the course name, 
@@ -102,8 +102,7 @@ edx.org 사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자
 * 성적에 반영하는 소주제의 마감일을 변경한다. 
   :ref:`Set the Assignment Type and Due Date for a Subsection` 에 자세한 안내가 있다. 
 
-* Studio의 **공지사항** 페이지에 있는 게시물을 삭제 또는 편집한다. :ref:`Add
-  a Course Update` 에 자세한 안내가 있다. 
+* Studio의 **공지사항** 페이지에 있는 게시물을 삭제 또는 편집한다. :ref:`Add a Course Update` 에 자세한 안내가 있다. 
 
 * **파일 업로드**  페이지에서 파일을 검토한다. 강좌 관련 날짜에 대한 참조를 포함하는 파일을 업데이트 하려면 다음과 같이 해야 한다.
   
@@ -111,8 +110,7 @@ edx.org 사이트에서 호스팅되는 강좌라면, K-MOOC 플랫폼 관리자
   #. 파일에 강좌 관련 날짜를 변경한다.
   #. 파일의 수정된 버전을 업로드한다.
   
-  .. 참고:: 수정된 파일을 업로드할 때 동일한 파일 이름을 사용하는 경우, 강좌 구성요소 및 학습자료에서 해당 파일에 대한 링크가 수정된 파일로 연결될 것이다. 그러나 파일 이름을 변경한 다음 그것을 업로드 하는 경우, 원래 파일 이름에 대한 모든 링크를 또한 업데이트 해야 한다.  이와 관련해서는 :ref:`Add Course Handouts`
-   또는 :ref:`Add a Link to a File` 에 자세한 안내가 있다. 
+  .. note:: 수정된 파일을 업로드할 때 동일한 파일 이름을 사용하는 경우, 강좌 구성요소 및 학습자료에서 해당 파일에 대한 링크가 수정된 파일로 연결될 것이다. 그러나 파일 이름을 변경한 다음 그것을 업로드 하는 경우, 원래 파일 이름에 대한 모든 링크를 또한 업데이트 해야 한다.  이와 관련해서는 :ref:`Add Course Handouts` 또는 :ref:`Add a Link to a File` 에 자세한 안내가 있다. 
 
 * 강좌 운영팀 소개 및 강좌 요약 페이지에 대한 기타 정보를 검토하고 필요한 업데이트를 확인한다. :ref:`Providing a Course Overview` 에 자세한 안내가 있다. 
 
