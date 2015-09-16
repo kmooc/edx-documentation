@@ -109,7 +109,7 @@
    .. image:: ../../../shared/building_and_running_chapters/Images/inactive_groups.png
     :alt: Components in inactive groups
 
-#. 새로운 집단에 **비활성화 집단** 에서 구성요소를 끌어 온다. 또한 새로운 집단에는 새로운 요소를 만들 수 있다.
+6. 새로운 집단에 **비활성화 집단** 에서 구성요소를 끌어 온다. 또한 새로운 집단에는 새로운 요소를 만들 수 있다.
 
 .. import OLX-content experiment doc that's shared in OLX guide.
 
