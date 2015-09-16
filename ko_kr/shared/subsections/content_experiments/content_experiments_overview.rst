@@ -30,7 +30,7 @@
   강좌에 여러개의 실험이 있을 때, 동일 집단의 학습자가 실험을 공유할지 혹은 특정 집단에 따라 각 실험을 하게 될 지 미리 결정해야 한다. 즉 두 실험을 동일 집단에서 공유한다면, 첫 번째 실험에서의 집단 A에 속한 학습자가 있고, 두 번째 실험에도 집단 A의 학습자가 포함되어 있을 것이다. 독립적인 실험을 원할 경우, 각 실험은 학습자를 무작위로 배정되는 별개의 집단들이 있어야 한다. 
 
 
-적용할 학습자 집단을 결정하기 위해, 스튜디오  :ref:`Set up Group Configurations in edX Studio` 및 XML :ref:`Set Up Group Configuration for OLX Courses` 을 사용하여 집단을 편성한다.
+적용할 학습자 집단을 결정하기 위해, 스튜디오  :ref:`Set up Group Configurations in edX Studio` 및 :ref:`Set Up Group Configuration for OLX Courses` 을 사용하여 집단을 편성한다.
 
 그리고나서, 콘텐츠 실험을 :ref:`Add a Content Experiment in Studio` 혹은
 :ref:`Add a Content Experiment in OLX` 로 추가할 때, 학습자 집단을 설정할 것인지 선택한다.  
