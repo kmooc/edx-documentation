@@ -39,7 +39,7 @@
 
 다른 페이지에서 강좌 개요를 보려면, **콘텐츠** 메뉴에서 **강좌 개요** 를 클릭하면 된다.
    
-맨처음 강좌 개요를 열었을 때는 아직 콘텐츠가 없을 것이다.
+처음 강좌 개요를 열었을 때는 콘텐츠가 없다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline_empty.png
  :alt: An empty course outline
@@ -53,7 +53,7 @@
 ********************************************************
 
 다음 예시는 개발된 예시 강좌에서 강좌 개요가 어떻게 나타나는지를 보여준다. 
-주제, 소주제, 학습활동 등 강좌의 기본 요소를 채워가다보면, 강좌 개요가 아래 예시처럼 보이게 된다.
+주제, 소주제, 학습활동 등 강좌의 기본 요소를 채우면, 강좌 개요가 아래 예시처럼 보이게 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units
@@ -182,9 +182,9 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 강좌 개요 재구성하기
 ************************************************
 
-주제, 소주제 및 학습 활동을 원하는 위치로 드래그함으로써 강좌 콘텐츠를 재구성할 수 있다.
+주제, 소주제 및 학습활동을 원하는 위치로 드래그함으로써 강좌 콘텐츠를 재구성할 수 있다.
 
-각 주제, 소주제 및 학습 활동의 오른쪽 상단에 마우스를 갖다대면 커서가 십자가로 바뀌는 아이콘이 있다.
+각 주제, 소주제 및 학습활동의 오른쪽 상단에 마우스를 갖다대면 커서가 십자가로 바뀌는 아이콘이 있다.
 예를 들어, 아래 이미지처럼 커서가 바뀌는 것이다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-drag-select.png
@@ -219,7 +219,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-delete.png
  :alt: The outline with Delete icons circled
 
-아이콘을 클릭하면 삭제 여부를 다시 확인하는 메시지가 뜰 것이다.
+아이콘을 클릭하면, 삭제 여부를 다시 확인하는 메시지가 나타날 것이다.
 
 .. note:: 주제, 소주제 및 학습활동을 삭제할 경우, 포함되어 있던 콘텐츠들도 전부 삭제된다. 
 예를 들어, 소주제를 삭제할 경우 소주제 내부의 전체 학습활동도 함께 삭제되는 것이다. 
