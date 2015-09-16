@@ -42,7 +42,7 @@
 
   다른 요소처럼 콘텐츠 실험 작업을 하면된다. 더 많은 정보가 필요하면 :ref:`Developing Course Components` 를 확인한다. 
 
-#. 콘텐츠 실험 구성요소를 열기 위해 **집단 설정 선택하기** 혹은 **수정** 을 클릭한다. 
+3. 콘텐츠 실험 구성요소를 열기 위해 **집단 설정 선택하기** 혹은 **수정** 을 클릭한다. 
 
    .. image:: ../../../shared/building_and_running_chapters/Images/content_experiment_editor.png
     :alt: The content experiment editor
