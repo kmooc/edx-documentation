@@ -58,7 +58,7 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-callouts.png
  :alt: An outline with callouts for sections, subsections, and units
 
-이 예시가 보여주듯이, 강좌는 다음 구조로 구성된다.
+위 예시가 보여주듯이, 강좌는 다음 구조로 구성된다.
 
 #. :ref:`주제<Developing Course Sections>`
 #. :ref:`소주제<Developing Course Subsections>`
@@ -67,7 +67,7 @@
 :ref:`구성요소<Developing Course Components>` 는 강좌 개요에 나타나지 않는다. 
 구성요소가 포함되어 있는 학습활동을 클릭해야 해당 구성요소를 볼 수 있다.
 
-이 장에서는 우선 강좌 개요에 대한 안내가 이어질 것이다.
+본 장에서는 우선 강좌 개요에 대한 안내가 이어진다.
 강좌 기본 구성요소에 대한 더 자세한 안내는 위 링크에 있다. 
 
 .. _학습자 화면에서 강좌 구성 보기:
@@ -120,14 +120,14 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-new-subsection.png
  :alt: The outline with the New Subsection button circled
 
-학습 활동을 추가하기 위해선, 소주제를 먼저 펼친 후 **+ 새로운 학습활동** 을 클릭하면 된다.
+학습 활동을 추가하기 위해서는 소주제를 먼저 펼친 후 **+ 새로운 학습활동** 을 클릭하면 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-new-unit.png
  :alt: 새로운 소주제 버튼이 동그랗게 표시되어 있다.
 
-그러면 학습 활동이 열리게 된다. 이에 대한 자세한 안내는 :ref:`unit<Developing Course Units>` 에 있다.
+그러면 학습활동이 열린다. 이에 대한 자세한 안내는 :ref:`Developing Course Units` 에 있다.
 
-.. note:: 수강 전 사전 평가를 시행하고 싶으면 강좌 개요 페이지에서 사전 평가를 만들 수 있다. 우선 Studio에서 사전 평가 설정이 이루어져야 한다. 이에 대한 안내는 :ref:`Require an Entrance Exam` 에 있다.  
+.. note:: 수강 전 사전 평가를 시행하고 싶으면 강좌 개요 페이지에서 사전 평가를 만들 수 있다. 우선 Studio에서 사전 평가 설정이 이루어져야 한다. 관련 안내는 :ref:`Require an Entrance Exam` 에 있다.  
 
 .. _강좌 세부 사항 설정 변경:
 
@@ -135,8 +135,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 강좌 세부 사항 설정 변경
 ***************************************************
 
-강좌 개요에서 주제, 소주제, 학습활동의 설정을 변경할 수 있다.
-이에 대한 구체적인 안내가 아래 링크에 있다.
+강좌 개요에서 주제, 소주제, 학습활동의 설정을 변경할 수 있다. 구체적인 안내는 아래 링크에 있다.
 
 * :ref:`Set a Section Release Date`
 * :ref:`Hide a Section from Students`
@@ -146,7 +145,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 * :ref:`Hide a Unit from Students`
 
 주제, 소주제 및 학습활동의 설정을 변경하려면, 각 항목의 설정 아이콘을 클릭한다.
-다음 예시에서, 주제, 소주제 및 학습활동의 설정 아이콘이 동그랗게 표시되어있다. 
+다음 예시에서, 주제, 소주제 및 학습활동의 설정 아이콘이 원 안에 나타나 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/settings-icons.png
  :alt: Settings icons in the course outline
@@ -159,7 +158,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 콘텐츠 게시하기
 ************************************************
 
-주제, 소주제 및 학습 활동을 게시할 수 있다. 이들을 전체적으로 게시할 수도 있고, 개별적으로 게시할 수도 있다.
+주제, 소주제 및 학습 활동을 게시할 수 있다. 전체적으로 게시할 수도 있고, 개별적으로 게시할 수도 있다.
 
 신규 및 변경된 학습활동을 게시하려면, 각 주제, 소주제 및 학습 활동의 게시 아이콘을 클릭한다.
 다음 예시에서, 게시 아이콘이 동그랗게 표시되어 있다.
@@ -191,7 +190,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-drag-select.png
  :alt: A subsection handle selected to drag it
 
-그 상태에서, 원하는 위치로 드래그하면 된다.
+이 상태에서, 원하는 위치로 드래그하면 된다.
 
 이동을 원하는 주제나 소주제를 펼친 상태에서 드래그하면, 새로 놓을 위치에 파란색 줄이 생긴다.
 예를 들어, 아래 이미지처럼 이 과정이 이루어지게 된다.
@@ -200,7 +199,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
  :alt: A subsection being dragged to a new section 
  
 주제나 소주제를 접은 상태에서 드래그하면, 주제나 소주제의 윤곽이 파란색으로 표시된다.
-예를 들어, 아래 이미지처럼 이 과정이 이루어지게 된다.
+예를 들어, 아래 이미지처럼 과정이 이루어지게 된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-drag-new-location-collapsed.png
  :alt: A subsection being dragged to a new section 
@@ -211,10 +210,9 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 강좌 개요에서 강좌 콘텐츠 삭제하기
 ************************************************
 
-주제, 소주제, 학습 활동을 강좌 개요에서 삭제할 수 있다.
+주제, 소주제, 학습활동을 강좌 개요에서 삭제할 수 있다.
 
-.. warning:: 강좌 콘텐츠를 삭제한 후에는 되돌릴 수 없다.
-만약 나중에 사용할 수도 있는 콘텐츠라면, 삭제하지 말고 비공개 주제로 콘텐츠를 옮겨두길 권한다.
+.. warning:: 강좌 콘텐츠를 삭제한 후에는 되돌릴 수 없다. 나중에 사용할 수도 있는 콘텐츠라면, 삭제하지 말고 비공개 주제로 콘텐츠를 옮겨놓는 것이 좋다.
 
 삭제하길 원하는 주제, 소주제 및 학습 활동의 오른쪽에 있는 삭제 아이콘을 클릭한다.
 
@@ -223,5 +221,5 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 
 아이콘을 클릭하면 삭제 여부를 다시 확인하는 메시지가 뜰 것이다.
 
-.. note:: 주제, 소주제 및 학습 활동을 삭제할 경우, 포함되어 있던 콘텐츠들도 전부 삭제된다. 
-예를 들어, 소주제를 삭제할 경우, 소주제 내부의 전체 학습활동도 함께 삭제되는 것이다. 
+.. note:: 주제, 소주제 및 학습활동을 삭제할 경우, 포함되어 있던 콘텐츠들도 전부 삭제된다. 
+예를 들어, 소주제를 삭제할 경우 소주제 내부의 전체 학습활동도 함께 삭제되는 것이다. 
