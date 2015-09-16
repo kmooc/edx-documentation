@@ -137,7 +137,7 @@ Studio에서 실험 집단 설정하기
 집단 설정 편집하기 
 =============================
 
-.. important:: 집단 설정의 명칭은 언제든지 변경할 수 있다. 그러나 운영중인 강좌에 현재 이용되는 집단 설정의 성격을 변경하기 전에 `Guidelines for Modifying Group Configurations`_ 을 살펴본다. 
+.. important:: 집단 설정의 명칭은 언제든지 변경할 수 있다. 그러나 운영중인 강좌에 현재 이용되는 집단 설정의 성격을 변경하기 전에 :ref:`Guidelines for Modifying Group Configurations` 을 살펴본다. 
 
 #. **집단 설정** 페이지에서, 집단 설정으로 가서 **편집** 을 클릭한다. 
    
