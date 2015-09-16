@@ -64,7 +64,7 @@ OLX에 콘텐츠 실험 추가하기
     </split_test>
 
 
-위의 예문에서:
+위의 예에서:
 
 * ``user_partition_id`` 값은 ``policy.json`` 파일에 정의한 실험 ID를 참조한다.  
 
