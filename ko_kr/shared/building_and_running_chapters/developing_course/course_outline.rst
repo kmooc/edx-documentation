@@ -145,7 +145,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 * :ref:`Hide a Unit from Students`
 
 주제, 소주제 및 학습활동의 설정을 변경하려면, 각 항목의 설정 아이콘을 클릭한다.
-다음 예시에서, 주제, 소주제 및 학습활동의 설정 아이콘이 원 안에 나타나 있다. 
+다음 예시에서, 주제, 소주제 및 학습활동의 설정 아이콘이 빨간선 원 안에 나타나 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/settings-icons.png
  :alt: Settings icons in the course outline
@@ -161,7 +161,7 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 주제, 소주제 및 학습 활동을 게시할 수 있다. 전체적으로 게시할 수도 있고, 개별적으로 게시할 수도 있다.
 
 신규 및 변경된 학습활동을 게시하려면, 각 주제, 소주제 및 학습 활동의 게시 아이콘을 클릭한다.
-다음 예시에서, 게시 아이콘이 동그랗게 표시되어 있다.
+다음 예시에서, 게시 아이콘이 빨간선 원 안에 나타나 있다. 
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-publish-icons.png
  :alt: Publishing icons in the course outline
@@ -182,9 +182,9 @@ Studio의 강좌 개요 화면에서 각 주제와 소주제를 펼치거나 접
 강좌 개요 재구성하기
 ************************************************
 
-주제, 소주제 및 학습활동을 원하는 위치로 드래그함으로써 강좌 콘텐츠를 재구성할 수 있다.
+주제, 소주제, 학습활동을 원하는 위치로 드래그하여 강좌 콘텐츠를 재구성할 수 있다.
 
-각 주제, 소주제 및 학습활동의 오른쪽 상단에 마우스를 갖다대면 커서가 십자가로 바뀌는 아이콘이 있다.
+각 주제, 소주제,학습활동의 오른쪽 상단에 마우스를 갖다대면 커서가 십자가로 바뀌는 아이콘이 있다.
 예를 들어, 아래 이미지처럼 커서가 바뀌는 것이다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/outline-drag-select.png
