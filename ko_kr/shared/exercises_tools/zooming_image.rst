@@ -42,8 +42,8 @@
    -  다음 파일명과 경로를, 페이지가 열릴 때 표시되는 이미지의 파일명과 경로로 바꾼다.
      **https://studio.edx.org/c4x/edX/DemoX/asset/pathways_overview_01.png**
      이를테면 파일명과 경로는 **/static/Image2.jpg** 일 수 있다. 
-
-   - 다음 파일명과 경로를, 강좌에 해당하는 자바스크립트 파일의 파일명과 경로로 바꾼다.
+     
+     - 다음 파일명과 경로를, 강좌에 해당하는 자바스크립트 파일의 파일명과 경로로 바꾼다.
      **https://studio.edx.org/c4x/edX/DemoX/asset/jquery.loupeAndLightbox.js**
      이미 **jquery.loupeAndLightbox.js** 를 파일 및 업로드 페이지에 업로드했기 때문에 파일명과 경로는 **/static/jquery
      .loupeAndLightbox.js**. 가 된다.  
