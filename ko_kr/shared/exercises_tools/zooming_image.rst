@@ -48,10 +48,11 @@
      이를테면 파일명과 경로는 **/static/Image2.jpg** 일 수 있다. 
 
    - 다음 파일명과 경로를, 강좌에 해당하는 자바스크립트 파일의 파일명과 경로로 바꾼다.
-
+   
      **https://studio.edx.org/c4x/edX/DemoX/asset/jquery.loupeAndLightbox.js**
 
      이미 **jquery.loupeAndLightbox.js** 를 파일 및 업로드 페이지에 업로드했기 때문에 파일명과 경로는 **/static/jquery            .loupeAndLightbox.js**. 가 된다.  
+
    - (선택) 확대 영역을 보다 확대하거나 축소하려면 350을 기준으로 **width** 및 **height** 값을 높이거나 낮추십시오. 가령, 두      수치를 450으로 증가시킬 수 있다. 또, 가로 방향으로 넓게 퍼진 타원형 확대 이미지를 원한다면 **width**값을 500, **height**      값을 150으로 할 수 있다. 파일 확대/축소 도구에 포함된 HTML은 다음 그림과 유사한 형태를 취하고 있다.
   
    .. image:: ../../../shared/building_and_running_chapters/Images/ZoomingImage_Modified.png
