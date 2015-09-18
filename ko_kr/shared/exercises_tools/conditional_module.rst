@@ -14,36 +14,34 @@
 
     <conditional> ... </conditional>
 
-``조건부`` 는 모든 수의 모든 xmodule 태그 ( ``html`` , ``설문 조사`` , ``비디오`` 등) 또는 ``표시`` 태그를 포함할 수 있다.
+``조건부`` 는 모든 xmodule 태그 ( ``html`` , ``설문 조사`` , ``비디오`` 등) 또는 ``show`` 태그를 포함할 수 있다.
 
 ================
 조건부 태그
 ================
 
-조건부 모듈의 단일 예시에 대한 주요한 컨테이너(container)이다. 이 태크에 대하여 다음과 같은 속성을 지정할 수 있다
+conditional 태그는 조건부 모듈의 단일 인스턴스(instance)를 위한 컨테이너(container)이다. 이 태그는 다음의 속성을 지정할 수 있다
 
 .. code-block:: xml
 
-    sources - location id of required modules, separated by ';'
-    [message | ""] - message for case, where one or more are not passed. Here you can use variable {link}, which generate link to required module.
-
-    [submitted] - map to `is_submitted` module method.
-    (pressing RESET button makes this function to return False.)
-
-    [correct] - map to `is_correct` module method
-    [attempted] - map to `is_attempted` module method
-    [poll_answer] - map to `poll_answer` module attribute
-    [voted] - map to `voted` module attribute
+    sources - 필수 모듈의 id 위치로 ';' 로 분리
+    [message | ""] - 하나 혹은 그 이상 통과하지 못한 경우 메세지. 필수 모듈에 링크를 만들 수 있는 {link} 변수를 이용할 수 있다. 
+    [submitted] - `is_submitted` 모듈 메서드에 매핑
+    (RESET 버튼 누그리는 이 함수에서 False를 리턴하게 한다.)
+    [correct] - `is_correct` 모듈 메서드에 매핑
+    [attempted] - `is_attempted` 모듈 메서드에 매핑
+    [poll_answer] - `poll_answer` 모델 속성에 매핑
+    [voted] - `voted` 모델 속성에 매핑
 
 ========
 표시 태그
 ========
 
-Xmodules의 몇 가지 세트에 대한 Symlink이다. 이 태크에 대하여 다음과 같은 속성을 지정할 수 있다
+Xmodules의 몇 가지 세트에 대한 Symlink이다. 이 태그에 대하여 다음과 같은 속성을 지정할 수 있다
 
 .. code-block:: xml
 
-    sources - location id of modules, separated by ';'
+    sources - 모듈의 id 위치로 ';'로 분리된다. 
 
 *********
 예
