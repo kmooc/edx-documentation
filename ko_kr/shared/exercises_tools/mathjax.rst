@@ -12,7 +12,7 @@ LaTex와 유사한 언어인 `MathJax <http://www.google.com/url?q=http%3A%2F%2F
     
     ``\( equation \)``
 
-  - MathJax 수식을 [mathjaxinline] 태그로 묶는다. 태그에서 대괄호  ([]) 를 사용한다는 점에 주의한다.  
+  - [mathjaxinline] 태그로 MathJax 수식을 묶는다. 태그에서 ([]) 를 사용한다
 
     [mathjaxinline] equation [/mathjaxinline]
     
@@ -22,7 +22,7 @@ LaTex와 유사한 언어인 `MathJax <http://www.google.com/url?q=http%3A%2F%2F
 
     ``\[ equation \]``
 
-  - [mathjax] 태그로 Mathjax 표현을 둘러싼다. 태그는 ([]) 를 사용한다. 
+  - [mathjax] 태그로 Mathjax 표현을 묶는다. 태그는 ([]) 를 사용한다. 
 
     [mathjax] equation [/mathjax]
 
