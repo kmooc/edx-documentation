@@ -4,7 +4,7 @@
 전체 화면 이미지 도구
 ######################
 
-일부 큰 이미지는 강좌 내용에서 학습자가 보기에 어려울 수 있다. 전체 화면 이미지 도구는 학습자가 문맥에서 모든 세부 정보를 볼 수 있도록 이미지를 확대할 수 있도록 한다. 
+일부 큰 이미지는 강좌 내용에서 학습자가 보기에 어려울 수 있다. 전체 화면 이미지 도구는 학습자가 이미지의 세부 정보를 확대해서 볼 수 있게 해준다. 
 
 ****************************************
 학습자 화면에서 전체 화면 이미지 보기
@@ -15,12 +15,12 @@
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modal.png
  :alt: Image of the full screen image tool with the Full Screen button.
 
-학습자가 **전체 화면** 을 클릭하면, 이미지가 열리고 전체 브라우저 창에 표시된다. **닫기** , **확대** 및 **축소**  버튼들이 표시된다.
+학습자가 **전체 화면** 을 클릭하면, 이미지가 열리고 전체 브라우저 창에 표시된다. **닫기** , **확대** , **축소**  버튼이 표시된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modal-window.png
  :alt: Image of the Image Modal tool with the Full Screen button.
 
-그러면 학습자는 이미지 위에서 확대 할 수 있고, 이미지의 원하는 부분을 보기 위해 이미지를 드래그할 수 있다.
+그러면 학습자는 이미지를 확대해서 볼 수 있고, 원하는 부분을 보기 위해 이미지를 드래그할 수 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/image-modeal-zoomed.png
  :alt: Image of the Image Modal tool with the Full Screen button.
@@ -29,7 +29,7 @@
 전체 화면 이미지 만들기
 ******************************
 
-#. **파일 업로드** 페이지에 이미지 파일을 업로드한다. 이 작업을 수행하는 방법에 대한 더 자세한 내용은 :ref:`Add Files to a Course` (강좌에 파일 추가하기)를 참조하도록 한다.
+#. **파일 업로드** 페이지에 이미지 파일을 업로드한다. 이 작업과 관련된 자세한 내용은 :ref:`Add Files to a Course` (강좌에 파일 추가하기)를 참고하도록 한다.
 
 #. **신규 구성 요소 추가** 에서, **html** 을 클릭한 다음, **전체 화면 이미지** 를 클릭한다.
 
