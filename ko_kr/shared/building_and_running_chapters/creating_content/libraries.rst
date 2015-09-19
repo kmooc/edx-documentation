@@ -77,7 +77,7 @@
   .. image:: ../../../shared/building_and_running_chapters/Images/ContentLibraryID.png
      :alt: The Library ID for the new library is shown the sidebar
 
-.. note:: 새로운 보관함에 부여된 ID를 복사하거나 기록해두어야 한다. 이는 강좌 학습활동에 무작위 콘텐츠 블록을 추가할 때  무작위 콘텐츠 블록을 위한 소스로서 보관함을 명시하기 위하여 보관함 ID를 사용해야 하기 때문이다.
+.. note:: 새로운 보관함에 부여된 ID를 복사하거나 기록해두어야 한다. 강좌 학습활동에 무작위 콘텐츠 블록을 추가할 때 무작위 콘텐츠 블록을 위한 소스로서 보관함을 명시하기 위하여 보관함 ID를 사용해야 하기 때문이다.
 
 
 .. _Edit a Library:
@@ -86,7 +86,7 @@
 콘텐츠 보관함 편집
 **************
 
-콘텐츠 보관함을 만들고 나면, 보관함의 이름만 변경 가능하다. 그러나 언제든지 보관함에 구성요소를 추가하거나 삭제할 수 있고, 구성요소의 설정을 편집할 수 있다. 보관함의 콘텐츠 편집과 관련한 자세한 사항은 :ref:`Edit Components in a Library`  와 :ref:`Add Components to a Library`  에 있다.
+콘텐츠 보관함을 만들고 나면, 보관함의 이름만 변경 가능하다. 그러나 언제든지 보관함에 구성요소를 추가하거나 삭제할 수 있고, 구성요소의 설정을 편집할 수 있다. 보관함의 콘텐츠 편집과 관련한 자세한 사항은 :ref:`Edit Components in a Library`  와 :ref:`Add Components to a Library` 에 있다.
 
 
 보관함의 이름을 변경하는 방법은 다음과 같다.
@@ -114,7 +114,7 @@ Users Access to Your Library` 에 있다.
 콘텐츠 보관함에 구성요소 추가
 ****************************
 
-콘텐츠 보관함에 :ref:`What is a Component`  를 추가하는 방법은 다음과 같다.
+콘텐츠 보관함에 :ref:`What is a Component` 를 추가하는 방법은 다음과 같다.
 
 #. Studio에 로그인 한다.
 #. **콘텐츠 보관함** 을 클릭하고, 구성요소를 추가하고 싶은 보관함을 클릭한다.
@@ -187,10 +187,7 @@ Studio에서 보관함에 있는 콘텐츠를 보려면,
 
 콘텐츠 보관함은 삭제할 수 없다. 대신 사용을 원하지 않는 보관함의 사용을 중단시킬 수 있다. 그러기 위해서는 먼저 해당 콘텐츠 보관함의 구성요소가 다른 강좌에서 사용되지 않는지를 확인한 후 모든 구성요소를 삭제해야 한다. 또한 강좌 안에서 무작위 할당 콘텐츠로 사용되지 않게 다른 강좌의 강좌 운영팀이 명확하게 알 수 있도록 :ref:`Edit a Library`  할 수 있다.
 
-콘텐츠 보관함에서 구성요소를 삭제하는 자세한 방법은 :ref:`Edit Components in
-a Library` 을 참고하면 된다.
-
-
+콘텐츠 보관함에서 구성요소를 삭제하는 자세한 방법은 :ref:`Edit Components in a Library` 을 참고하면 된다.
 
 .. _Give Other Users Access to Your Library:
 
