@@ -116,7 +116,7 @@ Tags
 
   속성
 
-  (내용 없음)
+  (없음)
 
   Children
 
@@ -145,7 +145,7 @@ Tags
 
   Children
   
-  (내용 없음)
+  (없음)
 
 **Tag:** ``<hintgroup>``
 
