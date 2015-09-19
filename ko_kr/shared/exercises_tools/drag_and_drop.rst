@@ -234,7 +234,7 @@ Drag and Drop 문제 XML
 
   Children
   
-  (none)
+  (없음)
 
 **Tag:** ``<target>``
 
@@ -266,7 +266,7 @@ Drag and Drop 문제 XML
 
   Children
 
-  (none)
+  (없음)
 
 **********************
 Targets on Draggables
@@ -484,6 +484,7 @@ Targets on Draggables에 대한 답안 양식
  이 단계에서 모든 그룹에 대하여, draggables 목록은 동일한다. 
 
 3. 모든 그룹에 대하여, 대상 목록은 해당 그룹에 대한 규칙을 사용하여 비교된다.
+
 ==========================
 Set 과 ``+number``
 ==========================
