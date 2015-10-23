@@ -12,7 +12,7 @@ Studio
 
 * :ref:`What is Studio?`
 * :ref:`Create Your First Course`
-* :ref:`Register Your Course on edX.org`
+* :ref:`Register Your Course on kmooc.kr`
 
 .. _What is Studio?:        
             
@@ -83,6 +83,6 @@ Studio의 강좌 개요에서, **적용 결과 보기** 를 클릭한다. 강좌
  :alt: Image of the Edge Dashboard
 
 
-.. _Register Your Course on edx.org:
+.. _Register Your Course on kmooc.kr:
 
 브라우저에서 Studio 탭으로 다시 전환한다. **강좌 개요** 페이지가 그대로 있을 것이다.
