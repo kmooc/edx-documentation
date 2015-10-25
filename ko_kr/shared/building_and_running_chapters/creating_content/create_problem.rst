@@ -29,7 +29,7 @@
 학습자가 볼 문제 보기
 ************************************
 
-K-MOOC 플랫폼에 있는 모든 문제는 몇 가지의 구성요소로 구성된다.
+K-MOOC 플랫폼에 있는 모든 문제는 다음과 같은 구성요소로 구성된다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/AnatomyOfExercise1.png
  :alt: Image of a problem from a student's point of view, with callouts for 
