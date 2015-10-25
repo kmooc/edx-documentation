@@ -5,7 +5,7 @@
 #############################
 
 **********************
-동영상 소개
+개관
 **********************
 
 효과적인 학습을 위해 강좌 동영상을 만들 수 있으며 토의 및 문제 등과 같은 구성요소를 강좌에 추가할 수 있다. 이를 위해 다음 단계의 작업이 필요하다.
@@ -21,7 +21,7 @@
 * :ref:`Additional Transcripts`
 * :ref:`Steps for sjson files`
 
-.. 참고:: 강좌에 동영상을 추가하기 전에 :ref:`Best Practices for Accessible Media` 를 읽어보길 권장한다.
+.. 참고:: 강좌에 동영상을 추가하기 전에 :ref:`Best Practices for Accessible Media` 를 읽어보길 권한다.
 
 동영상 보호를 위해, K-MOOC 동영상 플레이어는 기본적으로 학습자에게 동영상 URL을 숨긴다. 이 기능은 YouTube 동영상 등 모든 동영상 파일에 대해 적용된다.  
 동영상 구성요소에 대해 **동영상 다운로드 허용** 옵션을 선택하는 경우, 학습자는 동영상을 다운로드 할 수 있다. YouTube가 아닌 동영상을 온라인에 게시하는 것에 대한 자세한 안내는 :ref:`Post the Video Online` 에 있다. 동영상 구성요소를 만들 때 설정할 수 있는 옵션에 대한 자세한 내용은 :ref:`Video Advanced Options` 아래에 있는 :ref:`Create a Video Component` 에 있다. 
