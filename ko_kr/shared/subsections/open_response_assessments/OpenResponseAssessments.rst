@@ -232,6 +232,7 @@
    :width: 600
 
 보다 구체적인 안내는 :ref:`PA Add Rubric` 및 :ref:`PA Criteria Comment Field Only` 에 있다.
+
 .. _PA Scoring:
 
 상호 평가 채점
