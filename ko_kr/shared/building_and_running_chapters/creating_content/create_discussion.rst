@@ -5,7 +5,7 @@
 ###################################
 
 *******************
-개요
+개관
 *******************
 
 학습활동에 관련된 질문을 받는 등 학습자와 상호 작용할 수 있도록 게시판 구성요소를 학습활동에 추가할 수 있다. 
@@ -67,7 +67,7 @@
 
 게시판은 학습활동에 있는 다른 구성요소 아래에 나타난다. 게시판 공간은 학습활동의 본문에서는 레이블이 나타나지 않는다. 대신, 학습자는 왼쪽에서 "게시판 보여주기(expand discussion)" 또는 "게시판 숨기기(collapse discussion)"를 보며, 오른쪽에서는 파란색 **글쓰기** 버튼을 보게 된다. 
 
-다음 예제에서는 게시판 구성요소가 비디오 및 HTML 구성요소를 따르고 있다.
+다음 예에서는 게시판 구성요소가 비디오 및 HTML 구성요소를 따르고 있다.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/DiscussionComponent_LMS.png
   :alt: Image of a video component followed by a discussion component
