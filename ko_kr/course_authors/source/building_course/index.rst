@@ -21,3 +21,4 @@ Studio의 강좌 개요 페이지에서 콘텐츠를 개발하는 방법은
    establish_grading_policy
    course_rerun
    export_import_course
+   cdn_upload
