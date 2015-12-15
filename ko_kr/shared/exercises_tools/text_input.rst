@@ -163,7 +163,7 @@
       <textline size="20"/>
     </stringresponse>
 
-대소문자를 구분하려면 **type** 속성을 **cs**로 변경한다.
+대소문자를 구분하려면 **type** 속성을 **cs** 로 변경한다.
 
 ::
 
