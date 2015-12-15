@@ -333,7 +333,7 @@
 
 :: 
 
-  Subject: {course number} Exam Info
+  제목: {강좌 번호} 시험 안내
 
   안녕하세요 {강좌 이름} 여러분들
 
