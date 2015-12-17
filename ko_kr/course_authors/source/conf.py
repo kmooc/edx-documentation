@@ -29,8 +29,8 @@ pygments_style = 'sphinx'
 
 
 # General information about the project.
-project = u'Building and Running an edX Course'
-copyright = u'2015, edX'
+project = u'K-MOOC 강좌 개발 및 운영 매뉴얼'
+copyright = u'2015, K-MOOC'
 
 # The short X.Y version.
 version = ''
