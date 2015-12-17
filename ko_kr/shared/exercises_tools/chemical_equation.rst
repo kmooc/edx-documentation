@@ -31,7 +31,8 @@
 
   <problem>
     <startouttext/>
-    <p>Some problems may ask for a particular chemical equation. Practice by writing out the following reaction in the box below.</p>
+    <p>Some problems may ask for a particular chemical equation. Practice by
+    writing out the following reaction in the box below.</p>
     
   \( \text{H}_2\text{SO}_4 \longrightarrow \text { H}^+ + \text{ HSO}_4^-\)
 
@@ -39,7 +40,8 @@
       <chemicalequationinput size="50" label="Enter the chemical equation"/>
       <answer type="loncapa/python">
 
-  if chemcalc.chemical_equations_equal(submission[0], 'H2SO4 -> H^+ + HSO4^-'):
+  if chemcalc.chemical_equations_equal(submission[0], 
+  'H2SO4 -> H^+ + HSO4^-'):
       correct = ['correct']
   else:
       correct = ['incorrect']
@@ -85,7 +87,8 @@
       <chemicalequationinput size="NUMBER" label="LABEL TEXT"/>
       <answer type="loncapa/python">
 
-  if chemcalc.chemical_equations_equal(submission[0], 'TEXT REPRESENTING CHEMICAL EQUATION'):
+  if chemcalc.chemical_equations_equal(submission[0], 
+  'TEXT REPRESENTING CHEMICAL EQUATION'):
       correct = ['correct']
   else:
       correct = ['incorrect']
