@@ -224,8 +224,16 @@ Python 스크립트는 일반적으로 다음 변수들과 상호작용한다.:
   <solution>
       <div class="detailed-solution">
           <p>Explanation</p>
-          <p>For part 1, any two numbers of the form <i>n</i> and <i>10-n</i>, where <i>n</i> is any integer, will work. One possible answer would be the pair 0 and 10.</p>
-          <p>For part 2, any pair <i>x</i> and <i>20-x</i> will work, where <i>x</i> is any real number with a finite decimal representation. Both inputs have to be entered either in standard decimal notation or in scientific exponential notation. One possible answer would be the pair 0.5 and 19.5. Another way to write this would be 5e-1 and 1.95e1.</p>
+          <p>For part 1, any two numbers of the form <i>n</i> and 
+          <i>10-n</i>, where <i>n</i> is any integer, will work. One 
+          possible answer would be the pair 0 and 10.</p>
+          <p>For part 2, any pair <i>x</i> and <i>20-x</i> will work,
+          where <i>x</i> is any real number with a finite decimal
+          representation. Both inputs have to be entered either in
+          standard decimal notation or in scientific exponential
+          notation. One possible answer would be the pair 0.5 and
+          19.5. Another way to write this would be 5e-1 and 1.95e1.
+          </p>
       </div>
   </solution>
   </problem>
@@ -306,9 +314,9 @@ Python 평가 입력 문제에서 무작위 추출을 시행하는 방법을 다
 
   <problem>
     <p>Some problems in the course will utilize randomized parameters.
-       For such problems, after you check your answer you will have the option 
-       of resetting the question, which reconstructs the problem with a new 
-       set of parameters.</p>
+       For such problems, after you check your answer you will have the
+       option of resetting the question, which reconstructs the problem
+       with a new set of parameters.</p>
   <script type="loncapa/python">
   x1 = random.randint(0, 100)
   x2 = random.randint(0, 100)
