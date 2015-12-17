@@ -32,8 +32,13 @@ Protex 단백질 구성기 도구
 .. code-block:: xml
 
   <problem>
-      <p>The protein builder allows you string together the building blocks of proteins, amino acids, and see how that string will form into a structure. You are presented with a goal protein shape, and your task is to try to re-create it. In the example below, the shape that you are asked to form is a simple line.</p> 
-     <p>Be sure to click "Fold" to fold your protein before you click "Check".</p>
+      <p>The protein builder allows you string together the building blocks
+      of proteins, amino acids, and see how that string will form into a 
+      structure. You are presented with a goal protein shape, and your task
+      is to try to re-create it. In the example below, the shape that you
+      are asked to form is a simple line.</p> 
+     <p>Be sure to click "Fold" to fold your protein before you click 
+     "Check".</p>
 
   <script type="loncapa/python">
 
@@ -41,19 +46,23 @@ Protex 단백질 구성기 도구
     import json
     ans=json.loads(ans)
     if "ERROR" in ans["protex_answer"]:
-      raise ValueError("Protex did not understand your answer. Try folding the protein.")
+      raise ValueError("Protex did not understand your answer. Try folding "
+      "the protein.")
     return ans["protex_answer"]=="CORRECT"
 
   </script>
  
     <text>
       <customresponse cfn="protex_grader">
-        <designprotein2dinput width="855" height="500" target_shape="W;W;W;W;W;W;W"/>
+        <designprotein2dinput width="855" height="500" target_shape=
+        "W;W;W;W;W;W;W"/>
       </customresponse>
     </text>
     <solution>
       <p>
-        Many protein sequences, such as the following example, fold to a straight line.You can play around with the protein builder if you're curious.
+        Many protein sequences, such as the following example, fold to a 
+        straight line.You can play around with the protein builder if 
+        you're curious.
       </p>
       <ul>
         <li>
