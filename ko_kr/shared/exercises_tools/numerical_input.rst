@@ -96,38 +96,48 @@ Studio가 제공하는 수식 입력 도구 가운데 보다 기본적인 도구
 
   <p>What base is the decimal numeral system in?
       <numericalresponse answer="10">
-          <formulaequationinput label="What base is the decimal numeral system in?"/>
+          <formulaequationinput label="What base is the decimal numeral"
+          "system in?"/>
       </numericalresponse>
   </p>
 
-    <p>What is the value of the standard gravity constant <i>g</i>, measured in m/s<sup>2</sup>? Give your answer to at least two decimal places.
+    <p>What is the value of the standard gravity constant <i>g</i>, 
+    measured in m/s<sup>2</sup>? Give your answer to at least two
+    decimal places.
     <numericalresponse answer="9.80665">
       <responseparam type="tolerance" default="0.01" />
-      <formulaequationinput label="Give your answer to at least two decimal places"/>
+      <formulaequationinput label="Give your answer to at least two"
+      "decimal places"/>
     </numericalresponse>
   </p>
 
-  <!-- The following uses Python script spacing. Make sure it isn't indented when you add it to the Problem component. -->
+  <!-- The following uses Python script spacing. Make sure it isn't 
+  indented when you add it to the Problem component. -->
   <script type="loncapa/python">
-  computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
+  computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), 
+  math.pow(math.e,2)]))
   </script>
 
-  <p>What is the distance in the plane between the points (pi, 0) and (0, e)? You can type math.
+  <p>What is the distance in the plane between the points (pi, 0) and 
+  (0, e)? You can type math.
       <numericalresponse answer="$computed_response">
           <responseparam type="tolerance" default="0.0001" />
-          <formulaequationinput label="What is the distance in the plane between the points (pi, 0) and (0, e)?"/>
+          <formulaequationinput label="What is the distance in the "
+          "plane between the points (pi, 0) and (0, e)?"/>
       </numericalresponse>
   </p>
   <solution>
     <div class="detailed-solution">
       <p>Explanation</p>
       <p>The decimal numerical system is base ten.</p>
-      <p>The standard gravity constant is defined to be precisely 9.80665 m/s<sup>2</sup>.
+      <p>The standard gravity constant is defined to be precisely 
+      9.80665 m/s<sup>2</sup>.
       This is 9.80 to two decimal places. Entering 9.8 also works.</p>
-      <p>By the distance formula, the distance between two points in the plane is
-         the square root of the sum of the squares of the differences of each coordinate.
-        Even though an exact numerical value is checked in this case, the
-        easiest way to enter this answer is to type
+      <p>By the distance formula, the distance between two points in 
+        the plane is the square root of the sum of the squares of the 
+        differences of each coordinate.
+        Even though an exact numerical value is checked in this case,
+        the easiest way to enter this answer is to type
         <code>sqrt(pi^2+e^2)</code> into the editor.
         Other answers like <code>sqrt((pi-0)^2+(0-e)^2)</code> also work.
       </p>
@@ -174,7 +184,8 @@ Studio가 제공하는 수식 입력 도구 가운데 보다 기본적인 도구
    
     <p>TEXT OF PROBLEM
     <numericalresponse answer="ANSWER (NUMBER)">
-      <responseparam type="tolerance" default="NUMBER (DECIMAL, e.g., .02)" />
+      <responseparam type="tolerance" default=
+      "NUMBER (DECIMAL, e.g., .02)" />
       <formulaequationinput label="TEXT OF PROBLEM"/>
     </numericalresponse>
   </p>
@@ -195,7 +206,8 @@ Studio가 제공하는 수식 입력 도구 가운데 보다 기본적인 도구
    
    <p>TEXT OF PROBLEM
     <numericalresponse answer="ANSWER (NUMBER)">
-      <responseparam type="tolerance" default="NUMBER (PERCENTAGE, e.g., 3%)" />
+      <responseparam type="tolerance" default=
+      "NUMBER (PERCENTAGE, e.g., 3%)" />
       <formulaequationinput label="TEXT OF PROBLEM"/>
     </numericalresponse>
    </p>
@@ -214,9 +226,11 @@ Studio가 제공하는 수식 입력 도구 가운데 보다 기본적인 도구
 
   <problem>
 
-  <!-- The following uses Python script spacing. Make sure it isn't indented when you add it to the Problem component. -->
+  <!-- The following uses Python script spacing. Make sure it isn't indented
+  when you add it to the Problem component. -->
   <script type="loncapa/python">
-  computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), math.pow(math.e,2)]))
+  computed_response = math.sqrt(math.fsum([math.pow(math.pi,2), 
+  math.pow(math.e,2)]))
   </script>
 
   <p>TEXT OF PROBLEM
