@@ -176,9 +176,9 @@
 .. code-block:: xml
 
   Learning to Assess Responses
-  Your assessment differs from the instructor's assessment of this response. Review the
-  response and consider why the instructor may have assessed it differently. Then, try 
-  the assessment again.
+  Your assessment differs from the instructor's assessment of this response.
+  Review the response and consider why the instructor may have assessed 
+  it differently. Then, try the assessment again.
 
 평가 항목 각각에 대해, 학습자 선택과 교수자 선택의 일치 여부에 따라 다음 두 가지 메시지 가운데 하나가 학습자에게 제시된다. 
 
