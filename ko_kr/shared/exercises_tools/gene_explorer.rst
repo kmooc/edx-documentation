@@ -27,8 +27,13 @@
 .. code-block:: xml
 
   <problem>
-  <p>Make a single base pair substitution mutation in the gene below that results in a protein that is longer than the protein produced by the original gene. When you are satisfied with your change and its effect, click the <b>SUBMIT</b> button.</p>
-  <p>Note that a "single base pair substitution mutation" is when a single base is changed to another base; for example, changing the A at position 80 to a T. Deletions and insertions are not allowed.</p>
+  <p>Make a single base pair substitution mutation in the gene below that
+  results in a protein that is longer than the protein produced by the 
+  original gene. When you are satisfied with your change and its effect,
+  click the <b>SUBMIT</b> button.</p>
+  <p>Note that a "single base pair substitution mutation" is when a 
+  single base is changed to another base; for example, changing the A at
+  position 80 to a T. Deletions and insertions are not allowed.</p>
   <script type="loncapa/python">
   def genex_grader(expect,ans):
       if ans=="CORRECT": return True
@@ -37,7 +42,12 @@
       return ans["genex_answer"]=="CORRECT"
   </script>
   <customresponse cfn="genex_grader">
-  <editageneinput width="818" height="1000" dna_sequence="TAAGGCTATAACCGAGATTGATGCCTTGTGCGATAAGGTGTGTCCCCCCCCAAAGTGTCGGATGTCGAGTGCGCGTGCAAAAAAAAACAAAGGCGAGGACCTTAAGAAGGTGTGAGGGGGCGCTCGAT" genex_dna_sequence="TAAGGCTATAACCGAGATTGATGCCTTGTGCGATAAGGTGTGTCCCCCCCCAAAGTGTCGGATGTCGAGTGCGCGTGCAAAAAAAAACAAAGGCGAGGACCTTAAGAAGGTGTGAGGGGGCGCTCGAT" genex_problem_number="2"/>
+  <editageneinput width="818" height="1000" dna_sequence="TAAGGCTATAACCG"
+  "AGATTGATGCCTTGTGCGATAAGGTGTGTCCCCCCCCAAAGTGTCGGATGTCGAGTGCGCGTGCAAAAA"
+  "AAAACAAAGGCGAGGACCTTAAGAAGGTGTGAGGGGGCGCTCGAT" genex_dna_sequence="TA"
+  "AGGCTATAACCGAGATTGATGCCTTGTGCGATAAGGTGTGTCCCCCCCCAAAGTGTCGGATGTCGAGTG"
+  "CGCGTGCAAAAAAAAACAAAGGCGAGGACCTTAAGAAGGTGTGAGGGGGCGCTCGAT"
+  genex_problem_number="2"/>
   </customresponse>
   </problem>
 
