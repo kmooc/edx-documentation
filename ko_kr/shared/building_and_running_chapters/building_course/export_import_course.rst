@@ -7,7 +7,7 @@
 Studio에서 :ref:`Export a Course` 및 :ref:`Import a Course` 를 할 수 있다.
 
 새로운 강좌 운영을 위해 기존의 강좌를 복제하려면 강좌 개설자는 강좌를 재개강할 수 있다. 
-See :ref:`Rerun a Course` 에 자세한 안내가 있다.
+:ref:`Rerun a Course` 에 자세한 안내가 있다.
 
 .. _Export a Course:
 
