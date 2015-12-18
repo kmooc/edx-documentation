@@ -127,7 +127,8 @@ poll_question 태그
 Xmodule은 설문 조사 기능, 즉 투표 시스템을 생성하기 위한 것이다. 이 태그에는 다음 속성을 지정할 수 있다.::
 
     name - Name of xmodule.
-    [display_name| AUTOGENERATE] - Display name of xmodule. When this attribute is not defined - display name autogenerate with some hash.
+    [display_name| AUTOGENERATE] - Display name of xmodule. When this attribute is 
+    not defined - display name autogenerate with some hash.
     [reset | False] - Can reset/revote many time (value = True/False)
 
 ============
