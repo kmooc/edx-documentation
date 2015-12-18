@@ -38,7 +38,9 @@
 	  print 'hint_fn called, ans=', ans
 	  hint = ''
 	  if '10' in ans:
-	     hint = 'If the ball costs 10 cents, and the bat costs one dollar more than the ball, how much does the bat cost? If that is the cost of the bat, how much do the ball and bat cost together?'
+	     hint = 'If the ball costs 10 cents, and the bat costs one dollar more than the ball,' 
+	     'how much does the bat cost? If that is the cost of the bat, how much do the ball' 
+	     'and bat cost together?'
 	  elif '.05' in ans:
 	     hint = 'Make sure to enter the number of cents as a whole number.'
 
@@ -46,7 +48,9 @@
 	    hint = "&lt;font color='blue'&gt;Hint: {0}&lt;/font&gt;".format(hint)
 	    new_cmap.set_hint_and_mode(aid,hint,'always')
 	        </script>
-	        <p>If a bat and a ball cost $1.10 together, and the bat costs $1.00 more than the ball, how much does the ball cost? Enter your answer in cents, and include only the number (that is, do not include a $ or a ¢ sign).</p>
+	        <p>If a bat and a ball cost $1.10 together, and the bat costs $1.00 more than the
+	        ball, how much does the ball cost? Enter your answer in cents, and include only
+	        the number (that is, do not include a $ or a ¢ sign).</p>
 	        <p>
 	            <customresponse cfn="test_str" expect="5">
 	                <textline correct_answer="5" label="How much does the ball cost?"/>
