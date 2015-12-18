@@ -32,7 +32,9 @@ IFrame에서 연습 또는 도구를 추가하려면, IFrame HTML 구성 요소�
 
    .. code-block:: html
 
-      <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="402" height="402" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">You need an iFrame capable browser to view this.</iframe></p>
+      <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html"
+      width="402" height="402" marginwidth="0" marginheight="0" frameborder="0"
+      scrolling="no">You need an iFrame capable browser to view this.</iframe></p>
 
 5. **src** 속성에 있는 기본 URL( **https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html** ) 을 연습문제 및 도구를 포함하는 페이지의 URL로 바꾼다. **이 URL는 https로 시작 해야 한다**. URL을 둘러싼 인용 부호를 삭제하지 않아야 한다.
 
@@ -78,7 +80,9 @@ IFrame에 대한 설정을 지정 하려면, 열기 ``<IFrame>`` 태그 내부�
 
 .. code-block:: html
 
-      <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="442" height="200" marginwidth="20" marginheight="20" frameborder="1" scrolling="yes">You need an iFrame capable browser to view this.</iframe></p>
+      <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html"
+      width="442" height="200" marginwidth="20" marginheight="20" frameborder="1" 
+      scrolling="yes">You need an iFrame capable browser to view this.</iframe></p>
 
 .. image:: ../../../shared/building_and_running_chapters/Images/IFrame_3.png
    :alt: IFrame with only top half showing and vertical scroll bar on the side
@@ -86,7 +90,9 @@ IFrame에 대한 설정을 지정 하려면, 열기 ``<IFrame>`` 태그 내부�
 
 .. code-block:: html
 
-      <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="550" height="250" marginwidth="30" marginheight="60" frameborder="1" scrolling="no">You need an iFrame capable browser to view this.</iframe></p>
+      <p><iframe src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html"
+      width="550" height="250" marginwidth="30" marginheight="60" frameborder="1"
+      scrolling="no">You need an iFrame capable browser to view this.</iframe></p>
 
 .. image:: ../../../shared/building_and_running_chapters/Images/IFrame_4.png
    :alt: 
