@@ -81,18 +81,29 @@
   <problem>
   <p>Lateral inhibition, as was first discovered in the horsehoe crab...</p>
   <multiplechoiceresponse>
-    <choicegroup type="MultipleChoice" label="Lateral inhibition, as was first discovered in the horsehoe crab">
-      <choice correct="false">is a property of touch sensation, referring to the ability of crabs to detect nearby predators.</choice>
-      <choice correct="false">is a property of hearing, referring to the ability of crabs to detect low frequency noises.</choice>
-      <choice correct="false">is a property of vision, referring to the ability of crabs eyes to enhance contrasts.</choice>
-      <choice correct="true">has to do with the ability of crabs to use sonar to detect fellow horseshoe crabs nearby.</choice>
-      <choice correct="false">has to do with a weighting system in the crabs skeleton that allows it to balance in turbulent water.</choice>
+    <choicegroup type="MultipleChoice" label="Lateral inhibition, as was first
+    discovered in the horsehoe crab">
+      <choice correct="false">is a property of touch sensation, referring to the 
+      ability of crabs to detect nearby predators.</choice>
+      <choice correct="false">is a property of hearing, referring to the ability
+      of crabs to detect low frequency noises.</choice>
+      <choice correct="false">is a property of vision, referring to the ability
+      of crabs eyes to enhance contrasts.</choice>
+      <choice correct="true">has to do with the ability of crabs to use sonar 
+      to detect fellow horseshoe crabs nearby.</choice>
+      <choice correct="false">has to do with a weighting system in the crabs 
+      skeleton that allows it to balance in turbulent water.</choice>
     </choicegroup>
   </multiplechoiceresponse>
   <solution>
     <div class="detailed-solution">
       <p>Explanation</p>
-      <p>Horseshoe crabs were essential to the discovery of lateral inhibition, a property of vision present in horseshoe crabs as well as humans, that enables enhancement of contrast at edges of objects as was demonstrated in class. In 1967, Haldan Hartline received the Nobel prize for his research on vision and in particular his research investigating lateral inhibition using horseshoe crabs.</p>
+      <p>Horseshoe crabs were essential to the discovery of lateral inhibition,
+      a property of vision present in horseshoe crabs as well as humans, that
+      enables enhancement of contrast at edges of objects as was demonstrated in
+      class. In 1967, Haldan Hartline received the Nobel prize for his research
+      on vision and in particular his research investigating lateral inhibition
+      using horseshoe crabs.</p>
     </div>
   </solution>
   </problem>
