@@ -72,24 +72,32 @@
 
   <problem>
   <p>
-    <em>This problem is adapted from an exercise that first appeared in MITx's 14.73x The Challenges of Global Poverty course, spring 2013.</em>
+    <em>This problem is adapted from an exercise that first appeared in MITx's 14.73x The
+    Challenges of Global Poverty course, spring 2013.</em>
   </p>
-  <p>What is the technical term that refers to the fact that, when enough people sleep under a bednet, the disease may altogether disappear?</p>
+  <p>What is the technical term that refers to the fact that, when enough people sleep 
+  under a bednet, the disease may altogether disappear?</p>
   <stringresponse answer="herd immunity" type="ci regexp">
          <additional_answer>community immunity</additional_answer>
           <additional_answer>population immunity</additional_answer>
-          <textline size="20" label="What is the technical term that refers to the fact that, when enough people sleep under a bednet, the disease may altogether disappear?"/>
+          <textline size="20" label="What is the technical term that refers to the fact" 
+          "that, when enough people sleep under a bednet, the disease may altogether disappear?"/>
           <hintgroup>
               <stringhint answer="contact immunity" type="ci" name="contact_immunity_hint" />
               <hintpart on="contact_immunity_hint">
                   <startouttext />
-                  In contact immunity, a vaccinated individual passes along his immunity to another person through contact with feces or bodily fluids. The answer to the question above refers to the form of immunity that occurs when so many members of a population are protected, an infectious disease is unlikely to spread to the unprotected population.
+                  In contact immunity, a vaccinated individual passes along his immunity 
+                  to another person through contact with feces or bodily fluids. The answer 
+                  to the question above refers to the form of immunity that occurs when 
+                  so many members of a population are protected, an infectious disease is
+                  unlikely to spread to the unprotected population.
                   <endouttext />
               </hintpart >
               <stringhint answer="firewall immunity" type="ci" name="firewall_immunity_hint" />
               <hintpart on="firewall_immunity_hint">
                   <startouttext />
-                  Although a firewall provides protection for a population, the term "firewall" is used more in computing and technology than in epidemiology.
+                  Although a firewall provides protection for a population, the term
+                  "firewall" is used more in computing and technology than in epidemiology.
                   <endouttext />
               </hintpart >
           </hintgroup>
@@ -97,7 +105,10 @@
   <solution>
     <div class="detailed-solution">
       <p>Explanation</p>
-      <p>The correct answer is <b>herd immunity</b>. As more and more people use bednets, the risk of malaria begins to fall for everyone – users and non-users alike. This can fall to such a low probability that malaria is effectively eradicated from the group (even when the group does not have 100% bednet coverage).</p>
+      <p>The correct answer is <b>herd immunity</b>. As more and more people use bednets,
+      the risk of malaria begins to fall for everyone – users and non-users alike. This can 
+      fall to such a low probability that malaria is effectively eradicated from the group 
+      (even when the group does not have 100% bednet coverage).</p>
     </div>
   </solution>
   </problem>
@@ -141,7 +152,8 @@
     <additional_answer>Dr. Martin Luther King, Junior</additional_answer>
     <additional_answer>Martin Luther King, Jr.</additional_answer>
     <additional_answer>Martin Luther King</additional_answer>
-    <textline label="What African-American led the United States civil rights movement during the 1960s?" size="20"/>
+    <textline label="What African-American led the United States civil rights" 
+    "movement during the 1960s?" size="20"/>
   </stringresponse>
 
   </problem>
