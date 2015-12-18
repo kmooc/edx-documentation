@@ -69,7 +69,8 @@
 
   <problem>
   <p>
-    <em>This exercise first appeared in HarvardX's PH207x Health in Numbers: Quantitative Methods in Clinical &amp; Public Health Research course, fall 2012.</em>
+    <em>This exercise first appeared in HarvardX's PH207x Health in Numbers: 
+    Quantitative Methods in Clinical &amp; Public Health Research course, fall 2012.</em>
   </p>
   <p>What type of data are the following?</p>
   <p>Age:</p>
@@ -78,11 +79,13 @@
   </optionresponse>
   <p>Age, rounded to the nearest year:</p>
   <optionresponse>
-    <optioninput options="('Nominal','Discrete','Continuous')" correct="Discrete" label="Age, rounded to the nearest year"/>
+    <optioninput options="('Nominal','Discrete','Continuous')"
+    correct="Discrete" label="Age, rounded to the nearest year"/>
   </optionresponse>
   <p>Life stage - infant, child, and adult:</p>
   <optionresponse>
-    <optioninput options="('Nominal','Discrete','Continuous')" correct="Nominal" label="Life stage"/>
+    <optioninput options="('Nominal','Discrete','Continuous')"
+    correct="Nominal" label="Life stage"/>
   </optionresponse>
   </problem>
 
