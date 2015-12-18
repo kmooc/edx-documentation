@@ -30,7 +30,12 @@
       <schematicresponse>
       <center>
       <schematic height="500" width="600" parts="g,r" analyses="dc"
-      initial_value="[["v",[168,144,0],{"value":"dc(1)","_json_":0},["1","0"]],["r",[296,120,0],{"r":"1","_json_":1},["1","output"]],["L",[296,168,3],{"label":"output","_json_":2},["output"]],["w",[296,216,168,216]],["w",[168,216,168,192]],["w",[168,144,168,120]],["w",[168,120,296,120]],["g",[168,216,0],{"_json_":7},["0"]],["view",-67.49999999999994,-78.49999999999994,1.6000000000000003,"50","10","1G",null,"100","1","1000"]]"
+      initial_value="[["v",[168,144,0],{"value":"dc(1)","_json_":0},["1","0"]],
+      ["r",[296,120,0],{"r":"1","_json_":1},["1","output"]],["L",[296,168,3],
+      {"label":"output","_json_":2},["output"]],["w",[296,216,168,216]],
+      ["w",[168,216,168,192]],["w",[168,144,168,120]],["w",[168,120,296,120]],
+      ["g",[168,216,0],{"_json_":7},["0"]],["view",-67.49999999999994,
+      -78.49999999999994,1.6000000000000003,"50","10","1G",null,"100","1","1000"]]"
       />
       </center>
         <answer type="loncapa/python">
@@ -50,7 +55,12 @@
     <center>
     <schematic height="500" width="600" parts="g,r,s,c" analyses="ac"
     submit_analyses="{"ac":[["NodeA",1,9]]}"
-    initial_value="[["v",[160,152,0],{"name":"v1","value":"sin(0,1,1,0,0)","_json_":0},["1","0"]],["w",[160,200,240,200]],["g",[160,200,0],{"_json_":2},["0"]],["L",[240,152,3],{"label":"NodeA","_json_":3},["NodeA"]],["s",[240,152,0],{"color":"cyan","offset":"0","_json_":4},["NodeA"]],["view",64.55878906250004,54.114697265625054,2.5000000000000004,"50","10","1G",null,"100","1","1000"]]"/>
+    initial_value="[["v",[160,152,0],{"name":"v1","value":"sin(0,1,1,0,0)",
+    "_json_":0},["1","0"]],["w",[160,200,240,200]],["g",[160,200,0],
+    {"_json_":2},["0"]],["L",[240,152,3],{"label":"NodeA","_json_":3},
+    ["NodeA"]],["s",[240,152,0],{"color":"cyan","offset":"0","_json_":4},
+    ["NodeA"]],["view",64.55878906250004,54.114697265625054,
+    2.5000000000000004,"50","10","1G",null,"100","1","1000"]]"/>
     </center>
     <answer type="loncapa/python">
     ac_values = None
@@ -70,9 +80,14 @@
         <solution>
             <div class="detailed-solution">
                 <p>Explanation</p>
-                <p>A voltage divider that evenly divides the input voltage can be formed with two identically valued resistors, with the sampled voltage taken in between the two.</p>
+                <p>A voltage divider that evenly divides the input voltage 
+                can be formed with two identically valued resistors, with 
+                the sampled voltage taken in between the two.</p>
                 <p><img src="/c4x/edX/edX101/asset/images_voltage_divider.png"/></p>
-                <p>A simple high-pass filter without any further constaints can be formed by simply putting a resister in series with a capacitor. The actual values of the components do not really matter in order to meet the constraints of the problem.</p>
+                <p>A simple high-pass filter without any further constaints 
+                can be formed by simply putting a resister in series with a 
+                capacitor. The actual values of the components do not really 
+                matter in order to meet the constraints of the problem.</p>
                 <p><img src="/c4x/edX/edX101/asset/images_high_pass_filter.png"/></p>
             </div>
         </solution>
