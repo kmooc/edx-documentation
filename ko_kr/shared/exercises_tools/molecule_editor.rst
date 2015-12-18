@@ -58,7 +58,9 @@ HTML 구성요소 코드
 .. code-block:: xml
 
   <h2>Molecule Editor</h2>
-  <p>The molecule editor makes creating and visualizing molecules easy. A chemistry professor may have you build and submit a molecule as part of an exercise.</p>
+  <p>The molecule editor makes creating and visualizing molecules easy.
+  A chemistry professor may have you build and submit a molecule as part 
+  of an exercise.</p>
   <div>
   <script type="text/javascript">// <![CDATA[
   function toggle2(showHideDiv, switchTextDiv) {
@@ -79,7 +81,8 @@ HTML 구성요소 코드
   <style type="text/css"></style>
   </div>
   <div id="headerDiv">
-  <div id="titleText">Using the Molecule Editor<a id="myHeader" href="javascript:toggle2('myContent','myHeader');">+ open </a></div>
+  <div id="titleText">Using the Molecule Editor<a id="myHeader" 
+  href="javascript:toggle2('myContent','myHeader');">+ open </a></div>
   </div>
   <div id="contentDiv">
   <div id="myContent" style="display: none;">
@@ -88,12 +91,26 @@ HTML 구성요소 코드
   </div>
   <p>&nbsp;</p>
   <div id="headerDiv">
-  <div id="titleText">Are the molecules I've drawn chemically possible?<a id="IntroductionHeader" href="javascript:toggle2('IntroductionContent','IntroductionHeader');">+ open </a></div>
+  <div id="titleText">Are the molecules I've drawn chemically possible?
+  <a id="IntroductionHeader" href=
+  "javascript:toggle2('IntroductionContent','IntroductionHeader');">+ open </a></div>
   </div>
   <div id="contentDiv">
   <div id="IntroductionContent" style="display: none;">
-  <p>The chemical editor you are using ensures that the structures you draw are correct in one very narrow sense, that they follow the rules for covalent bond formation and formal charge. However, there are many structures that follow these rules that are chemically impossible, unstable, do not exist in living systems, or are beyond the scope of this course. The editor will let you draw them because, in contrast to the rules of formal charge, these properties cannot be easily and reliably predicted from structures.</p>
-  <p>If you submit a structure that includes atoms that are not possible or are beyond the scope of this course, the software will warn you specifically about these parts of your structure and you will be allowed to edit your structure and re-submit. Submitting an improper structure will not count as one of your tries. In general, you should try to use only the atoms most commonly cited in this course: C, H, N, O, P, and S. If you want to learn about formal charge, you can play around with other atoms and unusual configurations and look at the structures that result.</p>
+  <p>The chemical editor you are using ensures that the structures you draw are correct
+  in one very narrow sense, that they follow the rules for covalent bond formation and
+  formal charge. However, there are many structures that follow these rules that are
+  chemically impossible, unstable, do not exist in living systems, or are beyond the
+  scope of this course. The editor will let you draw them because, in contrast to the
+  rules of formal charge, these properties cannot be easily and reliably predicted from 
+  structures.</p>
+  <p>If you submit a structure that includes atoms that are not possible or are beyond
+  the scope of this course, the software will warn you specifically about these parts
+  of your structure and you will be allowed to edit your structure and re-submit. 
+  Submitting an improper structure will not count as one of your tries. In general,
+  you should try to use only the atoms most commonly cited in this course: C, H, N, O, P,
+  and S. If you want to learn about formal charge, you can play around with other atoms
+  and unusual configurations and look at the structures that result.</p>
   </div>
   </div>
   <div id="ap_listener_added">&nbsp;</div>
@@ -107,7 +124,8 @@ HTML 구성요소 코드
 .. code-block:: xml
 
   <problem>
-  <p>The dopamine molecule, as shown, cannot make ionic bonds. Edit the dopamine molecule so it can make ionic bonds.</p>
+  <p>The dopamine molecule, as shown, cannot make ionic bonds. Edit the dopamine
+  molecule so it can make ionic bonds.</p>
   <p>When you are ready, click Check. If you need to start over, click Reset.</p>
     <script type="loncapa/python">
   def check1(expect, ans):
@@ -129,7 +147,8 @@ HTML 구성요소 코드
 ::
 
   <problem>
-  <p>The dopamine molecule, as shown, cannot make strong hydrogen bonds. Edit the dopamine molecule so that it can make strong hydrogen bonds.</p>
+  <p>The dopamine molecule, as shown, cannot make strong hydrogen bonds. Edit the
+  dopamine molecule so that it can make strong hydrogen bonds.</p>
   <script type="loncapa/python">
   def grader_1(expect, ans):
       import json
@@ -147,7 +166,8 @@ HTML 구성요소 코드
 ::
 
   <problem>
-  <p>The dopamine molecule has an intermediate hydrophobicity. Edit the dopamine molecule so that it is more hydrophobic.</p>
+  <p>The dopamine molecule has an intermediate hydrophobicity. Edit the dopamine
+  molecule so that it is more hydrophobic.</p>
   <script type="loncapa/python">
   def grader_2(expect, ans):
       import json
