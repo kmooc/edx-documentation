@@ -224,9 +224,11 @@ HTML Schedule 코드
     			<td class="day">11/12</td>
     			<td class="topic">Topic 4</td>
     			<td class="reading">Ch. 4</td>
-    			<td class="video"><!--<a href="#">L7: Title</a>--> L7: Title</td>
+    			<td class="video"><!--<a href="#">L7: Title</a>-->
+    			L7: Title</td>
     			<td class="slides"><!--<a href="#">L7</a>-->L7</td>
-    			<td class="assignment"><!--<a href="#">Quiz 2</a>-->Quiz 2</td>
+    			<td class="assignment"><!--<a href="#">Quiz 2</a>-->
+    			Quiz 2</td>
     			<td class="due"> 11/25 </td>
   		</tr>
   
@@ -235,7 +237,8 @@ HTML Schedule 코드
     			<td class="day"></td>
     			<td class="topic"></td>
     			<td class="reading"></td>
-    			<td class="video"><!--<a href="#">L8: Title</a>-->L8: Title</td>
+    			<td class="video"><!--<a href="#">L8: Title</a>-->
+    			L8: Title</td>
     			<td class="slides"><!--<a href="#">L8</a>-->L8</td>
     			<td class="assignment"></td>
     			<td class="due"></td>
@@ -247,9 +250,11 @@ HTML Schedule 코드
     			<td class="day">11/19</td>
     			<td class="topic">Topic 5</td>
     			<td class="reading">Ch. 5</td>
-    			<td class="video"><!--<a href="#">L9: Title</a>-->L9: Title</td>
+    			<td class="video"><!--<a href="#">L9: Title</a>-->
+    			L9: Title</td>
     			<td class="slides"><!--<a href="#">L9</a>-->L9</td>
-    <			td class="assignment"><!--<a href="#">HW 3</a>-->HW 3</td>
+                        <td class="assignment"><!--<a href="#">HW 3</a>-->
+                        HW 3</td>
     			<td class="due"> 12/02 </td>
   		</tr>
   
@@ -258,7 +263,8 @@ HTML Schedule 코드
     			<td class="day"></td>
     			<td class="topic"></td>
     			<td class="reading"></td>
-    			<td class="video"><!--<a href="#">L10: Title</a>-->L10: Title</td>
+    			<td class="video"><!--<a href="#">L10: Title</a>-->
+    			L10: Title</td>
     			<td class="slides"><!--<a href="#">L10</a>-->L10 </td>
     			<td class="assignment"></td>
     			<td class="due"></td>
@@ -270,9 +276,11 @@ HTML Schedule 코드
     			<td class="day">11/26</td>
     			<td class="topic">Topic 6</td>
     			<td class="reading">Ch. 6</td>
-    			<td class="video"><!--<a href="#"><L11: Title</a>-->L11: Title </td>
+    			<td class="video"><!--<a href="#"><L11: Title</a>-->
+    			L11: Title </td>
     			<td class="slides"><!--<a href="#">L11</a>-->L11</td>
-    			<td class="assignment"><!--<a href="#">HW 4</a>-->HW 4</td>
+    			<td class="assignment"><!--<a href="#">HW 4</a>-->
+    			HW 4</td>
     			<td class="due">12/09</td>
   		</tr>
   
@@ -281,7 +289,8 @@ HTML Schedule 코드
 			<td class="day"> </td>
     			<td class="topic"> </td>
     			<td class="reading"></td>
-    			<td class="video"><!--<a href="#">L12: Title</a>-->L12: Title</td>
+    			<td class="video"><!--<a href="#">L12: Title</a>-->
+    			L12: Title</td>
     			<td class="slides"><!--<a href="#">L12</a>-->L12</td>
     			<td class="assignment"></td>
     			<td class="due">      </td>
