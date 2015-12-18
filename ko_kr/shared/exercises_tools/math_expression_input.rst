@@ -35,7 +35,8 @@ Studio에서 수식 입력 문제를 생성하는 경우 MathJax를 이용하여
 .. code-block:: xml
 
   <problem>
-    <p>Some problems may ask for a mathematical expression. Practice creating mathematical expressions by answering the questions below.</p>
+    <p>Some problems may ask for a mathematical expression. Practice creating 
+    mathematical expressions by answering the questions below.</p>
 
     <p>Write an expression for the product of R_1, R_2, and the inverse of R_3.</p>
     <formularesponse type="ci" samples="R_1,R_2,R_3@1,2,3:3,4,5#10" answer="$VoVi">
@@ -47,7 +48,8 @@ Studio에서 수식 입력 문제를 생성하는 경우 MathJax를 이용하여
   VoVi = "(R_1*R_2)/R_3"
   </script>
 
-    <p>Let <i>x</i> be a variable, and let <i>n</i> be an arbitrary constant. What is the derivative of <i>x<sup>n</sup></i>?</p>
+    <p>Let <i>x</i> be a variable, and let <i>n</i> be an arbitrary constant. 
+    What is the derivative of <i>x<sup>n</sup></i>?</p>
   <script type="loncapa/python">
   derivative = "n*x^(n-1)"
   </script>
