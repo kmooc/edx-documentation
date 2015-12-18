@@ -57,24 +57,33 @@
               <annotationresponse>
                   <annotationinput>
                     <text>PLACEHOLDER: Text of annotation</text>
-                      <comment>PLACEHOLDER: Text of question</comment>
-                      <comment_prompt>PLACEHOLDER: Type your response below:
+                      <comment>PLACEHOLDER: Text of question
+                      </comment>
+                      <comment_prompt>PLACEHOLDER: Type your 
+                      response below:
                       </comment_prompt>
-                      <tag_prompt>PLACEHOLDER: In your response to this question, 
+                      <tag_prompt>PLACEHOLDER: In your response 
+                      to this question, 
                       which tag below do you choose?</tag_prompt>
                     <options>
-                      <option choice="incorrect">PLACEHOLDER: Incorrect answer (to make
-                      this option a correct or partially correct answer, change 
-                      choice="incorrect" to choice="correct" or 
+                      <option choice="incorrect">PLACEHOLDER: 
+                      Incorrect answer (to make
+                      this option a correct or partially correct 
+                      answer, change choice="incorrect" to 
+                      choice="correct" or choice=
+                      "partially-correct")</option>
+                      <option choice="correct">PLACEHOLDER: 
+                      Correct answer (to make  this option an 
+                      incorrect or partially correct answer, 
+                      change choice="correct" to 
+                      choice="incorrect" or 
                       choice="partially-correct")</option>
-                      <option choice="correct">PLACEHOLDER: Correct answer (to make 
-                      this option an incorrect or partially correct answer, change 
-                      choice="correct" to choice="incorrect" or 
-                      choice="partially-correct")</option>
-                      <option choice="partially-correct">PLACEHOLDER: Partially correct 
-                      answer (to make this option a correct or partially correct answer, 
-                      change choice="partially-correct" to choice="correct" 
-                      or choice="incorrect")
+                      <option choice="partially-correct">
+                      PLACEHOLDER: Partially correct 
+                      answer (to make this option a correct or 
+                      partially correct answer, 
+                      change choice="partially-correct" to 
+                      choice="correct" or choice="incorrect")
                       </option>
                     </options>
                   </annotationinput>
