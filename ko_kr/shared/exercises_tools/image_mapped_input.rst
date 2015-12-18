@@ -53,7 +53,8 @@
       <p>In the image below, click the triangle.</p>
     <endouttext/>
         <imageresponse>
-         <imageinput src="IMAGE FILE PATH" width="NUMBER" height="NUMBER" rectangle="(X-AXIS,Y-AXIS)-(X-AXIS,Y-AXIS)" />
+         <imageinput src="IMAGE FILE PATH" width="NUMBER" height="NUMBER"
+         rectangle="(X-AXIS,Y-AXIS)-(X-AXIS,Y-AXIS)" />
         </imageresponse>
   </problem>
 
