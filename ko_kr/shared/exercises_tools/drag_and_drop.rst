@@ -68,10 +68,24 @@ Drag and Drop 문제 코드 샘플
 .. code-block:: xml
 
   <problem>
-    <p> Allopurinol is a drug used to treat and prevent gout, a very painful form of arthritis. Once only a “rich man’s disease”, gout has become more and more common in recent decades – affecting about 3 million people in the United States alone. Deposits of needle-like crystals of uric acid in connective tissue or joint spaces cause the symptoms of swelling, stiffness and intense pain. Individuals with gout overproduce uric acid because they cannot eliminate it efficiently. Allopurinol treats and prevents gout by stopping the overproduction of uric acid through inhibition of an enzyme required for the synthesis of uric acid. </p>
-    <p> You are shown one of many possible molecules. On the structure of allopurinol below, identify the functional groups that are present by dragging the functional group name listed onto the appropriate target boxes on the structure. If you want to change an answer, you have to drag off the name as well. You may need to scroll through the names of functional groups to see all options. </p>
+    <p> Allopurinol is a drug used to treat and prevent gout, a very painful 
+    form of arthritis. Once only a “rich man’s disease”, gout has become more
+    and more common in recent decades – affecting about 3 million people in
+    the United States alone. Deposits of needle-like crystals of uric acid
+    in connective tissue or joint spaces cause the symptoms of swelling,
+    stiffness and intense pain. Individuals with gout overproduce uric acid
+    because they cannot eliminate it efficiently. Allopurinol treats and 
+    prevents gout by stopping the overproduction of uric acid through
+    inhibition of an enzyme required for the synthesis of uric acid. </p>
+    <p> You are shown one of many possible molecules. On the structure of
+    allopurinol below, identify the functional groups that are present by 
+    dragging the functional group name listed onto the appropriate target
+    boxes on the structure. If you want to change an answer, you have to
+    drag off the name as well. You may need to scroll through the names of
+    functional groups to see all options. </p>
     <customresponse>
-      <drag_and_drop_input no_labels="true" one_per_target="true" target_outline="true" img="/static/Allopurinol.gif">
+      <drag_and_drop_input no_labels="true" one_per_target="true" 
+      target_outline="true" img="/static/Allopurinol.gif">
         <draggable can_reuse="true" label="methyl" id="1"/>
         <draggable can_reuse="true" label="hydroxyl" id="2"/>
         <draggable can_reuse="true" label="amino" id="3"/>
@@ -108,7 +122,9 @@ Drag and Drop 문제 XML
 .. code-block:: xml
 
     <problem>
-        Here's an example of a "Drag and Drop" question set. Click and drag each word in the scrollbar below, up to the numbered bucket which matches the number of letters in the word.
+        Here's an example of a "Drag and Drop" question set. Click and drag each word
+        in the scrollbar below, up to the numbered bucket which matches the number o
+        f letters in the word.
         <customresponse>
             <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/L9_buckets.png">
                 <draggable id="1" label="a"/>
@@ -147,7 +163,9 @@ Drag and Drop 문제 XML
                 <h2>Drag and Drop with Outline</h2>
                 <p>Please label hydrogen  atoms connected with left carbon atom.</p>
             </text>
-            <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/ethglycol.jpg" target_outline="true" one_per_target="true" no_labels="true" label_bg_color="rgb(222, 139, 238)">
+            <drag_and_drop_input img="https://studio.edx.org/c4x/edX/DemoX/asset/ethglycol.jpg"
+            target_outline="true" one_per_target="true" no_labels="true" 
+            label_bg_color="rgb(222, 139, 238)">
                 <draggable id="1" label="Hydrogen" />
                 <draggable id="2" label="Hydrogen" />
                 <target id="t1_o" x="10" y="67" w="100" h="100"/>
