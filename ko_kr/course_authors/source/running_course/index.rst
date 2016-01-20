@@ -19,3 +19,4 @@
    course_answers
    course_grades
    checking_student_progress
+   copycheck
