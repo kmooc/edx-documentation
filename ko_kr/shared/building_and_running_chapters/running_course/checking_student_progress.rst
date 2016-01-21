@@ -19,23 +19,36 @@
 
 #. 홈 화면에서 발급을 원하는 강좌를 선택한 후 ** 설정 **에서 ** 이수증 **을 클릭한다.
 
-#. **이수증 추가** 버튼을 클릭한다. 
+   .. image:: ../../../shared/building_and_running_chapters/Images/Certification_1.png
 
+#. ** 이수증 추가 ** 버튼을 클릭한다. 
+
+   .. image:: ../../../shared/building_and_running_chapters/Images/Certification_2.png
 
 #. 발급을 원하는 강좌 제목과 기관 로고 이미지를 업로드 한다.
 
+   .. image:: ../../../shared/building_and_running_chapters/Images/Certification_3.png
+  
 .. note:: 기관 로고이미지의 최대크기는 220p X 48p 이다. 
 
 
-#. 서명인 이름, 서명인 직함, 서명인 소속과 서명 이미지를 업로드 한다. 
+4. 서명인 이름, 서명인 직함, 서명인 소속과 서명 이미지를 업로드 한다. 
 
+   .. image:: ../../../shared/building_and_running_chapters/Images/Certification_4.png
+  
 .. note:: 
    서명인의 이름, 직함 그리고 소속의 최대길이는 한글 18자 영문 36자 이다. 
    서명 이미지의 최대 크기는 193px X 49px의 크기에 투명한 PNG파일 이여야 한다. 
 
 
-#. 하나의 이수증에 서명인을 추가 하기 위해서는 서명인 추가 버튼을 클릭한다. 
+5. 하나의 이수증에 서명인을 추가 하기 위해서는 서명인 추가 버튼을 클릭한다. 
+
+   .. image:: ../../../shared/building_and_running_chapters/Images/Certification_5.png
 
 .. note:: 총 4명까지 서명인의 추가가 가능하다. 
+
+6. 만들기 버튼을 클릭하여 이수증을 등록한다.
+
+   .. image:: ../../../shared/building_and_running_chapters/Images/Certification_6.png
 
 
