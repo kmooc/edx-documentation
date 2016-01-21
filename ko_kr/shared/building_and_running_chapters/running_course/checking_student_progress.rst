@@ -17,11 +17,11 @@
 이수증 발급
 **************************************************
 
-#. 홈 화면에서 발급을 원하는 강좌를 선택한 후 ** 설정 ** 에서 ** 이수증 ** 을 클릭한다.
+#. 홈 화면에서 발급을 원하는 강좌를 선택한 후 **설정** 에서 **이수증** 을 클릭한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Certification_1.png
 
-#. ** 이수증 추가 ** 버튼을 클릭한다. 
+#. **이수증 추가** 버튼을 클릭한다. 
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Certification_2.png
 
