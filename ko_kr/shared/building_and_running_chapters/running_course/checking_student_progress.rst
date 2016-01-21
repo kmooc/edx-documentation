@@ -21,15 +21,21 @@
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Certification_1.png
 
+
+
 #. **이수증 추가** 버튼을 클릭한다. 
 
-   .. image:: ../../../shared/building_and_running_chapters/Images/Certification_2.png
+   .. image:: ../../../shared/building_and_running_chapters/Images/Certification_2_1.png
+
+
 
 #. 발급을 원하는 강좌 제목과 기관 로고 이미지를 업로드 한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Certification_3.png
   
-.. note:: 기관 로고이미지의 최대크기는 220p X 48p 이다. 
+.. note:: 기관 로고이미지의 최대크기는 220px X 48px 이다. 
+
+
 
 
 4. 서명인 이름, 서명인 직함, 서명인 소속과 서명 이미지를 업로드 한다. 
@@ -41,14 +47,18 @@
    서명 이미지의 최대 크기는 193px X 49px의 크기에 투명한 PNG파일 이여야 한다. 
 
 
-5. 하나의 이수증에 서명인을 추가 하기 위해서는 서명인 추가 버튼을 클릭한다. 
+
+
+5. 하나의 이수증에 서명인을 추가 하기 위해서는 **서명인 추가** 버튼을 클릭한다. 
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Certification_5.png
 
 .. note:: 총 4명까지 서명인의 추가가 가능하다. 
 
+
+
 6. 만들기 버튼을 클릭하여 이수증을 등록한다.
 
    .. image:: ../../../shared/building_and_running_chapters/Images/Certification_6.png
 
-
+.. important:: 이수증 등록 후 우측 상단의 **활성화** 버튼은 K-MOOC 운영팀에서 관리하는 기능으로 일반유저는 사용 불필요한 버튼이다. 
