@@ -8,7 +8,9 @@
 
 * :ref:`Copy_Check_Object_Term`
 * :ref:`Copy_Check_List`
-* :ref:`How_to_Copy_Check`
+* :ref:`How_To_Copy_Check`
+* :ref:`Form_Of_CSV`
+
 
 .. _Copy_Check_Object_Term:
 
@@ -29,6 +31,8 @@
 
 표절 검사 항목은 학습자간의 표절(기존에 등록된 학습자간 답안내 수행)과 인터넷 표절검사(인터넷에 공개된 문서를 대상으로 수행)이다. 
 
+
+
 .. _How_to_Copy_Check:
 
 ********************************************************
@@ -42,7 +46,8 @@
 #. 검사가 완료 되면 **CSV파일 다운로드** 버튼을 클릭하여 CSV파일을 다운받는다. 
 
 
-.. _How_to_Copy_Check:
+
+.. _Form_Of_CSV:
 
 ********************************************************
 표절 검사 CSV파일 양식
