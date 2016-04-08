@@ -11,11 +11,11 @@
   .. image:: ../../../shared/building_and_running_chapters/Images/extend_1.png
   
   
-#. 고급 설정의 항목 중 **고급모듈목록** 에 **"edx_sga"** 를 추가 한다.
+2. 고급 설정의 항목 중 **고급모듈목록** 에 **"edx_sga"** 를 추가 한다.
 
   .. image:: ../../../shared/building_and_running_chapters/Images/sga_1.png
 
 
-#. 
+3. 신규 구성요소 추가중 **고급** 버튼에서 **운영팀평가문항** 을 선택 한다.
 
-#.
+4.
