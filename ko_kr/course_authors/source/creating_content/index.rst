@@ -22,3 +22,5 @@ Studio 개요 페이지에서 강좌 콘텐츠를 개발하는 방법에 관한 
    create_discussion
    create_problem
    libraries
+   create_extend_player
+   create_sga
