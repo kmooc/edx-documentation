@@ -6,11 +6,11 @@
 
 기본 동영상 플레이어와는 다르게 동영상 내에 자막을 삽입해 플레이할 수 있다.
 
-#. 홈 화면에서 확장동영상플레이어 사용을 원하는 강좌를 선택 후 **설정** 에서 ** 고급설정 ** 을 클릭한다. 
+#. 홈 화면에서 확장동영상플레이어 사용을 원하는 강좌를 선택 후 **설정** 에서 **고급설정** 을 클릭한다. 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/extend_1.png
   
-#. 고급 설정의 항목 중 **고급 모듈 목록**에 **"zplayer"**를 추가 한다. 
+#. 고급 설정의 항목 중 **고급모듈목록**에 **"zplayer"**를 추가 한다. 
 
   .. image:: ../../../shared/building_and_running_chapters/Images/extend_2.png
   
