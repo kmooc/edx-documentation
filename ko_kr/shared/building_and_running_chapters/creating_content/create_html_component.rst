@@ -24,7 +24,6 @@ HTML 구성요소는 강좌 콘텐츠를 만드는 기초 재료이며, 텍스�
 * :ref:`Create an HTML Component`
 * :ref:`Add a Link in an HTML Component`
 * :ref:`Add an Image to an HTML Component`
-* :ref:`Import LaTeX Code`
 
 .. note:: HTML 구성요소로 작업을 시작하기 전에 :ref:`Developing Your Course Index` 와 :ref:`Best Practices for HTML
  Markup` 를 먼저 살펴보는 것을 권한다.
