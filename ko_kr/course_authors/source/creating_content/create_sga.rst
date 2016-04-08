@@ -17,5 +17,9 @@
 
 
 3. 신규 구성요소 추가중 **고급** 버튼에서 **운영팀평가문항** 을 선택 한다.
+  .. image:: ../../../shared/building_and_running_chapters/Images/extend_3.png
+  
+  .. image:: ../../../shared/building_and_running_chapters/Images/sga_4.png
+
 
 4.
