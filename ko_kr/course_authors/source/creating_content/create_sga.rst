@@ -22,4 +22,8 @@
   .. image:: ../../../shared/building_and_running_chapters/Images/sga_4.png
 
 
-4.
+4. K-MOOC 사이트에서 해당강좌의 문제를 평가(채점) 한다. 
+
+  .. image:: ../../../shared/building_and_running_chapters/Images/sga_3.png
+  
+  
