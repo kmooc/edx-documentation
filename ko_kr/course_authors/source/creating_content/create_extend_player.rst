@@ -29,7 +29,7 @@
   
     .. image:: ../../../shared/building_and_running_chapters/Images/extend_5.png
   
-  2. 자막파일 등록하기에서 언어를 선택한 후 업로드 버튼을 눌러 업로드할 자막 파일을 선택한다. 
+  2. 자막파일 등록하기에서 **언어** 를 선택한 후 **업로드** 버튼을 눌러 업로드할 자막 파일을 선택한다. 
 
     .. image:: ../../../shared/building_and_running_chapters/Images/extend_7.png
 
