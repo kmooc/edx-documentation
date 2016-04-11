@@ -29,7 +29,7 @@
   
     .. image:: ../../../shared/building_and_running_chapters/Images/sga_5.png
   
-  3. 첨부된 파일을 **다운로드** 하여 평가 한 후에 오른쪽의 **채점하기** 버튼을 클릭하여 **점수** 및 **Comment** 를              입력 한다. 
+  3. 첨부된 파일을 **다운로드** 하여 평가 한 후 오른쪽의 **채점하기** 버튼을 클릭하여 **점수** 및 **Comment** 를              입력 한다. 
 
     .. image:: ../../../shared/building_and_running_chapters/Images/sga_3.png
   
