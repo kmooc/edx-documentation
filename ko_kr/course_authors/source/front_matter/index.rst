@@ -1,7 +1,7 @@
 .. _Front Matter:
 
 #############################
-General Information
+개요
 #############################
 
 .. toctree::
