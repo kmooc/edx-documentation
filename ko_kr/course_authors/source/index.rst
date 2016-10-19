@@ -6,7 +6,7 @@
 .. _document index:
 
 ##################################
-Building and Running an edX Course
+K-MOOC 강좌 개발 및 운영 매뉴얼
 ##################################
 
 .. toctree::
