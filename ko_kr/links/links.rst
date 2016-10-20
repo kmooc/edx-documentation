@@ -308,7 +308,7 @@
 
 .. _LaTeX: http://www.latex-project.org/
 
-.. _RST: http://docutils.sourceforge.net/rst.html
+.. _R한글ST: http://docutils.sourceforge.net/rst.html
 
 .. _Proctoring Software System Requirements: http://clientportal.softwaresecure.com/support/index.php?/Knowledgebase/Article/View/252/0/system-requirements-remote-proctor-now
 
