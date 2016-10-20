@@ -1,7 +1,7 @@
 .. _Change Log 2015:
 
 ########################
-Change Log for 2015
+2015를 위한 로그변
 ########################
 
 This section lists changes in this document in 2015.
