@@ -2,7 +2,7 @@
 들어가기
 *******
 
-이 문서는The edX *Building and Running an edX Course* guide is created
+이 문서는 R한글ST_ 를 이용해서 작성되었습니다이 문서는The edX *Building and Running an edX Course* guide is created
 using RST_ files and Sphinx_. You, the user community, can help update and revise this documentation project on GitHub::
 
   https://github.com/edx/edx-documentation/tree/master/en_us/course_authors/source
