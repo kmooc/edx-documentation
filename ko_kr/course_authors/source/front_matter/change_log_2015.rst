@@ -18,7 +18,7 @@ For older changes, see Change Log 2014.
   need.
 
 ****************
-December 2015
+2015 12
 ****************
 
 .. list-table::
