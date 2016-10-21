@@ -1,10 +1,10 @@
 .. _Change Log 2015:
 
 ########################
-2015를 위한 로그변
+2015년의 변화 로그 (김연봉 테스트)
 ########################
 
-This section lists changes in this document in 2015.
+이 절에는 이 문서에서 2015년의 변화를 나열합니다.
 
 .. contents::
  :local:
