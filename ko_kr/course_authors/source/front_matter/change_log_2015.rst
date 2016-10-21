@@ -18,7 +18,7 @@ For older changes, see Change Log 2014.
   need.
 
 ****************
-2015 12
+2015년 12월
 ****************
 
 .. list-table::
@@ -42,7 +42,7 @@ For older changes, see Change Log 2014.
 
 
 ****************
-November 2015
+2015년 11월
 ****************
 
 .. list-table::
@@ -63,7 +63,7 @@ November 2015
        this guide.
 
 ****************
-October 2015
+2015년 10월
 ****************
 
 .. list-table::
@@ -170,7 +170,7 @@ August 2015
      - Added the Offering Academic Course Credit topic.
 
 ****************
-July 2015
+2015년 7월
 ****************
 
 .. list-table::
@@ -179,10 +179,10 @@ July 2015
 
    * - Date
      - Change
-   * - 30 July 2015
+   * - 2015년 7월 30일
      - Updated the Working with Problem Components and Numerical
        Input sections to clarify how the **Randomization** setting is used.
-   * - 28 July 2015
+   * - 2015년 7월 28일
      - Updated the Review_Answers section to remove references to
        features on the Analytics page of the Instructor Dashboard. Course data
        is available in edX Insights.
@@ -198,14 +198,13 @@ July 2015
      - Updated this guide to use the course team "Admin" and "Staff" role names
        consistently. For more information, see the Course_Staffing
        section.
-   * - 8 July 2015
-     - Added the Poll Tool and Survey Tool sections.
-   * - 1 July 2015
-     - Several additions were made to provide information about using feedback
-       and hints in common problems.
+   * - 2015년 7월 8일
+     - 보통 학위 졸업생 도구 및 실태 조사 도구 섹션을 추가했습니다.
+   * - 2015년 7월 1일
+     - 몇몇 추가 피드백 사용에 대한 정보를 제공하기 위해 만들어졌다. 일반적인 문제에서 암시한다.
 
-       * Adding Feedback and Hints to a Problem
-       * Use Feedback in a Checkbox Problem
+       * 한 문제에 피드백과 힌트를 더하여 결정한다.
+       * 대신 피드백은 체크 상자 문제에 있다.
        * Use Hints in a Checkbox Problem
        * Use Feedback in a Dropdown Problem
        * Use Hints in a Dropdown Problem
@@ -226,17 +225,15 @@ June 2015
 
    * - Date
      - Change
-   * - 25 Jun 2015
-     - Added the Processing Video Files Index section for use with
-       edx.org courses.
-   * - 22 Jun 2015
-     - Updated the Accessibility Best Practices for Course Content
-       Development section.
-   * - 10 Jun 2015
+   * - 2015년 6월 25일
+     - edx.org과정에 사용할 처리 비디오 파일 지수 구간을 추가했습니다.
+   * - 2015년 6월 22일
+     - 강좌 콘텐츠 개발 섹션의 접근성과 최선의 안정성 구현 방법 업데이트.
+   * - 2015년 6월 10일
      - Added the Adding a Pre-Roll Video section.
 
 ****************
-May 2015
+2015년 5월
 ****************
 
 .. list-table::
@@ -247,10 +244,10 @@ May 2015
      - Change
    * - 28 May 2015
      - Added Licensing a Course.
-   * - 19 May 2015
-     - Added documentation for the new problem grade
+   * - 2015년 5월 19일
+     - 새로운 문제에 있어서는 보고서에 대한 증빙 서류를 추가했습니다.
        report.
-   * - 13 May 2015
+   * - 2015년 5월 13일
      - Updated all sections in Getting Started Index and Setting
        up Your Course Index for accessibility.
    * -
